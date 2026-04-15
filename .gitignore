@@ -16,9 +16,8 @@ jds/*
 !jds/.gitkeep
 
 # User config and customization (never auto-updated)
-config/profile.yml
+# NOTE: profile.yml and _profile.md are committed here for GitHub Actions automation
 portals.yml
-modes/_profile.md
 .update-dismissed
 .update-lock
 
@@ -26,6 +25,20 @@ modes/_profile.md
 .resolved-prompt-*
 node_modules/
 bun.lock
+
+# Automation outputs (generated per run)
+resumes/
+cover_letters/
+tmp/
+data/run.log
+data/token_usage.json
+data/tracker.xlsx
+data/seen_job_ids.txt
+.env
+
+# Python
+__pycache__/
+*.pyc
 
 # OS
 .DS_Store

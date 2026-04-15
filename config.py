@@ -1,0 +1,204 @@
+"""Central configuration for the Internship Finder system."""
+
+import os
+from pathlib import Path
+from dotenv import load_dotenv
+
+BASE_DIR = Path(__file__).parent
+load_dotenv(BASE_DIR / ".env", override=True)
+
+# ── API Keys ──────────────────────────────────────────────────────────────────
+ANTHROPIC_API_KEY  = os.getenv("ANTHROPIC_API_KEY", "")
+APIFY_API_TOKEN    = os.getenv("APIFY_API_TOKEN", "")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_CHAT_ID   = os.getenv("TELEGRAM_CHAT_ID", "")
+
+# ── Folders ───────────────────────────────────────────────────────────────────
+OUTPUT_DIR        = Path(os.getenv("OUTPUT_DIR", BASE_DIR))
+RESUMES_DIR       = OUTPUT_DIR / "resumes"
+COVERS_DIR        = OUTPUT_DIR / "cover_letters"
+DATA_DIR          = OUTPUT_DIR / "data"
+TRACKER_PATH      = DATA_DIR / "tracker.xlsx"
+SEEN_IDS_PATH     = DATA_DIR / "seen_job_ids.txt"
+
+for d in (RESUMES_DIR, COVERS_DIR, DATA_DIR):
+    d.mkdir(parents=True, exist_ok=True)
+
+# ── Candidate profile (used by Claude for doc generation) ────────────────────
+CANDIDATE = {
+    "name":       "AYMANE AIT DADS",
+    "title":      "Data Science Engineer | LLM Research · Transformer Fine-Tuning · ML Systems",
+    "email":      "Aymane.Ait-dads@eurecom.fr",
+    "phone":      "+33 7 60 92 50 93",
+    "linkedin":   "linkedin.com/in/aymane-ait-dads",
+    "location":   "Sophia Antipolis, France",
+    "school":     "EURECOM",
+    "degree":     "Engineering Degree in Data Science",
+    "degree_dates": "Sep 2023 – Present",
+    "coursework": "Machine Learning · Deep Learning · Computer Vision · NLP · Cloud Computing · Image Security · Statistics",
+    "prep_school": "Preparatory Classes (CPGE) in Mathematics & Physics — Ibn Timiya, Marrakech",
+    "prep_dates": "Sep 2021 – Jun 2023",
+    "experience": (
+        "Data Science Intern — Orange Maroc, Casablanca (Jul–Aug 2024): "
+        "Engineered an end-to-end ML pipeline on 100K+ telemetry records (Random Forest + KMeans), "
+        "identifying the top 3 network-quality drivers and reducing manual analysis time by ~60%. "
+        "Delivered KMeans segmentation mapping 5 user performance profiles to commercial service tiers. "
+        "Applied feature engineering, cross-validated model evaluation, and predictive maintenance modeling; "
+        "independently owned the full pipeline from raw data ingestion to executive-ready Power BI dashboards."
+    ),
+    "projects": [
+        {
+            "name": "Robust AI-Generated Image Detection",
+            "context": "EURECOM • 2026",
+            "bullets": [
+                "Ranked #1 on private EURECOM leaderboard — fine-tuned CLIP ViT-L/14 (428M params) on 250K samples "
+                "spanning 25+ generator types; applied FP16/GradScaler for T4 GPU efficiency and 10-view TTA for OOD-robust inference.",
+                "Designed ablation experiments across epoch count, transformer block unfreezing depth (4/6/8 layers), LR, and augmentation; "
+                "proved 1-epoch fine-tuning preserves generalization better than extended re-training. Stack: PyTorch · OpenCLIP.",
+            ],
+        },
+        {
+            "name": "Anomalous Sound Detection in Industrial Equipment",
+            "context": "EURECOM • 2025",
+            "bullets": [
+                "Built transformer autoencoder for unsupervised fault detection on industrial audio (AUC 0.80) "
+                "using Mel spectrograms and SpecAugment — no labeled anomalies required.",
+                "Benchmarked Mel spectrogram vs. MFCC feature representations; evaluated on a DCASE-style protocol.",
+            ],
+        },
+        {
+            "name": "Aerial Cactus Detection & Twitter Sentiment Analysis",
+            "context": "EURECOM • 2025",
+            "bullets": [
+                "Achieved 99.8% accuracy (F1=0.999, AUC=1.0) on 17,500+ aerial images by benchmarking CNN, DenseNet121, and CNN-Transformer.",
+                "Built complete NLP tweet-sentiment pipeline: tokenization → TF-IDF baseline → word2vec embeddings → transformer fine-tuning.",
+            ],
+        },
+    ],
+    "skills": {
+        "LLM & NLP":          "Transformers (CLIP ViT-L/14) · Autoregressive Models · Fine-tuning · TTA · Ensemble Methods · Hugging Face",
+        "ML Frameworks":      "PyTorch · TensorFlow · OpenCLIP · FP16 Mixed-Precision · GradScaler · Scikit-learn · Pandas · NumPy",
+        "Programming & DevOps": "Python (advanced) · SQL · Git · Linux · Matplotlib · Power BI",
+    },
+    "languages": "English (fluent) • French (fluent) • Arabic (native) • Spanish (intermediate)",
+}
+
+# ── Scraping targets ──────────────────────────────────────────────────────────
+# 60% Europe, 30% Asia, 10% USA/Canada  (outside France & Africa)
+REGIONS = {
+    "Europe": {
+        "weight": 0.60,
+        "searches": [
+            {"country": "uk", "location": "London"},
+            {"country": "de", "location": "Berlin"},
+            {"country": "nl", "location": "Amsterdam"},
+            {"country": "se", "location": "Stockholm"},
+            {"country": "ch", "location": "Zurich"},
+            {"country": "es", "location": "Barcelona"},
+            {"country": "ie", "location": "Dublin"},
+            {"country": "be", "location": "Brussels"},
+            {"country": "dk", "location": "Copenhagen"},
+            {"country": "no", "location": "Oslo"},
+        ],
+    },
+    "Asia": {
+        "weight": 0.30,
+        "searches": [
+            {"country": "sg", "location": "Singapore"},
+            {"country": "jp", "location": "Tokyo"},
+            {"country": "kr", "location": "Seoul"},
+            {"country": "hk", "location": "Hong Kong"},
+            {"country": "in", "location": "Bangalore"},
+            {"country": "my", "location": "Kuala Lumpur"},
+            {"country": "tw", "location": "Taipei"},
+        ],
+    },
+    "USA_Canada": {
+        "weight": 0.10,
+        "searches": [
+            {"country": "us", "location": "New York"},
+            {"country": "us", "location": "San Francisco"},
+            {"country": "ca", "location": "Toronto"},
+        ],
+    },
+}
+
+SEARCH_KEYWORDS    = ["data science intern", "machine learning intern", "AI intern", "data analyst intern"]
+
+# ── Company blacklist (case-insensitive) ──────────────────────────────────────
+# Add any company name (or substring) you never want to see.
+# Format: lowercase strings. Checked against job["company"].lower().
+COMPANY_BLACKLIST: list = [
+    "tiktok",
+    "bytedance",    # TikTok parent company
+]
+
+# ── Relevance filter ──────────────────────────────────────────────────────────
+# Jobs scored below this (out of 10) by Claude are discarded before doc generation.
+# 7 = "good fit or better" — adjust up (stricter) or down (more permissive).
+MIN_RELEVANCE_SCORE: int = 7
+RESULTS_PER_SEARCH = 10    # per country/keyword combo (Indeed + Glassdoor)
+DATE_POSTED        = "1"   # last 24 hours (Indeed)
+GLASSDOOR_DAYS_OLD = 1     # last 24 hours (Glassdoor)
+LINKEDIN_HOURS     = 86400 # last 24 hours in seconds (LinkedIn f_TPR param)
+WELLFOUND_MAX      = 30    # results per keyword (Wellfound — free actor, no date filter)
+
+# ── Apify actor IDs ───────────────────────────────────────────────────────────
+ACTOR_INDEED    = "valig/indeed-jobs-scraper"
+ACTOR_LINKEDIN  = "curious_coder/linkedin-jobs-scraper"
+ACTOR_GLASSDOOR = "valig/glassdoor-jobs-scraper"
+ACTOR_WELLFOUND = "sovereigntaylor/wellfound-scraper"
+
+# ── LinkedIn URL builder ──────────────────────────────────────────────────────
+# Regions for LinkedIn (city name used in URL, LinkedIn split country code)
+LINKEDIN_REGIONS = {
+    "Europe": [
+        ("London",      "GB"),
+        ("Berlin",      "DE"),
+        ("Amsterdam",   "NL"),
+        ("Stockholm",   "SE"),
+        ("Zurich",      "CH"),
+        ("Barcelona",   "ES"),
+        ("Dublin",      "IE"),
+        ("Brussels",    "BE"),
+    ],
+    "Asia": [
+        ("Singapore",    "SG"),
+        ("Tokyo",        "JP"),
+        ("Seoul",        "KR"),
+        ("Hong Kong",    "HK"),
+        ("Bangalore",    "IN"),
+        ("Kuala Lumpur", "MY"),
+    ],
+    "USA_Canada": [
+        ("New York",     "US"),
+        ("San Francisco","US"),
+        ("Toronto",      "CA"),
+    ],
+}
+
+def linkedin_url(keyword: str, location: str) -> str:
+    """Build a public LinkedIn jobs search URL with 24h filter + internship type."""
+    import urllib.parse
+    params = {
+        "keywords": keyword,
+        "location": location,
+        "f_TPR":    f"r{LINKEDIN_HOURS}",
+        "f_JT":     "I",         # I = Internship
+        "position": "1",
+        "pageNum":  "0",
+    }
+    return "https://www.linkedin.com/jobs/search/?" + urllib.parse.urlencode(params)
+
+# ── Anthropic credit monitoring ───────────────────────────────────────────────
+
+# You will receive a high-priority phone alert if the estimated spend
+# during a single day exceeds this threshold.
+ANTHROPIC_DAILY_BUDGET_USD = 3.00   # change this if you want a different limit
+
+# ── Claude model ──────────────────────────────────────────────────────────────
+CLAUDE_MODEL = "claude-sonnet-4-6"
+
+# ── Sonnet 4.6 pricing (USD per million tokens) ───────────────────────────────
+CLAUDE_INPUT_COST_PER_MTOK  = 3.00
+CLAUDE_OUTPUT_COST_PER_MTOK = 15.00

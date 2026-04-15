@@ -1,0 +1,8 @@
+anthropic
+apify-client
+openpyxl
+python-docx
+reportlab
+requests
+python-dotenv
+python-dateutil

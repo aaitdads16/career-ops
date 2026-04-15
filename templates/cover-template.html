@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{NAME}} — Cover Letter</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('./fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('./fonts/space-grotesk-latin-ext.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('./fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('./fonts/dm-sans-latin-ext.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    line-height: 1.6;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page {
+    width: 100%;
+    max-width: {{PAGE_WIDTH}};
+    margin: 0 auto;
+    padding: 2px 0;
+  }
+
+  /* === HEADER === */
+  .header {
+    margin-bottom: 24px;
+  }
+
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    line-height: 1.1;
+  }
+
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px;
+    margin-bottom: 10px;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    line-height: 1.4;
+    color: #555;
+  }
+
+  .contact-row a {
+    color: #555;
+    text-decoration: none;
+  }
+
+  .contact-row .separator {
+    color: #ccc;
+  }
+
+  /* === LETTER BODY === */
+  .letter-meta {
+    margin-bottom: 20px;
+    font-size: 10.5px;
+    color: #666;
+  }
+
+  .letter-meta .date {
+    margin-bottom: 14px;
+    color: #555;
+  }
+
+  .letter-meta .recipient {
+    line-height: 1.6;
+    color: #333;
+  }
+
+  .letter-meta .recipient strong {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .letter-body {
+    font-size: 11px;
+    line-height: 1.75;
+    color: #2f2f2f;
+  }
+
+  .letter-body p {
+    margin-bottom: 14px;
+  }
+
+  .letter-body strong {
+    font-weight: 600;
+    color: #1a1a2e;
+  }
+
+  .closing {
+    margin-top: 24px;
+    font-size: 11px;
+    color: #333;
+  }
+
+  .closing .sign-off {
+    margin-bottom: 32px;
+  }
+
+  .closing .name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #1a1a2e;
+  }
+
+  /* === PRINT === */
+  @media print {
+    body {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .page {
+      padding: 0;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>{{NAME}}</h1>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>{{PHONE}}</span>
+      <span class="separator">|</span>
+      <span>{{EMAIL}}</span>
+      <span class="separator">|</span>
+      <a href="{{LINKEDIN_URL}}">{{LINKEDIN_DISPLAY}}</a>
+      <span class="separator">|</span>
+      <span>{{LOCATION}}</span>
+    </div>
+  </div>
+
+  <!-- LETTER META -->
+  <div class="letter-meta">
+    <div class="date">{{DATE}}</div>
+    <div class="recipient">
+      <strong>{{COMPANY_NAME}}</strong><br>
+      {{HIRING_MANAGER}}
+    </div>
+  </div>
+
+  <!-- SUBJECT LINE -->
+  <div style="margin-bottom: 18px;">
+    <span style="font-family: 'Space Grotesk', sans-serif; font-size: 11.5px; font-weight: 600; color: hsl(187,74%,32%);">Re: {{SUBJECT}}</span>
+  </div>
+
+  <!-- BODY -->
+  <div class="letter-body">
+    {{LETTER_BODY}}
+  </div>
+
+  <!-- CLOSING -->
+  <div class="closing">
+    <div class="sign-off">Sincerely,</div>
+    <div class="name">{{NAME}}</div>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+name: Aymane Ait Dads
+email: Aymane.Ait-dads@eurecom.fr
+phone: "+33 7 60 92 50 93"
+linkedin_url: "https://linkedin.com/in/aymane-ait-dads"
+linkedin_display: "linkedin.com/in/aymane-ait-dads"
+portfolio_url: ""
+portfolio_display: ""
+location: "Sophia Antipolis, France"
+
+# Target roles
+target_roles:
+  - Data Science Intern
+  - Machine Learning Intern
+  - AI Research Intern
+  - Data Analyst Intern
+  - Computer Vision Intern
+  - NLP Intern
+
+# Target markets (outside France and Africa)
+target_markets:
+  - Europe (UK, Germany, Netherlands, Sweden, Switzerland, Spain, Ireland, Belgium)
+  - Asia (Singapore, Japan, South Korea, Hong Kong)
+  - North America (USA, Canada)
+
+# Availability
+availability: "Available for internship from Jun 2026 (flexible)"
+internship_duration: "4-6 months"
+
+# Comp targets (internship)
+comp_target_eur: "1200-2000 EUR/month depending on country"
+comp_target_sgd: "2000-3500 SGD/month (Singapore)"
+comp_target_usd: "3000-5000 USD/month (USA)"
+
+# Exit narrative
+exit_narrative: >
+  Data Science Engineering student at EURECOM building real production ML systems.
+  Ranked #1 on leaderboard for AI-generated image detection with CLIP ViT-L/14.
+  Shipped an end-to-end ML pipeline at Orange Maroc on 100K+ records.
+  Looking for an internship where I can build and ship real AI systems, not just run notebooks.

@@ -1,0 +1,84 @@
+name: Internship Finder
+
+on:
+  # ── Automatic schedule (Europe/Paris = UTC+2 in summer, UTC+1 in winter) ──
+  schedule:
+    - cron: '0 6 * * *'    # 8:00 AM Paris (CEST Apr–Oct)
+    - cron: '0 18 * * *'   # 8:00 PM Paris (CEST Apr–Oct)
+  # ── Manual trigger from GitHub UI (Actions tab → Run workflow) ────────────
+  workflow_dispatch:
+
+jobs:
+  run-finder:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to commit tracker back to repo
+
+    steps:
+      # ── 1. Check out the repo ────────────────────────────────────────────────
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 2. Set up Python 3.11 ───────────────────────────────────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # ── 3. Install Python dependencies ─────────────────────────────────────
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      # ── 4. Set up Node.js (for career-ops PDF generation) ───────────────────
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # ── 5. Install Node.js dependencies + Playwright browser ────────────────
+      - name: Install Node dependencies & Playwright Chromium
+        run: |
+          npm install
+          npx playwright install chromium --with-deps
+
+      # ── 6. Create output directories ────────────────────────────────────────
+      - name: Prepare folders
+        run: mkdir -p resumes cover_letters data tmp
+
+      # ── 7. Run the pipeline ─────────────────────────────────────────────────
+      - name: Run Internship Finder
+        env:
+          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          APIFY_API_TOKEN:    ${{ secrets.APIFY_API_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+          OUTPUT_DIR:         ${{ github.workspace }}
+          GITHUB_ACTIONS:     "true"
+        run: python main.py
+
+      # ── 8. Commit tracker + dedup memory back to repo ───────────────────────
+      - name: Commit tracker updates
+        run: |
+          git config user.email "internship-finder-bot@users.noreply.github.com"
+          git config user.name  "Internship Finder Bot"
+          git add data/tracker.xlsx data/seen_job_ids.txt data/token_usage.json 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "chore: update tracker $(date +'%Y-%m-%d %H:%M UTC') [skip ci]"
+          git push || true
+
+      # ── 9. Upload generated files as workflow artifacts (14-day retention) ──
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: internship-docs-${{ github.run_number }}
+          path: |
+            resumes/
+            cover_letters/
+            data/tracker.xlsx
+            data/run.log
+          retention-days: 14
+          if-no-files-found: ignore
