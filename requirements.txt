@@ -6,3 +6,5 @@ reportlab
 requests
 python-dotenv
 python-dateutil
+beautifulsoup4
+crawl4ai

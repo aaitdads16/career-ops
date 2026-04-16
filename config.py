@@ -18,8 +18,9 @@ OUTPUT_DIR        = Path(os.getenv("OUTPUT_DIR", BASE_DIR))
 RESUMES_DIR       = OUTPUT_DIR / "resumes"
 COVERS_DIR        = OUTPUT_DIR / "cover_letters"
 DATA_DIR          = OUTPUT_DIR / "data"
-TRACKER_PATH      = DATA_DIR / "tracker.xlsx"
-SEEN_IDS_PATH     = DATA_DIR / "seen_job_ids.txt"
+TRACKER_PATH           = DATA_DIR / "tracker.xlsx"
+SEEN_IDS_PATH          = DATA_DIR / "seen_job_ids.txt"
+SEEN_FINGERPRINTS_PATH = DATA_DIR / "seen_fingerprints.txt"
 
 for d in (RESUMES_DIR, COVERS_DIR, DATA_DIR):
     d.mkdir(parents=True, exist_ok=True)

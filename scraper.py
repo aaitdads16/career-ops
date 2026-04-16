@@ -357,11 +357,20 @@ def _filter_stale_jobs(jobs: List[dict]) -> List[dict]:
 
 
 def _dedupe_region(jobs: List[dict]) -> List[dict]:
-    seen: Set[str] = set()
+    """Deduplicate by job_id AND by (title, company) to catch same job from multiple sources."""
+    seen_ids: Set[str] = set()
+    seen_content: Set[tuple] = set()
     out = []
     for j in jobs:
-        if j["job_id"] not in seen:
-            seen.add(j["job_id"])
+        jid = j["job_id"]
+        # Normalize title+company for content-based dedup
+        key = (
+            j.get("title", "").lower().strip(),
+            j.get("company", "").lower().strip(),
+        )
+        if jid not in seen_ids and key not in seen_content:
+            seen_ids.add(jid)
+            seen_content.add(key)
             out.append(j)
     return out
 
@@ -383,11 +392,17 @@ def _merge_sources(*source_dicts) -> Dict[str, List[dict]]:
     return {region: _dedupe_region(jobs) for region, jobs in merged.items()}
 
 
-def scrape_all(seen_ids: Set[str]) -> List[dict]:
+def scrape_all(seen_ids: Set[str], seen_fingerprints: Optional[Set[str]] = None) -> List[dict]:
     """
     Full multi-source scrape. Returns deduplicated, quota-balanced, sorted jobs.
-    Sources: Indeed + LinkedIn + Glassdoor + Wellfound.
+    Sources: Indeed + LinkedIn + Glassdoor + Wellfound (Apify) + RemoteOK + Arbeitnow (free).
+
+    seen_fingerprints: set of title+company hashes from previous runs, used to
+    catch the same real job re-appearing under a different job_id (e.g. LinkedIn
+    this morning, Indeed this evening).
     """
+    if seen_fingerprints is None:
+        seen_fingerprints = set()
     if not APIFY_API_TOKEN:
         raise ValueError("APIFY_API_TOKEN is not set. Add it to your .env file.")
 
@@ -405,15 +420,37 @@ def scrape_all(seen_ids: Set[str]) -> List[dict]:
     logger.info("── Scraping Wellfound ───────────────────────────────")
     wellfound_results = scrape_wellfound(client, seen_ids)
 
+    # Free sources (no API key required)
+    try:
+        from scraper_free import scrape_free_sources
+        free_results = scrape_free_sources(seen_ids)
+    except Exception as exc:
+        logger.warning("Free scrapers failed: %s", exc)
+        free_results = {r: [] for r in REGIONS}
+
     # Merge all sources
     combined = _merge_sources(
         indeed_results, linkedin_results,
         glassdoor_results, wellfound_results,
+        free_results,
     )
 
     # Remove jobs already in seen_ids (belt-and-suspenders)
     for region in combined:
         combined[region] = [j for j in combined[region] if j["job_id"] not in seen_ids]
+
+    # Remove jobs whose title+company fingerprint was seen in a previous run
+    # (catches the same real job re-scraped under a different job_id)
+    if seen_fingerprints:
+        before = sum(len(v) for v in combined.values())
+        for region in combined:
+            combined[region] = [
+                j for j in combined[region]
+                if _make_fingerprint(j.get("title", ""), j.get("company", "")) not in seen_fingerprints
+            ]
+        after = sum(len(v) for v in combined.values())
+        if before != after:
+            logger.info("Fingerprint filter: dropped %d cross-run duplicate jobs", before - after)
 
     # Drop stale listings (posted_at older than MAX_JOB_AGE_DAYS)
     all_jobs_flat = [j for jobs in combined.values() for j in jobs]
@@ -450,11 +487,13 @@ def scrape_all(seen_ids: Set[str]) -> List[dict]:
         source_counts[j["source"]] = source_counts.get(j["source"], 0) + 1
 
     logger.info(
-        "Total new jobs: %d | EU=%d AS=%d US/CA=%d | by source: %s",
+        "Total new jobs: %d | EU=%d AS=%d US/CA=%d LATAM=%d ME=%d | by source: %s",
         len(selected),
         len([j for j in selected if j["region"] == "Europe"]),
         len([j for j in selected if j["region"] == "Asia"]),
         len([j for j in selected if j["region"] == "USA_Canada"]),
+        len([j for j in selected if j["region"] == "South_America"]),
+        len([j for j in selected if j["region"] == "Middle_East"]),
         source_counts,
     )
     return selected
@@ -471,3 +510,23 @@ def load_seen_ids(path) -> Set[str]:
 def save_seen_ids(path, ids: Set[str]) -> None:
     with open(str(path), "w") as f:
         f.write("\n".join(sorted(ids)))
+
+
+def _make_fingerprint(title: str, company: str) -> str:
+    """Stable lowercase hash for deduplicating same job across sources and runs."""
+    import hashlib
+    key = f"{title.lower().strip()}::{company.lower().strip()}"
+    return hashlib.md5(key.encode()).hexdigest()
+
+
+def load_seen_fingerprints(path) -> Set[str]:
+    try:
+        with open(str(path)) as f:
+            return set(line.strip() for line in f if line.strip())
+    except FileNotFoundError:
+        return set()
+
+
+def save_seen_fingerprints(path, fps: Set[str]) -> None:
+    with open(str(path), "w") as f:
+        f.write("\n".join(sorted(fps)))

@@ -132,20 +132,30 @@ def notify_single_job(job: dict, resume_path=None, cover_path=None):
     _send(text)
 
 
-def notify_new_jobs(jobs: List[dict], scraped_total: int = 0, rejected_count: int = 0):
+def notify_new_jobs(
+    jobs: List[dict],
+    same_hour_jobs: Optional[List[dict]] = None,
+    scraped_total: int = 0,
+    rejected_count: int = 0,
+):
     """
     Report of all compatible offers found this run — text only, no files.
-    Shows relevance scores and apply links.
+    `jobs` should be the non-same-hour offers (same_hour_jobs already sent as
+    priority alerts). If same_hour_jobs is provided they are listed first with
+    a 🔥 badge so the full report is still complete but not duplicated.
     """
-    if not jobs:
+    same_hour_jobs = same_hour_jobs or []
+    all_jobs = same_hour_jobs + jobs   # same-hour first, then the rest
+
+    if not all_jobs:
         return
 
-    count = len(jobs)
+    total_compatible = len(all_jobs)
 
-    # Counts by source and region
+    # Counts by source and region (over all compatible jobs)
     sources: dict = {}
     regions: dict = {}
-    for j in jobs:
+    for j in all_jobs:
         s = j.get("source", "?")
         r = j.get("region", "?")
         sources[s] = sources.get(s, 0) + 1
@@ -158,39 +168,42 @@ def notify_new_jobs(jobs: List[dict], scraped_total: int = 0, rejected_count: in
     region_line = (
         f"🇪🇺 EU: {regions.get('Europe', 0)}  "
         f"🌏 Asia: {regions.get('Asia', 0)}  "
-        f"🇺🇸 US/CA: {regions.get('USA_Canada', 0)}"
+        f"🇺🇸 US/CA: {regions.get('USA_Canada', 0)}  "
+        f"🌎 LatAm: {regions.get('South_America', 0)}  "
+        f"🌍 ME: {regions.get('Middle_East', 0)}"
     )
 
     filter_line = ""
     if scraped_total:
         filter_line = (
-            f"🔍 Scraped: {scraped_total}  →  ✅ Compatible: {count}"
-            f"  ✗ Filtered out: {rejected_count}\n"
+            f"🔍 Scraped: {scraped_total}  →  ✅ Compatible: {total_compatible}"
+            f"  ✗ Filtered: {rejected_count}\n"
         )
 
+    same_hour_note = ""
+    if same_hour_jobs:
+        same_hour_note = f"🔥 {len(same_hour_jobs)} same-hour offer(s) — PDFs already sent above\n"
+
     header = (
-        f"💼 <b>{count} compatible internship{'s' if count > 1 else ''} found</b>\n"
+        f"💼 <b>{total_compatible} compatible internship{'s' if total_compatible > 1 else ''} found</b>\n"
         f"{region_line}\n"
         f"📡 {source_line}\n"
-        f"{filter_line}\n"
+        f"{filter_line}"
+        f"{same_hour_note}\n"
     )
 
+    same_hour_ids = {id(j) for j in same_hour_jobs}
     lines = []
-    for i, j in enumerate(jobs, 1):
+    for i, j in enumerate(all_jobs, 1):
         score = j.get("relevance_score", "")
         score_tag = f" ⭐{score}/10" if score else ""
-
-        same_hour_tag = ""
-        if j.get("posted_at"):
-            import datetime
-            if j["posted_at"].hour == datetime.datetime.utcnow().hour:
-                same_hour_tag = " 🔥"
+        fire_tag = " 🔥" if id(j) in same_hour_ids else ""
 
         reason = j.get("relevance_reason", "")
         reason_line = f"\n   💡 {reason}" if reason else ""
 
         lines.append(
-            f"{i}.{score_tag}{same_hour_tag} <b>{j['title']}</b> @ {j['company']}\n"
+            f"{i}.{score_tag}{fire_tag} <b>{j['title']}</b> @ {j['company']}\n"
             f"   📍 {j['location']}  |  <a href=\"{j['url']}\">Apply →</a>"
             f"{reason_line}"
         )

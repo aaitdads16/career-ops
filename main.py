@@ -14,7 +14,13 @@ import os
 import sys
 from datetime import datetime, timezone
 
-from config import DATA_DIR, MIN_RELEVANCE_SCORE, SEEN_IDS_PATH, TRACKER_PATH
+from config import (
+    DATA_DIR,
+    MIN_RELEVANCE_SCORE,
+    SEEN_FINGERPRINTS_PATH,
+    SEEN_IDS_PATH,
+    TRACKER_PATH,
+)
 from credit_monitor import check_budget_alert, get_apify_usage, get_today_summary
 from doc_generator import generate_documents
 from job_filter import filter_jobs
@@ -26,7 +32,14 @@ from notifier import (
     send_documents,
     _send,
 )
-from scraper import load_seen_ids, save_seen_ids, scrape_all
+from scraper import (
+    load_seen_fingerprints,
+    load_seen_ids,
+    save_seen_fingerprints,
+    save_seen_ids,
+    scrape_all,
+    _make_fingerprint,
+)
 from tracker_manager import add_jobs
 
 # ── Cloud detection ───────────────────────────────────────────────────────────
@@ -51,13 +64,15 @@ def run():
     logger.info("Internship Finder — run started at %s  [%s]",
                 start.isoformat(), "CLOUD/GitHub Actions" if IS_CLOUD else "LOCAL/Mac")
 
-    # ── 1. Load seen job IDs (deduplication) ──────────────────────────────────
+    # ── 1. Load seen job IDs + content fingerprints (deduplication) ───────────
     seen_ids = load_seen_ids(SEEN_IDS_PATH)
-    logger.info("Known job IDs: %d", len(seen_ids))
+    seen_fingerprints = load_seen_fingerprints(SEEN_FINGERPRINTS_PATH)
+    logger.info("Known job IDs: %d  |  Known fingerprints: %d",
+                len(seen_ids), len(seen_fingerprints))
 
     # ── 2. Scrape new jobs ────────────────────────────────────────────────────
     try:
-        all_scraped = scrape_all(seen_ids)
+        all_scraped = scrape_all(seen_ids, seen_fingerprints)
     except Exception as exc:
         logger.error("Scraping failed: %s", exc)
         notify_run_complete(0, 0, error=str(exc))
@@ -77,9 +92,14 @@ def run():
 
     if not compatible_jobs:
         logger.info("No compatible jobs after relevance filter.")
-        # Persist all scraped IDs so we don't reprocess them
+        # Persist all scraped IDs and fingerprints so we don't reprocess them
         seen_ids.update(j["job_id"] for j in all_scraped if j.get("job_id"))
+        seen_fingerprints.update(
+            _make_fingerprint(j.get("title", ""), j.get("company", ""))
+            for j in all_scraped
+        )
         save_seen_ids(SEEN_IDS_PATH, seen_ids)
+        save_seen_fingerprints(SEEN_FINGERPRINTS_PATH, seen_fingerprints)
         notify_run_complete(
             0, _count_tracker_rows(),
             scraped_total=scraped_total,
@@ -94,10 +114,11 @@ def run():
 
     # ── 4. Identify same-hour jobs (highest priority) ─────────────────────────
     now_hour = datetime.now(tz=timezone.utc).hour
-    same_hour = [
-        j for j in compatible_jobs
+    same_hour_ids = {
+        id(j) for j in compatible_jobs
         if j.get("posted_at") and j["posted_at"].hour == now_hour
-    ]
+    }
+    same_hour = [j for j in compatible_jobs if id(j) in same_hour_ids]
     logger.info("Same-hour compatible offers: %d", len(same_hour))
 
     # ── 5. Generate documents + send PDFs per compatible job ─────────────────
@@ -122,9 +143,14 @@ def run():
     added = add_jobs(rows)
     logger.info("Tracker rows added: %d", added)
 
-    # ── 7. Persist seen IDs (ALL scraped jobs, including rejected) ────────────
+    # ── 7. Persist seen IDs + fingerprints (ALL scraped jobs incl. rejected) ──
     seen_ids.update(j["job_id"] for j in all_scraped if j.get("job_id"))
+    seen_fingerprints.update(
+        _make_fingerprint(j.get("title", ""), j.get("company", ""))
+        for j in all_scraped
+    )
     save_seen_ids(SEEN_IDS_PATH, seen_ids)
+    save_seen_fingerprints(SEEN_FINGERPRINTS_PATH, seen_fingerprints)
 
     # ── 8. Budget check ───────────────────────────────────────────────────────
     alert_level, alert_msg = check_budget_alert()
@@ -134,13 +160,15 @@ def run():
             logger.error("Budget exhausted — notifications only, no more generation.")
 
     # ── 9. Notifications (text only — no file attachments) ───────────────────
-    # Same-hour priority alerts
+    # Same-hour priority alerts (up to 3)
     for job in same_hour[:3]:
         notify_single_job(job)
 
-    # Full report of compatible offers
+    # Full report — exclude same-hour jobs (already sent above as priority alerts)
+    non_same_hour = [j for j in compatible_jobs if id(j) not in same_hour_ids]
     notify_new_jobs(
-        compatible_jobs,
+        non_same_hour,
+        same_hour_jobs=same_hour,
         scraped_total=scraped_total,
         rejected_count=rejected_count,
     )

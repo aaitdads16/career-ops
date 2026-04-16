@@ -32,6 +32,10 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
+      # ── 3b. Install Playwright (Python) for Crawl4AI scrapers ───────────────
+      - name: Install Playwright Chromium (Python)
+        run: python -m playwright install chromium --with-deps
+
       # ── 4. Set up Node.js (for career-ops PDF generation) ───────────────────
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -52,6 +56,7 @@ jobs:
           # so git can track it and the pipeline won't reprocess old jobs
           touch data/seen_job_ids.txt
           touch data/token_usage.json
+          touch data/seen_fingerprints.txt
 
       # ── 7. Run the pipeline ─────────────────────────────────────────────────
       - name: Run Internship Finder
@@ -71,7 +76,7 @@ jobs:
           git config user.email "internship-finder-bot@users.noreply.github.com"
           git config user.name  "Internship Finder Bot"
           # Stage data files — use --force to include gitignored files if any
-          git add --force data/seen_job_ids.txt data/token_usage.json || true
+          git add --force data/seen_job_ids.txt data/token_usage.json data/seen_fingerprints.txt || true
           git add data/tracker.xlsx || true
           # Only commit if there are staged changes
           if ! git diff --staged --quiet; then
