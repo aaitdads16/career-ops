@@ -24,6 +24,7 @@ The original career-ops is an interactive Claude Code skill — you paste a JD, 
 | Job discovery | Manual (you paste JDs) | **Automatic** — scrapes 4 job boards 2×/day |
 | Relevance filter | Manual review | **Claude scores each job 1–10**, drops below 7 |
 | Document generation | Interactive session | **Fully automated** per compatible offer |
+| Document delivery | None | **Telegram PDF attachments** per offer |
 | Notifications | None | **Telegram reports** with scores + apply links |
 | Tracking | TSV / markdown | **Excel tracker** updated after every run |
 | Scheduling | On-demand | **GitHub Actions** at 8AM & 8PM Paris time |
@@ -60,6 +61,7 @@ GitHub Actions (8AM / 8PM Paris)
            ▼
 ┌─────────────────────┐
 │  Tracker + Notify   │  Excel tracker updated (openpyxl)
+│                     │  Telegram: resume PDF + cover letter PDF per offer
 │                     │  Telegram: scores · apply links · cost summary
 └─────────────────────┘
 ```
@@ -75,6 +77,58 @@ Documents use the original career-ops design system:
 - **Accents:** Teal `hsl(187,74%,32%)` for section headers · Purple `hsl(270,70%,45%)` for company names
 - **ATS:** Single-column layout, UTF-8, selectable text, Unicode normalization via `generate-pdf.mjs`
 - **Cover letter:** Matching design — metadata line, horizontal dividers, recipient block, footer
+
+---
+
+## Telegram Delivery
+
+Every compatible offer triggers **3 messages**:
+
+**1. Same-hour alert** (if posted within the current hour)
+```
+🔥 SAME-HOUR OFFER — Apply now!
+
+🔷 Machine Learning Intern
+🏢 DeepMind
+📍 London, UK  |  🌍 Europe
+⭐ Match: 9/10 — strong CLIP/ViT fine-tuning alignment
+🔗 View & Apply
+
+📎 Resume & cover letter attached below.
+```
+
+**2. Resume + cover letter PDFs** (one set of attachments per offer)
+```
+📄 Machine Learning Intern @ DeepMind ⭐9/10
+🔷 London, UK  |  Apply →
+  └─ 📋 [cv-aymane-ait-dads-deepmind-2026-04-16.pdf]
+  └─ ✉️ [cover-aymane-ait-dads-deepmind-2026-04-16.pdf]
+```
+
+**3. Full compatible offers report**
+```
+💼 12 compatible internships found
+🇪🇺 EU: 7  🌏 Asia: 3  🇺🇸 US/CA: 2
+🔵 Indeed 5 · 🔷 LinkedIn 4 · 🟢 Glassdoor 2 · 🟠 Wellfound 1
+🔍 Scraped: 94  →  ✅ Compatible: 12  ✗ Filtered: 82
+
+1. ⭐9/10 Machine Learning Intern @ DeepMind
+   📍 London  |  Apply →
+   💡 strong CLIP/ViT fine-tuning alignment
+...
+```
+
+**4. Run summary**
+```
+✅ Run complete
+
+New compatible offers: 12
+Total in tracker: 47
+Scraped: 94  →  Compatible: 12  |  Filtered: 82
+💰 Claude today: $0.48 / $3.00 (16%)
+
+📎 All resumes & cover letters sent above as PDF attachments.
+```
 
 ---
 
@@ -207,7 +261,7 @@ OUTPUT_DIR=/absolute/path/to/career-ops
 python3 main.py
 ```
 
-You should receive a Telegram message within ~5 minutes.
+You should receive Telegram messages + PDF attachments within ~5 minutes.
 
 ### Step 7 — Enable automation on GitHub
 
@@ -224,45 +278,6 @@ The workflow in `.github/workflows/internship-finder.yml` runs twice a day autom
 
 ---
 
-## Telegram Reports
-
-Every run sends three messages:
-
-**1. Same-hour alert** (if a job was posted within the current hour)
-```
-🔥 SAME-HOUR OFFER — Apply now!
-
-🔷 Machine Learning Intern
-🏢 DeepMind
-📍 London, UK  |  🌍 Europe
-⭐ Match: 9/10 — strong CLIP/ViT fine-tuning alignment
-🔗 View & Apply
-```
-
-**2. Full compatible offers report**
-```
-💼 12 compatible internships found
-🇪🇺 EU: 7  🌏 Asia: 3  🇺🇸 US/CA: 2
-🔵 Indeed 5 · 🔷 LinkedIn 4 · 🟢 Glassdoor 2 · 🟠 Wellfound 1
-🔍 Scraped: 94  →  ✅ Compatible: 12  ✗ Filtered: 82
-
-1. ⭐9/10 Machine Learning Intern @ DeepMind
-   📍 London  |  Apply →
-   💡 strong CLIP/ViT fine-tuning alignment
-...
-```
-
-**3. Run summary**
-```
-✅ Run complete
-New compatible offers: 12
-Total in tracker: 47
-Scraped: 94  →  Compatible: 12  |  Filtered: 82
-💰 Claude today: $0.48 / $3.00 (16%)
-```
-
----
-
 ## Project Structure
 
 ```
@@ -271,7 +286,7 @@ career-ops/
 ├── scraper.py                   # Apify actors: Indeed, LinkedIn, Glassdoor, Wellfound
 ├── job_filter.py                # Relevance scoring (title pre-screen + Claude)
 ├── doc_generator.py             # Claude JSON → HTML template → PDF
-├── notifier.py                  # Telegram notifications
+├── notifier.py                  # Telegram notifications + PDF delivery
 ├── tracker_manager.py           # Excel tracker (openpyxl)
 ├── credit_monitor.py            # Anthropic spend tracking + budget alerts
 ├── config.py                    # All configuration (regions, keywords, thresholds)
@@ -347,7 +362,7 @@ CLAUDE_MODEL = "claude-sonnet-4-6"
 | Document generation | Claude Sonnet 4.6 API → HTML → Playwright PDF |
 | PDF rendering | Node.js + Playwright/Chromium (`generate-pdf.mjs`) |
 | Scheduling | GitHub Actions (cron) |
-| Notifications | Telegram Bot API |
+| Notifications | Telegram Bot API (text reports + PDF file attachments) |
 | Tracking | Excel (openpyxl) |
 | Fonts | Space Grotesk + DM Sans (self-hosted woff2) |
 
@@ -357,7 +372,7 @@ CLAUDE_MODEL = "claude-sonnet-4-6"
 
 This project is built on top of **[career-ops](https://github.com/santifer/career-ops)** by [Santiago Fernández](https://santifer.io) — the original AI-powered job search system for Claude Code. The PDF design system, HTML templates, `generate-pdf.mjs`, fonts, and `modes/_shared.md` / `modes/pdf.md` are from the upstream repo.
 
-What this fork adds: automated scraping, relevance filtering, scheduled execution, Telegram reporting, and Excel tracking — turning an interactive tool into a fully autonomous pipeline.
+What this fork adds: automated scraping, relevance filtering, scheduled execution, Telegram reporting with PDF attachments, and Excel tracking — turning an interactive tool into a fully autonomous pipeline.
 
 ---
 
