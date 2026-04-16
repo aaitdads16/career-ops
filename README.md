@@ -132,6 +132,98 @@ python3 main.py
 
 ---
 
+## Use This System Yourself
+
+Want to run this for your own job search? Here's how to adapt it in under 30 minutes.
+
+### Step 1 — Fork & clone
+
+```bash
+# Fork this repo on GitHub, then:
+git clone https://github.com/YOUR_USERNAME/career-ops.git
+cd career-ops
+```
+
+### Step 2 — Get your API keys
+
+| Service | Where to get it | Free tier |
+|---------|----------------|-----------|
+| **Anthropic** | [console.anthropic.com](https://console.anthropic.com) | Pay-per-use (~$0.30–0.60/run) |
+| **Apify** | [apify.com](https://apify.com) | $5 free credit/month |
+| **Telegram bot** | Message [@BotFather](https://t.me/BotFather) on Telegram → `/newbot` | Free |
+| **Telegram chat ID** | Message [@userinfobot](https://t.me/userinfobot) on Telegram | Free |
+
+### Step 3 — Install dependencies
+
+```bash
+pip install -r requirements.txt
+npm install
+npx playwright install chromium --with-deps
+```
+
+### Step 4 — Configure your profile
+
+**`cv.md`** — Replace with your own CV in markdown format. This is the only source of truth Claude uses to generate documents. Include: work experience with metrics, projects with results, education, skills.
+
+**`config/profile.yml`** — Update with your details:
+```yaml
+name: Your Full Name
+email: your@email.com
+phone: "+1 234 567 8900"
+linkedin_url: "https://linkedin.com/in/yourprofile"
+location: "Your City, Country"
+target_roles:
+  - Data Science Intern
+  - Machine Learning Intern
+  # ... add your target roles
+```
+
+**`modes/_profile.md`** — Describe your target archetypes and which of your projects to emphasize for each. The better you describe yourself here, the better Claude tailors each document.
+
+**`config.py`** — Adjust the search to your needs:
+```python
+SEARCH_KEYWORDS = ["data science intern", "machine learning intern", ...]
+MIN_RELEVANCE_SCORE = 7        # 1–10, raise for stricter filtering
+RESULTS_PER_SEARCH = 10        # jobs per country/keyword combo
+COMPANY_BLACKLIST = []         # companies to skip
+ANTHROPIC_DAILY_BUDGET_USD = 3.00  # safety cap
+```
+
+To change target regions, edit the `REGIONS` and `LINKEDIN_REGIONS` dictionaries in `config.py`.
+
+### Step 5 — Add your `.env` file
+
+```env
+ANTHROPIC_API_KEY=sk-ant-...
+APIFY_API_TOKEN=apify_api_...
+TELEGRAM_BOT_TOKEN=your_bot_token
+TELEGRAM_CHAT_ID=your_chat_id
+OUTPUT_DIR=/absolute/path/to/career-ops
+```
+
+### Step 6 — Test locally
+
+```bash
+python3 main.py
+```
+
+You should receive a Telegram message within ~5 minutes.
+
+### Step 7 — Enable automation on GitHub
+
+Add the same 4 values as **GitHub Secrets** (Settings → Secrets → Actions):
+`ANTHROPIC_API_KEY`, `APIFY_API_TOKEN`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`
+
+The workflow in `.github/workflows/internship-finder.yml` runs twice a day automatically. Edit the cron schedule if you want different times:
+```yaml
+- cron: '0 6 * * *'    # 8:00 AM Paris (UTC+2 in summer)
+- cron: '0 18 * * *'   # 8:00 PM Paris
+```
+
+> Change `0 6` to `0 7` for 9AM, `0 12` for noon, etc. Times are in UTC.
+
+---
+
 ## Telegram Reports
 
 Every run sends three messages:
