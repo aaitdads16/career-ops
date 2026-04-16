@@ -1,6 +1,6 @@
 """
 Telegram notifications for the Internship Finder.
-Text-only report — no file attachments. Resumes/cover letters stay in local folders.
+Sends text reports + PDF attachments (resume + cover letter) per compatible offer.
 """
 
 import logging
@@ -39,20 +39,19 @@ def _send(text: str, parse_mode: str = "HTML", disable_preview: bool = True) -> 
         return False
 
 
-# Keep _send_file available in case it's ever needed again, but it is not
-# called anywhere in the normal pipeline.
 def _send_file(file_path, caption: str = "") -> bool:
+    """Send a file to the Telegram chat."""
     from pathlib import Path
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         return False
-    if not file_path or not Path(file_path).exists():
+    if not file_path or not Path(str(file_path)).exists():
         logger.warning("File not found for Telegram upload: %s", file_path)
         return False
     try:
         with open(str(file_path), "rb") as f:
             r = requests.post(
                 f"{_API}/sendDocument",
-                data={"chat_id": TELEGRAM_CHAT_ID, "caption": caption[:1024]},
+                data={"chat_id": TELEGRAM_CHAT_ID, "caption": caption[:1024], "parse_mode": "HTML"},
                 files={"document": f},
                 timeout=60,
             )
@@ -61,6 +60,41 @@ def _send_file(file_path, caption: str = "") -> bool:
     except requests.RequestException as exc:
         logger.warning("Telegram sendDocument failed (%s): %s", file_path, exc)
         return False
+
+
+# ── Document delivery ────────────────────────────────────────────────────────
+
+def send_documents(job: dict, resume_path: str, cover_path: str):
+    """
+    Send resume + cover letter PDFs for a single job as Telegram attachments.
+    Called once per compatible offer after document generation.
+    """
+    if not resume_path and not cover_path:
+        return
+
+    _src_emoji = {"Indeed": "🔵", "LinkedIn": "🔷", "Glassdoor": "🟢", "Wellfound": "🟠"}
+    source_emoji = _src_emoji.get(job.get("source", ""), "⚪️")
+    score = job.get("relevance_score", "")
+    score_tag = f" ⭐{score}/10" if score else ""
+
+    header = (
+        f"📄 <b>{job.get('title', '')} @ {job.get('company', '')}</b>{score_tag}\n"
+        f"{source_emoji} {job.get('location', '')}  |  "
+        f"<a href=\"{job.get('url', '')}\">Apply →</a>"
+    )
+    _send(header)
+
+    if resume_path:
+        _send_file(
+            resume_path,
+            caption=f"📋 Resume — {job.get('title', '')} @ {job.get('company', '')}",
+        )
+
+    if cover_path:
+        _send_file(
+            cover_path,
+            caption=f"✉️ Cover Letter — {job.get('title', '')} @ {job.get('company', '')}",
+        )
 
 
 # ── Notification functions ────────────────────────────────────────────────────
@@ -93,7 +127,7 @@ def notify_single_job(job: dict, resume_path=None, cover_path=None):
         f"🕐 Posted: {posted}\n"
         f"{score_line}"
         f"🔗 <a href=\"{job['url']}\">View &amp; Apply</a>\n\n"
-        f"📁 Resume + cover letter saved in <code>resumes/</code> and <code>cover_letters/</code>."
+        f"📎 Resume &amp; cover letter attached below."
     )
     _send(text)
 
@@ -204,7 +238,7 @@ def notify_run_complete(
         f"Total in tracker: <b>{total_count}</b>"
         f"{filter_line}"
         f"{cost_line}\n\n"
-        f"📁 Resumes &amp; cover letters saved locally — check <code>tracker.xlsx</code>."
+        f"📎 All resumes &amp; cover letters sent above as PDF attachments."
     )
 
 
@@ -219,11 +253,11 @@ def notify_startup():
     _send(
         "🤖 <b>Internship Finder is connected!</b>\n\n"
         "You will receive:\n"
-        "• 🔥 Same-hour offer alerts (text only)\n"
+        "• 🔥 Same-hour offer alerts\n"
         "• 💼 Report of all compatible offers per run (with scores)\n"
+        "• 📎 Resume + cover letter PDFs per offer\n"
         "• ✅ Run completion summary\n"
         "• ⚠️ Credit alerts if budget is running low\n\n"
-        "Resumes &amp; cover letters are saved locally — <b>no files sent via Telegram</b>.\n"
         "Next scheduled runs: <b>8:00 AM</b> and <b>8:00 PM</b> Paris time."
     )
 

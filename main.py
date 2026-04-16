@@ -3,7 +3,7 @@ Internship Finder — Main orchestrator.
 Scrapes Indeed, LinkedIn, Glassdoor, and Wellfound via Apify.
 Filters jobs by relevance using Claude before generating documents.
 Generates custom resume + cover letter per compatible offer.
-Updates Excel tracker and sends Telegram text report (no file attachments).
+Updates Excel tracker and sends Telegram report with PDF attachments.
 
 Usage:
     python3 main.py
@@ -23,6 +23,7 @@ from notifier import (
     notify_new_jobs,
     notify_run_complete,
     notify_single_job,
+    send_documents,
     _send,
 )
 from scraper import load_seen_ids, save_seen_ids, scrape_all
@@ -99,12 +100,13 @@ def run():
     ]
     logger.info("Same-hour compatible offers: %d", len(same_hour))
 
-    # ── 5. Generate documents per compatible job ──────────────────────────────
+    # ── 5. Generate documents + send PDFs per compatible job ─────────────────
     rows = []
     for job in compatible_jobs:
         try:
             resume_path, cover_path = generate_documents(job)
             rows.append({**job, "resume_path": resume_path, "cover_path": cover_path})
+            send_documents(job, resume_path, cover_path)
         except RuntimeError as exc:
             # Budget exhausted mid-run — abort document generation
             logger.error("Budget stop: %s", exc)
