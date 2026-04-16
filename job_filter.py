@@ -12,9 +12,11 @@ Strategy (in order):
 
 import json
 import logging
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import List, Tuple
 
 import anthropic
+import requests
 
 from config import ANTHROPIC_API_KEY, CANDIDATE, CLAUDE_MODEL, MIN_RELEVANCE_SCORE
 from credit_monitor import check_budget_alert, record_usage
@@ -29,6 +31,91 @@ def _get_client() -> anthropic.Anthropic:
     if _client is None:
         _client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
     return _client
+
+
+# ── URL health check ─────────────────────────────────────────────────────────
+
+_DEAD_BODY_PATTERNS = [
+    "job is no longer available",
+    "this job has expired",
+    "job has expired",
+    "position has been filled",
+    "application is closed",
+    "no longer accepting applications",
+    "job listing is expired",
+    "this position is no longer available",
+    "job has been removed",
+    "listing has expired",
+    "this listing has been removed",
+    "vacancy is closed",
+    "this role has been filled",
+]
+
+_URL_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/122.0.0.0 Safari/537.36"
+    )
+}
+
+
+def _is_url_alive(url: str, timeout: int = 7) -> bool:
+    """
+    Return False only if we're certain the listing is dead:
+      - HTTP 404 or 410
+      - HTTP 200 with known expiry text in the response body
+    On any error or ambiguous status, return True (never silently drop).
+    """
+    if not url:
+        return True
+    try:
+        r = requests.get(
+            url, timeout=timeout, headers=_URL_HEADERS,
+            allow_redirects=True,
+        )
+        if r.status_code in (404, 410):
+            return False
+        if r.status_code == 200:
+            body = r.text.lower()
+            if any(p in body for p in _DEAD_BODY_PATTERNS):
+                return False
+        return True
+    except Exception:
+        return True  # timeout / connection error → assume alive
+
+
+def _filter_dead_urls(jobs: List[dict]) -> Tuple[List[dict], int]:
+    """
+    Check all job URLs in parallel (10 workers).
+    Returns (alive_jobs, dead_count).
+    """
+    if not jobs:
+        return jobs, 0
+
+    logger.info("URL health check: testing %d links ...", len(jobs))
+    alive: List[dict] = []
+    dead_count = 0
+
+    with ThreadPoolExecutor(max_workers=10) as pool:
+        future_to_job = {
+            pool.submit(_is_url_alive, j.get("url", "")): j for j in jobs
+        }
+        for future in as_completed(future_to_job):
+            job = future_to_job[future]
+            if future.result():
+                alive.append(job)
+            else:
+                dead_count += 1
+                logger.info(
+                    "  ✗ Dead URL: %-40s @ %s",
+                    (job.get("title") or "")[:40],
+                    (job.get("company") or "")[:25],
+                )
+
+    if dead_count:
+        logger.info("URL health check: removed %d dead listings", dead_count)
+    return alive, dead_count
 
 
 # ── Title keyword lists ───────────────────────────────────────────────────────
@@ -156,6 +243,12 @@ def filter_jobs(
         rejected    — jobs below threshold
     """
     if not jobs:
+        return [], []
+
+    # ── Step 0: URL health check (remove dead/expired listings) ──────────────
+    jobs, dead_count = _filter_dead_urls(jobs)
+    if not jobs:
+        logger.info("All jobs had dead URLs — nothing to score.")
         return [], []
 
     logger.info("── Relevance filter (min score: %d/10) ─────────────────────", min_score)

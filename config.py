@@ -142,6 +142,7 @@ DATE_POSTED        = "1"   # last 24 hours (Indeed)
 GLASSDOOR_DAYS_OLD = 1     # last 24 hours (Glassdoor)
 LINKEDIN_HOURS     = 86400 # last 24 hours in seconds (LinkedIn f_TPR param)
 WELLFOUND_MAX      = 30    # results per keyword (Wellfound — free actor, no date filter)
+MAX_JOB_AGE_DAYS   = 3     # drop jobs with posted_at older than this (post-scrape age filter)
 
 # ── Apify actor IDs ───────────────────────────────────────────────────────────
 ACTOR_INDEED    = "valig/indeed-jobs-scraper"

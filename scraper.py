@@ -7,7 +7,7 @@ All routed through Apify actors, deduplicated, and quota-balanced by region.
 import logging
 import random
 import urllib.parse
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Optional, Set
 
 from apify_client import ApifyClient
@@ -23,6 +23,7 @@ from config import (
     GLASSDOOR_DAYS_OLD,
     LINKEDIN_HOURS,
     LINKEDIN_REGIONS,
+    MAX_JOB_AGE_DAYS,
     REGIONS,
     RESULTS_PER_SEARCH,
     SEARCH_KEYWORDS,
@@ -322,6 +323,25 @@ def scrape_wellfound(client: ApifyClient, seen_ids: Set[str]) -> Dict[str, List[
 
 # ── Merge, deduplicate, and apply quota ───────────────────────────────────────
 
+def _filter_stale_jobs(jobs: List[dict]) -> List[dict]:
+    """
+    Drop jobs whose posted_at is older than MAX_JOB_AGE_DAYS.
+    Jobs with no posted_at date are kept (can't determine age).
+    """
+    if not MAX_JOB_AGE_DAYS:
+        return jobs
+    cutoff = datetime.now(tz=timezone.utc) - timedelta(days=MAX_JOB_AGE_DAYS)
+    fresh, stale = [], []
+    for j in jobs:
+        if j.get("posted_at") and j["posted_at"] < cutoff:
+            stale.append(j)
+        else:
+            fresh.append(j)
+    if stale:
+        logger.info("Age filter: dropped %d jobs older than %d days", len(stale), MAX_JOB_AGE_DAYS)
+    return fresh
+
+
 def _dedupe_region(jobs: List[dict]) -> List[dict]:
     seen: Set[str] = set()
     out = []
@@ -380,6 +400,14 @@ def scrape_all(seen_ids: Set[str]) -> List[dict]:
     # Remove jobs already in seen_ids (belt-and-suspenders)
     for region in combined:
         combined[region] = [j for j in combined[region] if j["job_id"] not in seen_ids]
+
+    # Drop stale listings (posted_at older than MAX_JOB_AGE_DAYS)
+    all_jobs_flat = [j for jobs in combined.values() for j in jobs]
+    all_jobs_flat = _filter_stale_jobs(all_jobs_flat)
+    # Re-bucket by region after age filter
+    combined = {r: [] for r in REGIONS}
+    for j in all_jobs_flat:
+        combined[j["region"]].append(j)
 
     total = sum(len(v) for v in combined.values())
     if total == 0:
