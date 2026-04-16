@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.6.0](https://github.com/aaitdads16/career-ops/compare/v1.5.0...v1.6.0) (2026-04-16)
+
+
+### Features
+
+* add internship automation layer on top of career-ops ([28195a1](https://github.com/aaitdads16/career-ops/commit/28195a10367fd1e38000053f3df0f53ba204a565))
+
+
+### Bug Fixes
+
+* eliminate duplicate offers in Telegram reports ([c939979](https://github.com/aaitdads16/career-ops/commit/c939979dcde1e7410371d26852b3f6631e4a15de))
+* rebuild templates + 2-step content generation ([f9293e4](https://github.com/aaitdads16/career-ops/commit/f9293e48284a8be2ad964b6fc8eaabd97d4db592))
+* remove npm cache from workflow (no package-lock.json in repo) ([9fa2bd6](https://github.com/aaitdads16/career-ops/commit/9fa2bd6f86ca608994706e527018b924669f37ee))
+
 ## [1.5.0](https://github.com/santifer/career-ops/compare/v1.4.0...v1.5.0) (2026-04-14)
 
 
