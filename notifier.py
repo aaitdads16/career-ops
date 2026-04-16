@@ -226,11 +226,20 @@ def notify_run_complete(
 
     cost_line = ""
     if cost_summary:
+        claude_remaining = cost_summary.get("remaining_usd", cost_summary["budget_usd"] - cost_summary["cost_usd"])
         cost_line = (
-            f"\n💰 Claude today: <b>${cost_summary['cost_usd']:.4f}</b>"
-            f" / ${cost_summary['budget_usd']:.2f}"
-            f" ({cost_summary['pct_used']:.0f}%)"
+            f"\n\n💳 <b>Credits remaining</b>\n"
+            f"Claude: <b>${claude_remaining:.4f}</b> left"
+            f" (spent ${cost_summary['cost_usd']:.4f} / ${cost_summary['budget_usd']:.2f} today"
+            f" · {cost_summary['pct_used']:.0f}% used)"
         )
+        if cost_summary.get("apify"):
+            a = cost_summary["apify"]
+            cost_line += (
+                f"\nApify: <b>${a['remaining_usd']:.2f}</b> left"
+                f" (${a['used_usd']:.2f} / ${a['limit_usd']:.2f} this month"
+                f" · {a['pct_used']:.0f}% used)"
+            )
 
     _send(
         f"✅ <b>Run complete</b>\n\n"

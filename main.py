@@ -15,7 +15,7 @@ import sys
 from datetime import datetime, timezone
 
 from config import DATA_DIR, MIN_RELEVANCE_SCORE, SEEN_IDS_PATH, TRACKER_PATH
-from credit_monitor import check_budget_alert, get_today_summary
+from credit_monitor import check_budget_alert, get_apify_usage, get_today_summary
 from doc_generator import generate_documents
 from job_filter import filter_jobs
 from notifier import (
@@ -147,6 +147,7 @@ def run():
 
     # ── 10. Run-complete summary ──────────────────────────────────────────────
     cost_summary = get_today_summary()
+    cost_summary["apify"] = get_apify_usage()
     notify_run_complete(
         added,
         _count_tracker_rows(),

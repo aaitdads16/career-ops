@@ -35,6 +35,35 @@ def _get_client() -> anthropic.Anthropic:
 
 # ── URL health check ─────────────────────────────────────────────────────────
 
+_URL_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/122.0.0.0 Safari/537.36"
+    )
+}
+
+# Patterns in the FINAL URL (after redirects) that signal a dead listing.
+# Job boards redirect expired jobs to their search/home page.
+_DEAD_URL_PATTERNS = [
+    # Indeed: expired job redirects to search page
+    "indeed.com/jobs",
+    "indeed.com/?",
+    "indeed.com/q-",
+    # Glassdoor: expired job redirects to listings page
+    "glassdoor.com/job-listing/expired",
+    "glassdoor.com/Job/jobs",
+    # Generic expiry paths
+    "/expired",
+    "/job-expired",
+    "/not-found",
+    "/404",
+    "no-longer-available",
+    "position-closed",
+    "job-closed",
+]
+
+# Body text patterns that appear in raw HTML (non-JS-rendered pages)
 _DEAD_BODY_PATTERNS = [
     "job is no longer available",
     "this job has expired",
@@ -49,37 +78,55 @@ _DEAD_BODY_PATTERNS = [
     "this listing has been removed",
     "vacancy is closed",
     "this role has been filled",
+    # Multi-language
+    "diese stelle ist nicht mehr verfügbar",   # German
+    "ce poste n'est plus disponible",           # French
+    "este puesto ya no está disponible",        # Spanish
+    "esta vaga não está mais disponível",       # Portuguese
 ]
 
-_URL_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/122.0.0.0 Safari/537.36"
-    )
-}
+# Sources where URL checking is unreliable (always redirect to login)
+_SKIP_URL_CHECK_SOURCES = {"LinkedIn"}
 
 
-def _is_url_alive(url: str, timeout: int = 7) -> bool:
+def _is_url_alive(job: dict, timeout: int = 8) -> bool:
     """
-    Return False only if we're certain the listing is dead:
-      - HTTP 404 or 410
-      - HTTP 200 with known expiry text in the response body
-    On any error or ambiguous status, return True (never silently drop).
+    Return False only when we're certain the listing is dead.
+    Strategy:
+      1. Skip LinkedIn — always redirects to login (200 but not a dead listing)
+      2. HTTP 404 / 410 → dead
+      3. Check final URL after redirects against known dead-redirect patterns
+      4. Check raw body for known expiry strings (catches Indeed, Glassdoor raw pages)
+    On timeout or any error → assume alive (never silently drop).
     """
+    url    = job.get("url", "")
+    source = job.get("source", "")
+
     if not url:
         return True
+    if source in _SKIP_URL_CHECK_SOURCES:
+        return True  # can't reliably check LinkedIn without auth
+
     try:
         r = requests.get(
             url, timeout=timeout, headers=_URL_HEADERS,
             allow_redirects=True,
         )
+        final_url = r.url.lower()
+
         if r.status_code in (404, 410):
             return False
+
+        # Check if we were redirected to a generic search/home page
+        if any(p in final_url for p in _DEAD_URL_PATTERNS):
+            return False
+
+        # Check raw body (works for non-JS pages)
         if r.status_code == 200:
             body = r.text.lower()
             if any(p in body for p in _DEAD_BODY_PATTERNS):
                 return False
+
         return True
     except Exception:
         return True  # timeout / connection error → assume alive
@@ -99,7 +146,7 @@ def _filter_dead_urls(jobs: List[dict]) -> Tuple[List[dict], int]:
 
     with ThreadPoolExecutor(max_workers=10) as pool:
         future_to_job = {
-            pool.submit(_is_url_alive, j.get("url", "")): j for j in jobs
+            pool.submit(_is_url_alive, j): j for j in jobs
         }
         for future in as_completed(future_to_job):
             job = future_to_job[future]
@@ -138,6 +185,10 @@ _EXCLUDE_KEYWORDS = [
     "logistics", "administrative", "receptionist", "retail", "copywriter",
     "brand", "events intern", "recruiter", "talent acquisition",
     "business development", "operations intern",
+    # Senior / permanent roles — not internships
+    "senior ", "sr.", "sr ", "lead ", "principal ", "staff ", "director",
+    "head of", "vp ", "vice president", "chief ", "manager,", "manager ",
+    " ftc", "permanent", "full-time permanent", "12 month ftc", "fixed term",
 ]
 
 
@@ -192,20 +243,27 @@ def score_job(job: dict) -> Tuple[int, str]:
     if len(desc.strip()) < 60:
         prompt = (
             f"{_CANDIDATE_SNAPSHOT}\n\n"
-            f"Rate this internship for the candidate (1-10). "
-            f"Only the job title is available — be generous if the title is plausibly "
-            f"data/tech related.\n"
+            f"Rate this role for the candidate (1-10).\n"
+            f"IMPORTANT RULES:\n"
+            f"- Score 1 if the role is senior/permanent (senior, lead, principal, staff, "
+            f"director, manager, FTC, permanent, full-time) — candidate is a student seeking internships only.\n"
+            f"- Score 1 if the role is unrelated to data/ML/AI/tech.\n"
             f"Job title: {title} at {company}\n\n"
-            f"Score: 8-10 = DS/ML/AI/tech role, 5-7 = adjacent/ambiguous, "
-            f"1-4 = clearly unrelated.\n"
+            f"Score: 8-10 = DS/ML/AI intern or entry-level fit, 5-7 = adjacent/ambiguous, "
+            f"1-4 = senior/permanent role OR clearly unrelated.\n"
             f'Reply JSON only: {{"score": <1-10>, "reason": "<max 12 words>"}}'
         )
     else:
         prompt = (
             f"{_CANDIDATE_SNAPSHOT}\n\n"
-            f"Rate this internship for the candidate (1-10).\n"
+            f"Rate this role for the candidate (1-10).\n"
+            f"IMPORTANT RULES:\n"
+            f"- Score 1 if the role is senior/permanent (senior, lead, principal, staff, "
+            f"director, manager, FTC, permanent, full-time) — candidate is a student seeking internships only.\n"
+            f"- Score 1 if the role is unrelated to data/ML/AI/tech.\n"
             f"Job: {title} at {company}\nDescription: {desc}\n\n"
-            f"8-10 = strong DS/ML/AI fit, 5-7 = data-adjacent, 1-4 = unrelated.\n"
+            f"8-10 = DS/ML/AI intern/entry-level strong fit, 5-7 = data-adjacent intern, "
+            f"1-4 = senior/permanent role OR unrelated.\n"
             f'Reply JSON only: {{"score": <1-10>, "reason": "<max 12 words>"}}'
         )
 

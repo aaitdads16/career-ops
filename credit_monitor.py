@@ -1,15 +1,19 @@
 """
-Track Anthropic token usage per run, accumulate daily cost,
-and alert when the daily budget threshold is approaching or exceeded.
+Track Anthropic token usage and Apify compute unit usage per run.
+Alerts when daily budget thresholds are approaching or exceeded.
 """
 
 import json
 import logging
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Optional
+
+import requests as _requests
 
 from config import (
     ANTHROPIC_DAILY_BUDGET_USD,
+    APIFY_API_TOKEN,
     CLAUDE_INPUT_COST_PER_MTOK,
     CLAUDE_OUTPUT_COST_PER_MTOK,
     DATA_DIR,
@@ -124,6 +128,41 @@ def check_budget_alert() -> tuple:
         return "warning", msg
 
     return None, ""
+
+
+def get_apify_usage() -> Optional[dict]:
+    """
+    Fetch current Apify account usage via the Apify API.
+    Returns a dict with keys: used_usd, limit_usd, remaining_usd, pct_used
+    Returns None if the API call fails or token is not set.
+    """
+    if not APIFY_API_TOKEN:
+        return None
+    try:
+        r = _requests.get(
+            "https://api.apify.com/v2/users/me",
+            headers={"Authorization": f"Bearer {APIFY_API_TOKEN}"},
+            timeout=10,
+        )
+        r.raise_for_status()
+        data = r.json().get("data", {})
+        plan = data.get("plan", {})
+
+        # Monthly usage credits in USD
+        used_usd  = float(plan.get("monthlyUsageCreditsUsd", 0) or 0)
+        limit_usd = float(plan.get("monthlyUsageCreditLimitUsd", 5) or 5)
+        remaining = max(0.0, limit_usd - used_usd)
+        pct_used  = min(100.0, used_usd / limit_usd * 100) if limit_usd else 0
+
+        return {
+            "used_usd":      used_usd,
+            "limit_usd":     limit_usd,
+            "remaining_usd": remaining,
+            "pct_used":      pct_used,
+        }
+    except Exception as exc:
+        logger.warning("Apify usage fetch failed: %s", exc)
+        return None
 
 
 def get_weekly_report() -> str:

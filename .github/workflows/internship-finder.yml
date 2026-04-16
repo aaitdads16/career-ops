@@ -44,9 +44,14 @@ jobs:
           npm install
           npx playwright install chromium --with-deps
 
-      # ── 6. Create output directories ────────────────────────────────────────
+      # ── 6. Create output directories + restore seen_ids from repo ───────────
       - name: Prepare folders
-        run: mkdir -p resumes cover_letters data tmp
+        run: |
+          mkdir -p resumes cover_letters data tmp
+          # If seen_job_ids.txt doesn't exist yet in the repo, create an empty one
+          # so git can track it and the pipeline won't reprocess old jobs
+          touch data/seen_job_ids.txt
+          touch data/token_usage.json
 
       # ── 7. Run the pipeline ─────────────────────────────────────────────────
       - name: Run Internship Finder
@@ -61,12 +66,20 @@ jobs:
 
       # ── 8. Commit tracker + dedup memory back to repo ───────────────────────
       - name: Commit tracker updates
+        if: always()
         run: |
           git config user.email "internship-finder-bot@users.noreply.github.com"
           git config user.name  "Internship Finder Bot"
-          git add data/tracker.xlsx data/seen_job_ids.txt data/token_usage.json 2>/dev/null || true
-          git diff --staged --quiet || git commit -m "chore: update tracker $(date +'%Y-%m-%d %H:%M UTC') [skip ci]"
-          git push || true
+          # Stage data files — use --force to include gitignored files if any
+          git add --force data/seen_job_ids.txt data/token_usage.json || true
+          git add data/tracker.xlsx || true
+          # Only commit if there are staged changes
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update tracker $(date +'%Y-%m-%d %H:%M UTC') [skip ci]"
+            git push
+          else
+            echo "No data changes to commit."
+          fi
 
       # ── 9. Upload generated files as workflow artifacts (14-day retention) ──
       - name: Upload artifacts

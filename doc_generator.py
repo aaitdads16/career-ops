@@ -140,35 +140,63 @@ def _call_resume_content(job: dict) -> dict:
     company = job.get("company", "")
     desc    = (job.get("description") or "")[:3000]
 
-    prompt = f"""You are writing a tailored resume for an internship application.
+    prompt = f"""You are writing a highly targeted resume for one specific internship application.
+Your goal: make the hiring manager feel this resume was written FOR this exact role.
 
-## Candidate CV (source of truth — never invent, only reformulate)
+## Candidate CV (source of truth — never invent facts, only reformulate with JD vocabulary)
 {_cv_md()}
 
 ## Candidate profile & target roles
 {_profile_md()}
 
-## Job to tailor for
-Role: {title}
+## Target role
 Company: {company}
-Description:
-{desc if desc else "(no description — tailor based on role title and company)"}
+Role: {title}
+Job description:
+{desc if desc else "(no description — infer from role title and company)"}
 
-## Task
-Return ONLY valid JSON matching this schema exactly. No markdown, no explanation.
+## Instructions — follow every rule exactly
 
-Rules:
-- Extract 6-8 keywords from the JD and inject them naturally into summary and bullets
-- Select the 3 most relevant projects for this role (reorder by relevance)
-- Reorder experience bullets so the most JD-relevant one is first
-- Bold (<strong>) exactly 1-2 key terms or metrics per bullet
-- "title" field: short descriptor adapted to the JD (e.g. "Data Science Engineer | Computer Vision · ML · NLP")
-- NEVER invent metrics or experience — only reformulate existing ones with JD vocabulary
-- "competencies": 6-8 keyword tags extracted directly from JD requirements
-- All text: no em-dashes (use -), no smart quotes, short sentences, action verbs
+### 1. JD keyword extraction (do this first)
+Identify 8-10 specific technical terms, tools, and methods from this JD.
+Examples: "transformer fine-tuning", "production ML systems", "A/B testing", "time-series forecasting".
+Every one of these MUST appear naturally in the summary, bullets, or competencies.
+
+### 2. Title field
+Write a role descriptor that mirrors the JD language exactly.
+Example for an NLP role at {company}: "NLP Engineer | Transformer Fine-Tuning · Text Classification · LLM Deployment"
+NOT generic — specific to this company and role.
+
+### 3. Summary (3-4 sentences)
+- Sentence 1: lead with your strongest proof point that directly maps to the top JD requirement
+- Sentence 2-3: two more specific achievements using JD vocabulary
+- Sentence 4: why {company} specifically (one genuine reason from the JD context)
+No filler phrases ("passionate about", "team player", "results-oriented").
+
+### 4. Experience bullets
+- Reorder ALL bullets within each role so the most JD-relevant one is first
+- Rewrite bullets to use exact JD terminology where truthful
+- Bold (<strong>) the single most impressive metric or JD keyword in each bullet
+- At least 2 bullets per role must directly reference skills/tools mentioned in the JD
+
+### 5. Projects
+- Select the 3 projects most directly relevant to THIS role (not generic relevance)
+- Rewrite the lead bullet of each project to emphasize the aspect most relevant to the JD
+- If the JD mentions a specific domain (CV, NLP, tabular data, etc.), front-load that project
+
+### 6. Competencies
+- 8 tags taken VERBATIM from the JD requirements section
+- These must match what the recruiter's ATS will scan for
+
+### 7. Hard rules
+- NEVER invent metrics, tools, or experience not in the CV
+- No em-dashes (use -), no smart quotes, action verbs, short sentences
+- Every section must feel written for {company} specifically, not recycled
 
 ## JSON Schema
 {_RESUME_SCHEMA}
+
+Return ONLY valid JSON. No markdown fences, no explanation.
 """
 
     msg = _get_client().messages.create(
@@ -201,7 +229,8 @@ def _call_cover_content(job: dict) -> dict:
     desc    = (job.get("description") or "")[:2000]
     date    = datetime.now().strftime("%B %d, %Y")
 
-    prompt = f"""You are writing a tailored cover letter for an internship application.
+    prompt = f"""You are writing a cover letter for one specific internship application.
+Make it feel like it could only have been written for {company}'s {title} role.
 
 ## Candidate CV (source of truth)
 {_cv_md()}
@@ -209,29 +238,43 @@ def _call_cover_content(job: dict) -> dict:
 ## Candidate profile
 {_profile_md()}
 
-## Job to tailor for
-Role: {title}
+## Target role
 Company: {company}
+Role: {title}
 Date: {date}
 Description:
-{desc if desc else "(no description — tailor based on role title and company)"}
+{desc if desc else "(no description — infer from role title and company context)"}
 
-## Task
-Return ONLY valid JSON matching this schema exactly. No markdown, no explanation.
+## Instructions
 
-Rules:
-- Opening paragraph: start with a bold, direct hook — reference one specific JD requirement
-  and map it to your strongest proof point (e.g. #1 leaderboard, 100K-record pipeline)
-- Middle paragraph: 2 specific achievements with exact numbers, bolded with <strong>
-- Closing paragraph: one genuine reason for this company + clear CTA
-- "paragraphs" must be complete HTML strings with <p> tags and <strong> for emphasis
-- No cliches: no "passionate about", "results-oriented", "proven track record"
-- Max 3 paragraphs total, each under 100 words
-- "doc_metadata": short line like "Aymane Ait Dads · {title} Application · {company} · Summer 2026"
-- All text: no em-dashes (use -), no smart quotes, action verbs
+### Paragraph 1 — Hook (under 80 words)
+- Open with a single, specific JD requirement pulled verbatim from the description
+- Immediately map it to your single strongest proof point (e.g. "#1 on EURECOM leaderboard",
+  "100K-record ML pipeline")
+- Bold 2-3 key terms with <strong>
+- Do NOT start with "I am" or "I would like"
+
+### Paragraph 2 — Proof (under 100 words)
+- Two concrete achievements with exact numbers, directly mapped to two more JD requirements
+- Use the exact technical terms from the JD
+- Bold every metric and tool name with <strong>
+- These must be different proof points from paragraph 1
+
+### Paragraph 3 — Why {company} (under 60 words)
+- One specific, researched reason you want to work at {company} (from JD context, company name, sector)
+- Direct call to action — one sentence
+- No cliches, no "excited opportunity", no "passionate about"
+
+## Hard rules
+- "paragraphs" must be complete HTML strings with <p> tags
+- No em-dashes (use -), no smart quotes
+- "doc_metadata": "Aymane Ait Dads · {title} Application · {company} · Summer 2026"
+- Max 3 paragraphs total
 
 ## JSON Schema
 {_COVER_SCHEMA}
+
+Return ONLY valid JSON. No markdown fences, no explanation.
 """
 
     msg = _get_client().messages.create(

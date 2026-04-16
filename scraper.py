@@ -281,17 +281,31 @@ def _normalize_wellfound(item: dict, region: str) -> Optional[dict]:
 
 def _infer_region(location: str) -> str:
     loc = location.lower()
-    europe_hints = ["london","berlin","amsterdam","stockholm","zurich","barcelona",
-                    "dublin","brussels","copenhagen","oslo","paris","rome","madrid",
-                    "uk","de","nl","se","ch","es","ie","be","dk","no","eu","europe"]
-    asia_hints   = ["singapore","tokyo","seoul","hong kong","bangalore","kuala lumpur",
-                    "taipei","sg","jp","kr","hk","in","my","tw","asia"]
+    europe_hints = [
+        "london","berlin","munich","amsterdam","stockholm","zurich","barcelona","madrid",
+        "dublin","brussels","copenhagen","oslo","helsinki","milan","lisbon","warsaw",
+        "prague","vienna","bucharest","budapest","rome","paris",
+        "uk","de","nl","se","ch","es","ie","be","dk","no","fi","it","pt","pl","cz","at","ro","hu","eu","europe",
+    ]
+    asia_hints = [
+        "singapore","tokyo","seoul","hong kong","bangalore","mumbai","kuala lumpur",
+        "taipei","bangkok","jakarta","sg","jp","kr","hk","in","my","tw","th","id","asia",
+    ]
+    latam_hints = [
+        "são paulo","sao paulo","rio de janeiro","buenos aires","bogotá","bogota",
+        "santiago","mexico city","ciudad de mexico","br","ar","co","cl","mx",
+        "brazil","argentina","colombia","chile","mexico","latin america","south america",
+    ]
+    me_hints = ["dubai","abu dhabi","riyadh","doha","ae","sa","qa","middle east","gulf"]
+
     for h in europe_hints:
-        if h in loc:
-            return "Europe"
+        if h in loc: return "Europe"
     for h in asia_hints:
-        if h in loc:
-            return "Asia"
+        if h in loc: return "Asia"
+    for h in latam_hints:
+        if h in loc: return "South_America"
+    for h in me_hints:
+        if h in loc: return "Middle_East"
     return "USA_Canada"
 
 

@@ -31,10 +31,9 @@ resumes/
 cover_letters/
 tmp/
 data/run.log
-data/token_usage.json
-data/tracker.xlsx
-data/seen_job_ids.txt
 .env
+# NOTE: seen_job_ids.txt and token_usage.json are committed by the GitHub Actions bot
+# so deduplication and spend tracking persist across runs. Do NOT add them back here.
 
 # Python
 __pycache__/
