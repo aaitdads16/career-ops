@@ -29,6 +29,7 @@ arbeitnow_werkstudent-investments-mainz-212700
 arbeitnow_werkstudent-social-media-content-creation-video-dinslaken-264909
 arbeitnow_werkstudent-social-media-design-heilbronn-281284
 arbeitnow_werkstudent-social-media-guerilla-marketing-im-physio-gesundheitszentrum-berlin-171701
+arbeitnow_werkstudent-vertrieb-finanzberatung-praxis-statt-theorie-chemnitz-491725
 arbeitnow_werkstudentin-product-management-technical-customer-support-cologne-491597
 linkedin_4214013809
 linkedin_4254186648
@@ -41,18 +42,22 @@ linkedin_4309577080
 linkedin_4309694917
 linkedin_4309694978
 linkedin_4309773550
+linkedin_4317352123
 linkedin_4323300035
 linkedin_4325103488
+linkedin_4327191639
 linkedin_4336838608
 linkedin_4343243976
 linkedin_4346088677
 linkedin_4346223941
 linkedin_4346657466
 linkedin_4348947898
+linkedin_4349534895
 linkedin_4349553741
 linkedin_4350778130
 linkedin_4351165989
 linkedin_4353785765
+linkedin_4353835701
 linkedin_4355269413
 linkedin_4355313079
 linkedin_4363972299
@@ -64,6 +69,7 @@ linkedin_4370844360
 linkedin_4371014717
 linkedin_4371210537
 linkedin_4371568580
+linkedin_4371758156
 linkedin_4371860223
 linkedin_4372718420
 linkedin_4372724250
@@ -95,6 +101,7 @@ linkedin_4382411039
 linkedin_4387411633
 linkedin_4387425668
 linkedin_4389070172
+linkedin_4389540300
 linkedin_4389810164
 linkedin_4390040484
 linkedin_4390140847
@@ -198,6 +205,7 @@ linkedin_4401199503
 linkedin_4401200923
 linkedin_4401212745
 linkedin_4401226154
+linkedin_4401235376
 linkedin_4401403170
 linkedin_4401423946
 linkedin_4401427204
@@ -332,8 +340,10 @@ linkedin_4403030640
 linkedin_4403031505
 linkedin_4403039131
 linkedin_4403039176
+linkedin_4403062279
 linkedin_4403065097
 linkedin_4403076252
+linkedin_4403095692
 linkedin_4403115250
 linkedin_4403128996
 linkedin_4403133844
@@ -374,4 +384,7 @@ linkedin_4403810051
 linkedin_4403819462
 linkedin_4403823253
 linkedin_4403835668
+linkedin_4403846753
 linkedin_4403848057
+linkedin_4403848986
+linkedin_4403852722
