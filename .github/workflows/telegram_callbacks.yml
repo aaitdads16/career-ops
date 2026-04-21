@@ -65,7 +65,8 @@ jobs:
             data/pending_apply.json \
             data/applications.json \
             data/pause_until.txt \
-            data/search_trigger.json; do
+            data/search_trigger.json \
+            data/statuses.json; do
             git add --force "$f" 2>/dev/null || true
           done
           if ! git diff --staged --quiet; then

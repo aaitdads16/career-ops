@@ -10,6 +10,7 @@ Auto-triggered: after every main.py run via GitHub Actions.
 
 import json
 import logging
+import os
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -26,6 +27,7 @@ SCORED_PATH    = DATA_DIR / "scored_jobs.jsonl"
 TOKEN_PATH     = DATA_DIR / "token_usage.json"
 ADVICE_PATH    = DATA_DIR / "skills_gap_advice.txt"
 REJECTION_PATH = DATA_DIR / "rejection_analysis.txt"
+STATUSES_PATH  = DATA_DIR / "statuses.json"
 
 
 # ── Data loading ──────────────────────────────────────────────────────────────
@@ -78,6 +80,16 @@ def _load_rejection_analysis() -> str:
         return REJECTION_PATH.read_text(encoding="utf-8").strip()
     except Exception:
         return ""
+
+
+def _load_statuses() -> dict:
+    """Load manual status overrides from data/statuses.json."""
+    if not STATUSES_PATH.exists():
+        return {}
+    try:
+        return json.loads(STATUSES_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
 
 
 # ── Analytics computation ─────────────────────────────────────────────────────
@@ -150,21 +162,25 @@ def _compute_stats():
     # Recent applications (last 10 Applied rows)
     recent = [j for j in jobs if (j.get("Status") or "") == "Applied"][-10:]
 
+    # Merge any pending dashboard status overrides (written directly from the dashboard UI)
+    status_overrides = _load_statuses()
+
     # All jobs for the full table (capped at 200 for page performance)
-    all_jobs_table = [
-        {
-            "id":       str(j.get("ID") or ""),
+    all_jobs_table = []
+    for j in reversed(jobs[-200:]):   # most recent first
+        job_id = str(j.get("ID") or "")
+        status = status_overrides.get(job_id) or str(j.get("Status") or "Waiting to apply")
+        all_jobs_table.append({
+            "id":       job_id,
             "date":     str(j.get("Date Found") or "")[:10],
             "source":   str(j.get("Source") or ""),
             "company":  str(j.get("Company") or ""),
             "title":    str(j.get("Job Title") or ""),
             "location": str(j.get("Location") or ""),
             "region":   str(j.get("Region") or ""),
-            "status":   str(j.get("Status") or "Waiting to apply"),
+            "status":   status,
             "url":      str(j.get("Job URL") or ""),
-        }
-        for j in reversed(jobs[-200:])   # most recent first
-    ]
+        })
 
     # Budget
     budget_pct = 0
@@ -782,16 +798,11 @@ __GMAIL_STRIP__
 
 </main>
 
-<!-- ── Status Update Modal ── -->
-<div class="cmd-overlay" id="cmd-overlay">
-  <div class="cmd-modal">
-    <h3>Update Status via Telegram</h3>
-    <p>Copy this command and send it to the Career Ops bot in Telegram:</p>
-    <div class="cmd-box" id="cmd-text"></div>
-    <div class="btn-row">
-      <button class="btn btn-primary" onclick="copyCmd()">📋 Copy command</button>
-      <button class="btn btn-ghost"   onclick="closeModal()">Cancel</button>
-    </div>
+<!-- ── Saving spinner (shown while GitHub API call is in flight) ── -->
+<div class="cmd-overlay" id="saving-overlay" style="display:none;align-items:center;justify-content:center">
+  <div class="cmd-modal" style="text-align:center;padding:32px 40px">
+    <div style="font-size:28px;margin-bottom:12px">💾</div>
+    <div style="font-size:15px;font-weight:600" id="saving-msg">Saving…</div>
   </div>
 </div>
 
@@ -1111,35 +1122,81 @@ function mdToHtml(text) {
     }).join('');
   }
 
-  window.requestStatusUpdate = function(jobId, newStatus, sel) {
-    pendingJob    = jobId;
-    pendingStatus = newStatus;
-    const cmd = `/setstatus ${jobId} ${newStatus}`;
-    document.getElementById('cmd-text').textContent = cmd;
-    document.getElementById('cmd-overlay').classList.add('show');
-    // Reset select to old value (visual only — real change happens via bot)
-    const oldStatus = jobs.find(j => j.id === jobId)?.status || '';
-    sel.value = oldStatus;
-  };
+  // ── Direct GitHub API status update ─────────────────────────────────────────
+  const GH_TOKEN = '__DASHBOARD_PAT__';
+  const GH_REPO  = '__GITHUB_REPO__';
+  const GH_FILE  = 'data/statuses.json';
 
-  window.closeModal = function() {
-    document.getElementById('cmd-overlay').classList.remove('show');
-  };
+  window.requestStatusUpdate = async function(jobId, newStatus, sel) {
+    const oldStatus = (jobs.find(j => j.id === jobId) || {}).status || '';
+    if (newStatus === oldStatus) return;
 
-  window.copyCmd = function() {
-    const cmd = document.getElementById('cmd-text').textContent;
-    navigator.clipboard.writeText(cmd).then(() => {
-      showToast('✅ Command copied! Paste it in Telegram and send.');
-    }).catch(() => {
-      // Fallback for older browsers
-      const el = document.getElementById('cmd-text');
-      const range = document.createRange(); range.selectNode(el);
-      window.getSelection().removeAllRanges();
-      window.getSelection().addRange(range);
-      document.execCommand('copy');
-      showToast('✅ Command copied!');
-    });
-    closeModal();
+    // No PAT injected (local dev) — show the old Telegram fallback toast
+    if (!GH_TOKEN || GH_TOKEN === '__DASHBOARD_PAT__') {
+      sel.value = oldStatus;
+      showToast('⚠️ No PAT configured — use /setstatus ' + jobId + ' ' + newStatus + ' in Telegram');
+      return;
+    }
+
+    sel.disabled = true;
+    const overlay = document.getElementById('saving-overlay');
+    const msg     = document.getElementById('saving-msg');
+    overlay.style.display = 'flex';
+    msg.textContent = 'Saving…';
+
+    try {
+      // 1. Fetch current file + SHA
+      const getResp = await fetch(
+        `https://api.github.com/repos/${GH_REPO}/contents/${GH_FILE}`,
+        { headers: { Authorization: `token ${GH_TOKEN}`, Accept: 'application/vnd.github.v3+json' } }
+      );
+      if (!getResp.ok) throw new Error(`GET ${getResp.status}`);
+      const fileData = await getResp.json();
+      const sha = fileData.sha;
+      let current = {};
+      try { current = JSON.parse(atob(fileData.content.replace(/\n/g, ''))); } catch(_) {}
+
+      // 2. Merge new status
+      current[jobId] = newStatus;
+      const encoded = btoa(unescape(encodeURIComponent(JSON.stringify(current, null, 2))));
+
+      // 3. Write back
+      const putResp = await fetch(
+        `https://api.github.com/repos/${GH_REPO}/contents/${GH_FILE}`,
+        {
+          method: 'PUT',
+          headers: {
+            Authorization: `token ${GH_TOKEN}`,
+            Accept: 'application/vnd.github.v3+json',
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            message: `status: ${jobId} → ${newStatus} [skip ci]`,
+            content: encoded,
+            sha: sha,
+          }),
+        }
+      );
+      if (!putResp.ok) {
+        const e = await putResp.json().catch(() => ({}));
+        throw new Error(e.message || `PUT ${putResp.status}`);
+      }
+
+      // 4. Update local data + re-render immediately
+      const job = jobs.find(j => j.id === jobId);
+      if (job) job.status = newStatus;
+      render();
+      msg.textContent = '✅ Saved!';
+      setTimeout(() => { overlay.style.display = 'none'; }, 800);
+      showToast(`✅ Status → ${newStatus}`);
+    } catch (err) {
+      overlay.style.display = 'none';
+      sel.value = oldStatus;
+      sel.disabled = false;
+      showToast('❌ Save failed: ' + err.message);
+    } finally {
+      sel.disabled = false;
+    }
   };
 
   window.showAllOffers = function() {
@@ -1160,9 +1217,9 @@ function mdToHtml(text) {
     });
   });
 
-  // Close modal on overlay click
-  document.getElementById('cmd-overlay').addEventListener('click', e => {
-    if (e.target === e.currentTarget) closeModal();
+  // Close saving overlay on click (safety escape)
+  document.getElementById('saving-overlay').addEventListener('click', e => {
+    if (e.target === e.currentTarget) e.currentTarget.style.display = 'none';
   });
 
   // Search + filter
@@ -1251,6 +1308,10 @@ def generate_dashboard() -> Path:
         "all_jobs":           s.get("all_jobs", []),
     }, ensure_ascii=False)
 
+    # PAT injected at build time from DASHBOARD_PAT env var (GitHub Actions secret)
+    dashboard_pat  = os.environ.get("DASHBOARD_PAT", "")
+    github_repo    = os.environ.get("GITHUB_REPOSITORY", "aaitdads16/career-ops")
+
     html = _HTML_TEMPLATE
     replacements = {
         "__GENERATED_AT__": s["generated_at"],
@@ -1270,6 +1331,8 @@ def generate_dashboard() -> Path:
         "__BUDGET_COLOR__": budget_color,
         "__GMAIL_STRIP__":  gmail_strip,
         "__DATA_JSON__":    data_json,
+        "__DASHBOARD_PAT__": dashboard_pat,
+        "__GITHUB_REPO__":   github_repo,
     }
     for k, v in replacements.items():
         html = html.replace(k, v)

@@ -312,3 +312,52 @@ def get_applied_jobs() -> list:
 def get_rejected_jobs() -> list:
     """Return all rows whose Status is 'Rejected'."""
     return [j for j in get_all_jobs() if (j.get("Status") or "").lower() == "rejected"]
+
+
+def apply_status_overrides() -> int:
+    """
+    Read data/statuses.json (written by the dashboard UI) and apply any pending
+    manual status changes to tracker.xlsx.
+    Clears the file after applying.
+    Returns the number of rows updated.
+    """
+    import json as _json
+    statuses_path = TRACKER_PATH.parent / "statuses.json"
+    if not statuses_path.exists():
+        return 0
+    try:
+        overrides = _json.loads(statuses_path.read_text(encoding="utf-8"))
+    except Exception:
+        return 0
+    if not overrides:
+        return 0
+    if not TRACKER_PATH.exists():
+        return 0
+
+    try:
+        wb = openpyxl.load_workbook(str(TRACKER_PATH))
+        ws = wb.active
+        id_col     = HEADERS.index("ID") + 1
+        status_col = HEADERS.index("Status") + 1
+        applied = 0
+
+        for row in ws.iter_rows(min_row=2):
+            cell_id = row[id_col - 1].value
+            if cell_id is not None:
+                job_id = str(cell_id).strip()
+                if job_id in overrides:
+                    new_status = overrides[job_id]
+                    row[status_col - 1].value = new_status
+                    _color_status_cell(row[status_col - 1], new_status)
+                    applied += 1
+
+        if applied:
+            wb.save(str(TRACKER_PATH))
+            logger.info("Applied %d dashboard status override(s) from statuses.json", applied)
+            # Clear applied overrides so they don't re-apply next run
+            statuses_path.write_text("{}", encoding="utf-8")
+
+        return applied
+    except Exception as exc:
+        logger.error("apply_status_overrides failed: %s", exc)
+        return 0

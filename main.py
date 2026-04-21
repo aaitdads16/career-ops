@@ -53,7 +53,7 @@ from scraper import (
     _make_fingerprint,
 )
 from skills_gap import analyze_skills_gap, save_scored_jobs, should_run_weekly_analysis
-from tracker_manager import add_jobs
+from tracker_manager import add_jobs, apply_status_overrides
 
 # ── Cloud detection ───────────────────────────────────────────────────────────
 IS_CLOUD = os.getenv("GITHUB_ACTIONS") == "true"
@@ -117,6 +117,14 @@ def run():
     logger.info("=" * 60)
     logger.info("Internship Finder — run started at %s  [%s]",
                 start.isoformat(), "CLOUD/GitHub Actions" if IS_CLOUD else "LOCAL/Mac")
+
+    # ── 0. Apply any dashboard status overrides (written directly from the web UI) ─
+    try:
+        overrides_applied = apply_status_overrides()
+        if overrides_applied:
+            logger.info("Dashboard overrides applied: %d row(s) updated.", overrides_applied)
+    except Exception as exc:
+        logger.warning("apply_status_overrides failed (non-critical): %s", exc)
 
     # ── 0. Process any pending Telegram callbacks + commands ─────────────────
     try:
