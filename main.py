@@ -23,6 +23,8 @@ from config import (
 )
 from analytics import generate_analytics_report, should_run_weekly_analytics
 from callback_handler import process_pending_callbacks
+from dashboard_generator import generate_dashboard
+from gmail_tracker import sync_gmail_statuses
 from credit_monitor import check_budget_alert, get_apify_usage, get_today_summary
 from doc_generator import generate_documents
 from job_filter import filter_jobs
@@ -76,6 +78,14 @@ def run():
             logger.info("Flushed %d pending Telegram callback(s).", cb_count)
     except Exception as exc:
         logger.warning("Callback flush failed (non-critical): %s", exc)
+
+    # ── 0b. Gmail sync — detect application responses ─────────────────────────
+    try:
+        import os
+        if os.getenv("GMAIL_ENABLED", "").lower() == "true" or (BASE_DIR / "gmail_token.json").exists():
+            sync_gmail_statuses(days_back=3)
+    except Exception as exc:
+        logger.warning("Gmail sync failed (non-critical): %s", exc)
 
     # ── 1. Load seen job IDs + content fingerprints (deduplication) ───────────
     seen_ids = load_seen_ids(SEEN_IDS_PATH)
@@ -210,7 +220,14 @@ def run():
         rejected_count=rejected_count,
     )
 
-    # ── 12. Weekly reports (skills gap on Mondays, analytics on Sundays) ─────
+    # ── 12. Generate dashboard ───────────────────────────────────────────────
+    try:
+        generate_dashboard()
+        logger.info("Dashboard updated.")
+    except Exception as exc:
+        logger.warning("Dashboard generation failed (non-critical): %s", exc)
+
+    # ── 13. Weekly reports (skills gap on Mondays, analytics on Sundays) ─────
     try:
         if should_run_weekly_analysis():
             logger.info("Running weekly skills gap analysis (Monday trigger)...")

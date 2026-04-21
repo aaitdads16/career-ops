@@ -341,13 +341,31 @@ def notify_run_complete(
 
     cost_line = ""
     if cost_summary:
-        claude_remaining = cost_summary.get("remaining_usd", cost_summary["budget_usd"] - cost_summary["cost_usd"])
-        cost_line = (
-            f"\n\n💳 <b>Credits remaining</b>\n"
-            f"Claude: <b>${claude_remaining:.4f}</b> left"
-            f" (spent ${cost_summary['cost_usd']:.4f} / ${cost_summary['budget_usd']:.2f} today"
-            f" · {cost_summary['pct_used']:.0f}% used)"
-        )
+        # Account balance (real remaining credit)
+        acct_rem   = cost_summary.get("account_remaining_usd")
+        acct_total = cost_summary.get("account_total_usd", 0)
+        acct_spent = cost_summary.get("account_spent_usd", 0)
+        today_usd  = cost_summary.get("cost_usd", 0)
+        today_calls = cost_summary.get("calls", 0)
+
+        if acct_rem is not None:
+            pct_left = (acct_rem / acct_total * 100) if acct_total else 0
+            bar_emoji = "🟢" if pct_left >= 50 else "🟡" if pct_left >= 20 else "🔴"
+            cost_line = (
+                f"\n\n💳 <b>Anthropic balance</b>\n"
+                f"{bar_emoji} <b>${acct_rem:.2f}</b> remaining"
+                f" of ${acct_total:.2f} total ({pct_left:.0f}% left)\n"
+                f"Today: ${today_usd:.4f} in {today_calls} calls"
+                f" · All-time: ${acct_spent:.2f} spent"
+            )
+        else:
+            # Fallback if account tracking not yet populated
+            daily_rem = cost_summary.get("remaining_usd", 0)
+            cost_line = (
+                f"\n\n💳 <b>Credits</b>\n"
+                f"Today: <b>${today_usd:.4f}</b> (${daily_rem:.4f} of daily cap left)"
+            )
+
         if cost_summary.get("apify"):
             a = cost_summary["apify"]
             cost_line += (

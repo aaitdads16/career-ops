@@ -253,9 +253,16 @@ def linkedin_url(keyword: str, location: str) -> str:
 
 # ── Anthropic credit monitoring ───────────────────────────────────────────────
 
-# You will receive a high-priority phone alert if the estimated spend
-# during a single day exceeds this threshold.
-ANTHROPIC_DAILY_BUDGET_USD = 3.00   # change this if you want a different limit
+# Set ANTHROPIC_TOTAL_CREDIT_USD to the amount you've actually loaded into
+# your Anthropic account (check console.anthropic.com → Billing).
+# The system tracks ALL-TIME cumulative spend against this and shows the real
+# remaining balance in every Telegram report.
+# Also add it as a GitHub Secret so it travels with the Actions runner.
+ANTHROPIC_TOTAL_CREDIT_USD = float(os.getenv("ANTHROPIC_TOTAL_CREDIT_USD", "20.00"))
+
+# Daily soft-cap: if estimated daily spend exceeds this, send a warning alert.
+# This is a secondary guard on top of the account-level balance tracker.
+ANTHROPIC_DAILY_BUDGET_USD = float(os.getenv("ANTHROPIC_DAILY_BUDGET_USD", "3.00"))
 
 # ── Claude model ──────────────────────────────────────────────────────────────
 CLAUDE_MODEL = "claude-sonnet-4-6"

@@ -168,6 +168,13 @@ def analyze_skills_gap(days: int = 7) -> None:
     _send(report)
     logger.info("Skills gap report sent to Telegram.")
 
+    # Save advice for dashboard display
+    try:
+        advice_path = DATA_DIR / "skills_gap_advice.txt"
+        advice_path.write_text(analysis, encoding="utf-8")
+    except Exception as exc:
+        logger.warning("Could not save skills gap advice: %s", exc)
+
 
 # ── Weekly trigger check ──────────────────────────────────────────────────────
 
