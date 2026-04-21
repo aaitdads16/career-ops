@@ -23,5 +23,10 @@
     "input_tokens": 114392,
     "output_tokens": 31803,
     "calls": 63
+  },
+  "2026-04-21": {
+    "input_tokens": 49653,
+    "output_tokens": 6901,
+    "calls": 55
   }
 }
