@@ -49,3 +49,7 @@ __pycache__/
 .claude/memory/
 career-dashboard
 package-lock.json
+
+# Gmail OAuth credentials — never commit these
+gmail_token.json
+gmail_client_secrets.json
