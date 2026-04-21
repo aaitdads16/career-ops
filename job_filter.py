@@ -206,11 +206,12 @@ def _title_prescreens(title: str) -> Tuple[bool, bool]:
 # Candidate snapshot — specific enough that Claude can judge true fit, not just topic match
 _CANDIDATE_SNAPSHOT = """Candidate: Aymane Ait Dads — 3rd-year Data Science Engineering student at EURECOM
 (Master-level, Sophia Antipolis). Target: ML/AI/Data Science INTERNSHIP only (3-6 months).
-Strongest areas: deep learning, computer vision (CLIP/ViT fine-tuning, ranked 1st in NTIRE 2026
-international challenge), NLP, ML pipelines, Python/PyTorch. Looking for research-oriented or
-applied ML roles. NOT suitable: pure data analyst/BI roles, business intelligence without ML,
-data entry, SQL-only roles, finance/banking data roles, marketing analytics, non-tech companies
-using "data" loosely."""
+Strongest areas: LLM fine-tuning (LoRA on 30B Mamba-Transformer, top 10% in NVIDIA Nemotron Kaggle
+competition, $106K+ prize), computer vision (CLIP/ViT fine-tuning, ranked 1st EURECOM class,
+submitted NTIRE 2026 @ CVPR CodaBench), NLP, ML pipelines, Python/PyTorch/Unsloth.
+Looking for research-oriented or applied ML/LLM roles. NOT suitable: pure data analyst/BI roles,
+business intelligence without ML, data entry, SQL-only roles, finance/banking data roles,
+marketing analytics, non-tech companies using "data" loosely."""
 
 
 def score_job(job: dict) -> Tuple[int, str]:

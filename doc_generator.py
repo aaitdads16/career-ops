@@ -114,9 +114,31 @@ WORK EXPERIENCE
 
 PROJECTS (use these facts exactly — never invent)
 
-PROJECT 1: AI-Generated Image Detection — NTIRE 2026 @ CVPR (ImSecu Challenge)
-  Achievement: 1st place Kaggle leaderboard (0.791 AUC) out of 70+ international teams.
-               Top-77 NTIRE CodaBench robustness benchmark.
+PROJECT 0: NVIDIA Nemotron Reasoning Challenge — Kaggle Competition (In Progress, June 2026)
+  Achievement: Top 10% public leaderboard, score 0.80/1.0. Prize pool $106K+.
+  Base score (no adapter): 0.49. Best competitor score: 0.86. Our best: 0.80.
+  Technical:
+  - Model: Nemotron-3-Nano-30B, hybrid Mamba-Transformer MoE (30B total / 3.5B active via MoE routing, 52 layers)
+  - LoRA adapter: r=32, alpha=32, ~888M trainable params (~3.4GB), all-linear + lm_head targeting
+  - Task: 6 logic puzzle types in chain-of-thought format; evaluation by exact match inside \boxed{}
+  - Dataset: 7,828 verified chain-of-thought examples (dgxchen/nemotron-cot-tong)
+  - Training: SFTTrainer (Unsloth), completion-only loss, 1 epoch, LR=2e-4, grad_accum=64, batch=1
+  - Key finding 1: completion_only_loss=True (0.80) outperforms full-sequence loss (0.79) — subtle but confirmed
+  - Key finding 2: packing=True dropped score 0.80→0.64; synthetic data consistently hurt (0.50)
+  - Key finding 3: 7.5M param (12-layer) LoRA has hard ceiling at 0.58; all-linear 888M needed to break it
+  - Gap to top: architecture confirmed identical to 0.86 leader — remaining gap is data quality on hard types
+  Engineering challenges (Blackwell GPU — RTX PRO 6000, sm_120, 95GB VRAM):
+  - Fix 1: Monkey-patched caching_allocator_warmup to prevent 58GB+62GB OOM during model load
+  - Fix 2: Stubbed mamba3/cutlass imports in sys.modules before mamba_ssm import (sm_120 incompatibility)
+  - Fix 3: Set is_fast_path_available=False post-load to disable Mamba CUDA kernels not compiled for sm_120
+  - Fix 4: Mocked ptxas version + chmod +x to /tmp copy to fix Triton ptxas permission error on read-only fs
+  - Fix 5: Replaced rmsnorm_fn with pure PyTorch fallback to prevent residual Triton crash post fast-path disable
+  - All 5 fixes required in strict order; missing any single one causes a different crash
+  - Stack: PyTorch, Unsloth, TRL, PEFT, Hugging Face Transformers, vLLM, Mamba, Triton, Kaggle P100/T4
+
+PROJECT 1: AI-Generated Image Detection — EURECOM ImSecu Course + NTIRE 2026 @ CVPR
+  Achievement: Ranked 1st in EURECOM class (private Kaggle leaderboard, 0.791 AUC).
+               Also submitted to NTIRE 2026 @ CVPR CodaBench international benchmark.
   Technical:
   - Backbone: CLIP ViT-L/14 (428M params, pretrained on 400M image-text pairs)
   - Custom MLP head: 768→512→256→1, GELU activations, BatchNorm, Dropout
@@ -142,12 +164,13 @@ PROJECT 4: Twitter Sentiment Analysis (EURECOM, 2025)
 
 TECHNICAL SKILLS (only use these — do not invent)
 Programming: Python (expert), SQL, Bash
-ML/DL: PyTorch, TensorFlow, Scikit-learn, OpenCLIP, Hugging Face Transformers
+ML/DL: PyTorch, TensorFlow, Scikit-learn, OpenCLIP, Hugging Face Transformers, Unsloth, TRL, PEFT
+LLM Fine-tuning: LoRA, QLoRA, SFTTrainer, completion-only loss, Mamba-Transformer, MoE, vLLM, chain-of-thought
 Computer Vision: CLIP, ViT, CNN, DenseNet, image classification
 NLP: text preprocessing, embeddings, sentiment analysis, transformer models
 AI/LLMs: Claude API, LLM orchestration, MCP server, tool-calling, RAG, prompt engineering, LangChain
 Data Science: Pandas, NumPy, Matplotlib, Seaborn, feature engineering, EDA, clustering, ensemble methods
-MLOps: Git, Linux, FP16 mixed precision, model evaluation, ablation studies, TTA, Kaggle GPU
+MLOps: Git, Linux, FP16/BF16 mixed precision, ablation studies, TTA, Kaggle GPU, CUDA debugging, Triton
 Cloud/Infra: Supabase, REST APIs, Docker (basic), PostgreSQL
 Visualization: Power BI, Matplotlib, Seaborn
 Languages: English (C1), French (C1), Arabic (native)
@@ -191,6 +214,13 @@ _RESUME_SCHEMA = """{
       "period": "Sep YYYY – Present",
       "location": "City, Country",
       "desc": "Relevant coursework: course1, course2, course3"
+    },
+    {
+      "degree": "CPGE — Mathematics & Physics",
+      "school": "Ibn Timiya",
+      "period": "2021 – 2023",
+      "location": "Marrakech, Morocco",
+      "desc": ""
     }
   ],
   "skills": [
@@ -255,26 +285,49 @@ SKILLS SECTION:
 
 EXPERIENCE BULLETS:
 - Format: Past-tense verb + what + measurable result
-- At least 3 out of 4 bullets must contain a number (%, rows, AUC, team size)
+- EXACTLY 4 bullets — never fewer, never more
+- At least 3 of 4 bullets must contain a number (%, rows, AUC, team size)
 - Reorder bullets: most JD-relevant first
 - Use exact JD terminology in at least 2 bullets
 - Bold (<strong>) the single most impressive metric or JD keyword per bullet
-- Max 4 bullets
+- Write full, dense sentences — do not truncate. Each bullet must be 15-25 words.
 
-PROJECTS:
-- Select 3-4 most relevant to THIS role (not generic relevance)
-- Reorder: most relevant project first
-  * CV/vision role → Project 1 (NTIRE) first
-  * NLP/LLM role → Project 4 (Twitter) or Project 1 first depending on JD
-  * Audio/signal role → Project 2 (anomaly detection) first
-  * General ML → Project 1 first
-- Rewrite lead bullet to emphasize the JD-relevant aspect
-- Always state the competition result verbatim: "1st place out of 70+ international teams"
-- Max 3 bullets per project
+PROJECTS — select 2 projects that best match THIS specific role (3 only if JD spans 3 distinct domains):
+- Choose the 2 projects whose technical content most directly matches the JD keywords and responsibilities
+- Default to 2 projects — a focused, well-chosen 2 beats a diluted 3
+- Add a 3rd project ONLY if the JD explicitly requires 3 very different technical areas (e.g. LLM + CV + audio)
+- PROJECT 0 (Nemotron) should be included for any role involving: LLM, fine-tuning, LoRA, PEFT, research, NLP, reasoning, Kaggle, large models, training, ablation studies — which covers most ML roles
+- PROJECT 1 (NTIRE/CLIP) should be included for: CV, vision, image, CLIP, ViT, classification
+- PROJECT 2 (audio) should be included for: audio, speech, signal processing, anomaly detection
+- PROJECT 3 (cactus/DenseNet) should be included for: CV without strong LLM component
+- PROJECT 4 (Twitter) should be included for: pure NLP without LLM fine-tuning component
+- Reorder: the single most JD-relevant project first
+- EXACTLY 2 bullets per project — full sentences, 12-20 words each
+- For Project 0 (Nemotron): bullet 1 = score + model architecture; bullet 2 = GPU engineering + ablation methodology
+  * Always include: "top 10% public leaderboard (0.80/1.0)", "$106K+ prize pool", "30B Mamba-Transformer MoE", "LoRA (r=32)", "~888M trainable parameters"
+  * Always include: "5 Blackwell GPU incompatibilities", "20+ single-variable ablations"
+  * NEVER say the competition is finished — it is still in progress (deadline June 2026)
+- For Project 1 (NTIRE): always state "Ranked 1st in EURECOM class leaderboard" AND "submitted to NTIRE 2026 @ CVPR CodaBench" — never conflate the two
+- Always include the "tech" field with 3-5 tools
 
-EDUCATION: include relevant coursework only if courses match JD requirements.
+EDUCATION:
+- Include BOTH education entries (EURECOM + CPGE)
+- Include relevant coursework for EURECOM if courses match JD requirements
 
-━━━ STEP 3 — HARD RULES ━━━
+SKILLS: EXACTLY 3 skill rows, each with 5-7 items separated by " | " (pipe). No dots, no bullets.
+
+━━━ STEP 3 — ONE-PAGE DENSITY RULES (CRITICAL) ━━━
+The rendered resume must fill exactly ONE full A4/Letter page — no more, no less.
+To achieve this:
+- Summary: exactly 4 sentences, each 20-30 words. Do NOT shorten.
+- Competencies: exactly 8 items, each 2-4 words
+- Experience: exactly 4 bullets as specified above
+- 2 projects with exactly 2 bullets each (or 3 if justified by JD breadth)
+- Both education entries
+- 3 skill rows with 5-7 items each
+Do not produce thin, short content — fill every section completely.
+
+━━━ STEP 4 — HARD RULES ━━━
 - NEVER invent metrics, tools, projects, or experience not in the profile above
 - No em-dashes (use -), no smart quotes, no Unicode bullets (only plain hyphens in text)
 - No "References available upon request"
@@ -346,7 +399,7 @@ Description:
 
 ### Paragraph 1 — Hook (under 80 words)
 - Open with a single, specific JD requirement pulled verbatim from the description
-- Immediately map it to your single strongest proof point (e.g. "#1 on EURECOM leaderboard",
+- Immediately map it to your single strongest proof point (e.g. "#1 in EURECOM class leaderboard + submitted to NTIRE 2026 @ CVPR",
   "100K-record ML pipeline")
 - Bold 2-3 key terms with <strong>
 - Do NOT start with "I am" or "I would like"
@@ -387,10 +440,8 @@ Return ONLY valid JSON. No markdown fences, no explanation.
 
 def _fill_resume_html(data: dict, fmt: str) -> str:
     # Build HTML blocks from JSON data
-    competencies = "".join(
-        f'<span class="competency-tag">{c}</span>'
-        for c in data.get("competencies", [])
-    )
+    # Competencies rendered as plain pipe-separated text (ATS-friendly, no colored tags)
+    competencies = " | ".join(data.get("competencies", []))
 
     experience_html = ""
     for job in data.get("experience", []):
@@ -413,7 +464,7 @@ def _fill_resume_html(data: dict, fmt: str) -> str:
     <div class="project avoid-break">
       <div class="project-header">
         <span class="project-title">{p.get("name","")}</span>
-        <span class="project-badge">{p.get("badge","")}</span>
+        <span class="project-context">{p.get("badge","")}</span>
       </div>
       <ul>{bullets}</ul>
       {tech}

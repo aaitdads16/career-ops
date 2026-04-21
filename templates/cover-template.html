@@ -5,43 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{NAME}} — Cover Letter</title>
 <style>
-  @font-face {
-    font-family: 'Space Grotesk';
-    src: url('./fonts/space-grotesk-latin.woff2') format('woff2');
-    font-weight: 300 700;
-    font-style: normal;
-    font-display: swap;
-  }
-  @font-face {
-    font-family: 'Space Grotesk';
-    src: url('./fonts/space-grotesk-latin-ext.woff2') format('woff2');
-    font-weight: 300 700;
-    font-style: normal;
-    font-display: swap;
-  }
-  @font-face {
-    font-family: 'DM Sans';
-    src: url('./fonts/dm-sans-latin.woff2') format('woff2');
-    font-weight: 100 1000;
-    font-style: normal;
-    font-display: swap;
-  }
-  @font-face {
-    font-family: 'DM Sans';
-    src: url('./fonts/dm-sans-latin-ext.woff2') format('woff2');
-    font-weight: 100 1000;
-    font-style: normal;
-    font-display: swap;
-  }
-
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 
   body {
-    font-family: 'DM Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
     line-height: 1.6;
-    color: #1a1a2e;
+    color: #000000;
     background: #ffffff;
   }
 
@@ -49,107 +20,113 @@
     width: 100%;
     max-width: {{PAGE_WIDTH}};
     margin: 0 auto;
+    padding: 30px 40px 30px;
   }
 
-  /* HEADER */
+  /* ── HEADER — matches resume style exactly ── */
   .header {
-    background: #1a1a2e;
-    padding: 22px 24px 18px;
-  }
-
-  .header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 16px;
-    margin-bottom: 6px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid #000000;
+    margin-bottom: 22px;
   }
 
   .header h1 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    color: #ffffff;
-    letter-spacing: -0.01em;
-    line-height: 1.1;
-  }
-
-  .header-institution { text-align: right; flex-shrink: 0; }
-
-  .inst-name {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 10.5px;
-    font-weight: 600;
-    color: hsl(187, 74%, 65%);
-    line-height: 1.4;
-  }
-
-  .inst-detail { font-size: 9.5px; color: rgba(255,255,255,0.6); line-height: 1.4; }
-
-  .header-title { font-size: 11px; color: hsl(187, 74%, 65%); margin-bottom: 10px; }
-
-  .header-gradient {
-    height: 1.5px;
-    background: linear-gradient(to right, hsl(187, 74%, 45%), hsl(270, 70%, 55%));
-    margin-bottom: 10px;
-  }
-
-  .contact-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px 12px;
-    font-size: 10px;
-    color: rgba(255,255,255,0.7);
-  }
-
-  .contact-row a { color: rgba(255,255,255,0.7); text-decoration: none; }
-  .contact-row .sep { color: rgba(255,255,255,0.3); }
-
-  /* BODY */
-  .body-wrap { padding: 24px 24px 0; }
-
-  .doc-meta { font-size: 9.5px; color: #999; margin-bottom: 18px; letter-spacing: 0.02em; }
-
-  .date { font-size: 11px; color: #555; margin-bottom: 16px; }
-
-  .divider { border: none; border-top: 1px solid #e2e2e2; margin-bottom: 14px; }
-
-  .recipient-role {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 11.5px;
-    font-weight: 600;
-    color: #1a1a2e;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: #000000;
     margin-bottom: 3px;
   }
 
-  .recipient-company { font-size: 10.5px; color: #666; margin-bottom: 18px; }
-
-  .salutation { font-size: 11px; color: #2f2f2f; margin-bottom: 14px; }
-
-  .letter-body { font-size: 11px; line-height: 1.8; color: #2f2f2f; text-align: justify; }
-  .letter-body p { margin-bottom: 14px; }
-  .letter-body strong { font-weight: 600; color: #1a1a2e; }
-
-  .closing { margin-top: 28px; }
-  .sign-off { font-size: 11px; color: #333; margin-bottom: 28px; }
-  .sig-name {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 12px;
-    font-weight: 600;
-    color: hsl(187, 74%, 32%);
+  .header-title {
+    font-size: 11px;
+    color: #000000;
+    margin-bottom: 5px;
   }
 
-  .footer {
-    margin-top: 32px;
-    padding: 12px 24px;
-    border-top: 1px solid #e2e2e2;
-    font-size: 9px;
-    color: #aaa;
+  .contact-row {
+    font-size: 10px;
+    color: #000000;
+  }
+
+  .contact-row a { color: #000000; text-decoration: none; }
+
+  /* ── DATE + RECIPIENT ── */
+  .meta-block {
+    margin-bottom: 20px;
+  }
+
+  .date {
+    font-size: 11px;
+    color: #000000;
+    margin-bottom: 14px;
+  }
+
+  .recipient-role {
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 1px;
+  }
+
+  .recipient-company {
+    font-size: 11px;
+    color: #000000;
+  }
+
+  /* ── SALUTATION ── */
+  .salutation {
+    font-size: 11px;
+    color: #000000;
+    margin-bottom: 14px;
+    margin-top: 18px;
+  }
+
+  /* ── LETTER BODY ── */
+  .letter-body {
+    font-size: 11px;
+    line-height: 1.75;
+    color: #000000;
+  }
+
+  .letter-body p {
+    margin-bottom: 13px;
+    text-align: left;
+  }
+
+  .letter-body p:last-child {
+    margin-bottom: 0;
+  }
+
+  .letter-body strong {
+    font-weight: bold;
+    color: #000000;
+  }
+
+  /* ── CLOSING ── */
+  .closing {
+    margin-top: 22px;
+  }
+
+  .sign-off {
+    font-size: 11px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+
+  .sig-name {
+    font-size: 12px;
+    font-weight: bold;
+    color: #000000;
     letter-spacing: 0.02em;
   }
 
+  /* ── PRINT ── */
   @media print {
     body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .page { padding: 26px 36px 26px; }
   }
 </style>
 </head>
@@ -157,43 +134,27 @@
 <div class="page">
 
   <div class="header">
-    <div class="header-top">
-      <h1>{{NAME}}</h1>
-      <div class="header-institution">
-        <div class="inst-name">{{INSTITUTION}}</div>
-        <div class="inst-detail">{{DEGREE}}</div>
-        <div class="inst-detail">{{INST_LOCATION}}</div>
-      </div>
-    </div>
+    <h1>{{NAME}}</h1>
     <div class="header-title">{{TITLE}}</div>
-    <div class="header-gradient"></div>
     <div class="contact-row">
-      <span>{{EMAIL}}</span>
-      <span class="sep">•</span>
-      <span>{{PHONE}}</span>
-      <span class="sep">•</span>
-      <a href="{{LINKEDIN_URL}}">{{LINKEDIN_DISPLAY}}</a>
-      <span class="sep">•</span>
-      <span>{{LOCATION}}</span>
+      {{EMAIL}} | {{PHONE}} | <a href="{{LINKEDIN_URL}}">{{LINKEDIN_DISPLAY}}</a> | {{LOCATION}}
     </div>
   </div>
 
-  <div class="body-wrap">
-    <div class="doc-meta">{{DOC_METADATA}}</div>
+  <div class="meta-block">
     <div class="date">{{DATE}}</div>
-    <hr class="divider">
     <div class="recipient-role">{{RECIPIENT_ROLE}}</div>
     <div class="recipient-company">{{COMPANY_FULL}}</div>
-    <hr class="divider">
-    <div class="salutation">{{SALUTATION}}</div>
-    <div class="letter-body">{{LETTER_BODY}}</div>
-    <div class="closing">
-      <div class="sign-off">Sincerely,</div>
-      <div class="sig-name">{{NAME}}</div>
-    </div>
   </div>
 
-  <div class="footer">{{DOC_METADATA}}</div>
+  <div class="salutation">{{SALUTATION}}</div>
+
+  <div class="letter-body">{{LETTER_BODY}}</div>
+
+  <div class="closing">
+    <div class="sign-off">Sincerely,</div>
+    <div class="sig-name">{{NAME}}</div>
+  </div>
 
 </div>
 </body>

@@ -52,8 +52,8 @@ CANDIDATE = {
             "name": "Robust AI-Generated Image Detection",
             "context": "EURECOM • 2026",
             "bullets": [
-                "Ranked #1 on private EURECOM leaderboard — fine-tuned CLIP ViT-L/14 (428M params) on 250K samples "
-                "spanning 25+ generator types; applied FP16/GradScaler for T4 GPU efficiency and 10-view TTA for OOD-robust inference.",
+                "Ranked 1st in EURECOM class leaderboard (private Kaggle, 0.791 AUC) and submitted to NTIRE 2026 @ CVPR CodaBench — "
+                "fine-tuned CLIP ViT-L/14 (428M params) on 250K samples spanning 25+ generator types; FP16/GradScaler on T4 GPU, 10-view TTA for OOD-robust inference.",
                 "Designed ablation experiments across epoch count, transformer block unfreezing depth (4/6/8 layers), LR, and augmentation; "
                 "proved 1-epoch fine-tuning preserves generalization better than extended re-training. Stack: PyTorch · OpenCLIP.",
             ],
@@ -77,9 +77,9 @@ CANDIDATE = {
         },
     ],
     "skills": {
-        "LLM & NLP":          "Transformers (CLIP ViT-L/14) · Autoregressive Models · Fine-tuning · TTA · Ensemble Methods · Hugging Face",
-        "ML Frameworks":      "PyTorch · TensorFlow · OpenCLIP · FP16 Mixed-Precision · GradScaler · Scikit-learn · Pandas · NumPy",
-        "Programming & DevOps": "Python (advanced) · SQL · Git · Linux · Matplotlib · Power BI",
+        "LLM & NLP":          "Transformers (CLIP ViT-L/14) | Autoregressive Models | Fine-tuning | TTA | Ensemble Methods | Hugging Face",
+        "ML Frameworks":      "PyTorch | TensorFlow | OpenCLIP | FP16 Mixed-Precision | Scikit-learn | Pandas | NumPy",
+        "Programming & DevOps": "Python (advanced) | SQL | Git | Linux | Matplotlib | Power BI",
     },
     "languages": "English (fluent) • French (fluent) • Arabic (native) • Spanish (intermediate)",
 }
@@ -173,9 +173,9 @@ COMPANY_BLACKLIST: list = [
 # 7 = "good fit or better" — adjust up (stricter) or down (more permissive).
 MIN_RELEVANCE_SCORE: int = 7
 RESULTS_PER_SEARCH = 10    # per country/keyword combo (Indeed + Glassdoor)
-DATE_POSTED        = "1"   # last 24 hours (Indeed)
-GLASSDOOR_DAYS_OLD = 1     # last 24 hours (Glassdoor)
-LINKEDIN_HOURS     = 86400 # last 24 hours in seconds (LinkedIn f_TPR param)
+DATE_POSTED        = "3"   # last 3 days (Indeed) — avoids missing jobs from same 24h window
+GLASSDOOR_DAYS_OLD = 3     # last 3 days (Glassdoor)
+LINKEDIN_HOURS     = 259200 # last 3 days in seconds (LinkedIn f_TPR param)
 WELLFOUND_MAX      = 30    # results per keyword (Wellfound — free actor, no date filter)
 MAX_JOB_AGE_DAYS   = 3     # drop jobs with posted_at older than this (post-scrape age filter)
 

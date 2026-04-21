@@ -146,16 +146,11 @@ async function generatePDF() {
     // Wait for fonts to load
     await page.evaluate(() => document.fonts.ready);
 
-    // Generate PDF
+    // Generate PDF — margins set to 0 so CSS padding controls all spacing
     const pdfBuffer = await page.pdf({
       format: format,
       printBackground: true,
-      margin: {
-        top: '0.6in',
-        right: '0.6in',
-        bottom: '0.6in',
-        left: '0.6in',
-      },
+      margin: { top: '0', right: '0', bottom: '0', left: '0' },
       preferCSSPageSize: false,
     });
 
