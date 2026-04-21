@@ -91,10 +91,74 @@ def _parse_json(text: str) -> dict:
 
 # ── Claude: generate resume content ──────────────────────────────────────────
 
+_CANDIDATE_FULL = """
+IDENTITY
+Name: Aymane Ait Dads | Email: Aymane.Ait-dads@eurecom.fr | Phone: +33 7 60 92 50 93
+LinkedIn: linkedin.com/in/aymane-ait-dads | Location: EURECOM, Sophia Antipolis, France
+
+EDUCATION
+- EURECOM, Sophia Antipolis, France — Engineering Degree in Data Science | Sep 2023 – Present
+  Master-level engineering program. Courses: Machine Learning, Deep Learning, Statistics,
+  Image Security, Cloud Computing, Web Applications, Computer Vision, NLP.
+- Ibn Timiya, Marrakech, Morocco — CPGE Mathematics & Physics | 2021 – 2023
+
+WORK EXPERIENCE
+- Orange Maroc, Casablanca | Data Science Intern | Jul – Aug 2024
+  * Built Random Forest + K-Means models on 100K+ fiber-optic network records (upload speed,
+    latency, jitter) to classify network quality across thousands of nodes
+  * Developed clustering pipeline mapping customer performance profiles to 5 commercial service
+    tiers; output used directly by the network optimization team
+  * Reduced manual analysis time by ~60% via automated feature engineering and model evaluation
+  * Delivered stakeholder presentations translating model outputs into maintenance recommendations
+  * Stack: Python, Scikit-learn, Pandas, Power BI
+
+PROJECTS (use these facts exactly — never invent)
+
+PROJECT 1: AI-Generated Image Detection — NTIRE 2026 @ CVPR (ImSecu Challenge)
+  Achievement: 1st place Kaggle leaderboard (0.791 AUC) out of 70+ international teams.
+               Top-77 NTIRE CodaBench robustness benchmark.
+  Technical:
+  - Backbone: CLIP ViT-L/14 (428M params, pretrained on 400M image-text pairs)
+  - Custom MLP head: 768→512→256→1, GELU activations, BatchNorm, Dropout
+  - Fine-tuning: unfroze last 4/6/8 transformer blocks, dual LR (2e-6 CLIP, 5e-4 head)
+  - Key finding: 1-epoch training (0.793 AUC) outperforms 4-epoch (0.767 AUC) — OOD generalization
+  - Ensemble: 3 models weighted by validation AUC; 10-view TTA (flips, crops, blur, resizes)
+  - Training: 250K images, 25+ generator types, T4 GPU, FP16 mixed precision, AdamW
+  - Stack: PyTorch, OpenCLIP, BCEWithLogitsLoss, Kaggle notebooks
+
+PROJECT 2: Anomalous Sound Detection — Industrial Equipment (EURECOM, 2025)
+  - Unsupervised fault detection for slide-rail machinery (no labeled anomalies)
+  - Transformer autoencoder on Mel spectrograms with SpecAugment
+  - Result: AUC 0.80 for predictive maintenance
+
+PROJECT 3: Aerial Cactus Detection (EURECOM, 2025)
+  - 17,500+ drone images, endangered species classification
+  - Benchmarked CNN, DenseNet121, hybrid CNN-Transformer
+  - Result: 99.8% accuracy, F1 = 0.999, ROC AUC = 1.0
+
+PROJECT 4: Twitter Sentiment Analysis (EURECOM, 2025)
+  - End-to-end NLP pipeline: tokenization → TF-IDF → word2vec → transformer fine-tuning
+  - Hyperparameter optimization for sentiment classification
+
+TECHNICAL SKILLS (only use these — do not invent)
+Programming: Python (expert), SQL, Bash
+ML/DL: PyTorch, TensorFlow, Scikit-learn, OpenCLIP, Hugging Face Transformers
+Computer Vision: CLIP, ViT, CNN, DenseNet, image classification
+NLP: text preprocessing, embeddings, sentiment analysis, transformer models
+AI/LLMs: Claude API, LLM orchestration, MCP server, tool-calling, RAG, prompt engineering, LangChain
+Data Science: Pandas, NumPy, Matplotlib, Seaborn, feature engineering, EDA, clustering, ensemble methods
+MLOps: Git, Linux, FP16 mixed precision, model evaluation, ablation studies, TTA, Kaggle GPU
+Cloud/Infra: Supabase, REST APIs, Docker (basic), PostgreSQL
+Visualization: Power BI, Matplotlib, Seaborn
+Languages: English (C1), French (C1), Arabic (native)
+"""
+
 _RESUME_SCHEMA = """{
-  "title": "short role descriptor | skill1 · skill2 · skill3",
-  "summary": "3-4 sentence paragraph, keyword-dense, first-person omitted, action verbs",
-  "competencies": ["tag1", "tag2", "tag3", "tag4", "tag5", "tag6", "tag7", "tag8"],
+  "title": "Role-specific descriptor | JD-keyword1 · JD-keyword2 · JD-keyword3",
+  "summary": "3-4 sentence paragraph. NO first person. NO 'passionate/motivated/dynamic'. Action verbs only.",
+  "competencies": ["verbatim-jd-keyword1", "verbatim-jd-keyword2", "verbatim-jd-keyword3",
+                   "verbatim-jd-keyword4", "verbatim-jd-keyword5", "verbatim-jd-keyword6",
+                   "verbatim-jd-keyword7", "verbatim-jd-keyword8"],
   "experience": [
     {
       "company": "Company Name",
@@ -102,20 +166,20 @@ _RESUME_SCHEMA = """{
       "period": "Mon YYYY – Mon YYYY",
       "location": "City, Country",
       "bullets": [
-        "Lead bullet with <strong>metric or keyword</strong> bolded",
-        "Second bullet",
-        "Third bullet",
-        "Fourth bullet"
+        "Action verb + what + <strong>measurable result or JD keyword</strong>",
+        "Action verb + what + metric",
+        "Action verb + what + metric",
+        "Action verb + what + metric"
       ]
     }
   ],
   "projects": [
     {
       "name": "Project Name",
-      "badge": "Context · Year · Achievement",
+      "badge": "Context · Year · Key Achievement",
       "bullets": [
-        "Lead bullet with <strong>key result</strong> bolded",
-        "Second bullet with tech detail"
+        "Action verb + what + <strong>key result with number</strong>",
+        "Technical detail using JD vocabulary"
       ],
       "tech": "Tech1 · Tech2 · Tech3"
     }
@@ -126,86 +190,119 @@ _RESUME_SCHEMA = """{
       "school": "School Name",
       "period": "Sep YYYY – Present",
       "location": "City, Country",
-      "desc": "Relevant coursework: ..."
+      "desc": "Relevant coursework: course1, course2, course3"
     }
   ],
   "skills": [
-    {"category": "Category Name", "items": "skill1 · skill2 · skill3"},
-    {"category": "Category Name", "items": "skill1 · skill2"}
-  ]
+    {"category": "Most-relevant-to-JD Category", "items": "jd-keyword1 · jd-keyword2 · skill3"},
+    {"category": "Second Category", "items": "skill1 · skill2 · skill3"},
+    {"category": "Third Category", "items": "skill1 · skill2"}
+  ],
+  "ats_keywords_matched": ["keyword1", "keyword2"],
+  "ats_keywords_missing": ["skill-not-in-profile"],
+  "country_flag": "OK or WARNING: US role — verify visa eligibility",
+  "tailoring_notes": "2-3 sentences on key changes made for this role"
 }"""
+
 
 def _call_resume_content(job: dict) -> dict:
     title   = job.get("title", "")
     company = job.get("company", "")
-    desc    = (job.get("description") or "")[:3000]
+    region  = job.get("region", "")
+    desc    = (job.get("description") or "")[:3500]
 
-    prompt = f"""You are writing a highly targeted resume for one specific internship application.
-Your goal: make the hiring manager feel this resume was written FOR this exact role.
+    prompt = f"""You are an expert ATS resume writer. Produce a perfectly ATS-optimized resume
+tailored to the specific role below. Follow every rule exactly.
 
-## Candidate CV (source of truth — never invent facts, only reformulate with JD vocabulary)
-{_cv_md()}
+━━━ CANDIDATE PROFILE (source of truth — never invent or change these facts) ━━━
+{_CANDIDATE_FULL}
 
-## Candidate profile & target roles
-{_profile_md()}
-
-## Target role
+━━━ TARGET ROLE ━━━
 Company: {company}
-Role: {title}
+Title: {title}
+Region: {region}
 Job description:
-{desc if desc else "(no description — infer from role title and company)"}
+{desc if desc else "(no description provided — infer from role title and company context)"}
 
-## Instructions — follow every rule exactly
+━━━ STEP 1 — KEYWORD EXTRACTION (do this internally first) ━━━
+Extract from the JD:
+1. Hard skills mentioned (Python, SQL, PyTorch, etc.)
+2. Domain words (computer vision, NLP, agentic, MLOps, etc.)
+3. Action verbs in responsibilities (evaluate, deploy, prototype, etc.)
+4. Qualifications listed (Master's, internship, 6 months, etc.)
+Every keyword the candidate genuinely has MUST appear VERBATIM in the resume.
+Synonyms are allowed only when they mean exactly the same thing (e.g. "segmentation" = "clustering").
 
-### 1. JD keyword extraction (do this first)
-Identify 8-10 specific technical terms, tools, and methods from this JD.
-Examples: "transformer fine-tuning", "production ML systems", "A/B testing", "time-series forecasting".
-Every one of these MUST appear naturally in the summary, bullets, or competencies.
+━━━ STEP 2 — SECTION RULES ━━━
 
-### 2. Title field
-Write a role descriptor that mirrors the JD language exactly.
-Example for an NLP role at {company}: "NLP Engineer | Transformer Fine-Tuning · Text Classification · LLM Deployment"
-NOT generic — specific to this company and role.
+TITLE: Mirror the JD language exactly. Not generic.
+Example for an NLP role: "NLP Research Engineer | Transformer Fine-Tuning · Text Classification · LLM Deployment"
 
-### 3. Summary (3-4 sentences)
-- Sentence 1: lead with your strongest proof point that directly maps to the top JD requirement
-- Sentence 2-3: two more specific achievements using JD vocabulary
-- Sentence 4: why {company} specifically (one genuine reason from the JD context)
-No filler phrases ("passionate about", "team player", "results-oriented").
+SUMMARY (3-4 sentences, STRICT):
+- Sentence 1: strongest proof point that maps directly to the #1 JD requirement
+- Sentence 2: second achievement using JD vocabulary with a number
+- Sentence 3: 2-3 skills verbatim from JD requirements
+- Sentence 4: availability + work authorization for {region}
+BANNED words: passionate, enthusiastic, dynamic, motivated, hardworking, leverage, spearheaded, pioneered
+NO first person (no "I" or "My")
 
-### 4. Experience bullets
-- Reorder ALL bullets within each role so the most JD-relevant one is first
-- Rewrite bullets to use exact JD terminology where truthful
-- Bold (<strong>) the single most impressive metric or JD keyword in each bullet
-- At least 2 bullets per role must directly reference skills/tools mentioned in the JD
+COMPETENCIES: 8 tags taken VERBATIM from the JD requirements. These are ATS scan targets.
 
-### 5. Projects
-- Select the 3 projects most directly relevant to THIS role (not generic relevance)
-- Rewrite the lead bullet of each project to emphasize the aspect most relevant to the JD
-- If the JD mentions a specific domain (CV, NLP, tabular data, etc.), front-load that project
+SKILLS SECTION:
+- Lead with the category most relevant to this job (if CV role → Computer Vision first; if NLP → NLP/Text first)
+- Every JD keyword the candidate has must appear here
+- Do NOT list skills not in the candidate profile
 
-### 6. Competencies
-- 8 tags taken VERBATIM from the JD requirements section
-- These must match what the recruiter's ATS will scan for
+EXPERIENCE BULLETS:
+- Format: Past-tense verb + what + measurable result
+- At least 3 out of 4 bullets must contain a number (%, rows, AUC, team size)
+- Reorder bullets: most JD-relevant first
+- Use exact JD terminology in at least 2 bullets
+- Bold (<strong>) the single most impressive metric or JD keyword per bullet
+- Max 4 bullets
 
-### 7. Hard rules
-- NEVER invent metrics, tools, or experience not in the CV
-- No em-dashes (use -), no smart quotes, action verbs, short sentences
-- Every section must feel written for {company} specifically, not recycled
+PROJECTS:
+- Select 3-4 most relevant to THIS role (not generic relevance)
+- Reorder: most relevant project first
+  * CV/vision role → Project 1 (NTIRE) first
+  * NLP/LLM role → Project 4 (Twitter) or Project 1 first depending on JD
+  * Audio/signal role → Project 2 (anomaly detection) first
+  * General ML → Project 1 first
+- Rewrite lead bullet to emphasize the JD-relevant aspect
+- Always state the competition result verbatim: "1st place out of 70+ international teams"
+- Max 3 bullets per project
 
-## JSON Schema
+EDUCATION: include relevant coursework only if courses match JD requirements.
+
+━━━ STEP 3 — HARD RULES ━━━
+- NEVER invent metrics, tools, projects, or experience not in the profile above
+- No em-dashes (use -), no smart quotes, no Unicode bullets (only plain hyphens in text)
+- No "References available upon request"
+- No "etc." in bullets — be specific or cut
+- Do not repeat the same action verb twice in the same section
+- Do not include photo, nationality, date of birth, or marital status
+
+━━━ OUTPUT ━━━
+Return ONLY valid JSON matching this exact schema. No markdown fences, no explanation.
+
 {_RESUME_SCHEMA}
-
-Return ONLY valid JSON. No markdown fences, no explanation.
 """
 
     msg = _get_client().messages.create(
         model=CLAUDE_MODEL,
-        max_tokens=3000,
+        max_tokens=3500,
         messages=[{"role": "user", "content": prompt}],
     )
     record_usage(msg.usage.input_tokens, msg.usage.output_tokens, label="resume")
-    return _parse_json(msg.content[0].text)
+    raw = _parse_json(msg.content[0].text)
+    # Log ATS metadata without breaking the pipeline
+    if raw.get("ats_keywords_missing"):
+        logger.info("  ATS missing keywords: %s", raw["ats_keywords_missing"])
+    if raw.get("country_flag", "").startswith("WARNING"):
+        logger.warning("  %s", raw["country_flag"])
+    if raw.get("tailoring_notes"):
+        logger.info("  Tailoring: %s", raw["tailoring_notes"])
+    return raw
 
 
 # ── Claude: generate cover letter content ────────────────────────────────────

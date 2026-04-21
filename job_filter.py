@@ -203,74 +203,75 @@ def _title_prescreens(title: str) -> Tuple[bool, bool]:
     return clear_match, clear_reject
 
 
-# Compact candidate snapshot — kept short to minimise token usage
-_CANDIDATE_SNAPSHOT = (
-    f"Candidate: {CANDIDATE['degree']} at {CANDIDATE['school']}. "
-    f"Experience: {CANDIDATE['experience'][:260]}. "
-    f"Key skills: Python, PyTorch, TensorFlow, Transformers/CLIP fine-tuning, "
-    f"ML pipelines, NLP, Computer Vision, Data Science, SQL, Pandas, Scikit-learn."
-)
+# Candidate snapshot — specific enough that Claude can judge true fit, not just topic match
+_CANDIDATE_SNAPSHOT = """Candidate: Aymane Ait Dads — 3rd-year Data Science Engineering student at EURECOM
+(Master-level, Sophia Antipolis). Target: ML/AI/Data Science INTERNSHIP only (3-6 months).
+Strongest areas: deep learning, computer vision (CLIP/ViT fine-tuning, ranked 1st in NTIRE 2026
+international challenge), NLP, ML pipelines, Python/PyTorch. Looking for research-oriented or
+applied ML roles. NOT suitable: pure data analyst/BI roles, business intelligence without ML,
+data entry, SQL-only roles, finance/banking data roles, marketing analytics, non-tech companies
+using "data" loosely."""
 
 
 def score_job(job: dict) -> Tuple[int, str]:
     """
-    Score a single job 1–10 for compatibility.
+    Score a single job 1–10 for compatibility with the candidate.
     Returns (score, reason).
-    Never returns a score that silently drops a job on error — defaults to 8.
+
+    Scoring logic:
+    - Fast reject: clear_reject title → score 2 (no Claude call)
+    - Fast reject: no description AND title doesn't match → score 2
+    - Everything else → Claude scores it with full context
+    - On any Claude failure → score 8 (never silently drop)
     """
     title   = job.get("title",   "") or ""
     company = job.get("company", "") or ""
-    desc    = (job.get("description") or "")[:500]
+    desc    = (job.get("description") or "")[:600]
 
-    # ── Step 1: fast title pre-screen (no API call) ───────────────────────────
+    # ── Step 1: fast reject — unrelated or senior title (free, no API) ────────
     clear_match, clear_reject = _title_prescreens(title)
-
-    if clear_match:
-        logger.debug("  title-match '%s' → auto 8", title)
-        return 8, "title clearly matches DS/ML/AI internship"
 
     if clear_reject:
         logger.debug("  title-reject '%s' → auto 2", title)
-        return 2, "title indicates unrelated field"
+        return 2, "title indicates unrelated field or senior/permanent role"
 
-    # ── Step 2: Claude scoring for ambiguous titles ───────────────────────────
-    # Budget gate
+    # ── Step 2: no description AND no clear title match → skip ───────────────
+    if len(desc.strip()) < 40 and not clear_match:
+        logger.debug("  no desc, ambiguous title '%s' → auto 3", title)
+        return 3, "no description, ambiguous title"
+
+    # ── Step 3: Claude scoring — always, for everything else ─────────────────
+    # (including clear title matches — a "Data Science Intern" at a bank or
+    # marketing agency is NOT a good fit, and the description reveals this)
     alert_level, _ = check_budget_alert()
     if alert_level == "danger":
         return 8, "budget exhausted — included by default"
 
-    # If description is empty, evaluate on title alone with a lenient prompt
-    if len(desc.strip()) < 60:
-        prompt = (
-            f"{_CANDIDATE_SNAPSHOT}\n\n"
-            f"Rate this role for the candidate (1-10).\n"
-            f"IMPORTANT RULES:\n"
-            f"- Score 1 if the role is senior/permanent (senior, lead, principal, staff, "
-            f"director, manager, FTC, permanent, full-time) — candidate is a student seeking internships only.\n"
-            f"- Score 1 if the role is unrelated to data/ML/AI/tech.\n"
-            f"Job title: {title} at {company}\n\n"
-            f"Score: 8-10 = DS/ML/AI intern or entry-level fit, 5-7 = adjacent/ambiguous, "
-            f"1-4 = senior/permanent role OR clearly unrelated.\n"
-            f'Reply JSON only: {{"score": <1-10>, "reason": "<max 12 words>"}}'
-        )
-    else:
-        prompt = (
-            f"{_CANDIDATE_SNAPSHOT}\n\n"
-            f"Rate this role for the candidate (1-10).\n"
-            f"IMPORTANT RULES:\n"
-            f"- Score 1 if the role is senior/permanent (senior, lead, principal, staff, "
-            f"director, manager, FTC, permanent, full-time) — candidate is a student seeking internships only.\n"
-            f"- Score 1 if the role is unrelated to data/ML/AI/tech.\n"
-            f"Job: {title} at {company}\nDescription: {desc}\n\n"
-            f"8-10 = DS/ML/AI intern/entry-level strong fit, 5-7 = data-adjacent intern, "
-            f"1-4 = senior/permanent role OR unrelated.\n"
-            f'Reply JSON only: {{"score": <1-10>, "reason": "<max 12 words>"}}'
-        )
+    desc_section = f"Description (first 600 chars): {desc}" if desc.strip() else "(no description)"
+
+    prompt = (
+        f"{_CANDIDATE_SNAPSHOT}\n\n"
+        f"Rate this internship offer for the candidate (1-10). Be strict.\n\n"
+        f"SCORING RULES:\n"
+        f"- Score 9-10: ML/AI/CV/NLP research or applied internship at a tech company or research lab. "
+        f"Core tasks involve model training, fine-tuning, or ML system building.\n"
+        f"- Score 7-8: Data science internship with real ML component (not just SQL/BI). "
+        f"The candidate would genuinely learn and grow.\n"
+        f"- Score 5-6: Data analyst / BI / analytics intern. Some Python/SQL but little to no ML. "
+        f"Adjacent but not ideal.\n"
+        f"- Score 3-4: Data role at a non-tech company (bank, consulting, FMCG) with unclear ML content, "
+        f"or a generic 'data intern' with no ML mentioned.\n"
+        f"- Score 1-2: Senior/permanent role, unrelated field, pure business analytics, "
+        f"marketing data, SQL-only, or clearly not an internship.\n\n"
+        f"Job: {title} at {company}\n"
+        f"{desc_section}\n\n"
+        f'Reply JSON only: {{"score": <1-10>, "reason": "<max 15 words>"}}'
+    )
 
     try:
         msg = _get_client().messages.create(
             model=CLAUDE_MODEL,
-            max_tokens=60,
+            max_tokens=80,
             messages=[{"role": "user", "content": prompt}],
         )
         record_usage(msg.usage.input_tokens, msg.usage.output_tokens, label="filter")
