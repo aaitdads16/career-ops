@@ -1,33 +1,56 @@
 """
-callback_handler.py — Process Telegram callback queries from inline buttons.
+callback_handler.py — Telegram callback queries + bot commands.
 
 Two usage modes:
-
   1. One-shot flush (called at the start of every main.py run):
        from callback_handler import process_pending_callbacks
        process_pending_callbacks()
 
-  2. Persistent real-time polling (run bot.py separately on your Mac):
+  2. Persistent real-time polling (run bot.py locally):
        python3 bot.py
 
-Handled callbacks:
-  - applied:{job_id}  → marks job as Applied in tracker, sends confirmation
+── Callbacks ────────────────────────────────────────────────────────────────
+  applied:{job_id}     → marks job Applied in tracker; deferred if not found yet
+
+── Bug: timing race fix ─────────────────────────────────────────────────────
+  The main workflow sends Telegram messages BEFORE committing tracker.xlsx.
+  If the user taps "✅ Applied" within the same 15-min window, the callback
+  workflow can't find the job.  Fix: save to data/pending_apply.json and retry
+  on every subsequent run until the job appears in the tracker (or 10 retries).
+
+── Bot Commands ─────────────────────────────────────────────────────────────
+  /help                       → command list
+  /status                     → tracker summary
+  /stats                      → full analytics funnel
+  /budget                     → Anthropic + Apify credit balance
+  /pause [Nh | Nd]            → pause scraping (default 24h, max 168h)
+  /resume                     → cancel pause
+  /search [keyword]           → queue a targeted search for the next main run
+  /followup                   → show applications needing follow-up (≥7 days)
+  /setstatus [job_id] [status] → update job status in tracker
 """
 
+import json
 import logging
 import time
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
 
-from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, DATA_DIR
+from config import DATA_DIR, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
 from notifier import _answer_callback, _edit_message_text, _send
-from tracker_manager import mark_applied
+from tracker_manager import create_stub, mark_applied, update_status
 
 logger = logging.getLogger(__name__)
 _API = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}"
 
-_OFFSET_FILE = DATA_DIR / "telegram_offset.txt"
+_OFFSET_FILE       = DATA_DIR / "telegram_offset.txt"
+_PENDING_APPLY_FILE = DATA_DIR / "pending_apply.json"
+_PAUSE_FILE        = DATA_DIR / "pause_until.txt"
+_SEARCH_TRIGGER    = DATA_DIR / "search_trigger.json"
+
+_VALID_STATUSES = ["Applied", "Waiting to apply", "Rejected", "Interview", "Offer"]
 
 
 # ── Offset persistence ────────────────────────────────────────────────────────
@@ -46,56 +69,455 @@ def _save_offset(offset: int) -> None:
         logger.warning("Could not save Telegram offset: %s", exc)
 
 
+# ── Deferred apply queue ──────────────────────────────────────────────────────
+
+def _load_pending() -> list:
+    try:
+        return json.loads(_PENDING_APPLY_FILE.read_text()) if _PENDING_APPLY_FILE.exists() else []
+    except Exception:
+        return []
+
+
+def _save_pending(entries: list) -> None:
+    try:
+        _PENDING_APPLY_FILE.write_text(json.dumps(entries, indent=2))
+    except Exception as exc:
+        logger.warning("Could not save pending_apply: %s", exc)
+
+
+def _drain_pending_queue() -> int:
+    """
+    Retry mark_applied for every entry in pending_apply.json.
+    On success: edit the Telegram message to show ✅ APPLIED.
+    On failure after 10 retries: give up and notify.
+    Returns number of entries resolved.
+    """
+    entries = _load_pending()
+    if not entries:
+        return 0
+
+    still_pending = []
+    resolved = 0
+
+    for entry in entries:
+        job_id       = entry.get("job_id", "")
+        msg_id       = entry.get("msg_id")
+        original_text = entry.get("original_text", "")
+        applied_at   = entry.get("applied_at", time.strftime("%Y-%m-%d %H:%M"))
+        retry_count  = entry.get("retry_count", 0)
+
+        if retry_count >= 10:
+            logger.warning("Giving up on pending apply for %s after 10 retries", job_id)
+            _send(
+                f"⚠️ Could not mark <code>{job_id}</code> as Applied after 10 retries.\n"
+                f"Use /setstatus {job_id} Applied or check the tracker manually."
+            )
+            continue
+
+        # Try the tracker first; if not there, create a stub so it's never lost
+        success = mark_applied(job_id, notes=f"Applied via Telegram {applied_at}")
+        if not success:
+            # Job genuinely not in tracker yet — create a minimal stub row
+            created = create_stub(job_id, status="Applied",
+                                  notes=f"Applied via Telegram {applied_at} (stub — main run will fill details)")
+            success = created
+
+        if success:
+            logger.info("Pending apply resolved: %s", job_id)
+            if msg_id and original_text:
+                new_text = f"✅ <b>APPLIED</b> · {applied_at}\n\n{original_text}"
+                _edit_message_text(msg_id, new_text[:4000])
+            resolved += 1
+            # Record in follow-up tracker
+            try:
+                _record_application(job_id, original_text, applied_at)
+            except Exception:
+                pass
+        else:
+            entry["retry_count"] = retry_count + 1
+            still_pending.append(entry)
+
+    _save_pending(still_pending)
+    return resolved
+
+
+def _record_application(job_id: str, header_text: str, applied_at: str) -> None:
+    """Append application to data/applications.json for follow-up tracking."""
+    apps_file = DATA_DIR / "applications.json"
+    try:
+        apps = json.loads(apps_file.read_text()) if apps_file.exists() else []
+    except Exception:
+        apps = []
+
+    # Don't duplicate
+    if any(a.get("job_id") == job_id for a in apps):
+        return
+
+    # Extract company + title from header text (best-effort)
+    title, company = "", ""
+    if header_text:
+        import re
+        m = re.search(r"<b>(.*?) @ (.*?)</b>", header_text)
+        if m:
+            title, company = m.group(1), m.group(2)
+
+    apps.append({
+        "job_id":     job_id,
+        "title":      title,
+        "company":    company,
+        "applied_at": applied_at,
+        "status":     "Applied",
+        "followup_7_sent":  False,
+        "followup_14_sent": False,
+    })
+    apps_file.write_text(json.dumps(apps, indent=2))
+
+
 # ── Callback dispatch ─────────────────────────────────────────────────────────
 
 def _handle_callback(cq: dict) -> None:
-    """Process a single callback_query object."""
-    cq_id   = cq.get("id", "")
-    data    = cq.get("data", "")
-    msg     = cq.get("message", {})
-    msg_id  = msg.get("message_id")
+    cq_id         = cq.get("id", "")
+    data          = cq.get("data", "")
+    msg           = cq.get("message", {})
+    msg_id        = msg.get("message_id")
     original_text = msg.get("text", "")
 
     logger.info("Callback: %s", data)
 
     if data.startswith("applied:"):
-        job_id = data[len("applied:"):].strip()
+        job_id  = data[len("applied:"):].strip()
         now_str = time.strftime("%Y-%m-%d %H:%M")
         success = mark_applied(job_id, notes=f"Applied via Telegram {now_str}")
 
         if success:
             _answer_callback(cq_id, "✅ Marked as Applied!")
-            # Edit the original header message to show confirmation
             if msg_id and original_text:
-                new_text = f"✅ <b>APPLIED</b> · {now_str}\n\n{original_text}"
-                _edit_message_text(msg_id, new_text[:4000])
-            else:
-                _send(f"✅ <b>Marked as Applied</b> — job ID <code>{job_id}</code>")
+                _edit_message_text(msg_id, f"✅ <b>APPLIED</b> · {now_str}\n\n{original_text}"[:4000])
+            try:
+                _record_application(job_id, original_text, now_str)
+            except Exception:
+                pass
         else:
-            _answer_callback(cq_id, "⚠️ Job not found in tracker")
-            _send(f"⚠️ Could not find job <code>{job_id}</code> in tracker.")
+            # Job not in tracker yet (timing race) — queue for retry
+            _answer_callback(cq_id, "⏳ Queued — will confirm shortly")
+            entry = {
+                "job_id":       job_id,
+                "msg_id":       msg_id,
+                "original_text": original_text,
+                "applied_at":   now_str,
+                "retry_count":  0,
+            }
+            pending = _load_pending()
+            if not any(p.get("job_id") == job_id for p in pending):
+                pending.append(entry)
+                _save_pending(pending)
+            logger.info("Applied queued for retry: %s", job_id)
 
     else:
-        # Unknown callback — acknowledge to prevent spinner
         _answer_callback(cq_id, "")
         logger.warning("Unknown callback data: %s", data)
+
+
+# ── Bot commands ──────────────────────────────────────────────────────────────
+
+def _handle_message(msg: dict) -> None:
+    """Handle a text message with a / command."""
+    text    = (msg.get("text") or "").strip()
+    chat_id = str((msg.get("chat") or {}).get("id", ""))
+
+    if chat_id and TELEGRAM_CHAT_ID and chat_id != str(TELEGRAM_CHAT_ID):
+        return  # ignore messages from other chats
+
+    if not text.startswith("/"):
+        return
+
+    # Strip bot-username suffix (/cmd@MyBot → /cmd)
+    parts   = text.split(None, 2)
+    command = parts[0].lower().split("@")[0]
+    args    = parts[1:] if len(parts) > 1 else []
+
+    logger.info("Command: %s  args=%s", command, args)
+
+    dispatch = {
+        "/help":      lambda: _cmd_help(),
+        "/start":     lambda: _cmd_help(),
+        "/status":    lambda: _cmd_status(),
+        "/stats":     lambda: _cmd_stats(),
+        "/budget":    lambda: _cmd_budget(),
+        "/pause":     lambda: _cmd_pause(args),
+        "/resume":    lambda: _cmd_resume(),
+        "/search":    lambda: _cmd_search(args),
+        "/followup":  lambda: _cmd_followup(),
+        "/setstatus": lambda: _cmd_setstatus(args),
+    }
+
+    handler = dispatch.get(command)
+    if handler:
+        try:
+            handler()
+        except Exception as exc:
+            logger.error("Command %s failed: %s", command, exc)
+            _send(f"⚠️ Error running {command}: {exc}")
+    else:
+        _send(f"Unknown command: <code>{command}</code>\nType /help for available commands.")
+
+
+# ── Command implementations ───────────────────────────────────────────────────
+
+def _cmd_help():
+    _send(
+        "🤖 <b>Career Ops — Command Reference</b>\n\n"
+        "<b>Tracker</b>\n"
+        "/status — Summary: applied, waiting, interviews, offers\n"
+        "/stats — Full analytics funnel by source &amp; region\n"
+        "/setstatus [job_id] [status] — Update a job's status\n"
+        "  Valid: <code>Applied</code> · <code>Waiting to apply</code> · <code>Rejected</code> · <code>Interview</code> · <code>Offer</code>\n\n"
+        "<b>Follow-ups</b>\n"
+        "/followup — List applications needing a follow-up (≥7 days, no response)\n\n"
+        "<b>Scraping</b>\n"
+        "/pause [24h | 48h | 7d] — Pause scraping (default: 24h)\n"
+        "/resume — Cancel an active pause\n"
+        "/search [keyword] — Queue a one-off search for the next scheduled run\n\n"
+        "<b>Budget</b>\n"
+        "/budget — Anthropic &amp; Apify credit balance\n\n"
+        "⏰ Scheduled runs: <b>8:00 AM</b> and <b>8:00 PM</b> Paris time."
+    )
+
+
+def _cmd_status():
+    from tracker_manager import get_all_jobs
+    jobs = get_all_jobs()
+    if not jobs:
+        _send("📊 <b>Status</b>\n\nTracker is empty — no jobs yet.")
+        return
+
+    total     = len(jobs)
+    applied   = sum(1 for j in jobs if (j.get("Status") or "").lower() == "applied")
+    waiting   = sum(1 for j in jobs if (j.get("Status") or "").lower() == "waiting to apply")
+    rejected  = sum(1 for j in jobs if (j.get("Status") or "").lower() == "rejected")
+    interview = sum(1 for j in jobs if (j.get("Status") or "").lower() == "interview")
+    offer     = sum(1 for j in jobs if (j.get("Status") or "").lower() == "offer")
+
+    recent_applied = [j for j in jobs if (j.get("Status") or "").lower() == "applied"][-3:]
+    recent_lines = "\n".join(
+        f"  • {j.get('Job Title', '')[:35]} @ {j.get('Company', '')[:20]}"
+        for j in reversed(recent_applied)
+    )
+
+    pause_line = ""
+    if _PAUSE_FILE.exists():
+        try:
+            until_str = _PAUSE_FILE.read_text().strip()
+            until = datetime.fromisoformat(until_str)
+            if until > datetime.now(tz=timezone.utc):
+                pause_line = f"\n\n⏸️ Scraping paused until {until.strftime('%Y-%m-%d %H:%M UTC')}"
+        except Exception:
+            pass
+
+    _send(
+        f"📊 <b>Tracker Status</b>\n\n"
+        f"📁 Total found: <b>{total}</b>\n"
+        f"✅ Applied: <b>{applied}</b>\n"
+        f"⏳ Waiting: <b>{waiting}</b>\n"
+        f"🎯 Interview: <b>{interview}</b>\n"
+        f"🎉 Offer: <b>{offer}</b>\n"
+        f"❌ Rejected: <b>{rejected}</b>"
+        + (f"\n\n<b>Last applied:</b>\n{recent_lines}" if recent_lines else "")
+        + pause_line
+    )
+
+
+def _cmd_stats():
+    from analytics import generate_analytics_report
+    generate_analytics_report()
+
+
+def _cmd_budget():
+    from credit_monitor import get_apify_usage, get_today_summary
+    s = get_today_summary()
+    a = get_apify_usage()
+
+    acct_rem   = s.get("account_remaining_usd", 0)
+    acct_total = s.get("account_total_usd", 0)
+    acct_spent = s.get("account_spent_usd", 0)
+    pct_left   = (acct_rem / acct_total * 100) if acct_total else 0
+    bar        = "🟢" if pct_left >= 50 else "🟡" if pct_left >= 20 else "🔴"
+
+    msg = (
+        f"💳 <b>Budget</b>\n\n"
+        f"{bar} Anthropic: <b>${acct_rem:.2f}</b> remaining of ${acct_total:.2f}\n"
+        f"  All-time spent: ${acct_spent:.2f}  ({pct_left:.0f}% left)\n"
+        f"  Today: ${s.get('cost_usd', 0):.4f} in {s.get('calls', 0)} API calls\n"
+    )
+    if a:
+        apify_bar = "🟢" if a["pct_used"] < 50 else "🟡" if a["pct_used"] < 80 else "🔴"
+        msg += (
+            f"\n{apify_bar} Apify: <b>${a['remaining_usd']:.2f}</b> remaining\n"
+            f"  ${a['used_usd']:.2f} / ${a['limit_usd']:.2f} this month ({a['pct_used']:.0f}% used)"
+        )
+    _send(msg)
+
+
+def _cmd_pause(args: list):
+    duration_str = args[0] if args else "24h"
+    hours = 24
+    try:
+        if duration_str.endswith("h"):
+            hours = int(duration_str[:-1])
+        elif duration_str.endswith("d"):
+            hours = int(duration_str[:-1]) * 24
+        elif duration_str.isdigit():
+            hours = int(duration_str)
+    except ValueError:
+        pass
+    hours = min(max(hours, 1), 168)
+
+    until = datetime.now(tz=timezone.utc) + timedelta(hours=hours)
+    _PAUSE_FILE.write_text(until.isoformat())
+    _send(
+        f"⏸️ <b>Scraping paused</b> for <b>{hours}h</b>\n"
+        f"Resumes: {until.strftime('%Y-%m-%d %H:%M UTC')}\n"
+        f"Use /resume to cancel early."
+    )
+
+
+def _cmd_resume():
+    if _PAUSE_FILE.exists():
+        _PAUSE_FILE.unlink()
+        _send("▶️ <b>Pause cancelled</b> — scraping resumes at the next scheduled run.")
+    else:
+        _send("ℹ️ Scraping is not paused.")
+
+
+def _cmd_search(args: list):
+    keyword = " ".join(args).strip() if args else ""
+    if not keyword:
+        _send(
+            "Usage: /search [keyword]\n"
+            "Example: /search reinforcement learning intern\n\n"
+            "The keyword will be added to the next scheduled run."
+        )
+        return
+    trigger = {"keyword": keyword, "queued_at": time.strftime("%Y-%m-%d %H:%M UTC")}
+    _SEARCH_TRIGGER.write_text(json.dumps(trigger))
+    _send(
+        f"🔍 <b>Search queued:</b> <i>{keyword}</i>\n"
+        f"Will run at the next scheduled scrape.\n"
+        f"Results will appear as normal offer notifications."
+    )
+
+
+def _cmd_followup():
+    apps_file = DATA_DIR / "applications.json"
+    if not apps_file.exists():
+        _send("📭 No follow-up data yet. Mark some offers as Applied first.")
+        return
+
+    try:
+        apps = json.loads(apps_file.read_text())
+    except Exception:
+        _send("⚠️ Could not read applications.json.")
+        return
+
+    now = datetime.now(tz=timezone.utc)
+    due = []
+    for app in apps:
+        if app.get("status", "") in ("Interview", "Offer", "Rejected"):
+            continue
+        try:
+            applied_at = datetime.fromisoformat(app.get("applied_at", ""))
+            # Ensure timezone-aware
+            if applied_at.tzinfo is None:
+                applied_at = applied_at.replace(tzinfo=timezone.utc)
+            days_since = (now - applied_at).days
+            if days_since >= 7:
+                due.append((days_since, app))
+        except Exception:
+            pass
+
+    if not due:
+        _send("✅ No pending follow-ups — all applications are within 7 days or have responses.")
+        return
+
+    due.sort(key=lambda x: x[0], reverse=True)
+    lines = [f"📬 <b>Pending Follow-ups ({len(due)})</b>\n"]
+    for days_ago, app in due[:10]:
+        label = "🔴" if days_ago >= 14 else "🟡"
+        lines.append(
+            f"{label} <b>{app.get('title','?')[:35]}</b> @ {app.get('company','?')[:20]}\n"
+            f"   Applied {days_ago} days ago · <code>{app.get('job_id','')}</code>"
+        )
+    if len(due) > 10:
+        lines.append(f"\n...and {len(due) - 10} more.")
+    _send("\n\n".join(lines))
+
+
+def _cmd_setstatus(args: list):
+    if len(args) < 2:
+        _send(
+            "Usage: /setstatus [job_id] [status]\n"
+            "Example: /setstatus linkedin_123 Interview\n\n"
+            "Valid statuses:\n"
+            "  Applied · Waiting to apply · Rejected · Interview · Offer"
+        )
+        return
+
+    job_id    = args[0]
+    status_in = " ".join(args[1:])
+
+    matched = next(
+        (s for s in _VALID_STATUSES if s.lower() == status_in.lower()),
+        None
+    )
+    if not matched:
+        _send(
+            f"❌ Invalid status: <code>{status_in}</code>\n"
+            f"Valid: {' · '.join(_VALID_STATUSES)}"
+        )
+        return
+
+    success = update_status(job_id, matched, notes=f"Status set via Telegram command")
+    if success:
+        _send(f"✅ <code>{job_id}</code> → <b>{matched}</b>")
+        # Update applications.json if it exists
+        if matched in ("Interview", "Offer", "Rejected"):
+            _update_app_status(job_id, matched)
+    else:
+        _send(
+            f"⚠️ Job <code>{job_id}</code> not found in tracker.\n"
+            f"Check the dashboard or use /status to see available IDs."
+        )
+
+
+def _update_app_status(job_id: str, new_status: str) -> None:
+    """Sync status change back into applications.json."""
+    apps_file = DATA_DIR / "applications.json"
+    if not apps_file.exists():
+        return
+    try:
+        apps = json.loads(apps_file.read_text())
+        for app in apps:
+            if app.get("job_id") == job_id:
+                app["status"] = new_status
+        apps_file.write_text(json.dumps(apps, indent=2))
+    except Exception:
+        pass
 
 
 # ── Update fetcher ────────────────────────────────────────────────────────────
 
 def _get_updates(offset: int, timeout: int = 0) -> list:
-    """
-    Fetch updates from Telegram.
-    timeout=0  → instant (for one-shot flush)
-    timeout>0  → long-poll (for persistent bot.py loop)
-    """
     if not TELEGRAM_BOT_TOKEN:
         return []
     try:
         r = requests.get(
             f"{_API}/getUpdates",
-            params={"offset": offset, "timeout": timeout, "allowed_updates": ["callback_query"]},
-            timeout=timeout + 5,
+            params={
+                "offset":          offset,
+                "timeout":         timeout,
+                "allowed_updates": ["callback_query", "message"],
+            },
+            timeout=timeout + 10,
         )
         r.raise_for_status()
         return r.json().get("result", [])
@@ -108,14 +530,18 @@ def _get_updates(offset: int, timeout: int = 0) -> list:
 
 def process_pending_callbacks() -> int:
     """
-    One-shot flush: drain all queued callback_queries without waiting.
-    Called at the start of main.py. Returns number of callbacks processed.
+    One-shot flush: drain all queued updates + retry deferred applies.
+    Called at the start of main.py. Returns number of items processed.
     """
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         return 0
 
-    offset   = _load_offset()
-    updates  = _get_updates(offset, timeout=0)
+    # First: retry any previously deferred applied callbacks
+    resolved = _drain_pending_queue()
+
+    # Then: process new updates
+    offset    = _load_offset()
+    updates   = _get_updates(offset, timeout=0)
     processed = 0
 
     for upd in updates:
@@ -125,27 +551,34 @@ def process_pending_callbacks() -> int:
                 _handle_callback(upd["callback_query"])
                 processed += 1
             except Exception as exc:
-                logger.error("Callback handling error: %s", exc)
+                logger.error("Callback error: %s", exc)
+        elif "message" in upd:
+            try:
+                _handle_message(upd["message"])
+                processed += 1
+            except Exception as exc:
+                logger.error("Message error: %s", exc)
 
     if updates:
         _save_offset(offset)
 
-    if processed:
-        logger.info("Processed %d pending Telegram callback(s).", processed)
-    return processed
+    total = resolved + processed
+    if total:
+        logger.info("Processed %d update(s) (%d deferred resolved, %d new).", total, resolved, processed)
+    return total
 
 
 def run_polling_loop(poll_timeout: int = 30) -> None:
-    """
-    Persistent long-polling loop. Blocks forever (run from bot.py).
-    Ctrl+C to stop.
-    """
+    """Persistent long-polling loop. Blocks forever (run from bot.py). Ctrl+C to stop."""
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         logger.error("Telegram not configured — bot cannot start.")
         return
 
     offset = _load_offset()
     logger.info("Bot polling started (timeout=%ds). Press Ctrl+C to stop.", poll_timeout)
+
+    # Drain deferred queue on startup
+    _drain_pending_queue()
 
     while True:
         try:
@@ -157,6 +590,11 @@ def run_polling_loop(poll_timeout: int = 30) -> None:
                         _handle_callback(upd["callback_query"])
                     except Exception as exc:
                         logger.error("Callback error: %s", exc)
+                elif "message" in upd:
+                    try:
+                        _handle_message(upd["message"])
+                    except Exception as exc:
+                        logger.error("Message error: %s", exc)
             if updates:
                 _save_offset(offset)
         except KeyboardInterrupt:

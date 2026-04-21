@@ -15,7 +15,7 @@ Or triggered automatically from main.py every Sunday.
 
 import logging
 from collections import Counter, defaultdict
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from notifier import _send
 from tracker_manager import get_all_jobs
@@ -122,6 +122,106 @@ def generate_analytics_report() -> None:
 
     _send("\n".join(parts))
     logger.info("Analytics report sent to Telegram.")
+
+
+def analyze_rejections() -> None:
+    """
+    Claude analysis of rejection patterns — triggered when rejection count crosses 5.
+    Sends a targeted Telegram report with actionable targeting advice.
+    Saves result to data/rejection_analysis.txt for dashboard display.
+    """
+    from config import ANTHROPIC_API_KEY, CLAUDE_MODEL, DATA_DIR
+    from credit_monitor import check_budget_alert, record_usage
+    import anthropic
+
+    alert_level, _ = check_budget_alert()
+    if alert_level == "danger":
+        logger.warning("Budget exhausted — skipping rejection analysis.")
+        return
+
+    jobs = get_all_jobs()
+    rejected = [j for j in jobs if (j.get("Status") or "").lower() == "rejected"]
+
+    if len(rejected) < 5:
+        logger.info("Rejection analysis: only %d rejections — need ≥5.", len(rejected))
+        return
+
+    # Build compact rejection summary
+    lines = []
+    for j in rejected:
+        lines.append(
+            f"Title: {j.get('Job Title','?')} | Company: {j.get('Company','?')} "
+            f"| Location: {j.get('Location','?')} | Region: {j.get('Region','?')} "
+            f"| Source: {j.get('Source','?')}"
+        )
+    rejection_text = "\n".join(lines[:40])  # cap at 40 rows
+
+    prompt = (
+        f"You are analyzing {len(rejected)} internship rejections for a "
+        f"Data Science / ML candidate (EURECOM engineer, strong PyTorch / LLM fine-tuning / CV).\n\n"
+        f"Rejection data:\n{rejection_text}\n\n"
+        f"Analyze and answer:\n"
+        f"1. PATTERNS: What company types, locations, or role titles reject most?\n"
+        f"2. BLIND SPOTS: Is there a profile mismatch the candidate keeps targeting?\n"
+        f"3. PIVOT: Which 2-3 specific adjustments would reduce rejections "
+        f"   (different keywords, different company stage, different region, different role angle)?\n\n"
+        f"Format as Telegram HTML (<b> for bold, - for bullets). "
+        f"Be direct and data-driven. Under 300 words."
+    )
+
+    try:
+        client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+        msg = client.messages.create(
+            model=CLAUDE_MODEL,
+            max_tokens=600,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        record_usage(msg.usage.input_tokens, msg.usage.output_tokens, label="rejection_analysis")
+        analysis = msg.content[0].text.strip()
+    except Exception as exc:
+        logger.error("Rejection analysis Claude call failed: %s", exc)
+        return
+
+    report = (
+        f"📉 <b>Rejection Pattern Analysis</b>\n"
+        f"<i>{len(rejected)} rejections analyzed</i>\n\n"
+        f"{analysis}"
+    )
+    _send(report)
+    logger.info("Rejection analysis sent to Telegram.")
+
+    # Save for dashboard
+    try:
+        (DATA_DIR / "rejection_analysis.txt").write_text(analysis, encoding="utf-8")
+        # Update last-run timestamp
+        (DATA_DIR / "rejection_analysis_last_run.txt").write_text(
+            datetime.now(tz=timezone.utc).strftime("%Y-%m-%d"), encoding="utf-8"
+        )
+    except Exception as exc:
+        logger.warning("Could not save rejection analysis: %s", exc)
+
+
+def should_run_rejection_analysis() -> bool:
+    """
+    Returns True when rejections ≥ 5 and analysis hasn't run in the last 7 days.
+    """
+    from config import DATA_DIR
+    jobs     = get_all_jobs()
+    rejected = [j for j in jobs if (j.get("Status") or "").lower() == "rejected"]
+    if len(rejected) < 5:
+        return False
+
+    last_run_file = DATA_DIR / "rejection_analysis_last_run.txt"
+    if last_run_file.exists():
+        try:
+            last_run_str = last_run_file.read_text().strip()
+            last_run     = datetime.strptime(last_run_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+            if (datetime.now(tz=timezone.utc) - last_run).days < 7:
+                return False
+        except Exception:
+            pass
+
+    return True
 
 
 def should_run_weekly_analytics() -> bool:

@@ -235,11 +235,114 @@ _RESUME_SCHEMA = """{
 }"""
 
 
+# ── Resume variant classification ────────────────────────────────────────────
+
+_VARIANT_GUIDANCE = {
+    "research": (
+        "\nVARIANT EMPHASIS — Research-Heavy:\n"
+        "- Lead summary with Nemotron Kaggle competition (LLM fine-tuning, LoRA, ablation)\n"
+        "- Project order: Nemotron first, then NTIRE CLIP\n"
+        "- Skills: lead with 'LLM Fine-tuning & NLP' category\n"
+        "- Emphasize: model architecture, ablation studies, academic benchmarks, CVPR submission\n"
+    ),
+    "engineering": (
+        "\nVARIANT EMPHASIS — ML Engineering:\n"
+        "- Lead summary with Orange Maroc pipeline (100K records, ~60% efficiency gain, Power BI)\n"
+        "- Emphasize: end-to-end pipeline, production deployment, MLOps, feature engineering\n"
+        "- Skills: lead with 'ML Frameworks & Engineering' category\n"
+        "- Highlight: cross-validated evaluation, clustering for business tiers, stakeholder output\n"
+    ),
+    "analysis": (
+        "\nVARIANT EMPHASIS — Data Analysis / Business-Facing:\n"
+        "- Lead summary with Orange Maroc (KPIs, Power BI dashboards, executive recommendations)\n"
+        "- Projects: cactus detection (accuracy/F1 metrics), Twitter sentiment (business NLP)\n"
+        "- Skills: lead with 'Data Science & Analytics' category — SQL, Power BI, Pandas front\n"
+        "- Emphasize: actionable insights, commercial service tiers, data storytelling\n"
+    ),
+}
+
+
+def _classify_resume_variant(job: dict) -> str:
+    """
+    Determine the best resume variant for this job.
+    Returns 'research' | 'engineering' | 'analysis'.
+    """
+    title_lower = (job.get("title") or "").lower()
+    desc_lower  = (job.get("description") or "")[:600].lower()
+    text        = title_lower + " " + desc_lower
+
+    research_kws    = ["research", "llm", "fine-tun", "rlhf", "pretrain", "nlp", "language model",
+                       "transformer", "scientist", "foundation model", "diffusion", "generative",
+                       "multimodal", "paper", "lab", "phd", "scholar"]
+    engineering_kws = ["engineer", "deploy", "mlops", "pipeline", "production", "infra",
+                       "backend", "system", "scalab", "latency", "docker", "serving",
+                       "real-time", "training infra", "platform", "devops"]
+    analysis_kws    = ["analyst", "business", "insight", "sql", "bi", "tableau", "power bi",
+                       "stakeholder", "report", "dashboard", "kpi", "visualization",
+                       "a/b test", "growth", "product analytics", "excel"]
+
+    r_score = sum(1 for kw in research_kws    if kw in text)
+    e_score = sum(1 for kw in engineering_kws if kw in text)
+    a_score = sum(1 for kw in analysis_kws    if kw in text)
+
+    max_score = max(r_score, e_score, a_score)
+    if max_score == 0 or r_score == max_score:
+        return "research"   # default for generic ML/AI roles
+    if e_score == max_score:
+        return "engineering"
+    return "analysis"
+
+
+# ── Company research ──────────────────────────────────────────────────────────
+
+def _research_company(company: str, job_title: str) -> str:
+    """
+    Light company research via DuckDuckGo Instant Answer API.
+    Returns 1-3 sentences of context, or empty string on failure.
+    Wrapped in try/except — research failure must never block doc generation.
+    """
+    import urllib.parse
+    try:
+        import requests as _req
+        query = f"{company} company technology"
+        url = (
+            "https://api.duckduckgo.com/?q="
+            + urllib.parse.quote(query)
+            + "&format=json&no_redirect=1&no_html=1&skip_disambig=1"
+        )
+        r = _req.get(url, timeout=5, headers={"User-Agent": "career-ops/1.0"})
+        r.raise_for_status()
+        data = r.json()
+
+        parts = []
+        abstract = (data.get("AbstractText") or "").strip()
+        if abstract and len(abstract) > 40:
+            parts.append(abstract[:400])
+
+        for topic in (data.get("RelatedTopics") or [])[:2]:
+            text = (topic.get("Text") or "").strip()
+            if text and len(text) > 30:
+                parts.append(text[:200])
+
+        result = " ".join(parts)[:600]
+        if result:
+            logger.debug("Company research for %s: %d chars", company, len(result))
+        return result
+    except Exception as exc:
+        logger.debug("Company research skipped for %s: %s", company, exc)
+        return ""
+
+
 def _call_resume_content(job: dict) -> dict:
     title   = job.get("title", "")
     company = job.get("company", "")
     region  = job.get("region", "")
     desc    = (job.get("description") or "")[:3500]
+
+    variant        = _classify_resume_variant(job)
+    variant_block  = _VARIANT_GUIDANCE.get(variant, "")
+    job["_resume_variant"] = variant   # store for logging
+    logger.info("  Resume variant: %s", variant)
 
     prompt = f"""You are an expert ATS resume writer. Produce a perfectly ATS-optimized resume
 tailored to the specific role below. Follow every rule exactly.
@@ -253,6 +356,7 @@ Title: {title}
 Region: {region}
 Job description:
 {desc if desc else "(no description provided — infer from role title and company context)"}
+{variant_block}
 
 ━━━ STEP 1 — KEYWORD EXTRACTION (do this internally first) ━━━
 Extract from the JD:
@@ -379,6 +483,13 @@ def _call_cover_content(job: dict) -> dict:
     desc    = (job.get("description") or "")[:2000]
     date    = datetime.now().strftime("%B %d, %Y")
 
+    # Company research — inject into prompt for a more specific paragraph 3
+    research = _research_company(company, title)
+    research_block = (
+        f"\n## Company research (verified facts to use in paragraph 3)\n{research}\n"
+        if research else ""
+    )
+
     prompt = f"""You are writing a cover letter for one specific internship application.
 Make it feel like it could only have been written for {company}'s {title} role.
 
@@ -394,6 +505,7 @@ Role: {title}
 Date: {date}
 Description:
 {desc if desc else "(no description — infer from role title and company context)"}
+{research_block}
 
 ## Instructions
 
@@ -411,9 +523,10 @@ Description:
 - These must be different proof points from paragraph 1
 
 ### Paragraph 3 — Why {company} (under 60 words)
-- One specific, researched reason you want to work at {company} (from JD context, company name, sector)
+- Use the company research block above if provided — cite a specific fact (product, recent launch, tech stack, market position)
+- If no research provided, infer from JD context and company name/sector
 - Direct call to action — one sentence
-- No cliches, no "excited opportunity", no "passionate about"
+- No clichés, no "excited opportunity", no "passionate about"
 
 ## Hard rules
 - "paragraphs" must be complete HTML strings with <p> tags

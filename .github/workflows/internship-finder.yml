@@ -110,21 +110,36 @@ jobs:
         run: |
           git config user.email "internship-finder-bot@users.noreply.github.com"
           git config user.name  "Internship Finder Bot"
-          git add --force \
+          # Stage each file individually with || true so missing files don't abort
+          for f in \
             data/seen_job_ids.txt \
             data/token_usage.json \
             data/seen_fingerprints.txt \
             data/telegram_offset.txt \
             data/scored_jobs.jsonl \
+            data/pending_apply.json \
+            data/applications.json \
             data/gmail_seen_ids.txt \
             data/gmail_last_sync.txt \
             data/skills_gap_advice.txt \
-            docs/index.html \
-            || true
-          git add data/tracker.xlsx || true
+            data/rejection_analysis.txt \
+            data/rejection_analysis_last_run.txt \
+            data/analytics_last_run.txt \
+            data/skills_gap_last_run.txt \
+            data/pause_until.txt \
+            data/search_trigger.json \
+            docs/index.html; do
+            git add --force "$f" 2>/dev/null || true
+          done
+          git add data/tracker.xlsx 2>/dev/null || true
           if ! git diff --staged --quiet; then
             git commit -m "chore: update tracker + dashboard $(date +'%Y-%m-%d %H:%M UTC') [skip ci]"
-            git push
+            # Retry push with rebase to handle concurrent workflow pushes
+            for attempt in 1 2 3; do
+              git push && break
+              echo "Push attempt $attempt failed — pulling and retrying..."
+              git pull --rebase origin main
+            done
           else
             echo "No data changes to commit."
           fi

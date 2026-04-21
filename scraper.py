@@ -10,6 +10,7 @@ import urllib.parse
 from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Optional, Set
 
+import requests as _http
 from apify_client import ApifyClient
 
 from config import (
@@ -344,36 +345,58 @@ def scrape_glassdoor(client: ApifyClient, seen_ids: Set[str]) -> Dict[str, List[
 
 # ── Wellfound (startup jobs — free actor) ────────────────────────────────────
 
-def _normalize_wellfound(item: dict, region: str) -> Optional[dict]:
-    job_id  = str(item.get("id") or item.get("jobId") or "")
-    title   = item.get("title") or item.get("jobTitle") or ""
-    company = (item.get("company") or {}).get("name") or item.get("companyName") or ""
-    location= item.get("location") or item.get("jobLocation") or ""
-    url     = item.get("url") or item.get("jobUrl") or ""
-    desc    = item.get("description") or ""
-    posted  = item.get("postedAt") or item.get("datePosted") or ""
+# Wellfound actor removed — replaced by RemoteOK free API (see scrape_remoteok below)
 
-    if not (title and company and url):
+_REMOTEOK_TAGS = [
+    "machine-learning",
+    "data-science",
+    "ai",
+    "deep-learning",
+    "python",
+]
+
+_REMOTEOK_INTERNSHIP_HINTS = [
+    "intern", "internship", "trainee", "apprentice", "junior", "entry",
+    "student", "graduate", "new grad",
+]
+
+
+def _normalize_remoteok(item: dict) -> Optional[dict]:
+    """Normalize a RemoteOK API item to the standard job dict."""
+    if not isinstance(item, dict):
         return None
-    if _is_excluded(location) or _is_blacklisted(company):
+
+    job_id  = str(item.get("id") or item.get("slug") or "")
+    title   = item.get("position") or ""
+    company = item.get("company") or ""
+    url     = item.get("url") or (f"https://remoteok.com/l/{job_id}" if job_id else "")
+    desc    = item.get("description") or str(item.get("tags_label") or "")
+    posted  = item.get("date") or item.get("epoch") or ""
+
+    if not (title and company and job_id):
+        return None
+    if _is_blacklisted(company):
         return None
 
-    if not job_id:
-        job_id = url
-
-    # Infer region from location text if not deterministic
-    if not region:
-        region = _infer_region(location)
+    # Keep internship-relevant posts only
+    text_lower = (title + " " + desc).lower()
+    is_intern  = any(h in text_lower for h in _REMOTEOK_INTERNSHIP_HINTS)
+    is_ml      = any(kw in text_lower for kw in [
+        "machine learning", "deep learning", "data science", "ai engineer",
+        "ml engineer", "data analyst", "nlp", "computer vision",
+    ])
+    if not (is_intern or is_ml):
+        return None
 
     return {
-        "job_id":      f"wellfound_{job_id}",
-        "source":      "Wellfound",
+        "job_id":      f"remoteok_{job_id}",
+        "source":      "RemoteOK",
         "title":       title,
         "company":     company,
-        "location":    location,
-        "region":      region,
+        "location":    "Remote",
+        "region":      "USA_Canada",   # RemoteOK is predominantly US/global remote
         "url":         url,
-        "description": desc,
+        "description": desc[:2000],
         "posted_at":   _parse_date(posted),
         "posted_raw":  str(posted),
         "found_at":    datetime.now(tz=timezone.utc),
@@ -410,29 +433,38 @@ def _infer_region(location: str) -> str:
     return "USA_Canada"
 
 
-def scrape_wellfound(client: ApifyClient, seen_ids: Set[str]) -> Dict[str, List[dict]]:
-    """Scrape Wellfound — free actor, global startup internships."""
+def scrape_remoteok(seen_ids: Set[str]) -> Dict[str, List[dict]]:
+    """
+    Scrape RemoteOK via their free public JSON API — no Apify actor, no key needed.
+    Replaces broken Wellfound actor. Strong ML/AI startup coverage.
+    """
     results: Dict[str, List[dict]] = {r: [] for r in REGIONS}
+    seen_in_run: set = set()
 
-    wellfound_searches = [
-        ("data science", ""),
-        ("machine learning", ""),
-        ("AI", ""),
-        ("data scientist", ""),
-    ]
-    for keyword, location in wellfound_searches:
-        items = _run_actor(client, ACTOR_WELLFOUND, {
-            "searchTerms": [keyword],
-            "location":    location,
-            "role":        "internship",
-            "maxResults":  WELLFOUND_MAX,
-        }, timeout=180)
-        logger.info("  Wellfound '%s' → %d", keyword, len(items))
+    for tag in _REMOTEOK_TAGS:
+        url = f"https://remoteok.com/api?tags={tag}"
+        try:
+            r = _http.get(
+                url,
+                headers={"User-Agent": "career-ops/1.0 (internship-scraper)"},
+                timeout=15,
+            )
+            r.raise_for_status()
+            items = r.json()
+        except Exception as exc:
+            logger.warning("  RemoteOK [%s] failed: %s", tag, exc)
+            continue
+
+        new_found = 0
         for item in items:
-            # Wellfound is global; infer region from location text
-            norm = _normalize_wellfound(item, _infer_region(item.get("location", "")))
-            if norm and norm["job_id"] not in seen_ids:
+            norm = _normalize_remoteok(item)
+            if norm and norm["job_id"] not in seen_ids and norm["job_id"] not in seen_in_run:
                 results[norm["region"]].append(norm)
+                seen_in_run.add(norm["job_id"])
+                new_found += 1
+
+        logger.info("  RemoteOK [%s] → %d new", tag, new_found)
+
     return results
 
 
@@ -562,19 +594,33 @@ def _merge_sources(*source_dicts) -> Dict[str, List[dict]]:
     return {region: _dedupe_region(jobs) for region, jobs in merged.items()}
 
 
-def scrape_all(seen_ids: Set[str], seen_fingerprints: Optional[Set[str]] = None) -> List[dict]:
+def scrape_all(
+    seen_ids: Set[str],
+    seen_fingerprints: Optional[Set[str]] = None,
+    extra_keywords: Optional[List[str]] = None,
+) -> List[dict]:
     """
     Full multi-source scrape. Returns deduplicated, quota-balanced, sorted jobs.
-    Sources: Indeed + LinkedIn + Glassdoor + Wellfound (Apify) + RemoteOK + Arbeitnow (free).
+    Sources: Indeed + LinkedIn + Glassdoor + Google Jobs + RemoteOK (free).
 
-    seen_fingerprints: set of title+company hashes from previous runs, used to
-    catch the same real job re-appearing under a different job_id (e.g. LinkedIn
-    this morning, Indeed this evening).
+    seen_fingerprints: set of title+company hashes from previous runs.
+    extra_keywords:    additional keywords from /search Telegram command.
     """
     if seen_fingerprints is None:
         seen_fingerprints = set()
     if not APIFY_API_TOKEN:
         raise ValueError("APIFY_API_TOKEN is not set. Add it to your .env file.")
+
+    # Temporarily extend SEARCH_KEYWORDS for this run
+    if extra_keywords:
+        import config as _cfg
+        original_keywords = list(_cfg.SEARCH_KEYWORDS)
+        _cfg.SEARCH_KEYWORDS = list(_cfg.SEARCH_KEYWORDS) + [
+            kw for kw in extra_keywords if kw not in _cfg.SEARCH_KEYWORDS
+        ]
+        logger.info("Extra search keywords: %s", extra_keywords)
+    else:
+        original_keywords = None
 
     client = ApifyClient(APIFY_API_TOKEN)
 
@@ -590,8 +636,8 @@ def scrape_all(seen_ids: Set[str], seen_fingerprints: Optional[Set[str]] = None)
     logger.info("── Scraping Google Jobs ─────────────────────────────")
     google_results    = scrape_google_jobs(client, seen_ids)
 
-    logger.info("── Scraping Wellfound ───────────────────────────────")
-    wellfound_results = scrape_wellfound(client, seen_ids)
+    logger.info("── Scraping RemoteOK (startup/ML jobs) ──────────────")
+    wellfound_results = scrape_remoteok(seen_ids)   # variable name kept for merge compat
 
     # Free sources (no API key required)
     try:
@@ -669,6 +715,12 @@ def scrape_all(seen_ids: Set[str], seen_fingerprints: Optional[Set[str]] = None)
         len([j for j in selected if j["region"] == "Middle_East"]),
         source_counts,
     )
+
+    # Restore original SEARCH_KEYWORDS if they were extended for this run
+    if original_keywords is not None:
+        import config as _cfg
+        _cfg.SEARCH_KEYWORDS = original_keywords
+
     return selected
 
 

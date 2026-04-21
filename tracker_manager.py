@@ -34,6 +34,8 @@ STATUS_COLORS = {
     "Waiting to apply": "FFF9C4",   # pale yellow
     "Applied":          "C8E6C9",   # pale green
     "Rejected":         "FFCDD2",   # pale red
+    "Interview":        "BBDEFB",   # pale blue
+    "Offer":            "B2EBF2",   # pale teal
 }
 
 HEADER_FILL  = PatternFill("solid", fgColor="1565C0")
@@ -221,3 +223,92 @@ def get_all_jobs() -> list[dict]:
 
 def get_tracker_path() -> Path:
     return TRACKER_PATH
+
+
+def update_status(job_id: str, new_status: str, notes: str = "") -> bool:
+    """
+    Set any status value on a tracker row.
+    Accepts: Applied, Waiting to apply, Rejected, Interview, Offer.
+    Returns True if found and updated.
+    """
+    if not TRACKER_PATH.exists():
+        return False
+    try:
+        wb = openpyxl.load_workbook(str(TRACKER_PATH))
+        ws = wb.active
+        id_col     = HEADERS.index("ID") + 1
+        status_col = HEADERS.index("Status") + 1
+        notes_col  = HEADERS.index("Notes") + 1
+
+        for row in ws.iter_rows(min_row=2):
+            cell_id = row[id_col - 1].value
+            if cell_id is not None and str(cell_id).strip() == str(job_id).strip():
+                row[status_col - 1].value = new_status
+                _color_status_cell(row[status_col - 1], new_status)
+                if notes:
+                    existing = row[notes_col - 1].value or ""
+                    row[notes_col - 1].value = (
+                        f"{existing}  [{notes}]".strip() if existing else notes
+                    )
+                wb.save(str(TRACKER_PATH))
+                logger.info("Status updated: job_id=%s → %s", job_id, new_status)
+                return True
+
+        return False
+    except Exception as exc:
+        logger.error("update_status failed: %s", exc)
+        return False
+
+
+def create_stub(job_id: str, status: str = "Applied", notes: str = "") -> bool:
+    """
+    Create a minimal tracker row for a job_id that isn't in the tracker yet.
+    Used by the deferred apply queue when a button tap fires before the main
+    run has committed the full job data.
+    Returns True if a new row was created (False if already exists).
+    """
+    wb, ws = _get_or_create_wb()
+    existing = _existing_ids(ws)
+    if job_id in existing:
+        return False
+
+    row = [
+        job_id,
+        datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "–",      # source unknown
+        "–",      # company unknown
+        "–",      # title unknown
+        "–",      # location
+        "–",      # region
+        "–",      # date posted
+        status,
+        "–",      # url
+        "–",      # resume
+        "–",      # cover
+        notes or "Created from Telegram button (job data pending next run)",
+    ]
+    ws.append(row)
+    row_idx = ws.max_row
+
+    for col_idx, _ in enumerate(HEADERS, start=1):
+        cell = ws.cell(row=row_idx, column=col_idx)
+        cell.border    = CELL_BORDER
+        cell.alignment = Alignment(wrap_text=False, vertical="center")
+        cell.font      = Font(size=9)
+
+    status_col = HEADERS.index("Status") + 1
+    _color_status_cell(ws.cell(row=row_idx, column=status_col), status)
+
+    wb.save(str(TRACKER_PATH))
+    logger.info("Stub row created: job_id=%s  status=%s", job_id, status)
+    return True
+
+
+def get_applied_jobs() -> list:
+    """Return all rows whose Status is 'Applied'."""
+    return [j for j in get_all_jobs() if (j.get("Status") or "").lower() == "applied"]
+
+
+def get_rejected_jobs() -> list:
+    """Return all rows whose Status is 'Rejected'."""
+    return [j for j in get_all_jobs() if (j.get("Status") or "").lower() == "rejected"]

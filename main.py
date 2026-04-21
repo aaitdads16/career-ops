@@ -15,15 +15,22 @@ import sys
 from datetime import datetime, timezone
 
 from config import (
+    BASE_DIR,
     DATA_DIR,
     MIN_RELEVANCE_SCORE,
     SEEN_FINGERPRINTS_PATH,
     SEEN_IDS_PATH,
     TRACKER_PATH,
 )
-from analytics import generate_analytics_report, should_run_weekly_analytics
+from analytics import (
+    analyze_rejections,
+    generate_analytics_report,
+    should_run_rejection_analysis,
+    should_run_weekly_analytics,
+)
 from callback_handler import process_pending_callbacks
 from dashboard_generator import generate_dashboard
+from followup_tracker import check_and_send_followups
 from gmail_tracker import sync_gmail_statuses
 from credit_monitor import check_budget_alert, get_apify_usage, get_today_summary
 from doc_generator import generate_documents
@@ -64,20 +71,65 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
+def _is_paused() -> bool:
+    """Return True if a pause_until.txt file exists and is still in the future."""
+    pause_file = DATA_DIR / "pause_until.txt"
+    if not pause_file.exists():
+        return False
+    try:
+        from datetime import datetime, timezone
+        until = datetime.fromisoformat(pause_file.read_text().strip())
+        if until.tzinfo is None:
+            until = until.replace(tzinfo=timezone.utc)
+        if datetime.now(tz=timezone.utc) < until:
+            logger.info("⏸️ Scraping paused until %s — skipping run.", until.isoformat())
+            return True
+        else:
+            pause_file.unlink()   # expired — remove the file
+    except Exception:
+        pass
+    return False
+
+
+def _consume_search_trigger() -> list:
+    """
+    Check if a /search command queued a custom keyword.
+    Returns list of extra keywords to add to this run (empty if none).
+    """
+    trigger_file = DATA_DIR / "search_trigger.json"
+    if not trigger_file.exists():
+        return []
+    try:
+        import json
+        data = json.loads(trigger_file.read_text())
+        keyword = data.get("keyword", "").strip()
+        if keyword:
+            trigger_file.unlink()   # consume it
+            logger.info("Custom search trigger: '%s'", keyword)
+            return [keyword]
+    except Exception:
+        pass
+    return []
+
+
 def run():
     start = datetime.now(tz=timezone.utc)
     logger.info("=" * 60)
     logger.info("Internship Finder — run started at %s  [%s]",
                 start.isoformat(), "CLOUD/GitHub Actions" if IS_CLOUD else "LOCAL/Mac")
 
-    # ── 0. Process any pending Telegram callbacks (Applied button presses) ────
-    # Flushes button taps that happened since the last run (when bot.py wasn't running)
+    # ── 0. Process any pending Telegram callbacks + commands ─────────────────
     try:
         cb_count = process_pending_callbacks()
         if cb_count:
-            logger.info("Flushed %d pending Telegram callback(s).", cb_count)
+            logger.info("Flushed %d pending Telegram update(s).", cb_count)
     except Exception as exc:
         logger.warning("Callback flush failed (non-critical): %s", exc)
+
+    # ── 0c. Check for pause ───────────────────────────────────────────────────
+    if _is_paused():
+        notify_run_complete(0, _count_tracker_rows())
+        return
 
     # ── 0b. Gmail sync — detect application responses ─────────────────────────
     try:
@@ -87,6 +139,9 @@ def run():
     except Exception as exc:
         logger.warning("Gmail sync failed (non-critical): %s", exc)
 
+    # ── 0d. Consume custom /search trigger (queued via Telegram command) ──────
+    extra_keywords = _consume_search_trigger()
+
     # ── 1. Load seen job IDs + content fingerprints (deduplication) ───────────
     seen_ids = load_seen_ids(SEEN_IDS_PATH)
     seen_fingerprints = load_seen_fingerprints(SEEN_FINGERPRINTS_PATH)
@@ -94,8 +149,9 @@ def run():
                 len(seen_ids), len(seen_fingerprints))
 
     # ── 2. Scrape new jobs ────────────────────────────────────────────────────
+    # Pass extra_keywords from /search command to scraper
     try:
-        all_scraped = scrape_all(seen_ids, seen_fingerprints)
+        all_scraped = scrape_all(seen_ids, seen_fingerprints, extra_keywords=extra_keywords)
     except Exception as exc:
         logger.error("Scraping failed: %s", exc)
         notify_run_complete(0, 0, error=str(exc))
@@ -241,6 +297,20 @@ def run():
             generate_analytics_report()
     except Exception as exc:
         logger.warning("Analytics report failed (non-critical): %s", exc)
+
+    # ── 14. Rejection pattern analysis (auto-triggered at ≥5 rejections) ─────
+    try:
+        if should_run_rejection_analysis():
+            logger.info("Running rejection pattern analysis...")
+            analyze_rejections()
+    except Exception as exc:
+        logger.warning("Rejection analysis failed (non-critical): %s", exc)
+
+    # ── 15. Follow-up check (daily at 9 AM via workflow, but also runs here) ──
+    try:
+        check_and_send_followups()
+    except Exception as exc:
+        logger.warning("Follow-up check failed (non-critical): %s", exc)
 
     elapsed = (datetime.now(tz=timezone.utc) - start).total_seconds()
     logger.info("Run finished in %.1fs — %d compatible jobs processed.", elapsed, len(compatible_jobs))

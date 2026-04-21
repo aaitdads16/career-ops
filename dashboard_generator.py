@@ -22,9 +22,10 @@ logger = logging.getLogger(__name__)
 BASE_DIR    = Path(__file__).parent
 DOCS_DIR    = BASE_DIR / "docs"
 OUTPUT      = DOCS_DIR / "index.html"
-SCORED_PATH = DATA_DIR / "scored_jobs.jsonl"
-TOKEN_PATH  = DATA_DIR / "token_usage.json"
-ADVICE_PATH = DATA_DIR / "skills_gap_advice.txt"
+SCORED_PATH    = DATA_DIR / "scored_jobs.jsonl"
+TOKEN_PATH     = DATA_DIR / "token_usage.json"
+ADVICE_PATH    = DATA_DIR / "skills_gap_advice.txt"
+REJECTION_PATH = DATA_DIR / "rejection_analysis.txt"
 
 
 # ── Data loading ──────────────────────────────────────────────────────────────
@@ -70,13 +71,23 @@ def _load_advice() -> str:
         return ""
 
 
+def _load_rejection_analysis() -> str:
+    if not REJECTION_PATH.exists():
+        return ""
+    try:
+        return REJECTION_PATH.read_text(encoding="utf-8").strip()
+    except Exception:
+        return ""
+
+
 # ── Analytics computation ─────────────────────────────────────────────────────
 
 def _compute_stats():
     jobs       = get_all_jobs()
     scored     = _load_scored_jobs(days=30)
     token_data = _load_token_usage()
-    advice     = _load_advice()
+    advice            = _load_advice()
+    rejection_analysis = _load_rejection_analysis()
     now        = datetime.now(tz=timezone.utc)
 
     # Status breakdown
@@ -139,6 +150,22 @@ def _compute_stats():
     # Recent applications (last 10 Applied rows)
     recent = [j for j in jobs if (j.get("Status") or "") == "Applied"][-10:]
 
+    # All jobs for the full table (capped at 200 for page performance)
+    all_jobs_table = [
+        {
+            "id":       str(j.get("ID") or ""),
+            "date":     str(j.get("Date Found") or "")[:10],
+            "source":   str(j.get("Source") or ""),
+            "company":  str(j.get("Company") or ""),
+            "title":    str(j.get("Job Title") or ""),
+            "location": str(j.get("Location") or ""),
+            "region":   str(j.get("Region") or ""),
+            "status":   str(j.get("Status") or "Waiting to apply"),
+            "url":      str(j.get("Job URL") or ""),
+        }
+        for j in reversed(jobs[-200:])   # most recent first
+    ]
+
     # Budget
     budget_pct = 0
     budget_spent = 0
@@ -179,8 +206,10 @@ def _compute_stats():
         "score_values": score_values,
         "top_companies": top_companies,
         "recent": recent,
-        "advice": advice,
-        "generated_at": now.strftime("%Y-%m-%d %H:%M UTC"),
+        "advice":             advice,
+        "rejection_analysis": rejection_analysis,
+        "all_jobs":           all_jobs_table,
+        "generated_at":       now.strftime("%Y-%m-%d %H:%M UTC"),
     }
 
 
@@ -429,6 +458,139 @@ footer {
 }
 footer a { color: var(--t2); text-decoration: none; }
 footer a:hover { color: var(--t1); }
+
+/* ── FULL OFFERS TABLE ── */
+.offers-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.offers-table {
+  width: 100%; border-collapse: collapse;
+  font-size: 12.5px; min-width: 700px;
+}
+.offers-table th {
+  padding: 10px 10px; font-size: 10px; font-weight: 700;
+  letter-spacing: .06em; text-transform: uppercase;
+  color: var(--t3); border-bottom: 1px solid var(--border);
+  text-align: left; white-space: nowrap;
+  cursor: pointer; user-select: none;
+}
+.offers-table th:hover { color: var(--t1); }
+.offers-table th.sort-asc::after  { content: " ↑"; color: var(--accent); }
+.offers-table th.sort-desc::after { content: " ↓"; color: var(--accent); }
+.offers-table td {
+  padding: 10px 10px;
+  border-bottom: 1px solid rgba(255,255,255,.03);
+  color: var(--t2); vertical-align: middle;
+}
+.offers-table td.col-title { color: var(--t1); font-weight: 500; max-width: 200px; }
+.offers-table td.col-company { max-width: 140px; }
+.offers-table tr:hover td { background: rgba(255,255,255,.025); }
+.offers-table tr:last-child td { border-bottom: none; }
+
+.status-select {
+  background: transparent; border: 1px solid var(--border);
+  color: var(--t2); border-radius: 6px; padding: 3px 6px;
+  font-size: 11px; font-weight: 600; cursor: pointer;
+  outline: none;
+}
+.status-select:focus { border-color: var(--accent); }
+.status-select option { background: #0c1326; }
+
+/* ── TOAST ── */
+.toast {
+  position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+  background: rgba(30,38,60,0.96); border: 1px solid var(--border2);
+  backdrop-filter: blur(16px);
+  padding: 12px 22px; border-radius: 10px;
+  font-size: 13px; color: var(--t1);
+  z-index: 9999; display: none;
+  box-shadow: 0 8px 32px rgba(0,0,0,.5);
+}
+.toast.show { display: block; animation: slideUp .25s ease; }
+@keyframes slideUp { from{transform:translateX(-50%) translateY(12px);opacity:0} to{transform:translateX(-50%) translateY(0);opacity:1} }
+
+/* ── SEARCH BAR ── */
+.table-toolbar {
+  display: flex; align-items: center; gap: 12px;
+  margin-bottom: 14px; flex-wrap: wrap;
+}
+.search-input {
+  flex: 1; min-width: 180px; max-width: 340px;
+  background: var(--surface); border: 1px solid var(--border);
+  color: var(--t1); border-radius: 8px;
+  padding: 8px 14px; font-size: 13px; outline: none;
+}
+.search-input:focus { border-color: var(--accent); }
+.filter-select {
+  background: var(--surface); border: 1px solid var(--border);
+  color: var(--t2); border-radius: 8px;
+  padding: 8px 10px; font-size: 12px; cursor: pointer; outline: none;
+}
+.filter-select:focus { border-color: var(--accent); }
+.table-count { font-size: 12px; color: var(--t3); margin-left: auto; }
+
+/* ── COMMAND MODAL ── */
+.cmd-overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,.6);
+  backdrop-filter: blur(8px); z-index: 1000;
+  display: none; align-items: center; justify-content: center;
+}
+.cmd-overlay.show { display: flex; }
+.cmd-modal {
+  background: var(--bg2); border: 1px solid var(--border2);
+  border-radius: 16px; padding: 28px 32px; max-width: 480px; width: 92%;
+}
+.cmd-modal h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+.cmd-modal p  { font-size: 13px; color: var(--t3); margin-bottom: 16px; }
+.cmd-box {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 8px; padding: 12px 16px;
+  font-family: monospace; font-size: 14px; color: var(--t1);
+  word-break: break-all; margin-bottom: 18px;
+}
+.btn { display: inline-flex; align-items: center; gap: 6px;
+  padding: 9px 18px; border-radius: 8px; font-size: 13px;
+  font-weight: 600; cursor: pointer; border: none;
+  transition: opacity .15s;
+}
+.btn:hover { opacity: .85; }
+.btn-primary { background: var(--accent); color: #fff; }
+.btn-ghost   { background: var(--surface); color: var(--t2);
+               border: 1px solid var(--border); }
+.btn-row { display: flex; gap: 10px; }
+
+/* ── REJECTION PANEL ── */
+.rejection-panel {
+  background: linear-gradient(135deg, rgba(239,68,68,.06), rgba(245,158,11,.04));
+  border: 1px solid rgba(239,68,68,.2);
+  border-radius: var(--r2); padding: 24px 28px; margin-top: 20px;
+}
+.rejection-header { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.rejection-icon {
+  width: 36px; height: 36px; border-radius: 10px;
+  background: linear-gradient(135deg, #ef4444, #f59e0b);
+  display: flex; align-items: center; justify-content: center; font-size: 18px;
+}
+
+/* ── MOBILE ── */
+@media (max-width: 640px) {
+  nav { padding: 0 16px; }
+  main { padding: 16px 12px 40px; }
+  .hero-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .hero-grid .card:last-child { grid-column: 1 / -1; }
+  .stat-card .value { font-size: 28px; }
+  .card { padding: 16px; border-radius: 14px; }
+  .chart-wrap { height: 180px; }
+  .chart-wrap-lg { height: 200px; }
+  .chart-wrap-sm { height: 140px; }
+  .row-3, .row-2, .row-21, .row-12 { grid-template-columns: 1fr; }
+  .nav-updated { display: none; }
+  .advice-panel, .rejection-panel { padding: 16px; }
+  .table-toolbar { gap: 8px; }
+  .search-input { min-width: 140px; }
+  .cmd-modal { padding: 20px; }
+}
+@media (max-width: 900px) {
+  .row-3 { grid-template-columns: 1fr; }
+}
 </style>
 </head>
 <body>
@@ -552,19 +714,89 @@ __GMAIL_STRIP__
 
 </div>
 
+<!-- ── All Offers Table ── -->
+<div class="card" style="margin-bottom:20px">
+  <div class="section-title">All Offers</div>
+
+  <div class="table-toolbar">
+    <input class="search-input" id="offer-search" type="text" placeholder="Search company, title, location…">
+    <select class="filter-select" id="status-filter">
+      <option value="">All statuses</option>
+      <option value="Waiting to apply">Waiting</option>
+      <option value="Applied">Applied</option>
+      <option value="Interview">Interview</option>
+      <option value="Offer">Offer</option>
+      <option value="Rejected">Rejected</option>
+    </select>
+    <select class="filter-select" id="source-filter">
+      <option value="">All sources</option>
+    </select>
+    <span class="table-count" id="offer-count"></span>
+  </div>
+
+  <div class="offers-table-wrap">
+    <table class="offers-table" id="offers-table">
+      <thead>
+        <tr>
+          <th data-col="date">Date</th>
+          <th data-col="title">Role</th>
+          <th data-col="company">Company</th>
+          <th data-col="location">Location</th>
+          <th data-col="source">Source</th>
+          <th data-col="status">Status</th>
+          <th>Update</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody id="offers-tbody"></tbody>
+    </table>
+  </div>
+  <div id="offers-show-more" style="text-align:center;margin-top:14px;display:none">
+    <button class="btn btn-ghost" onclick="showAllOffers()">Show all offers</button>
+  </div>
+</div>
+
 <!-- ── AI Advice Panel ── -->
 <div class="advice-panel">
   <div class="advice-header">
     <div class="advice-icon">🧠</div>
     <div>
-      <div class="advice-title">Claude — Weekly Skills & Strategy Analysis</div>
+      <div class="advice-title">Claude — Weekly Skills &amp; Strategy Analysis</div>
       <div class="advice-sub">Generated every Monday from scored job data</div>
     </div>
   </div>
   <div class="advice-body" id="advice-body"></div>
 </div>
 
+<!-- ── Rejection Analysis Panel ── -->
+<div class="rejection-panel" id="rejection-panel" style="display:none">
+  <div class="rejection-header">
+    <div class="rejection-icon">📉</div>
+    <div>
+      <div class="advice-title">Rejection Pattern Analysis</div>
+      <div class="advice-sub">Auto-generated when ≥5 rejections accumulate</div>
+    </div>
+  </div>
+  <div class="advice-body" id="rejection-body"></div>
+</div>
+
 </main>
+
+<!-- ── Status Update Modal ── -->
+<div class="cmd-overlay" id="cmd-overlay">
+  <div class="cmd-modal">
+    <h3>Update Status via Telegram</h3>
+    <p>Copy this command and send it to the Career Ops bot in Telegram:</p>
+    <div class="cmd-box" id="cmd-text"></div>
+    <div class="btn-row">
+      <button class="btn btn-primary" onclick="copyCmd()">📋 Copy command</button>
+      <button class="btn btn-ghost"   onclick="closeModal()">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── Toast ── -->
+<div class="toast" id="toast"></div>
 
 <footer>
   Built with <a href="https://github.com/aaitdads16/career-ops" target="_blank">career-ops</a>
@@ -772,21 +1004,184 @@ new Chart(document.getElementById('regionChart'), {
 })();
 
 // ── Advice panel ──────────────────────────────────────────────────────────────
+function mdToHtml(text) {
+  return text
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/\*\*(.*?)\*\*/g,'<b>$1</b>')
+    .replace(/^[-•]\s+(.+)$/gm,'<li>$1</li>')
+    .replace(/(<li>[^]*?<\/li>\n?)+/g, s => '<ul>'+s+'</ul>');
+}
 (function buildAdvice() {
   const el = document.getElementById('advice-body');
   if (DATA.advice) {
-    // Convert plain text with markdown-ish formatting to HTML
-    let html = DATA.advice
-      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
-      .replace(/\*\*(.*?)\*\*/g,'<b>$1</b>')
-      .replace(/^[-•]\s+(.+)$/gm,'<li>$1</li>')
-      .replace(/(<li>.*<\/li>(\n|$))+/g, s => '<ul>'+s+'</ul>')
-      .replace(/<b>(.*?)<\/b>/g,'<b>$1</b>');
-    el.innerHTML = html;
+    el.innerHTML = mdToHtml(DATA.advice);
   } else {
-    el.innerHTML = '<span class="advice-empty">Weekly analysis will appear here every Monday after the first 20+ jobs have been scored. Run the system for a few days to build up data.</span>';
+    el.innerHTML = '<span class="advice-empty">Weekly analysis appears every Monday once ≥20 jobs are scored.</span>';
   }
 })();
+
+// ── Rejection analysis panel ──────────────────────────────────────────────────
+(function buildRejection() {
+  if (!DATA.rejection_analysis) return;
+  document.getElementById('rejection-panel').style.display = '';
+  document.getElementById('rejection-body').innerHTML = mdToHtml(DATA.rejection_analysis);
+})();
+
+// ── All Offers Table ──────────────────────────────────────────────────────────
+(function buildOffersTable() {
+  const jobs = DATA.all_jobs || [];
+  const STATUSES = ['Waiting to apply','Applied','Interview','Offer','Rejected'];
+  const STATUS_CLASS = {
+    'Applied':'badge-applied','Interview':'badge-interview',
+    'Offer':'badge-offer','Rejected':'badge-rejected'
+  };
+  const SRC_EMOJI = {
+    'LinkedIn':'🔷','Indeed':'🔵','Glassdoor':'🟢',
+    'Google Jobs':'🔴','RemoteOK':'🟠','RemoteOk':'🟠'
+  };
+
+  // Populate source filter
+  const srcFilter = document.getElementById('source-filter');
+  const srcSet = [...new Set(jobs.map(j => j.source).filter(Boolean))].sort();
+  srcSet.forEach(s => {
+    const o = document.createElement('option'); o.value = s; o.textContent = s;
+    srcFilter.appendChild(o);
+  });
+
+  let sortCol = 'date', sortDir = -1;
+  let visibleCount = 50;
+  let pendingJob = null, pendingStatus = null;
+
+  function filtered() {
+    const q = (document.getElementById('offer-search').value||'').toLowerCase();
+    const st = document.getElementById('status-filter').value;
+    const sc = document.getElementById('source-filter').value;
+    return jobs.filter(j => {
+      if (st && j.status !== st) return false;
+      if (sc && j.source !== sc) return false;
+      if (q && !(
+        (j.title||'').toLowerCase().includes(q) ||
+        (j.company||'').toLowerCase().includes(q) ||
+        (j.location||'').toLowerCase().includes(q) ||
+        (j.id||'').toLowerCase().includes(q)
+      )) return false;
+      return true;
+    });
+  }
+
+  function sorted(arr) {
+    return [...arr].sort((a,b) => {
+      const av = (a[sortCol]||'').toString();
+      const bv = (b[sortCol]||'').toString();
+      return av < bv ? sortDir : av > bv ? -sortDir : 0;
+    });
+  }
+
+  function render() {
+    const rows = sorted(filtered());
+    const shown = rows.slice(0, visibleCount);
+    document.getElementById('offer-count').textContent = `${rows.length} offer${rows.length!==1?'s':''}`;
+    document.getElementById('offers-show-more').style.display =
+      rows.length > visibleCount ? '' : 'none';
+
+    const tbody = document.getElementById('offers-tbody');
+    tbody.innerHTML = shown.map(j => {
+      const sClass = STATUS_CLASS[j.status] || 'badge-waiting';
+      const emoji  = SRC_EMOJI[j.source] || '⚪️';
+      const opts   = STATUSES.map(s =>
+        `<option value="${s}"${s===j.status?' selected':''}>${s}</option>`
+      ).join('');
+      const applyLink = j.url && j.url !== '–'
+        ? `<a href="${j.url}" target="_blank" rel="noopener" style="color:var(--accent);font-size:12px">Apply →</a>`
+        : '<span style="color:var(--t3);font-size:11px">–</span>';
+      return `<tr data-id="${j.id}">
+        <td style="white-space:nowrap;font-size:11px">${j.date}</td>
+        <td class="col-title" title="${j.title}">${(j.title||'').slice(0,38)}${j.title.length>38?'…':''}</td>
+        <td class="col-company" title="${j.company}">${(j.company||'').slice(0,22)}${(j.company||'').length>22?'…':''}</td>
+        <td style="font-size:11px;max-width:120px">${(j.location||'').slice(0,20)}</td>
+        <td style="white-space:nowrap">${emoji} ${j.source||''}</td>
+        <td><span class="badge ${sClass}">${j.status||'Waiting'}</span></td>
+        <td>
+          <select class="status-select" onchange="requestStatusUpdate('${j.id}',this.value,this)">
+            ${opts}
+          </select>
+        </td>
+        <td>${applyLink}</td>
+      </tr>`;
+    }).join('');
+  }
+
+  window.requestStatusUpdate = function(jobId, newStatus, sel) {
+    pendingJob    = jobId;
+    pendingStatus = newStatus;
+    const cmd = `/setstatus ${jobId} ${newStatus}`;
+    document.getElementById('cmd-text').textContent = cmd;
+    document.getElementById('cmd-overlay').classList.add('show');
+    // Reset select to old value (visual only — real change happens via bot)
+    const oldStatus = jobs.find(j => j.id === jobId)?.status || '';
+    sel.value = oldStatus;
+  };
+
+  window.closeModal = function() {
+    document.getElementById('cmd-overlay').classList.remove('show');
+  };
+
+  window.copyCmd = function() {
+    const cmd = document.getElementById('cmd-text').textContent;
+    navigator.clipboard.writeText(cmd).then(() => {
+      showToast('✅ Command copied! Paste it in Telegram and send.');
+    }).catch(() => {
+      // Fallback for older browsers
+      const el = document.getElementById('cmd-text');
+      const range = document.createRange(); range.selectNode(el);
+      window.getSelection().removeAllRanges();
+      window.getSelection().addRange(range);
+      document.execCommand('copy');
+      showToast('✅ Command copied!');
+    });
+    closeModal();
+  };
+
+  window.showAllOffers = function() {
+    visibleCount = Infinity; render();
+  };
+
+  // Sorting
+  document.querySelectorAll('.offers-table th[data-col]').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.dataset.col;
+      if (sortCol === col) { sortDir *= -1; }
+      else { sortCol = col; sortDir = -1; }
+      document.querySelectorAll('.offers-table th').forEach(t => {
+        t.classList.remove('sort-asc','sort-desc');
+      });
+      th.classList.add(sortDir === -1 ? 'sort-desc' : 'sort-asc');
+      visibleCount = 50; render();
+    });
+  });
+
+  // Close modal on overlay click
+  document.getElementById('cmd-overlay').addEventListener('click', e => {
+    if (e.target === e.currentTarget) closeModal();
+  });
+
+  // Search + filter
+  ['offer-search','status-filter','source-filter'].forEach(id => {
+    document.getElementById(id).addEventListener('input', () => {
+      visibleCount = 50; render();
+    });
+  });
+
+  render();
+})();
+
+// ── Toast ─────────────────────────────────────────────────────────────────────
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 3200);
+}
 </script>
 </body>
 </html>"""
@@ -851,7 +1246,9 @@ def generate_dashboard() -> Path:
             }
             for r in s["recent"]
         ],
-        "advice": s["advice"],
+        "advice":             s["advice"],
+        "rejection_analysis": s.get("rejection_analysis", ""),
+        "all_jobs":           s.get("all_jobs", []),
     }, ensure_ascii=False)
 
     html = _HTML_TEMPLATE

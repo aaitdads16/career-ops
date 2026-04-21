@@ -1,0 +1,71 @@
+name: Follow-up Checker
+
+# Runs daily at 9:00 AM Paris time (7:00 UTC).
+# Checks applications.json for entries that are 7 or 14 days old
+# with no Gmail response and generates email drafts via Claude.
+
+on:
+  schedule:
+    - cron: '0 7 * * *'    # 9:00 AM Paris (CEST Apr–Oct)
+  workflow_dispatch:        # manual trigger
+
+jobs:
+  check-followups:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install requests openpyxl python-dotenv anthropic
+
+      - name: Prepare data folder
+        run: |
+          mkdir -p data
+          touch data/applications.json || true
+          touch data/tracker.xlsx      || true
+          touch data/token_usage.json  || true
+
+      - name: Run follow-up checker
+        env:
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_TOTAL_CREDIT_USD: ${{ secrets.ANTHROPIC_TOTAL_CREDIT_USD }}
+          TELEGRAM_BOT_TOKEN:        ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:          ${{ secrets.TELEGRAM_CHAT_ID }}
+          OUTPUT_DIR:                ${{ github.workspace }}
+          GITHUB_ACTIONS:            "true"
+        run: |
+          python3 -c "
+          import logging
+          logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
+          from followup_tracker import check_and_send_followups
+          n = check_and_send_followups()
+          print(f'Follow-up check complete: {n} draft(s) sent.')
+          "
+
+      - name: Commit updated follow-up state
+        run: |
+          git config user.email "career-ops-bot@users.noreply.github.com"
+          git config user.name  "Career Ops Bot"
+          git add --force data/applications.json data/token_usage.json 2>/dev/null || true
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: follow-up state update $(date +'%Y-%m-%d') [skip ci]"
+            for attempt in 1 2 3; do
+              git push && break
+              echo "Push attempt $attempt failed — retrying..."
+              git pull --rebase origin main
+            done
+          else
+            echo "No follow-up state changes."
+          fi
