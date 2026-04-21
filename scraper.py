@@ -22,6 +22,7 @@ from config import (
     COMPANY_BLACKLIST,
     DATE_POSTED,
     GLASSDOOR_DAYS_OLD,
+    LINKEDIN_COUNT,
     LINKEDIN_HOURS,
     LINKEDIN_REGIONS,
     MAX_JOB_AGE_DAYS,
@@ -167,23 +168,122 @@ def _normalize_linkedin(item: dict, region: str) -> Optional[dict]:
     }
 
 
+# ── LinkedIn scraping strategy ────────────────────────────────────────────────
+#
+# TIER 1 — splitByLocation (key countries)
+#   The actor has a built-in city-splitting feature that automatically generates
+#   one search per city within a country. This gives comprehensive national
+#   coverage in a single call and bypasses LinkedIn's 1000-result search cap.
+#   We use this for the highest-volume markets.
+#
+# TIER 2 — Manual city URLs (remaining markets)
+#   For markets not covered by Tier 1, use explicit city URLs.
+#
+# count=100 (actor default) — we were using 10, which was 10x under-requesting.
+
+_LINKEDIN_SPLIT_COUNTRIES = [
+    # (region_name, country_code)
+    ("Europe",     "GB"),   # United Kingdom
+    ("Europe",     "DE"),   # Germany
+    ("Europe",     "NL"),   # Netherlands
+    ("Europe",     "CH"),   # Switzerland
+    ("Europe",     "SE"),   # Sweden
+    ("Asia",       "SG"),   # Singapore
+    ("Asia",       "IN"),   # India
+    ("Asia",       "JP"),   # Japan
+    ("USA_Canada", "US"),   # United States
+    ("USA_Canada", "CA"),   # Canada
+]
+
+_LINKEDIN_MANUAL_CITIES = {
+    # Regions/cities NOT covered by Tier 1 above
+    "Europe":        [("Dublin","IE"),("Barcelona","ES"),("Copenhagen","DK"),
+                      ("Oslo","NO"),("Helsinki","FI"),("Vienna","AT"),("Milan","IT")],
+    "Asia":          [("Seoul","KR"),("Hong Kong","HK"),("Kuala Lumpur","MY")],
+    "South_America": [("São Paulo","BR"),("Buenos Aires","AR"),("Mexico City","MX")],
+    "Middle_East":   [("Dubai","AE"),("Abu Dhabi","AE")],
+    "USA_Canada":    [],  # fully covered by Tier 1
+}
+
+
+def _linkedin_base_url(keyword: str) -> str:
+    """Base LinkedIn search URL without location (used with splitByLocation)."""
+    params = {
+        "keywords": keyword,
+        "f_TPR":    f"r{LINKEDIN_HOURS}",
+        "sortBy":   "DD",
+        "position": "1",
+        "pageNum":  "0",
+    }
+    return "https://www.linkedin.com/jobs/search/?" + urllib.parse.urlencode(params)
+
+
 def scrape_linkedin(client: ApifyClient, seen_ids: Set[str]) -> Dict[str, List[dict]]:
-    """Scrape LinkedIn for each region using public job search URLs."""
+    """
+    Two-tier LinkedIn scraping strategy.
+
+    Tier 1 (splitByLocation): 10 key countries × 4 keywords = 40 actor calls.
+      Each call triggers the actor's built-in city-splitting — it fans out into
+      every major city in that country automatically, giving full national coverage
+      and bypassing LinkedIn's 1000-job-per-URL cap.
+
+    Tier 2 (manual city URLs): remaining cities not in Tier 1 countries.
+
+    count=100 per call (was 10 — a 10× increase).
+    f_JT=I removed — was blocking 60-70%% of internships not tagged correctly.
+    """
     results: Dict[str, List[dict]] = {r: [] for r in REGIONS}
-    for region_name, cities in LINKEDIN_REGIONS.items():
-        random.shuffle(cities)
-        for city, _ in cities:
-            urls = [linkedin_url(kw, city) for kw in SEARCH_KEYWORDS]
+
+    # ── Tier 1: country-level split ──────────────────────────────────────────
+    logger.info("  LinkedIn Tier 1 (splitByLocation): %d country×keyword calls",
+                len(_LINKEDIN_SPLIT_COUNTRIES) * len(SEARCH_KEYWORDS))
+
+    for region_name, country_code in _LINKEDIN_SPLIT_COUNTRIES:
+        for keyword in SEARCH_KEYWORDS:
+            base_url = _linkedin_base_url(keyword)
             items = _run_actor(client, ACTOR_LINKEDIN, {
-                "urls":          urls,
-                "scrapeCompany": False,
-                "count":         RESULTS_PER_SEARCH,
-            }, timeout=180)
-            logger.info("  LinkedIn [%s] → %d", city, len(items))
+                "urls":            [base_url],
+                "scrapeCompany":   False,
+                "count":           100,
+                "splitByLocation": True,
+                "splitCountry":    country_code,
+            }, timeout=300)  # longer timeout — city-splitting generates more work
+
+            new_found = 0
             for item in items:
                 norm = _normalize_linkedin(item, region_name)
                 if norm and norm["job_id"] not in seen_ids:
                     results[region_name].append(norm)
+                    new_found += 1
+
+            logger.info("  LinkedIn Tier1 [%s/%s] '%s' → %d raw / %d new",
+                        region_name, country_code, keyword, len(items), new_found)
+
+    # ── Tier 2: manual city URLs ─────────────────────────────────────────────
+    for region_name, cities in _LINKEDIN_MANUAL_CITIES.items():
+        if not cities:
+            continue
+        shuffled = list(cities)
+        random.shuffle(shuffled)
+        for city, _ in shuffled:
+            for keyword in SEARCH_KEYWORDS:
+                url = linkedin_url(keyword, city)
+                items = _run_actor(client, ACTOR_LINKEDIN, {
+                    "urls":          [url],
+                    "scrapeCompany": False,
+                    "count":         LINKEDIN_COUNT,
+                }, timeout=180)
+
+                new_found = 0
+                for item in items:
+                    norm = _normalize_linkedin(item, region_name)
+                    if norm and norm["job_id"] not in seen_ids:
+                        results[region_name].append(norm)
+                        new_found += 1
+
+                logger.info("  LinkedIn Tier2 [%s] '%s' → %d raw / %d new",
+                            city, keyword, len(items), new_found)
+
     return results
 
 

@@ -176,6 +176,7 @@ RESULTS_PER_SEARCH = 10    # per country/keyword combo (Indeed + Glassdoor)
 DATE_POSTED        = "3"   # last 3 days (Indeed) — avoids missing jobs from same 24h window
 GLASSDOOR_DAYS_OLD = 3     # last 3 days (Glassdoor)
 LINKEDIN_HOURS     = 259200 # last 3 days in seconds (LinkedIn f_TPR param)
+LINKEDIN_COUNT     = 30     # results per URL — higher than Indeed/Glassdoor to compensate for filtering
 WELLFOUND_MAX      = 30    # results per keyword (Wellfound — free actor, no date filter)
 MAX_JOB_AGE_DAYS   = 3     # drop jobs with posted_at older than this (post-scrape age filter)
 
@@ -239,13 +240,20 @@ LINKEDIN_REGIONS = {
 }
 
 def linkedin_url(keyword: str, location: str) -> str:
-    """Build a public LinkedIn jobs search URL with 24h filter + internship type."""
+    """
+    Build a public LinkedIn jobs search URL sorted by date.
+
+    f_JT=I (Internship type) is intentionally REMOVED — the majority of
+    internship postings on LinkedIn are NOT tagged with the Internship job type.
+    Keeping that filter cuts 60-70%% of real internship results.
+    The relevance filter (job_filter.py) handles non-internship rejection instead.
+    """
     import urllib.parse
     params = {
         "keywords": keyword,
         "location": location,
-        "f_TPR":    f"r{LINKEDIN_HOURS}",
-        "f_JT":     "I",         # I = Internship
+        "f_TPR":    f"r{LINKEDIN_HOURS}",   # last 3 days
+        "sortBy":   "DD",                   # date descending — most recent first
         "position": "1",
         "pageNum":  "0",
     }
