@@ -166,5 +166,58 @@ def add_jobs(jobs_with_docs: list[dict]) -> int:
     return added
 
 
+def mark_applied(job_id: str, notes: str = "") -> bool:
+    """
+    Update job Status to 'Applied' in the tracker and optionally add notes.
+    Returns True if the job was found and updated, False otherwise.
+    """
+    if not TRACKER_PATH.exists():
+        return False
+    try:
+        wb = openpyxl.load_workbook(str(TRACKER_PATH))
+        ws = wb.active
+        id_col     = HEADERS.index("ID") + 1
+        status_col = HEADERS.index("Status") + 1
+        notes_col  = HEADERS.index("Notes") + 1
+
+        for row in ws.iter_rows(min_row=2):
+            cell_id = row[id_col - 1].value
+            if cell_id is not None and str(cell_id).strip() == str(job_id).strip():
+                row[status_col - 1].value = "Applied"
+                _color_status_cell(row[status_col - 1], "Applied")
+                if notes:
+                    existing = row[notes_col - 1].value or ""
+                    row[notes_col - 1].value = (
+                        f"{existing}  [{notes}]".strip() if existing else notes
+                    )
+                wb.save(str(TRACKER_PATH))
+                logger.info("Marked Applied: job_id=%s", job_id)
+                return True
+
+        logger.warning("mark_applied: job_id=%s not found in tracker", job_id)
+        return False
+    except Exception as exc:
+        logger.error("mark_applied failed: %s", exc)
+        return False
+
+
+def get_all_jobs() -> list[dict]:
+    """Return every tracker row as a list of dicts (keys = HEADERS)."""
+    if not TRACKER_PATH.exists():
+        return []
+    try:
+        wb = openpyxl.load_workbook(str(TRACKER_PATH), read_only=True)
+        ws = wb.active
+        jobs = []
+        for row in ws.iter_rows(min_row=2, values_only=True):
+            if not row[0]:
+                continue
+            jobs.append(dict(zip(HEADERS, row)))
+        return jobs
+    except Exception as exc:
+        logger.error("get_all_jobs failed: %s", exc)
+        return []
+
+
 def get_tracker_path() -> Path:
     return TRACKER_PATH

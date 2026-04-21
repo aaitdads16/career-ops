@@ -1,6 +1,7 @@
 """
 Telegram notifications for the Internship Finder.
 Sends text reports + PDF attachments (resume + cover letter) per compatible offer.
+Supports inline keyboards for the "✅ Applied" button (requires bot.py polling loop).
 """
 
 import logging
@@ -14,10 +15,10 @@ logger = logging.getLogger(__name__)
 _API = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}"
 
 
-# ── Core send helper ──────────────────────────────────────────────────────────
+# ── Core send helpers ─────────────────────────────────────────────────────────
 
 def _send(text: str, parse_mode: str = "HTML", disable_preview: bool = True) -> bool:
-    """Send a text message to the Telegram chat."""
+    """Send a plain text message to the Telegram chat."""
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         logger.warning("Telegram not configured — skipping notification.")
         return False
@@ -36,6 +37,79 @@ def _send(text: str, parse_mode: str = "HTML", disable_preview: bool = True) -> 
         return True
     except requests.RequestException as exc:
         logger.warning("Telegram sendMessage failed: %s", exc)
+        return False
+
+
+def _send_with_keyboard(
+    text: str,
+    keyboard: list,
+    parse_mode: str = "HTML",
+    disable_preview: bool = True,
+) -> Optional[int]:
+    """
+    Send a message with an inline keyboard.
+    Returns the Telegram message_id (needed to edit the button later) or None on failure.
+
+    keyboard format:
+        [[{"text": "✅ Applied", "callback_data": "applied:job-id-here"}]]
+    """
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
+        return None
+    try:
+        r = requests.post(
+            f"{_API}/sendMessage",
+            json={
+                "chat_id":                  TELEGRAM_CHAT_ID,
+                "text":                     text,
+                "parse_mode":               parse_mode,
+                "disable_web_page_preview": disable_preview,
+                "reply_markup":             {"inline_keyboard": keyboard},
+            },
+            timeout=15,
+        )
+        r.raise_for_status()
+        return r.json().get("result", {}).get("message_id")
+    except requests.RequestException as exc:
+        logger.warning("Telegram sendMessage (keyboard) failed: %s", exc)
+        return None
+
+
+def _edit_message_text(message_id: int, new_text: str, parse_mode: str = "HTML") -> bool:
+    """Edit an existing message (used to show '✅ Applied!' confirmation)."""
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
+        return False
+    try:
+        r = requests.post(
+            f"{_API}/editMessageText",
+            json={
+                "chat_id":    TELEGRAM_CHAT_ID,
+                "message_id": message_id,
+                "text":       new_text,
+                "parse_mode": parse_mode,
+                "disable_web_page_preview": True,
+            },
+            timeout=15,
+        )
+        r.raise_for_status()
+        return True
+    except requests.RequestException as exc:
+        logger.warning("Telegram editMessageText failed: %s", exc)
+        return False
+
+
+def _answer_callback(callback_query_id: str, text: str = "") -> bool:
+    """Acknowledge a callback query (removes the loading spinner in Telegram)."""
+    if not TELEGRAM_BOT_TOKEN:
+        return False
+    try:
+        r = requests.post(
+            f"{_API}/answerCallbackQuery",
+            json={"callback_query_id": callback_query_id, "text": text},
+            timeout=10,
+        )
+        r.raise_for_status()
+        return True
+    except requests.RequestException:
         return False
 
 
@@ -68,21 +142,49 @@ def send_documents(job: dict, resume_path: str, cover_path: str):
     """
     Send resume + cover letter PDFs for a single job as Telegram attachments.
     Called once per compatible offer after document generation.
+    Attaches an inline "✅ Mark as Applied" button — handled by bot.py.
     """
     if not resume_path and not cover_path:
         return
 
-    _src_emoji = {"Indeed": "🔵", "LinkedIn": "🔷", "Glassdoor": "🟢", "Wellfound": "🟠"}
+    _src_emoji = {"Indeed": "🔵", "LinkedIn": "🔷", "Glassdoor": "🟢",
+                  "Wellfound": "🟠", "Google Jobs": "🔴"}
     source_emoji = _src_emoji.get(job.get("source", ""), "⚪️")
     score = job.get("relevance_score", "")
     score_tag = f" ⭐{score}/10" if score else ""
+
+    # ATS score line (set by doc_generator)
+    ats_score = job.get("ats_score")
+    ats_line  = ""
+    if ats_score is not None:
+        bar = "🟢" if ats_score >= 80 else "🟡" if ats_score >= 60 else "🔴"
+        ats_line = f"\n{bar} ATS match: <b>{ats_score}%</b>"
+        missing = job.get("ats_missing", [])
+        if missing:
+            ats_line += f" · missing: {', '.join(missing[:4])}"
+
+    # Outreach line (set by outreach_generator)
+    outreach_line = ""
+    if job.get("linkedin_outreach"):
+        outreach_line = f"\n\n💬 <b>LinkedIn message:</b>\n{job['linkedin_outreach']}"
 
     header = (
         f"📄 <b>{job.get('title', '')} @ {job.get('company', '')}</b>{score_tag}\n"
         f"{source_emoji} {job.get('location', '')}  |  "
         f"<a href=\"{job.get('url', '')}\">Apply →</a>"
+        f"{ats_line}"
+        f"{outreach_line}"
     )
-    _send(header)
+
+    # Send header with "✅ Mark as Applied" inline button
+    job_id = job.get("job_id", "")
+    if job_id:
+        keyboard = [[{"text": "✅ Mark as Applied", "callback_data": f"applied:{job_id}"}]]
+        msg_id = _send_with_keyboard(header, keyboard)
+        # Store message_id so bot.py can edit it after confirmation
+        job["_tg_header_msg_id"] = msg_id
+    else:
+        _send(header)
 
     if resume_path:
         _send_file(

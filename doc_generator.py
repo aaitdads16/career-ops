@@ -599,8 +599,29 @@ def generate_documents(job: dict):
     # ── Resume ────────────────────────────────────────────────────────────────
     try:
         resume_data = _call_resume_content(job)
-        html        = _fill_resume_html(resume_data, fmt)
-        html_file   = tmp_dir / f"cv-{cand_slug}-{co_slug}.html"
+
+        # ── ATS score (free — uses Claude's own keyword metadata) ────────────
+        matched = resume_data.get("ats_keywords_matched") or []
+        missing = resume_data.get("ats_keywords_missing") or []
+        total_kw = len(matched) + len(missing)
+        if total_kw > 0:
+            ats_score = int(len(matched) / total_kw * 100)
+        else:
+            ats_score = 85   # default when no keyword data
+
+        job["ats_score"]   = ats_score
+        job["ats_missing"] = missing
+
+        if ats_score < 60 and missing:
+            logger.warning(
+                "  ⚠️ ATS score low (%d%%) for %s @ %s — missing: %s",
+                ats_score, title, company, ", ".join(missing[:5]),
+            )
+        else:
+            logger.info("  ATS score: %d%%  matched=%d  missing=%d", ats_score, len(matched), len(missing))
+
+        html      = _fill_resume_html(resume_data, fmt)
+        html_file = tmp_dir / f"cv-{cand_slug}-{co_slug}.html"
         html_file.write_text(html, encoding="utf-8")
         pdf_file = RESUMES_DIR / f"cv-{cand_slug}-{co_slug}-{date_str}.pdf"
         if _run_node_pdf(html_file, pdf_file, fmt):

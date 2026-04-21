@@ -21,6 +21,8 @@ from config import (
     SEEN_IDS_PATH,
     TRACKER_PATH,
 )
+from analytics import generate_analytics_report, should_run_weekly_analytics
+from callback_handler import process_pending_callbacks
 from credit_monitor import check_budget_alert, get_apify_usage, get_today_summary
 from doc_generator import generate_documents
 from job_filter import filter_jobs
@@ -32,6 +34,7 @@ from notifier import (
     send_documents,
     _send,
 )
+from outreach_generator import add_outreach_to_jobs
 from scraper import (
     load_seen_fingerprints,
     load_seen_ids,
@@ -40,6 +43,7 @@ from scraper import (
     scrape_all,
     _make_fingerprint,
 )
+from skills_gap import analyze_skills_gap, save_scored_jobs, should_run_weekly_analysis
 from tracker_manager import add_jobs
 
 # ── Cloud detection ───────────────────────────────────────────────────────────
@@ -63,6 +67,15 @@ def run():
     logger.info("=" * 60)
     logger.info("Internship Finder — run started at %s  [%s]",
                 start.isoformat(), "CLOUD/GitHub Actions" if IS_CLOUD else "LOCAL/Mac")
+
+    # ── 0. Process any pending Telegram callbacks (Applied button presses) ────
+    # Flushes button taps that happened since the last run (when bot.py wasn't running)
+    try:
+        cb_count = process_pending_callbacks()
+        if cb_count:
+            logger.info("Flushed %d pending Telegram callback(s).", cb_count)
+    except Exception as exc:
+        logger.warning("Callback flush failed (non-critical): %s", exc)
 
     # ── 1. Load seen job IDs + content fingerprints (deduplication) ───────────
     seen_ids = load_seen_ids(SEEN_IDS_PATH)
@@ -89,6 +102,12 @@ def run():
     compatible_jobs, rejected_jobs = filter_jobs(all_scraped, MIN_RELEVANCE_SCORE)
     scraped_total  = len(all_scraped)
     rejected_count = len(rejected_jobs)
+
+    # Persist ALL scored jobs for skills gap + analytics (regardless of compatibility)
+    try:
+        save_scored_jobs(compatible_jobs + rejected_jobs)
+    except Exception as exc:
+        logger.warning("save_scored_jobs failed (non-critical): %s", exc)
 
     if not compatible_jobs:
         logger.info("No compatible jobs after relevance filter.")
@@ -118,7 +137,13 @@ def run():
     same_hour = [j for j in compatible_jobs if id(j) in same_hour_ids]
     logger.info("Same-hour compatible offers: %d", len(same_hour))
 
-    # ── 5. Generate documents + send PDFs per compatible job ─────────────────
+    # ── 5. LinkedIn outreach drafts (score >= 8) ─────────────────────────────
+    try:
+        add_outreach_to_jobs(compatible_jobs)
+    except Exception as exc:
+        logger.warning("Outreach generation failed (non-critical): %s", exc)
+
+    # ── 6. Generate documents + send PDFs per compatible job ─────────────────
     rows = []
     for job in compatible_jobs:
         try:
@@ -136,11 +161,11 @@ def run():
                          job["title"], job["company"], exc)
             rows.append({**job, "resume_path": "", "cover_path": ""})
 
-    # ── 6. Update tracker ─────────────────────────────────────────────────────
+    # ── 7. Update tracker ─────────────────────────────────────────────────────
     added = add_jobs(rows)
     logger.info("Tracker rows added: %d", added)
 
-    # ── 7. Persist seen IDs + fingerprints ───────────────────────────────────
+    # ── 8. Persist seen IDs + fingerprints ───────────────────────────────────
     # seen_ids   → ALL scraped jobs (prevents re-scoring same job from same source)
     # fingerprints → ONLY compatible (sent) jobs (prevents duplicate Telegram alerts
     #                across sources; rejected jobs are NOT fingerprinted so a different
@@ -153,14 +178,14 @@ def run():
     save_seen_ids(SEEN_IDS_PATH, seen_ids)
     save_seen_fingerprints(SEEN_FINGERPRINTS_PATH, seen_fingerprints)
 
-    # ── 8. Budget check ───────────────────────────────────────────────────────
+    # ── 9. Budget check ───────────────────────────────────────────────────────
     alert_level, alert_msg = check_budget_alert()
     if alert_level:
         notify_budget_alert(alert_msg, priority=5 if alert_level == "danger" else 4)
         if alert_level == "danger":
             logger.error("Budget exhausted — notifications only, no more generation.")
 
-    # ── 9. Notifications (text only — no file attachments) ───────────────────
+    # ── 10. Notifications (text only — no file attachments) ──────────────────
     # Same-hour priority alerts (up to 3)
     for job in same_hour[:3]:
         notify_single_job(job)
@@ -174,7 +199,7 @@ def run():
         rejected_count=rejected_count,
     )
 
-    # ── 10. Run-complete summary ──────────────────────────────────────────────
+    # ── 11. Run-complete summary ──────────────────────────────────────────────
     cost_summary = get_today_summary()
     cost_summary["apify"] = get_apify_usage()
     notify_run_complete(
@@ -184,6 +209,21 @@ def run():
         scraped_total=scraped_total,
         rejected_count=rejected_count,
     )
+
+    # ── 12. Weekly reports (skills gap on Mondays, analytics on Sundays) ─────
+    try:
+        if should_run_weekly_analysis():
+            logger.info("Running weekly skills gap analysis (Monday trigger)...")
+            analyze_skills_gap(days=7)
+    except Exception as exc:
+        logger.warning("Skills gap analysis failed (non-critical): %s", exc)
+
+    try:
+        if should_run_weekly_analytics():
+            logger.info("Running weekly analytics report (Sunday trigger)...")
+            generate_analytics_report()
+    except Exception as exc:
+        logger.warning("Analytics report failed (non-critical): %s", exc)
 
     elapsed = (datetime.now(tz=timezone.utc) - start).total_seconds()
     logger.info("Run finished in %.1fs — %d compatible jobs processed.", elapsed, len(compatible_jobs))
