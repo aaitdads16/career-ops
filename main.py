@@ -92,12 +92,9 @@ def run():
 
     if not compatible_jobs:
         logger.info("No compatible jobs after relevance filter.")
-        # Persist all scraped IDs and fingerprints so we don't reprocess them
+        # Persist scraped IDs (prevents re-scoring) but NOT fingerprints —
+        # nothing was sent, so other sources should still be able to surface these jobs
         seen_ids.update(j["job_id"] for j in all_scraped if j.get("job_id"))
-        seen_fingerprints.update(
-            _make_fingerprint(j.get("title", ""), j.get("company", ""))
-            for j in all_scraped
-        )
         save_seen_ids(SEEN_IDS_PATH, seen_ids)
         save_seen_fingerprints(SEEN_FINGERPRINTS_PATH, seen_fingerprints)
         notify_run_complete(
@@ -143,11 +140,15 @@ def run():
     added = add_jobs(rows)
     logger.info("Tracker rows added: %d", added)
 
-    # ── 7. Persist seen IDs + fingerprints (ALL scraped jobs incl. rejected) ──
+    # ── 7. Persist seen IDs + fingerprints ───────────────────────────────────
+    # seen_ids   → ALL scraped jobs (prevents re-scoring same job from same source)
+    # fingerprints → ONLY compatible (sent) jobs (prevents duplicate Telegram alerts
+    #                across sources; rejected jobs are NOT fingerprinted so a different
+    #                source can surface them — this is what keeps Indeed/Glassdoor alive)
     seen_ids.update(j["job_id"] for j in all_scraped if j.get("job_id"))
     seen_fingerprints.update(
         _make_fingerprint(j.get("title", ""), j.get("company", ""))
-        for j in all_scraped
+        for j in compatible_jobs
     )
     save_seen_ids(SEEN_IDS_PATH, seen_ids)
     save_seen_fingerprints(SEEN_FINGERPRINTS_PATH, seen_fingerprints)

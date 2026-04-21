@@ -180,10 +180,11 @@ WELLFOUND_MAX      = 30    # results per keyword (Wellfound — free actor, no d
 MAX_JOB_AGE_DAYS   = 3     # drop jobs with posted_at older than this (post-scrape age filter)
 
 # ── Apify actor IDs ───────────────────────────────────────────────────────────
-ACTOR_INDEED    = "valig/indeed-jobs-scraper"
-ACTOR_LINKEDIN  = "curious_coder/linkedin-jobs-scraper"
-ACTOR_GLASSDOOR = "valig/glassdoor-jobs-scraper"
-ACTOR_WELLFOUND = "sovereigntaylor/wellfound-scraper"
+ACTOR_INDEED       = "valig/indeed-jobs-scraper"
+ACTOR_LINKEDIN     = "curious_coder/linkedin-jobs-scraper"
+ACTOR_GLASSDOOR    = "valig/glassdoor-jobs-scraper"
+ACTOR_WELLFOUND    = "sovereigntaylor/wellfound-scraper"
+ACTOR_GOOGLE_JOBS  = "apify/google-jobs-scraper"
 
 # ── LinkedIn URL builder ──────────────────────────────────────────────────────
 # Regions for LinkedIn (city name used in URL, LinkedIn split country code)

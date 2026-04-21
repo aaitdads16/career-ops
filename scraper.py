@@ -1,6 +1,6 @@
 """
 Multi-source internship scraper.
-Sources: Indeed · LinkedIn · Glassdoor · Wellfound (startup jobs)
+Sources: Indeed · LinkedIn · Glassdoor · Google Jobs · Wellfound (startup jobs)
 All routed through Apify actors, deduplicated, and quota-balanced by region.
 """
 
@@ -14,6 +14,7 @@ from apify_client import ApifyClient
 
 from config import (
     ACTOR_GLASSDOOR,
+    ACTOR_GOOGLE_JOBS,
     ACTOR_INDEED,
     ACTOR_LINKEDIN,
     ACTOR_WELLFOUND,
@@ -335,6 +336,75 @@ def scrape_wellfound(client: ApifyClient, seen_ids: Set[str]) -> Dict[str, List[
     return results
 
 
+# ── Google Jobs ──────────────────────────────────────────────────────────────
+
+# Top cities per region to drive Google Jobs searches (kept tight to control cost)
+_GOOGLE_JOBS_CITIES = {
+    "Europe":        ["London", "Berlin", "Amsterdam", "Paris", "Zurich", "Stockholm"],
+    "Asia":          ["Singapore", "Tokyo", "Bangalore", "Seoul"],
+    "USA_Canada":    ["New York", "San Francisco", "Toronto"],
+    "South_America": ["São Paulo", "Buenos Aires"],
+    "Middle_East":   ["Dubai"],
+}
+
+
+def _normalize_google_jobs(item: dict, region: str) -> Optional[dict]:
+    # Google Jobs actor returns various field names depending on version
+    job_id  = str(item.get("id") or item.get("jobId") or "")
+    title   = item.get("title") or item.get("jobTitle") or ""
+    company = item.get("company") or item.get("companyName") or item.get("employer") or ""
+    location= item.get("location") or item.get("jobLocation") or ""
+    url     = item.get("applyLink") or item.get("url") or item.get("jobUrl") or item.get("shareLink") or ""
+    desc    = item.get("description") or item.get("jobDescription") or ""
+    posted  = item.get("postedAt") or item.get("datePosted") or item.get("publishedAt") or ""
+
+    if not (title and company) or _is_excluded(location) or _is_blacklisted(company):
+        return None
+
+    if not job_id:
+        import hashlib
+        job_id = hashlib.md5(f"{title}::{company}::{location}".encode()).hexdigest()[:16]
+    if not url:
+        url = f"https://www.google.com/search?q={urllib.parse.quote(title+' '+company)}&ibp=htl;jobs"
+
+    return {
+        "job_id":      f"google_{job_id}",
+        "source":      "Google Jobs",
+        "title":       title,
+        "company":     company,
+        "location":    location,
+        "region":      region,
+        "url":         url,
+        "description": desc,
+        "posted_at":   _parse_date(posted),
+        "posted_raw":  str(posted),
+        "found_at":    datetime.now(tz=timezone.utc),
+    }
+
+
+def scrape_google_jobs(client: ApifyClient, seen_ids: Set[str]) -> Dict[str, List[dict]]:
+    """Scrape Google Jobs — broad aggregator covering company sites, boards, and more."""
+    results: Dict[str, List[dict]] = {r: [] for r in REGIONS}
+
+    for region_name, cities in _GOOGLE_JOBS_CITIES.items():
+        for city in cities:
+            for keyword in SEARCH_KEYWORDS[:2]:   # top 2 keywords per city
+                query = f"{keyword} {city}"
+                items = _run_actor(client, ACTOR_GOOGLE_JOBS, {
+                    "queries":          [query],
+                    "maxJobsPerQuery":  RESULTS_PER_SEARCH,
+                    "languageCode":     "en",
+                    "datePosted":       "3days",
+                }, timeout=90)
+                logger.info("  Google Jobs [%s] '%s' → %d", city, keyword, len(items))
+                for item in items:
+                    norm = _normalize_google_jobs(item, region_name)
+                    if norm and norm["job_id"] not in seen_ids:
+                        results[region_name].append(norm)
+
+    return results
+
+
 # ── Merge, deduplicate, and apply quota ───────────────────────────────────────
 
 def _filter_stale_jobs(jobs: List[dict]) -> List[dict]:
@@ -417,6 +487,9 @@ def scrape_all(seen_ids: Set[str], seen_fingerprints: Optional[Set[str]] = None)
     logger.info("── Scraping Glassdoor ───────────────────────────────")
     glassdoor_results = scrape_glassdoor(client, seen_ids)
 
+    logger.info("── Scraping Google Jobs ─────────────────────────────")
+    google_results    = scrape_google_jobs(client, seen_ids)
+
     logger.info("── Scraping Wellfound ───────────────────────────────")
     wellfound_results = scrape_wellfound(client, seen_ids)
 
@@ -431,8 +504,8 @@ def scrape_all(seen_ids: Set[str], seen_fingerprints: Optional[Set[str]] = None)
     # Merge all sources
     combined = _merge_sources(
         indeed_results, linkedin_results,
-        glassdoor_results, wellfound_results,
-        free_results,
+        glassdoor_results, google_results,
+        wellfound_results, free_results,
     )
 
     # Remove jobs already in seen_ids (belt-and-suspenders)
