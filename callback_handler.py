@@ -241,16 +241,18 @@ def _handle_message(msg: dict) -> None:
     logger.info("Command: %s  args=%s", command, args)
 
     dispatch = {
-        "/help":      lambda: _cmd_help(),
-        "/start":     lambda: _cmd_help(),
-        "/status":    lambda: _cmd_status(),
-        "/stats":     lambda: _cmd_stats(),
-        "/budget":    lambda: _cmd_budget(),
-        "/pause":     lambda: _cmd_pause(args),
-        "/resume":    lambda: _cmd_resume(),
-        "/search":    lambda: _cmd_search(args),
-        "/followup":  lambda: _cmd_followup(),
-        "/setstatus": lambda: _cmd_setstatus(args),
+        "/help":        lambda: _cmd_help(),
+        "/start":       lambda: _cmd_help(),
+        "/status":      lambda: _cmd_status(),
+        "/stats":       lambda: _cmd_stats(),
+        "/budget":      lambda: _cmd_budget(),
+        "/pause":       lambda: _cmd_pause(args),
+        "/resume":      lambda: _cmd_resume(),
+        "/search":      lambda: _cmd_search(args),
+        "/followup":    lambda: _cmd_followup(),
+        "/setstatus":   lambda: _cmd_setstatus(args),
+        "/regenerate":  lambda: _cmd_regenerate(args),
+        "/pending":     lambda: _cmd_pending(),
     }
 
     handler = dispatch.get(command)
@@ -273,7 +275,10 @@ def _cmd_help():
         "/status — Summary: applied, waiting, interviews, offers\n"
         "/stats — Full analytics funnel by source &amp; region\n"
         "/setstatus [job_id] [status] — Update a job's status\n"
-        "  Valid: <code>Applied</code> · <code>Waiting to apply</code> · <code>Rejected</code> · <code>Interview</code> · <code>Offer</code>\n\n"
+        "  Valid: <code>Applied</code> · <code>Waiting to apply</code> · <code>Rejected</code> · <code>Interview</code> · <code>Offer</code>\n"
+        "/pending — List all 'Waiting to apply' offers with ✅ Apply buttons\n\n"
+        "<b>Documents</b>\n"
+        "/regenerate [job_id] — Re-generate tailored resume + cover letter for a job\n\n"
         "<b>Follow-ups</b>\n"
         "/followup — List applications needing a follow-up (≥7 days, no response)\n\n"
         "<b>Scraping</b>\n"
@@ -490,6 +495,119 @@ def _cmd_setstatus(args: list):
             f"⚠️ Job <code>{job_id}</code> not found in tracker.\n"
             f"Check the dashboard or use /status to see available IDs."
         )
+
+
+def _cmd_pending():
+    """
+    List all 'Waiting to apply' offers as individual Telegram messages, each with
+    a ✅ Applied button. Lets you bulk-mark everything you've already applied to.
+    """
+    from tracker_manager import get_all_jobs
+    jobs = get_all_jobs()
+    pending = [j for j in jobs if (j.get("Status") or "").lower() == "waiting to apply"]
+
+    if not pending:
+        _send("✅ No jobs with 'Waiting to apply' status — all caught up!")
+        return
+
+    # Most recent first (tracker rows already in insertion order)
+    pending = list(reversed(pending))
+
+    _send(
+        f"⏳ <b>{len(pending)} offer(s) waiting to apply</b>\n\n"
+        f"Tap ✅ Applied on any you've already sent an application for.\n"
+        + (f"Showing the 15 most recent — use the dashboard to update the rest." if len(pending) > 15 else "")
+    )
+
+    from notifier import _send_with_keyboard
+    for job in pending[:15]:
+        job_id  = str(job.get("ID", ""))
+        title   = (job.get("Job Title") or "")[:50]
+        company = (job.get("Company") or "")[:30]
+        url     = job.get("Job URL") or ""
+        date    = str(job.get("Date Found") or "")[:10]
+        source  = job.get("Source") or ""
+
+        link_part = f'\n🔗 <a href="{url}">View listing →</a>' if url and url != "–" else ""
+        text = (
+            f"⏳ <b>{title}</b>\n"
+            f"🏢 {company}  |  📡 {source}  |  📅 {date}"
+            f"{link_part}"
+        )
+        keyboard = [[{"text": "✅ Applied", "callback_data": f"applied:{job_id}"}]]
+        _send_with_keyboard(text, keyboard)
+
+
+def _cmd_regenerate(args: list):
+    """
+    Re-generate tailored resume + cover letter for a specific job_id.
+    Loads the original JD from data/jd_archive/ if available.
+    Sends fresh PDFs to Telegram.
+    """
+    if not args:
+        _send(
+            "Usage: /regenerate [job_id]\n"
+            "Example: /regenerate linkedin_4403632474\n\n"
+            "Finds the job in your tracker, loads the archived JD, and "
+            "generates fresh tailored documents — useful when you want a "
+            "different variant or updated content."
+        )
+        return
+
+    job_id = args[0].strip()
+
+    # Locate the job in tracker
+    from tracker_manager import get_all_jobs
+    all_jobs = get_all_jobs()
+    tracker_row = next(
+        (j for j in all_jobs if str(j.get("ID", "")).strip() == job_id),
+        None,
+    )
+
+    if not tracker_row:
+        _send(
+            f"⚠️ Job <code>{job_id}</code> not found in tracker.\n"
+            f"Use /status to see available IDs or check the dashboard."
+        )
+        return
+
+    title   = tracker_row.get("Job Title") or ""
+    company = tracker_row.get("Company") or ""
+
+    # Load archived JD (may be empty if job was added before archiving was live)
+    from jd_archive import load_jd
+    description = load_jd(job_id)
+    if not description:
+        logger.info("No archived JD for %s — generating from title/company only.", job_id)
+
+    job_for_gen = {
+        "job_id":      job_id,
+        "title":       title,
+        "company":     company,
+        "location":    tracker_row.get("Location") or "",
+        "region":      tracker_row.get("Region") or "",
+        "url":         tracker_row.get("Job URL") or "",
+        "source":      tracker_row.get("Source") or "",
+        "description": description,
+    }
+
+    jd_note = "with archived JD" if description else "from title/company only (no archived JD)"
+    _send(
+        f"🔄 Regenerating documents for <b>{title}</b> @ {company}\n"
+        f"<i>{jd_note}</i>\n\nThis takes ~30 seconds…"
+    )
+
+    try:
+        from doc_generator import generate_documents
+        from notifier import send_documents
+        resume_path, cover_path = generate_documents(job_for_gen)
+        send_documents(job_for_gen, resume_path, cover_path)
+        logger.info("Regenerated docs for %s", job_id)
+    except RuntimeError as exc:
+        _send(f"🚨 Budget exhausted — cannot regenerate: {exc}")
+    except Exception as exc:
+        logger.error("_cmd_regenerate failed for %s: %s", job_id, exc)
+        _send(f"❌ Regeneration failed: {exc}")
 
 
 def _update_app_status(job_id: str, new_status: str) -> None:

@@ -53,6 +53,7 @@ from scraper import (
     _make_fingerprint,
 )
 from skills_gap import analyze_skills_gap, save_scored_jobs, should_run_weekly_analysis
+from jd_archive import archive_jobs
 from tracker_manager import add_jobs, apply_status_overrides
 
 # ── Cloud detection ───────────────────────────────────────────────────────────
@@ -201,6 +202,13 @@ def run():
         "Compatible jobs: %d / %d scraped  (filtered out: %d)",
         len(compatible_jobs), scraped_total, rejected_count,
     )
+
+    # ── 3b. Archive JD text so /regenerate and skills-gap always have it ──────
+    try:
+        saved = archive_jobs(compatible_jobs)
+        logger.info("JD archive: %d description(s) saved.", saved)
+    except Exception as exc:
+        logger.warning("JD archiving failed (non-critical): %s", exc)
 
     # ── 4. Identify same-hour jobs (highest priority) ─────────────────────────
     now_hour = datetime.now(tz=timezone.utc).hour
