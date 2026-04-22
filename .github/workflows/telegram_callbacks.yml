@@ -55,7 +55,12 @@ jobs:
           print(f'Processed {n} update(s).')
           "
 
-      - name: Commit changes
+      - name: Commit changes (+ rebuild dashboard if data changed)
+        env:
+          DASHBOARD_PAT:     ${{ secrets.DASHBOARD_PAT }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          OUTPUT_DIR:        ${{ github.workspace }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
           git config user.email "career-ops-bot@users.noreply.github.com"
           git config user.name  "Career Ops Bot"
@@ -69,6 +74,19 @@ jobs:
             data/statuses.json; do
             git add --force "$f" 2>/dev/null || true
           done
+
+          # Rebuild dashboard if tracker or statuses were updated this run
+          if ! git diff --staged --quiet -- data/tracker.xlsx data/statuses.json; then
+            echo "Data changed — rebuilding dashboard..."
+            python3 -c "
+          import logging, os
+          logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
+          from dashboard_generator import generate_dashboard
+          out = generate_dashboard()
+          print(f'Dashboard rebuilt: {out}')
+          " && git add --force docs/index.html 2>/dev/null || echo "Dashboard rebuild failed (non-critical)"
+          fi
+
           if ! git diff --staged --quiet; then
             git commit -m "chore: callback sync $(date +'%Y-%m-%d %H:%M UTC') [skip ci]"
             for attempt in 1 2 3; do

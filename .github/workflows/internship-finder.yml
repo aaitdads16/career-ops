@@ -13,8 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write    # commit tracker + dashboard back to repo
-      pages: write       # deploy to GitHub Pages
-      id-token: write    # OIDC token for Pages deployment
+      # Pages now deploy from branch (main/docs) — no Actions deployment needed
 
     steps:
       # ── 1. Check out the repo ────────────────────────────────────────────────
@@ -147,14 +146,8 @@ jobs:
             echo "No data changes to commit."
           fi
 
-      # ── 11. Deploy dashboard to GitHub Pages ─────────────────────────────────
-      - name: Upload Pages artifact
-        if: always()
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs/
-
-      # ── 12. Upload generated files as workflow artifacts ─────────────────────
+      # ── 11. Upload generated files as workflow artifacts ─────────────────────
+      # (GitHub Pages auto-deploys from main/docs — no separate step needed)
       - name: Upload run artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -168,18 +161,3 @@ jobs:
           retention-days: 14
           if-no-files-found: ignore
 
-  # ── Deploy GitHub Pages ───────────────────────────────────────────────────
-  deploy-pages:
-    needs: run-finder
-    runs-on: ubuntu-latest
-    if: always()
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    permissions:
-      pages: write
-      id-token: write
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4

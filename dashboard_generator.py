@@ -1230,6 +1230,26 @@ function mdToHtml(text) {
   });
 
   render();
+
+  // ── Live overlay: fetch statuses.json on load to reflect recent changes ──────
+  // Works even before the dashboard HTML is rebuilt (GitHub API writes statuses.json
+  // directly; this fetch picks it up within seconds without needing a new deployment).
+  (async function liveOverlay() {
+    try {
+      const r = await fetch(
+        'https://raw.githubusercontent.com/__GITHUB_REPO__/main/data/statuses.json?_=' + Date.now(),
+        { cache: 'no-store' }
+      );
+      if (!r.ok) return;
+      const ov = await r.json();
+      let hit = false;
+      for (const [id, st] of Object.entries(ov)) {
+        const j = jobs.find(x => x.id === id);
+        if (j && j.status !== st) { j.status = st; hit = true; }
+      }
+      if (hit) render();
+    } catch(_) { /* offline or rate-limited — silent fail */ }
+  })();
 })();
 
 // ── Toast ─────────────────────────────────────────────────────────────────────

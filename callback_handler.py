@@ -128,6 +128,7 @@ def _drain_pending_queue() -> int:
                 new_text = f"✅ <b>APPLIED</b> · {applied_at}\n\n{original_text}"
                 _edit_message_text(msg_id, new_text[:4000])
             resolved += 1
+            _write_status_override(job_id, "Applied")   # live dashboard overlay
             # Record in follow-up tracker
             try:
                 _record_application(job_id, original_text, applied_at)
@@ -193,6 +194,7 @@ def _handle_callback(cq: dict) -> None:
             _answer_callback(cq_id, "✅ Marked as Applied!")
             if msg_id and original_text:
                 _edit_message_text(msg_id, f"✅ <b>APPLIED</b> · {now_str}\n\n{original_text}"[:4000])
+            _write_status_override(job_id, "Applied")   # live dashboard overlay
             try:
                 _record_application(job_id, original_text, now_str)
             except Exception:
@@ -479,6 +481,7 @@ def _cmd_setstatus(args: list):
     success = update_status(job_id, matched, notes=f"Status set via Telegram command")
     if success:
         _send(f"✅ <code>{job_id}</code> → <b>{matched}</b>")
+        _write_status_override(job_id, matched)   # live dashboard overlay
         # Update applications.json if it exists
         if matched in ("Interview", "Offer", "Rejected"):
             _update_app_status(job_id, matched)
@@ -502,6 +505,47 @@ def _update_app_status(job_id: str, new_status: str) -> None:
         apps_file.write_text(json.dumps(apps, indent=2))
     except Exception:
         pass
+
+
+# ── Webhook / polling helpers ─────────────────────────────────────────────────
+
+def _ensure_polling_mode() -> None:
+    """
+    Delete any registered webhook so Telegram delivers updates via getUpdates.
+    Safe to call on every run — no-op if no webhook is set.
+    A webhook (even a dead one) silently swallows all updates and makes getUpdates
+    return nothing, which is the most common cause of the bot appearing unresponsive.
+    """
+    if not TELEGRAM_BOT_TOKEN:
+        return
+    try:
+        info = requests.get(f"{_API}/getWebhookInfo", timeout=10).json()
+        url  = (info.get("result") or {}).get("url", "")
+        if url:
+            r = requests.post(f"{_API}/deleteWebhook",
+                              json={"drop_pending_updates": False}, timeout=10)
+            logger.info("Webhook deleted (was: %s) → polling mode active.", url)
+        else:
+            logger.debug("No webhook set — polling mode confirmed.")
+    except Exception as exc:
+        logger.warning("_ensure_polling_mode failed: %s", exc)
+
+
+def _write_status_override(job_id: str, status: str) -> None:
+    """
+    Write a status change to data/statuses.json so the dashboard client-side
+    overlay reflects it on the next page load (without waiting for a full rebuild).
+    """
+    statuses_path = DATA_DIR / "statuses.json"
+    try:
+        overrides = json.loads(statuses_path.read_text()) if statuses_path.exists() else {}
+    except Exception:
+        overrides = {}
+    overrides[str(job_id)] = status
+    try:
+        statuses_path.write_text(json.dumps(overrides, indent=2))
+    except Exception as exc:
+        logger.warning("_write_status_override failed: %s", exc)
 
 
 # ── Update fetcher ────────────────────────────────────────────────────────────
@@ -535,6 +579,9 @@ def process_pending_callbacks() -> int:
     """
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         return 0
+
+    # Ensure no webhook is stealing updates (silent cause of button/command failures)
+    _ensure_polling_mode()
 
     # First: retry any previously deferred applied callbacks
     resolved = _drain_pending_queue()
