@@ -189,21 +189,36 @@ _LINKEDIN_SPLIT_COUNTRIES = [
     ("Europe",     "NL"),   # Netherlands
     ("Europe",     "CH"),   # Switzerland
     ("Europe",     "SE"),   # Sweden
+    ("Europe",     "PL"),   # Poland
+    ("Europe",     "IT"),   # Italy
+    ("Europe",     "ES"),   # Spain
+    ("Europe",     "BE"),   # Belgium
     ("Asia",       "SG"),   # Singapore
     ("Asia",       "IN"),   # India
     ("Asia",       "JP"),   # Japan
+    ("Asia",       "AU"),   # Australia
+    ("Asia",       "IL"),   # Israel
     ("USA_Canada", "US"),   # United States
     ("USA_Canada", "CA"),   # Canada
 ]
 
 _LINKEDIN_MANUAL_CITIES = {
-    # Regions/cities NOT covered by Tier 1 above
     "Europe":        [("Dublin","IE"),("Barcelona","ES"),("Copenhagen","DK"),
-                      ("Oslo","NO"),("Helsinki","FI"),("Vienna","AT"),("Milan","IT")],
-    "Asia":          [("Seoul","KR"),("Hong Kong","HK"),("Kuala Lumpur","MY")],
-    "South_America": [("São Paulo","BR"),("Buenos Aires","AR"),("Mexico City","MX")],
-    "Middle_East":   [("Dubai","AE"),("Abu Dhabi","AE")],
-    "USA_Canada":    [],  # fully covered by Tier 1
+                      ("Oslo","NO"),("Helsinki","FI"),("Vienna","AT"),("Milan","IT"),
+                      ("Lisbon","PT"),("Prague","CZ"),("Warsaw","PL"),("Athens","GR"),
+                      ("Budapest","HU"),("Bucharest","RO"),("Tallinn","EE"),
+                      ("Zurich","CH"),("Brussels","BE"),("Luxembourg","LU")],
+    "Asia":          [("Seoul","KR"),("Hong Kong","HK"),("Kuala Lumpur","MY"),
+                      ("Bangkok","TH"),("Ho Chi Minh City","VN"),("Manila","PH"),
+                      ("Sydney","AU"),("Melbourne","AU"),("Auckland","NZ"),
+                      ("Tel Aviv","IL"),("Shanghai","CN"),("Beijing","CN")],
+    "South_America": [("São Paulo","BR"),("Buenos Aires","AR"),("Mexico City","MX"),
+                      ("Bogotá","CO"),("Santiago","CL"),("Lima","PE")],
+    "Middle_East":   [("Dubai","AE"),("Abu Dhabi","AE"),("Riyadh","SA"),
+                      ("Doha","QA"),("Tel Aviv","IL")],
+    "USA_Canada":    [("Austin","US"),("Chicago","US"),("Los Angeles","US"),
+                      ("Washington","US"),("Atlanta","US"),("Vancouver","CA"),
+                      ("Calgary","CA")],
 }
 
 
@@ -472,11 +487,15 @@ def scrape_remoteok(seen_ids: Set[str]) -> Dict[str, List[dict]]:
 
 # Top cities per region to drive Google Jobs searches (kept tight to control cost)
 _GOOGLE_JOBS_CITIES = {
-    "Europe":        ["London", "Berlin", "Amsterdam", "Paris", "Zurich", "Stockholm"],
-    "Asia":          ["Singapore", "Tokyo", "Bangalore", "Seoul"],
-    "USA_Canada":    ["New York", "San Francisco", "Toronto"],
-    "South_America": ["São Paulo", "Buenos Aires"],
-    "Middle_East":   ["Dubai"],
+    "Europe":        ["London", "Berlin", "Amsterdam", "Zurich", "Stockholm",
+                      "Dublin", "Barcelona", "Warsaw", "Vienna", "Milan",
+                      "Lisbon", "Copenhagen", "Brussels"],
+    "Asia":          ["Singapore", "Tokyo", "Bangalore", "Seoul", "Sydney",
+                      "Tel Aviv", "Hong Kong", "Kuala Lumpur"],
+    "USA_Canada":    ["New York", "San Francisco", "Boston", "Seattle",
+                      "Austin", "Chicago", "Toronto", "Vancouver"],
+    "South_America": ["São Paulo", "Buenos Aires", "Mexico City", "Bogotá"],
+    "Middle_East":   ["Dubai", "Tel Aviv", "Riyadh"],
 }
 
 

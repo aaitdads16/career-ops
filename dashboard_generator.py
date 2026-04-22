@@ -165,21 +165,36 @@ def _compute_stats():
     # Merge any pending dashboard status overrides (written directly from the dashboard UI)
     status_overrides = _load_statuses()
 
+    GITHUB_REPO_FOR_PDFS = "aaitdads16/career-ops"  # used to build Pages URLs
+
     # All jobs for the full table (capped at 200 for page performance)
     all_jobs_table = []
-    for j in reversed(jobs[-200:]):   # most recent first
+    for j in reversed(jobs[-200:]):
         job_id = str(j.get("ID") or "")
         status = status_overrides.get(job_id) or str(j.get("Status") or "Waiting to apply")
+
+        # Build PDF download URLs from stored paths (files copied to docs/pdfs/ by main.py)
+        resume_fname = Path(str(j.get("Resume") or "")).name
+        cover_fname  = Path(str(j.get("Cover Letter") or "")).name
+        resume_url   = (f"https://{GITHUB_REPO_FOR_PDFS.split('/')[0]}.github.io/"
+                        f"{GITHUB_REPO_FOR_PDFS.split('/')[1]}/pdfs/resumes/{resume_fname}"
+                        if resume_fname and resume_fname not in (".", "-", "–") else "")
+        cover_url    = (f"https://{GITHUB_REPO_FOR_PDFS.split('/')[0]}.github.io/"
+                        f"{GITHUB_REPO_FOR_PDFS.split('/')[1]}/pdfs/covers/{cover_fname}"
+                        if cover_fname and cover_fname not in (".", "-", "–") else "")
+
         all_jobs_table.append({
-            "id":       job_id,
-            "date":     str(j.get("Date Found") or "")[:10],
-            "source":   str(j.get("Source") or ""),
-            "company":  str(j.get("Company") or ""),
-            "title":    str(j.get("Job Title") or ""),
-            "location": str(j.get("Location") or ""),
-            "region":   str(j.get("Region") or ""),
-            "status":   status,
-            "url":      str(j.get("Job URL") or ""),
+            "id":         job_id,
+            "date":       str(j.get("Date Found") or "")[:10],
+            "source":     str(j.get("Source") or ""),
+            "company":    str(j.get("Company") or ""),
+            "title":      str(j.get("Job Title") or ""),
+            "location":   str(j.get("Location") or ""),
+            "region":     str(j.get("Region") or ""),
+            "status":     status,
+            "url":        str(j.get("Job URL") or ""),
+            "resume_url": resume_url,
+            "cover_url":  cover_url,
         })
 
     # Budget
@@ -556,6 +571,10 @@ footer a:hover { color: var(--t1); }
 }
 .cmd-modal h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
 .cmd-modal p  { font-size: 13px; color: var(--t3); margin-bottom: 16px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+#workflows-section { margin-bottom: 32px; }
+.section-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:8px; }
+.section-header h2 { font-size:15px; font-weight:700; color:var(--t1); }
 .cmd-box {
   background: var(--surface); border: 1px solid var(--border);
   border-radius: 8px; padding: 12px 16px;
@@ -730,6 +749,32 @@ __GMAIL_STRIP__
 
 </div>
 
+<!-- ── Workflow Status ── -->
+<section id="workflows-section">
+  <div class="section-header">
+    <h2>⚡ Workflows</h2>
+    <div style="display:flex;gap:8px;align-items:center">
+      <span id="wf-last-updated" style="font-size:11px;color:var(--t3)"></span>
+      <button class="btn btn-ghost" style="font-size:12px;padding:4px 10px" onclick="refreshWorkflows()">↻ Refresh</button>
+      <button class="btn btn-primary" style="font-size:12px;padding:4px 12px" onclick="triggerWorkflow()">▶ Run now</button>
+    </div>
+  </div>
+  <div id="wf-container" style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px">
+    <div class="card" style="padding:16px;min-height:80px">
+      <div style="font-size:11px;font-weight:600;color:var(--t2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px">Current / Recent Runs</div>
+      <div id="wf-runs" style="font-size:13px;color:var(--t2)">Loading…</div>
+    </div>
+    <div class="card" style="padding:16px;min-height:80px">
+      <div style="font-size:11px;font-weight:600;color:var(--t2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px">Scheduled Next Runs</div>
+      <div id="wf-schedule" style="font-size:13px;color:var(--t2)">
+        <div>🕗 <b>8:00 AM Paris</b> — Daily scrape</div>
+        <div style="margin-top:4px">🕗 <b>8:00 PM Paris</b> — Daily scrape</div>
+        <div id="wf-next-run" style="margin-top:6px;font-size:11px;color:var(--t3)"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ── All Offers Table ── -->
 <div class="card" style="margin-bottom:20px">
   <div class="section-title">All Offers</div>
@@ -762,6 +807,8 @@ __GMAIL_STRIP__
           <th data-col="status">Status</th>
           <th>Update</th>
           <th>Link</th>
+          <th>CV</th>
+          <th>Cover</th>
         </tr>
       </thead>
       <tbody id="offers-tbody"></tbody>
@@ -1118,6 +1165,8 @@ function mdToHtml(text) {
           </select>
         </td>
         <td>${applyLink}</td>
+        <td>${j.resume_url ? `<a href="${j.resume_url}" target="_blank" style="color:var(--accent);font-size:12px" title="Download Resume">📄 CV</a>` : '<span style="color:var(--t3);font-size:11px">–</span>'}</td>
+        <td>${j.cover_url ? `<a href="${j.cover_url}" target="_blank" style="color:var(--accent);font-size:12px" title="Download Cover Letter">✉️ CL</a>` : '<span style="color:var(--t3);font-size:11px">–</span>'}</td>
       </tr>`;
     }).join('');
   }
@@ -1258,6 +1307,99 @@ function showToast(msg) {
   t.textContent = msg;
   t.classList.add('show');
   setTimeout(() => t.classList.remove('show'), 3200);
+}
+
+// ── Workflow status (GitHub API) ──────────────────────────────────────────────
+(async function initWorkflows() {
+  await refreshWorkflows();
+  // Compute next scheduled run
+  const now = new Date();
+  const paris = new Date(now.toLocaleString('en-US', {timeZone: 'Europe/Paris'}));
+  const h = paris.getHours(), m = paris.getMinutes();
+  let nextLabel = '';
+  if (h < 8 || (h === 8 && m === 0)) {
+    const diff = Math.max(0, (8*60 - h*60 - m));
+    nextLabel = `Next: 8:00 AM Paris (in ${Math.floor(diff/60)}h ${diff%60}m)`;
+  } else if (h < 20) {
+    const diff = Math.max(0, (20*60 - h*60 - m));
+    nextLabel = `Next: 8:00 PM Paris (in ${Math.floor(diff/60)}h ${diff%60}m)`;
+  } else {
+    const diff = Math.max(0, ((24+8)*60 - h*60 - m));
+    nextLabel = `Next: 8:00 AM tomorrow Paris (in ${Math.floor(diff/60)}h ${diff%60}m)`;
+  }
+  const el = document.getElementById('wf-next-run');
+  if (el) el.textContent = nextLabel;
+})();
+
+async function refreshWorkflows() {
+  const token = '__DASHBOARD_PAT__';
+  const repo  = '__GITHUB_REPO__';
+  const runsEl = document.getElementById('wf-runs');
+  if (!runsEl) return;
+  if (!token || token === '__DASHBOARD_PAT__') {
+    runsEl.innerHTML = '<span style="color:var(--t3)">Configure DASHBOARD_PAT to see live status.</span>';
+    return;
+  }
+  try {
+    const r = await fetch(
+      `https://api.github.com/repos/${repo}/actions/runs?per_page=8`,
+      { headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' } }
+    );
+    if (!r.ok) { runsEl.textContent = `API error ${r.status}`; return; }
+    const data = await r.json();
+    const runs = (data.workflow_runs || []).slice(0, 6);
+    if (!runs.length) { runsEl.textContent = 'No recent runs.'; return; }
+
+    const statusIcon = {completed:'✅', in_progress:'🔄', queued:'⏳', failure:'❌', cancelled:'⛔'};
+    const concl = {success:'✅', failure:'❌', cancelled:'⛔', skipped:'⏭', timed_out:'⌛'};
+
+    runsEl.innerHTML = runs.map(run => {
+      const icon = run.status === 'in_progress' ? '🔄' : (concl[run.conclusion] || statusIcon[run.status] || '•');
+      const started = new Date(run.created_at);
+      const elapsed = run.status === 'in_progress'
+        ? `running ${Math.floor((Date.now() - started) / 60000)}m`
+        : started.toLocaleDateString('en-GB', {day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit'});
+      const name = run.name.length > 22 ? run.name.slice(0,22)+'…' : run.name;
+      const spin = run.status === 'in_progress' ? ' <span style="animation:spin 1s linear infinite;display:inline-block">↻</span>' : '';
+      return `<div style="display:flex;justify-content:space-between;align-items:center;padding:3px 0;border-bottom:1px solid #ffffff0a">
+        <span>${icon}${spin} <b style="font-size:12px">${name}</b></span>
+        <span style="font-size:11px;color:var(--t3)">${elapsed}</span>
+      </div>`;
+    }).join('');
+
+    document.getElementById('wf-last-updated').textContent = `Updated ${new Date().toLocaleTimeString()}`;
+  } catch(e) {
+    runsEl.textContent = 'Failed to load: ' + e.message;
+  }
+}
+
+async function triggerWorkflow() {
+  const token = '__DASHBOARD_PAT__';
+  const repo  = '__GITHUB_REPO__';
+  if (!token || token === '__DASHBOARD_PAT__') {
+    showToast('⚠️ Configure DASHBOARD_PAT to trigger workflows.');
+    return;
+  }
+  if (!confirm('Trigger Internship Finder run now? This will scrape jobs and use API credits.')) return;
+  try {
+    const r = await fetch(
+      `https://api.github.com/repos/${repo}/actions/workflows/internship-finder.yml/dispatches`,
+      {
+        method: 'POST',
+        headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ref: 'main' }),
+      }
+    );
+    if (r.status === 204) {
+      showToast('✅ Workflow triggered! Refreshing status in 5s…');
+      setTimeout(refreshWorkflows, 5000);
+    } else {
+      const e = await r.json().catch(()=>({}));
+      showToast('❌ Trigger failed: ' + (e.message || r.status));
+    }
+  } catch(e) {
+    showToast('❌ ' + e.message);
+  }
 }
 </script>
 </body>

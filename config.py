@@ -110,6 +110,16 @@ REGIONS = {
             {"country": "at",  "location": "Vienna"},
             {"country": "ro",  "location": "Bucharest"},
             {"country": "hu",  "location": "Budapest"},
+            {"country": "gr", "location": "Athens"},
+            {"country": "lu", "location": "Luxembourg"},
+            {"country": "ee", "location": "Tallinn"},
+            {"country": "hr", "location": "Zagreb"},
+            {"country": "bg", "location": "Sofia"},
+            {"country": "sk", "location": "Bratislava"},
+            {"country": "lt", "location": "Vilnius"},
+            {"country": "lv", "location": "Riga"},
+            {"country": "ua", "location": "Kyiv"},
+            {"country": "rs", "location": "Belgrade"},
         ],
     },
     "Asia": {
@@ -125,6 +135,14 @@ REGIONS = {
             {"country": "tw", "location": "Taipei"},
             {"country": "th", "location": "Bangkok"},
             {"country": "id", "location": "Jakarta"},
+            {"country": "au", "location": "Sydney"},
+            {"country": "au", "location": "Melbourne"},
+            {"country": "nz", "location": "Auckland"},
+            {"country": "vn", "location": "Ho Chi Minh City"},
+            {"country": "ph", "location": "Manila"},
+            {"country": "il", "location": "Tel Aviv"},
+            {"country": "cn", "location": "Shanghai"},
+            {"country": "cn", "location": "Beijing"},
         ],
     },
     "USA_Canada": {
@@ -136,6 +154,13 @@ REGIONS = {
             {"country": "us", "location": "Seattle"},
             {"country": "ca", "location": "Toronto"},
             {"country": "ca", "location": "Montreal"},
+            {"country": "us", "location": "Austin"},
+            {"country": "us", "location": "Chicago"},
+            {"country": "us", "location": "Los Angeles"},
+            {"country": "us", "location": "Washington DC"},
+            {"country": "us", "location": "Atlanta"},
+            {"country": "ca", "location": "Vancouver"},
+            {"country": "ca", "location": "Calgary"},
         ],
     },
     "South_America": {
@@ -154,11 +179,26 @@ REGIONS = {
         "searches": [
             {"country": "ae", "location": "Dubai"},
             {"country": "ae", "location": "Abu Dhabi"},
+            {"country": "sa", "location": "Riyadh"},
+            {"country": "qa", "location": "Doha"},
+            {"country": "kw", "location": "Kuwait City"},
+            {"country": "bh", "location": "Manama"},
         ],
     },
 }
 
-SEARCH_KEYWORDS    = ["data science intern", "machine learning intern", "AI intern", "data analyst intern"]
+SEARCH_KEYWORDS = [
+    "data science intern",
+    "machine learning intern",
+    "AI intern",
+    "data analyst intern",
+    "NLP intern",
+    "deep learning intern",
+    "computer vision intern",
+    "research intern AI",
+    "LLM engineer intern",
+    "ML engineer intern",
+]
 
 # ── Company blacklist (case-insensitive) ──────────────────────────────────────
 # Add any company name (or substring) you never want to see.
@@ -208,6 +248,11 @@ LINKEDIN_REGIONS = {
         ("Warsaw",      "PL"),
         ("Prague",      "CZ"),
         ("Vienna",      "AT"),
+        ("Athens",      "GR"),
+        ("Luxembourg",  "LU"),
+        ("Tallinn",     "EE"),
+        ("Zurich",      "CH"),
+        ("Brussels",    "BE"),
     ],
     "Asia": [
         ("Singapore",    "SG"),
@@ -218,6 +263,14 @@ LINKEDIN_REGIONS = {
         ("Mumbai",       "IN"),
         ("Kuala Lumpur", "MY"),
         ("Bangkok",      "TH"),
+        ("Sydney",       "AU"),
+        ("Melbourne",    "AU"),
+        ("Auckland",     "NZ"),
+        ("Tel Aviv",     "IL"),
+        ("Ho Chi Minh City", "VN"),
+        ("Manila",       "PH"),
+        ("Shanghai",     "CN"),
+        ("Beijing",      "CN"),
     ],
     "USA_Canada": [
         ("New York",      "US"),
@@ -226,6 +279,13 @@ LINKEDIN_REGIONS = {
         ("Seattle",       "US"),
         ("Toronto",       "CA"),
         ("Montreal",      "CA"),
+        ("Austin",        "US"),
+        ("Chicago",       "US"),
+        ("Los Angeles",   "US"),
+        ("Washington",    "US"),
+        ("Atlanta",       "US"),
+        ("Vancouver",     "CA"),
+        ("Calgary",       "CA"),
     ],
     "South_America": [
         ("São Paulo",     "BR"),
@@ -236,6 +296,10 @@ LINKEDIN_REGIONS = {
     ],
     "Middle_East": [
         ("Dubai",         "AE"),
+        ("Abu Dhabi",     "AE"),
+        ("Riyadh",        "SA"),
+        ("Doha",          "QA"),
+        ("Tel Aviv",      "IL"),
     ],
 }
 

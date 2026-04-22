@@ -135,6 +135,7 @@ jobs:
           done
           git add data/tracker.xlsx 2>/dev/null || true
           git add --force data/jd_archive/ 2>/dev/null || true
+          git add --force docs/pdfs/ 2>/dev/null || true
           if ! git diff --staged --quiet; then
             git commit -m "chore: update tracker + dashboard $(date +'%Y-%m-%d %H:%M UTC') [skip ci]"
             # Retry push with rebase to handle concurrent workflow pushes

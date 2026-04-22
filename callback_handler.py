@@ -253,6 +253,7 @@ def _handle_message(msg: dict) -> None:
         "/setstatus":   lambda: _cmd_setstatus(args),
         "/regenerate":  lambda: _cmd_regenerate(args),
         "/pending":     lambda: _cmd_pending(),
+        "/gmailsync":   lambda: _cmd_gmailsync(args),
     }
 
     handler = dispatch.get(command)
@@ -287,6 +288,8 @@ def _cmd_help():
         "/search [keyword] — Queue a one-off search for the next scheduled run\n\n"
         "<b>Budget</b>\n"
         "/budget — Anthropic &amp; Apify credit balance\n\n"
+        "<b>Gmail</b>\n"
+        "/gmailsync [30] — Re-scan Gmail for application emails (default: 30 days back)\n\n"
         "⏰ Scheduled runs: <b>8:00 AM</b> and <b>8:00 PM</b> Paris time."
     )
 
@@ -608,6 +611,28 @@ def _cmd_regenerate(args: list):
     except Exception as exc:
         logger.error("_cmd_regenerate failed for %s: %s", job_id, exc)
         _send(f"❌ Regeneration failed: {exc}")
+
+
+def _cmd_gmailsync(args: list):
+    """Re-scan Gmail for application status emails."""
+    days = 30
+    if args:
+        try:
+            days = max(1, min(int(args[0]), 180))
+        except ValueError:
+            pass
+
+    _send(f"📧 Scanning Gmail for the last <b>{days} days</b>… (this may take a moment)")
+    try:
+        from gmail_tracker import sync_gmail_statuses
+        changes = sync_gmail_statuses(days_back=days)
+        if not changes:
+            _send(f"✅ Gmail scan complete — no new status changes found in the last {days} days.\n\n"
+                  f"Tip: If you applied to jobs and didn't get confirmation emails, "
+                  f"use /pending to manually mark them as Applied.")
+    except Exception as exc:
+        logger.error("_cmd_gmailsync failed: %s", exc)
+        _send(f"❌ Gmail sync failed: {exc}")
 
 
 def _update_app_status(job_id: str, new_status: str) -> None:

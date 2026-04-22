@@ -13,6 +13,7 @@ import logging
 import os
 import sys
 from datetime import datetime, timezone
+from pathlib import Path
 
 from config import (
     BASE_DIR,
@@ -144,7 +145,7 @@ def run():
     try:
         import os
         if os.getenv("GMAIL_ENABLED", "").lower() == "true" or (BASE_DIR / "gmail_token.json").exists():
-            sync_gmail_statuses(days_back=3)
+            sync_gmail_statuses(days_back=30)
     except Exception as exc:
         logger.warning("Gmail sync failed (non-critical): %s", exc)
 
@@ -246,6 +247,22 @@ def run():
     # ── 7. Update tracker ─────────────────────────────────────────────────────
     added = add_jobs(rows)
     logger.info("Tracker rows added: %d", added)
+
+    # ── 7b. Copy PDFs to docs/pdfs/ for dashboard download links ─────────────
+    try:
+        import shutil as _shutil
+        _pdfs_resumes = BASE_DIR / "docs" / "pdfs" / "resumes"
+        _pdfs_covers  = BASE_DIR / "docs" / "pdfs" / "covers"
+        _pdfs_resumes.mkdir(parents=True, exist_ok=True)
+        _pdfs_covers.mkdir(parents=True, exist_ok=True)
+        for row in rows:
+            for src_key, dst_dir in [("resume_path", _pdfs_resumes), ("cover_path", _pdfs_covers)]:
+                src = str(row.get(src_key, ""))
+                if src and Path(src).exists():
+                    _shutil.copy2(src, dst_dir / Path(src).name)
+        logger.info("PDFs copied to docs/pdfs/ for dashboard download links.")
+    except Exception as exc:
+        logger.warning("PDF copy to docs/pdfs/ failed (non-critical): %s", exc)
 
     # ── 8. Persist seen IDs + fingerprints ───────────────────────────────────
     # seen_ids   → ALL scraped jobs (prevents re-scoring same job from same source)
