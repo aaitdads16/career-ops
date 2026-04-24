@@ -745,6 +745,9 @@ def generate_documents(job: dict):
             import shutil; shutil.copy(str(html_file), str(fb))
             resume_path = str(fb)
     except Exception as exc:
+        _exc_str = str(exc)
+        if "credit balance is too low" in _exc_str or "insufficient_quota" in _exc_str:
+            raise RuntimeError(f"Anthropic credit balance exhausted: {_exc_str}") from exc
         logger.error("Resume failed for %s @ %s: %s", title, company, exc)
 
     # ── Cover letter ──────────────────────────────────────────────────────────
@@ -761,6 +764,9 @@ def generate_documents(job: dict):
             import shutil; shutil.copy(str(html_file), str(fb))
             cover_path = str(fb)
     except Exception as exc:
+        _exc_str = str(exc)
+        if "credit balance is too low" in _exc_str or "insufficient_quota" in _exc_str:
+            raise RuntimeError(f"Anthropic credit balance exhausted: {_exc_str}") from exc
         logger.error("Cover letter failed for %s @ %s: %s", title, company, exc)
 
     return resume_path, cover_path

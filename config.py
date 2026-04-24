@@ -140,7 +140,6 @@ REGIONS = {
             {"country": "nz", "location": "Auckland"},
             {"country": "vn", "location": "Ho Chi Minh City"},
             {"country": "ph", "location": "Manila"},
-            {"country": "il", "location": "Tel Aviv"},
             {"country": "cn", "location": "Shanghai"},
             {"country": "cn", "location": "Beijing"},
         ],

@@ -104,8 +104,9 @@ jobs:
             git commit -m "chore: callback sync $(date +'%Y-%m-%d %H:%M UTC') [skip ci]"
             for attempt in 1 2 3; do
               git push && break
-              echo "Push attempt $attempt failed — retrying..."
-              git pull --rebase origin main
+              echo "Push attempt $attempt failed — fetching and merging (ours)..."
+              git fetch origin main
+              git merge -X ours origin/main --no-edit 2>/dev/null || true
             done
           else
             echo "No changes."

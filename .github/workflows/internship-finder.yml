@@ -138,11 +138,12 @@ jobs:
           git add --force docs/pdfs/ 2>/dev/null || true
           if ! git diff --staged --quiet; then
             git commit -m "chore: update tracker + dashboard $(date +'%Y-%m-%d %H:%M UTC') [skip ci]"
-            # Retry push with rebase to handle concurrent workflow pushes
+            # Retry push — use merge -X ours to avoid rebase conflicts on binary files
             for attempt in 1 2 3; do
               git push && break
-              echo "Push attempt $attempt failed — pulling and retrying..."
-              git pull --rebase origin main
+              echo "Push attempt $attempt failed — fetching and merging (ours)..."
+              git fetch origin main
+              git merge -X ours origin/main --no-edit 2>/dev/null || true
             done
           else
             echo "No data changes to commit."

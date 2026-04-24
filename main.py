@@ -199,6 +199,21 @@ def run():
         )
         return
 
+    # ── 3c. Within-run deduplication (same job from 2 scrapers in same run) ───
+    _seen_this_run: set = set()
+    _deduped: list = []
+    for _j in compatible_jobs:
+        _fp = _make_fingerprint(_j.get("title", ""), _j.get("company", ""))
+        if _fp not in seen_fingerprints and _fp not in _seen_this_run:
+            _deduped.append(_j)
+            _seen_this_run.add(_fp)
+        else:
+            logger.info("Within-run duplicate dropped: %s @ %s",
+                        _j.get("title"), _j.get("company"))
+    if len(_deduped) < len(compatible_jobs):
+        logger.info("Within-run dedup: %d → %d jobs", len(compatible_jobs), len(_deduped))
+    compatible_jobs = _deduped
+
     logger.info(
         "Compatible jobs: %d / %d scraped  (filtered out: %d)",
         len(compatible_jobs), scraped_total, rejected_count,

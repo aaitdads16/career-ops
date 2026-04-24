@@ -197,7 +197,6 @@ _LINKEDIN_SPLIT_COUNTRIES = [
     ("Asia",       "IN"),   # India
     ("Asia",       "JP"),   # Japan
     ("Asia",       "AU"),   # Australia
-    ("Asia",       "IL"),   # Israel
     ("USA_Canada", "US"),   # United States
     ("USA_Canada", "CA"),   # Canada
 ]
@@ -211,11 +210,11 @@ _LINKEDIN_MANUAL_CITIES = {
     "Asia":          [("Seoul","KR"),("Hong Kong","HK"),("Kuala Lumpur","MY"),
                       ("Bangkok","TH"),("Ho Chi Minh City","VN"),("Manila","PH"),
                       ("Sydney","AU"),("Melbourne","AU"),("Auckland","NZ"),
-                      ("Tel Aviv","IL"),("Shanghai","CN"),("Beijing","CN")],
+                      ("Shanghai","CN"),("Beijing","CN")],
     "South_America": [("São Paulo","BR"),("Buenos Aires","AR"),("Mexico City","MX"),
                       ("Bogotá","CO"),("Santiago","CL"),("Lima","PE")],
     "Middle_East":   [("Dubai","AE"),("Abu Dhabi","AE"),("Riyadh","SA"),
-                      ("Doha","QA"),("Tel Aviv","IL")],
+                      ("Doha","QA")],
     "USA_Canada":    [("Austin","US"),("Chicago","US"),("Los Angeles","US"),
                       ("Washington","US"),("Atlanta","US"),("Vancouver","CA"),
                       ("Calgary","CA")],
@@ -491,11 +490,11 @@ _GOOGLE_JOBS_CITIES = {
                       "Dublin", "Barcelona", "Warsaw", "Vienna", "Milan",
                       "Lisbon", "Copenhagen", "Brussels"],
     "Asia":          ["Singapore", "Tokyo", "Bangalore", "Seoul", "Sydney",
-                      "Tel Aviv", "Hong Kong", "Kuala Lumpur"],
+                      "Hong Kong", "Kuala Lumpur"],
     "USA_Canada":    ["New York", "San Francisco", "Boston", "Seattle",
                       "Austin", "Chicago", "Toronto", "Vancouver"],
     "South_America": ["São Paulo", "Buenos Aires", "Mexico City", "Bogotá"],
-    "Middle_East":   ["Dubai", "Tel Aviv", "Riyadh"],
+    "Middle_East":   ["Dubai", "Riyadh"],
 }
 
 
