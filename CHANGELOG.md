@@ -1,5 +1,33 @@
 # Changelog
 
+## [1.6.0](https://github.com/aaitdads16/career-ops/compare/v1.5.0...v1.6.0) (2026-04-26)
+
+
+### Features
+
+* 8 new features + bug fixes ([eeacc43](https://github.com/aaitdads16/career-ops/commit/eeacc43610a806c2c4c1f02736cc8becb495187a))
+* add 5 new features — Applied button, outreach, skills gap, analytics, ATS score ([358fd15](https://github.com/aaitdads16/career-ops/commit/358fd15865d02ea384cebb20f55cedcacf6a1049))
+* add internship automation layer on top of career-ops ([28195a1](https://github.com/aaitdads16/career-ops/commit/28195a10367fd1e38000053f3df0f53ba204a565))
+* ATS resume redesign, Nemotron project, PDF fixes ([a428b88](https://github.com/aaitdads16/career-ops/commit/a428b885ab5fd9c141a44920124ea47928c06c82))
+* dashboard, Gmail integration, auto Telegram bot, real balance tracking ([4743cb7](https://github.com/aaitdads16/career-ops/commit/4743cb7b74094af1045c7849eb3357c544e680b4))
+* direct dashboard status updates via GitHub API ([2288b83](https://github.com/aaitdads16/career-ops/commit/2288b83920731d419bd930dde116a023e89a93d3))
+* Gmail ATS detection, 40+ locations, workflow dashboard panel, PDF downloads, /gmailsync ([74843c3](https://github.com/aaitdads16/career-ops/commit/74843c3c70a99064e734947ce0aed891c2bf099f))
+* JD archiving + /regenerate + /pending bulk-apply command ([dc93d7a](https://github.com/aaitdads16/career-ops/commit/dc93d7a00a44bf44fbcb76b4fb0651d79b5e8540))
+
+
+### Bug Fixes
+
+* ATS-optimized resume prompt + tighten relevance filter ([d3ca141](https://github.com/aaitdads16/career-ops/commit/d3ca14148118214b4728148fe40d6203724221bb))
+* credit exhaustion breaks doc loop, within-run dedup, merge-ours on push, remove Israel ([9518079](https://github.com/aaitdads16/career-ops/commit/95180797b68f19634f97f02f00e032f5bce3bb83))
+* detect Apify quota exhaustion early, abort + alert instead of 200 silent failures ([5632ccf](https://github.com/aaitdads16/career-ops/commit/5632ccfbe0b8ee6a74ab81161a4a15fa59d673f3))
+* eliminate duplicate offers in Telegram reports ([c939979](https://github.com/aaitdads16/career-ops/commit/c939979dcde1e7410371d26852b3f6631e4a15de))
+* LinkedIn scraping — remove f_JT=I filter, add splitByLocation tier-1, count=100 ([8bb403d](https://github.com/aaitdads16/career-ops/commit/8bb403df84a81620ba84a41953e9b01b36ac82b3))
+* LinkedIn-only dominance + add Google Jobs source ([cf9d307](https://github.com/aaitdads16/career-ops/commit/cf9d30779d7250f4aaeaa59ebe8ad1a7f9146c31))
+* rebuild templates + 2-step content generation ([f9293e4](https://github.com/aaitdads16/career-ops/commit/f9293e48284a8be2ad964b6fc8eaabd97d4db592))
+* remove npm cache (package-lock.json gitignored), upgrade Node to 22 ([188a204](https://github.com/aaitdads16/career-ops/commit/188a204ae756b2b8a003c7f8c138988bb579f736))
+* remove npm cache from workflow (no package-lock.json in repo) ([9fa2bd6](https://github.com/aaitdads16/career-ops/commit/9fa2bd6f86ca608994706e527018b924669f37ee))
+* telegram applied button, live dashboard overlay, branch-based Pages deploy ([fd33693](https://github.com/aaitdads16/career-ops/commit/fd336933a65ed0cadeddd477a87b383c8e248f0d))
+
 ## [1.5.0](https://github.com/santifer/career-ops/compare/v1.4.0...v1.5.0) (2026-04-14)
 
 
