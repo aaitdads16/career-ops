@@ -162,6 +162,18 @@ def run():
     # Pass extra_keywords from /search command to scraper
     try:
         all_scraped = scrape_all(seen_ids, seen_fingerprints, extra_keywords=extra_keywords)
+    except RuntimeError as exc:
+        exc_str = str(exc)
+        logger.error("Scraping aborted: %s", exc_str)
+        if "quota" in exc_str.lower() or "apify" in exc_str.lower():
+            notify_budget_alert(
+                f"🚫 *Apify quota exhausted* — all scrapers returned 0 jobs.\n"
+                f"Top up at [console.apify.com/billing](https://console.apify.com/billing)\n\n"
+                f"_{exc_str}_",
+                priority=5,
+            )
+        notify_run_complete(0, _count_tracker_rows(), error=exc_str)
+        return
     except Exception as exc:
         logger.error("Scraping failed: %s", exc)
         notify_run_complete(0, 0, error=str(exc))

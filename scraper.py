@@ -71,13 +71,35 @@ def _parse_date(raw) -> Optional[datetime]:
         return None
 
 
+# Module-level flag set on first quota-exceeded error to skip remaining actor calls
+_apify_quota_exceeded: bool = False
+
+_QUOTA_PHRASES = (
+    "monthly usage hard limit exceeded",
+    "usage hard limit",
+    "quota exceeded",
+    "payment required",
+)
+
+
 def _run_actor(client: ApifyClient, actor: str, run_input: dict, timeout: int = 120) -> List[dict]:
+    global _apify_quota_exceeded
+    if _apify_quota_exceeded:
+        return []
     try:
         run = client.actor(actor).call(run_input=run_input, timeout_secs=timeout)
         items = list(client.dataset(run["defaultDatasetId"]).iterate_items())
         return items
     except Exception as exc:
-        logger.warning("Apify [%s] failed: %s", actor, exc)
+        exc_lower = str(exc).lower()
+        if any(phrase in exc_lower for phrase in _QUOTA_PHRASES):
+            _apify_quota_exceeded = True
+            logger.error(
+                "🚫 Apify monthly quota EXCEEDED — aborting all scraping. "
+                "Top up at https://console.apify.com/billing"
+            )
+        else:
+            logger.warning("Apify [%s] failed: %s", actor, exc)
         return []
 
 
@@ -641,9 +663,17 @@ def scrape_all(
         original_keywords = None
 
     client = ApifyClient(APIFY_API_TOKEN)
+    global _apify_quota_exceeded
+    _apify_quota_exceeded = False  # reset for this run
 
     logger.info("── Scraping Indeed ──────────────────────────────────")
     indeed_results    = scrape_indeed(client, seen_ids)
+
+    if _apify_quota_exceeded:
+        raise RuntimeError(
+            "Apify monthly quota exceeded — no jobs scraped. "
+            "Top up at https://console.apify.com/billing"
+        )
 
     logger.info("── Scraping LinkedIn ────────────────────────────────")
     linkedin_results  = scrape_linkedin(client, seen_ids)
