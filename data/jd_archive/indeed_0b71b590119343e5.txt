@@ -1,0 +1,44 @@
+**MSc thesis assignment: Machine Learning Fusion of Sentinel 2 and ICESat\-2 data for Satellite Derived Bathymetry (SDB)**
+--------------------------------------------------------------------------------------------------------------------------
+
+
+Contributing to a one of the most innovative developments in coastal mapping: creating a fully spaceborne bathymetry solution that fuses ICESat2 LiDAR with Sentinel2 multispectral imagery — that is what you will do as a graduation intern at Haskoning. In this assignment, you combine scientific research with direct engineering impact: developing a scalable tool for mapping shallow\-water depths worldwide, you work at the forefront of a promising methodology and deliver a result our team can put to immediate use
+
+**What you will do as a MSc graduation intern**
+-----------------------------------------------
+
+
+Haskoning already has strong in‑house expertise in Satellite‑Derived Bathymetry (SDB), but we would like you to focus on a promising new direction in this field. This graduation project centers on a machine‑learning approach that predicts shallow‑water bathymetry by training Sentinel‑2 imagery with depth points derived from ICESat‑2 photons. This emerging method offers the potential to produce accurate depth estimates without relying on costly in‑situ surveys and is increasingly supported by recent scientific literature.
+
+
+**Main responsibilities:**
+
+
+* Investigate the scientific background of SDB, ICESat2 photon bathymetry, and ML based optical depth retrieval.
+* Develop machinelearning models to predict bathymetry from multispectral inputs, informed by literature (e.g., Random Forest, SVM, Neural Networks).
+* Produce insights on the applicability, accuracy limits, and scalability of the method for engineering use cases.
+
+
+We encourage you to bring your own academic perspective and critical thinking to this project. As a starting point, we suggest the following direction:"
+
+
+*How can Sentinel2 multispectral imagery and ICESat2 LiDAR bathymetry be fused using machine learning to produce accurate, scalable, and engineering ready SatelliteDerived Bathymetry?*
+
+
+
+This could include:
+
+
+* Implementing a workflow which can extract and process ICESat2 data and Sentinel\-2 data (Haskoning already has scripts for this that could be used for inspiration).
+* Training ML regressions models to capture the relationship between optical reflectance and depth
+* Testing the method in one or more coastal pilot areas and assessing environmental factors influencing accuracy (e.g., turbidity, bottom type etc.).
+* Delivering a prototype SDB tool / workflow that can be scaled across projects.
+
+
+The deliverable is both a strong scientific thesis and if possible, a practical method that our company can adopt for future use.
+
+**Where you will work**
+-----------------------
+
+
+At Haskoning, you will join an independent, employee\-owned international consultancy that combines engineering, design, and consultancy services with sof

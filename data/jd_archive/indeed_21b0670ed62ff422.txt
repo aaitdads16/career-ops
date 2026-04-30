@@ -1,0 +1,48 @@
+Gravis Robotics is a startup that turns heavy construction machines into intelligent and autonomous robots. Our unique combination of learning\-based automation and augmented remote control lets one operator safely conduct a fleet of machines—from anywhere in the world. Our team has over a decade of academic experience honing the cutting edge of large\-scale robotics, and is rapidly growing to bring that expertise into a multi\-billion dollar industry.
+### **About the Job**
+
+
+
+We are looking for passionate, skilled interns to join our team—and to actively contribute to the development and deployment of extraordinary construction robots. The ideal candidate should be self\-motivated, capable of working autonomously and in small teams, and should have a strong desire to solve exciting, challenging, and applied problems.
+
+
+
+At Gravis, we engineer solutions at the nexus of hardware and software every day. Your role would likely explore one or more of the following areas (based on experience and interest):
+
+
+### **About the Team**
+
+
+
+The Platform Team is responsible for smoothly orchestrating the software at Gravis. We build the observability, profiling, and infrastructure that let engineers understand and optimize software performance across our entire development fleet, from onboard machines to the cloud services coordinating them.
+
+
+
+We partner with teams across the company to investigate issues, eliminate bottlenecks, and establish performance best practices. By strengthening core onboard components and providing tools to quickly detect, diagnose, and resolve regressions, we give the rest of Gravis a solid foundation for running our products at scale and the confidence to ship faster.
+
+
+
+### **What You'll Work On**
+
+
+As a Software Engineer intern, you'll focus on Observability \& Monitoring, taking real ownership of tooling that the whole company depends on. Your work includes:
+* Owning our Prometheus / Grafana / OpenTelemetry stack
+* Setting clear, measurable targets across critical paths (e.g. terrain streaming, latency measurements, gRPC reliability, etc.)
+* Building dashboards for machine health, fleet overview, and worksite productivity metrics (e.g. cut/fill volume over time)
+* Designing the on\-call alerting pipeline that connects signals from the Rack all the way to the cloud
+* Proactively explore and analyze system data to identify trends and anomalies
+
+### **Requirements**
+
+* Currently pursuing or recently completed a degree at a Swiss university
+
+### **Beneficial Experience (Role Based)**
+
+
+* Master’s level study (i.e. in computer science, electrical engineering, robotics)
+* Experience with C\+\+ and Python
+* Proficiency with Linux and Git
+* Experience with gRPC and open telemetry are a plus
+Don't meet every requirement? If you're enthusiastic about this role but your experience doesn't match every qualification, we still encourage you to apply. You might be the perfect candidate for this or other positions.
+
+This is an opportunity to j

@@ -1,0 +1,38 @@
+**We help the world run better**  
+
+At SAP, we keep it simple: you bring your best to us, and we'll bring out the best in you. We're builders touching over 20 industries and 80% of global commerce, and we need your unique talents to help shape what's next. The work is challenging – but it matters. You'll find a place where you can be yourself, prioritize your wellbeing, and truly belong. What's in it for you? Constant learning, skill growth, great benefits, and a team that wants you to grow and succeed. **Location:** Singapore
+
+**Expected Start\-End Date:** June/July to December 2026
+
+**Duration:** 5\-6 months
+
+ **Meet your team**
+
+
+Corporate Processes \& IT (CPIT) is the internal IT organization for SAP. Our purpose is to CREATE, BUILD, and RUN an intelligent enterprise by providing customer\-centric insights and technologies.
+
+  
+
+As a Generative AI Engineer Intern at Generative AI Center of Excellence (GenAI CoE), you'll join our expansive Enterprise AI Center of Excellence within the Technology Services department. Collaborate with a global team of AI engineers, scientists, and product managers based in Germany, France, and Singapore. This role presents an unparalleled opportunity to thrive in a stimulating, innovative, and continuous learning atmosphere, while playing a pivotal role in shaping the future intelligent enterprise driven by AI.
+
+ **What you’ll do**
+
+* Work alongside a team of AI scientist, engineers, product owners, and domain experts.
+* Assist the development and deployment of AI solutions to improve business efficiency and productivity.
+* Assist the co\-development of Large Language Model Platform\-as\-a\-Service with product engineering teams
+* Assist the development of scalable, reusable services to support applications powered by Generative AI
+* Assist the maintenance of production system to ensure high availability and performance
+* Experiment with different Large Language Model deployments, e.g. vLLM, LiteLLM, etc.
+* Contribute to platform application development using CAP or Python FastAPI.
+* Communicate with stakeholders to understand internal business processes and challenges.
+* Experiment with different techniques (e.g. prompt engineering, fine\-tuning, agentic workflows etc).
+* Stay up\-to\-date with the latest advancements in machine learning and GenAI technologies, and evaluate their potential applications in business processes.
+
+ **What you bring**
+
+* Currently in a Bachelor's or Master's degree course in Computer Science, Data Science, Statistics, Mathematics, or any other related field.
+* Must be able to commit to a full\-time internship employment for a period no shorter than three months.
+* Proficiency in one or more of these programming languages: JavaScript, TypeScript, Python.
+* Proficiency in development tools such as Git.
+* Experience with Generative AI technical stack (e.g. agent frameworks, RAG, etc.), including integrating and applying them in real world projects.
+* Experience with Python\-based AI/ML

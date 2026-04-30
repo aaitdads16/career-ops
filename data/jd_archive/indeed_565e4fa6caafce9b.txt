@@ -1,0 +1,30 @@
+**Company Description** **About Bosch Group**
+
+
+The Bosch Group is a leading global supplier of technology and services. It employs roughly 418,000 associates worldwide. The company generated sales of 90\.3 billion euros in 2024\. Its operations are divided into four business sectors: Mobility, Industrial Technology, Consumer Goods, and Energy and Building Technology. With technology that is “Invented for life,” Bosch wants to help improve quality of life and conserve natural resources. The Bosch Group comprises Robert Bosch GmbH and its roughly 490 subsidiary and regional companies in over 60 countries. At 136 locations across the globe, Bosch employs some 87,000 associate's in research and development.
+
+**About Robert Bosch (South East Asia)**
+
+
+As the Bosch Group's regional headquarters in Singapore for Southeast Asia, Robert Bosch (South East Asia) Pte Ltd has represented the Group's interests across the region since 1923\. With diversified businesses in Mobility Aftermarket, Industrial Technology, Consumer Goods, and Building Technology. Robert Bosch (SEA) Pte Ltd includes the Asia Pacific headquarters for Mobility Aftermarket, Building Technology, and Industrial Technology, as well as the Southeast Asia R\&D setup for Corporate Research, Advance Engineering Centre, and Bosch Business Innovations, Bosch's in\-house innovation and startup incubation network. At Bosch, we are committed through our EVP ensuring all our associates to **GROW**, **ENJOY** and **INSPIRE** during their journey with us.
+
+ **Job Description**  
+
+**Role Overview**
+
+
+We are looking for a motivated and enthusiastic individual to join Bosch for a fulfilling internship opportunity! This internship will provide valuable hands\-on experience in a corporate environment, allowing you to contribute to ongoing projects while learning from experienced professionals. As an Intern, Multimodal Sensing for Smart Home Applications, you will support the following key tasks in collaboration with experienced team members.
+
+**What you will do (Key Responsibilities**
+
+* Collaborate with product owners, cross\-functional team members in conducting research, and implementing machine learning models in the smart home living space in the food preparation and home wellbeing domains.
+* Create smart home applications that leverage information fusion and multimodal sensing technologies.
+* Develop innovative solutions in combining, analyse and interpret complex time series and visual datasets in discrete and time\-series format to enhance user interactions and experiences.
+* Hands\-on in integrating sensor hardware data, and optimizing the system for seamless device communication network.
+* Support team members and perform experimental design using customised apparatus.
+
+  
+
+**Qualifications** **What We're Looking For (Qualifications \& Skills)**
+
+* Pursuing or recently completed an Undergraduate or Postgraduate degree in Engineering, Computer Science, or a related field—or equivalent hands\-on exp

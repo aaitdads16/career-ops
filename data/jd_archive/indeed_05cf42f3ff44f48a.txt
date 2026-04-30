@@ -1,0 +1,50 @@
+*To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts.*
+
+**About Futureforce University Recruiting**
+
+Our Futureforce University Recruiting program is dedicated to attracting, retaining and cultivating talent. Our interns and new graduates work on real projects that affect how our business runs, giving them the opportunity to make a tangible impact on the future of our company. With offices all over the world, our recruits have the chance to collaborate and connect with fellow employees on a global scale. We offer job shadowing, mentorship programs, talent development courses, and much more.
+
+
+**Job Category**
+
+Fixed Term \& Temporary
+**Job Details**
+
+**About Salesforce**
+
+Salesforce is the \#1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn’t a buzzword — it’s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all.
+
+
+Ready to level\-up your career at the company leading workforce transformation in the agentic era? You’re in the right place! Agentforce is the future of AI, and you are the future of Salesforce.
+
+
+**Overview of the Role:**  
+
+  
+
+Are you ready to see how AI shapes the future of a global company? We are looking for an ambitious intern to join a special team within the Office of the CEO at Salesforce. In this role, you will work on the most important, high\-impact projects that help steer our company's future. You won't just study AI; you will use it to solve real\-world problems alongside our top leaders.
+  
+
+  
+
+**Responsibilities:**  
+
+You will get a front\-row seat to how the most important decisions are made at Salesforce. By the end of the summer, you will see how your code and analysis directly impact the company’s success and our customers' experiences.
+
+
+* Build and test AI tools to help us solve our most critical business challenges.
+* Compare different AI models to find the best fit for our biggest goals.
+* Partner with leaders and engineers to turn ideas into working AI solutions.
+* Prepare data so our AI models can learn and perform accurately.
+Document your experiments so our team can learn from your discoveries.  
+* 
+
+  
+
+**Required Qualifications:**
+
+* Currently pursuing a degree in Data Science, Computer Science, Statistics, Mathematics, or a related field (graduating in May 2027 or 2028\).
+* Proven hands\-on experience experimenting with LLMs (e.g., GPT, Claude, Mistral, LLaMA, or Gemini) through internships, personal projects, hackathons, or independent research.
+* Strong proficiency in Python, with comfort navigating AI/ML libraries and APIs.
+* Solid grasp of data fundamentals, including data lineage, and data provenance.
+Exceptional communication skills

@@ -1,0 +1,39 @@
+**Ready to redefine what's possible in molecular diagnostics?**
+---------------------------------------------------------------
+
+
+
+Join a team of brilliant, passionate innovators determined to transform healthcare. At BillionToOne, we've built a category\-defining, publicly traded company on Nasdaq where transparency fuels trust, collaboration drives breakthroughs, and every contribution moves the needle on our mission to make life\-changing diagnostics accessible to all. We don't just aim for incremental improvements; we build products that are 10x better than anything that exists today.
+
+
+
+Our scientists, engineers, sales executives, and visionaries are united by an unwavering commitment to changing the standard of care in prenatal and cancer diagnostics. This is where cutting\-edge science meets human compassion, and every innovation you contribute helps remove the fear of the unknown from some of life's most critical medical moments.
+
+
+
+If you're driven by purpose, energized by innovation, and ready to help shape the future of precision medicine at scale, this is where you belong.
+
+
+We are looking for a highly motivated **Data Science \+ AI Intern** to support BillionToOne's efforts in scaling and automating critical data processes using AI. This internship is ideal for someone with a background in **Data Science/Data Engineering/AI** and an interest in applying AI\-driven solutions to optimize sales operations, laboratory operations, customer support, and billing systems.Be part of a high\-performing team on the cutting edge of prenatal and oncology diagnostics, working in a dynamic startup culture within a public company that is committed to changing the lives of hundreds of thousands of patients.
+
+
+**Responsibilities:**
+
+
+* Work with stakeholder teams to develop and implement AI\-driven automation solutions for scaling sales operations, lab operations, customer support, and billing processes.
+* Assist in building and maintaining scalable data pipelines to support analytics and machine learning initiatives.
+* Optimize data workflows by integrating AI models to improve efficiency and decision\-making.
+* Collaborate with cross\-functional teams, including engineering, operations, and business teams, to understand requirements and propose data\-driven solutions.
+* Ensure data integrity, security, and compliance with industry best practices.
+* Document technical processes and provide insights based on analysis and implementation.
+
+
+**Qualifications:**
+
+
+* Currently pursuing a **degree in Data Science, Computer Science, or a related field**. College graduates are not eligible.
+* Experience with Cursor, Claude Code, or other **AI enabled IDEs** is plus.
+* Strong understanding of **data engineering concepts**, including ETL pipelines, database management, and cloud computing (e.g. Stitch, dbt).
+* Experience with **SQL, Python, and big data technologies**
+* Experience **validating non\-deterministic AI automation** solutions
+* Familiarity with **ma

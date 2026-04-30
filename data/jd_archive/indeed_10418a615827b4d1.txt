@@ -1,0 +1,54 @@
+**About Cynapse**
+
+Cynapse is a leading Agentic AI software company specializing in enterprise\-grade Video Intelligence Solutions Powered by Agentic AI, tailored to meet the unique challenges of various industries. Our vertical\-specific solutions empower organizations to enhance safety, operational efficiency, and security in complex environments such as roads, seaports, airports, and cities.
+
+Led by a global team with a proven track record of scaling startups into market leaders, we foster innovation, collaboration, and diverse perspectives. Headquartered from US, Cynapse serves clients worldwide, redefining what's possible with video intelligence.
+
+**Job Description**
+
+We are seeking a talented and highly motivated **AI Research \& Development Intern** to join our AI Product group that delivers innovative Computer Vision solutions to global customers. You will conform to high standards and work in a cutting\-edge, dynamic, and professionally challenging environment.
+
+**As part of your role you will**:
+
+* Implement practical solutions using Large Language Models (LLMs), Retrieval\-Augmented Generation (RAG) methods, and Computer Vision (CV) models to solve real\-world challenges.
+* Conduct rigorous experiments to validate model performance, including data preparation, evaluation, and benchmarking, ensuring reliability and accuracy.
+* Develop prototypes and proof\-of\-concept systems to test innovative ideas and demonstrate their feasibility and value.
+
+**Minimum Qualifications:** 
+
+* Bachelor’s degree (completed or in progress) in Computer Science, Engineering, Mathematics, or a related technical field.
+* Familiar with machine learning and deep learning concepts, with hands\-on project experience or strong interest in real\-world applications.
+* Proficient in at least one programming language, and familiar with database systems, Linux environments, Docker, and Git version control tools.
+* Excellent analytical, problem\-solving, logical reasoning, communication, and teamwork skills.
+
+**Duration:** 
+
+* Available for at least a 6\-month internship.
+* Able to work at least 4 days a week (Preferably full\-time / 5 days a week).
+* We are flexible with start and end dates and allow flexibility to accommodate exams, leave etc.
+
+**Why join cynapse.ai?**
+
+* Hands\-on experience working on cutting\-edge AI projects.
+* Mentorship from experienced engineers and researchers.
+* Opportunity to build impactful solutions and contribute to meaningful projects.
+* Exciting work environment with flexible hours
+
+**Note**: Due to the nature of the role, the position is considered for candidates who are based in Singapore or have experience studying and/or working in Singapore.
+
+Job Types: Full\-time, Fresh graduate, Internship, Student job  
+Contract length: 6 months
+
+Pay: $1,100\.00 \- $1,500\.00 per month
+
+Benefits:
+
+* Flexible schedule
+
+Education:
+
+* Local Polytechnic Diploma (Required)
+
+License/Certification:
+
+* work authorization to work in Singapore (Required)
