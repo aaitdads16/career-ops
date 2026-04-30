@@ -366,21 +366,14 @@ def notify_run_complete(
                 f"Today: <b>${today_usd:.4f}</b> (${daily_rem:.4f} of daily cap left)"
             )
 
-        if cost_summary.get("apify"):
-            a = cost_summary["apify"]
-            cost_line += (
-                f"\nApify: <b>${a['remaining_usd']:.2f}</b> left"
-                f" (${a['used_usd']:.2f} / ${a['limit_usd']:.2f} this month"
-                f" · {a['pct_used']:.0f}% used)"
-            )
-
     _send(
         f"✅ <b>Run complete</b>\n\n"
         f"New compatible offers: <b>{new_count}</b>\n"
         f"Total in tracker: <b>{total_count}</b>"
         f"{filter_line}"
         f"{cost_line}\n\n"
-        f"📎 All resumes &amp; cover letters sent above as PDF attachments."
+        f"📎 All resumes &amp; cover letters sent above as PDF attachments.\n\n"
+        f"📊 <a href=\"https://aaitdads16.github.io/career-ops/\">Open Dashboard</a>"
     )
 
 
