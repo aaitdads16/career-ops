@@ -1,0 +1,40 @@
+We offer you an Ocean of Possibilities . Join our family.
+
+
+**About us**
+
+Damen aims to become the world's most sustainable and digitally connected shipyard. The Research, Development \& Innovation (RD\&I) department develops and implements the technology and know\-how to achieve these ambitions. We actively assist the business in creating an innovative product portfolio and provide forward\-thinking guidance to improve the quality and performance of Damen's products and services.
+
+
+You will be joining the Data Science team within Damen RD\&I, located in Gorinchem . Our department focuses on applying cutting\-edge data and AI solutions to Damen’s shipbuilding and maritime operations. The team includes domain experts in physics\-informed machine learning, simulation acceleration, predictive maintenance, computer vision, and operational analytics.
+
+
+**The role**
+
+As an intern, you will work on the Fast Physics project, which aims to drastically reduce the runtime of high\-fidelity computational fluid dynamics (CFD) simulations of ship hulls. These simulations are essential in predicting how a vessel behaves in water, but they can take hours to compute. Instead of running time\-consuming physics\-based simulations, we use geometric deep learning , a type of machine learning that can learn from vessel designs and quickly estimate results like water resistance or flow around the hull. The outcome is a working prototype that can support early\-stage design exploration and simulation optimization.
+
+
+You will contribute to enhancing the performance of an existing system that predicts physical quantities , such as ship resistance and flow fields , based on geometry and operating conditions. Your primary focus will be on a dedicated topic involving the training, validation, and extension of the framework to support multiple ship types and/ or varying levels of simulation fidelity .
+
+
+**Key accountabilities**
+
+You will be responsible for the following aspects:
+
+
+* Support the improvement of ML \-based frameworks , focusing on geometric deep learning and graph neural networks;
+* Preprocess CFD simulation data and ship hull geometries;
+* Run experiments in Python using PyTorch;
+* Work closely in our team together with Data Scientists , domain knowledge naval architects, and external partners such as MARIN.;
+* Document results and present findings to the team regularly.
+**Skills \& Experience**
+
+We are looking for a student who:
+
+
+* Is currently pursuing a Bachelor or Master in Mechanical Engineering, Applied Mathematics, Computer Science, Data Science or a related technical field.
+* Has experience with Python , and ideally deep learning frameworks such as PyTorch or TensorFlow.
+* Has familiarity with 3D geometry formats or CFD simulation and numerical data.
+* Has a strong interest in physics\-based modeling and applying AI to engineering problems.
+* Communicates fluently in English.
+* Is fulltime available to take on this project as a summer internship, with

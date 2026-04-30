@@ -1,0 +1,33 @@
+**Position Summary**
+
+
+Samsung Research UK (SRUK) is seeking exceptional and highly motivated Interns to join our growing AI team in Staines\-upon\-Thames. We are at the forefront of developing innovative technologies for future Samsung devices and services, and this role offers a unique opportunity to shape the next generation of mobile experiences. You will be instrumental in translating cutting\-edge research into real\-world impact, working on challenges that demand both creative problem\-solving and robust engineering practices.  
+
+  
+
+This is a chance to join a dynamic team that is pushing the boundaries of what’s possible with on\-device AI, bringing advanced LLMs, RAG systems and Knowledge Graphs onto mobile and server platforms. You will see your work shipped in production and running in the hands of real users. We welcome applications from individuals with strong experience in building and deploying complex machine learning systems, and offer the opportunity to deepen your expertise in a technically challenging and rewarding environment.**Role and Responsibilities**
+
+
+As Intern, you will:
+
+* Architect and maintain knowledge graphs (KG), leveraging ontologies and graph databases.
+* Design and implement RAG and GraphRAG pipelines to enhances reasoning for structured, contextual and dynamic data.
+* Evaluate and optimize KG, RAG and GraphRAG systems for accuracy, latency and memory trade\-off.
+* Finetune and deploy various LLMs and adaptors for on\-device applications.
+* Build robust data generation and collection pipelines for model training and KG, RAG or GraphRAG construction.
+* Contribute code libraries by adding new features and improving its capabilities.
+* Evaluate the performance of algorithms and systems through rigorous experimentation and statistical analysis.
+* Lead the development of software prototypes and experimental systems, ensuring high code quality and maintainability.
+* Collaborate with a multidisciplinary team of researchers and engineers to integrate research findings into Samsung products and services.
+
+**Skills and Qualifications**
+
+**Required Skills**
+
+* Currently studying for a PhD in Computer Science, Engineering, Mathematics or a related discipline (or just completing). Masters graduate with relevant knowledge and experience also considered.
+* First\-author publication in one of the following conferences and journals: NeurIPS, ICML, ICLR, EMNLP, CVPR, ICCV, ECCV, AAAI, ACL, IEEE TPAMI, IEEE TNNLS, IJCV, and JMLR.
+* Deep technical expertise on Knowledge Graphs: Proficiency in RDF, SPARQL and tools like Neo4j.
+* Deep technical expertise on RAG/GraphRAG: Hand\-on experience with frameworks like LangChain, LLamaIndex and Vector Databases.
+* Deep technical expertise on LLMs: Expertise in fine\-tuning, prompt engineering and deploying HuggingFace models and vLLMs.
+* Deep technical expertise on Databases: Proficiency in SQL and NoSQL systems, with optimization skills for high\-volume data.
+* Expert proficiency in Pytho

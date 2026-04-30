@@ -30,13 +30,13 @@
     "calls": 10
   },
   "2026-04-30": {
-    "input_tokens": 295100,
-    "output_tokens": 47522,
-    "calls": 299
+    "input_tokens": 441103,
+    "output_tokens": 75652,
+    "calls": 428
   },
   "_cumulative": {
-    "input_tokens": 295100,
-    "output_tokens": 47522,
-    "calls": 299
+    "input_tokens": 441103,
+    "output_tokens": 75652,
+    "calls": 428
   }
 }

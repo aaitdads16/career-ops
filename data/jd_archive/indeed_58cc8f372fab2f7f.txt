@@ -1,0 +1,36 @@
+**Position Summary**
+
+
+Samsung Research UK (SRUK) is seeking exceptional and highly motivated Interns to join our growing AI team in Staines\-upon\-Thames. We are at the forefront of developing innovative technologies for future Samsung devices and services, and this role offers a unique opportunity to shape the next generation of mobile experiences. You will be instrumental in translating cutting\-edge research into real\-world impact, working on challenges that demand both creative problem\-solving and robust engineering practices.  
+
+  
+
+This is a chance to join a dynamic team that is pushing the boundaries of what’s possible with on\-device AI, bringing advanced Agentic Agents and LLMs onto mobile and server platforms. You will see your work shipped in production and running in the hands of real users. We welcome applications from individuals with strong experience in building and deploying complex machine learning systems, and offer the opportunity to deepen your expertise in a technically challenging and rewarding environment.**Role and Responsibilities**
+
+
+As Intern, you will:
+
+* Design and develop agentic systems that exhibit autonomous decision\-making, goal\-setting and task completion.
+* Design and optimize agentic memory and memory agent frameworks, and multi\-agent\-interactions.
+* Finetune and deploy various LLMs and adaptors for on\-device and on\-server applications using various optimization techniques including reinforcement learning and supervised finetuning.
+* Contribute code libraries by adding new features and improving its capabilities.
+* Lead the development of software prototypes and experimental systems, ensuring high code quality and maintainability.
+* Collaborate with a multidisciplinary team of researchers and engineers to integrate research findings into Samsung products and services.
+
+**Skills and Qualifications**
+
+**Required Skills**
+
+* Currently studying for a PhD in Computer Science, Engineering, Mathematics or a related discipline (or just completing). Masters graduate with relevant knowledge and experience also considered.
+* Publication in top\-tier conferences and journals, such as NeurIPS, ICML, ICLR, EMNLP, CVPR, ICCV, ECCV, AAAI, ACL, IEEE TPAMI, IEEE TNNLS, IJCV, and JMLR.
+* Deep technical expertise on LLMs: Expertise in fine\-tuning, prompt engineering and deploying HuggingFace models and vLLMs.
+* Proven track record in single and multi\-agent system design.
+* Proficiency in reinforcement learning (RL) and supervised finetuning (SFT) to train and finetune Agentic AI modules.
+* Proficiency in designing memory systems (episodic, semantic and procedural memory, and other tools like vector and chrome databases).
+* Expert proficiency in Python programming language.
+* Proficiency in Pytorch, with experience in NLP tasks.
+
+**Desirable Skills**
+
+* Previous hands\-on experience with deep learning model optimization: quantization, pruning, distillation, or operator\-level optimizations.
+* Experience with deploying

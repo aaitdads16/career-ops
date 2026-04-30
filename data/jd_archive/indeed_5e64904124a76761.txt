@@ -1,0 +1,50 @@
+Quadric has created an innovative general purpose neural processing unit (GPNPU) architecture. Quadric's co\-optimized software and hardware is targeted to run neural network (NN) inference workloads in a wide variety of edge and endpoint devices, ranging from battery operated smart\-sensor systems to high\-performance automotive or autonomous vehicle systems. Unlike other NPUs or neural network accelerators in the industry today that can only accelerate a portion of a machine learning graph, the Quadric GPNPU executes both NN graph code and conventional C\+\+ DSP and control code.
+
+ **The Role**  
+
+As a Software Engineer Intern \- Kernels, you will work closely with our senior AI Kernel Engineers to help enable a variety of AI/LLM models to run efficiently on the Quadric platform. This is a hands\-on role where you will dive deep into hardware architecture and optimization techniques. You will gain invaluable experience developing, profiling, and optimizing kernel code, directly contributing to the performance of our AI inference stack. Note: Our preference is for a candidate willing to relocate to the California Bay Area who can regularly collaborate from our Burlingame office.
+  
+
+  
+
+**Responsibilities**
+
+
+* Develop \& Implement: Assist in developing AI/LLM kernels and operators on the Quadric platform for efficient inference.
+* Analyze \& Profile: Help profile kernel performance across compute, data, and parallelism to identify micro\-architecture and software bottlenecks.
+* Code Optimization: Work alongside senior engineers to optimize C/C\+\+ code to maximize hardware utilization for different workloads.
+* Collaborate: Partner across related areas of the AI inference stack to support team priorities and business goals.
+Toolchain Contribution: Contribute to improvements in the Quadric toolchain, compiler, and runtime.  
+* 
+
+  
+
+  
+
+**Requirements**  
+
+Must\-Haves:
+
+
+* Currently pursuing a Bachelor's, Master's, or PhD in Computer Science, Electrical Engineering, or a related field.
+* Strong proficiency in C/C\+\+ and Python.
+* Solid foundational understanding of computer architecture and hardware\-software interaction.
+* Demonstrated capability in problem\-solving, debugging, and clear technical communication.
+
+Nice\-to\-Haves (Preferred Qualifications):
+
+
+* Academic or project experience with model and kernel inference performance profiling.
+* Exposure to or experience with compute development frameworks such as CUDA, DSP, NEON, or Triton\-lang.
+* Familiarity with assembly language.
+* Previous internship experience in a hardware\-oriented software role or AI/ML optimization.
+
+  
+
+**Benefits**  
+
+At Quadric, we value Integrity, Humility, and Happiness. What we expect from one another is simple and clear: Initiative, Collaboration, and Completion. We are a collaborative team focused on building something extraordinary in the edge computing space.
+
+  
+
+Founded in 2016 and based in downtown Burlingame, California, Quadric is building the world’

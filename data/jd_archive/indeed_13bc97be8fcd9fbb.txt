@@ -1,0 +1,30 @@
+**We help the world run better**  
+
+At SAP, we keep it simple: you bring your best to us, and we'll bring out the best in you. We're builders touching over 20 industries and 80% of global commerce, and we need your unique talents to help shape what's next. The work is challenging – but it matters. You'll find a place where you can be yourself, prioritize your wellbeing, and truly belong. What's in it for you? Constant learning, skill growth, great benefits, and a team that wants you to grow and succeed.  
+
+We help the world run better At SAP, we keep it simple: you bring your best to us, and we will bring out the best in you. We are builders touching over 20 industries and 80% of global commerce, and we need your unique talents to help shape what is next. The work is challenging – but it matters. You will find a place where you can be yourself, prioritise your wellbeing, and truly belong. What is in it for you? Constant learning, skill growth, great benefits, and a team that wants you to grow and succeed.
+
+ **What you’ll do**
+
+* As a PhD Intern you will work with a team of experienced researchers and applied scientists taking on challenges informed by scaling AI methods across and beyond the broad portfolio of SAP’s business software.
+* Conduct state\-of\-the\-art research on AI agent improvement, including reinforcement learning approaches that use structured feedback from recurring failures to enable continuous learning and adaptation across diverse enterprise environments.
+* Learn about exciting research and applications within and outside your expertise, contributing to SAP product development.
+* Publish research results in top\-tier conferences at the end of the internship and contribute to SAP product development.
+
+ **What you bring**
+
+* PhD student (second year or beyond) with a first\-author publication or preprint.
+* Specialisation in Reinforcement Learning and LLM agent research.
+* Excellent understanding of deep learning, transformer architectures, optimization methods, supervised fine\-tuning, and reinforcement learning approaches.
+* A strong publication record in top\-tier ML/NLP conferences or journals (e.g., NeurIPS, ICML, ICLR, ACL, EMNLP, CVPR) are preferred.
+* Strong background in machine learning, natural language processing, computer vision, or reinforcement learning.
+* Strong algorithmic problem\-solving skills.
+* Proficient in PyTorch and Python with a good understanding of statistical analysis and shell programming.
+
+  
+
+The duration of the internship is 6 months and should take place in 2026\.
+
+  
+
+Meet your team SAP's AI organization is dedicated to seamlessly infusing AI into all enterprise applications, enabling customers, partners, and developers to enhance business processes and generate remarkable business value. Leveraging the cutting\-edge developments in AI research along with SAP’s unparalleled enterprise data assets offers a distinctive opportunity to explore an uncharted domain within AI research. As a vital pa
