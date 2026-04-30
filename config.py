@@ -9,9 +9,18 @@ load_dotenv(BASE_DIR / ".env", override=True)
 
 # ── API Keys ──────────────────────────────────────────────────────────────────
 ANTHROPIC_API_KEY  = os.getenv("ANTHROPIC_API_KEY", "")
-APIFY_API_TOKEN    = os.getenv("APIFY_API_TOKEN", "")
+APIFY_API_TOKEN    = os.getenv("APIFY_API_TOKEN", "")   # legacy — no longer used for scraping
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID   = os.getenv("TELEGRAM_CHAT_ID", "")
+
+# ── Free scraping API keys (all optional — scrapers skip gracefully if absent) ─
+# Adzuna: free account at https://developer.adzuna.com  (250 req/day)
+ADZUNA_APP_ID    = os.getenv("ADZUNA_APP_ID", "")
+ADZUNA_APP_KEY   = os.getenv("ADZUNA_APP_KEY", "")
+# JSearch: free account at https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch  (500 req/mo)
+JSEARCH_API_KEY  = os.getenv("JSEARCH_API_KEY", "")
+# SerpAPI: free account at https://serpapi.com  (100 searches/mo)
+SERPAPI_KEY      = os.getenv("SERPAPI_KEY", "")
 
 # ── Folders ───────────────────────────────────────────────────────────────────
 OUTPUT_DIR        = Path(os.getenv("OUTPUT_DIR", BASE_DIR))
@@ -211,116 +220,18 @@ COMPANY_BLACKLIST: list = [
 # Jobs scored below this (out of 10) by Claude are discarded before doc generation.
 # 7 = "good fit or better" — adjust up (stricter) or down (more permissive).
 MIN_RELEVANCE_SCORE: int = 7
-RESULTS_PER_SEARCH = 10    # per country/keyword combo (Indeed + Glassdoor)
-DATE_POSTED        = "3"   # last 3 days (Indeed) — avoids missing jobs from same 24h window
-GLASSDOOR_DAYS_OLD = 3     # last 3 days (Glassdoor)
-LINKEDIN_HOURS     = 259200 # last 3 days in seconds (LinkedIn f_TPR param)
-LINKEDIN_COUNT     = 30     # results per URL — higher than Indeed/Glassdoor to compensate for filtering
-WELLFOUND_MAX      = 30    # results per keyword (Wellfound — free actor, no date filter)
+RESULTS_PER_SEARCH = 10    # kept for backward compatibility
 MAX_JOB_AGE_DAYS   = 3     # drop jobs with posted_at older than this (post-scrape age filter)
 
-# ── Apify actor IDs ───────────────────────────────────────────────────────────
-ACTOR_INDEED       = "valig/indeed-jobs-scraper"
-ACTOR_LINKEDIN     = "curious_coder/linkedin-jobs-scraper"
-ACTOR_GLASSDOOR    = "valig/glassdoor-jobs-scraper"
-ACTOR_WELLFOUND    = "sovereigntaylor/wellfound-scraper"
-ACTOR_GOOGLE_JOBS  = "apify/google-jobs-scraper"
+# ── JobSpy settings (LinkedIn / Indeed / Glassdoor — free, no key) ────────────
+JOBSPY_RESULTS_PER_CALL = int(os.getenv("JOBSPY_RESULTS_PER_CALL", "50"))
+JOBSPY_HOURS_OLD        = int(os.getenv("JOBSPY_HOURS_OLD", "72"))   # 3 days lookback
 
-# ── LinkedIn URL builder ──────────────────────────────────────────────────────
-# Regions for LinkedIn (city name used in URL, LinkedIn split country code)
-LINKEDIN_REGIONS = {
-    "Europe": [
-        ("London",      "GB"),
-        ("Berlin",      "DE"),
-        ("Munich",      "DE"),
-        ("Amsterdam",   "NL"),
-        ("Stockholm",   "SE"),
-        ("Zurich",      "CH"),
-        ("Barcelona",   "ES"),
-        ("Madrid",      "ES"),
-        ("Dublin",      "IE"),
-        ("Brussels",    "BE"),
-        ("Copenhagen",  "DK"),
-        ("Helsinki",    "FI"),
-        ("Milan",       "IT"),
-        ("Lisbon",      "PT"),
-        ("Warsaw",      "PL"),
-        ("Prague",      "CZ"),
-        ("Vienna",      "AT"),
-        ("Athens",      "GR"),
-        ("Luxembourg",  "LU"),
-        ("Tallinn",     "EE"),
-        ("Zurich",      "CH"),
-        ("Brussels",    "BE"),
-    ],
-    "Asia": [
-        ("Singapore",    "SG"),
-        ("Tokyo",        "JP"),
-        ("Seoul",        "KR"),
-        ("Hong Kong",    "HK"),
-        ("Bangalore",    "IN"),
-        ("Mumbai",       "IN"),
-        ("Kuala Lumpur", "MY"),
-        ("Bangkok",      "TH"),
-        ("Sydney",       "AU"),
-        ("Melbourne",    "AU"),
-        ("Auckland",     "NZ"),
-        ("Tel Aviv",     "IL"),
-        ("Ho Chi Minh City", "VN"),
-        ("Manila",       "PH"),
-        ("Shanghai",     "CN"),
-        ("Beijing",      "CN"),
-    ],
-    "USA_Canada": [
-        ("New York",      "US"),
-        ("San Francisco", "US"),
-        ("Boston",        "US"),
-        ("Seattle",       "US"),
-        ("Toronto",       "CA"),
-        ("Montreal",      "CA"),
-        ("Austin",        "US"),
-        ("Chicago",       "US"),
-        ("Los Angeles",   "US"),
-        ("Washington",    "US"),
-        ("Atlanta",       "US"),
-        ("Vancouver",     "CA"),
-        ("Calgary",       "CA"),
-    ],
-    "South_America": [
-        ("São Paulo",     "BR"),
-        ("Buenos Aires",  "AR"),
-        ("Bogotá",        "CO"),
-        ("Santiago",      "CL"),
-        ("Mexico City",   "MX"),
-    ],
-    "Middle_East": [
-        ("Dubai",         "AE"),
-        ("Abu Dhabi",     "AE"),
-        ("Riyadh",        "SA"),
-        ("Doha",          "QA"),
-        ("Tel Aviv",      "IL"),
-    ],
-}
-
-def linkedin_url(keyword: str, location: str) -> str:
-    """
-    Build a public LinkedIn jobs search URL sorted by date.
-
-    f_JT=I (Internship type) is intentionally REMOVED — the majority of
-    internship postings on LinkedIn are NOT tagged with the Internship job type.
-    Keeping that filter cuts 60-70%% of real internship results.
-    The relevance filter (job_filter.py) handles non-internship rejection instead.
-    """
-    import urllib.parse
-    params = {
-        "keywords": keyword,
-        "location": location,
-        "f_TPR":    f"r{LINKEDIN_HOURS}",   # last 3 days
-        "sortBy":   "DD",                   # date descending — most recent first
-        "position": "1",
-        "pageNum":  "0",
-    }
-    return "https://www.linkedin.com/jobs/search/?" + urllib.parse.urlencode(params)
+# ── API budget caps (free tiers — adjust via GitHub secrets / .env) ───────────
+# SerpAPI: 100 searches/month free → default 1/run keeps you under 60 runs/month
+SERPAPI_MAX_CALLS_PER_RUN  = int(os.getenv("SERPAPI_MAX_CALLS_PER_RUN", "1"))
+# JSearch: 500 req/month free → 10/run × ~45 runs/month ≈ 450 req (safe at ≤1.5 runs/day)
+JSEARCH_MAX_CALLS_PER_RUN  = int(os.getenv("JSEARCH_MAX_CALLS_PER_RUN", "10"))
 
 # ── Anthropic credit monitoring ───────────────────────────────────────────────
 

@@ -1,6 +1,6 @@
 """
 Internship Finder — Main orchestrator.
-Scrapes Indeed, LinkedIn, Glassdoor, and Wellfound via Apify.
+Scrapes LinkedIn, Indeed, Glassdoor via JobSpy + Adzuna + JSearch + SerpAPI + RemoteOK.
 Filters jobs by relevance using Claude before generating documents.
 Generates custom resume + cover letter per compatible offer.
 Updates Excel tracker and sends Telegram report with PDF attachments.
@@ -165,13 +165,7 @@ def run():
     except RuntimeError as exc:
         exc_str = str(exc)
         logger.error("Scraping aborted: %s", exc_str)
-        if "quota" in exc_str.lower() or "apify" in exc_str.lower():
-            notify_budget_alert(
-                f"🚫 *Apify quota exhausted* — all scrapers returned 0 jobs.\n"
-                f"Top up at [console.apify.com/billing](https://console.apify.com/billing)\n\n"
-                f"_{exc_str}_",
-                priority=5,
-            )
+        notify_budget_alert(f"🚫 *Scraping error* — {exc_str}", priority=5)
         notify_run_complete(0, _count_tracker_rows(), error=exc_str)
         return
     except Exception as exc:

@@ -1,5 +1,5 @@
 anthropic
-apify-client
+python-jobspy
 openpyxl
 python-docx
 reportlab
