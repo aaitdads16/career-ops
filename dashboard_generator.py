@@ -1470,8 +1470,6 @@ def generate_dashboard() -> Path:
         "all_jobs":           s.get("all_jobs", []),
     }, ensure_ascii=False)
 
-    # PAT injected at build time from DASHBOARD_PAT env var (GitHub Actions secret)
-    dashboard_pat  = os.environ.get("DASHBOARD_PAT", "")
     github_repo    = os.environ.get("GITHUB_REPOSITORY", "aaitdads16/career-ops")
 
     html = _HTML_TEMPLATE
@@ -1493,7 +1491,6 @@ def generate_dashboard() -> Path:
         "__BUDGET_COLOR__": budget_color,
         "__GMAIL_STRIP__":  gmail_strip,
         "__DATA_JSON__":    data_json,
-        "__DASHBOARD_PAT__": dashboard_pat,
         "__GITHUB_REPO__":   github_repo,
     }
     for k, v in replacements.items():
