@@ -1,0 +1,35 @@
+Join our AI team at Prosus, the largest consumer internet company in Europe and one of the biggest tech investors in the world. You'll be working on the team that drives growth and innovation across the company. You'll work on production LLMs that transform how millions of people shop online \- shipping real features from day one.
+### **What you'll do:**
+
+* Train, fine\-tune, and serve open\-source LLMs (Qwen, Mistral, etc.) that power real products
+* Design experiments, evaluate results, and ship solutions that win in A/B tests
+* Work on the full ML lifecycle: from training runs to production serving infrastructure
+
+### **Preferred qualifications \& traits:**
+
+* **You know how to write good Python code** from experience building real projects (or close to it). Bonus points if you've worked with distributed systems.
+* **You've actually used PyTorch and Huggingface** and you also have an idea of what's going on under the hood.
+* **You understand ML fundamentals** because you've trained models yourself and understand the core concepts.
+* **You can make sense of research** by reading papers, getting the key ideas, and turning them into working code (with the help of your AI assistant).
+* **You think for yourself** and can come up with ideas.
+* **You're genuinely curious** and actually care about understanding how things work and get excited by new ideas
+* **You love learning new tech** and applying it.
+* **You work well with others** by communicating clearly, not being shy to ask questions, and helping your teammates.
+* **You're flexible** when priorities shift and okay with switching from research to data processing when needed.
+* **You're friends with AI assistants** and use them regularly for coding and writing.
+* **You can commit to 6\-12 months** working with us in Amsterdam (minimum 3 days in the office weekly). We'll work with your academic schedule.
+
+
+### **What we offer:**
+
+* **Learn from the best**: Work with AI engineers who've published at NeurIPS, released top models on Huggingface, and built production systems at scale
+* **Ship from day one**: Your code goes into production quickly, not after months of onboarding
+* **Real infrastructure**: Access to H200 GPU clusters, large\-scale datasets, and all major LLM APIs (OpenAI, Anthropic, Google)
+* **Unique data at scale**: Access to billions of customer interactions from 500\+ million users across our e\-commerce platforms, with millions of products
+* **Grow your career**: People who excel here tend to stick around
+* **Junior Engineer compensation**: We pay competitively for the impact you'll have
+* **Best\-in\-class tools**: MacBook Pro, access to all major LLM APIs and premium coding assistants
+* **Great workspace**: Modern office in Amsterdam South with free barista coffee and NS travel card for your commute
+
+
+This internship puts you right in the middle of AI innovation at a European tech leader. If you're excited about using AI to change how people shop and want to work on something wi

@@ -1,0 +1,45 @@
+**Role Descriptions \& Responsibilities**
+
+We are looking for an intern to work at the intersection of AI and DevOps, focused on enhancing engineering productivity at scale. This role is centered on applying AI to improve existing release engineering systems and to build intelligent tools that assist engineers in troubleshooting, automation, and decision\-making.
+
+
+You will help evolve traditional DevOps workflows into AI\-augmented systems—including building conversational “chat\-pod” style assistants that can analyze builds, logs, and pipelines in real time. You’ll gain hands\-on experience building AI\-powered engineering tools at enterprise scale. Some of your responsibilities include:
+
+* Develop AI\-powered tools to analyze build logs, pipeline outputs, and system telemetry
+* Implement intelligent troubleshooting assistants (chat\-based tools) for: Build failures CI/CD pipeline issues Infrastructure and deployment diagnostics
+* Explore LLM\-based solutions for summarizing logs, identifying root causes, and recommending fixes
+* Enhance Existing DevOps Tooling
+* Improve current automation systems with AI\-driven insights and optimization
+* Add intelligence to: Logging and monitoring systems
+* Build/test orchestration pipelines
+* Create alerting and anomaly detection frameworks as well as automation and productivity design solutions to reduce manual debugging and repetitive engineering tasks
+* Build tools that can correlate logs across distributed systems, detect patterns in failures across builds, and recommend or auto\-trigger remediation steps
+**Qualifications**
+
+* Pursuing a Bachelor’s or Master’s degree in Computer Science, Software Engineering, or related field
+* Strong programming skills in **C\# (preferred),** Python, PowerShell, C\+\+, HTML and React
+* Understanding of software development lifecycle and systems engineering fundamentals
+
+
+Preferred Qualifications
+
+* Exposure to AI/ML or LLM\-based systems (e.g., prompt engineering, NLP, model APIs)
+* Exposure to **Azure DevOps ALM**
+* Familiarity with DevOps concepts (CI/CD, build systems, automation pipelines)
+* Experience working with: Logs, telemetry, or monitoring systems
+* Knowledge of Windows Server environments and scripting
+* Experience or coursework in data analysis, anomaly detection, or system diagnostics
+* Prior experience in IT, DevOps, or infrastructure environments is a strong plus
+
+  
+
+\#LI\-HYBRID
+
+
+Shape your career with3DS! \#WeAre3DS
+
+**Inclusion statement**
+-----------------------
+
+
+In order to provide equal employment and advancement opportunities to all individuals, employment decisions at 3DS are based on merit, qualifications and abilities. 3DS is committed to a policy of non\-discrimination and equal opportunity for all employees and qualified applicants without regard to race, color, religion, gender, sex (including pregnancy, childbirth or medical or common conditions related to pregnancy or childbirth), sexual orientation, gender identity, gender expression,
