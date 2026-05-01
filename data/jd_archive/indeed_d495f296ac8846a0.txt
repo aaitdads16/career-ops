@@ -1,0 +1,85 @@
+Come work at a place where innovation and teamwork come together to support the most exciting missions in the world!
+
+
+We are seeking an Agentic AI Engineering Intern to join our team building AI\-driven cybersecurity products. You will work closely with the engineering lead to improve the core intelligence layer of our AI agent platform, focusing on how agents understand their capabilities, select the right actions, and operate within defined boundaries.
+
+
+As an intern on this team, you will contribute directly to a production platform used by enterprises worldwide. This role sits at the intersection of large language models, autonomous agent systems, and cybersecurity.
+
+ **Responsibilities**
+
+  
+
+Improve and refine tool definitions that AI agents use to interact with security APIs, including descriptions, schemas, and metadata, to ensure consistent and accurate tool selection across the platform.
+
+
+Identify and resolve conflicts or ambiguities across tool definitions that lead to incorrect agent behavior. This is a core part of the agent workflow and will be the primary area of focus.
+
+
+Build evaluation harnesses to measure tool selection accuracy and track improvements over time.
+
+
+Improve the validation layer that determines whether an AI agent’s execution plan is feasible and within its capability boundary. This area works today but needs meaningful improvement.
+
+
+Develop better methods for agents to self\-assess plan confidence and determine when to proceed versus when to escalate.
+
+
+Design and implement guardrails that prevent agents from executing outside their defined boundaries.
+
+
+Contribute across the broader agentic AI platform including prompt engineering, search relevance, agent orchestration, and testing.
+
+
+Write tests and build evaluation frameworks for multi\-agent workflows.
+
+
+Help improve how the platform matches user intent to agent capabilities using search and retrieval techniques.
+
+ **Requirements**
+
+  
+
+Currently pursuing a BS or MS in Computer Science, AI/ML, Data Science, or a related field.
+
+
+Familiarity with Python.
+
+
+Basic understanding of large language models and generative AI, including how prompting, tool use, and agent loops work.
+
+
+Comfortable navigating and contributing to large codebases.
+
+
+Demonstrates a commitment to continuous learning in this rapidly evolving field.
+
+ **Preferred Qualifications**
+
+  
+
+Exposure to LLM orchestration frameworks or agent\-building libraries.
+
+
+Experience with prompt engineering including system prompts, few\-shot examples, and chain\-of\-thought patterns.
+
+
+Familiarity with vector search, embeddings, and retrieval\-augmented generation.
+
+
+Understanding of tool\-calling protocols and patterns for LLMs.
+
+
+Experience with cloud platforms and containerized development environments.
+
+
+Exposure to web frameworks, backend or frontend.
+
+ **What You Will Gain**
+
+  
+
+Hands\-on experience building and shipping production agentic AI systems.
+
+
+Exposure to the full stack of an AI agent sys

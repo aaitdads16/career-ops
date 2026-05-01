@@ -1,0 +1,24 @@
+Our work at NVIDIA is dedicated towards a computing model focused on visual and AI computing. For two decades, NVIDIA has pioneered visual computing, the art and science of computer graphics, with our invention of the GPU. The GPU has also shown to be spectacularly effective at solving some of the most complex problems in computer science. Today, NVIDIA’s GPU simulates human intelligence, running deep learning algorithms and acting as the brain of computers, robots and self\-driving cars that can perceive and understand the world. We are looking to grow our company and teams with the smartest people in the world and there has never been a more exciting time to join our team!
+
+
+NVIDIA is hiring passionate, extraordinary interns to work in its Developer Technology (DevTech) team. Artificial intelligence, the dream of computer scientists for over half a century, is no longer science fiction. And in the next few years, it will transform every industry. As high\-performance accelerators continue to push deep learning training efficiency and throughput, the data storage and ingestion pipeline is becoming the dominating factor that constrains the overall AI workload performance. GPUs, already known for their efficiency in training and inference, are now also revolutionizing data pre\-processing for AI workloads and high\-performance data analytics. This internship is an opportunity to contribute to this revolution. Learn about cutting edge algorithms, practice and improve your GPU profiling and optimization skills and squeeze every single bit of performance to get closer to the speed\-of\-light. Don't miss your chance to work side\-by\-side with the world\-class performance optimization engineers from the DevTech team.
+
+**What you will be doing:**
+
+* Research and develop techniques to GPU\-accelerate leading applications in high\-performance computing fields within machine learning, data and graph analytics.
+* Profile, analyze bottlenecks, dive into architecture detail and implement optimizations to ensure the best possible application performance on the latest\-generation GPU architectures.
+* Collaborate closely with the DevTech optimization experts to develop novel parallel algorithms and leverage new hardware features.
+
+**What we need to see:**
+
+* Pursuing an MS or PhD degree in an engineering or computer science related discipline.
+* Programming fluency in C/C\+\+ with a deep understanding of parallel data structures, programming techniques, and algorithms.
+* Strong mathematical fundamentals.
+* Experience with CUDA.
+* Knowledge of high\-performance computing (HPC), including GPU and CPU architectures.
+* Exposure to the inner working of relational or vector databases. Industry or research experience is preferred, but related coursework can also be considered.
+
+**Way to stand out from the crowd:**
+
+* Degree specialization in high\-performance databases
+* Experience optimizing/implementing database operators or query planner, especially for a parallel

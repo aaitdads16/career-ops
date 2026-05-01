@@ -1,0 +1,49 @@
+**Description:**
+
+
+We are seeking interns with solid Computer Science, Machine Learning, Statistics, and Mathematics backgrounds who would be interested in exploring research directions in one of the following general domains:
+
+
+(i) Large Language Models (LLMs) and Natural Language Processing (NLP)
+
+
+(ii) Machine Learning (ML) Foundations—including in Architecture, Optimization, Graph Neural Networks (GNN), Multi\-Modal Learning (MML), etc.
+
+
+(iii) Reinforcement Learning (RL)
+
+
+(iv) Automatic Design Space Exploration (DSE)
+
+
+(v) Theoretical and/or Empirical Investigation of Statistical Learning Techniques
+
+**Responsibilities and opportunities to learn:**
+
+* Work with the machine learning (ML) team within our IC\-Lab to investigate, explore, develop and publish research results in machine and statistical learning in one of our focused or neighboring areas
+* Investigate and explore cutting edge problems in domains such as long sequence processing and NLP, automatic design space exploration, reinforcement learning, computer vision, and multi\-modal representation learning.
+* Help advance the theory and practice of machine and statistical learning and application through innovative research.
+* Publish results in top machine learning conferences and/or journals.
+
+ **Prefer candidates with some of the following qualifications—as related to general domains of focus mentioned above:**
+
+* Knowledge of (deep) reinforcement learning, optimization, and search techniques.
+* Knowledge of statistical learning—e.g., deep neural networks, sequence processing, graph neural networks, etc.
+* Familiarity with ML life cycle, architectures, and model designs.
+* Familiarity with ML implementation environments and platforms such as PyTorch and/or Tensorflow.
+* Familiarity with distributed system processing, Linux and Python environments, source code management, and team development practices.
+* Familiarity with large language models (LLMs) and Visual Language Models (VLMs) is a plus.
+
+ **Key qualifications:**
+
+* Well\-organized, detail\-oriented, passionate about learning, motivated, and team player.
+* Verbal and written communication skills.
+* Ph.D. student in Computer Science, Machine/Statistical Learning, Computer Engineering, or closely related majors.
+  
+
+
+**Futurewei Technologies, Inc. is proud to be an Equal Opportunity Employer.**
+
+
+
+All qualified applicants will receive consideration for employment without regard to race, color, gender, sexual orientation, gender identity or expression, religion, national origin, marital status, age, disability, veteran status, genetic information, or any other protected status under federal, state, and local laws.
