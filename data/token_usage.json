@@ -35,13 +35,18 @@
     "calls": 428
   },
   "_cumulative": {
-    "input_tokens": 628575,
-    "output_tokens": 106941,
-    "calls": 617
+    "input_tokens": 653253,
+    "output_tokens": 108186,
+    "calls": 656
   },
   "2026-05-01": {
     "input_tokens": 187472,
     "output_tokens": 31289,
     "calls": 189
+  },
+  "2026-05-02": {
+    "input_tokens": 24678,
+    "output_tokens": 1245,
+    "calls": 39
   }
 }
