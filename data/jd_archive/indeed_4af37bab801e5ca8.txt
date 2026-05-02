@@ -1,0 +1,39 @@
+NextNav is a leader in next generation position, navigation and timing (PNT), enabling a whole new ecosystem of applications and services that rely upon 3D geolocation and PNT technology. Powered by low\-band licensed spectrum, NextNav’s positioning and timing technologies can deliver accurate, reliable and resilient 3D PNT solutions for critical infrastructure, GPS resiliency and commercial use cases.  
+
+  
+
+At NextNav we are looking for a creative, and passionate intern to join a project centered around Artificial Intelligence and Machine Learning. The candidate with closely work with NextNav’s AI/ML engineering team to develop solutions focused on improving performance, accuracy and efficiency. This individual will be joining from our Santa Clara, CA office and working closely with our Paris, France office.  
+
+  
+
+In this role, you will be working with high\-precision ground\-truth data and Networks to construct engineering and model training for NextNav’s future. Success in this role will be measured by expected outputs include a reproducible benchmarking pipeline, comparative results across different model architectures, and a concise recommendation identifying the most promising models for further investigation.  
+
+  
+
+**Must have Requirements**
+
+  
+
+* An enrolled PhD student with Computer Science, Electronics \& Communications, Data Science, AI/ML, or similar related field.
+* Strong background in statistics, signal processing, and AI/machine learning
+* Hands\-on experience with deep learning training and optimization
+* Proficiency in Python, including experience with machine\-learning libraries such as scikit\-learn, PyTorch, or JAX, and MATLAB
+* Flexibility to work across timezones \- the chosen candidate will have to collaborate extensively with teammates based out of NextNav Paris (France) and work out of Santa Clara (USA).
+* Internship duration: 3\-6 months.
+
+  
+
+  
+
+**Preferred Requirements**
+
+  
+
+* Previous experience working Research and/or other AI/ML Projects
+* Familiarity with modern architectures (transformers, state\-space models, and generative models such as GANs, diffusion models, normalizing flows, and autoencoders) is a plus.
+
+  
+
+
+
+NextNav offers a compensation designed to support our employees in all aspects of their life inside and outside of work. The actual offer, including the compensation package, is determined based on multiple factors, such as the candidate's skills and experience and other business considerations.
