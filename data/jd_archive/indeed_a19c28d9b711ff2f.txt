@@ -1,0 +1,44 @@
+**Introduction:**
+
+
+We drive technology innovations that shape the way we live and connect. Our technology drives the Era of Pervasive Intelligence, where smart tech and AI are seamlessly woven into daily life. From self\-driving cars and health\-monitoring smartwatches to renewable energy systems that efficiently distribute clean power, Synopsys creates high\-performance silicon chips that help build a healthier, safer, and more sustainable world.
+
+**Internship Experience:**
+
+
+At Synopsys, interns dive into real\-world projects, gaining hands\-on experience while collaborating with our passionate teams worldwide—and having fun in the process! You'll have the freedom to share your ideas, unleash your creativity, and explore your interests. This is your opportunity to bring your solutions to life and work with cutting\-edge technology that shapes not only the future of innovation but also your own career path. Join us and start shaping your future today!
+
+**Mission Statement:**
+
+
+Our mission is to fuel today’s innovations and spark tomorrow’s creativity. Together, we embrace a growth mindset, empower one another, and collaborate to achieve our shared goals. Every day, we live by our values of Integrity, Excellence, Leadership, and Passion, fostering an inclusive culture where everyone can thrive—both at work and beyond.
+
+### **What You’ll Be Doing:**
+
+* Support the development and evaluation of AI/ML prototypes and software solutions.
+* Contribute to projects involving machine learning, data analysis, automation, or Generative AI applications.
+* Help prototype and test AI\-powered features, models, or proof\-of\-concepts.
+* Participate in software development activities including coding, debugging, testing, and documentation.
+* Collaborate with engineers and researchers on technical problem solving and project execution.
+
+### **What You’ll Need:**
+
+* Currently pursuing a Bachelor’s, Master’s, or equivalent degree in Computer Science, Software Engineering, Electrical Engineering, or a similar field.
+* Proficiency in Python programming.
+* Familiarity with Python libraries such as NumPy, Pandas, or scikit\-learn.
+* Understanding of basic data structures and algorithms.
+* Solid software development fundamentals.
+* Strong problem\-solving and analytical skills.
+* Good communication skills and a willingness to learn.
+
+### **Key Program Facts:**
+
+* **Program Length:** Summer Internship, 3 months
+* **Location:** Mississauga, Ontario, Canada
+* **Working Model:** In\-office, Full\-time
+* **Start Date:** May / June 2026
+
+### **Equal Opportunity Statement:**
+
+
+Synopsys is committed to creating an inclusive workplace and is an equal opportunity employer. We welcome all qualified applicants to apply, regardless of age, color, family or medical leave, gender identity or expression, marital status, disability, race and ethnicity, religion, sexual orientation, or any other characteristic protected by local laws. If you need assistance or a reasonable accommodation

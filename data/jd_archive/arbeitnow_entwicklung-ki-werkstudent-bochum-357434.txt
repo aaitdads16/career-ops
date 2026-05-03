@@ -1,0 +1,41 @@
+<p><strong>Wer wir sind:</strong></p>
+<p>XRbit ist ein Start-up, welches sich mit XR Technologien (Virtual Reality, Augmented Reality, Mischformen) und KI-Entwicklung auseinandersetzt. Wir bieten spannende und abwechslungsreiche Aufgaben in den unterschiedlichsten Bereichen. Unseren Mitarbeitern bieten wir dabei viel Freiräume in der Gestaltung, um Ideen eigenverantwortlich umzusetzen.</p>
+<h2>Aufgaben</h2>
+<p>In einem multidisziplinären Projekt zusammen mit dem Makerspace der Ruhr-Universität Bochum entwickelst du intelligente Systeme, die Gegenstände/ Materialien automatisch erkennen und für eine Weiterverwendung zugänglich machen. Du arbeitest an der Schnittstelle von KI, Hardware und Webanwendungen und bringst eigene Ideen aktiv in die Umsetzung ein. Dabei kombinierst du Softwareentwicklung mit praktischer Arbeit an Sensorik und Kamerasystemen. Ziel ist es, eine funktionierende Gesamtlösung aus KI-Modell, Erfassungssystem und Benutzeroberfläche aufzubauen.</p>
+<ul>
+<li>Entwicklung und Training von KI-Modellen im Bereich Image Recognition / Computer Vision.</li>
+<li>Aufbau und Optimierung von Datensätzen für die Objekterkennung.</li>
+<li>Entwicklung einer Web-App (plus Datenbank) zur Visualisierung und Interaktion mit den erkannten Objekten.</li>
+<li>Integration von KI-Modellen in eine lauffähige Systemarchitektur.</li>
+<li>Konzeption und Aufbau eines Kamera- und Sensorsystems zur Datenerfassung.</li>
+<li>Durchführung von Tests im realen Umfeld.</li>
+<li>Optimierung von Performance, Genauigkeit und Echtzeitfähigkeit der Systeme.</li>
+<li>(Optional) Unterstützung beim Prototyping von der eingesetzten Hardware.</li>
+</ul>
+<h2>Qualifikation</h2>
+<p>Du bringst ein solides technisches Fundament mit und hast Lust, KI nicht nur am Rechner, sondern auch in der realen Welt umzusetzen. Idealerweise kombinierst du Softwareentwicklung mit einem Verständnis für Hardware und hast Freude daran, Systeme ganzheitlich zu denken – von der Datenerfassung bis zur Anwendung für den Nutzer.</p>
+<ul>
+<li>Studium im Bereich Informatik, KI, Data Science, Elektrotechnik oder vergleichbar.</li>
+<li>Gute Kenntnisse im Bereich Image Recognition / Computer Vision (z. B. mit PyTorch oder TensorFlow).</li>
+<li>Erfahrung im Training und der Optimierung von KI-Modellen sowie im Umgang mit Datensätzen.</li>
+<li>Kenntnisse in der Entwicklung von Web-Apps (Frontend + Backend).</li>
+<li>Erfahrung mit mindestens einem gängigen Framework wie z. B. React, Angular, oder Node.js.</li>
+<li>Verständnis für die Anbindung von Webanwendungen an externe Systeme (APIs, Datenbanken, Echtzeitdaten).</li>
+<li>Grundlegendes Verständnis von Hardwarekomponenten (z. B. Kameras, Mikrocontroller, Edge Devices wie Raspberry Pi).</li>
+<li>Selbstständige und strukturierte Arbeitsweise sowie Freude am Prototyping.</li>
+<li>Bonus: Erfahrung im Löten, Aufbau von Schaltungen oder Entwicklung einfacher Platinen (PCB).</li>
+</ul>
+<h2>Benefits</h2>
+<p>Bei XRbit arbeitest du nicht an reinen Theorieprojekten, sondern an greifbaren Anwendungen mit echtem Impact. Gleichzeitig bieten wir dir ein Umfeld, das maximale Flexibilität mit Zugang zu High-End-Infrastruktur verbindet.</p>
+<ul>
+<li>Flexible Arbeitszeiten – perfekt abgestimmt auf dein Studium.</li>
+<li>Zugang zum Makerspace der Ruhr-Universität Bochum mit professioneller Ausstattung.</li>
+<li>Arbeiten an einem innovativen KI- und Nachhaltigkeitsprojekt mit realem Anwendungsbezug.</li>
+<li>Direkte Einbindung in ein interdisziplinäres Team. Dabei viel Gestaltungsspielraum und die Möglichkeit, eigene Ideen umzusetzen.</li>
+<li>Hands-on-Erfahrung mit Kamerasystemen, Sensorik und realen Testumgebungen.</li>
+<li>Perspektive auf eine langfristige Zusammenarbeit oder Abschlussarbeit im Projektkontext.</li>
+</ul>
+<p><strong>Bewirb dich jetzt!</strong></p>
+<p>Dein Aufgabengebiet lässt dir viel Freiraum und Spielräume in der Gestaltung, sodass du eigene Ideen eigenverantwortlich verfolgen kannst. Interessant ist es für uns zu wissen, welche ersten Erfahrungen du schon gesammelt hast und welche Themengebiete Dir persönlich Spaß machen.</p>
+<p><strong>Haben wir dein Interesse geweckt? Wenn ja, dann sende deine aussagekräftige Bewerbung mit Angabe Deines möglichen Starttermins und einer möglichen Befristung an uns.</strong></p>
+<p>Find more <a href="https://www.arbeitnow.com/english-speaking-jobs">English Speaking Jobs in Germany</a> on Arbeitnow</a>
