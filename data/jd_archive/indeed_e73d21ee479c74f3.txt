@@ -1,0 +1,39 @@
+We are looking for a motivated Machine Learning Intern to work on an exciting project involving satellite telemetry data. The goal of this internship is to develop a proof of concept tool for detecting and predicting anomalies and extracting insights from time\-series satellite telemetry data using modern machine learning techniques.
+
+  
+
+ISISPACE develops and maintains its own Mission Control Centre to operate satellites. We have a significant satellite telemetry data set for previous and active missions. We are continuously working on improving our capabilities in telemetry analysis. This assignment will contribute to that goal.
+
+  
+
+You will work on real\-world engineering data and contribute to a project that explores how data\-driven methods can improve system monitoring, reliability, and operational awareness in satellite systems. You will have the opportunity to gain hands\-on experience in applied machine learning, time\-series analysis, and data engineering within a practical domain.
+
+  
+
+If this sounds exciting to you, we are looking forward to receiving your application!
+
+**Specific tasks and responsibilities include**
+
+* Explore and analyze satellite telemetry datasets.
+* Clean, preprocess, and structure time\-series data.
+* Design and implement feature engineering pipelines.
+* Develop and test machine learning models for anomaly detection and/or forecasting.
+* Evaluate model performance and analyze results.
+* Visualize telemetry data and model outputs.
+* Document methodology, findings, and recommendations.
+* Summarize findings and recommendations.
+
+ **Requirements**
+
+* Currently pursuing a degree in computer science, data science, aerospace engineering, or a related field.
+* Experience with Python and machine learning.
+* Pro\-active, clear, and open communication in English.
+* Familiarity with Git version control.
+* Comfortable working independently and in a small team.
+
+ **Nice to haves**
+
+* Experience with Scikit\-learn, PyTorch, or TensorFlow.
+* Experience with Time\-series modeling (ARIMA, LSTM, etc.).
+* Understanding of Satellite systems or telemetry data.
+* Interest in space systems or aerospace applications.
