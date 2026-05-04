@@ -114,28 +114,65 @@ WORK EXPERIENCE
 
 PROJECTS (use these facts exactly — never invent)
 
-PROJECT 0: NVIDIA Nemotron Reasoning Challenge — Kaggle Competition (In Progress, June 2026)
-  Achievement: Rank 17/3000+ teams, score 0.86/1.0 (matching the top competitor). Prize pool $106K+.
-  Base score (no adapter): 0.49. Best competitor score: 0.86.
-  Technical:
-  - Model: Nemotron-3-Nano-30B, hybrid Mamba-Transformer MoE (30B total / 3.5B active via MoE routing, 52 layers)
-  - LoRA adapter: r=32, alpha=32, ~888M trainable params (~3.4GB), all-linear + lm_head targeting
-  - Task: 6 logic puzzle types in chain-of-thought format; evaluation by exact match inside \boxed{}
-  - Dataset: 7,828 verified chain-of-thought examples (dgxchen/nemotron-cot-tong)
-  - Training: SFTTrainer (Unsloth), completion-only loss, 1 epoch, LR=2e-4, grad_accum=64, batch=1
-  - Key finding 1: completion_only_loss=True outperforms full-sequence loss — subtle but confirmed
-  - Key finding 2: packing=True dropped score significantly; synthetic data consistently hurt
-  - Key finding 3: 7.5M param (12-layer) LoRA has hard ceiling; all-linear 888M needed to reach top tier
-  - Rank 17/3000+ teams with 0.86/1.0 score matching the top competitor
-  Engineering challenges (Blackwell GPU — RTX PRO 6000, sm_120, 95GB VRAM):
-  - Fix 1: Monkey-patched caching_allocator_warmup to prevent 58GB+62GB OOM during model load
-  - Fix 2: Stubbed mamba3/cutlass imports in sys.modules before mamba_ssm import (sm_120 incompatibility)
-  - Fix 3: Set is_fast_path_available=False post-load to disable Mamba CUDA kernels not compiled for sm_120
-  - Fix 4: Mocked ptxas version + chmod +x to /tmp copy to fix Triton ptxas permission error on read-only fs
-  - Fix 5: Replaced rmsnorm_fn with pure PyTorch fallback to prevent residual Triton crash post fast-path disable
-  - All 5 fixes required in strict order; missing any single one causes a different crash
-  - Stack: PyTorch, Unsloth, TRL, PEFT, Hugging Face Transformers, vLLM, Mamba, Triton, Kaggle P100/T4
-  HEADLINE FOR RESUME: "Ranked 17th / 3000+ teams · 0.86/1.0 score · $106K+ prize pool · NVIDIA Nemotron"
+PROJECT 0: NVIDIA Nemotron Model Reasoning Challenge — Kaggle (In Progress, June 2026)
+  HEADLINE: Ranked 17th / 3,000+ teams · score 0.86/1.0 · $106K+ prize pool
+  Base model: metric/nemotron-3-nano-30b-a3b-bf16 (30B parameters, BF16)
+  Task: 5 structured reasoning categories — unit_conversion (3170), bit_manipulation (1602),
+        gravity (1597), cipher (1576), symbolic (1555) — output must be inside \boxed{final answer}.
+        Each category requires a fundamentally different reasoning strategy; cipher requires
+        learning a substitution mapping, bit_manipulation requires discovering binary transformation
+        rules, gravity requires physics-style computation, symbolic requires algebraic reasoning.
+
+  TRAINING PIPELINE (what I built):
+  - LoRA SFT using Unsloth/SFTTrainer, BF16, completion-only loss, no packing
+  - Context length: 8,192 tokens (required for long chain-of-thought reasoning)
+  - LoRA: r=32, alpha=32, dropout=0.0, targeting ALL attention projections + MLP + lm_head:
+      [q_proj, k_proj, v_proj, o_proj, in_proj, out_proj, up_proj, down_proj, lm_head]
+  - Hyperparameters: 1 epoch, batch=1, grad_accum=32, LR=3e-4, linear scheduler, beta2=0.95
+  - First strong run: 0.85 leaderboard score
+
+  STAGED CONTINUATION TRAINING (key innovation):
+  - Loaded base model + 0.85 adapter, continued training on same verified CoT data
+  - Second stage improved 0.85 → 0.86 — showing the initial adapter had not fully converged
+  - Tested continuation from 0.86 with multiple LRs: LR=3e-4 degraded (overtraining),
+    LR=1e-4 and LR=3e-5 preserved 0.86 but did not improve — local plateau reached
+  - Key result: staged fine-tuning with controlled LR is a valid strategy for pushing LoRA adapters
+
+  ABLATION EXPERIMENTS (what I discovered doesn't work):
+  - Synthetic augmentation (4,929 verified CoT rows + 0 boxed mismatches): score dropped 0.86→0.77
+    Root cause: distribution/formatting mismatch, not data volume — confirmed that reasoning
+    style consistency matters more than data quantity in LLM SFT
+  - Compact-hard training (70 curated cipher + bit_manipulation rows): score dropped to 0.69
+    Likely caused by completion-template mismatch in modified pipeline, not the hard-task data itself
+
+  TASK-LEVEL ERROR ANALYSIS (original diagnostic work):
+  - Built diagnostic notebook: loaded 0.86 adapter + base model, ran eval on individual task rows
+  - Discovery: model fails on cipher/bit_manipulation NOT because of wrong reasoning,
+    but because it over-expands: lists full substitution mappings, dumps bit tables, uses
+    entire token budget, and never reaches \boxed{}
+  - Numeral tasks: model produces correct boxed answer
+  - Cipher tasks: model begins substitution correctly, then lists too many character mappings,
+    runs out of space, never finishes
+  - Bit manipulation: model starts listing output/input bit columns, never reaches final answer
+  - Key insight: hard-task failure = reasoning compactness problem, not correctness problem
+
+  CUSTOM VERIFICATION PIPELINES (engineering work):
+  - Cipher parser: reconstructed character-level substitution mappings from examples,
+    kept only rows where decoded target exactly matched ground truth → 605 verified cipher rows
+  - 8-bit operation solver: conservative solver over XOR, AND, OR, shifts, rotations —
+    kept only examples where exactly ONE operation matched all given examples → 64 verified rows
+    (rejected 1,452 as no_matching_simple_op, 86 as ambiguous)
+  - Synthetic dataset audit: generated + cleaned 4,929 rows with 0 boxed mismatches
+
+  Stack: PyTorch, Unsloth, TRL, PEFT, Hugging Face Transformers, vLLM, Mamba, Triton, Kaggle GPU
+
+  RESUME USE GUIDE (tell Claude which bullets to pick):
+  - For LLM/fine-tuning roles: rank + score + staged continuation + ablation methodology
+  - For research roles: error analysis insight (over-expansion vs. wrong reasoning) + custom solvers
+  - For ML engineering roles: pipeline architecture + BF16 + LoRA targeting + grad_accum design
+  - For NLP roles: chain-of-thought dataset, reasoning task taxonomy, format compliance challenge
+  - ALWAYS include: "Ranked 17th / 3,000+ teams", "0.86/1.0", "$106K+", "30B-parameter", "LoRA SFT"
+  - NEVER say the competition is finished — it is still in progress (deadline June 2026)
 
 PROJECT 1: AI-Generated Image Detection — EURECOM ImSecu Course + NTIRE 2026 @ CVPR
   Achievement: Ranked 1st in EURECOM class (private Kaggle leaderboard, 0.791 AUC).
@@ -241,22 +278,26 @@ _RESUME_SCHEMA = """{
 _VARIANT_GUIDANCE = {
     "research": (
         "\nVARIANT EMPHASIS — Research-Heavy:\n"
-        "- Lead summary with Nemotron Kaggle competition (LLM fine-tuning, LoRA, ablation)\n"
-        "- Project order: Nemotron first, then NTIRE CLIP\n"
-        "- Skills: lead with 'LLM Fine-tuning & NLP' category\n"
-        "- Emphasize: model architecture, ablation studies, academic benchmarks, CVPR submission\n"
+        "- Lead summary with Nemotron: rank 17/3000+, 0.86 score, staged continuation training insight\n"
+        "- Project order: Nemotron first (use bullets A + D: achievement + error analysis insight), then NTIRE CLIP\n"
+        "- Skills: lead with 'LLM Fine-tuning & Reasoning' category\n"
+        "- Emphasize: task-level error analysis, ablation methodology, custom solver pipelines,\n"
+        "  discovery that reasoning over-expansion (not wrong reasoning) is the key failure mode,\n"
+        "  staged adapter continuation training as a fine-tuning technique, CVPR submission\n"
     ),
     "engineering": (
         "\nVARIANT EMPHASIS — ML Engineering:\n"
-        "- Lead summary with Orange Maroc pipeline (100K records, ~60% efficiency gain, Power BI)\n"
-        "- Emphasize: end-to-end pipeline, production deployment, MLOps, feature engineering\n"
+        "- Lead summary with Nemotron pipeline architecture + Orange Maroc production impact\n"
+        "- Project order: Nemotron first (use bullets A + C: achievement + ablation/engineering), then CLIP\n"
         "- Skills: lead with 'ML Frameworks & Engineering' category\n"
-        "- Highlight: cross-validated evaluation, clustering for business tiers, stakeholder output\n"
+        "- Emphasize: LoRA target module selection (attention + MLP + lm_head), BF16 training,\n"
+        "  completion-only loss design, 8192-token context, grad_accum, end-to-end pipeline ownership\n"
     ),
     "analysis": (
         "\nVARIANT EMPHASIS — Data Analysis / Business-Facing:\n"
-        "- Lead summary with Orange Maroc (KPIs, Power BI dashboards, executive recommendations)\n"
+        "- Lead summary with Orange Maroc (100K records, KPIs, Power BI, ~60% time reduction)\n"
         "- Projects: cactus detection (accuracy/F1 metrics), Twitter sentiment (business NLP)\n"
+        "- Mention Nemotron briefly in summary as a proof of technical depth, but don't lead with it\n"
         "- Skills: lead with 'Data Science & Analytics' category — SQL, Power BI, Pandas front\n"
         "- Emphasize: actionable insights, commercial service tiers, data storytelling\n"
     ),
@@ -409,9 +450,16 @@ PROJECTS — select 2 projects that best match THIS specific role (3 only if JD 
 - PROJECT 4 (Twitter) should be included for: pure NLP without LLM fine-tuning component
 - Reorder: the single most JD-relevant project first
 - EXACTLY 2 bullets per project — full sentences, 12-20 words each
-- For Project 0 (Nemotron): bullet 1 = rank/score + model architecture; bullet 2 = GPU engineering + ablation methodology
-  * Always include: "Ranked 17th / 3,000+ teams", "0.86/1.0 score", "$106K+ prize pool", "30B Mamba-Transformer MoE", "LoRA (r=32)", "~888M trainable parameters"
-  * Always include: "5 Blackwell GPU incompatibilities resolved", "systematic ablation study"
+- For Project 0 (Nemotron): EXACTLY 2 bullets chosen based on the JD:
+  * BULLET OPTION A — Achievement + Pipeline: "Ranked <strong>17th / 3,000+ teams</strong> (score 0.86/1.0, $106K+ prize) in the NVIDIA Nemotron Reasoning Challenge by fine-tuning a <strong>30B-parameter Mamba-Transformer</strong> with LoRA SFT (r=32, BF16, completion-only loss, 8,192-token context)."
+  * BULLET OPTION B — Staged continuation: "Improved leaderboard score from 0.85 to <strong>0.86</strong> through staged adapter continuation training; diagnosed that hard-task failures (cipher, bit manipulation) stemmed from <strong>reasoning over-expansion</strong>, not wrong reasoning."
+  * BULLET OPTION C — Ablation/engineering: "Ran <strong>controlled ablation experiments</strong> across LR schedules, packing strategies, and synthetic augmentation — discovering that reasoning-style consistency outweighs data volume in LLM SFT; built custom cipher parsers and 8-bit operation solvers for verified CoT data."
+  * BULLET OPTION D — Research/analysis: "Performed <strong>task-level error analysis</strong> across 5 reasoning categories (unit conversion, cipher, symbolic, gravity, bit manipulation); built diagnostic evaluation pipeline revealing that over-expanded reasoning — not incorrect reasoning — was the primary failure mode."
+  * For LLM/fine-tuning JDs: use A + B
+  * For research JDs: use A + D
+  * For ML engineering JDs: use A + C
+  * For NLP/reasoning JDs: use B + D
+  * ALWAYS include "Ranked 17th / 3,000+ teams", "0.86/1.0", "$106K+", "30B-parameter", "LoRA"
   * NEVER say the competition is finished — it is still in progress (deadline June 2026)
 - For Project 1 (NTIRE): always state "Ranked 1st in EURECOM class leaderboard" AND "submitted to NTIRE 2026 @ CVPR CodaBench" — never conflate the two
 - Always include the "tech" field with 3-5 tools

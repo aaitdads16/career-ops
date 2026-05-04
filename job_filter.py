@@ -209,13 +209,19 @@ def _title_prescreens(title: str) -> Tuple[bool, bool]:
 # Candidate snapshot — specific enough that Claude can judge true fit, not just topic match
 _CANDIDATE_SNAPSHOT = """Candidate: Aymane Ait Dads — 3rd-year Data Science Engineering student at EURECOM
 (Master-level, Sophia Antipolis). Target: ML/AI/Data Science INTERNSHIP only (3-6 months).
-Strongest areas: LLM fine-tuning (LoRA/PEFT on 30B Mamba-Transformer MoE, rank 17/3000+ in NVIDIA
-Nemotron Kaggle competition scoring 0.86/1.0 matching top competitor, $106K+ prize pool),
-computer vision (CLIP ViT-L/14 fine-tuning, ranked 1st EURECOM class, submitted NTIRE 2026 @ CVPR),
-NLP, RAG pipelines, agentic AI, Python/PyTorch/Unsloth/LangChain.
-Looking for research-oriented or applied ML/LLM/GenAI roles.
-NOT suitable: PhD/doctoral positions, pure data analyst/BI roles, SQL-only roles,
-finance/banking data roles without real ML, marketing analytics."""
+
+Top achievements:
+1. Ranked 17th / 3,000+ teams in NVIDIA Nemotron Model Reasoning Challenge (Kaggle, ongoing June 2026).
+   Score: 0.86/1.0, $106K+ prize pool. Built BF16 LoRA SFT pipeline on 30B Nemotron model, staged
+   continuation training (0.85→0.86), task-level error analysis (cipher/bit_manipulation failure modes),
+   custom substitution-cipher parsers and 8-bit operation solvers. Ran controlled ablation experiments
+   on LR, packing, synthetic augmentation, and continuation strategy.
+2. Ranked 1st EURECOM class (0.791 AUC) in AI-generated image detection — CLIP ViT-L/14 fine-tuning
+   on 250K images, 25+ generator types. Submitted to NTIRE 2026 @ CVPR CodaBench international benchmark.
+3. Orange Maroc ML pipeline: 100K+ fiber-optic records, Random Forest + K-Means, ~60% time reduction.
+
+Skills: PyTorch, Unsloth, TRL, PEFT, LoRA/QLoRA, Hugging Face, OpenCLIP, LangChain, RAG, agentic AI.
+NOT suitable: PhD/doctoral positions, pure data analyst/BI, SQL-only, marketing analytics."""
 
 
 def score_job(job: dict) -> Tuple[int, str]:
