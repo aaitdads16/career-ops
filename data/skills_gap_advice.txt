@@ -1,0 +1,34 @@
+<b>🎯 ML/AI Internship Market Analysis</b>
+
+<b>1. SKILLS GAPS (5-6/10 roles)</b>
+Skills appearing in adjacent roles the candidate likely lacks:
+- <b>Cloud platforms</b> (AWS/GCP/Azure deployment, MLOps pipelines)
+- <b>Knowledge graph tooling</b> (Neo4j, SPARQL, RDF/OWL ontologies)
+- <b>Agentic frameworks</b> (LangChain, AutoGen, tool-use / function-calling patterns)
+- <b>Finance/banking domain</b> (quant modeling, risk ML — niche but recurring)
+- <b>EV/embedded integration</b> (low-level systems, edge deployment)
+
+<b>2. TOP KEYWORDS (9-10/10 roles)</b>
+Reinforce these on every resume version:
+- <b>LLM fine-tuning / LoRA / PEFT</b>
+- <b>Agentic AI / AI agents</b>
+- <b>Knowledge Graphs + LLMs</b>
+- <b>Generative AI / GenAI</b>
+- <b>Research internship / publication-track</b>
+- <b>PyTorch, NLP, Computer Vision</b>
+- <b>Multimodal models (CLIP)</b>
+- <b>Neuromorphic / novel architectures</b> (emerging signal)
+
+<b>3. QUICK WINS 🚀</b>
+Three highest-ROI additions to expand eligible pool:
+
+- <b>LangChain/LangGraph mini-project</b> — builds an agentic AI portfolio piece; directly unlocks Samsung Agentic AI + Qualys roles and many 6-7/10 roles currently missed
+
+- <b>Neo4j + knowledge graph demo</b> (link to existing NLP/LLM work) — two Samsung KG roles are 9/10 fits; adding a public KG+RAG project makes applications much stronger
+
+- <b>AWS/GCP ML deployment cert</b> (e.g. AWS ML Specialty or Google Professional ML Engineer) — unlocks the large cloud-adjacent adjacent pool currently scoring 5-6/10
+
+<b>4. REGIONAL PATTERNS 🌍</b>
+- <b>Europe (UK/NL)</b>: Heavily research-lab focused (Samsung SRUK, Prosus, Perspectum) — emphasize <b>publications, research methodology, academic rigor</b>
+- <b>USA/Canada</b>: Leans applied/engineering (d-Matrix, Futurewei, Qualys) — emphasize <b>production impact, system scalability, GenAI deployment</b>
+- <b>Asia</b>: Finance + AI hybrid roles dominate (Crédit Agricole SG) — domain knowledge matters more; <b>less pure ML research

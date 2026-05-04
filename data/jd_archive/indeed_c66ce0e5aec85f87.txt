@@ -1,0 +1,50 @@
+**We help the world run better**  
+
+At SAP, we keep it simple: you bring your best to us, and we'll bring out the best in you. We're builders touching over 20 industries and 80% of global commerce, and we need your unique talents to help shape what's next. The work is challenging – but it matters. You'll find a place where you can be yourself, prioritize your wellbeing, and truly belong. What's in it for you? Constant learning, skill growth, great benefits, and a team that wants you to grow and succeed. **What You’ll Build**
+
+  
+
+The SAP Internship Experience Program is SAP’s global, strategic, paid internship program that provides university students with opportunities to find purpose in their careers. This is more than an internship, it’s the foundation for a career built on connection, creativity, and impact.
+
+ **Position title: SAP iXp Intern \- AI Research PhD Associate (Summer 2026\)**  
+
+**Location: Palo Alto**  
+
+**Expected start date: Summer 2026**  
+
+**Contract Duration: 4 months**  
+
+**Work Hours: Full\-time, 40 hours per week**
+
+  
+
+* As a PhD Intern you will work with a team of experienced researchers and data scientists taking on challenges posed by the SAP customers and product units and providing smart services across and beyond the SAP portfolio. You will have the chance to work with some of the richest data sets available in the world addressing real\-world problems
+* Perform state of the art research to advance Machine Learning and Artificial Intelligence
+* Choose from different focus topics: Foundation Models on Structured, Tabular Data; Scalable access to business data using LLMs and Knowledge Graphs
+* Publish research results and contribute to research that can be applied to SAP product development
+* Collaborate with academic researchers and cross\-functional partners including communicating research plans, progress, and results
+
+ **What You’ll Bring**
+
+  
+
+We’re looking for someone who takes initiative, perseveres, and stay curious. You like to work on meaningful innovative projects and are energized by lifelong learning.
+
+  
+
+* You are a PhD student at least in your second year or PostDocs, specializing in our research area: Generative Foundation Models on Structured Data
+* Experience with a strong foundation in machine learning, including building systems utilizing deep learning, natural language processing, LLMs, Foundation Models, or Knowledge Graphs
+* A strong publication record in recognized ML/NLP conferences or journals such as ACL, EMNLP, ICLR, ICML, NeurIPS
+* Proficient in PyTorch, Python, and HuggingFace Transformers, with a good understanding of statistical analysis and shell programming
+* Must be fluent in English.
+* The duration of the internship is at least 4 months but ideally 6 months and should take place in 2026\.
+
+ **Where You Belong**
+
+  
+
+Be part of SAP Next Gen, a global community for students, universities, schools and educational partners, who are passionate about innovation and technology.
+
+  
+
+* C
