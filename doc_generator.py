@@ -115,18 +115,18 @@ WORK EXPERIENCE
 PROJECTS (use these facts exactly — never invent)
 
 PROJECT 0: NVIDIA Nemotron Reasoning Challenge — Kaggle Competition (In Progress, June 2026)
-  Achievement: Top 10% public leaderboard, score 0.80/1.0. Prize pool $106K+.
-  Base score (no adapter): 0.49. Best competitor score: 0.86. Our best: 0.80.
+  Achievement: Rank 17/3000+ teams, score 0.86/1.0 (matching the top competitor). Prize pool $106K+.
+  Base score (no adapter): 0.49. Best competitor score: 0.86.
   Technical:
   - Model: Nemotron-3-Nano-30B, hybrid Mamba-Transformer MoE (30B total / 3.5B active via MoE routing, 52 layers)
   - LoRA adapter: r=32, alpha=32, ~888M trainable params (~3.4GB), all-linear + lm_head targeting
   - Task: 6 logic puzzle types in chain-of-thought format; evaluation by exact match inside \boxed{}
   - Dataset: 7,828 verified chain-of-thought examples (dgxchen/nemotron-cot-tong)
   - Training: SFTTrainer (Unsloth), completion-only loss, 1 epoch, LR=2e-4, grad_accum=64, batch=1
-  - Key finding 1: completion_only_loss=True (0.80) outperforms full-sequence loss (0.79) — subtle but confirmed
-  - Key finding 2: packing=True dropped score 0.80→0.64; synthetic data consistently hurt (0.50)
-  - Key finding 3: 7.5M param (12-layer) LoRA has hard ceiling at 0.58; all-linear 888M needed to break it
-  - Gap to top: architecture confirmed identical to 0.86 leader — remaining gap is data quality on hard types
+  - Key finding 1: completion_only_loss=True outperforms full-sequence loss — subtle but confirmed
+  - Key finding 2: packing=True dropped score significantly; synthetic data consistently hurt
+  - Key finding 3: 7.5M param (12-layer) LoRA has hard ceiling; all-linear 888M needed to reach top tier
+  - Rank 17/3000+ teams with 0.86/1.0 score matching the top competitor
   Engineering challenges (Blackwell GPU — RTX PRO 6000, sm_120, 95GB VRAM):
   - Fix 1: Monkey-patched caching_allocator_warmup to prevent 58GB+62GB OOM during model load
   - Fix 2: Stubbed mamba3/cutlass imports in sys.modules before mamba_ssm import (sm_120 incompatibility)
@@ -135,6 +135,7 @@ PROJECT 0: NVIDIA Nemotron Reasoning Challenge — Kaggle Competition (In Progre
   - Fix 5: Replaced rmsnorm_fn with pure PyTorch fallback to prevent residual Triton crash post fast-path disable
   - All 5 fixes required in strict order; missing any single one causes a different crash
   - Stack: PyTorch, Unsloth, TRL, PEFT, Hugging Face Transformers, vLLM, Mamba, Triton, Kaggle P100/T4
+  HEADLINE FOR RESUME: "Ranked 17th / 3000+ teams · 0.86/1.0 score · $106K+ prize pool · NVIDIA Nemotron"
 
 PROJECT 1: AI-Generated Image Detection — EURECOM ImSecu Course + NTIRE 2026 @ CVPR
   Achievement: Ranked 1st in EURECOM class (private Kaggle leaderboard, 0.791 AUC).
@@ -168,7 +169,7 @@ ML/DL: PyTorch, TensorFlow, Scikit-learn, OpenCLIP, Hugging Face Transformers, U
 LLM Fine-tuning: LoRA, QLoRA, SFTTrainer, completion-only loss, Mamba-Transformer, MoE, vLLM, chain-of-thought
 Computer Vision: CLIP, ViT, CNN, DenseNet, image classification
 NLP: text preprocessing, embeddings, sentiment analysis, transformer models
-AI/LLMs: Claude API, LLM orchestration, MCP server, tool-calling, RAG, prompt engineering, LangChain
+AI/LLMs: Claude API, LLM orchestration, tool-calling, RAG, prompt engineering, LangChain, agentic pipelines, MCP server
 Data Science: Pandas, NumPy, Matplotlib, Seaborn, feature engineering, EDA, clustering, ensemble methods
 MLOps: Git, Linux, FP16/BF16 mixed precision, ablation studies, TTA, Kaggle GPU, CUDA debugging, Triton
 Cloud/Infra: Supabase, REST APIs, Docker (basic), PostgreSQL
@@ -373,11 +374,12 @@ TITLE: Mirror the JD language exactly. Not generic.
 Example for an NLP role: "NLP Research Engineer | Transformer Fine-Tuning · Text Classification · LLM Deployment"
 
 SUMMARY (3-4 sentences, STRICT):
-- Sentence 1: strongest proof point that maps directly to the #1 JD requirement
-- Sentence 2: second achievement using JD vocabulary with a number
-- Sentence 3: 2-3 skills verbatim from JD requirements
-- Sentence 4: availability + work authorization for {region}
+- Sentence 1: strongest proof point that maps directly to the #1 JD requirement — include a number or ranking
+- Sentence 2: second achievement using JD vocabulary with a concrete metric (%, AUC, rank, time saved)
+- Sentence 3: bridge sentence — 2-3 skills verbatim from JD requirements + what the candidate brings to THIS team
+- Sentence 4: forward-looking — what the candidate aims to contribute or explore in this specific role/company domain
 BANNED words: passionate, enthusiastic, dynamic, motivated, hardworking, leverage, spearheaded, pioneered
+BANNED content: work authorization, visa, regulations, citizenship, legal status — NEVER mention these
 NO first person (no "I" or "My")
 
 COMPETENCIES: 8 tags taken VERBATIM from the JD requirements. These are ATS scan targets.
@@ -407,9 +409,9 @@ PROJECTS — select 2 projects that best match THIS specific role (3 only if JD 
 - PROJECT 4 (Twitter) should be included for: pure NLP without LLM fine-tuning component
 - Reorder: the single most JD-relevant project first
 - EXACTLY 2 bullets per project — full sentences, 12-20 words each
-- For Project 0 (Nemotron): bullet 1 = score + model architecture; bullet 2 = GPU engineering + ablation methodology
-  * Always include: "top 10% public leaderboard (0.80/1.0)", "$106K+ prize pool", "30B Mamba-Transformer MoE", "LoRA (r=32)", "~888M trainable parameters"
-  * Always include: "5 Blackwell GPU incompatibilities", "20+ single-variable ablations"
+- For Project 0 (Nemotron): bullet 1 = rank/score + model architecture; bullet 2 = GPU engineering + ablation methodology
+  * Always include: "Ranked 17th / 3,000+ teams", "0.86/1.0 score", "$106K+ prize pool", "30B Mamba-Transformer MoE", "LoRA (r=32)", "~888M trainable parameters"
+  * Always include: "5 Blackwell GPU incompatibilities resolved", "systematic ablation study"
   * NEVER say the competition is finished — it is still in progress (deadline June 2026)
 - For Project 1 (NTIRE): always state "Ranked 1st in EURECOM class leaderboard" AND "submitted to NTIRE 2026 @ CVPR CodaBench" — never conflate the two
 - Always include the "tech" field with 3-5 tools

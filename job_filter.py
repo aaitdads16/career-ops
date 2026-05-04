@@ -189,6 +189,9 @@ _EXCLUDE_KEYWORDS = [
     "senior ", "sr.", "sr ", "lead ", "principal ", "staff ", "director",
     "head of", "vp ", "vice president", "chief ", "manager,", "manager ",
     " ftc", "permanent", "full-time permanent", "12 month ftc", "fixed term",
+    # PhD / doctoral roles — candidate is not a PhD student
+    "phd", "ph.d", "doctoral", "postdoc", "post-doc", "post doc",
+    "phd candidate", "phd student", "phd intern", "phd fellowship",
 ]
 
 
@@ -206,12 +209,13 @@ def _title_prescreens(title: str) -> Tuple[bool, bool]:
 # Candidate snapshot — specific enough that Claude can judge true fit, not just topic match
 _CANDIDATE_SNAPSHOT = """Candidate: Aymane Ait Dads — 3rd-year Data Science Engineering student at EURECOM
 (Master-level, Sophia Antipolis). Target: ML/AI/Data Science INTERNSHIP only (3-6 months).
-Strongest areas: LLM fine-tuning (LoRA on 30B Mamba-Transformer, top 10% in NVIDIA Nemotron Kaggle
-competition, $106K+ prize), computer vision (CLIP/ViT fine-tuning, ranked 1st EURECOM class,
-submitted NTIRE 2026 @ CVPR CodaBench), NLP, ML pipelines, Python/PyTorch/Unsloth.
-Looking for research-oriented or applied ML/LLM roles. NOT suitable: pure data analyst/BI roles,
-business intelligence without ML, data entry, SQL-only roles, finance/banking data roles,
-marketing analytics, non-tech companies using "data" loosely."""
+Strongest areas: LLM fine-tuning (LoRA/PEFT on 30B Mamba-Transformer MoE, rank 17/3000+ in NVIDIA
+Nemotron Kaggle competition scoring 0.86/1.0 matching top competitor, $106K+ prize pool),
+computer vision (CLIP ViT-L/14 fine-tuning, ranked 1st EURECOM class, submitted NTIRE 2026 @ CVPR),
+NLP, RAG pipelines, agentic AI, Python/PyTorch/Unsloth/LangChain.
+Looking for research-oriented or applied ML/LLM/GenAI roles.
+NOT suitable: PhD/doctoral positions, pure data analyst/BI roles, SQL-only roles,
+finance/banking data roles without real ML, marketing analytics."""
 
 
 def score_job(job: dict) -> Tuple[int, str]:

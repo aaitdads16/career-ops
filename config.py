@@ -37,7 +37,7 @@ for d in (RESUMES_DIR, COVERS_DIR, DATA_DIR):
 # ── Candidate profile (used by Claude for doc generation) ────────────────────
 CANDIDATE = {
     "name":       "AYMANE AIT DADS",
-    "title":      "Data Science Engineer | LLM Research · Transformer Fine-Tuning · ML Systems",
+    "title":      "ML Research Engineer | LLM Fine-Tuning · Computer Vision · Agentic AI Systems",
     "email":      "Aymane.Ait-dads@eurecom.fr",
     "phone":      "+33 7 60 92 50 93",
     "linkedin":   "linkedin.com/in/aymane-ait-dads",
@@ -86,9 +86,9 @@ CANDIDATE = {
         },
     ],
     "skills": {
-        "LLM & NLP":          "Transformers (CLIP ViT-L/14) | Autoregressive Models | Fine-tuning | TTA | Ensemble Methods | Hugging Face",
-        "ML Frameworks":      "PyTorch | TensorFlow | OpenCLIP | FP16 Mixed-Precision | Scikit-learn | Pandas | NumPy",
-        "Programming & DevOps": "Python (advanced) | SQL | Git | Linux | Matplotlib | Power BI",
+        "LLM & Fine-Tuning":    "LoRA/PEFT | QLoRA | SFTTrainer | Mamba-Transformer | MoE | vLLM | RAG | Agentic AI | LangChain | Hugging Face | OpenCLIP",
+        "ML Frameworks":        "PyTorch | TensorFlow | Unsloth | TRL | Scikit-learn | FP16/BF16 Mixed-Precision | Pandas | NumPy",
+        "Programming & DevOps": "Python (advanced) | SQL | Git | Linux | Docker | Supabase | REST APIs | Power BI",
     },
     "languages": "English (fluent) • French (fluent) • Arabic (native) • Spanish (intermediate)",
 }
@@ -97,7 +97,7 @@ CANDIDATE = {
 # Europe 45% · Asia 25% · USA/Canada 15% · South America 10% · Middle East 5%
 REGIONS = {
     "Europe": {
-        "weight": 0.45,
+        "weight": 0.50,   # ↑ research-lab focus best matches candidate profile
         "searches": [
             {"country": "uk",  "location": "London"},
             {"country": "de",  "location": "Berlin"},
@@ -132,7 +132,7 @@ REGIONS = {
         ],
     },
     "Asia": {
-        "weight": 0.25,
+        "weight": 0.20,   # ↓ finance+AI hybrid roles are a skills gap for now
         "searches": [
             {"country": "sg", "location": "Singapore"},
             {"country": "jp", "location": "Tokyo"},
@@ -154,7 +154,7 @@ REGIONS = {
         ],
     },
     "USA_Canada": {
-        "weight": 0.15,
+        "weight": 0.18,   # ↑ applied engineering roles are a strong fit
         "searches": [
             {"country": "us", "location": "New York"},
             {"country": "us", "location": "San Francisco"},
@@ -172,7 +172,7 @@ REGIONS = {
         ],
     },
     "South_America": {
-        "weight": 0.10,
+        "weight": 0.07,
         "searches": [
             {"country": "br", "location": "São Paulo"},
             {"country": "br", "location": "Rio de Janeiro"},
@@ -183,7 +183,7 @@ REGIONS = {
         ],
     },
     "Middle_East": {
-        "weight": 0.05,
+        "weight": 0.05,   # unchanged
         "searches": [
             {"country": "ae", "location": "Dubai"},
             {"country": "ae", "location": "Abu Dhabi"},
@@ -196,6 +196,7 @@ REGIONS = {
 }
 
 SEARCH_KEYWORDS = [
+    # Core ML / DS
     "data science intern",
     "machine learning intern",
     "AI intern",
@@ -206,6 +207,17 @@ SEARCH_KEYWORDS = [
     "research intern AI",
     "LLM engineer intern",
     "ML engineer intern",
+    # High-signal terms from weekly skills analysis (9-10/10 job overlap)
+    "LLM fine-tuning intern",
+    "generative AI intern",
+    "GenAI intern",
+    "agentic AI intern",
+    "knowledge graph intern",
+    "RAG intern",
+    "multimodal AI intern",
+    "LoRA PEFT intern",
+    "foundation model intern",
+    "applied AI intern",
 ]
 
 # ── Company blacklist (case-insensitive) ──────────────────────────────────────
@@ -219,7 +231,7 @@ COMPANY_BLACKLIST: list = [
 # ── Relevance filter ──────────────────────────────────────────────────────────
 # Jobs scored below this (out of 10) by Claude are discarded before doc generation.
 # 7 = "good fit or better" — adjust up (stricter) or down (more permissive).
-MIN_RELEVANCE_SCORE: int = 7
+MIN_RELEVANCE_SCORE: int = 7   # strict — only real ML/AI/CV/NLP roles
 RESULTS_PER_SEARCH = 10    # kept for backward compatibility
 MAX_JOB_AGE_DAYS   = 3     # drop jobs with posted_at older than this (post-scrape age filter)
 
