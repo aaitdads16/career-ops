@@ -1,0 +1,50 @@
+Job Title:  Data Science Intern (Remote – United Kingdom) 
+
+
+
+
+About the Role  
+
+We are hiring on behalf of our client for a highly motivated Data Science Intern  to join a dynamic, solutions-driven data science team. This role is ideal for candidates who are passionate about applying data science to real-world business problems and can work effectively in a remote, collaborative environment aligned with Australia timezone. 
+
+
+
+
+Key Responsibilities  
+
+Assist in designing and implementing data-driven solutions  to solve business problems Work with structured and unstructured datasets to perform data cleaning, preprocessing, and analysis  Build and evaluate machine learning models  under guidance from senior data scientists Conduct exploratory data analysis (EDA)  and present actionable insights Collaborate with cross-functional teams including engineering, product, and business stakeholders Contribute to data pipelines, dashboards, and reporting tools  Document workflows, methodologies, and findings clearly  
+
+
+Required Qualifications  
+
+Currently pursuing or recently completed a degree in Data Science, Computer Science, Statistics, Mathematics , or related field Strong foundation in Python  (Pandas, NumPy, Scikit-learn) Understanding of machine learning concepts  (regression, classification, clustering) Experience with data visualization tools  (Matplotlib, Seaborn, or similar) Familiarity with SQL  and working with databases Strong analytical thinking and problem-solving skills Ability to work remotely in UK time zones   
+
+
+Preferred Qualifications  
+
+Exposure to deep learning frameworks  (TensorFlow, PyTorch) Experience with cloud platforms  (AWS, GCP, or Azure) Knowledge of real-world data science applications  (e.g., recommendation systems, NLP, forecasting) Prior internship or project experience in data science or analytics Familiarity with version control systems  (Git)  
+
+
+Key Skills  
+
+Data Analysis & Interpretation Machine Learning Fundamentals Problem-Solving & Critical Thinking Communication & Storytelling with Data Collaboration in Remote Teams  
+
+
+What We’re Looking For  
+
+A solutions-oriented mindset —someone who doesn’t just analyze data but translates it into impact Curiosity and willingness to learn in a fast-paced environment Strong ownership and accountability for assigned tasks  
+
+
+Location  
+
+Remote (Must be available to work in UK overlapping hours )  
+
+
+Duration  
+
+Internship (typically 3–6 months, with potential extension based on performance)  
+
+
+Compensation  
+
+Competitive stipend (based on experience and client budget)

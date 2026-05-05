@@ -1,0 +1,30 @@
+**Summary**:
+
+
+Our research team works on cutting\-edge projects in the field of computer vision (CV) and artificial intelligence (AI), focusing on creating innovative solutions that advance state\-of\-the\-art techniques. We are looking for a passionate and talented intern to join our research team. The ideal candidate is highly motivated with broad knowledge in CV/AI, and with demonstrated ability for new technology research and a proven record of influential publications in related fields. The intern will have the opportunity to work with a diverse group of researchers in the exploration of advanced techniques and contribute to the projects.
+
+**This candidate is expected to**:
+
+
+* Conduct original research in computer vision and related areas (e.g., 3D reconstruction, vision language model, multimodal generative modeling), from conceptualization through implementation and evaluation.
+* Identify state\-of\-the\-art (SOTA) techniques, performing systematic literature reviews and benchmarking existing methods to inspire new ideas.
+* Conduct experimental studies and refine solutions based on qualitative evaluation and quantitative metrics.
+* Write research papers and publish findings in top\-tier CV/ML conferences and journals.
+
+**Requirements**:
+
+
+* Deep understanding of computer vision and machine learning fundamentals
+* Strong programming skills in Python and hands\-on experience with frameworks such as PyTorch, etc.
+* Proven experience in conducting original research in computer vision, with at least one publication in a peer\-reviewed journal or conference
+* Strong written and verbal communication skills, with the ability to contribute to academic publications and present research findings
+* Ability to work independently and collaborate effectively within a team
+* PhD student in Computer Science, Computer Vision, Machine Learning, or a related field
+  
+
+
+**Futurewei Technologies, Inc. is proud to be an Equal Opportunity Employer.**
+
+
+
+All qualified applicants will receive consideration for employment without regard to race, color, gender, sexual orientation, gender identity or expression, religion, national origin, marital status, age, disability, veteran status, genetic information, or any other protected status under federal, state, and local laws.

@@ -1,0 +1,43 @@
+**Position Overview**
+We are seeking an undergraduate student to support our Finance and IT teams with a focus on **data analysis and quantitative problem\-solving**. This internship provides hands\-on experience working with financial datasets, basic modeling, and tools used in data\-driven decision\-making.
+We welcome candidates from **analytical and cross\-disciplinary backgrounds**—including mathematics, statistics, economics, engineering, computer science, and related fields—who are interested in applying quantitative thinking to real\-world business and financial problems.  
+
+**Key Responsibilities**
+* Work with structured datasets to support basic financial and operational analysis
+* Assist in organizing, cleaning, and validating data for reporting and modeling
+* Build and maintain spreadsheets and simple analytical models in Excel
+* Support development of reports, dashboards, and visualizations
+* Identify patterns, inconsistencies, or trends in data
+* Assist with automation or efficiency improvements using tools like Excel, SQL, or Python (where applicable)
+* Collaborate with team members on data, finance, and technology\-related tasks
+* Apply quantitative or analytical approaches from coursework to practical business problems
+
+**Required Qualifications**
+* Currently pursuing a Bachelor’s degree in a quantitative or analytical field (e.g., Mathematics, Statistics, Economics, Computer Science, Engineering, Finance, or related discipline)
+* Strong problem\-solving and analytical thinking skills
+* Familiarity with:
+	+ Microsoft Excel (formulas, basic functions)
+	+ Microsoft Office (Word, PowerPoint)
+* Comfort working with numbers and structured data
+* Strong attention to detail and willingness to learn
+
+**Preferred Qualifications**
+* Exposure to programming or data tools (Python, SQL, R, or similar) through coursework or projects
+* Experience with Excel functions (e.g., VLOOKUP, pivot tables)
+* Introductory knowledge of statistics, probability, or data analysis
+* Interest in financial markets, data analytics, or fintech
+* Coursework or projects involving:
+	+ Data analysis or visualization
+* Mathematical modeling
+* Machine learning (introductory)
+* Computational or applied problem\-solving
+
+**What You’ll Gain**
+* Hands\-on experience applying quantitative skills in a real\-world business environment
+* Exposure to financial data, analytics workflows, and decision\-making processes
+* Opportunity to build foundational data and modeling skills
+* Mentorship and professional development
+* Insight into career paths in quantitative finance, data science, and analytics
+
+**Internship Details**
+* Summer 2026, with possible extension

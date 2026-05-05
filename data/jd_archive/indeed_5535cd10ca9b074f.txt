@@ -1,0 +1,23 @@
+Why choose between doing meaningful work and having a fulfilling life? At MITRE, you can have both. That's because MITRE people are committed to tackling our nation's toughest challenges—and we're committed to the long\-term well\-being of our employees. MITRE is different from most technology companies. We are a not\-for\-profit corporation chartered to work for the public interest, with no commercial conflicts to influence what we do. The R\&D centers we operate for the government create lasting impact in fields as diverse as cybersecurity, healthcare, aviation, defense, and enterprise transformation. We're making a difference every day—working for a safer, healthier, and more secure nation and world. Our workplace reflects our values. We offer competitive benefits, exceptional professional development opportunities for career growth, and a culture of innovation that embraces adaptability, collaboration, technical excellence, and people in partnership. If this sounds like the choice you want to make, then choose MITRE \- and make a difference with us.**Department Summary:**
+
+
+The Cloud and Infrastructure Engineering Center is seeking an Intermediate Cloud Engineer with a desire to work on innovative advanced approaches and technologies to solve our sponsors’ most critical technological problems. In this role you will provide architectural and hands\-on support to critical customer problems in cloud computing and DevOps as well as software development and architecture. In addition, you will have an opportunity to work in several specialty fields with information technology to include Infrastructure Applications, IaaS, PaaS, Cloud Computing (including OS \& Application virtualization), platform migration, server consolidation, utility computing, and grid computing.
+
+**Roles \& Responsibilities:**
+
+* Assist in identifying, analyzing, and resolving infrastructure vulnerabilities and application deployment issues
+* Review existing systems and contribute to recommendations for improvement to sponsors and internal teams
+* Collaborate with development teams to evaluate and identify optimal cloud solutions
+* Support the implementation and operation of cloud\-based solutions and DevOps practices
+* Work under guidance to troubleshoot issues and contribute to technical solutions within a team environment
+
+**Basic Qualifications:**
+
+* Typically requires a minimum of 2 years of related experience with a Bachelor’s degree; or a Master’s degree; or equivalent combination of related education and work experience.
+* Ability to obtain a Top Secret security clearance
+* Experience with one or more commercial cloud offerings (AWS, AZURE, Google Cloud, etc)
+* Working knowledge of AWS computing platform, dev/ops tools such as Jenkins and Github
+* Working knowledge of one or more system management technologies such as Ansible, Chef, or Puppet
+* Troubleshooting and analytical skills
+* Good communication and collaboration skills
+* Experience with DevOps practices and CI/

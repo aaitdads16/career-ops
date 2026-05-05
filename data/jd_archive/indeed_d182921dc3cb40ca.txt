@@ -1,0 +1,29 @@
+We are now looking for a Senior Research Scientist for AI\-Mediated Reality and Interaction:
+
+
+NVIDIA Research’s AI\-Mediated Reality and Interaction team is looking for senior research scientists. Our mission is to create interactive physical AIs capable of operating in dynamic 4D worlds. We conduct fundamental research on the algorithms, theory and application of human\-AI interaction and 4D world modeling using new ideas in artificial intelligence (AI), neural rendering, graphics, generative modeling, large language models, human behavior understanding and digital human creation. That research impacts many existing NVIDIA products, including Isaac, Omniverse, Metropolis, NuRec, XR, AI4Media, XR, and helps create new ones. We need a highly creative, independent and self\-starting experienced research scientist to help us invent that future. Come join a diverse research group that collaboratively works on hard and meaningful interdisciplinary problems with passion, drive and curiosity; that consistently publishes and demonstrates cutting\-edge technology at top venues in computer vision, artificial intelligence and graphics; and that values real impact on NVIDIA products and the industry at large.
+
+**What you’ll be doing:**
+
+* Propose novel fundamental research that advances the state\-of\-the\-art in the broader research community and is relevant to NVIDIA’s business; and prototype and test your ideas.
+* Patent and publish your research in top\-tier conferences (CVPR, ICCV, ECCV, SIGGRAPH, NeurIPS, ICLR, etc.).
+* Collaborate with other research team members, external researchers, and mentor interns and junior researchers.
+* Create working interactive demonstrations to showcase your research ideas.
+* Participate in technology transfer with engineers around NVIDIA as ideas “graduate” from research to product.
+
+**What we need to see:**
+
+* Ph.D. in Computer Science/Electrical Engineering or equivalent research experience.
+* 3\+ years of relevant postdoctoral or industrial research experience
+* Outstanding research and publication track record exemplified in conferences such as CVPR, ICCV, ECCV, SIGGRAPH, NeurIPS, ICLR, etc.
+* Proficiency in theory and practice of AI and computer vision algorithms.
+* Experience with 3D graphics development.
+* Strong programming skills in Python \& C\+\+; CUDA is a plus
+* Proficiency with distributed deep learning training frameworks, e.g., PyTorch.
+* Excellent communication skills.
+
+
+NVIDIA is widely considered to be one of the technology world’s most desirable employers. We have some of the most resourceful and dedicated people in the world working for us. Are you creative and collaborative researcher who loves the challenge of exploring and crafting techniques that will define our future products? If so, we want to hear from you!
+
+
+Your base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 192,000 USD \- 304,750 USD for Level 4, a

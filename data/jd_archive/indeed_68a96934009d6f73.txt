@@ -1,0 +1,38 @@
+**Graduate Intern – Quantitative Portfolio Risk Analytics (Cross\-Disciplinary)**  
+
+**Position Overview**
+We are seeking an exceptional graduate student to join our team as a Quantitative Portfolio Risk Analytics Intern. This role focuses on developing and applying advanced analytical methods to understand portfolio risk, market structure, and complex financial systems.  
+
+We are intentionally recruiting from **cross\-disciplinary, research\-driven backgrounds**. Candidates from fields such as physics, applied mathematics, statistics, engineering, computer science, and other data\-intensive sciences are strongly encouraged to apply—especially those interested in translating rigorous quantitative methods into real\-world financial applications.  
+
+**Key Responsibilities**
+* Develop and enhance quantitative models for portfolio risk, including factor\-based and statistical approaches
+* Analyze large, high\-dimensional financial datasets to uncover structure, dependencies, and sources of risk
+* Design and implement analytical tools and pipelines using Python and SQL
+* Contribute to model validation, backtesting, and performance evaluation
+* Collaborate with risk, engineering, and data teams to improve model scalability and data infrastructure
+* Communicate complex quantitative insights through clear visualizations and technical summaries
+* Apply advanced methodologies from your discipline (e.g., stochastic modeling, optimization, machine learning, or geometric/topological approaches) to improve risk analytics
+
+**Required Qualifications**
+* Currently enrolled in a graduate (Master’s or PhD) program in a highly quantitative field (e.g., Applied Mathematics, Physics, Statistics, Computer Science, Engineering, Financial Engineering, or related discipline)
+* Strong foundation in probability, statistics, and numerical methods
+* Proficiency in Python (NumPy, pandas, or similar) and/or SQL
+* Experience working with large datasets and implementing quantitative models
+* Ability to think rigorously about complex systems and translate theory into practical solutions
+
+**Preferred Qualifications**
+* Familiarity with quantitative finance concepts (e.g., portfolio theory, factor models, volatility modeling, Value\-at\-Risk)
+* Experience with scientific computing, optimization, or machine learning
+* Background or research in cross\-disciplinary areas such as:
+	+ Statistical physics, complex systems, or network theory
+	+ Applied or computational mathematics
+	+ Machine learning or probabilistic modeling
+	+ Quantum computing or advanced optimization techniques
+	+ Topological data analysis or geometric data methods
+* Prior research, publications, or project work demonstrating advanced quantitative modeling
+
+**What You’ll Gain**
+* Exposure to real\-world portfolio risk problems at the intersection of finance and advanced analytics
+* Opportunity to apply cutting\-edge academic methods in a production environment
+* Collaboration with a highly quantitative, cross\-discipli

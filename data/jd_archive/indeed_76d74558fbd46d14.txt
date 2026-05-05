@@ -1,0 +1,57 @@
+**About the Team**
+------------------
+
+
+
+DoorDash is building the world's most reliable on\-demand logistics platform. As part of our global expansion, we are investing heavily in Brazil and growing our engineering presence in São Paulo. This is a unique opportunity to join one of Silicon Valley's fastest\-growing companies—while staying close to home.
+
+
+
+We're looking for Software Engineers interns who are excited to solve real\-world problems at scale. You'll work on product teams or platform teams that power our three\-sided marketplace of **Consumers, Dashers, and Merchants**. From improving restaurant discovery to optimizing delivery logistics, you'll help shape the experience of millions of users.
+
+
+
+You'll work alongside experienced engineers, product managers, and designers—many based in the U.S.—so fluency in English and strong collaboration skills are essential.
+
+
+**About the Role**
+------------------
+
+
+
+At DoorDash, our product engineers implement and operate technological solutions to improve the experiences of our Consumers, Dashers and Merchants. From creating beautiful, user\-friendly flows to crafting scalable backend architectures, we strive to deliver reliant, performant technology that delights our customers.
+
+
+
+We believe interns are essential to our mission of attracting and retaining top talent. During our Software Engineer internship, interns are completely immersed in their teams and will have the opportunity to develop, maintain, and ship products. As an intern, you will directly impact our business by collaborating with your team to solve real problems for our customers.
+
+
+
+The internship program will be hybrid with at least 1 day a week required to be in\-person in our Sao Paulo office. You will be paired with a mentor to help you ramp up and get comfortable working at DoorDash!
+
+
+**You're excited about this opportunity because...**
+----------------------------------------------------
+
+
+* Develop, maintain and ship technical elements with the support of your mentor, manager, and team members
+* Act on feedback, coaching, and mentorship from your mentor and team members
+* Actively learn about the elements to which you contribute
+* Make a direct impact on our business by collaborating with your team to solve problems for our customers
+* Participate in intern programming \- Leadership Speaker series, social events – virtually and in\-person
+
+### **Here are some examples of past intern projects:**
+
+
+* Collection of Summer 2022 Intern Projects
+* Summer 2022 Intern Projects Cont.
+
+**We're excited about you because…**
+------------------------------------
+
+
+* You are pursuing a B.S Degree in Computer Science or equivalent.
+* You are available for a August 2026 start date
+* You have experience working with databases (e.g., AWS, SQL, etc.)
+* You have a solid understanding of algorithms and data structures
+* You have proficient experience working with at least 1 object\-oriented programming language (e.g., Python, Java, Kotlin, etc

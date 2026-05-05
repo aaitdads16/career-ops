@@ -1,0 +1,77 @@
+Intern \| Optoelectronics Engineer
+
+
+**Location:**Billerica, MA, US, 01821
+**Job Function:** Engineering R\&D
+**Job Country:** United States
+**Job City:** Billerica
+**Job Type:** Temporary Full Time
+ENABLE your future through light.
+
+
+Excelitas is a global technology leader with more than 7,500 employees, focused on delivering market\-driven solutions to fulfill the illumination, optical, detection and imaging needs of OEMs and end\-users across the biomedical, semiconductor, industrial, consumer products, scientific, security, defense and aerospace sectors.
+
+
+ENGAGE with us today and make your contribution to the future! Join the team that leading technology companies turn to for cutting\-edge photonic innovation. At Excelitas Technologies you are how we EXCEL.
+
+  
+
+
+**Overview**  
+
+
+
+Excelitas Technologies, a leader in photonics and frequency tunable laser solutions, is seeking an intern to support data modernization efforts within our wafer fabrication operations. This 8‑week, on‑site internship offers hands‑on experience with manufacturing data processing, code migration, and basic image analysis. An extension may be available based on performance and project needs.  
+
+
+**Responsibilities**
+* Clean, standardize, and prepare wafer‑fab data for database upload.
+* Support data validation and documentation of data sources and formats.
+* Assist in converting legacy code (ex., VB6 to C\#.NET), including code translation and functional checks.
+* Perform basic image feature analysis (e.g., particle counting) and label data for future ML or AI workflows.
+
+  
+
+
+**Preferred Qualifications**
+* Pursuing a degree in Computer Science, Data Science, Engineering, Applied Physics, or related fields.
+* Exposure to C\#, Python, SQL or LabVIEW.
+* Interest in image analysis or feature extraction.
+
+  
+
+
+**What You’ll Gain**
+* Exposure to real wafer‑fab workflows in a photonics‑focused company.
+* Hands‑on experience with data modernization and legacy code migration.
+* Mentorship from experienced engineering staff.
+
+  
+
+
+**Compensation:**
+* **Pay Range**: $22hr \- $27hr Depending on Experience
+
+  
+
+
+
+\#LI\-AM1  
+
+
+This position requires the use of information which is subject to the International Traffic in Arms Regulations (ITAR)
+
+
+Visa sponsorship is not available for any position at Excelitas
+
+
+Equal Opportunity/Affirmative Action Employer
+
+
+Minorities/Females/Disability/Veteran/Gender Identity/Sexual Orientation
+
+
+Excelitas is seeking leaders and innovators to join our global team!
+
+
+Visit: https://jobs.excelitas.com/

@@ -1,0 +1,41 @@
+Trabalhar na **Rumo** é fazer parte de algo grande: cada trem que parte, cada via cuidada, cada operação realizada com segurança faz diferença na vida de milhares de pessoas e empresas todos os dias. Aqui, valorizamos quem aprende fazendo, quem coloca a mão na massa e tem orgulho de ver o resultado do próprio esforço ganhar forma e seguir viagem. Sabemos que nada acontece sozinho: o movimento é coletivo, construído na parceria, no cuidado e na confiança entre times. Se você gosta de desafios reais, de trabalhar com propósito e quer contribuir para um futuro mais eficiente e conectado para o Brasil, seu caminho pode começar aqui.
+
+**Vem fazer parte do movimento. \#VemPraRumo**
+
+ **Sobre a posição**
+
+  
+
+Desenvolver, estruturar e evoluir ferramentas analíticas que apoiem a tomada de decisão comercial e estratégica da empresa, conectando dados a insights de negócio. Atuar na organização e governança das informações da área, garantindo que as análises gerem valor prático para as decisões de mercado, pricing e operação logística. Suporte estratégico direto à liderança da área, contribuindo para a organização, priorização e evolução das demandas, com visão integrada entre dados, processos e negócio.
+
+ **Responsabilidades e atribuições** **Principais responsabilidades:**
+
+ **1\. Estruturação, Curadoria e Automação de Dados**
+
+* Desenvolver scripts e rotinas de extração, tratamento e integração de dados provenientes de diferentes fontes (bases internas, dados de mercado, dados geográficos, etc.).
+* Estruturar bases analíticas para suporte às áreas comercial, planejamento logístico e inteligência de mercado.
+* Realizar curadoria e validação crítica dos dados, assegurando consistência, aplicabilidade e qualidade das análises.
+* Automatizar processos recorrentes de análise e geração de relatórios.
+
+ **2\. Desenvolvimento de Dashboards e Ferramentas Analíticas**
+
+* Construir dashboards e aplicações analíticas para suporte às decisões comerciais e estratégicas.
+* Estruturar indicadores de mercado, demanda, performance logística e oportunidades comerciais.
+* Garantir governança e padronização das métricas.
+* Atuar de forma crítica na construção e evolução dos dashboards, garantindo aderência às necessidades do negócio.
+
+ **3\. Análises Geoespaciais e Inteligência Territorial**
+
+* Desenvolver análises geográficas para entendimento de fluxos logísticos, áreas de influência, clusters de demanda e otimização de rotas.
+* Integrar dados operacionais com dados territoriais.
+* Produzir mapas analíticospara suporte às decisões comerciais e de planejamento.
+
+ **4\. Estudos de Mercado e Modelagem Analítica**
+
+* Conduzir análises quantitativas para entendimento de potencial de mercado, fluxos logísticos e oportunidades comerciais.
+* Apoiar a construção de modelos de precificação, estimativas de demanda e cenários de mercado.
+* Trabalhar em conjunto com áreas comerciais, planejamento e estratégia.
+
+ **5\. Desenvolvimento de Ferramentas para Eficiência Comercial**
+
+* Constr

@@ -1,0 +1,44 @@
+### **Our Purpose**
+
+  
+
+
+At SentinelOne, we are driven by a clear purpose: to give the advantage to those who secure our future. As AI reshapes how organizations build, operate, and innovate, the responsibility to protect them becomes more critical than ever. When you join SentinelOne, your work helps protect global enterprises, critical infrastructure, and the technologies shaping tomorrow. If you are motivated by meaningful challenges and want your impact to be real, measurable, and global, you will find purpose here.
+
+
+### **About Us**
+
+  
+
+
+SentinelOne is a company at the intersection of AI and security, pioneering a new operating model for cybersecurity. Our AI\-native platform unifies protection across endpoint, cloud, identity, data, and AI systems to deliver autonomous detection and response with clarity and speed. By combining real\-time analytics, intelligent automation, and a unified data foundation, we reduce noise, simplify complexity, and empower security teams to focus on what truly matters.
+
+
+
+Our teams are builders, problem\-solvers, and innovators committed to shaping the future of security. If you are excited to solve hard problems alongside talented, mission\-driven people, we invite you to help us build a safer future for humanity.
+
+
+### **What Are We Looking For?**
+
+
+
+We're looking for people who are relentlessly curious and committed to continuous learning. AI is reshaping every function across our business, and we enable every team member, regardless of role or level, to build fluency in AI tools and concepts. Those who thrive here actively seek out new solutions, experiment thoughtfully, and apply what they learn to drive better, faster, smarter outcomes.
+
+
+As an **AI/Machine Learning Engineer Intern**, you will be tasked with applying software engineering skills to create reliable, AI\-powered products within a fast\-paced product engineering environment. You will own an end\-to\-end project from initial idea to a functioning prototype with a clear path to production. Throughout the internship, you will collaborate with research teams and senior engineers to transform loosely defined AI use cases into concrete, production\-ready systems.
+
+
+### **What Will You Do?**
+
+
+
+Primary responsibilities include:
+
+
+* **Develop Backend Services:** Design and build services in Python that power AI\-driven products and shared capabilities.
+* **Integrate Systems:** Build resilient service integrations across internal systems, specifically handling complex failure modes and rate limits.
+* **Build AI Features:** Develop and evolve LLM\-backed features and agentic workflows, focusing on reliability and real\-world behavior.
+* **Shape AI Quality:** Help build or extend evaluation harnesses, benchmarks, and feedback loops to ensure the high performance of AI\-powered features.
+* **Engage in Sprints:** Work at a high velocity in two\-week sprints and participate in weekly meetups to share technical progress and solve challenges.
+
+### **What
