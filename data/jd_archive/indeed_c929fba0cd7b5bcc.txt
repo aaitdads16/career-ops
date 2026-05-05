@@ -1,0 +1,60 @@
+**About Us**
+------------
+
+
+
+Isidor is building the foundation of reliable AI. We believe that the next leap in AI depends as much on understanding and measuring model behavior as it does on model size. To make AI trustworthy, we need systems that verify outputs, benchmark performance, and automate evaluation across billions of examples.
+
+
+
+Isidor was founded by engineers and researchers who care deeply about precision, transparency, and scientific rigor. We are a small, fast\-moving team working directly with frontier AI labs and enterprise to make evaluation as measurable and reproducible as training itself.
+
+
+
+Founded in September 2025, Isidor raised an **oversubscribed $3\.6m pre\-seed from leading funds including Gradient Ventures, futurepresent and Seedcamp, along with angels from Google DeepMind, Perplexity, Motive, Episode 1 and more.**
+
+  
+
+
+**The Role**
+------------
+
+
+
+As a Forward Deployed Engineer, you will work directly with frontier AI labs and enterprise, to design and ship the infrastructure behind their most critical data workflows. You will embed with research teams, understand their challenges, and build the pipelines, tools, and automations that move their experiments forward.
+
+
+
+This is not a traditional backend role. You will translate ambiguous research needs into high\-leverage technical systems, blending engineering with problem\-solving, and seeing the impact of your work in real time. You will ship fast, iterate constantly, and help shape how the world’s most advanced models are trained and evaluated.
+
+  
+
+
+**What We’re Looking For**
+--------------------------
+
+
+* Highly\-driven, self\-starters with strong proficiency in **Python**, including data manipulation, scripting, and automation (new grads/juniors with relevant intern/professional experience encouraged)
+* Experience with **data wrangling and preprocessing**, cleaning raw data, and preparing it for ingestion into machine learning systems
+* Familiarity with **machine learning workflows**, including feature engineering, dataset curation, and evaluation pipelines
+* Advanced coursework in mathematics and/or evidence of strong **applied mathematical reasoning**
+* Strong research and **communication skills**: ability to translate ambiguous research problems into robust, scalable technical solutions
+
+  
+
+
+**What You'll Do**
+------------------
+
+
+* Design custom **data pipelines** and integrations to collect, clean, and process high\-quality training and evaluation data
+* Build technical infrastructure for advanced quality control workflows, including **model\-in\-the\-loop** and **human\-in\-the\-loop** systems
+* Develop tools to **automate experiments** that improve model safety, interpretability, and human alignment
+* Prepare datasets for ingestion into machine learning pipelines, ensuring consistency, accuracy, and reliability
+* Collaborate with applied AI teams and top AI labs to turn research ideas into **production\-ready infrastructure**
+
+  
+
+
+**Why Join Us**
+----

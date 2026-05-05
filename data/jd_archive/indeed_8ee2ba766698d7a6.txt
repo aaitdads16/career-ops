@@ -1,0 +1,33 @@
+**What to Expect**
+Consider before submitting an application:
+
+  
+
+This position is expected to start August or September 2026 and continue through fall term (ending approximately December 2026\) or continuing into Winter/Spring 2027 if available and there is an opportunity to do so. We ask for a minimum of 12 weeks, full\-time (40 hours/week) and on\-site, for most internships. Our internship program is for students who are actively enrolled in an academic program. Recent graduates seeking employment after graduation and not returning to school should apply for full\-time positions, not internships.
+
+
+International Students: If your work authorization is through CPT, please consult your school on your ability to work 40 hours per week before applying. You must be able to work 40 hours per week on\-site. Many students will be limited to part\-time during the academic year.
+
+
+Internship Program at Tesla:
+
+
+The Internship Recruiting Team is driven by the passion to recognize and develop emerging talent. Our year\-round program places the best students in positions where they will grow technically, professionally, and personally through their experience working closely with their Manager, Mentor, and team. We are dedicated to providing an experience that allows the intern to experience life at Tesla by including them in projects that are critical to their team’s success.
+
+
+About the Team:
+
+
+At the core of our autonomy capabilities are neural networks that the research team is designing to train on very large amounts of data, across large\-scale GPU clusters. Robustly training these models at scale and in the shortest amount of time is critical to our mission. We are building out the Machine Learning Platform that our engineers and leadership use to schedule, manage and monitor machine learning experiments, data pipelines and artifacts.
+
+ **What You'll Do*** Architect and implement scalable, user\-friendly tools for AI workflows to track and visualize the lifecycle of machine learning experiments and models
+* Build robust tools and infrastructure to improve the machine learning team's velocity. This includes training and evaluation code in Python to back\-end and front\-end work in JavaScript
+* Collaborate closely with ML engineers to ensure tools are aligned with research needs
+* Design dashboards to provide real\-time insights into performance and progress for our ML engineers and leadership
+* Coordinate required hardware resources with the team managing the cluster hardware to maintain high availability
+  
+
+**What You'll Bring*** Pursuing a degree in Computer Science, Computer Engineering, or related field of study with a graduation date between December 2026\- December 2027
+* Strong knowledge of Python, React, and Linux
+* Experience working with backend infrastructure components (relational databases, in\-memory caches, message brokers)
+* Experience building modern web applications using Flask/Django and React/Redux or similar component\-based li
