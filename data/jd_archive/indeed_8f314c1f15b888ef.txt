@@ -1,0 +1,37 @@
+**Job Title: Data Science Intern****Location: Payactiv’s Milpitas, CA Headquarters**
+***Who we are…***
+We are Payactiv, a FinTech company in the heart of Silicon Valley, devoted to giving workers access to their earned wages when they need them. Payactiv is the pioneer and industry leader in Earned Wage Access. We are the only Certified B Corporation and Public Benefit Corporation in our industry. Our app provides millions with financial services that help them avoid debt, manage their finances, and regain flexibility to pay for things on their own schedule.
+**Payactiv is seeking a motivated Data Science Intern** to join our Finance team in Milpitas and support our mission of transforming how people experience financial wellness. This internship offers hands\-on experience working with real datasets, building dashboards, and uncovering insights that directly impact our products and customers.
+This role is open to both undergraduate and graduate students pursuing a degree in Data Science, Statistics, Computer Science, Mathematics, Economics, Business Analytics, Finance, or a related quantitative field who want to develop practical analytics skills in a fast\-paced, mission\-driven environment.
+***What you will do…***
+* Assist with gathering, cleaning, and validating data from multiple sources to support analytics initiatives.
+* Use SQL and Python to query and analyze datasets, identifying trends, anomalies, and opportunities for optimization.
+* Help build dashboards and visualizations using Sigma Computing, Tableau, or other BI tools to enable stakeholders to make data\-driven decisions.
+* Support ad hoc reporting and data requests from product, marketing, operations, and customer teams.
+* Partner with data engineers to learn about ETL processes and data pipelines, helping validate data integrity and quality.
+* Contribute to performance tracking by helping define and monitor metrics for product adoption, customer success, and business growth.
+* Document data processes, KPI definitions, and analytical findings to support a single source of truth across the company.
+* Present findings clearly to both technical and non\-technical audiences in team meetings.
+
+***What you need…***
+Currently enrolled in a Bachelor’s or Master’s degree program in one of the following fields:
+* Data Science
+* Statistics
+* Computer Science
+* Mathematics
+* Economics
+* Finance
+* Business Analytics
+* Or a related quantitative discipline
+
+Additional qualifications:
+* Strong analytical and problem\-solving skills with a curious, detail\-oriented mindset.
+* Proficiency in Microsoft Excel.
+* Working knowledge of SQL.
+* Familiarity with Python or R (preferred).
+* Exposure to data visualization tools such as Sigma Computing, Tableau, Power BI, or Looker.
+* Excellent written and verbal communication skills.
+* Ability to handle confidential information responsibly.
+
+**Nice to have*** Coursework or projects involving statistical analysis.
+* Understanding of database structures and bas

@@ -1,0 +1,35 @@
+**Summary Description****:**
+
+
+Syntiant Corp., a leader in the high\-growth AI software and semiconductor solutions space, is looking for a **Machine Learning Computer Vision Intern** expand our computer vision detection capabilities through strategic framework diversification and cutting\-edge algorithm exploration.
+
+
+We have a robust, production\-proven detection pipeline implemented in C\+\+ that consistently delivers high\-quality results in our live systems. To accelerate our research initiatives and explore next\-generation detection methodologies, we're creating a parallel PyTorch\-based research pipeline. This exciting initiative will enable our team to rapidly prototype and validate innovative detection approaches while maintaining our proven production standards.
+
+
+PyTorch is the industry\-leading framework for computer vision research and experimentation. By leveraging PyTorch's rich ecosystem and flexibility, this project will unlock opportunities to integrate state\-of\-the\-art detection architectures and explore novel approaches that could define the future of our detection capabilities.
+
+
+This internship offers the unique opportunity to work with both production\-grade systems and cutting\-edge research, directly shaping the future of our computer vision capabilities while gaining invaluable experience in both software engineering and AI research.
+
+ **Requirements** **Specific Duties and Responsibilities****:**
+
+* Architecting a PyTorch\-based detection pipeline inspired by our proven C\+\+ system.
+* Implementing and validating detection algorithms using modern deep learning frameworks.
+* Ensuring seamless integration and output consistency across platforms.
+* Experimenting with cutting\-edge detection architectures (YOLO, R\-CNN variants, Transformers).
+* Pioneering detection improvements and performance optimizations.
+* Contributing to our research roadmap with innovative detection methodologies.
+* Documenting breakthrough findings and technical recommendations.
+
+**Qualifications, Education, and Experience Required:**
+
+* Candidate pursuing a Bachelor's or Master's degree in Computer Science, Computer Engineering, or related field with hands\-on experience in computer vision and PyTorch.
+* Industry work experience is not required, but it would be good to have.
+
+  
+
+**Benefits** **About Syntiant****:**
+
+
+Founded in 2017 and headquartered in Irvine, Calif., Syntiant Corp. is a leader in delivering hardware and software solutions for edge AI deployment. The company’s purpose\-built silicon and hardware\-agnostic models are being deployed globally to power edge AI speech, audio, sensor and vision applications across a wide range of consumer and industrial use cases, from earbuds to automobiles. Syntiant’s advanced chip solutions merge deep learning with semiconductor design to produce ultra\-low\-power, high performance, deep neural network processors. Syntiant also provides compute\-efficient software solutions with proprietary mode

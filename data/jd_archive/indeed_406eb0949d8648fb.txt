@@ -1,0 +1,41 @@
+**Hardware/Software Prototyping Intern (2 to 4 Month Placement)**
+
+**About AcoustoFab**
+
+AcoustoFab is pioneering the next generation of lab automation and precision handling solutions through sound\-based levitation technology. We are a deep\-tech life sciences company building machines that move matter using sound waves. We operate at the intersection of acoustics, high performance computing, and real\-world device engineering.
+
+**Role Overview**
+
+We are seeking a proactive Prototyping Intern for a paid, 2 to 4 month summer placement at our central London lab. This is a high\-impact exploration role where you will help us investigate a potential new product category.
+
+The core of this internship is to answer a specific feasibility question for a new product concept: can we build it, and does it work as expected? You will be responsible for building "low\-fidelity" but functional prototypes that combine web technologies with embedded hardware.
+
+You won't be working in a vacuum \- you will have direct access to our founders, scientists, and engineers for mentorship and technical support across software, electronics, and physics.
+
+**What You’ll Work On**
+
+* Rapid Prototyping: Build functional hardware\-software mock\-ups and prototypes to validate and explore core technical concepts and questions.
+* Frontend Web Stack: Develop prototype interfaces and software to control and monitor your hardware prototypes using a web technology stack on the desktop.
+* Electronics \& Tinkering: Perform basic circuit assembly, breadboarding, soldering, and debugging of electronic components. Use platforms like Arduino or ESP32 to interface with physical components and sensors.
+* Experimental Validation: Plan, design, and run tests on your prototypes, collect data, and communicate the results in order to help the team decide if the product concept is viable.
+
+**Qualifications \& Skills**
+
+**Required**
+
+* Educational Background: Currently pursuing or recently graduated from a degree in Engineering (Electronic, Mechanical, Software), Robotics, Physics, Computer Science, or a related technical field.
+* Generalist Mindset: A "hacker" approach \- you enjoy connecting diƯerent technologies to make things move and respond.
+* Coding: Experience with programming fundamentals in Typescript, and either C\+\+ or Python, and an interest in learning more.
+* Hands\-on Attitude: Comfortable working with physical hardware, basic electronics, and prototyping tools.
+
+**Nice to Have**
+
+* Demonstrable experience building software using Typescript, React and Tailwind CSS.
+* Demonstrable experience programming and configuring Arduino or similar microcontrollers.
+* Experience using design tools like Figma to create low\-fidelity mock\-ups and wireframes
+* Interest in acoustics, robotics or hardware/software systems
+
+**What We OƯer**
+
+* Paid Internship: Competitive monthly stipend for the duration of the internship.
+* Real\-World R\&D: The chance to work on a "greenfield" project that coul

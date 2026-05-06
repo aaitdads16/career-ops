@@ -1,0 +1,32 @@
+Met meerdere jaren ervaring in het bouwen van machine learning modellen ben je toe aan een volgende stap in een leuk team. In deze rol zet je jouw expertise in om als data scientist échte impact te maken binnen de organisatie. Je beweegt je moeiteloos tussen business en techniek, vertaalt analyses naar heldere inzichten en weet collega’s te overtuigen en te inspireren om de juiste vervolgstappen te zetten. Herken jij jezelf hierin? Dan maken we graag kennis met je.
+
+ **Wat ga je doen?**
+
+
+Je wordt onderdeel van het Analytics \& Data Science team, binnen het Customer Experience Center (CEC) van Louwman Group (\~55 FTE). Dit is een ambitieus team, wat met veel energie bouwt aan een meer data gedreven Louwman. Je werkt samen met vijf collega’s als interne consultant aan projecten die anderen helpen om betere beslissingen te nemen op basis van data. Denk bijvoorbeeld aan:
+
+* De vraag naar auto's of fietsen voorspellen met tijdreeksmodellen (SARIMAX, Prophet, LightGBM, etc.), om supply chain processen binnen Louwman verder te stroomlijnen.
+* Een interactieve geoanalyse tool bouwen met Databricks Apps (Dash) om het dealernetwerk te optimaliseren.
+* Een machine learning model (Spark XGBoost) ontwikkelen dat meerdere keren per dag voorspelt welke bestellingen van schade onderdelen wel of niet gecontroleerd moeten worden.
+* Een klantsegmentatie uitvoeren en churn model bouwen om samen met marketing collega’s te bepalen welke groepen klanten meer risico lopen om niet meer terug te komen in de werkplaats.
+* Het volledig zelf bouwen van een generatieve AI marktonderzoek assistent (RAG) in Databricks.
+
+  
+
+Kortom, je bent samen met jouw collega’s in het Analytics \& Data Science team hét aanspreekpunt voor de meest complexe uitdagingen waar Louwman Group voor staat.
+
+**Wat vragen wij van jou?**
+
+
+Als Data Scientist heb je ruime ervaring met het uitvoeren van complexe analyses. Je krijgt energie van het ontrafelen van ‘warrige’ analysevragen, en bent van nature nieuwsgierig naar hoe processen en patronen écht werken. Zodra de analyse vraag scherp is, weet jij deze op een robuuste en onderbouwde manier te beantwoorden en vertaal je dit naar heldere, concrete aanbevelingen.
+
+  
+
+Je deelt graag jouw kennis en ervaring met collega’s en vindt het leuk om anderen binnen het team te begeleiden. Of het nu gaat om het succesvol uitvoeren van projecten of het toepassen van de juiste methodes en technieken: jij helpt het team structureel naar een hoger niveau. Om tot het maximale resultaat te komen beschik je over:
+
+  
+
+* Een universitaire opleiding, bij voorkeur in een STEM richting (econometrie, data science, informatica, wiskunde, etc.).
+* 3\-5 jaar ervaring met het implementeren van machine learning modellen in een organisatie (regressie, classificatie, clustering, time series, etc.), waarvan stages niet meetellen in de werkervaring.
+* Sterke beheersing van Python en SQL; ervaring met PySpark of Dash is een pré.
+* Ervaring met de volledige data science levenscyclus:

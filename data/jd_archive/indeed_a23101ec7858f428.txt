@@ -1,0 +1,46 @@
+Você quer fazer parte de um time de inovação disruptiva e constante, trabalhando com volume de dados quase “infinito” e ajudando na transformação digital da Vivo? Então, seu time é o de Inteligência Artificial. Aqui você trabalhará com projetos e produtos ligados à Inteligência Artificial da Vivo.
+
+ **Responsabilidades e atribuições**  
+
+* Gestão de projetos de alta complexidade, atuando desde sua ideação até a entrega em produção ao cliente.
+* Acompanhamento de todo o ciclo de vida do projeto.
+* Colaborar e coordenar varios departamentos, partes interesadas, parceiros e fornecedores externos.
+* Discutir soluções junto ao time técnico para os projetos, propondo soluções inovadoras, com difereciais eficientes e competitivos.
+* Atuar ativamente na resolução de problemas, pendências e impedimentos que coloquem o cronograma do projeto em risco.
+* Facilitar a integração entre os dev IA e o P.O.
+* Coordenar o desenvolvimento das aplicações usando as técnicas de IA.
+* Projetar, desenvolver e implementar modelos de processamento de linguagem natural avançados para IA Supervisionada e Generativa.
+* Experiencia que envolva projetos de IA, com técnicas como: Generativa, NLP, LLM, Machine Learning, Redes Neurais.
+
+  
+
+**Requisitos e qualificações**  
+
+Desejável superior Completo em Computação, Matemática ou Engenharia (Cursos de Exatas)
+
+
+Diferencial: Mestrado ou Doutorado nas áreas de exatas.
+
+  
+
+Experiencia em tecnologias e bibliotecas ligadas a Inteligência Artificial, incluindo Machine Learning e modelagem;
+
+
+Conhecimento em Analytics e tecnologias Big Data (soluções usando Spark, HBase, Kafka, Hive, etc);
+
+
+Experiência na construção e desenvolvimento de Agentes de IA e orquestradores (ex. LangChain, LangGraph, etc)
+
+
+Experiência com frameworks de desenvolvimento de IA (Tensorflow, Pytorch, Sklearn)
+
+
+Experiência em Cloud Computing (GCP, AWS, Azure, OCI)
+
+  
+
+Desejável: conhecimento em GPU ou TPU.
+
+ **Informações adicionais**  
+
+Veja o que ofereceremos para você: Na Vivo não medimos esforços em apoiar e valorizar nossos colaboradores. Não são apenas excelentes benefícios, mas também flexíveis. • Escolher o benefício ideal para você e seus dependentes, numa plataforma digital com diversas categorias de Academia, VR, VA, Auxílio Farmácia, Assistência Médica, Odontológica e Seguro de Vida; • Celular corporativo. Sim, um smartphone novinho para você! • Plano de voz e Dados ilimitado! Sim ilimitado! Com a melhor rede móvel, ainda mais rápida com o 5G da Vivo! • Uma oferta exclusiva da Vivo, com desconto especial em linha fixa, banda larga, TV e apps; • Terá direito a receber Bônus ou PPR anual; • Planejará seu futuro através do plano de Previdência Privada; • Tem filhos? Terá direito a um subsídio para ajudar nas despesas com escola, creche ou babá; • Viver em um ambiente que respeitará sua personalidade, seu estilo de se vestir, seu jeito de ser e poderá ser autêntico. \#VemdeVocê • Trabalhar remotamente até 2 vezes por semana. \#Mobility • Ter flexibilidad

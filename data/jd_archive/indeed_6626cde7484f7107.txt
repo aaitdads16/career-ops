@@ -1,0 +1,60 @@
+**Salary Range:**
+
+
+$15\.00 \- $25\.00**Job Description:**
+
+**Confluent Medical Technologies** is a financially healthy and rapidly growing medical device company whose employees are passionate about providing life\-saving solutions to our customers through a collaborative and high\-impact work environment. Our moderate size, diversity of technologies, and broad material science capabilities provide an environment in which our employees can develop broad skill sets and directly influence product development and manufacturing outcomes.
+
+
+We are looking for a Engineering, Internreporting to Sr. Manager, Engineering to join our talented team in Warwick, RI.
+
+  
+
+As a uniquely qualified candidate, you will:
+
+
+Support the Product Development group in the design, development, and transfer of custom medical device products. Support the Engineering team with development builds, aid in set\-up, operate and breakdown of braiding, weaving and knitting equipment. Proactively aid in data collection and statistical analysis, coordinating test method studies, conducting feasibility trials on new processes, and compiling documents for manufacturing transfer. Work both independently and also collaboratively with manufacturing personnel and other engineers.
+
+
+Skills/Interests:
+
+* Interest in Engineering (Biomedical / Mechanical are most applicable)
+* Interest in Manufacturing
+* Strong communication skills
+* Technical writing skills
+* Critical thinking / problem solving
+* Ability to work with teams
+* Organized and responsible
+* Experience with braiding, weaving and/or knitting is a plus
+
+
+Hours:
+
+* Summer: \~8:30\-5:00, 5 days per week
+
+
+Equipment:
+
+
+The intern will be ideally working with automated facility equipment (both in CME environment and QA lab) for R\&D studies.
+
+
+The following machines are either non\-automated, or equipped with excessive guarding, or no contact with dangerous surfaces.
+
+* **Automated Tabletop tipping Unit \-** Heated dies are fully guarded, no cutting mechanism
+* **Optical Inspection systems / Comparators** for visual inspection
+
+
+The following machines are equipped with an interlock system, and will only run when door is closed. All programming is performed on a PLC screen on the outside of the machine.
+
+* **Braider**
+* **Automated tipper/cutter**
+* **Post\-processing machines such as Hot stretching and Coating machines**
+
+
+Other potential machines/areas with existing safety procedures:
+
+* **Fume hood\-** Current Procedures include proper PPE (safety glasses) when working with chemicals.
+* **Oven \-** Heat\-resistant gloves used to load and unload product.
+* **Ultrasonic Welder \-** The activation requires two hands / two buttons (to eliminate potential for hand to contact the welding surface).
+* **Tensile tester**\- Includes pneumatic grips. Foot pedal to activate.

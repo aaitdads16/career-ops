@@ -1,0 +1,31 @@
+**DESCRIPTION**
+---------------
+
+
+Are you passionate about solving complex business problems at scale through Generative AI? Do you want to help build intelligent systems that reason, act, and learn from minimal supervision? If so, we have an exciting opportunity for you on Amazon's Trustworthy Shopping Experience (TSE) team.  
+
+  
+
+At TSE, our vision is to guarantee customers a worry\-free shopping experience by earning their trust that the products they buy are safe, authentic, and compliant with regulations and policy. We do this in close partnership with our selling partners, empowering them with best\-in\-class tools and expertise to offer a high\-quality, compliant selection that customers trust.  
+
+  
+
+As an Applied Scientist I, you will bring subject matter expertise in at least one relevant discipline (e.g., NLP, computer vision, representation learning, agentic architecture) to contribute to next\-generation agentic AI solutions that automate complex manual investigation processes at Amazon scale. Working alongside senior scientists, you will map business goals—such as reducing cost\-of\-serving while maintaining trust and safety standards—to well\-defined scientific problems and metrics. You will invent, refine, and experiment with solutions spanning agentic reasoning, self\-supervised representation learning, few\-shot adaptation, multimodal understanding, and model compression. With guidance from senior scientists, you will stay current on research trends and benchmark your results against the state of the art.  
+
+  
+
+You will help design and execute experiments to identify optimal solutions, initiating the development and implementation of small components with team guidance. You will write secure, stable, testable, and well\-documented production code at the level of an SDE I, rigorously evaluating models and quantifying performance. You will handle data in accordance with Amazon policies, troubleshoot issues to root cause, and ensure your work does not put the company at risk.  
+
+  
+
+Your scope of influence will typically be at the self\-level, with the possibility of mentoring interns. You will participate in team design and prioritization discussions, learn the business context behind TSE's products, and escalate problems with proposed solutions. You will publish internal technical reports and may contribute to peer\-reviewed publications and external review activities when aligned with business needs.  
+
+  
+
+This role offers a unique opportunity to contribute to end\-to\-end AI development—from research through production—with your contributions serving hundreds of millions of customers within months, not years.  
+
+  
+
+Key job responsibilities  
+
+* Contribute to the design and development of agentic AI systems with multi\-step reasoning, autonomous task execution, and multimodal intelligence, including feedback and memory mechanisms, leveraging reinforcement learning techniques for agent decision\-making and policy optimization

@@ -1,0 +1,51 @@
+**About You**
+
+
+
+You're in the final stretch of your studies (in particular graduated Master's student or close to graduation) and you want a hands\-on internship where you build real AI systems that ship to production. You enjoy working with messy data, writing solid code, and running experiments to improve LLM\-powered workflows. You learn fast, take ownership, and like collaborating closely with a small team.
+
+
+
+**About INC**
+
+
+
+INC (Iudex Non Calculat) is a pre\-seed AI startup based in Zurich, building infrastructure that automates coverage checks and case handling for legal insurance companies. Legal insurance is a €16\.8B European market where every case still requires 15\-45 minutes of manual review. We compress that to under 2 minutes. We're backed by a paid pilot with a Swiss insurer and a founder with 120\+ B2B customers at his previous AI legal tech company. We work at the intersection of LLM agent systems, document understanding, and domain\-specific reasoning — where accuracy, traceability, and auditability matter.
+
+
+**Tasks**
+---------
+
+
+
+️ **Your Responsibilities**
+
+
+
+As an **Engineering Intern — AI/Data**, you will support the founder across data pipelines, LLM agent workflows, and evaluation infrastructure. Depending on your strengths, you'll go deeper in one area while still getting exposure to the full stack.
+
+
+* **Data pipelines:** Help build and improve ingestion and processing pipelines for insurance policy documents, legal texts, and case descriptions (parsing, normalization, structuring).
+* **AI\-ready structuring:** Support chunking, metadata extraction, clause mapping, and schema design so downstream LLM agents work reliably against complex policy wording.
+* **LLM agent workflows:** Prototype and implement agentic LLM workflows for coverage analysis — fact extraction, policy cross\-referencing, exclusion checking, and decision drafting — with attention to accuracy, cost, and latency.
+* **Search \& retrieval:** Assist with indexing strategies, embeddings, hybrid retrieval, and relevance tuning for legal and insurance content.
+* **Evaluation \& quality:** Build eval sets from real coverage check examples, run experiments, analyze failure cases, and help turn findings into shipped improvements.
+* **Engineering fundamentals:** Write clean TypeScript code, add tests where appropriate, and improve observability (metrics/logging) for pipelines and services.
+* **Collaboration:** Work closely with the founder and domain experts; document decisions and share learnings clearly.
+
+**Requirements**
+----------------
+
+
+
+**Qualifications**
+
+
+
+**Minimum qualifications**
+
+
+* **Near completion of your degree:** You are at the end of your studies (e.g. finished Master's program or close to graduating).
+* Degree in Computer Science, Data Science, Mathematics, or a related field (in progress) — or equivalent practical experience.
+* Solid programming skills (preferably **TypeScript/Node.js**).
+* Comfortable with data structures, algorithms, an

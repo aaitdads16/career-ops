@@ -1,0 +1,42 @@
+**Job Description:**
+
+
+Integral Ad Science (IAS) is a global technology and data company that builds verification, optimization, and analytics solutions for the advertising industry and we’re looking for a Software Engineering Intern to join our Data Engineering team. If you are excited by technology that has the power to handle hundreds of thousands of transactions per second; collect tens of billions of events each day; and evaluate thousands of data\-points in real\-time all while responding in just a few milliseconds, then IAS is the place for you!  
+
+  
+
+As a **Software Engineering Intern** at IAS, you will gain hands\-on experience working with large\-scale data systems and learn how to transform data into actionable insights that drive business decisions.  
+
+  
+
+**What you’ll get to do:**
+
+* Assist in the design, development, and maintenance of scalable data pipelines and ETL processes.
+* Collaborate with data scientists and analysts to understand data requirements and deliver solutions that meet their needs.
+* Support the implementation and optimization of data storage solutions, ensuring data integrity and accessibility.
+* Participate in code reviews and contribute to the continuous improvement of our codebase.
+* Help monitor and troubleshoot data workflows to ensure consistent and reliable data delivery.
+* This is a 36\-hour\-per\-week, 10\-week hybrid internship running from June 15 to August 21, 2026\. Applications are due by May 11, 2026\.
+
+ **You should apply if you have most of this experience:**
+
+* Currently pursuing a Bachelor’s or Master’s degree in Computer Science, Data Engineering, Information Technology, or a related field.
+* Basic understanding of data structures, algorithms, and programming languages such as Python, Java, or Scala.
+* Familiarity with SQL and experience with database technologies (e.g., MySQL, PostgreSQL, NoSQL databases).
+* Exposure to cloud platforms like AWS, Azure, or Google Cloud is a plus.
+* Strong problem\-solving skills and the ability to work independently as well as part of a team.
+* Excellent communication skills, both verbal and written.
+
+
+New York/California Applicants: The pay for this position is $30/hr
+
+**IAS Pay Transparency:**
+
+The annualized base salary ranges for the primary location, and any additional locations are listed below. Our pay ranges are based on the work location. As part of IAS compensation package, we offer a comprehensive benefits package that includes paid time off, health insurance (medical, dental, vision) as well as PPO, HSA and FSA options and 401k with employer matching contributions. All full\-time employee roles include competitive compensation and are eligible for an annual bonus and/or other incentive plans. Each candidate’s compensation package is based on multiple factors, but not limited to, geography, experience, skills, job duties, and business need.
+
+**Primary Location:**
+
+US \- San Francisco, CA**Primary Location Base Pay Range:**
+
+
+$0\.00 \- $0\.00 Annua

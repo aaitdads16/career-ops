@@ -1,0 +1,39 @@
+Team up with the most innovative company where Imagination becomes reality! E Ink is the originator, pioneer, and commercial leader in ePaper technology. The Fremont Research \& Development team is thriving and growing as we help develop products that are changing how people access information every day. We are seeking qualified candidates who are self\-driven, looking to advance their career and become a high\-impact player on a team.
+
+
+
+Our diversity of people, backgrounds, experiences, thoughts, and perspectives are fostered to create an inclusive work environment.
+
+
+
+We offer a competitive/generous benefits package that fits the needs of our employees. It includes health, dental, vision, wellness programs, employee discounts, 401k matches, ongoing development, advancement opportunities and more. This position is also eligible for our bonus program. (see E Ink Our Company)
+
+  
+
+
+#### **About the Position:**
+
+
+
+We are seeking a highly motivated intern to support materials development through a rigorous blend of hands\-on characterization and disciplined data workflow design. This role focuses on polymer\-based systems within a wet chemistry environment, with particular emphasis on establishing standardized impedance spectroscopy (EIS) measurement protocols, creating structured experimental datasets, and building the data\-processing foundation needed for future machine\-learning\-guided material optimization. The position is primarily experimental (\~70%) with meaningful exposure to data systems and automation (\~30%).
+
+  
+
+
+#### **Responsibilities:**
+
+
+* Prepare, handle, and evaluate samples in a wet chemistry lab environment.
+* Establish, document, and standardize impedance spectroscopy (EIS) test methods and measurement conditions for material characterization.
+* Conduct repeated EIS measurements with high consistency, reproducibility, and attention to experimental controls.
+* Process and analyze experimental data, including impedance and related characterization datasets.
+* Extract key material properties and help build a basic feature\-extraction framework that converts raw signals into structured, comparable descriptors.
+* Build structured datasets with consistent naming conventions, traceable metadata, and organized records that support downstream analysis.
+* Develop robust Python workflows (pandas, numpy, matplotlib, etc.) for automated data cleaning, transformation, structuring, and analysis.
+* Build data\-quality and validation checks to identify inconsistencies, missing data, outliers, and measurement issues, and flag them clearly for the broader team.
+* Collaborate closely with researchers to improve experimental protocols, strengthen data reliability, and support future machine learning workflows for material optimization.
+
+#### **Required Qualifications:**
+
+
+* Currently pursuing a Master's/PhD degree in Materials Science and Engineering, Chemical Engineering, Chemistry, Physics, Electrical Engineering, Polymer Science, or a relate

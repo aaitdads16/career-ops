@@ -1,0 +1,42 @@
+Somos **um dos maiores bancos privados do Brasil**, conforme o ranking do Banco Central. E temos muito orgulho em dizer que, pelo segundo ano consecutivo, **fomos reconhecidos como a melhor instituição financeira para trabalhar no Brasil**, segundo o ranking da GPTW 2025! Também recebemos o selo de Diversidade na categoria Mulher, reforçando nosso compromisso com a equidade.  
+
+  
+
+Nossa cultura acontece de verdade: sendo simples, corretos, parceiros e corajosos. Valorizamos as relações, a inovação e um ambiente leve, cada vez mais colaborativo e com intencionalidade no avanço da diversidade e inclusão.  
+
+Estamos em constante evolução e construímos **\#parcerias** de sucesso para entregarmos nosso propósito de **tornar mais tranquila a vida financeira de pessoas e empresas**.  
+
+Se identificou? Então venha trabalhar com a gente!
+### **Dá uma olhada nos desafios que te esperam aqui no BV:**
+
+* Estamos em busca de **uma pessoa especialista em desenvolvimento back\-end**, com sólida experiência em **Java** , para atuar na sustentação, evolução e integração dos nossos **agentes** com sistemas internos;
+* Aqui você irá auxiliar e definir viabilidade técnica e garantir execução sustentável das soluções;
+* Desenvolver e adaptar módulos, além de integrar aplicações e ambientes internos.
+* Atua no desenvolvimento, sustentação e evolução dos agentes, sempre com foco em qualidade, reuso e evolução contínua, além de reduzir dívida técnica e promover modularidade;
+* Estimar esforço e sequenciar entregas considerando impacto e complexidade;
+* Criar componentes seguindo padrões de versionamento, testes e CI/CD;
+* Monitorar performance e qualidade por meio de práticas de observabilidade.
+
+### **E aí, se identificou? Agora gostaríamos de saber se você tem o perfil e os conhecimentos abaixo:**
+
+* Linguagens e frameworks **Java** (Spring Boot), APIs REST e Microservices;
+* **Importante ter experiencia com projetos de IA e criação de Agentes de IA**;
+* Desenvolvimento de Agentes com bibliotecas referências (**ADK, LangChain/LangGraph** etc);
+* Experiência com **Pipelines de RAGs**;
+* CI/CD (GitLab, Jenkins, ou similares);
+* Testes automatizados (JUnit, Jest, Cypress);
+* Observabilidade (Prometheus, Grafana, ELK, OpenTelemetry);
+* Princípios de código limpo e arquitetura orientada a componentes (Clean Code e Design Patterns);
+* Cloud: Google Cloud Platform (GCP)
+* Buscamos uma pessoa com o perfil "hands on", proativa na hora de propor soluções, detalhista e curiosa, que não tenha medo dos desafios;
+* Valorizamos pessoas com habilidades analíticas afiadas com raciocínio lógico, aberta a mudanças e que gostam de questionar.
+* Disponibilidade para atuar no modelo hibrido \- próximo a estação CPTM Morumbi.
+
+### **Pra gente conta como diferencial se você tiver:**
+
+
+
+* Será um diferencial experiência com outras linguagens como Python, Angular/ NodeJS ;
+* Experiência com FastAPI ;
+* Vivência no setor financeiro;
+* Formação em Ciência da Computação, Engenharia de Software o

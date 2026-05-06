@@ -1,0 +1,54 @@
+**Company Overview**
+====================
+
+
+Each year, 2\.5 trillion hours are spent on household chores. At Matic, we’re on a mission to recapture that lost time, and we’re doing it by revolutionizing home robotics.
+
+
+Our first product, also called Matic, is a Wall\-E\-esque floor cleaning robot. We've built what amounts to "full self\-driving in the home” with real\-time 3D mapping, adaptive path\-tracking, and a precise semantic understanding of the home. Our breakthroughs in spatial AI allow Matic to work reliably in real homes, using only RGB cameras and neural networks running on\-device.
+
+**Privacy First**
+-----------------
+
+
+What happens in the home, stays in the home. Our robots are private by design, with all data processing performed by the robot itself, not in the cloud.
+
+**Our Approach**
+----------------
+
+
+Before the iPhone, consumers adopted several distinct devices; cell phones, PDAs, and portable music players each served a particular need. We believe in a similar progression for home robotics, starting with single\-purpose robots and building iteratively toward more complex capabilities over time.
+
+**Our Culture**
+---------------
+
+
+Matic is a tight\-knit and collaborative team, singularly focused on building products our customers will cherish. We're ultra\-hardworking people committed to solving tough problems that save precious time and energy.
+
+**About the role**
+==================
+
+
+We’re looking for an **Industrial Designer** with strong **animation and motion visualization skills** — someone who can express ideas through movement, light, and form. You’ll help bring Matic’s hardware concepts to life through photorealistic renderings, product films, and motion studies that communicate how our robots feel in the world.  
+
+  
+
+You’ll collaborate closely with mechanical, product, and brand designers to visualize new ideas, refine details, and elevate the way we present hardware at every stage — from early sketch to production\-ready story.  
+
+  
+
+**What You’ll Do**
+
+* Create **high\-fidelity renderings, animations, and motion studies** that visualize product design and behavior.
+* Collaborate with the design and engineering teams to explore form, CMF, and user interactions.
+* Support hardware storytelling through product videos, visual assets, and launch materials.
+* Work with marketing and brand to ensure visual consistency across digital and physical touch points.
+
+**What We’re Looking For**
+
+* Degree (or current study) in **Industrial Design**, **Product Design**, or **Motion Design**.
+* Strong proficiency in **KeyShot**, **Blender**, **Cinema 4D**, or similar tools for rendering and animation.
+* Solid understanding of lighting, materials, and motion for product visualization.
+* Experience creating short animations or product films that tell a story through design.
+* Working knowledge of **SolidWorks**, **Fusion 360**, or other 3D CAD tools.
+* Portfolio demonstrating both **beautiful still renderings** and **motion work** (re

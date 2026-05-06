@@ -1,0 +1,50 @@
+Company
+Mitsubishi Corporation RtM International Pte Ltd
+org.mitsubishicorp.com
+Designation
+Maritime and Freight – Internship
+Date Listed
+06 May 2026
+Job Type
+Entry Level / Junior Executive
+Intern/TS
+Job Period
+Immediate Start, For At Least 6 Months
+Profession
+Logistics / Supply Chain / Transport
+Industry
+Wholesale Trade
+Location Name
+Singapore
+Work from Home
+Allowance / Remuneration
+$800 \- 1,200 monthly
+Company Profile
+Mitsubishi Corporation RTM International Pte. Ltd. (RtMI) is the global headquarters for Mitsubishi Corporation’s mineral resources and metals trading business, headquartered in Singapore. It trades a wide range of minerals and metals by leveraging Mitsubishi Corporation’s global network, upstream investments, and market intelligence to support sustainable, value‑added “Resource to Market” solutions worldwide.
+
+
+Job Description
+**Purpose of role**
+
+
+Intern will work directly with the GM and senior chartering team, contributing to the analytical tools and data infrastructure that underpin the department’s Phase 2 development. The work is hands\-on and consequential because the models and tools you develop will be embedded into real operational and governance decisions.
+
+
+A core part of this role is developing commercial grounding alongside analytical work. You will spend structured time with the chartering team learning how vessels are fixed, how freight rates are negotiated, and how hedging decisions are made in practice. Understanding the market context is as important as building the models.
+
+**Responsibilities**
+
+* **Hedging Strategy and Simulation**
+* Modelling freight rate and bunker cost exposure within a unified TCE framework across voyage charters, time charters, and period charters
+* Analysing FFA and bunker swap instruments as hedging tools (i.e., how they are priced, settled, and calibrated against physical exposure)
+* Quantifying basis risk between physical route exposure and FFA settlement indices for relevant routes
+* Comparing dynamic and static hedge strategies: modelling roll costs, re\-hedging frequency, and performance under different market conditions
+* Developing sensitivity analysis across key inputs: TC rate, spot rate, bunker price, voyage duration, and coverage ratio
+* **Vessel Positioning and Triangulation Value**
+* Modelling Time Charter Equivalent (TCE) economics across routes, cargo types, and voyage parameters
+* Analysing the incremental value of cargo sequencing and triangulation versus spot\-by\-spot procurement using representative RtMI trade lanes
+* Building a ranking framework: comparing open position options by TCE contribution, ballast cost, and internal coverage rate
+* Developing a TCE breakeven and coverage sensitivity analysis: at what coverage level and market rate does period charter generate positive value over spot procurement
+* Integrating breakeven outputs as the analytical foundation for the scenario modelling work in Area 3
+* **Period Vessel Scenario Analysis**
+* Constructing a scen

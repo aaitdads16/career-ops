@@ -1,0 +1,29 @@
+**What to Expect**
+Consider before submitting an application:
+
+  
+
+This position is expected to start August or September 2026 and continue through fall term (ending approximately December 2026\) or continuing into Winter/Spring 2027 if available and there is an opportunity to do so. We ask for a minimum of 12 weeks, full\-time (40 hours/week) and on\-site, for most internships. Our internship program is for students who are actively enrolled in an academic program. Recent graduates seeking employment after graduation and not returning to school should apply for full\-time positions, not internships.
+
+
+International Students: If your work authorization is through CPT, please consult your school on your ability to work 40 hours per week before applying. You must be able to work 40 hours per week on\-site. Many students will be limited to part\-time during the academic year.
+
+
+Internship Program at Tesla:
+
+
+The Internship Recruiting Team is driven by the passion to recognize and develop emerging talent. Our year\-round program places the best students in positions where they will grow technically, professionally, and personally through their experience working closely with their Manager, Mentor, and team. We are dedicated to providing an experience that allows the intern to experience life at Tesla by including them in projects that are critical to their team’s success.
+
+
+About the Team:
+
+
+The Self\-Driving Fleet Data team is responsible for mining data from millions of Tesla cars to improve our neural networks and creating real\-time analytics to measure Self\-Driving performance. This is a very high\-impact role that helps the team set overall goals and priorities, but also contributes directly to those goals by sourcing high volume and high\-quality data. You will contribute to key data pipelines that provide metrics for projects such as the Full Self\-Driving Vehicle Safety Report and find new ways to identify interesting scenarios from the fleet for training datasets and evaluation.
+
+ **What You'll Do*** Contribute to end\-to\-end data pipeline development, from fleet data ingestion to visualization, gaining hands\-on experience with modern data engineering tools and cloud\-native architectures
+* Help define and implement key performance metrics for Tesla’s self\-driving systems, supporting data\-driven decision\-making through analysis of real\-world driving events
+* Assist in monitoring system health using observability tools, including log aggregation, alerting workflows, and automated checks to ensure reliability at scale
+* Build and document reusable developer tools and internal libraries, enabling faster analysis and visualization across engineering and data teams
+* Support data flow optimization to improve the volume, diversity, and timeliness of fleet data available to downstream teams
+* Collaborate with AI and software engineering partners to evaluate the impact of new datasets on model performance and system insights
+* Create interac

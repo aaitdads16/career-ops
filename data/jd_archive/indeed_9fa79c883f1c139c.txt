@@ -1,0 +1,30 @@
+**Summary Description****:**
+
+
+Syntiant Corp., a leader in the high\-growth AI software and semiconductor solutions space, is looking for a **Machine Learning** **Audio** **Intern** to take on a critical role to enhance our AI Model for Turkey Gobble Synthesis.
+
+
+Syntiant Corp. is seeking a turkey gobble detector AED model that runs on NDP chips. It is difficult to collect good quality gobble data due to several logistical issues. As of now, only \~2K samples are available for training such a model. These samples are not enough to train a production quality turkey gobble model.
+
+
+EcoGen is a neural network model that could generate synthetic but real\-sounding bird sounds. It needs only a handful of recordings to synthesize similar sounds. The idea is to leverage this model to get more data for training a better turkey gobble detector AEDmodel. For details on EcoGen, please refer to the hyperlink provided. There are newer models such as BirdDiff, Audio LDM (Text\-to\-Turkey), Perch 2\.0 etc.
+
+ **Requirements** **Specific Duties and Responsibilities****:**
+
+* Understanding the model architecture.
+* Running it locally or on the cluster.
+* Fine\-tuning the model on the available turkey sounds.
+* Synthesizing real\-sounding artificial turkey gobble sounds.
+* Explore better alternatives and pursue them.
+
+**Qualifications, Education, and Experience Required:**
+
+* Candidate pursuing a Bachelor's or Master’s degree in Computer Science or related field with hands\-on experience in AI/ML model training.
+* Industry work experience is not required, but it would be good to have.
+
+  
+
+**Benefits** **About Syntiant****:**
+
+
+Founded in 2017 and headquartered in Irvine, Calif., Syntiant Corp. is a leader in delivering hardware and software solutions for edge AI deployment. The company’s purpose\-built silicon and hardware\-agnostic models are being deployed globally to power edge AI speech, audio, sensor and vision applications across a wide range of consumer and industrial use cases, from earbuds to automobiles. Syntiant’s advanced chip solutions merge deep learning with semiconductor design to produce ultra\-low\-power, high performance, deep neural network processors. Syntiant also provides compute\-efficient software solutions with proprietary model architectures that enable world\-leading inference speed and minimized memory footprint across a broad range of processors. The company is backed by several of the world’s leading strategic and financial investors including Intel Capital, Microsoft’s M12, Applied Ventures, Bosch Ventures, the Amazon Alexa Fund, and Atlantic Bridge Capital. More information on the company can be found by visiting www.syntiant.com.

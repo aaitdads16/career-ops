@@ -1,0 +1,37 @@
+***OVERVIEW***  
+
+At the Bertelsmann Education Group, we are looking for individuals who are intellectually curious, driven, and looking to make an impact on the EdTech space. As a Data Science Intern in our New York\-based Data Lab, you will work at the forefront of the digital transformation of education data, supporting the development of innovative, data\-driven solutions across our portfolio companies (e.g., Relias, Alliant University, Afya).
+
+
+This internship offers hands\-on experience building and experimenting with data science and machine learning prototypes, including predictive modeling, and advanced analytics, with exposure to modern AI techniques. You will contribute to projects that explore user outcomes, engagement, and personalization, helping translate data into actionable insights.
+  
+
+You will report to the Bertelsmann Education Group’s VP of Product \& Data and collaborate closely with data scientists, analysts, and business stakeholders. Your work will directly contribute to improving user success and shaping the future of education through data and AI.  
+
+
+
+***ROLE AND RESPONSIBILITIES***  
+
+* Support the development of data science and machine learning prototypes (POCs) using education data
+* Work with structured and unstructured datasets to generate insights and support decision\-making (e.g., marketing, academic data)
+* Develop and apply predictive and segmentation models to improve user engagement and outcomes
+* Contribute to experimentation efforts (e.g., A/B testing) and translate results into actionable recommendations
+* Build and iterate on data\-driven solutions, including models and basic agent\-based workflows
+* Communicate findings and present insights to technical and non\-technical stakeholders
+* Collaborate with cross\-functional teams and participate in knowledge\-sharing and training sessions
+***QUALIFICATIONS AND EDUCATION REQUIREMENTS***  
+
+* Currently pursuing or recently completed an M.Sc. or Ph.D. in Data Science, Computer Science, AI, Statistics, Engineering, Applied Mathematics, or a related field
+* Proficiency in Python (pandas, numpy, scikit\-learn) and SQL; familiarity with R is a plus
+* Familiarity with data pipelines, APIs, or integrating data from multiple sources
+* Hands\-on experience with data science and machine learning through internships, coursework, or research projects
+* Experience using GitHub for version control
+* Strong problem\-solving, collaboration, and communication skills
+***PREFERRED QUALIFICATIONS (nice to have)***  
+
+* Interest in experimenting with LLMs, simple agent workflows, or AI prototypes (POCs)
+* Experience with a BI tool, Microsoft Power BI/ Tableau.
+* Experience in education is a plus.
+***THE BERTELSMANN EDUCATION GROUP***
+
+As the labor market continues to evolve, career paths are becoming increasingly dynamic. Ongoing learning and adaptable, up to date skill sets are essential as digitalization continues to shape how people access information, develop expertise, a

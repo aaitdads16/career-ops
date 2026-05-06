@@ -1,0 +1,42 @@
+**About Us**
+
+
+CapitaLand Group (CapitaLand) is one of Asia’s largest diversified real estate groups. Headquartered in Singapore, CapitaLand’s portfolio focuses on real estate investment management and real estate development, and spans across more than 270 cities in over 45 countries.
+
+**Job Description**
+
+
+You will be assisting the Data \& AI team in their day\-to\-day operations and the development of new projects.
+
+
+Responsibilities  
+
+* Collaborate with business analysts and internal stakeholders to identify business problems and opportunities, propose analytics solutions, and determine data and technology requirements for projects
+* Develop project analytics solutions, including but not limited to report automation, advanced analytics, and AI engines
+* Work with data engineers to plan, identify, and integrate data from multiple source systems into the enterprise data platform for analytics purposes
+* Perform data exploration, preprocessing, and analysis on both structured and unstructured data
+* Develop and deploy machine learning and deep learning models
+* Create dashboards to communicate, present key findings to stakeholders and manage user acceptance testing (UAT)
+* Collaborate with the team to prioritize and manage projects based on objectives and business impact
+* Design and build Generative AI applications like GPT\-enabled chatbots to innovate and drive impactful solutions in the company
+* Explore new methodologies for increasing the efficiency and effectiveness of Generative AI applications
+* Continuously evaluate and enhance the performance of Generative AI models through rigorous testing and experimentation
+* Perform any other ad hoc duties as assigned
+
+Requirements  
+
+* Preferred studies in Computer Science, Information Systems, Electronical Engineering, or equivalent technical disciplines
+* Good understanding of machine learning (e.g. Logistic Regressions, SVM, Decision Tree, Random Forest, lightGBM, XGBoost) and deep learning algorithms (e.g. CNN, RNN)
+* Strong programming experience in python packages such as Pandas, Numpy, Scikit\-learn, TensorFlow or Keras
+* Familiar with data visualisation tools (Power BI, Tableau, etc)
+* Good collaboration and communication skills to work effectively across teams, and partner with business stakeholders
+* Possess knowledge or practical experience in Generative AI or developing LLM applications using the Microsoft Azure stack or third\-party packages such as LangChain
+* Detail\-oriented and meticulous
+**Closing Statement:**
+
+
+At CapitaLand, we advocate fair employment practices, and recruit talents based on merit and fit with our Corporate values. We provide equal opportunity for all qualified persons and build an inclusive workplace regardless of race, gender, age, religious belief or nationality.
+
+  
+
+Only shortlisted candidates will be notified.

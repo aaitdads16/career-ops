@@ -1,0 +1,34 @@
+**About OUTFRONT**
+------------------
+
+
+OUTFRONT is one of North America's largest out\-of\-home media companies. We connect brands to audiences across more than 150 markets through billboards, transit, and digital displays. We're investing seriously in AI as core infrastructure for how we operate internally and how we transact with the broader advertising ecosystem.
+
+**About the Internship**
+------------------------
+
+
+This isn't a shadowing internship. We're hiring a Platform Engineering Intern to join the team that builds the services and infrastructure powering OUTFRONT's advertising platform — inventory, orders, product catalog, the systems that hundreds of millions of advertising dollars flow through every year. By the end of the summer, you'll have one production change shipped to a real backend service and one meaningful platform contribution (a developer tool, an internal API, or an infrastructure improvement) that other engineers at OUTFRONT use.
+
+
+You'll write real code, participate in real design discussions, and learn how production engineering actually works at scale — code reviews, CI/CD, observability, secure coding, the boring\-but\-essential stuff that separates engineers who ship from engineers who don't. You'll also work alongside our AI \& Automation team and our internal AI platform (OUTGPT, built on the Vercel AI SDK and AWS Bedrock), and you'll be expected to use modern AI\-assisted development tools (Claude Code, Cursor) as part of how you build.
+
+
+You'll join one other intern in OTS (on our AI \& Automation team) as a 2\-person cohort with shared demo day at the end of the summer.
+
+
+Strong performers will be considered for full\-time conversion to engineering roles within OTS.
+
+**What You'll Work On**
+-----------------------
+
+* **Ship a production backend change.** Pair with your mentor on a real service or API improvement that affects how OUTFRONT's platform operates. Build it. Test it. Ship it. Watch it run.
+* **Build a meaningful platform contribution.** A developer tool, an internal API, an observability improvement, or an infrastructure component that other engineers actually use. Demo what you built to technology leadership at the end of the summer.
+* **Learn how production engineering works.** Code reviews, paired programming, CI/CD pipelines, observability and monitoring, secure coding practices. The hygiene that makes you a real engineer, not just someone who writes code.
+* **Use AI as part of how you build.** We expect engineers (interns included) to use Claude Code, Cursor, and other AI\-assisted development tools to accelerate their work. You'll learn how to build with AI, not just how to build software.
+* **Be part of the team.** Stand\-ups, design discussions, lightweight design docs for the features you own. We'll treat you like an engineer because that's what we want you to become.
+
+**What We're Looking For**
+--------------------------
+
+* Currently pursuing a Bachelor's or Master's in Computer Science, Sof

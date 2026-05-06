@@ -1,0 +1,32 @@
+Job Description
+Research Intern \- GeoIndustry\-3
+Job Location: Santa Clara, California
+Location Flexibility: Multiple Locations in Country
+Req Id: 7961
+Posting Start Date: 5/5/26
+At Fujitsu, we are driven by our purpose to make the world more sustainable by building trust in society through innovation.
+
+
+We have been a pioneer in technology and innovation for over 80 years, and we are committed to using our expertise to help businesses and organizations transform for the digital age. We believe that digital transformation is essential to creating a more sustainable future. That's why we are working with our customers to develop solutions that can help them reduce their environmental impact, improve their efficiency, and create a more equitable society.
+
+
+We are committed to contributing to the United Nations Sustainable Development Goals (SDGs). These goals are a blueprint for a better future for all, and we believe that technology can play a vital role in achieving them.
+
+
+If you share our passion for making a meaningful impact on the world, we invite you to join our global family of 130,000 employees spanning more than 50 countries. We are a diverse workforce, and we offer a wide range of opportunities for you to grow and develop your career.
+
+
+Together, we can create a more sustainable future for all.  
+
+
+
+**Research Intern at Fujitsu's Space Data Frontiers Research Center**The Space Data Frontiers Research Center (Space Center) at Fujitsu specializes in pioneering business opportunities in space\-related technologies. The center focuses on using AI and advanced computing to process, analyze, and utilize data from space in real\-time, aiming to support both Earth\-bound industries and future human space exploration.  
+
+Our internships offer an excellent opportunity to expand your career with hands\-on experience and the chance to tackle real\-world challenges through deep learning applications addressing urban and social issues. We are seeking individuals who learn quickly, navigate complexity, and bring creativity, passion, and strong communication skills to solving challenges others haven’t  
+
+**Job responsibilities*** Develop deep learning methods for global building feature estimation using satellite data.
+* Collaborate with our team members and external researchers.
+Publish research in journals and conferences. Transfer the deliverables to patents, conference presentations, and workshops.  
+* 
+
+**Key focus areas**Assessing the vulnerability of global infrastructure to natural hazards is a major challenge in disaster risk management and urban planning. Consequently, it is essential to determine detailed building attributes, including roofing materials, structural systems, and occupancy types. Traditionally, this process has relied on resource\-intensive in\-situ surveys or costly aerial campaigns, both of which present limitations in terms of scope and scalability. This research investigates the structural relationships between building s

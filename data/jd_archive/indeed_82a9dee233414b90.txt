@@ -1,0 +1,39 @@
+**Forward Deployed Engineer**
+=============================
+
+  
+
+**Date:** 6 May 2026
+
+
+**Location:** Singapore, Singapore
+
+
+**Company:** Singtel Group
+
+
+We are looking for a Forward Deployed Engineer (FDE) to lead the delivery and operationalization of AI and software solutions within real customer and business environments. You will operate at the intersection of engineering, product, and business, translating complex requirements into scalable, production\-grade systems that deliver measurable impact.
+
+  
+
+
+
+As an FDE, you will partner closely with stakeholders to architect, customize and deploy AI\-driven applications, while ensuring robustness, scalability, and long\-term operability. You will take ownership of end\-to\-end solution delivery from problem framing and system design to production rollout and optimization and driving alignment across domains. This role combines deep technical expertise with strong problem\-solving and is suited for individuals who thrive in complex environments and are passionate about delivering high\-impact and real\-world solutions.
+
+  
+
+
+**Make an Impact by**
+
+
+* Lead the design and delivery of end\-to\-end AI and software solutions, including backend services, APIs, data pipelines, and user interfaces, ensuring scalability, reliability, and alignment with enterprise standards.
+* Drive integration of AI solutions into enterprise systems and workflows, ensuring seamless production adoption, operational readiness, and long\-term sustainability.
+* Partner with business and technical stakeholders to shape problem definition and solution approach, translating complex and ambiguous requirements into scalable, production\-grade systems with clear success metrics.
+* Lead rapid prototyping and POC development, while defining the pathway from prototype to production, including architecture, performance, and operational considerations.
+* Apply and guide best practices in AI engineering, including AI\-assisted development and emerging tooling, to improve team productivity, code quality, and delivery speed.
+* Evaluate and recommend new AI technologies, frameworks, and architectural patterns, balancing innovation with enterprise constraints such as security, cost, and maintainability.
+* Design and customise platform components and solution architectures to meet diverse enterprise environments (e.g. hybrid, on\-premise, regulated systems), ensuring extensibility and reusability.
+* Lead deep technical troubleshooting and optimisation, resolving complex issues across system integration, infrastructure, model performance, and deployment environments.
+* Own operationalisation of deployed solutions, including observability, performance tuning, reliability engineering, and adherence to security, governance, and compliance requirements.
+* Drive the development of reusable patterns, frameworks, and best practices, contributing to platform evolution and enabling scaling across multiple use cases and teams.
+* Collaborate with and gu

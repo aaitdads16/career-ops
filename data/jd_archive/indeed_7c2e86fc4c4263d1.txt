@@ -1,0 +1,81 @@
+Joining Razer will place you on a global mission to revolutionize the way the world games. Razer is **a place to do great work**, offering you the opportunity to make an impact globally while working across a global team located across 5 continents. Razer is also **a great place to work,** providing you the unique, gamer\-centric \#LifeAtRazer experience that will put you in an accelerated growth, both personally and professionally.
+
+**Job Responsibilities :**
+--------------------------
+
+
+We are looking for a Data Scientist Intern to support the building of AI applications through code
+
+
+optimization, algorithm research, and algorithm development. This role is ideal for candidates who
+
+
+are passionate about translating cutting\-edge AI research into scalable, real\-world products—with
+
+
+a particular interest in enhancing experiences for gamers.
+
+
+You will collaborate closely with cross\-functional teams across AI, data engineering, product
+
+
+development, and marketing to design, prototype, and deploy intelligent systems that drive user
+
+
+engagement and business impact. This is a unique opportunity to contribute meaningfully to AI
+
+
+product innovation in a dynamic, fast\-paced environment.
+
+**Key responsibilities:**
+
+* Perform discovery and research to enhance application performance
+* Quantify implementation choices with product or business\-related considerations
+* Implement unit tests for independent modules and services
+* Collaborate with cross\-functional teams to prototype, iterate, and deploy AI\-driven solutions
+* Contribute to codebases using version control best practices via GitHub
+* Documentation of methodologies and codebase for knowledge sharing, general understanding,
+
+
+and collaboration
+
+**What we are looking for:**
+
+* Proficiency in Python and familiarity with Object Oriented Programming
+* Familiarity with Large Language Models (LLMs) — including their utilization, common limitations,
+
+
+and evaluation techniques
+
+* Understanding of context and memory management in LLMs and/or agentic workflows
+* Excellent verbal and written communication skills to collaborate eﬀectively with both technical
+
+
+and non\-technical stakeholders
+
+* Experience using GitHub for version control, issue tracking, pull requests, code reviews, and
+
+
+collaborative development workflows
+
+* Passion for gaming
+* Comfortable working in fast\-paced, high\-pressure, agile environment
+
+**What will set you apart from others:**
+
+* Hands\-on experience with databases such as PostgreSQL, Redis, and Neo4j
+* Familiarity with messaging services/protocols like HTTP, MQTT, and AMQP
+* Understanding of or experience developing stateless systems
+
+**Qualifications:**
+
+* Bachelor’s or Master’s degree in Computer Science, Artificial Intelligence, Machine Learning, or
+
+
+a related technical discipline
+
+**Pre\-Requisites :**
+---------------------
+
+
+Razer is proud to be an Equal Opportunity Employer. We believe that diverse teams drive better ideas, better products, and a stronger cultu

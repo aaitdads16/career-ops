@@ -1,0 +1,33 @@
+**Job Title: Intern, Hardware/Software Engineer (Summer 2026\)**
+**Office Location: San Jose, CA**  
+
+**Work Model: Onsite**  
+
+**Duration: June 2026 \- August 2026**
+
+**At SK hynix America,** we're at the forefront of semiconductor innovation, developing advanced memory solutions that power everything from smartphones to data centers. As a global leader in DRAM and NAND flash technologies, we drive the evolution of advancing mobile technology, empowering cloud computing, and pioneering future technologies. Our cutting\-edge memory technologies are essential in today's most advanced electronic devices and IT infrastructure, enabling enhanced performance and user experiences across the digital landscape.
+
+We're looking for innovative minds to join our mission of shaping the future of technology. At SK hynix America, you'll be part of a team that's pioneering breakthrough memory solutions while maintaining a strong commitment to sustainability. We're not just adapting to technological change – we're driving it, with significant investments in artificial intelligence, machine learning, and eco\-friendly solutions and operational practices. As we continue to expand our market presence and push the boundaries of what's possible in semiconductor technology, we invite you to be part of our journey to creating the next generation of memory solutions that will define the future of computing.
+
+**Responsibilities:**
+* Model DRAM fault mechanisms and characterize error behaviors.
+* Build software solutions for emulating error log collection and analysis workflows.
+* Leverage Information Theory to analyze DRAM field study data and improve reliability metrics.
+**Qualifications:**
+* Currently pursuing a Bachelor's or Master's degree in Electrical Engineering, Computer Science, Statistics, or a related field.
+* Strong coding skills in C, C\+\+, and Python.
+* Solid understanding of memory hierarchy, DRAM operations, and system architecture.
+* Familiarity with ECC (Error Correction Code) mechanisms and memory RAS features.
+* Basic knowledge of Information Theory (e.g., entropy, coding theory) and statistical analysis.
+**Housing Allowance:**
+Eligible interns will receive a housing allowance during their internship.  
+
+
+
+**Equal Employment Opportunity:**  
+
+SKHYA is an Equal Employment Opportunity Employer. We provide equal employment opportunities to all qualified applicants and employees, and prohibit discrimination and harassment of any type without regard to race, sex, pregnancy, sexual orientation, religion, age, gender identity, national origin, color, protected veteran or disability status, genetic information or any other status protected under federal, state, or local applicable laws.  
+
+
+
+**Compensation:**

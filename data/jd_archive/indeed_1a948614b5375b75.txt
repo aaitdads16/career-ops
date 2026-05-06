@@ -1,0 +1,27 @@
+About the Company:
+
+
+Headquartered in San Francisco, CA, Cytovale is a dynamic, late\-stage startup focused on developing a faster, more insightful way to diagnose fast\-moving and immune\-mediated diseases. Cytovale’s IntelliSep test is pioneering a new way of quickly and accurately analyzing white blood cells to stratify a patient’s risk of sepsis. The test simply and clearly determines risk of sepsis using a biomechanical evaluation of white blood cells collected from a standard blood draw, generating results in under 10 minutes. This gives physicians actionable information when they need it most, allowing them to confidently triage suspected sepsis patients quickly and spend more time with those in greatest need. It also helps strained health systems prevent unnecessary treatment, preserve valuable resources, and improve compliance with SEP\-1 guidelines.
+
+
+More information at cytovale.com
+
+
+The Innovation \& Development Summer Intern will be an individual contributor with the Innovation \& Development group. This role splits time between hands\-on bench work (running assays, executing experiments on in\-house IVD systems and benchtop prototypes, and supporting hardware feasibility and development projects) and desk\-based work building AI\-enabled process tools to streamline how the team runs experiments and analyzes data. A bioengineering or related life\-sciences/engineering foundation is expected, with exposure to wet\-lab work and comfort using scripting tools (e.g., Python) for data analysis. The intern should expect a varied mix of activities across bench experiments, prototyping support, data analysis, and tool development.
+
+
+Primary Responsibilities:
+
+* Execute experiments and run the Cytovale System instrument to collect assay data on in\-house IVD systems and benchtop prototypes.
+* Support hands\-on testing of instrument sub\-systems and consumables to validate core functionality.
+* Maintain laboratory documentation, including laboratory notebooks, protocol documents, and electronic laboratory records, ensuring that all documentation is accurate, complete, and in compliance with regulatory requirements.
+* Provide broad support to ongoing Engineering workstreams; i.e. data analysis, part drawing updates, requirements and risk management, etc.
+* Build and iterate on AI\-enabled process tools and scripts that wrangle experimental datasets, automate routine analyses, and surface trends for the broader team.
+* Participate in cross\-functional team projects to support the development and implementation of new processes and technologies, and contribute to the generation of technical reports and documentation
+
+
+Qualifications:
+
+* Currently pursuing a Bachelor's or Master's degree in Bioengineering, Mechanical Engineering, or a related life sciences / engineering field.
+* Hands\-on wet\-lab experience including pipetting, sample prep, working with biological specimens, and following written protocols
+* Technical interest to develop proficie

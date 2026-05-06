@@ -1,0 +1,40 @@
+Job Description
+Research Intern
+Job Location: Santa Clara, California
+Location Flexibility: Multiple Locations in Country
+Req Id: 7947
+Posting Start Date: 5/5/26
+At Fujitsu, we are driven by our purpose to make the world more sustainable by building trust in society through innovation.
+
+
+We have been a pioneer in technology and innovation for over 80 years, and we are committed to using our expertise to help businesses and organizations transform for the digital age. We believe that digital transformation is essential to creating a more sustainable future. That's why we are working with our customers to develop solutions that can help them reduce their environmental impact, improve their efficiency, and create a more equitable society.
+
+
+We are committed to contributing to the United Nations Sustainable Development Goals (SDGs). These goals are a blueprint for a better future for all, and we believe that technology can play a vital role in achieving them.
+
+
+If you share our passion for making a meaningful impact on the world, we invite you to join our global family of 130,000 employees spanning more than 50 countries. We are a diverse workforce, and we offer a wide range of opportunities for you to grow and develop your career.
+
+
+Together, we can create a more sustainable future for all.  
+
+
+
+**DataResearch Intern at Fujitsu Research of America**
+
+**Location: Santa Clara, CA**
+
+The Space Data Frontier Research Center at Fujitsu focuses on combining research across multiple technical fields to address large\-scale societal and industrial challenges. These challenges require new approaches that integrate artificial intelligence, sensing, modeling, optimization, and domain knowledge. Our goal is to develop evidence\-based scientific tools that support decision\-making, improve operational efficiency, and accelerate innovation across industries.
+
+
+We are seeking exceptional research interns to join our Space Data Frontier Research Center Lab in Silicon Valley to work on next\-generation maritime intelligence and port operations optimization. This project aims to develop an integrated decision\-support framework that combines multi\-source sensor fusion with port operations visibility and what\-if planning. The framework will use heterogeneous data sources, including SAR imagery, optical imagery, AIS, RF signals, and port\-area imagery, to track vessels, estimate operational states, diagnose congestion, and support improved port planning and control.
+
+
+The internship duration is 3 months.
+
+
+**Job responsibilities**
+
+* Contribute to the development of multi\-source maritime observation pipelines using SAR imagery, optical imagery, AIS data, RF detections, and related sensor metadata.
+* Develop and test methods for detecting vessels, extracting motion cues, and estimating ship position, heading, speed, and confidence from heterogeneous sensing sources.
+* Implement dynamic fusion algorithms for vessel state estimation under missing, noisy, delayed, or co

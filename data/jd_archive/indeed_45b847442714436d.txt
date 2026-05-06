@@ -1,0 +1,38 @@
+Introduction:
+**About SymphonyAI**
+--------------------
+
+
+SymphonyAI is a leading enterprise AI solutions provider helping retailers and manufacturers optimize business operations through advanced analytics, planning, and automation solutions. Our products support global organizations in improving supply chain efficiency, inventory performance, forecasting accuracy, and customer satisfaction. We are committed to delivering measurable outcomes for our clients through innovative technology, deep domain expertise, and strong customer partnerships.
+Job Description:
+**Job Summary**  
+
+Symphony RetailAI professional Services team is looking for interns to help our customers who use our retailAI based solutions. **About thr role**  
+
+* Run basic SQL queries on SQL Server to validate data, troubleshoot issues and prepare simple reports
+* Support implementation activities by maintaining project artifacts, status trackers, meeting notes and action items
+* Draft and update knowledge base articles, FAQs and runbooks to improve self\-service and team efficiency
+* Contribute to UAT by preparing test cases, executing test scripts, capturing results and retesting fixes
+* Assist with data checks, field mappings and load verifications across environments; help investigate data quality issues
+* Participate in customer calls and internal stand\-ups with a mentor; follow up on assigned tasks
+* Help coordinate patch and release activities, including scheduling, checklists and smoke testing
+* Create simple automation or analysis scripts (if comfortable) and lightweight dashboards to support reporting
+* Collaborate with cross\-functional teams (R\&D, Cloud Ops, Product, QA) during issue investigation and resolution
+
+ **About you**  
+
+* Bachelor’s or Master’s in Computer Science, Information Technology, Engineering
+* Familiar with SQL fundamentals (SELECT, JOINs, filtering, basic aggregations) and eager to deepen skills in SQL Server
+* Strong analytical and problem\-solving mindset with attention to detail
+* Clear written and verbal communication; customer empathy and a service\-oriented approach
+* Self\-motivated, organized and able to manage multiple tasks with guidance in a fast\-paced environment
+* Nice to have: exposure to retail domain concepts; basic understanding of data warehouses (e.g., Snowflake) and ETL (e.g., Azure Data Factory); scripting skills (e.g., Python); experience with BI/reporting tools
+
+About Us:
+**WHY SYMPHONYAI ?**  
+
+* Start\-up spirit within a large international company
+* Exciting technology including Artificial Intelligence
+* Communication, Innovation and Collaboration are among our watchwords
+* We will support and explore your ideas: if you can do it better, we want you to show us!
+* Our teams comprise incredibly talented and passionate people who love what they do

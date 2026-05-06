@@ -1,0 +1,38 @@
+**Ready to redefine what's possible in molecular diagnostics?**
+---------------------------------------------------------------
+
+
+
+Join a team of brilliant, passionate innovators determined to transform healthcare. At BillionToOne, we've built a category\-defining, publicly traded company on Nasdaq where transparency fuels trust, collaboration drives breakthroughs, and every contribution moves the needle on our mission to make life\-changing diagnostics accessible to all. We don't just aim for incremental improvements; we build products that are 10x better than anything that exists today.
+
+
+
+Our scientists, engineers, sales executives, and visionaries are united by an unwavering commitment to changing the standard of care in prenatal and cancer diagnostics. This is where cutting\-edge science meets human compassion, and every innovation you contribute helps remove the fear of the unknown from some of life's most critical medical moments.
+
+
+
+If you're driven by purpose, energized by innovation, and ready to help shape the future of precision medicine at scale, this is where you belong.
+
+
+We seek an **Automation Engineering Intern, Oncology** whose academic interests span automated workflows, engineering principles, and molecular diagnostics. This internship offers an immersive dive into the tools and systems used to develop, deploy, and troubleshoot instrumentation used to run category defining cfDNA\-based NIPT assays in a fast paced and rapidly growing biotech. You will build broad expertise spanning laboratory automation, process development, and molecular techniques while contributing directly to technology that transforms patient lives one molecule at a time. The Automation Engineering Intern is an onsite position at our Menlo Park, CA laboratory and reports to the Senior Automation Engineer II, Oncology.
+
+
+**Responsibilities:**
+
+
+* Design, execute, and analyze experiments to improve process efficiency, increase robustness, and reduce consumable usage
+* Evaluate new engineering techniques and technologies to reduce processing time and assay cost
+* Perform complex manual and automated laboratory procedures (e.g., nucleic acid extraction, PCR, reagent preparation)
+* Collaborate with the team to analyze data, diagnose issues, and implement solutions
+* Maintain a safe and organized lab environment, strictly adhering to all safety and quality protocols
+* Present project progress, data, and technical insights to the team and department
+
+
+**Qualifications:**
+
+
+* Currently pursuing a Bachelor's or Master's degree in a relevant scientific or engineering discipline (e.g., Bioengineering, Mechanical Engineering, Physics, etc)
+* Proven experience contributing to and completing projects within an academic or industrial environment
+* Proven experience developing and refining components for electrical or mechanical systems
+* Adept at using Python or C\# to perform data analysis and solve complex problems
+* A driven, creative, and passionate mindset, with a

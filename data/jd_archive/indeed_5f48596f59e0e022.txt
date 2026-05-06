@@ -1,0 +1,59 @@
+**Description**  
+
+
+
+  
+
+Department: NYCT \- Buses  
+
+Location: 2 Broadway, New York, NY 10004  
+
+Position Title: Deployed Hardware Engineer/Analyst, Emerging Talent Intern  
+
+Hourly Rate: $21\.00 (Graduate)  
+
+  
+
+All internship positions are onsite and require regular, in\-person attendance at the designated work location.  
+
+  
+
+**OVERVIEW OF DEPARTMENT:**  
+
+The Fleet Technologies Group leads a portfolio of innovative projects focused on enhancing operations, customer communications, and depot operations.  
+
+  
+
+The Fleet Technologies Group has deployed bus hardware subsystems (“BHS”) onboard all MTA buses to support the Automatic Vehicle Location (AVL) system, while also serving as wireless gateways for other on bus systems. This intern will help maintain and troubleshoot BHS software image, software versions, device configurations, and the servers that manage them. They will also, under supervision, visit buses at depots or other facilities to help troubleshoot installations and system acceptance.  
+
+  
+
+**RESPONSIBILITIES:**  
+
+* Fleet Monitoring – Use Device Management Systems (DMS) to track and snapshot the real\-time status of the bus fleet.
+* Configuration Design – Contribute to the development of devices configuration profiles.
+* Configuration Testing – Perform validation tests on servers, devices, and settings.
+* Device Configuration Updates – Revise or apply settings for devices or sub\-groups.
+* Hardware Troubleshooting – Diagnose and resolve edge\-case issues for individual devices, whether in office or, for installations in the field.
+* Vendor Coordination – Collaborate with field maintenance vendors to identify and resolve technical issues or clarify expected system behavior.
+* Team Communication – Liaise with the device monitoring team to align on diagnostics, updates, and performance metrics.
+* Documentation – Create or update documentation to capture procedures, workflows, and findings for operational reference.
+
+  
+
+**PROJECTS:**  
+
+As assigned and under professional guidance, the intern may contribute to the following technical areas:  
+
+* Device and image Troubleshooting \& Repair – Diagnose and or repair hardware or software \-level issues and configurations to assist in maintenance and to resolve device malfunctions.
+* Component Installation Oversight – Inspect and correct issues arising during acceptance testing or initial use for deployed AVL system components on buses.
+* Device Management Server (DMS) Operations – Maintain the DMS, which supports device registration, tracking, and remote configuration. Ensure it remains updated, secure, and technically sound.
+
+  
+
+  
+
+**REQUIRED QUALIFICATIONS:*** Proficiency in Microsoft Office Suite is a must.
+* The candidate should possess organizational, analytical and communication skills.
+* The candidate should be able to work well under pressure and prioritize tasks effectively.
+* The candidate should have a keen eye for detail and be able to work independently while being an a

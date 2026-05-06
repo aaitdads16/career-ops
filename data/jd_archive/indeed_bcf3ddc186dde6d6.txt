@@ -1,0 +1,91 @@
+**Location**
+------------
+
+
+Berlin
+
+
+**Employment Type**
+-------------------
+
+
+Intern
+
+
+**Location Type**
+-----------------
+
+
+On\-site
+
+
+**Department**
+--------------
+
+
+Technology and Innovation
+
+
+**Deadline to Apply**
+---------------------
+
+
+June 30, 2026 at 4:00 AM UTC
+
+
+**Compensation**
+----------------
+
+
+* €3K per month
+
+  
+**About Us**
+============
+
+
+Rivian and Volkswagen Group Technologies is a joint venture between two industry leaders with a clear vision for automotive’s next chapter. From operating systems to zonal controllers to cloud and connectivity solutions, we’re addressing the challenges of electric vehicles through technology that will set the standards for software\-defined vehicles around the world.
+
+
+The road to the future is uncharted. By combining our expertise across connectivity, AI, security and more, we’ll map a new way forward. Working together, we’ll create a future that’s more connected, more intelligent, more sustainable for everyone.
+
+
+**Role Summary**
+================
+
+
+Join the Middleware team in building the one\-fits\-all solution for communication between vehicle, infotainment, cloud, mobile and more. Our solution is a foundational building block of the Software\-defined Vehicle, allowing seamless integration of the entire system.
+
+
+**Responsibilities**
+====================
+
+
+You are responsible for setting up an integration scenario in Rivian and Volkswagen Group Technologies's Berlin office. You get to touch all the different pieces that make up a connected vehicle and work on smoothing out the experience. This is a great opportunity to get a broad insight into modern middleware technologies and dig deeper in any direction from there. You will:
+
+
+* Work on real hardware representing vehicles in the field
+* Connect our benches to the official over\-the\-air update solution for fast testing scenarios
+* Integrate the mobile solution and work with simulator tooling to reproduce customer experience
+* Dig into our Bazel build pipelines to connect dots and automate processes
+* Assist in triaging bugs and commit fixes to real production code
+
+**Qualifications**
+==================
+
+
+**Minimum Qualifications**
+
+
+* Candidates should be available for a full\-time commitment from July 2026 through December 2026\.
+* Currently pursing in a Master’s degree in Computer Science, Software Engineering or other related technical fields.
+* Fundamentals in programming and data structures; proficiency in at least one language (e.g., C\+\+, Kotlin, Go, Python).
+* Good understanding of linux and android debugging as well as network protocols (TCP/IP, SSH, HTTP)
+* Comfort with Linux command line, Git, repo; knowledge on bazel build tooling is a plus
+
+**Preferred Qualifications**
+
+
+* Familiarity with observability tools (perfetto, perf, prometheus) and simple dashboards (datadog, hex).
+* Experience with protobuf and template code generation (jinja).
+* Exposure to messaging/pub‑sub systems (e.g., NATS/Kafka/MQTT) or databases (SQL/NoSQL)

@@ -1,0 +1,50 @@
+**Description**  
+
+
+
+  
+
+Department: NYCT \- Buses  
+
+Location: 2 Broadway, New York, NY 10004  
+
+Position Title: Hardware Maintenance and Operations Analyst, Emerging Talent Intern  
+
+Hourly Rate: $21\.00 (Graduate)  
+
+  
+
+All internship positions are onsite and require regular, in\-person attendance at the designated work location.  
+
+  
+
+**OVERVIEW OF DEPARTMENT:**  
+
+The Fleet Technologies Group leads a portfolio of innovative projects focused on enhancing operations, customer communications, and depot operations.  
+
+  
+
+The Fleet Technologies Group has deployed Bus Hardware Subsystems (BHS) across all MTA buses to support the Automatic Vehicle Location (AVL) system. These onboard devices not only transmit periodic location and log\-on data but also act as wireless gateways for other onboard systems. The intern will play a critical part in daily operations by reviewing system reports, bus block logs, and other diagnostic data to identify BHS units require maintenance visits. They'll track Subscriber Identity Module (SIM) card installations across the fleet and manage updates to Reliability, Availability, Maintainability, and Safety (RAMS) data for the BHS, which feed quarterly compliance and audit reports. The intern will also coordinate with vendors and internal MTA teams to resolve edge case repairs.  
+
+  
+
+**RESPONSIBILITIES:**  
+
+* BHS Repair Review – Assess daily automated reports covering roughly 300 flagged units to identify buses needing maintenance.
+* Non\-Automated Data Aggregation – Gather supplemental data from Road Operations, SPEAR database, depot communications, and other channels to identify other failed units.
+* Daily Priority List Preparation – Consolidate data to compile a prioritized and well\-organized list for vendor maintenance visits.
+* Repair Reconciliation – Compare and track vendor work reports against the prior day’s list.
+* Edge Case Coordination – Identify, schedule and verify special repair cases (e.g., antenna replacements) with vendors and depots.
+* BHS Unit/SIM Tracking – Maintain an up\-to\-date database mapping BHS units and SIM cards to specific buses.
+* SIM Card Operations – Assist with replacement, activation, and deactivation of SIM cards, typically for New Buses.
+* RAMS Reporting – Prepare monthly and quarterly Reliability / Availability / Maintainability (RAMS) reports to evaluate system performance and vendor compliance with contracted Service level Agreements (SLA’s).
+
+  
+
+  
+
+**PROJECTS:**  
+
+* BHS Repair Priority List– Develop and dispatch a daily report identifying “ghost” buses—vehicles whose Bus Hardware Subsystems (BHS) are wholly or partly non\-reporting. Reconcile the vendor’s post\-repair data with vendor work reports.
+* SIM Card \& Unit Tracking – Update and manage the BHS/SIM card tracking database to ensure accurate records of which units and SIM cards are installed in each bus.
+* Availability \& Compliance Reporting – Use daily fleet data to update the Reliability / Availability / Maint

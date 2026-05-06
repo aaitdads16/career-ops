@@ -1,0 +1,77 @@
+Job description
+ Company and benefits
+
+ Social Impact \& Sustainability
+
+
+Job ID
+41479
+Join the leader in entertainment innovation and help us design the future. At Dolby, science meets art, and high tech means more than computer code. As a member of the Dolby team, you’ll see and hear the results of your work everywhere, from movie theaters to smartphones. We continue to revolutionize how people create, deliver, and enjoy entertainment worldwide. To do that, we need the absolute best talent. We’re big enough to give you all the resources you need, and small enough so you can make a real difference and earn recognition for your work. We offer a collegial culture, challenging projects, and excellent compensation and benefits, not to mention a Flex Work approach that is truly flexible to support where, when, and how you do your best work.
+
+  
+
+**Internship Overview**
+-----------------------
+
+
+**Duration:** 3 months
+  
+
+**Starting date:** 2026/2027
+  
+
+**Location:** Barcelona, Spain (hybrid work model with required on\-site presence)
+  
+
+  
+
+Dolby's Barcelona office hosts world\-class audio Research and Development teams specializing in spatial audio, AI, and signal processing for both professional and consumer applications. As a Sound Experiences Lab Intern, you'll join our research team to develop cutting\-edge AI solutions for spatial audio processing.  
+
+  
+
+  
+
+
+
+**Responsibilities**
+--------------------
+
+
+* Design, implement and train advanced deep learning models for spatial audio processing tasks, leveraging self\-supervised learning, multi\-modal learning, etc.
+* Prepare and curate high\-quality datasets through data augmentation and synthetic data generation.
+* Evaluate proposed models against state\-of\-the\-art research benchmarks.
+* Collaborate closely with Barcelona's research team on related projects.
+* Present research findings and contribute to patent applications and scientific publications.
+  
+
+  
+
+  
+
+**Minimum Qualifications**
+--------------------------
+
+
+* **Education:** Master degree in Electrical Engineering, Computer Science, Mathematics, Physics or similar.
+* **Current Status:** Enrolled in a PhD program on subjects related to audio processing and AI for the entire duration of the internship (February 2026 to June 2026\). Master students with a research publication track may also be considered for the position.
+* Proven experience in audio signal processing.
+* Hands\-on experience applying AI to audio applications.
+* Proficiency in at least one deep learning framework using Python.
+* Strong mathematical foundation.
+* Experience in research, reflected in research publications.
+* Good communication skills.
+  
+
+  
+
+  
+
+**Preferred Qualifications**
+----------------------------
+
+
+* Master degree in a subject related to audio processing.
+* Knowledge of spatial audio.
+* Knowledge of audio\-related AI models.
+* Critical listening skills.
+* Proven track of publication records in the field of audio, acoustics, and machine learning.

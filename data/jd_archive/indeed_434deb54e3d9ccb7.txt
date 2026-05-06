@@ -1,0 +1,24 @@
+**What you will do:**
+
+
+The position reports to the Director, L\&M Services, APAC and is a key contributing member who will provide exceptional support to program manage various APAC Service growth initiatives and platforms, track, analyze and communicate the performance to our internal and external stakeholders.
+
+**How you will do it:**
+
+* Harness a combination of Python/R and SQL to build and deploy simulation models powered by Machine Learning tools to analyze business operations, identify regional trends to drive proactive actions, enable accurate revenue forecasting \& support operational capacity planning.
+* Design \& implementation of impactful BI dashboards using PowerBI to analyze market activities and extract leading indicators, utilizing DAX (Data Analysis Expressions) for creating measures providing critical insights that support strategic decision making \& enable proactive responses to market dynamics, while also ensuring data accuracy and reliability.
+* Utilize SQL and Power Query for data extraction, transformation, and loading (ETL) processes, with the ability to perform data modelling from multiple sources for ease of visualization.
+* Data Analysis and Visualization: Interpret business requirements and convert them into insightful visualizations and reports.
+* Support in the execution of Program Management plan, including enabling cadence planning, impact capturing \& problem solving.
+
+**What we look for:**
+
+* Pursuing a degree in business, engineering, or data science \& analytics from a reputable educational institution.
+* Able to commit to a full\-time internship for 6 months preferred.
+* Proficient in Microsoft Power BI, Power Query, SQL, Microsoft Excel, Word, PowerPoint
+* Familiarity with programming languages such as Python or R for Exploratory Data Analysis and ML Predictive Analytics, using these tools for modelling and to deliver deeper insights.
+* Analytical Thinking: Ability to apply analytical thinking to dissect complex data and extract meaningful insights relevant to business objectives.
+* Detail\-Oriented: Keen attention to detail to ensure the accuracy and effectiveness of data visualizations and reports.
+* Effective Communication: Strong communication skills to articulate data insights and analysis to both technical and non\-technical team members.
+* Having practical skills with Salesforce platform would be a plus.
+* Familiarity with Snowflake as a cloud data warehouse for storing, processing and analyzing large datasets is preferred

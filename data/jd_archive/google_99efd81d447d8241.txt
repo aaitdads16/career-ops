@@ -1,0 +1,41 @@
+This position is offered on a 12‑month FTC basis
+
+
+
+
+Join us as we embark on an exciting new chapter in our brand-new office at Circle Square, Manchester.
+
+
+
+
+Driven by increasing demand for Data Science and AI solutions across the business, we’re expanding our teams. We’re looking for an experienced Data Scientist with practical, real‑world industry experience in a similar role. You’ll have a background that enables you to contribute effectively from an early stage, applying proven data science and AI techniques in a production environment. This role is therefore best suited to candidates with relevant professional experience, rather than those who are newly qualified.
+
+
+
+
+With a proven track record of applying advanced data science and AI techniques to solve complex business problems and deliver measurable commercial value, you'll bring a strong academic background - educated to MSc, PhD or equivalent - alongside hands-on experience building and deploying data products.
+
+
+
+
+Confident working with modern coding languages such as Python and SQL, and industry-standard tools and platforms including GIT, CI/CD pipelines, MLFlow and Databricks, you'll be comfortable turning data into real-world impact at scale.
+
+
+
+
+Responsibilities - You'll:
+
+Apply expertise in mathematics, statistics, data science, machine learning and AI (Including GenAI) to deliver business value by solve complex business problems.Develop, test, deploy, monitor and maintain data products In production using Industry best practice MLOps capabilities.Adhere to all data science governance, regulatory and legal requirements and best practice.Work collaboratively with colleagues from across different disciplines Including but not limited data engineering, data modellers, architects, risk and compliance and business functions.Communicate outputs and findings to a range of stakeholders with a clear focus on the business value.
+
+
+Knowledge, Skills & Experience
+
+A Data Science and AI expert with a proven track record in leveraging data science and AI methods to solve business problems and deliver tangible business value.Educated to MSc, PhD or equivalent apprenticeship level in physics, mathematics, statistics, data science, AI or computer science.Proven expertise In using relevant coding languages (Python, SQL etc.), tools (e.g. GIT, CI/CD pipelines, MLFlow etc.) and platforms (Databricks etc.) to deliver data products.Strong problem-solving skills are essential, along with an ability to manage a varied workload.Effective communication skills with ability to convey "why do we care" messages clearly to broad range of stakeholders having different technical capabilities.Motivated by delivering results in a fast-paced digital and transformational organisation. Collaborative, team player with a tenacious, resilient mentality and can do attitude.Experience in the Telecommunications sector is a bonus
+
+
+Be Yourself. Make an Impact. Join Us.
+
+
+
+
+As a recognised Top 50 Inclusive Employer in the UK

@@ -1,0 +1,26 @@
+**NYC GLOBAL HQ****PRODUCT**
+**Who we are**
+
+DoubleVerify is a leading software platform for digital media measurement, data and analytics. DV’s mission is to be the definitive source of transparency and data\-driven insights into the quality and effectiveness of digital advertising for the world’s largest brands, publishers and digital ad platforms. DV’s technology platform provides advertisers with consistent and unbiased data and analytics that can be used to optimize the quality and return on their digital ad investments. Since 2008, DV has helped hundreds of Fortune 500 companies gain the most from their media spend by delivering best in class solutions across the digital advertising ecosystem, helping to build a better industry. Learn more at www.doubleverify.com.
+**What you’ll do**
+
+DoubleVerify's Product Design team shapes the user experience across every DV product line. We work on platform\-wide initiatives—*design systems, information architecture, permission control, and AI\-enabled experiences*—as well as hands\-on channel and feature delivery, partnering with product management, engineering, and customer experience to build intuitive, scalable solutions.
+
+We're looking for a product design intern who thinks in systems, solves problems analytically, and loves crafting concepts hands\-on. In this role you'll help define clear, consistent interaction patterns for both human users and agentic AI workflows—using design tools like Figma alongside AI\-assisted tools such as Claude Code, Claude Design, and Cursor AI. This role is a 10\-week, full\-time, that runs from June 12th \- August 18th, 2023\.
+
+You'll work alongside product designers, product managers, and engineers—getting first\-hand exposure to how design decisions shape real products. Day to day, you will:
+* Participate in end\-to\-end product design processes—from conceptual ideas to low\- and high\-fidelity mock\-ups
+* Brainstorm and visualize user problems and solutions, and develop design concepts
+* Fine\-tune design details in Figma and develop convincing prototypes in AI tools
+* Create short design presentations and present your findings in smaller groups for iterative feedback
+* Attend relevant Product Design team meetings and meetings with other cross\-functional teams
+
+
+**Who you are**
+* A rising junior or senior pursuing a bachelor's degree in HCI, computer science, design, or a related field
+* Systems thinker who is action\- and result\-oriented—you break down complex problems and drive toward clear solutions
+* Comfortable with design tools like Figma, Miro, and FigJam, and curious about AI\-assisted tools such as Cursor AI and Claude Design, Claude Code
+* General understanding of how AI models and tools work
+* Basic to intermediate grasp of UX/product design processes and principles
+* Strong verbal, written, and interpersonal skills—you enjoy experimenting with ideas and collaborating across disciplines (engineering, product management, account management, etc.)
+* Sel

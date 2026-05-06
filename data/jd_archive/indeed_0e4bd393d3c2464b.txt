@@ -1,0 +1,121 @@
+**Ser a Melhor Empresa de Saneamento PARA o Brasil.**
+
+
+Nascemos em 2017 com esse compromisso. Desde então, estamos presentes em 39 municípios, com mais de 2,5 mil colaboradores, 6 milhões de clientes e o propósito de atuar da melhor forma para levar saneamento às populações atendidas, ajudando o país a alcançar a universalização dos serviços de água e esgoto.
+
+  
+
+O saneamento básico no Brasil está no momento de transformação e marcado por novos projetos de expansão. Para o nosso time, buscamos pessoas protagonistas e dispostas a inovar, atuando como agentes transformadores em prol do nosso objetivo. Alinhado ao nosso DNA, queremos promover um ambiente de trabalho sustentável, desenvolvedor e seguro.
+
+ **Local de Atuação:** Holding \- São Paulo/SP
+
+ **Responsabilidades e atribuições**  
+
+O (a) Analista de Dados \& Analytics terá papel fundamental na criação e gestão de pipelines de dados, além de impulsionar casos de uso de dados e analytics em produção, sempre alinhados às necessidades do negócio.
+
+
+Essa pessoa será responsável por analisar dados estruturados e não estruturados, extrair insights relevantes e desenvolver soluções analíticas escaláveis, utilizando técnicas modernas de estatística, Machine Learning e IA.
+
+  
+
+Responsabilidades.:
+
+
+IA e modelos de Machine Learning \+ IA generativa
+
+
+Algoritmos
+
+
+Análise de negócio
+
+
+Desenvolvimento de casos de negócios
+
+
+Codificação
+
+
+Arquitetura de dados
+
+
+Exploração e prototipagem de dados
+
+
+Governança de Dados
+
+
+Preparação e refinamento de dados
+
+
+Criação de perfil de dados
+
+
+Amostragem e filtragem de dados
+
+
+Segurança de dados
+
+
+Coleta e ingestão de dados
+
+
+Integração de dados
+
+
+Modelagem de dados
+
+
+Visualização e apresentação de dados
+
+
+Modelagem de decisão
+
+
+Processamento de dados distribuídos
+
+
+Engenharia de recursos
+
+
+Estimativa do projeto
+
+
+Levantamento de requisitos
+
+
+Estatisticas
+
+
+Escrevendo consultas e scripts de dados
+
+ **Requisitos e qualificações**  
+
+Ensino Superior Completo na área de Tecnologia, Ciências da Computação, Ciências de Dados ou áreas correlatas;
+
+
+Desejavel pós\-graduação.
+
+
+Linguagens de programação, incluindo Python e linguagens de programação.
+
+
+Conhecimento do design do banco de dados SQL.
+
+
+IA e modelos de Machine Learning.
+
+
+Conhecimento nas plataformas SaaS, PaaS e IaaS de mercado tais como (sensedia, mulesoft, digibee, AWS, Microsoft e Google) bem como arquitetura de APIs e Microsserviços.
+
+
+Inglês avançado.
+
+  
+
+Na Iguá Saneamento valorizamos a diferença em todos os contextos e trabalhamos para promover uma cultura ética e inclusiva sempre. Como companhia e time, buscamos a equidade e respeitamos todos os tipos de diversidade (Gênero, Deficiência \- PCD, LGBTQIAPN\+, Étnico racial, Crenças e Gerações). Venha fazer parte dessa mudança, acreditamos na força de cada individualidade para gerar transformação!
+
+ **Informações adicionais** **Nossos Benefícios**
+
+
+Aqui, cuidamos das nossas pessoas em todas as etapas da sua jornada como colaborador. Conheça o que ofer

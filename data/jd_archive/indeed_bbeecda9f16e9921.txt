@@ -1,0 +1,25 @@
+**Your role**
+
+Our major Oil \& Gas Downstream Client is urgently looking for Data Engineer who is responsible for identifying relevant data to be gathered and implementing a solution to do so, including knowledge of where to get the data, how to extract it in the right format, and how to augment the data to support data science/analysis requirements. You will build a robust, fault\-tolerant data pipeline that cleans, transforms, and aggregates un\-organized and messy data into databases or data sources. You will ensure that data flows smoothly from source to destination so that it can be processed.
+
+You will support our software developers, database architects, data analysts and data scientists on data initiatives and will ensure optimal data delivery architecture is consistent throughout ongoing projects. You must be self\-directed and comfortable supporting the data needs of multiple teams, systems, and products.
+
+You will be defining and building the data pipelines that will enable faster, better, data\-informed decision\-making within the business, assisting in developing enterprise data management strategies including operational data stores, data warehouse implementations, data movement, data services, data acquisition, data conversion, and archive/recovery. Moreover, design and develop Data Products to drive business outcomes.
+
+Your accountabilities include the following:
+
+* Work together with the solution and data Architects to design the next generation dataplatform to support the Analytics in Trading
+* Identify, design, and implement internal process improvements: automating manual processes, optimizing data delivery, re\-designing infrastructure for greater scalability, etc.
+* Assemble large, complex data sets that meet functional / non\-functional business requirements, which are scalable and easy to maintain
+* Build and maintain data pipelines required for extracting, cleaning, and transforming data from a wide variety of sources
+* Help establish best practices around data governance, data security\- and privacy (GDPR).
+* Create data tools for analytics and data scientist team members that assist them in building and optimizing our product into an innovative industry leader
+* Drives and applies Agile Framework within his/her operating environment
+
+You are what we are looking for if you have at least 1 year of experience in a Data Engineer role with following preferred skills and experience:
+
+* 1\-2 years advanced experience in design and coding skills (e.g. Python, SQL, Scala, JavaScript).
+* Experience with working concepts as data pipelining / data wrangling. Strong business analysis skills to obtain requirements from users and document them.
+* Interpretation of data, highly analytical, troubleshooting, and problem\-solving skills
+* Experience with data architecture and design techniques (local/abstract).
+* Technical skills: Source Code Control (Git, Subversion), reporting/visualization tools (Power BI), SQL\-based technologies (MS

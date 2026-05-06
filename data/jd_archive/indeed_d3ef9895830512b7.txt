@@ -1,0 +1,36 @@
+**3D CAD modeling and Physics\-based Simulation — Internship**
+
+
+Here at Siemens, we take pride in enabling sustainable progress through technology. We do this through empowering customers by combining the real and digital worlds. Improving how we live, work, and move today and for the next generation! We know that the only way a business thrives is if our people are thriving. That’s why we always put our people first. Our global, diverse team would be happy to support you and challenge you to grow in new ways.
+
+**Transform the everyday with us!**
+
+
+In this role, you will work on\-site in Princeton, NJ.
+
+
+Are you ready to dive into the future of robotics and production? Our innovative research group at Siemens is seeking a passionate and driven intern to contribute to cutting\-edge projects. This is a unique opportunity to apply your skills in 3D CAD modeling and physics simulations to real\-world challenges, helping to shape the next generation of industrial automation.
+
+
+Join our research group, Automation Engineering Software, located in Princeton, NJ, for a 3\-6 month internship, and contribute to the development and implementation of cutting\-edge operations software solutions for industrial applications. Our close contact with different business units in Siemens provides the opportunity to contribute to and gain experience in real industrial challenges. During this internship, you will experience the excitement and challenges of industrial research. An internship with Siemens Technology is a great opportunity for students to gain real\-world experience in a diverse work environment.
+
+
+Our Princeton facility is recognized for providing a stimulating environment for highly talented and self\-motivated students. You will have the opportunity to test your knowledge in a challenging problem\-solving environment. You will be encouraged to think out of the box, innovate and find solutions to real\-life problems.
+
+
+Key responsibilities:
+
+* Contribute to industrial research projects focused on digital twins and early simulation for robots and production lines.
+* Design 3D CAD models with physics\-based simulation capabilities using NX Design Center.
+* Design and implement adaptive robot programs using Process Simulate.
+* Learn to interface with NX Design Center and Process Simulate, using custom applications, public APIs, or existing product functionalities.
+* Collaborate and exchange ideas with experts in industrial automation, operations software, and IT systems across Siemens research and business units.
+
+
+Basic Qualifications:
+
+* BS or MS student **pursuing a degree** in Computer Science, Electrical Engineering, Mechanical Engineering, Mechatronics, or a closely related field.
+* Experience with 3D simulation of robotics and/or full production lines in Technomatix Process Simulate
+* Programming proficiency in C\# .NET and Python, including experience writing clean, modular, reusable code.
+* Proficiency in English, both written and verbal.
+* Legal

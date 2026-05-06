@@ -1,0 +1,61 @@
+**Description**  
+
+
+
+  
+
+Department: NYCT \- Buses \- Fleet Technologies Group
+  
+
+Location: 2 Broadway, New York, NY 10004  
+
+Position Title: Software Analyst / Developer, Emerging Talent Intern  
+
+Hourly Rate: $21\.00 (Graduate)  
+
+  
+
+All internship positions are onsite and require regular, in\-person attendance at the designated work location.  
+
+  
+
+**OVERVIEW OF DEPARTMENT:**  
+
+The Fleet Technologies Group leads a portfolio of innovative projects focused on enhancing operations, customer communications, and depot operations.
+  
+
+  
+
+This role focuses on enhancing and supporting several key enterprise applications\-including Bus Time, Bus Trek, Yard, Trek, and Transit Signal Priority\-which require ongoing updates, maintenance, and feature development \- we also have plans to introduce new projects. The intern will primarily contribute to developing, upgrading, analyzing, or maintaining aspects of one or more of these. Additional responsibilities may include conducting operations analyses to support process improvements and quality control, developing both ad hoc and automated reporting solutions, prototyping software tools, aggregating or analyzing data, and occasionally preparing presentations or assisting with targeted research tasks.  
+
+  
+
+**RESPONSIBILITIES:**  
+
+As assigned, and under professional guidance:  
+
+* Design \- Collaborate on designing new features, reports, or analytical tools for our applications.
+* Software Development \- Write, test, demonstrate and deploy code for new features or fixes.
+* Troubleshooting \- Diagnose and resolve bugs or edge\-case issues in existing codebases.
+* Technical Documentation \- Draft or update documentation for features, fixes, and workflows.
+* AWS Environment Support \- Assist in configuring and maintaining server environments, applications, or containers on Amazon Web Services (AWS).
+* Data Acquisition \- Perform ad hoc data collection or develop automated tools to extract data from existing systems.
+* Data Interpretation \- Analyze collected data to identify performance trends and provide operational insights.
+* Reporting \& Presentations \- Present findings and propose actionable recommendations.
+
+  
+
+**PROJECTS:**  
+
+As assigned, the intern may contribute to the following projects:  
+
+* Bus Trek \- A vehicle information web platform used by dispatchers for real\-time fleet tracking and decision support.
+* Yard Trek \- An enterprise bus assignment application that shares key depot operational actions in near real time.
+* Transit Signal Priority (TSP) \- A system that allows equipped buses to communicate with on\-street traffic controllers to expedite or extend green light phases, improving bus travel efficiency.
+
+
+They may also occasionally support other tools, applications, or presentations that revolve around other existing projects or new pilot efforts \-these are often data\-driven mini\-projects that can help improve visualization, analytics, or operational performance.  
+
+  
+
+**REQ

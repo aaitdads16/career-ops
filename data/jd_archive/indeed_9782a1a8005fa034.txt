@@ -1,0 +1,83 @@
+**Location**
+------------
+
+
+Berlin
+
+
+**Employment Type**
+-------------------
+
+
+Intern
+
+
+**Location Type**
+-----------------
+
+
+On\-site
+
+
+**Department**
+--------------
+
+
+Technology and Innovation
+
+
+**Deadline to Apply**
+---------------------
+
+
+June 30, 2026 at 4:00 AM UTC
+
+
+**Compensation**
+----------------
+
+
+* €3K per month
+
+  
+**About Us**
+============
+
+
+Rivian and Volkswagen Group Technologies is a joint venture between two industry leaders with a clear vision for automotive’s next chapter. From operating systems to zonal controllers to cloud and connectivity solutions, we’re addressing the challenges of electric vehicles through technology that will set the standards for software\-defined vehicles around the world.
+
+
+The road to the future is uncharted. By combining our expertise across connectivity, AI, security and more, we’ll map a new way forward. Working together, we’ll create a future that’s more connected, more intelligent, more sustainable for everyone.
+
+
+**Role Summary**
+================
+
+
+As an Software Integration Engineering Intern, you’ll get hands\-on experience working with cutting\-edge vehicle systems and automated test setups. You’ll collaborate with experienced engineers to design, build, and run automation that helps validate next\-generation vehicle access and connectivity features. This internship offers the opportunity to apply your classroom knowledge in a real\-world environment while learning how large\-scale system testing and automation are done at RV Tech.
+
+
+**Responsibilities**
+====================
+
+
+* Assist in developing and running automated test scripts across multiple vehicle platforms.
+* Support the setup and operation of automated vehicle test benches under engineer supervision.
+* Help monitor and maintain test setups, ensuring they are safe, reliable, and ready for daily use.
+* Contribute to debugging automation scripts and hardware issues as they arise.
+* Participate in creating dashboards and visualizations for test results.
+* Collaborate with cross\-functional teams to implement new automation solutions and streamline testing workflows.
+* Learn how to work in a CI/CD and Python\-based automation environment.
+
+**Qualifications**
+==================
+
+
+* Candidates should be available for a full\-time commitment from July 2026 through December 2026\.
+* Currently pursuing a Bachelor’s degree in Computer Science, Computer Engineering, Electrical Engineering, Mechanical Engineering, or a related field.
+* Strong interest in automation, embedded systems, or vehicle technologies.
+* Basic programming experience in Python (bonus if you’ve used C/C\+\+ or object\-oriented concepts).
+* Curiosity about hardware\-software integration and hands\-on problem solving.
+* A proactive mindset with the ability to work both independently and collaboratively in a fast\-paced environment.
+* Clear communication skills and a willingness to learn from feedback.
+* Prior experience with hardware interfacing, robotics, or automation pr

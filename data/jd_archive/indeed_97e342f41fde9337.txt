@@ -1,0 +1,40 @@
+**About Neuralink:**
+
+
+
+We are creating devices that enable a bi\-directional interface with the brain. These devices allow us to restore movement to the paralyzed, restore sight to the blind, and revolutionize how humans interact with their digital world.
+
+**Team Description:**
+
+
+
+The Materials Engineering Team at Neuralink develops and qualifies high\-performance, biocompatible materials for next\-generation brain\-computer interfaces. The team owns material characterization, hermetic packaging reliability, accelerated lifetime testing, and predictive simulation for implantable neural devices. We operate at the intersection of physical testing and computational modeling, closing the loop between experiment and simulation to drive design decisions.
+
+
+**Job Description and Responsibilities:**
+
+
+
+We are looking for a Mechanical Engineer who owns the full simulation\-to\-test loop for implant mechanical reliability. This person will build explicit dynamics FEA models, design and run physical tests, calibrate material models against experimental data, and validate predictions. You will work closely with materials engineers, microfabrication, and cross\-functional reliability teams to ensure the implant meets impact, fatigue, and seal integrity requirements.
+
+  
+
+* Build, refine, and validate explicit dynamics Finite Element Analysis (FEA) models (LS\-DYNA, Abaqus/Explicit) to predict mechanical response under high\-strain\-rate impact loading.
+* Own the in\-house mechanical testing pipeline end\-to\-end: design fixtures, prepare specimens, run tests (servo\-hydraulic, drop tower, DIC), and correlate results to simulation using quantitative metrics (CORA, force\-displacement overlay, DIC contour comparison).
+* Translate physical test data into constitutive model inputs: calibrate material cards, optimize parameters, and deliver validated simulation files.
+* Coordinate test projects (SHPB, DMA, abuse testing) and own data quality from external sources.
+* Extend validated impact models to adjacent reliability domains: burst/cyclic pressure testing, vibration fatigue, and seal interface simulation.
+* Support cross\-functional reliability programs including thermal modeling, RH/leak modeling, and accelerated lifetime testing as needed
+
+
+**Required Qualifications:**  
+
+
+
+* MS or PhD in Mechanical Engineering, Materials Science, or related field.
+* 2\+ years of hands\-on experience with explicit dynamics FEA (LS\-DYNA, Abaqus/Explicit, or similar) \- not static/modal only.
+* 2\+ years of hands\-on experience with mechanical testing (tensile testers, DMA, servo\-hydraulic frames, or similar equipment).
+* Experience with polymer or composite material characterization, including rate\-dependent and temperature\-dependent behavior.
+* Hands\-on experience with mechanical assembly, fabrication, or building and calibrating test equipment.
+* Proficiency in mechanical design (SolidWorks or similar CAD software).
+* Familiarity with relevant test standards (ASTM, IEC

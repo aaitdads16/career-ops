@@ -1,0 +1,55 @@
+**Our Purpose**
+
+*Mastercard powers economies and empowers people in 200\+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential.*
+
+**Title and Summary**
+
+
+Director, Data Engineering
+Overview:  
+
+We are looking for a Director, Data Engineering to lead the strategy, design, and operation of our enterprise\-scale data platform that powers analytics, applications, and AI\-enabled use cases across the organization.  
+
+This role is firmly grounded in data engineering and platform engineering—owning platform vision, architecture, and execution across ingestion, processing, orchestration, storage, reliability, and scalability for batch and streaming workloads.
+  
+
+The Director will ensure the platform enables advanced capabilities, including AI, while meeting enterprise standards for security, governance, and operational excellence.  
+
+The focus is on building and evolving robust data infrastructure that makes data and AI capabilities easy, safe, and scalable for downstream teams to consume, while positioning the platform for cloud modernization and long\-term growth.  
+
+Strong technical credibility is expected, and the leader needs to be comfortable with hands on technology work.  
+
+  
+
+Role:
+  
+
+* Data Platform Engineering
+
+
+ Own the end\-to\-end vision, roadmap, and architecture for the enterprise data platform.  
+
+ Provide technical and organizational leadership over scalable data pipelines using technologies such as Apache NiFi, Airflow, Spark (batch / streaming), and synonymous technologies across On\-Prem and Cloud platforms.  
+
+ Ensure consistent design and governance of data ingestion, transformation, enrichment, and access patterns across teams.  
+
+ Define and govern data schemas, contracts, and transformations, ensuring data quality, consistency, and backward compatibility.  
+
+ Drive platform performance, scalability, reliability, and cost optimization across environments.  
+
+ Establish platform\-wide data quality standards, monitoring, alerting, and SLAs for critical data assets.  
+
+ Oversee use of object storage platforms (MinIO / Ceph / S3\-compatible APIs) including data layout, lifecycle management, and retention policies.  
+
+ Own operational readiness for batch and near–real\-time processing, including incident management and root cause analysis.  
+
+  
+
+* Platform \& Infrastructure Integration
+
+
+ Provide architectural oversight for containerized data workloads and services deployed on Kubernetes\-based platforms.  
+
+ Partner closely with DevOps, SRE, and Infrastructure teams to ensure observability, resiliency, and operational maturity.  
+
+ Guide C

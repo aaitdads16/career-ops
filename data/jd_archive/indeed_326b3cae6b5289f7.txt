@@ -1,0 +1,53 @@
+**Description**  
+
+
+
+  
+
+Department: Operations Planning  
+
+Location: 2 Broadway, New York, NY 10004  
+
+Position Title: Ridership Analysis \& Modeling, Emerging Talent Intern  
+
+Hourly Rate: $21\.00 (Graduate)  
+
+  
+
+All internship positions are onsite and require regular, in\-person attendance at the designated work location.  
+
+  
+
+**OVERVIEW OF DEPARTMENT:**  
+
+Ridership Analysis \& Modeling (RAM) serves as an internal consultant to NYCT on all aspects of ridership patterns, passenger movement, and short\- and long\-term trends across subway and bus systems. The RAM group develops and improves models and tools used to estimate statistics and forecast rider behavior during normal operations and in cases of planned work, to improve schedule accuracy and better target customer information. RAM works cross\-functionally across the agency to extract narratives from massive amounts of data, both directly observed and estimated.  
+
+  
+
+The selected candidate will help support; RAM GIS projects will maintain and enhance bus network datasets while developing new analytical tools to support transit planning and federal reporting. Key work includes updating the DOT Bus Lane Segments shapefile and the Bus Route LION Matching GIS data. The updated GIS data will replace and modernize the current fixed guideway federal reporting process. Integrating the updated GIS data with existing bus speed sources will also allow teams to easily calculate and predict bus running times for any corridor or proposed route. Additional initiatives include backend development for the OP ArcGIS Online Portal and its integration with the Data Lake.
+  
+
+  
+
+**RESPONSIBILITIES:**  
+
+* Update and maintain GIS datasets, including the Bus Lane Segments shapefile and Bus Route LION Matching data, ensuring accuracy and consistency across systems.
+* Perform spatial data validation, cleaning, and quality assurance to support reliable transit planning and federal reporting outputs.
+* Assist in integrating GIS datasets with bus speed and operational data to support analysis of corridor performance and running time estimation.
+* Develop and refine geospatial analysis tools and workflows to improve efficiency.
+* Support the modernization of fixed guideway reporting processes by contributing to updated GIS\-based reporting frameworks.
+* Assist in backend development and data structuring for the OP ArcGIS Online Portal, improving accessibility and usability for internal teams.
+* Document data processes, methodologies, and updates to ensure transparency, reproducibility, and long\-term maintainability of GIS resources.
+
+Collaborate with cross\-functional teams, including Operations Planning and Data \& Analytics, to align datasets and analytical outputs.  
+* 
+
+  
+
+  
+
+**PROJECTS:**  
+
+The intern will assist the Ridership Analysis Modelling in the course of its work, as described above. Expected deliverables will include:
+
+* Bus Route and Lion Street Network Matching/Bus Lane Inventory Maintenan

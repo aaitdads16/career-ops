@@ -1,0 +1,21 @@
+**About nFerence:**
+At nFerence Labs, the "Google of Biomedicine" (https://nference.ai/media), we are building the world's first large\-scale computational platform for reverse engineering biology.
+Just as 20th\-century science comprised the deconstruction of physics unlocking all the engineering and tech applications we are so familiar with, this century is witnessing the deconstruction or reverse engineering of biological systems to unlock all kinds of medical and wellness applications. nFerence is one of the few companies with the data, funding, people, and tech to make significant initial forays into this 21st\-century endeavor.
+Our platform is premised on using AI and high\-performance computing to connect clinical observations (phenotypes) to DNA\-level phenomena (genotypes); in the process, it helps unravel biology, enables pharma companies to perform faster and more efficient drug discovery, and aids in early diagnosis of several key diseases.
+We collaborate heavily with premier medical research institutions to derive medical insights from patient information across multiple modalities: text, lab data, images, ECGs, etc.
+Our team is a blend of computer scientists and domain experts (biology and medical MDs, and PhDs from premier universities), and we provide an exciting, open, fast\-paced, dynamic workplace designed to foster innovative solutions. **Skills Required:*** Strong foundation in SQL concepts and ability to write queries.
+* Exposure to data analysis techniques: descriptive, diagnostic, and predictive statistics.
+* Basic knowledge of data visualization; plus point if familiar with creating custom visualizations.
+* Familiarity with Python and libraries such as NumPy, pandas, and scikit\-learn.
+* Bonus if exposure to distributed data analytics frameworks (e.g., Spark).
+* Strong intent and curiosity towards automating data analysis processes.
+* Good critical thinking and communication skills.
+* Comfortable in preparing reports and collaborating with cross\-functional teams.
+
+ **Eligibility:*** Recent graduates (2026 GRADUATED) in Computer Science, Engineering, Statistics, Data Science, or related fields.
+* Prior project work, academic or industry internships in data analysis/visualization will be a plus.
+
+ **Benefits:*** Be a part of the “Google of Biomedicine,” as recognized by the Washington Post.
+* Work with some of the brightest minds in the world, solving exciting real\-world problems.
+* Gain hands\-on exposure to cutting\-edge AI and data analysis in biomedicine.
+* Access to learning opportunities in a collaborative, high\-paced environment.

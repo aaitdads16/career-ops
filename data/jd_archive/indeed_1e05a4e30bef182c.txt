@@ -1,0 +1,35 @@
+**About You**
+
+
+
+You're a law student or recent law graduate fascinated by the intersection of legal work and AI. You want to go beyond classical legal careers and get hands\-on with building AI systems that automate how legal insurers handle cases. You're curious about terms and conditions across jurisdictions, comfortable reading dense insurance policies, and excited about the idea that your legal expertise can directly shape how an AI product works. You learn fast, take ownership, and like working closely with a small team.
+
+
+
+**About INC**
+
+
+
+INC (Iudex Non Calculat) is a pre\-seed AI startup based in Zurich, building infrastructure that automates coverage checks and case handling for legal insurance companies. Legal insurance is a €16\.8B European market where every case still requires 15\-45 minutes of manual review. We compress that to under 2 minutes. We're backed by a paid pilot with a Swiss insurer and a founder with 120\+ B2B customers at his previous AI legal tech company. We work at the intersection of LLM agent systems, document understanding, and domain\-specific reasoning, where accuracy, traceability, and auditability matter.
+
+
+**Tasks**
+---------
+
+
+
+️ **Your Responsibilities**
+
+
+
+As a **Legal Engineering Intern**, you'll sit at the intersection of legal expertise, customer success, and product quality. You are the bridge between our users (claims handlers and legal insurers) and our AI system, making sure it works correctly across the complex landscape of legal insurance terms and conditions (AVBs).
+
+
+* **Legal research \& commentary:** Research legal insurance AVBs (Allgemeine Versicherungsbedingungen) across DACH and European markets, and produce structured commentaries that feed into our AI system's reasoning.
+* **User onboarding:** Onboard new users to the coverage check product, guide them through their first cases, and make sure they reach value quickly.
+* **User interviews:** Conduct structured interviews with claims handlers, legal counsel, and insurance executives to understand workflows, pain points, and unmet needs.
+* **Customer success:** Support users with their day\-to\-day requests, troubleshoot issues, and serve as the first point of contact for the customer base.
+* **Coverage question support:** Assist users with their coverage questions, helping them interpret the system's output on tricky cases and clarifying how the AI reached its conclusion.
+* **Legal events:** Represent INC at legal and insurance industry events (RIAD Congress, DKM Dortmund, Handelsblatt AI in Insurance, and similar) to build relationships and stay close to the market.
+* **Legal engineering workshops:** Organize and run workshops with client teams to translate their policy wordings, exclusions, and decision logic into structured inputs for our AI system.
+* **System evaluation:** Evaluate the coverage check system across different terms and conditions, languages (German, French, Italian, English), and jurisdictions (Switzerland, Germany, Aus

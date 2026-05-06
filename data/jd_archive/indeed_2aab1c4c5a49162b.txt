@@ -1,0 +1,43 @@
+**Vice\-Presidência de Tecnologia**
+
+**Diretoria de Dados \& IA**
+
+**Modelo de trabalho: Hibrido**
+
+  
+
+
+
+A Vice\-Presidência de Dados \& IA atua como núcleo estratégico e operacional que alinha pessoas, processos e tecnologia, promovendo inovação, eficiência, governança e agilidade em todas as iniciativas relacionadas a dados. O CoE de Dados é o primeiro canal de atendimento às demandas federadas em Data \& IA, garantindo soluções robustas, seguras e escaláveis, alinhadas aos objetivos estratégicos da companhia.
+
+ **Responsabilidades e atribuições**  
+
+Responsável por definir e evoluir arquiteturas de soluções de dados e inteligência artificial, garantindo aderência às diretrizes corporativas, escalabilidade, segurança e integração com o ecossistema tecnológico da empresa. Atua em projetos estratégicos, iniciativas de modernização e desenho de soluções fim\-a\-fim.
+
+  
+
+* Definir arquiteturas orientadas a serviços, microsserviços e monolitos moduláveis.
+* Definir e manter a arquitetura de dados corporativa, considerando ambientes multicloud (Azure, AWS, GCP) e on\-premises.
+* Aplicar padrões como event\-driven, hexagonal, DDD, CQRS e clean architecture.
+* Projetar soluções para plataformas de Dados e IA, internas e externas com foco em segurança, versionamento e documentação e reuso.
+* Projetar pipelines de dados escaláveis e eficientes, com uso de ferramentas como Databricks, Delta Lake, Spark e Airflow.
+* Garantir escalabilidade, alta disponibilidade e tolerância a falhas.
+* Garantir a integração entre fontes heterogêneas (SAS, Talend, Alteryx, Teradata, Hadoop).
+* Integrar soluções multicloud (AWS, GCP, Azure) e on\-premises.
+* Apoiar squads e parceiros em projetos estratégicos.
+* Contribuir com a evolução da esteira CI/CD e práticas DevOps/DevSecOps aplicadas a dados.
+* Participar de fóruns técnicos e de governança, contribuindo com boas práticas.
+* Atuar em projetos líderes de squads multidisciplinares de alta performance, atuando como parceiro(a)\-chave desta área no entendimento das necessidades de negócio e viabilização de suas estratégias através de projetos de software.
+* Interagir com as áreas de negócio, TI e seus fornecedores para detalhar escopos derogramação, endereçar desenhos de arquitetura, planejar e acompanhar entregas de desenvolvimento, testes, infraestrutura e licenciamento.
+* Assegurar o estabelecimento de planos de implementação, configuração e o cumprimento dos prazos de entrega e cronograma definidos para implantação de soluções de TI e/ou alterações de sistemas e/ou novas funcionalidades sistêmicas.
+* Disseminar o conhecimento das tecnologias e linguagens aplicáveis no desenvolvimento de sistemas;
+* Interagir com demais áreas da empresa com o intuito de identificar e corrigir problemas e necessidades dos sistemas através de feedbacks consistentes e compartilhamento de boas práticas com equipes e áreas de apoio.
+
+  
+
+**Requisitos e qualificações**  
+
+Atuação em projetos com IA, machine learning e big data.
+
+
+Formação s

@@ -1,0 +1,48 @@
+**Job ID:** 15674
+**Business Unit:** MABSTOA
+**Location:** New York, NY, United States
+**Regular/Temporary:** Intern
+**Department:** NYC Transit Authority
+**Date Posted:** May 6, 2026
+**Description**
+
+
+Department: NYCT \- Buses
+Location: 2 Broadway, New York, NY 10004
+Position Title: Data Analyst \- Automatic Camera Enforcement, Emerging Talent Intern
+Hourly Rate: $21\.00 (Graduate)
+
+All internship positions are onsite and require regular, in\-person attendance at the designated work location.  
+
+**OVERVIEW OF DEPARTMENT:**
+The Fleet Technologies Group leads a portfolio of innovative projects focused on enhancing operations, customer communications, and depot operations.
+
+Automatic camera enforcement (ACE) seeks to use cutting edge camera, license plate recognition, and AI/ML technology to identify violations of traffics laws such as bus lane, bus stop or double\-parking infractions. In this internship, you'll dive into real\-world systems—reviewing vendor compliance with requirements, testing their results –generally in office but occasionally out in the field, and shaping transit network descriptions. You’ll analyze, build scripts and dashboards and present data on operational and financial metrics, and collaborate with vendor AI models to uncover process improvements.
+**RESPONSIBILITIES:**
+The intern will, under professional guidance:
+
+* Analyze system data to evaluate performance and extract actionable insights.
+* Develop scripts for data analysis and transformation.
+* Join field exercises to oversee installations or gather data/evidence for subsequent analysis.
+* Collaborate with project stakeholders to coordinate activities.
+* Create charts and diagrams illustrating system functionality.
+* Compile reports using data from multiple, diverse sources.
+* Document analytical processes and procedures.
+* Attend project meetings and provide input where appropriate.
+
+**PROJECTS:**
+The ACE program comprises three core sub\-projects that interns will actively support:
+
+* Requirements Compliance – oversee and inspect the equipment during installation and then later analyze operational data to ensure compliance with technical specifications.
+* Operational Metrics – Aggregate these data, assist in generating performance reports, and support troubleshooting efforts as needed.
+* Financial Reporting – Consolidate financial data from operational activities and contribute to the preparation of accurate financial reports.
+
+**REQUIRED QUALIFICATIONS:*** Proficiency in Microsoft Office Suite is a must.
+* The candidate should possess organizational, analytical and communication skills.
+* The candidate should be able to work well under pressure and prioritize tasks effectively.
+* The candidate should have a keen eye for detail and be able to work independently while being an active team player.
+* Good with data and scripting skills.
+
+
+**REQUIRED EDUCATION:*** Matriculated in a graduate program in good standing with at least 2\.8 GPA
+* Major(s) Preferred: Data Scien
