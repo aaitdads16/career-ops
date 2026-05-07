@@ -1,0 +1,45 @@
+A Vice\-Presidência de Dados \& IA atua como núcleo estratégico e operacional que alinha pessoas, processos e tecnologia, promovendo inovação, eficiência, governança e agilidade em todas as iniciativas relacionadas a dados. O CoE de Dados é o primeiro canal de atendimento às demandas federadas em Data \& IA, garantindo soluções robustas, seguras e escaláveis, alinhadas aos objetivos estratégicos da companhia.
+
+  
+
+Realizar engenharia de dados, desenvolver modelos matemáticos e implementar algoritmos e visualizações analíticas que atendam diversas áreas da empresa na identificação de oportunidades de negócio, tanto pela otimização de custos, investimentos e processos, quanto pelo crescimento de receita.Acompanhar a evolução tecnológica e científica, devido à constante melhoria de algoritmos, modelos matemáticos e de plataformas tecnológicas na área de Big Data.Acompanhar as mudanças no mercado de telecomunicações, para conseguir entender e prever as tendências do mercado e de comportamento dos consumidores, entregando assim melhores insights e análises para o negócio.Conciliar a excelência técnica dos modelos e análises com as restrições de tempo devido a expectativas de negócio (time\-to\-market) e restrições computacionais (grande volume de dados).Cumprir os requisitos para manutenção do Sistema de Gestão de Saúde e Segurança Ocupacional, participar dos programas de Saúde e Segurança Ocupacional.,Conhecer a Política de Meio Ambiente da Telefônica e implementar nas atividades desenvolvidas diariamente a fim de garantir as boas práticas para gestão ambiental da companhia.
+
+  
+
+Colaboração e Desenvolvimento
+
+  
+
+Liderança técnica, visão estratégica e comunicação clara.
+
+
+Capacidade de influenciar decisões e antecipar riscos.
+
+
+Mentalidade de dono, foco em escalabilidade e resiliência.
+
+ **Responsabilidades e atribuições**  
+
+* Liderar o design e avaliar a arquitetura de dados a ser utilizada para solução de um problema.
+* Construir pipelines robustos, escaláveis e de alta disponibilidade.
+* Resolver incidentes críticos e atuar como referência técnica.
+* Aplicar os padrões, as boas práticas e as políticas definidas pela equipe de governança de dados.
+* Implementar processos de observabilidade (monitoramento, alertas, logging).
+* Orientar Engenheiros Júnior, Pleno e Senior; realizar code reviews.
+* Contribuir na estratégia e roadmap da plataforma de dados.
+
+ **Requisitos e qualificações**  
+
+* Superior Completo \- Certificado de Conclusão
+* Domínio avançado de SQL, pipelines e processamento distribuído.
+* Sólida experiência com Azure cloud e arquitetura de dados.
+* Forte capacidade analítica para otimização e resolução de problemas complexos.
+* Vivência com segurança, privacidade, auditoria e qualidade de dados.
+* Experiência prática com ferramentas como Hadoop, Spark, Databricks, Postgree, Informatica PowerCenter, IDMC, Azure Data Factory (ADF), MongoDB, Kafka.
+
+  
+
+Atuação em projetos com IA, machine learning e big data.
+
+
+Formação superior em Enge

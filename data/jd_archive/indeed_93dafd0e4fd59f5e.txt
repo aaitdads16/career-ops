@@ -1,0 +1,38 @@
+**Date Posted:** 05/06/2026  
+
+**Req ID:** 47923  
+
+**Faculty/Division:** Faculty of Applied Science \& Engineering  
+
+**Department:** Dept of Mechanical \& Industrial Eng  
+
+**Campus:** St. George (Downtown Toronto)
+  
+
+**Existing Vacancy:** Yes
+
+  
+
+
+
+**Description:**
+
+**Course number and title:** MIE1624S – Introduction to Data Science and Analytics
+
+**Course description:** The objective of the course is to learn analytical models and overview quantitative algorithms for solving engineering and business problems. Data science or analytics is the process of deriving insights from data in order to make optimal decisions. It allows hundreds of companies and governments to save lives, increase profits and minimize resource usage. Considerable attention in the course is devoted to applications of computational and modeling algorithms to finance, risk management, marketing, health care, smart city projects, crime prevention, predictive maintenance, web and social media analytics, personal analytics, etc. We will show how various data science and analytics techniques such as basic statistics, regressions, uncertainty modeling, simulation and optimization modeling, data mining and machine learning, text analytics, artificial intelligence and visualizations can be implemented and applied using Python. Python and IBM Watson Analytics are modeling and visualization software used in this course. Practical aspects of computational models and case studies in Interactive Python are emphasized.
+
+**Estimated course enrolment (approximately):** TBD
+
+**Estimated TA support:** TBD
+
+**Class schedule:** TBD
+
+**Sessional dates of appointment:** January to April 2027
+
+**Salary:** $30,000 (per half course inclusive of vacation pay) Please note that should rates stipulated in the collective agreement vary from rates stated in this posting, the rates stated in the collective agreement shall prevail.
+
+**Minimum qualifications:** Applicants should have a strong record of presenting lectures or acting as a teaching assistant. Applicants must be able to demonstrate considerable depth of knowledge and experience in the subject area. All applicants should have excellent communication skills \- both oral and written. Professional Engineer (P.Eng.) or Limited License (LEL) is **strongly preferred**. Engineering Intern (EIT) is also acceptable.
+
+**Description of duties:** Preparation of lectures and course materials; delivery of lectures; supervision of Teaching Assistants; setting and marking of tests and exams; evaluation of final grades; contact with students.
+
+**Application instructions:** Please submit a Unit 3 Sessional Instructor Application Form, Resume and Teaching Dossier **merged into a single PDF file** to the MIE Graduate Office Jonathan Alexander at jonathan.alexander@utoronto.ca no later than **May 29, 2026 at 11:59pm (eastern time)**. The Course Instructor Application Form can be found on the MIE Careers page here: https://www.mie.utoronto.ca/faculty\-staff/caree

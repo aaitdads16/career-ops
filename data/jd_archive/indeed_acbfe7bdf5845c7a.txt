@@ -1,0 +1,25 @@
+**Muito prazer, Somos a Evertec!**
+
+
+A **Evertec** é uma empresa especializada em **tecnologia para o setor financeiro**, com mais de 27 anos de atuação e presença em 26 países da América Latina e Caribe. Com mais de 11 bilhões de transações processadas anualmente, somos referência em soluções que impulsionam a transformação digital do mercado.
+
+
+Oferecemos um portfólio completo de **soluções em software**, atendendo instituições financeiras, empresas e fintechs que buscam **inovação, segurança e eficiência**.
+
+
+Nosso compromisso é com a **excelência tecnológica**, a inclusão financeira e a geração de valor sustentável para clientes, colaboradores e parceiros, promovendo um ecossistema mais conectado e acessível.
+
+  
+
+Requisitos:  
+
+A área de **Segurança da Informação** é responsável por garantir que a organização seja capaz de manter e recuperar suas operações críticas diante de incidentes, crises e interrupções, protegendo pessoas, clientes, ativos estratégicos e a sustentabilidade do negócio. Atua de forma integrada à Governança Corporativa, Gestão de Riscos e Compliance, assegurando que os processos críticos estejam identificados, priorizados, preparados e testados, em conformidade com normas, regulamentos e boas práticas reconhecidas, como a ISO 22301\.
+
+
+Buscamos um **Especialista em Continuidade de Negócios \| BCM**, com perfil estratégico, visão sistêmica e forte capacidade de influência, para atuar como referência técnica e consultiva no desenho, evolução e governança do Programa Corporativo de Continuidade de Negócios Global, em uma das maiores empresas de desenvolvimento de software e soluções para o mercado financeiro do Brasil, onde a resiliência operacional é um pilar essencial da inovação.
+
+ **Esse cargo será responsável por:**
+
+* Liderar e manter o Programa Corporativo de Continuidade de Negócios (BCM), assegurando aderência contínua à ISO 22301 e sua integração à estratégia organizacional e ao apetite a risco. Definir, revisar e governar políticas, normas, metodologias e procedimentos de Continuidade de Negócios, garantindo alinhamento corporativo, clareza e aplicabilidade. Atuar de forma integrada com Gestão de Riscos, Gestão de Crises, Segurança da Informação e Compliance, fortalecendo a resiliência organizacional.
+* Conduzir e supervisionar Análises de Impacto no Negócio (BIA), identificando atividades críticas, impactos, dependências e tempos máximos de tolerância à interrupção, bem como realizar avaliações de riscos de continuidade considerando aspectos operacionais, tecnológicos, humanos, fornecedores críticos e eventos externos. Definir e governar estratégias de continuidade e recuperação em conjunto com as áreas de Tecnologia, Operações e Negócio.
+* Atuar como ponto focal para auditorias internas, externas e regulatórias relacionadas à Continuidade de Negócios, liderando a gestão de evidências, o tratamento de não conformidades e a execução de planos de ação. Monitorar, analisar e reportar indicadores, métricas e KRIs de

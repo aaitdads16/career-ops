@@ -1,0 +1,40 @@
+**Job Description**
+-------------------
+
+
+* **Technical Project Development**
+	+ Design and develop full\-stack web or mobile applications for research, prototyping, and proof\-of\-concept initiatives, covering front\-end, back\-end, APIs, and databases.
+	+ Translate research concepts into functional applications that deliver user value and data\-driven insights.
+	+ Co\-lead and contribute to ongoing projects, including:
+		- Development and maintenance of a simulated trading platform, ensuring performance, reliability, and minimal downtime.
+		- Delivery of a Due Diligence Pipeline aligned with client requirements and timelines.
+		- Operation and maintenance of infrastructure supporting an XRPL validator and EVM sidechain, ensuring high availability and performance.
+	+ Identify, troubleshoot, and resolve system issues proactively across the stack.
+	+ Mentor and collaborate with interns, supporting the development and testing of prototypes and contributing to open\-source knowledge assets in the financial ecosystem.
+	
+	Maintain well\-structured documentation, research logs, and version tracking for all projects.  
+	+
+* **Developer Community \& Industry Outreach**
+	+ Build and maintain relationships with industry and academic partners through events, conferences, and collaborative initiatives.
+	+ Organize and lead community engagement activities such as workshops, lab sessions, brownbag talks, and technical content (e.g., podcasts).
+	
+	Contribute to growing an active developer ecosystem around the lab’s platforms and research.  
+	+
+* **Research \& Lab Support**
+	+ Support research initiatives related to open\-sourcing the trading simulation platform, including:
+		- Validating methodologies and experimental design
+		- Coordinating experiments and simulations
+		- Collecting and integrating data from industry events and public datasets
+		- Performing data analysis using statistical and computational tools
+	+ Participate actively in technical discussions, planning sessions, and cross\-functional collaboration.
+	+ Maintain and update the lab’s WordPress site with accurate and relevant content.
+	+ Support the planning and execution of lab activities and initiatives.
+**Qualifications**
+------------------
+
+
+* Strong full\-stack development experience, with proficiency in modern front\-end (e.g., React, Angular) and back\-end frameworks (e.g., Node.js, Python). Solid understanding of APIs, databases (SQL/NoSQL), and scalable web architecture.
+* Experience deploying and maintaining applications on cloud platforms (AWS, GCP, or Azure), including debugging, performance optimization, and ensuring system reliability. Familiarity with Docker and CI/CD is a plus.
+* Ability to take ownership of end\-to\-end systems, from development to production, and to work effectively in both product and research\-driven environment with evolving requirements.
+* Fluent with AI tools, APIs and AI App developments.
+* Familiarity with blockchain or distributed systems (e.g., XRPL, E

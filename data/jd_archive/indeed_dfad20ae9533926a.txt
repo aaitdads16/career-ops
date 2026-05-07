@@ -1,0 +1,39 @@
+Somos **um dos maiores bancos privados do Brasil**, conforme o ranking do Banco Central. E temos muito orgulho em dizer que, pelo segundo ano consecutivo, **fomos reconhecidos como a melhor instituição financeira para trabalhar no Brasil**, segundo o ranking da GPTW 2025! Também recebemos o selo de Diversidade na categoria Mulher, reforçando nosso compromisso com a equidade.  
+
+  
+
+Nossa cultura acontece de verdade: sendo simples, corretos, parceiros e corajosos. Valorizamos as relações, a inovação e um ambiente leve, cada vez mais colaborativo e com intencionalidade no avanço da diversidade e inclusão.  
+
+Estamos em constante evolução e construímos **\#parcerias** de sucesso para entregarmos nosso propósito de **tornar mais tranquila a vida financeira de pessoas e empresas**.  
+
+Se identificou? Então venha trabalhar com a gente!
+### **Responsabilidades:**
+
+* Atua na construção e industrialização de agentes de IA, garantindo que sejam escaláveis, seguros e integrados ao ecossistema BV.
+* Desenvolve prompts avançados e lógica dos agentes, assegurando aderência às regras de negócio e performance.
+* Operacionaliza modelos de IA em pipelines produtivos, com governança e observabilidade.
+* Integra agentes com ferramentas core corporativas (ex.: Jira, SharePoint) e sistemas internos.
+* Colabora com Engenharia de Software para arquitetura robusta e expansão de conhecimento em IA.
+* Apoia a avaliação e priorização casos de uso de IA com foco em impacto real, viabilidade técnica e alinhamento ao stack do banco.
+* Atua como elo entre experimentação e aplicação prática;
+* Identificar oportunidades de automação e IA nos fluxos analisados.
+
+Estruturar casos de uso em lógica input processamento* output.
+* Validar viabilidade técnica e regulatória com Engenharia e Arquitetura.
+* Acompanhar pilotos e avaliar critérios de sucesso antes da escala.
+* Atuação em modelo hibrido próximo a estação CPTM Morumbi.
+
+### **Requisitos técnicos desejáveis:**
+
+* Uso de ferramentas de IA generativa (frameworks como ADK, LangChain/LangGraph,crewAI, agentspace, agentengine, LLMs, soluções de workflow e orquestração low\-code).
+* Conhecimento de APIs, integração e orquestração.
+* Experiência com criação de agentes.
+* Conhecimento de estruturas de prompts e refino de modelos orientados a tarefa.
+
+**Diversidade e inclusão**  
+
+O BV atua intencionalmente em prol da aceleração da equidade e representatividade no mercado financeiro, respeitando e apoiando a diversidade em toda sua pluralidade e interseccionalidade, garantindo uma transformação social positiva.
+
+Por isso, convidamos pessoas negras, mulheres, profissionais com deficiência, comunidade LGBTQIA\+ e pessoas de qualquer idade a conhecerem a gente um pouco mais e a se inscreverem nesta vaga.
+
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Fi

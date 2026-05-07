@@ -1,0 +1,32 @@
+**About Us**  
+
+Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid.
+
+
+At Visa, you'll have the opportunity to create impact at scale — tackling meaningful challenges, growing your skills and seeing your contributions impact lives around the world.
+
+
+Join Visa and do work that matters – to you, to your community, and to the world. Progress starts with you.
+
+**Job Description**
+
+
+ Visa Research conducts Applied and Fundamental Research and was created to lead the company in pushing the boundaries of payment related technologies on a global scale. We engage with the company's numerous technology and product teams, world\-wide business partners, academics, and governments, to explore and develop technologies that will shape the future of the payments industry and impact the lives of billions of people.
+
+  
+
+The Staff Research Scientist will work with fellow researchers and cross\-functional partners to advance the long\-term research agenda in quantum information and computation, helping deliver innovative technologies and insights to Visa's strategic products and businesses. The ideal candidate will focus on conducting advanced research in one or more subfields, for example, quantum error correction, quantum optimization, quantum simulation, quantum machine learning, distributed quantum computing and/or quantum security and privacy with the aim of applying their research outcomes to financial services and payments. Their work may include developing and implementing quantum algorithms to address financial applications such as portfolio optimization, risk analysis, and derivative pricing.
+
+  
+
+This role represents an exciting opportunity to make key contributions to Visa's strategic vision as a world\-leading company. The successful candidate must have a strong academic track record, demonstrated by publications and solid academic credentials. The successful candidate will be a self\-starter comfortable with ambiguity, with strong attention to detail, and excellent collaboration skills.
+
+ **Essential Functions:**
+
+* Conduct theoretical and practical research and development in a subfield of quantum information and computation with strong potential implications for finance and payments.
+* Design and test novel algorithms and models to advance state\-of\-the\-art in quantum computing.
+* Collaborate with cross\-functional teams to explore impactful applications of quantum computing.
+* Stay updated with the latest advancements and breakthroughs in their expertise areas and the broader field of quantum computing.
+* Publish research findings in top\-tier conferences and journals.
+* Mentor interns and contribute to a collaborative research environment.
+**This is a hybrid position.****Expectation****of****days in****the****office w

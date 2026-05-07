@@ -1,0 +1,37 @@
+**What to Expect**
+Consider before submitting an application:
+
+  
+
+This position is expected to start August or September 2026 and continue through fall term (ending approximately December 2026\) or continuing into Winter/Spring 2027 if available and there is an opportunity to do so. We ask for a minimum of 12 weeks, full\-time (40 hours/week) and on\-site, for most internships. Our internship program is for students who are actively enrolled in an academic program. Recent graduates seeking employment after graduation and not returning to school should apply for full\-time positions, not internships.
+
+
+International Students: If your work authorization is through CPT, please consult your school on your ability to work 40 hours per week before applying. You must be able to work 40 hours per week on\-site. Many students will be limited to part\-time during the academic year.
+
+
+Internship Program at Tesla
+
+
+The Internship Recruiting Team is driven by the passion to recognize and develop emerging talent. Our year\-round program places the best students in positions where they will grow technically, professionally, and personally through their experience working closely with their Manager, Mentor, and team. We are dedicated to providing an experience that allows the intern to experience life at Tesla by including them in projects that are critical to their team’s success.
+
+
+About the Team
+
+
+The Integration Platforms team develops technology to support our ever\-expanding customer fleet from prototype to production. We are at an inflection point — adopting an AI\-first strategy to fundamentally transform how our tools are built, maintained, and scaled. A member of this team will build AI\-powered technology that interfaces with our vehicles and accelerates engineering workflows across the organization.
+
+
+Examples of products we've shipped and are actively evolving include:
+
+* A tool to interact with any vehicle remotely, collecting status and updating software/configurations
+* A tool to analyze trillions of data points for anomalies
+* A tool to allow engineers to dynamically query the fleet and collect real\-time responses to questions like "let me see data from a random sample of 100 cars currently driving at least 60 MPH with the windows down and the AC on"
+* A technology to live stream data off any vehicle, at anytime, anywhere in the world
+* A tool that automatically aggregates information from many sources surrounding an event to build a contextual timeline
+* AI agents that automate the software release cycle, feedback triage, and fleet anomaly detection
+* MCP (Model Context Protocol) servers that make our tools accessible to AI\-powered development workflows
+* A centralized AI platform enabling engineers across the organization to contribute to our tools using AI\-assisted development
+  
+
+**What You'll Do**
+As a Software Development Engineer Intern on this team, you will go deep on multiple domains of product development with a strong emphasis on

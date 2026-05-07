@@ -1,0 +1,53 @@
+**Date Posted:** 05/06/2026  
+
+**Req ID:** 47914  
+
+**Faculty/Division:** Faculty of Applied Science \& Engineering  
+
+**Department:** Dept of Mechanical \& Industrial Eng  
+
+**Campus:** St. George (Downtown Toronto)
+  
+
+**Existing Vacancy:** Yes
+
+  
+
+
+
+**Description:**
+
+
+Course number and title: MIE1628 – Cloud\-Based Data Analytics
+
+  
+
+Course description: This course covers Big Data fundamentals including an overview of Hadoop MapReduce and Spark. Covers Cloud fundamentals and Big Data Analytics on Cloud\-based platforms including an introduction to a specific Cloud platform such as Microsoft Azure, Amazon Web Services, or Google Cloud Platform along with common practices for this platform. Covers Cloud technologies to store and process structured, unstructured and semi\-structured data. Covers Cloud\-based implementation of Real\-time Analytics and Machine Learning.
+
+  
+
+Estimated course enrolment (approximately): TBD
+
+  
+
+Estimated TA support: TBD
+
+  
+
+Class schedule: TBD
+
+  
+
+Sessional dates of appointment: September to December 2026
+
+  
+
+Salary: $30,000 2 Sessions (per half course inclusive of vacation pay) Please note that should rates stipulated in the collective agreement vary from rates stated in this posting, the rates stated in the collective agreement shall prevail.
+
+  
+
+Minimum qualifications: Applicants should have a strong record of presenting lectures or acting as a teaching assistant. Applicants must be able to demonstrate considerable depth of knowledge and experience in the subject area. All applicants should have excellent communication skills \- both oral and written. Professional Engineer (P.Eng.) or Limited License (LEL) is strongly preferred. Engineering Intern (EIT) is also acceptable. Description of duties: Preparation of lectures and course materials; delivery of lectures; supervision of Teaching Assistants; setting and marking of tests and exams; evaluation of final grades; contact with students.
+
+  
+
+Application instructions: Please submit a Unit 3 Sessional Instructor Application Form, Resume and Teaching Dossier merged into a single PDF file to the MIE Graduate Office Jonathan Alexander at jonathan.alexander@utoronto.ca no later than May 29, 2026 at 11:59pm (eastern time). The Course Instructor Application Form can be found on the MIE Careers page here: https://www.mie.utoronto.ca/faculty\-staff/careers/. Applicants must include full contact information of their supervisor, plus two U of T employees (faculty of staff) who can testify to the teaching skills of the applicant. If during the application and/or selection process you require accommodation due to a disability, please contact Jonathan Alexander at jonathan.alexander@utoronto.ca. The appointment will be made at the earliest possible time before the commencement of classes by the Associate Chair, Graduate Studies of the Department of Mechanical and Industrial Engineering. No other offers or notices of the outcome of applications are authorized by the Depart

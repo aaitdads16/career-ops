@@ -1,0 +1,20 @@
+NVIDIA has been transforming computer graphics, PC gaming, and accelerated computing for more than 25 years. It’s a unique legacy of innovation that’s fueled by great technology—and amazing people. Today, we’re tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self\-driving cars that can understand the world. Doing what’s never been done before takes vision, innovation, and the world’s best talent.
+
+
+NVIDIA is looking for a highly motivated Software Engineer intern to join its dynamic and fast\-paced Tools and Infrastructure team. Join our innovative AI team for an internship focused on the exciting field of AI tools and Agentic AI. This role offers a unique opportunity to work hands\-on with Large Language Models (LLMs) and orchestration frameworks (e.g., LangChain) to design, build, and deploy intelligent, autonomous agents and AI tools that solve real\-world problems. You will be an integral part of a team pushing the boundaries of generative and autonomous systems, gaining exposure to the full lifecycle of agent development, from conceptual design and prompt engineering to testing and production deployment. Work at the forefront of technical innovation with some of the best in the industry by crafting, developing, and deploying AI tools, agents to improve developer productivity across all of NVIDIA's organizations.
+
+**What** **you** **will** **be** **doing:**
+
+* Agent Development \& Prototyping: Design and rapidly prototype LLM\-powered agents that exhibit planning, reasoning, memory, and tool\-use capabilities to automate complex, multi\-step tasks.
+* Prompt Engineering: Craft, refine, and test high\-performance prompts, instructions, and system messages to guide agent behavior and optimize task completion accuracy.
+* Orchestration \& Integration: Work with agent orchestration frameworks to connect agents with internal and external APIs, databases, and knowledge bases (e.g., Vector DBs for RAG) to enable real\-time actions.
+* Testing and Evaluation: Develop metrics and meticulous testing workflows to benchmark agent performance, reliability, and safety across various use cases.
+* Documentation: Maintain clear user documentation of agent architectures, workflows, and experimental results.
+* Research \& Exploration: Stay ahead with the latest developments in generative AI, agent architectures, and multi\-agent systems, and propose innovative applications for business challenges.
+* Collaborations: You will thrive being in the critical path supporting thousands of developers, working for billion\-dollar business lines \- with responsiveness, thoroughness and collaboration
+
+**What** **we** **need** **to** **see:**
+
+* Pursuing a BS, MS or PhD with a focus on Computer Science, Computer Engineering, or a related field
+* Conceptual understanding of LLMs, Generative AI, and core Machine Learning concepts.
+* Demonstrated passion or basic project experienc

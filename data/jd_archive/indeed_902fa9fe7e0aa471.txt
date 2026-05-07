@@ -1,0 +1,32 @@
+**What to Expect**
+Consider before submitting an application:
+
+
+This position is expected to start August or September 2026 and continue through fall term (ending approximately December 2026 or later, if available). We ask for a minimum of 12 weeks, full\-time (40 hours/week) and on\-site, for most internships. Our internship program is for students who are actively enrolled in an academic program. Recent graduates seeking employment after graduation and not returning to school should apply for full\-time positions, not internships.
+
+
+International Students: If your work authorization is through CPT, please consult your school on your ability to work 40 hours per week before applying. You must be able to work 40 hours per week on\-site. Many students will be limited to part\-time during the academic year.
+
+  
+
+About the Team
+
+
+The Firmware Content Management team ensures that in\-car content and features are localized to users around the world. We’re also responsible for the development and integration of software Release Notes — the first thing customers see when they receive an update.
+
+
+As an intern, you’ll sit at the intersection of content, code, and global impact, helping build tools and automation that allow us to deliver high\-quality, localized updates faster and more efficiently. You’ll take ownership of the end\-to\-end integration of Release Notes for Tesla’s over\-the\-air (OTA) software updates, ensuring every customer receives the right content for their vehicle. Your work will have immediate, visible impact — including on social media, where Release Notes are frequently shared by users around the world.
+
+ **What You'll Do*** Collaborate with developers and feature owners to support accurate and timely Release Notes integration
+* Build web services to streamline content management and deployment
+* Create automation scripts to simplify localization and content workflows
+* Test and validate content to ensure seamless delivery in software updates
+* Develop tools and reporting frameworks to monitor integration health and automation reliability
+  
+
+**What You'll Bring*** Currently pursuing a degree in Computer Science or a related field, with an expected graduation date between 2026–2027
+* Backend development experience with Node.js or Python/Ruby/Bash for content processing Understanding of internationalization (i18n) libraries like vue\-i18n, react\-intl, or i18next
+* Experience with Amazon RDS and at least one of its supported databases, such as MySQL, PostgreSQL, MariaDB, Oracle, SQL Server, or Amazon Aurora
+* Basic understanding of file handling, data mapping, and API integration Experience with Qt Linguist .ts or XLIFF .xml formats (a plus)
+* Proficient in JavaScript, HTML, and CSS. Familiarity with modern web frameworks such as Vue.js, React, or Angular
+* Experience with sequence\-to\-sequence architectures and fine\-tuning large pre\-trained models for domain\-specific natural language tasks, including optimization for inference

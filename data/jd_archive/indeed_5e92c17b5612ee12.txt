@@ -1,0 +1,30 @@
+**Job ID:** 15692
+**Business Unit:** New York City Transit
+**Location:** Garden City, NY, United States
+**Regular/Temporary:** Intern
+**Department:** NYC Transit Authority
+**Date Posted:** May 6, 2026
+**Description**
+
+
+Department: Department of Subways
+Location: 65 Commercial Street, Brooklyn, NY 11222
+Position Title: DCE Emergency Response Information Technology, Emerging Talent Intern
+Hourly Rate: $21\.00 (Graduate)
+
+All internship positions are onsite and require regular, in\-person attendance at the designated work location.  
+
+**OVERVIEW OF DEPARTMENT:**
+The Division of Car Equipment's (DCE) Emergency Response Unit responds to incidents involving the Subway Car fleet, Emergency Response personnel are strategically located at various locations in the Subway system to ensure a rapid response to incidents.
+
+The intern will support Information Technology and Computer Science Engineering projects by assisting with application development, data management, dashboard creation, workflow automation, and system documentation. They will work with tools such as Power Apps, Power Automate, SharePoint, Power BI, Dataverse, project plan, MS access, office 365, SQL, Azure cloud, and related technologies to help improve operational efficiency, reporting, and digital transformation initiatives. The intern will also assist with troubleshooting, testing, user support, and preparing technical documentation for ongoing IT projects.
+**RESPONSIBILITIES:*** Support and maintain the DCE\-ERU Timekeeping App for daily RCI and supervisor sign\-in/sign\-out records, including testing, troubleshooting, and SharePoint data verification.
+* Assist with RCI Room Inspection Forms, including form testing, data validation, report review, and ensuring inspection records are properly posted to SharePoint.
+* Support Material Receipt Forms by helping ensure daily material receipt data is submitted, tracked, and posted correctly to the SharePoint site.
+* Perform field IT support for Emergency Response operations by assisting with computer, laptop, CPU, monitor, printer, network, and login issues at different stations, yards, and facilities across New York City.
+* Assist with troubleshooting handheld devices, barcode scanners, tablets, mobile devices, and other field technology used by employees for inspections, reporting, material tracking, and emergency response activities.
+* Support engineering\-related technology issues, including HVAC monitoring devices, temperature tracking equipment, train\-car data collection tools, and related computer\-connected hardware.
+* Monitor and help maintain Power Automate workflows used for notifications, approvals, PDF generation, Excel exports, SharePoint updates, and daily operational reporting.
+* Assist with database backup, data quality checks, Power BI/dashboard reporting, user support, and technical documentation for Power Apps, SharePoint forms, workflows.
+
+**PROJECTS:*** DCE\-ERU Timekeeping App: Support and maintain the Power Apps\-based

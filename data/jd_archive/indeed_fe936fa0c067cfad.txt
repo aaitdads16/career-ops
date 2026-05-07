@@ -1,0 +1,58 @@
+**Job ID:** 15686
+**Business Unit:** New York City Transit
+**Location:** Brooklyn, NY, United States
+**Regular/Temporary:** Intern
+**Department:** NYC Transit Authority
+**Date Posted:** May 6, 2026
+**Description**
+
+
+Department: Department of Subways
+Location: 130 Livingston Street, Brooklyn, NY 11201
+Position Title: Database Administrator MS Access, Emerging Talent Intern
+Hourly Rate: $19\.00 (Undergraduate)
+
+All internship positions are onsite and require regular, in\-person attendance at the designated work location.  
+
+**OVERVIEW OF DEPARTMENT:**
+The Department is Subways is responsible for the operations and maintenance of the subway infrastructure system. This Division is responsible for Construction Projects in that system with given budget and schedule. The information reported and managed is focused primarily on construction: time management, job progress, construction activities, employee assignments, and schedule.
+
+The intern will support in administer, optimize, create, and trouble shoot various databases and spreadsheets.
+**RESPONSIBILITIES:**
+Learn and apply spreadsheet (MS Excel) and database (MS Access) skills for use in construction. Support in the following areas:
+
+* Learn the existing database and spreadsheets in use.
+* Optimize and improve existing database and spreadsheets.
+* Trouble shoot User issues encountered during use.
+* Develop new objects in Excel and Access.
+* Understand how data is collected, managed, and assessed.
+* Updating various databases and spreadsheets. Review and assess data for quality and accuracy.
+* Support in preparing and developing reports, graphs and charts and present your work to managers.
+* Learn basics in Transit operations and construction.
+* Interact with end Users.
+* Provide help desk support and trouble\-shooting support.
+* Opportunity to learn Enterprise Asset Management (EAM) \-SAP based software.
+* General office duties (data entry, etc.)
+
+**PROJECTS:**
+Assigned multiple databases and spreadsheets used in project management and construction.
+
+* Construction Projects
+* Financial Projects
+* Asset Condition Project.
+Interns will be supporting multiple projects in improving User experience and decision\-making.* Demonstration and presentation of these projects to end\-user.
+* Verifying and auditing User entries.
+* Support in handling trouble\-calls.
+* Support in developing new spreadsheets and databases as requested by stakeholder.
+  
+
+**REQUIRED QUALIFICATIONS:*** Proficiency in Microsoft Office Suite is a must.
+* The candidate should possess organizational, analytical and communication skills.
+* The candidate should be able to work well under pressure and prioritize tasks effectively.
+* The candidate should have a keen eye for detail and be able to work independently while being an active team player.
+* Intermediate knowledge in MS Excel and MS Access.
+
+  
+
+**REQUIRED EDUCATION:*** Matriculated in an undergraduate program in good standing with at least 2\.5 GPA.
+* Major(s) Preferred: Computer

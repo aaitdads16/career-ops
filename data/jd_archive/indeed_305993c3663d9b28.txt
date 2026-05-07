@@ -1,0 +1,38 @@
+We are looking for a motivated Full Stack Intern to support the development of web applications and AI\-powered business features.
+
+
+**Responsibilities**
+
+
+* Develop and maintain backend services such as Spring Boot, Fast API
+* Build CRUD\-based web applications and REST APIs
+* Assist in frontend development using frameworks such as React or Vue
+* Support integration of AI chatbot and AI agent features into web applications
+* Collaborate with the team to implement business requirements and new product features
+* Participate in testing, debugging, and deployment activities
+
+
+**Requirements**
+
+
+* Basic understanding of Java and Spring Boot
+* Familiar with development in Python
+* Familiarity with CRUD operations and RESTful APIs
+* Experience with frontend frameworks such as React or Vue
+* Basic understanding of AI agents, LLMs, or chatbot workflows
+* Understanding of web development fundamentals (HTML, CSS, JavaScript)
+
+
+**Nice to Have**
+
+
+* Experience with databases such as MySQL or PostgreSQL
+* Knowledge of Git and version control
+* Exposure to cloud platforms or deployment tools
+
+
+**Internship Scope**
+
+
+
+Assist with web development for business requirements and features, including AI chatbot integrations and internal tools.

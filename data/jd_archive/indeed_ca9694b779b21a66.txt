@@ -1,0 +1,40 @@
+**Line of Service**
+
+Assurance
+**Industry/Sector**
+
+TMT X\-Sector
+**Specialism**
+
+Product Innovation
+**Management Level**
+
+Intern/Trainee
+**Job Description \& Summary**
+
+At PwC, we help clients build trust and reinvent so they can turn complexity into competitive advantage. We’re a tech\-forward, people\-empowered network with more than 370,000 people in 149 countries. Across audit and assurance, tax and legal, deals and consulting we help clients build, accelerate and sustain momentum. Find out more at www.pwc.com.
+  
+
+  
+
+Our Risk Services Practice provides an invaluable safeguard in today’s complex operating environment with insights and independent assurance. We work with clients to deliver business control to help them to protect and strengthen every aspect of their business from people to performance, systems to strategy, business plans to business resilience. We help clients manage, mitigate and control risks from potential cybersecurity breaches to possible breaks in the supply chain. We assess and prepare businesses by looking into their technology, finance, data analytics, regulatory requirements, data security and privacy, internal audit, and the third parties our clients rely on, to help clients deliver quality results and meet their strategic objectives.
+**About the Role**
+
+We are looking for motivated and curious Polytechnic students to join PwC’s Cybersecurity – Security Testing team as interns for a period of 6 months or 1 year. This internship offers an opportunity to gain hands\-on experience in offensive security and security assessments \- including Vulnerability Assessment and Penetration Testing (VAPT), Host Configuration Review (HCR), Source Code Review (SCR) and Red Teaming (RT) within a professional services environment.
+
+
+In addition to supporting the team’s day\-to\-day security testing engagements, interns will also have the opportunity to explore how Artificial Intelligence (AI) and automation tools can be used to improve productivity, streamline workflows, and enhance both our internal processes and our technical offensive security work.
+
+
+**Key Responsibilities**
+
+As a Cybersecurity Security Testing Intern, you may be involved in the following:
+
+
+* Support the team in performing security assessments, including VAPT, HCR and SCR.
+* Assist in Penetration Testing (PT) engagements across web, mobile, infrastructure and other targets \- learning to identify, validate and safely exploit vulnerabilities.
+* Support Red Teaming (RT) engagements by helping to simulate real\-world adversary Tactics, Techniques and Procedures (TTPs) to test client detection and response capabilities.
+* Assist in setting up test environments, executing test cases, analysing results, and documenting findings and recommendations.
+* Help prepare clear, well\-structured reports and supporting evidence for client deliverables.
+* Conduct research on emerging cyber threats, vulnerabilities, tools and offensive security techniques.
+* Explore and apply A

@@ -1,0 +1,24 @@
+NVIDIA is searching for outstanding AI researchers to join the NVIDIA Research Singapore team. We are dedicated to the development and optimization of GPU\-accelerated efficient AI computing, covering language model, visual generation, and robotics. We focuses on pushing the boundaries of generative AI by designing models that are not only powerful but also efficient in terms of computational resources. You will be part of an amazing collaborative research team that consistently publishes at the top venues in machine learning, robotics and computer vision. Your contributions have the chance to create real impact on our products.
+
+**What you'll be doing:**
+
+* Research, design and accelerate novel generative AI models on NVIDIA GPUs
+* Publish original research
+* Collaborate with other team members and teams
+* Mentor interns
+* Speak at conferences and events
+* Transfer technology to product groups
+* Collaborate with external researchers outside NVIDIA
+
+**What we need to see:**
+
+* Excellent knowledge of LLM and foundation models
+* Publication at leading conferences (ie. CVPR, ICML, ICLR, ICCV, NeurIPS, MLSys, etc)
+* 4 years of experience.
+* PhD degree in computer science or electrical engineering with strong research track records.
+* Excellent programming skills in some rapid prototyping environment such as Python; C\+\+ and parallel programming (e.g., CUDA) is a plus
+* Knowledge of common machine learning frameworks, such as PyTorch
+* Excellent communication skills
+
+
+NVIDIA is widely considered to be one of the technology world's most desirable employers. We have some of the most forward\-thinking and productive people in the world working for us. Looking forward to hear from you

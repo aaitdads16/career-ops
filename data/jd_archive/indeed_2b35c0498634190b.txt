@@ -1,0 +1,33 @@
+At the MBTA, we envision a thriving region enabled by a best\-in\-class transit system. Our mission is to serve the public by providing safe, reliable, and accessible transportation. MBTA’s Core Values are built around safety, service, equity, sustainability, and culture. Each employee that works for the MBTA performs their roles based on our vision, mission, and values. This includes attendance, participation, and contribution in local safety committee meetings as needed.
+
+
+
+**Job Summary**
+---------------
+
+
+The Endpoint Technology Analyst is a specialized role focused on the implementation, support, and ongoing maintenance of MBTA endpoints, including computers, mobile devices (phones and tablets), peripherals, and audio/visual (A/V) equipment. This role includes a strong emphasis on endpoint setup, Microsoft Intune and other endpoint management platforms, and the efficient rollout of devices and related technology. The position will require working at various MBTA locations in the field to support the rollout and ongoing support of endpoints and applications. The analyst will work closely with IT, operations, training teams, and external vendors to ensure a seamless and productive endpoint experience for employees, with a particular focus on building rapport and effectively communicating technical information to frontline workers.
+
+  
+
+**Duties \& Responsibilities**
+------------------------------
+
+
+* Execute the physical setup and configuration of endpoints (computers, tablets, smartphones, peripherals, A/V equipment) for large\-scale deployments.
+* Coordinate with vendors for procurement, staging, and delivery of endpoint hardware and accessories.
+* Install and configure necessary software applications, operating systems, and security settings.
+* Troubleshoot endpoint hardware and software issues during deployment and ongoing use.
+* Manage endpoint inventory and track device lifecycle.
+* Enroll and configure endpoints in Microsoft Intune and other endpoint management systems.
+* Troubleshoot endpoint management\-related issues and provide user support.
+* Maintain endpoint management documentation and procedures.
+* Support wired, wireless, and cellular network connectivity for endpoints.
+* Troubleshoot connectivity issues and coordinate with network teams or carriers for resolution.
+* Maintain a strong understanding of endpoint technologies, including Windows, macOS, iOS, Android, peripherals, and A/V systems.
+* Provide technical support and guidance to users on endpoint\-related issues.
+* Assist with development of user guides, training materials, and support documentation for endpoints and applications.
+* Train employees on endpoint usage and best practices.
+* Travel to and work at various MBTA locations to support the rollout, configuration, ongoing maintenance, and troubleshooting of endpoints and related systems.
+* Provide on\-site technical assistance and troubleshooting to end\-users at different worksites.
+* Perform all other duties and

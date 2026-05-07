@@ -1,0 +1,35 @@
+Total Number of Openings
+
+
+1**Chevron** is accepting online applications for the position **Commercial Analyst** through **May 20th 11:59 PM.**
+
+
+We are seeking an experienced Distillates Commercial Analyst to join our Analytics \& Market Intelligence team within Supply \& Trading, embedded directly with the trading desk in London. This role serves as the analytical backbone of the distillates book—responsible for market intelligence, commercial decision support, and strategic analytics across ULSD, jet fuel, heating oil, AGO, and gasoil markets globally. The ideal candidate combines deep distillates market expertise with strong quantitative skills and the ability to translate complex data into actionable trading insights.
+
+**Responsibilities may include but are not limited to:**
+
+**A. Market Intelligence \& Fundamentals**
+
+* Develop and maintain supply/demand balances for middle distillates across key regions (USGC, ARA, Singapore/Asia)
+* Track refinery utilization, outages, maintenance schedules, crude diet changes, and yield shifts impacting distillate supply
+* Monitor global trade flows, arbitrage economics (pipeline, marine, storage), freight dynamics, and blending opportunities
+* Analyze location spreads, prompt structure, crack spreads (e.g., ULSD vs. crude), time spreads, basis differentials, and seasonality
+* Integrate geopolitical, regulatory, and macroeconomic developments into short\- and medium\-term market views
+* Coordinate with cross\-commodity analysts (crude, light ends, fuel oil, chemicals) to identify cross\-barrel opportunities and emerging market dislocations
+* Engage with data vendors, industry consultancies, and market commentators to stay current with evolving market trends
+**B. Analytics \& Decision Support**
+
+* Build, enhance, and maintain Python\-based analytical tools, models, and dashboards that generate trading features and signals
+* Develop scenario\-based frameworks and stress tests to evaluate trading strategies, blending economics, and storage optimization
+* Deliver bespoke analytical deep\-dives on market structure, integrated value\-chain dynamics, and structured trade ideas
+* Support structuring and evaluation of term deals, arbitrage strategies, and inventory positioning recommendations
+* Translate complex data into clear, actionable market signals for traders and senior leadership
+**C. Stakeholder Engagement \& Collaboration**
+
+* Build and maintain relationships with counterparties, brokers, data vendors, and market commentators
+* Present market views, trade rationale, and performance summaries to leadership and cross\-functional teams
+* Collaborate with IT and data engineering teams on system enhancements, data pipelines, and automation initiatives
+* Work with strategic programs to continuously modernize ways of working and reduce operational waste
+**Required Qualifications:**
+
+* Bachelor's degree in Economics, Finance, Engineering, Mathematics, Statistics, or a related quantitative field; Master's degree

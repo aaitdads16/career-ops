@@ -1,0 +1,31 @@
+**Location:**Providence, RI, US, 02903
+**Requisition ID:** 19233
+  
+Brightstar is an innovative, forward\-thinking global leader in lottery that builds on our renowned expertise in delivering secure technology and producing reliable, comprehensive solutions for our customers. As a premier pure play global lottery company, our best\-in\-class lottery operations, retail and digital solutions, and award\-winning lottery games enable our customers to achieve their goals, fulfill player needs and distribute meaningful benefits to communities. Brightstar has a well\-established local presence and is a trusted partner to governments and regulators around the world, creating value by adhering to the highest standards of service, integrity, and responsibility. Brightstar has approximately 6,000 employees. For more information, please visit www.brightstarlottery.com.Global Leader in Lottery Solutions \| Brightstar LotteryDiscover Brightstar Lottery, the global leader in lottery innovation. Safe, secure, and engaging solutions that benefit communities and meet player needs.**Overview**
+
+The People \& Culture Automation Analyst Intern is a delivery‑focused role designed for candidates who already have foundational knowledge of automation, low‑code platforms, and basic development concepts and are ready to apply those skills in a real enterprise environment.
+
+  
+
+
+
+This role actively contributes to designing, building, and testing intelligent automation and agent‑based solutions that support People \& Culture processes. The intern will work hands‑on with Microsoft Copilot Studio, Power Automate, and related tools, producing working automation components, supporting proofs of concept (PoCs), and contributing to solutions that may progress toward production.
+
+  
+
+
+
+This position is ideal for a candidate interested in AI‑enabled automation, agent orchestration, and the progression from low‑code to pro‑code development, with an expectation of tangible deliverables and measurable output, not just observation or learning.
+
+**Responsibilities**
+* Help design, configure, and build intelligent agents using Microsoft Copilot Studio.
+* Develop and maintain automation workflows using Power Automate, including integrations with Microsoft 365, SharePoint, Teams, and other enterprise systems
+* Help translate defined requirements into working automation solutions
+* Investigate solutions from low‑code implementations to pro‑code extensions where appropriate
+* Support the development and iteration of automation and agent PoCs that demonstrate business value
+* Apply automation and agent‑based concepts in a real enterprise People \& Culture environment
+* Strengthen practical skills in low‑code and introductory pro‑code development
+* Understand how People \& Culture business needs are translated into technical automation solutions
+* Build experience delivering solutions that move beyond concept into real use
+**Qualifications**
+* Currently pursuing a Bachelor’s degree in Computer

@@ -1,0 +1,58 @@
+**Software Engineer Intern**
+
+
+At some point in the future, every business will answer their phone with voice AI. We are making sure that when they build that AI agent, the experience of doing so doesn’t suck.
+
+
+We’re growing fast and looking for an intern who is eager to learn, build, and contribute to real products used by customers. You’ll work closely with experienced engineers and cross\-functional teams to gain hands\-on experience across the stack.
+
+
+This is a high\-impact internship where you’ll write real code, ship features, and see your work in production.
+
+**Note:** This is an in\-office role, 5 days a week in San Francisco.
+
+**What You’ll Do**
+
+* Build and maintain components for high\-performance web applications using React and Next.js
+* Assist in developing end\-to\-end features across frontend and backend systems
+* Collaborate with engineers to integrate APIs and real\-time systems
+* Help improve UI/UX by building responsive and user\-friendly interfaces
+* Work with application state (client and server\-side) in modern frameworks
+* Support performance optimization efforts (rendering, caching, latency)
+* Build internal tools and dashboards for monitoring and debugging
+* Write clean, maintainable, and well\-documented code
+* Help debug issues and contribute to improving system reliability
+* Participate in code reviews, team discussions, and product development
+
+**Qualifications**
+
+* Currently pursuing or recently completed a degree in Computer Science or related field
+* Experience with JavaScript/TypeScript and modern frontend frameworks (React preferred)
+* Familiarity with Next.js or willingness to learn quickly
+* Basic understanding of APIs, async programming, and web fundamentals
+* Exposure to full\-stack development (personal projects, coursework, or internships)
+* Strong problem\-solving skills and eagerness to learn
+* Good communication skills and ability to work in a team environment
+
+**Nice to Have**
+
+* Experience with backend development (Python or Node.js)
+* Familiarity with cloud platforms (AWS, GCP)
+* Experience with databases (Firebase, Supabase, or similar)
+* Interest in AI, real\-time systems, or voice technologies
+
+**Our Tech Stack**
+
+* **Frontend:** React, Next.js, TypeScript
+* **Backend:** Python, microservices, async systems
+* **Cloud \& Infra:** AWS, GCP, Kubernetes, Redis
+* **Databases:** Firebase, Supabase
+* **Observability:** Datadog, logging, metrics, tracing
+* **Voice AI:** SIP, real\-time call handling, LLM orchestration
+
+**What You’ll Gain**
+
+* Real\-world experience building and shipping production features
+* Mentorship from experienced engineers
+* Exposure to modern full\-stack architecture and AI systems
+* Opportunity to make meaningful contributions to a fast\-growing company

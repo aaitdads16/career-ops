@@ -1,0 +1,46 @@
+Trabalhamos para que a vida possa avançar e estamos sempre à procura de pessoas inovadoras que possam contribuir com a nossa missão. Que tal fazer parte do nosso time?
+
+ **Local Principal:** Brasil (BR) \- São Paulo \- Indaiatuba
+  
+
+**Função:** Data and Analytics (CA)  
+
+**Título:** Analista de Dados \- Indaiatuba/SP \- 120344
+
+  
+
+
+Como Analista de Dados, no Banco John Deere, você atuará principalmente na construção, manutenção e validação de bases de dados e processos computacionais que suportam os modelos de risco de crédito, além da modelagem e acompanhamento da performance dos modelos. A função exige boa base técnica em programação e dados, além de entendimento conceitual de modelagem e do impacto dos modelos no negócio.
+
+**Principais Responsabilidades**
+--------------------------------
+
+
+* Desenvolver e manter pipelines de dados e bases analíticas utilizadas nos modelos de risco de crédito (PD, LGD, EAD e ECL).
+* Implementar rotinas de coleta, tratamento, validação e transformação de dados, garantindo consistência, integridade e rastreabilidade.
+* Apoiar o desenvolvimento e a aplicação de modelos estatísticos e analíticos, entendendo o racional dos modelos, suas entradas, saídas e limitações.
+* Trabalhar com código produtivo (SQL, SAS, Python ou similares), visando automação, reprodutibilidade e redução de risco operacional.
+* Validar resultados de modelos e cálculos, identificando inconsistências de dados, regras ou implementações.
+* Contribuir para a documentação técnica de bases, fluxos de dados, regras de negócio e lógicas de cálculo, com foco em clareza e manutenção.
+* Apoiar auditorias internas e externas, principalmente nos aspectos técnicos relacionados a dados, código e rastreabilidade dos resultados.
+* Interagir com áreas de contabilidade e finanças, entendendo como os dados e modelos impactam os números finais.
+**Habilidades Que Você Precisa**
+--------------------------------
+
+
+* Graduação em áreas de Ciências Exatas ou Tecnológicas, como Estatística, Matemática, Engenharia, Ciência de Dados, Computação, Sistemas de Informação ou áreas correlatas.
+* Experiência em programação.
+* Bons conhecimentos em SQL, SAS, Python ou ferramentas analíticas similares.
+* Perfil técnico, organizado e detalhista, com alto senso de responsabilidade ao lidar com dados sensíveis e valores elevados.
+* Forte raciocínio lógico e habilidade para entender e depurar processos de dados e cálculos.
+* Boa comunicação técnica para discutir soluções com pares e parceiros.
+**O Que Faz Destacar**
+----------------------
+
+
+* Experiência em engenharia de dados, data wrangling ou implementação de processos analíticos
+* Vivência prévia em ambientes financeiros, regulados ou de risco
+* Familiaridade com financiamento de ativos / crédito rural
+* Criação modelos de ciência de dados / machine learning em ambiente profissional e/ou grande interesse em modelagem estatística
+* Ter atuado no desenvolvimento de modelos regulatórios de risco (Res. 4\.966/21\)
+**Nossos principa

@@ -1,0 +1,39 @@
+Estamos em busca de um PO \- Sênior, para atuar em um cliente estratégico localizado na região da Avenida Paulista, em São Paulo, em modelo híbrido (3 dias presenciais por semana). Procuramos um profissional com perfil analítico, colaborativo e com experiência em desenvolvimento de soluções escaláveis e bem estruturadas.
+
+ **Responsabilidades e atribuições**  
+
+* Definir e evoluir o domínio de cadastro de clientes (PF e PJ), garantindo escalabilidade, governança e qualidade dos dados;
+* Estruturar a visão de produto e o roadmap evolutivo da frente de cadastro e onboarding;
+* Mapear, redesenhar e otimizar jornadas de cadastro e onboarding;
+* Garantir consistência entre canais, integrações e processos manuais;
+* Especificar regras de negócio, validações cadastrais e critérios de elegibilidade;
+* Elaborar user stories, fluxos funcionais e critérios de aceite para desenvolvimento;
+* Garantir integridade, consistência e unicidade dos dados cadastrais;
+* Implementar mecanismos de rastreabilidade e auditoria;
+* Conduzir integrações com sistemas internos, como core, compliance e pagamentos;
+* Atuar em integrações com parceiros externos, incluindo bureaus, listas restritivas e validações regulatórias;
+* Trabalhar em conjunto com as áreas de compliance e risco para garantir aderência às normas regulatórias;
+* Traduzir exigências regulatórias em soluções operacionais e sistêmicas;
+* Priorizar demandas com base em impacto regulatório, risco e eficiência operacional;
+* Atuar em parceria com times de engenharia, arquitetura e design na execução das entregas;
+* Definir e acompanhar indicadores, como qualidade cadastral, conversão, tempo de onboarding e índices de reprovação;
+* Identificar gargalos operacionais e propor melhorias contínuas;
+* Atuar de forma transversal com áreas de negócio, operações, tecnologia e parceiros;
+* Conduzir fóruns de alinhamento e garantir visibilidade das iniciativas.
+
+  
+
+**Requisitos e qualificações**  
+
+* Visão de produto e negócio, com capacidade de estruturar e evoluir produtos complexos;
+* Experiência com onboarding e cadastro de clientes PF e PJ;
+* Pensamento orientado a valor, com priorização baseada em impacto regulatório, operacional e experiência do cliente;
+* Vivência com KYC, KYP, PLD/AML e requisitos regulatórios;
+* Conhecimento em normas e regulamentações aplicáveis, como Banco Central (Bacen), ACAM, eFX e CNR;
+* Entendimento de governança de dados e rastreabilidade para auditorias;
+* Experiência com definição de regras de validação, unicidade, padronização e enriquecimento de dados;
+* Conhecimento em gestão do ciclo de vida cadastral (pré\-cadastro, cadastro, manutenção e encerramento);
+* Experiência com integrações via API entre sistemas internos e provedores externos;
+* Conhecimento sobre arquitetura distribuída, orquestração de serviços e eventos;
+* Experiência na escrita de requisitos funcionais e técnicos, incluindo user stories, critérios de aceite e BDD;
+* Vivência com gestão de backlog e priorização junto a t
