@@ -1,0 +1,52 @@
+<p><strong>Who are we?</strong></p>
+<p>It all starts with the mission: NVISO is here to protect European society from potentially devastating cyber attacks! This means we offer cyber security services to private and governmental organizations to help them better prepare for, prevent, detect and respond to cyber security incidents.</p>
+<p>All of this is built on four fundamental values that define who we are: We are Proud, We Break Barriers, We Care and No BS!</p>
+<h2>Tasks</h2>
+<p>As a <strong>Working Student (m/w/d) Security Operations Engineering</strong> located in Germany you will assist in various Security Operations Center (SOC) projects. You will gain exposure to SOC engineering concepts such as log onboarding, detection engineering, and SIEM technologies. Under the guidance of senior team members, you will support the design and implementation of security solutions for customers across different sectors.</p>
+<p>You have strong communication and interpersonal skills, which enable you not only to understand requirements, but also to put these requirements into a development plan, explain it to customers and guarantee proper execution. You have an open and approachable mind, in line with NVISO’s values.</p>
+<p>Typical tasks include but are not limited to:</p>
+<ul>
+<li>Support in planning and managing the onboarding of new log sources, troubleshooting issues with log sources or systems with clients and vendors;</li>
+<li>Creating technical and process playbooks;</li>
+<li>Support in defining and setting up correlation rules, based on threat intelligence and specific customer requirements;</li>
+<li>Contributing to incident response procedures;</li>
+<li>Ensuring you remain up to speed with latest trends and technologies in the SOC field.</li>
+</ul>
+<p>You are passionate about cyber security, engineering and automation. Building solutions and working with customers energizes you and you look forward to growing in all the aforementioned domain.</p>
+<h2>Requirements</h2>
+<ul>
+<li>Student (Bachelor’s, Master’s) in Computer Science, Cyber Security, Information Security or a comparable program</li>
+<li>First practical experience in the field of cybersecurity or IT is desirable;</li>
+<li>Understanding of Azure Sentinel, Microsoft Security stack, or SIEM technologies such as Elastic, Splunk, or LogPoint;</li>
+<li>Ideally, familiarity with SIEM query languages or an interest in learning Sigma and YARA rules;</li>
+<li>Experience or coursework related to cybersecurity is beneficial;</li>
+<li><strong>You hold citizenship in one of the 32 NATO member states or the Austrian citizenship</strong>.</li>
+</ul>
+<p><strong>Soft skills</strong></p>
+<ul>
+<li>Ability to work independently, and keep track of your priorities;</li>
+<li>Strong interpersonal and verbal/written communication skills that enable the ability to work effectively in a collaborative team environment across the entire company;</li>
+<li>Excellent English and German communication skills, both verbal and written;</li>
+<li>A positive, team-oriented, and mission-driven attitude;</li>
+<li>Ability to prepare and present your work to colleagues.</li>
+</ul>
+<h2>Benefits</h2>
+<ul>
+<li>Working and learning from the best people in the European cyber security industry. We have multiple SANS Instructors working at NVISO, our staff has presented at popular hacking conferences (BlackHat, BruCON, OWASP, etc) and all of our technical staff can acquire deep technical security certifications (GSE, GXPN, GREM, GCFA, OSCP, etc);</li>
+<li>An entrepreneurial and agile company, where you will be stimulated and supported in driving new initiatives (either through internal innovation or by improving our service offering), without losing sight of having fun!</li>
+<li>Regular team-building and fun events with legendary events;</li>
+<li>Our commitment to coach and counsel you and help you grow; each employee receives a personal coach within the team, whose role is to ensure your well-being and helps you grow in your career!</li>
+<li>An hourly wage of 17€ per hour;</li>
+<li>Flexible working hours and home office possibilities (incl. working abroad options within the EU);</li>
+<li>Reimbursement of Deutschlandticket or Wellpass contribution.</li>
+</ul>
+<p><strong>Disclaimer on the Use of AI Tools in the Application Process</strong></p>
+<p>Please be aware that the creation and submission of application documents (e.g. CV, cover letter, case studies, etc.) using AI-powered tools is only permitted to a <strong>limited extent</strong>.</p>
+<p><em>Our expectations:</em></p>
+<p>Application documents must authentically reflect your own qualifications, personality, and motivation.</p>
+<p>The use of AI for supportive purposes (e.g. spell-checking, improving wording) is acceptable.</p>
+<p><strong>Fully generated application documents created by AI without personal adaptation or review are not permitted.</strong></p>
+<p>Under no circumstances may <strong>NVISO information, data, or documents</strong> be uploaded to or processed by external AI tools.</p>
+<p>We reserve the right to exclude applications from the selection and interview process that are clearly created primarily or exclusively by AI and show no recognizable personal input.</p>
+<p>The purpose of this policy is to ensure a fair and transparent recruitment process and to obtain an authentic impression of our applicants.</p>
+<p>Find <a href="https://www.arbeitnow.com/">Jobs in Germany</a> on Arbeitnow</a>

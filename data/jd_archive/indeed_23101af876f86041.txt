@@ -1,0 +1,21 @@
+**COMPANY DESCRIPTION**
+
+NVPC is the national agency dedicated to growing a culture of volunteerism and philanthropy in Singapore. By engaging individuals, organisations, communities and leaders across the people, private and public sectors, we seek to create a more caring, inclusive, and compassionate society. Together, we envision Singapore as a City of Good, where everyone is able to give every day and everywhere (3Es), contributing their time, talent, treasure, ties and testimony (5Ts). Learn more at nvpc.org.sg.
+
+
+**RESPONSIBILITIES**
+
+* Assist in gathering and documenting business requirements from stakeholders.
+* Assist in conducting user research and analysis to support product decisions.
+* Work with the development team and stakeholders to establish delivery timelines, key milestones, and resource needs, and support functional, regression, and user acceptance testing.
+* Support NVPC's AI adoption programme, including Copilot rollout, AI Champions coordination, and use case documentation.
+* Track and report on AI tool adoption and usage patterns to inform programme direction.
+* Assist in preparing materials for stakeholder communications, presentations, and internal updates.
+
+**QUALIFICATIONS*** Pursuing a degree in Information Systems, Computer Science, Business, or a related field.
+* Strong verbal and written communication skills for interacting with stakeholders and documenting requirements.
+* Exposure to project management and business analysis tools (e.g. Jira, Confluence).
+* Interest in AI tools and their application in workplace productivity.
+* Ability to clearly present findings and collaborate with business stakeholders.
+
+Please note that your application will be sent to and reviewed by the direct employer \- National Volunteer \& Philanthropy Centre

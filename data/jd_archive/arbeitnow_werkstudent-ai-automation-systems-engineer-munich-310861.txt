@@ -1,0 +1,59 @@
+<h2>Deine Mission</h2>
+<p>Wir sind eine etablierte Agentur, die sich selbst abschafft.<br>
+Weil wir wissen: AI wird Agenturen nicht verändern. Sie wird sie ersetzen. Und genau das wollen wir nicht verhindern sondern beschleunigen.<br>
+Wir suchen keine reinen Umsetzer, sondern AI Sparring Partner mit Neugier, Mut und der Bereitschaft, Dinge kaputtzumachen, um etwas Besseres zu bauen.<br>
+Dich erwartet ein CEO auf Augenhöhe, radikale Freiheit, unbegrenzte Tools &#x26; Tokens – und die Verantwortung, aktiv an der Abschaffung klassischer Agenturmodelle mitzuwirken.</p>
+<p>Du bist kein reiner Coder, sondern denkst in Systemen, Automationen und Hebeln.<br>
+Deine Aufgabe ist es, unsere internen Abläufe nicht zu optimieren, sondern neu zu bauen – mit AI-Agenten, maßgeschneiderten Tools und radikalem Pragmatismus.</p>
+<p>Wir experimentieren bereits tief mit aktuellen AI-Systemen und geben dir den Freiraum, Agenten aufzusetzen, die nicht beeindrucken, sondern messbaren Business-Impact liefern. Keine Spielwiese ohne Ziel – sondern echte Verantwortung für Prozesse, die skalieren oder verschwinden.</p>
+<p>Du bekommst Ressourcen, Vertrauen und Entscheidungsfreiheit, um die nächste Stufe zu zünden – und den Beweis zu liefern, dass klassische Agenturstrukturen ein Auslaufmodell sind.</p>
+<p>Konkret</p>
+<ul>
+<li>Du stellst dir dein eigenes AI-Arsenal zusammen. Tools, API Credits und Tokens sind deine Ressourcen.</li>
+<li>Du konzipierst, baust und betreibst AI-Automationen und interne Tools, die unsere Arbeitsweise messbar verändern – nicht hübsch, sondern wirksam.</li>
+<li>Du setzt AI-Agenten auf (z. B. mit Clawdbot / OpenClaw oder vergleichbaren Frameworks), die operative Arbeit übernehmen, Prozesse ersetzen und echte Effizienz freischaufeln.</li>
+<li>Du testest neue AI-Technologien früh, hart und pragmatisch – und findest heraus, wie man daraus echten Mehrwert macht. Für uns. Und für dich.</li>
+<li>Du arbeitest direkt mit allen Teams zusammen, verstehst ihre Pain Points und übersetzt sie in technische Lösungen statt Tickets und PowerPoints.</li>
+<li>Du nutzt smartes Vibe Coding, um schnell Prototypen zu bauen, Dinge live zu testen und komplexe Probleme pragmatisch zu lösen.</li>
+<li>Du übernimmst Ownership für das, was du baust – und entwickelst deine Systeme kontinuierlich weiter, bis sie entweder skalieren oder ersetzt werden.</li>
+</ul>
+<h2>Dein Profil</h2>
+<ul>
+<li>Du brennst für AI, Automatisierung und den Aufbau von Systemen, die Arbeit wirklich ersetzen.</li>
+<li>Du hast bereits erste praktische Erfahrung im Coden (z. B. Python) und im Arbeiten mit APIs – aus dem Studium, eigenen Projekten oder als Werkstudent.</li>
+<li>Du siehst in Problemen keine Blocker, sondern Automatisierungspotenzial.</li>
+<li>Du bist ein Macher: Du übernimmst Ownership, setzt Ideen um und wartest nicht auf perfekte Rahmenbedingungen.</li>
+<li>Du bist extrem neugierig, lernst schnell und bleibst nah an neuen Technologien, statt ihnen hinterherzulaufen.</li>
+<li>Du hast den Mut, bestehende Prozesse zu hinterfragen – und den Willen, radikal bessere Lösungen zu bauen.</li>
+<li>Lebensmittelpunkt München ist ein Muss. Wir leben bewusst eine Office-First-Mentalität, weil wir überzeugt sind, dass direkte Zusammenarbeit uns schneller, stärker und kreativer macht.</li>
+</ul>
+<h2>Diese Rolle ist NICHT für dich, wenn:</h2>
+<ul>
+<li>Du glaubst, „AI“ hört bei ChatGPT auf.</li>
+<li>Du einen festen Aufgabenplan, klare Tickets und jemanden suchst, der dir sagt, was du als Nächstes tun sollst.</li>
+<li>Du Fehler vermeiden willst, statt sie schnell zu machen und daraus zu lernen.</li>
+<li>Du Angst davor hast, etablierte Strukturen zu zerstören und selbst neue zu schaffen.</li>
+</ul>
+<p>Diese Rolle ist für dich, wenn:</p>
+<ul>
+<li>Du willst Systeme bauen, die Prozesse, Rollen und ganze Branchen überflüssig machen.</li>
+<li>Du willst AI nicht nutzen, sondern ausreizen – mit echten Ressourcen, echtem Risiko und echtem Impact.</li>
+<li>Du willst Verantwortung für etwas Fundamentales übernehmen, nicht nur an Einzelteilen mitarbeiten.</li>
+<li>Du willst mit Menschen arbeiten, die AI nicht erklären, sondern jeden Tag damit gestalten, bauen, testen und scheitern.</li>
+</ul>
+<h2>Nice-to-have:</h2>
+<ul>
+<li>Erfahrung mit Design, Video, Creative Strategy oder Performance Marketing</li>
+</ul>
+<h2>Warum wir?</h2>
+<ul>
+<li>Unbegrenzte Tools, Tokens &#x26; Freiheit – wir statten dich mit allem aus, was du brauchst, um Großes zu schaffen.</li>
+<li>Echte Verantwortung – du gestaltest aktiv die Zukunft unseres Unternehmens mit.</li>
+<li>Ein Umfeld, das AI lebt und atmet – du bist umgeben von Menschen, die deine Leidenschaft teilen.</li>
+<li>Die einmalige Chance, Teil einer Bewegung zu sein, die eine ganze Branche neu definiert.</li>
+<li>Fettes &#x26; steuerfreies Benefitpaket inkl. Sachbezug, Wellpass, Mittagessen, Deutschlandticket.</li>
+<li>Modernes, zentrales Office im Herzen Münchens (Gärtnerplatz).</li>
+</ul>
+<h2>Darauf schauen wir</h2>
+<p>Schick uns ein kurzes Anschreiben – so knapp wie möglich. Drei klare Benefits, warum es sich lohnt, mit dir zu arbeiten, reichen völlig. Deine Challenge: Da wir von dir erwarten, dass du unsere Ausschreibung bis ins Detail liest, ist diese Bewerbung direkt schon ein kleiner Test: Füge das Bild einer Kokosnuss ???? in dein Anschreiben, Lebenslauf oder deine Bewerbungsmail ein.</p>
+<p>Find more <a href="https://www.arbeitnow.com/english-speaking-jobs">English Speaking Jobs in Germany</a> on Arbeitnow</a>

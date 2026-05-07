@@ -1,0 +1,39 @@
+**São Paulo \- Hybrid**
+
+  
+
+Please carefully read the details of our internship programs below and apply for Regular Internship or International Summer Internship using our application form at the bottom of the page.
+
+
+#### **About Wildlife**
+
+
+Wildlife is one of the leading mobile game developers and publishers in the world. We have released more than 60 titles, reaching billions of people around the globe. Here, we create and maintain games that will excite, intrigue, and engage our players for years to come!
+
+
+#### **About the Programs**
+
+
+At Wildlife Studios, our Internship Programs are designed to develop students that are eager to start their careers in the gaming industry. As an intern, you’ll work alongside experienced professionals, contribute to real projects, and be part of a company that creates games played by millions worldwide. Throughout the program, you’ll have access to technical and soft\-skill training, mentorship, and structured development opportunities to prepare you for future career growth.
+
+
+#### **What You’ll Do**
+
+
+* Support analysis, projects, and initiatives that directly impact our games and business;
+* Participate in technical and business cases, problem\-solving challenges, and brainstorming sessions with peers and leaders;
+* Engage in structured learning sessions and mentorship to accelerate your development;
+* Bring fresh perspectives and innovative ideas to help shape the future of our products.
+
+#### **Where You Can Work**
+
+
+#### **Regular Internship**
+
+
+* **Engineering (Game Tech \& Platform Eng):** Work on the maintenance of released games, with millions of daily players. Engage in activities required to keep the apps alive as well as implementing new features to enhance player experience.
+* **Product Management:** Support product managers to plan and deliver new features, run A/B tests, and analyze data to guide product decisions. Help shape the game vision, align with engineering, art, data, and distribution, and take ownership of your deliveries with real autonomy to impact the player experience.
+* **Data Science:** Expand game potential by providing non\-trivial solutions to business questions, such as how to analyze game performance, engage players, customize content, run successful experiments, and optimize game economy.
+* **Data Engineering:** Design, build, and maintain the scalable data pipelines that process billions of events from our global player base. You’ll work with massive datasets, ensuring the reliability and quality of the data infrastructure that empowers data\-driven decisions across the company, and collaborating closely with data scientists and analysts.
+* **Business \& Marketing:** Develop business initiatives, analyzing markets, and creating creative strategies to drive the growth of our games. Work on advertising campaigns, influencer collaborations, partnerships, and ROI studies, combining creativity, data, and strategic insight to expand the reach and impact of our games.
+* **Bu

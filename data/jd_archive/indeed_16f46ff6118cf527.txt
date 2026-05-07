@@ -1,0 +1,65 @@
+Company
+ECICS Limited
+ifscapital.com.sg
+Designation
+Underwriting Transformation Intern
+Date Listed
+07 May 2026
+Job Type
+Entry Level / Junior Executive
+Intern/TS
+Job Period
+Flexible Start, For At Least 5 Months
+Profession
+IT / Information Technology
+Industry
+Insurance
+Location Name
+Eunos Road 8, SingPost Centre, Singapore
+Address
+10 Eunos Rd 8, Singapore 408600
+Map
+Allowance / Remuneration
+$800 \- 1,200 monthly
+Company Profile
+ECICS Limited is a Singapore\-based general insurer with more than 50 years of experience providing insurance solutions for individuals and businesses. Established in 1975, the company offers a wide range of products including motor, maid, home, personal accident, and commercial insurance, and is regulated by the Monetary Authority of Singapore (MAS). As a homegrown insurer and subsidiary of IFS Capital Limited, ECICS is known for its customer\-focused approach, reliable coverage, and strong local expertise.
+
+
+Job Description
+We are looking for a motivated and analytical Underwriting Transformation Intern to support the development and enhancement of automated underwriting systems. This internship offers hands\-on exposure to rule\-based decision engines, API integrations, process optimization, and data workflows.
+
+
+You will work closely with underwriting, product, and technology teams to help streamline underwriting operations and improve automation performance.
+
+ **Key Responsibilities**
+
+* Assist in building and improving automated underwriting workflows
+* Support development of rule\-based and logic\-driven decision systems
+* Work on API integrations between underwriting systems and third\-party data sources
+* Analyse underwriting process gaps and identify automation opportunities
+* Help document business logic and translate underwriting requirements into technical specifications
+* Build dashboards and monitoring tools to track automation performance
+* Participate in testing, validation, and deployment of automation tools
+* Support data cleaning, transformation, and pipeline optimization
+
+ **Qualifications**
+
+* Currently pursuing or recently completed a degree in Engineering, Computer Science, Data Science, Finance, or a related field
+* Basic understanding of logical decision\-making or rule\-based systems
+* Familiarity with SQL and/or Python (academic or project experience acceptable)
+* Understanding of APIs and data structures (preferred but not mandatory)
+* Strong analytical and problem\-solving mindset
+* Good documentation and communication skills
+* Attention to detail and eagerness to learn
+
+ **Learning Opportunities**
+
+* Exposure to real\-world underwriting and risk assessment frameworks
+* Hands\-on experience with workflow automation and decision engines
+* Practical understanding of API integrations and system architecture
+* Experience working with structured and semi\-structured data
+* Cross\-functional collaboration with risk, tech, and product teams
+
+
+Application Instructions
+Please apply for this position by s

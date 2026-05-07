@@ -1,0 +1,41 @@
+Visier is the global leader in Workforce Intelligence that powers every people decision. We bring Workforce AI to life for HR departments through our award\-winning, agentic AI technology by surfacing the insights leaders need to plan, decide, and act with confidence in the moments that matter most. As the market leader in people analytics, workforce planning, organizational design, and manager effectiveness solutions, we fuel smarter decision\-making for organizations across the globe. Our mission is to help businesses lead with insight at scale as they continuously transform.  
+
+  
+
+Founded in 2010 by the pioneers of business intelligence, we have over 85,000 customers in 75 countries—including enterprises like BASF, Panasonic, Domino’s Pizza, Experian, Amgen, eBay, and Ford Motor Company.
+
+**Visier is the leader in people analytics and we believe in a 'people\-first' approach to business strategy. Our innovative technology transforms the way that organisations make decisions, allowing them to elevate their employees and drive better business outcomes. Embarking on an exciting new chapter in our growth story, we are looking for talented individuals who can help both Visier and our customers grow, evolve and win!**
+
+
+
+Visier is recruiting for a Software Developer Intern to join our innovative and extremely talented Development department.
+
+
+
+Our internship experience is unique and designed to prepare you for professional success as you work on real, impactful work from the beginning...not features that may be mothballed after a few months of hard work! Our ultimate goal is to give you the mentorship, training, and work experience you need to start your career. A number of our students return to us after they graduate and start developing their professional career at Visier!
+
+
+
+And we use cool state\-of\-the\-art technology to build our innovative full\-stack software solution that helps people see the truth and drives organizations to perform their best. We use a variety of frontend technologies including Angular, React, NgRx, Play Framework, TypeScript, Less, and others. We deal with large volumes of data every day. And in our backend areas we work with technologies like Scala, Kotlin, Python, Kafka, Spark, Consul, Cassandra DB, Docker, AWS, etc. We work with LLMs, various prompt engineering techniques and related technologies such as LangChain. So, you’ll be developing knowledge and skills that are transferable anywhere.
+
+  
+
+
+**What you'll be doing...**
+
+
+* Writing production level code that will directly impact customers
+* Implementing cool new features
+* Fixing complex bugs
+* Writing tests
+* Collaborating with people in all stages of the software development cycle
+
+  
+
+
+**What you'll bring to the table...**
+
+
+* Coding skills in relevant programming languages (for example, like Java, Python, JavaScript, Typescript, Scala, or other similar languages)
+* Knowledge of data structures and algorithms
+* Knowledge of one of the following areas would

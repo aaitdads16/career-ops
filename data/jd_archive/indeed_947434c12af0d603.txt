@@ -1,0 +1,16 @@
+Why choose between doing meaningful work and having a fulfilling life? At MITRE, you can have both. That's because MITRE people are committed to tackling our nation's toughest challenges—and we're committed to the long\-term well\-being of our employees. MITRE is different from most technology companies. We are a not\-for\-profit corporation chartered to work for the public interest, with no commercial conflicts to influence what we do. The R\&D centers we operate for the government create lasting impact in fields as diverse as cybersecurity, healthcare, aviation, defense, and enterprise transformation. We're making a difference every day—working for a safer, healthier, and more secure nation and world. Our workplace reflects our values. We offer competitive benefits, exceptional professional development opportunities for career growth, and a culture of innovation that embraces adaptability, collaboration, technical excellence, and people in partnership. If this sounds like the choice you want to make, then choose MITRE \- and make a difference with us.**Department Summary:**
+
+
+The department is seeking an early\-career engineer who is passionate about designing and developing user\-centered solutions to address our sponsors’ unique challenges. In this role, you will collaborate with experienced engineers, designers, researchers, and stakeholders to help frame problems, understand mission needs, and translate user insights into intuitive and effective solutions. You will contribute to stakeholder engagement activities—such as discussions, feedback sessions, and iterative design reviews—to ensure solutions align with user and mission objectives.
+
+
+As an Early Career UX/UI Engineer at MITRE, you will have the opportunity to build your skills across UX, UI, front\-end development, and human\-machine teaming while contributing to meaningful projects that support critical national missions. Our department fosters a collaborative and supportive environment that values curiosity, continuous learning, creativity, and a strong commitment to both end users and stakeholders. Our mission is to improve the overall user experience of government\-facing technologies while promoting accessibility, safety, and operational efficiency across the system lifecycle. As part of the Software Engineering Innovation Center, you will strengthen your software architecture and engineering skills while designing human\-centered, user\-focused computing capabilities that address the challenges of our sponsors and deliver meaningful, effective user experiences.
+
+**Roles \& Responsibilities:**
+
+
+The successful candidate will be expected to:
+
+* Collaborate closely with human factors engineers, UX designers, researchers, project leaders, and sponsors to create software prototypes using current front\-end technologies and best practices.
+* Advocate for the end\-user, ensuring user\-centered design principles are consistently applied throughout the software development cycle.
+* Supp

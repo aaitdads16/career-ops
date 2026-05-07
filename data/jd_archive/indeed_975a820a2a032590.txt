@@ -1,0 +1,67 @@
+**Summer Internship – Data Analyst**  
+
+**RTW Institute**  
+
+New York, NY (On\-site)
+
+  
+
+
+**About RTW Institute**  
+
+The RTW Institute is a think tank that was founded in 2026 as the policy and advocacy arm of RTW Investments, LP, a biotechnology investment firm. The Institute focuses on two primary areas: protecting the long\-term incentives that drive drug innovation and identifying systemic challenges related to healthcare affordability and patient access. Our overarching goal is to translate complex health and regulatory policies into clear insights for policymakers and the public. Through humanized, rigorous research, we aim to support more informed policy discussions and decision\-making in healthcare.
+
+  
+
+
+
+
+**Program Overview**  
+
+We are seeking highly motivated individuals for a Data Analyst Internship beginning in late June. This unique opportunity is designed for those with a keen interest in the intersection of biomedical innovation, healthcare policy, and data science.
+
+
+
+Interns will support the development and production of high\-quality content, including white papers, op\-eds, and factsheets, by preparing, analyzing, and synthesizing key healthcare and biopharma data. These efforts will contribute to the RTW Institute’s research and content development and help inform discussions across the biotechnology and health policy landscape. Through this internship, participants will gain hands\-on experience evaluating scientific and real\-world data, conducting quantitative analysis, and translating complex findings into clear, policy\-relevant insights.
+
+  
+
+
+**Key Responsibilities**
+
+
+* Collect, clean, and analyze data from federal and public sources, such as CMS and openFDA, to support team research.
+* Support and collaborate with team members to develop white papers, fact sheets, and op\-eds by providing data\-driven insights and analysis.
+* Build and maintain datasets, trackers, and dashboards to monitor trends in drug approvals, regulatory actions, and market dynamics.
+* Create clear data visualizations, charts, and tables for use in policy reports and presentations.
+
+  
+
+
+**Ideal Candidate Profile:**
+
+
+* Graduate students or advanced undergraduate students in data science, public policy, biostatistics, economics, business, or related fields.
+* Familiarity with healthcare policy, regulatory frameworks, and the fundamentals of drug development.
+* Strong data analysis skills, with experience working with scientific, policy, or industry data.
+* Ability to distill complex scientific and policy data into clear, compelling insights.
+* Experience with statistical and data visualization software (e.g., R/RStudio, Python, Power BI, Tableau) is a plus.
+
+  
+
+
+**Program Details**
+
+
+* Duration: June 1, 2026, to August 7, 2026
+* Location: RTW Institute, 40 10th Ave, New York, NY
+
+  
+
+
+
+This is a full\-time paid 10\-week internship based in NYC.
+
+
+
+Please submit a resume and cover letter outlining your interest in the role and relevant experie

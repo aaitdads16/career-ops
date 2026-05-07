@@ -1,0 +1,55 @@
+We are looking for a motivated and enthusiastic Full Stack Developer Intern who is eager to gain hands\-on experience in building scalable web applications. This internship is ideal for candidates with a strong interest in AI\-driven solutions and modern web technologies.
+
+**Key Responsibilities:**
+
+●Assist in developing and maintaining web applications using Python, Django, and React
+
+● Work on both frontend and backend components of the platform
+
+● Collaborate with the team to design and implement new features
+
+● Participate in code reviews and debugging
+
+● Explore and integrate AI\-based features into applications
+
+**Requirements:**
+
+● Basic knowledge of Python, Django, and React
+
+● Understanding of REST APIs and web development fundamentals
+
+● Interest in Artificial Intelligence / Machine Learning
+
+● Strong problem\-solving skills and willingness to learn
+
+● Good communication and teamwork skills
+
+Preferred Qualifications:
+
+● Exposure to AI/ML projects or tools
+
+● Familiarity with databases (MySQL, PostgreSQL, etc.)
+
+● Understanding of Git/version control
+
+**What You’ll Gain:**
+
+● Hands\-on experience on real\-world projects
+
+● Mentorship from experienced developers
+
+● Exposure to AI\-integrated product development
+
+● Certificate of Internship upon successful completion
+
+Job Types: Full\-time, Permanent, Fresher, Contractual / Temporary
+
+Ability to commute/relocate:
+
+* Bangalore City, Bengaluru, Karnataka: Reliably commute or willing to relocate with an employer\-provided relocation package (Required)
+
+Work Location: In person
+
+Pay: ₹15,000\.00 \- ₹20,000\.00 per month
+
+Work Location: In person

@@ -1,0 +1,35 @@
+**What to Expect**
+Consider before submitting an application:
+
+  
+
+This position is expected to start August or September 2026 and continue through fall term (ending approximately December 2026\) or continuing into Winter/Spring 2027 if available and there is an opportunity to do so. We ask for a minimum of 12 weeks, full\-time (40 hours/week) and on\-site, for most internships. Our internship program is for students who are actively enrolled in an academic program. Recent graduates seeking employment after graduation and not returning to school should apply for full\-time positions, not internships.
+
+
+International Students: If your work authorization is through CPT, please consult your school on your ability to work 40 hours per week before applying. You must be able to work 40 hours per week on\-site. Many students will be limited to part\-time during the academic year.
+
+
+Internship Program at Tesla
+
+
+The Internship Recruiting Team is driven by the passion to recognize and develop emerging talent. Our year\-round program places the best students in positions where they will grow technically, professionally, and personally through their experience working closely with their Manager, Mentor, and team. We are dedicated to providing an experience that allows the intern to experience life at Tesla by including them in projects that are critical to their team’s success.
+
+
+About the Team
+
+
+As a Software Engineer working on Vehicle UI Development and Integration, you will be responsible for building in\-car user interfaces to operate the vehicle's cutting\-edge systems. You will work in cross\-functional groups to implement and deliver user interfaces focused on the car's physical subsystems including HVAC, body controls, drive systems, charging, and more. You will utilize a first principles understanding of mechatronics and work with designers and embedded developers to create elegant and intuitive vehicle experiences.
+
+ **What You'll Do*** Rapid prototyping of in\-car customer experiences
+* Designing and specifying implementation requirements for new customer\-facing features
+* Design, code, and debug UI interfaces and state machines
+* Design and implement robust interfaces to facilitate system\-level vehicle behaviors
+* Work with a cross\-functional team of Designers and Hardware, Software, and Integration Engineers
+ **What You'll Bring*** Degree in Computer Engineering, Computer Science, Electrical Engineering, Mechatronics or a related field of study with a graduation date between December 2026 – December 2027
+* Proficient in C\+\+ or C
+* Excellent grasp of fundamental computer science concepts and embedded development
+* Understanding of mechatronic fundamentals, and ability to apply them to automotive concepts
+* Comfortable with Electrical Engineering fundamentals
+* Comfortable analyzing data to improve design and performance of a system
+* Strong written and verbal communication skills
+* Exceptional capacity for managing concurrent projects and

@@ -1,0 +1,37 @@
+**Over deze vacature**
+----------------------
+
+
+Wereldwijd bedreigen conflicten, criminaliteit en ondermijnende activiteiten onze veiligheid. Om weerstand te bieden tegen deze dreigingen, werkt TNO aan innovatief onderzoek en de toepassing daarvan bij onze veiligheidspartners. Zo ondersteunen wij onder andere het Ministerie van Defensie en de Politie bij het nemen van de beste geïnformeerde beslissingen en het uitvoeren van (semi\-)geautomatiseerde acties waarop zij kunnen vertrouwen.  
+
+  
+
+Dat doen we door toegepast onderzoek te doen, innovatieve ideeën te bedenken en deze uit te werken. Bijvoorbeeld voor de inzet van inlichtingen voor Defensie, het ontwikkelen van modellen voor decision support bij het OM, en het inzetten van NLP voor de analyse van criminele berichten. Je komt in deze functie te werken bij de researchgroep Intelligence \& Decision Support. Dit gedreven team van ruim 35 collega’s bestaat uit diverse expertises en achtergronden en valt binnen de unit Defence, Safety \& Security.
+
+
+**Wat ga je doen?**
+-------------------
+
+
+Als scientist werk je mee aan onderzoeksprojecten rond LLM’s en agentic AI voor beslisondersteuning bij partners in het defensie\- en veiligheidsdomein. In multidisciplinaire teams werk je aan verschillende onderzoeksvragen mee, waarbij je meedenkt over de aanpak en de methodologie om die vragen te beantwoorden. Gebaseerd op wetenschappelijk onderzoek, bestaande methodologieën en best practices werk je met je teams de concepten uit, waarbij modelleren en programmeren rondom LLM’s essentiële onderdelen zijn van je werkzaamheden. Het resultaat kan bijvoorbeeld een proof of concept zijn, waarbij jij altijd oog houdt voor de impact van de tools die je ontwikkelt op de dagelijkse praktijk van onze partners. Je communiceert de projectresultaten aan onze partners en bent een waardevolle gesprekspartner voor collega’s.  
+
+  
+
+Voorbeelden van projecten zijn:
+
+  
+
+* Het ontwikkelen van een LLM concept voor beslisondersteuning bij de Politie;
+* Het maken van een proof of concept voor de planning van een missie bij defensie;
+* Het bijdragen aan een Nederlandse LLM;
+En het tastbaar maken van de haalbaarheid van agentic AI bij veiligheidspartners.  
+* 
+
+Bij TNO is er veel ruimte om jezelf te verdiepen in nieuwe AI\-tools, conferentiebezoek en nieuwe onderzoeksrichtingen. Ook zijn er mogelijkheden om interne researchlijnen op te zetten en bij te dragen aan projectacquisitie en proposals voor samenwerkingen. Naast de projecten kun je ook diverse nevenactiviteiten oppakken, passend bij je interesses en ontwikkelrichting, zoals het coördineren van de stages in de afdeling, het organiseren van inhoudelijke of sociale events en het mentoren van nieuwe collega’s.
+
+
+**Wat wij van jou verwachten**
+------------------------------
+
+
+Je bent gedreven om met jouw werk bij te dragen aan het militaire\- en veiligheidsdomein en wil hierover graag meer leren, zodat je werk steeds beter aansluit op de behoeften van de partners. Je kunt daarbi

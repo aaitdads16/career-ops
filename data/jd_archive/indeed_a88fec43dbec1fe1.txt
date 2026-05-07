@@ -1,0 +1,34 @@
+**The Firm**
+
+
+
+XTX Markets is a leading algorithmic trading firm which uses state\-of\-the\-art machine learning technology to produce price forecasts for over 50,000 financial instruments across equities, fixed income, currencies, commodities and crypto. It uses those forecasts to trade on exchanges and alternative trading venues, and to offer differentiated liquidity directly to clients worldwide. The firm trades over $250bn a day across 35 countries and has over 250 employees based in London, New York, Singapore, Paris, Bristol, Mumbai, Yerevan and Kajaani.
+
+
+
+We leverage the talent of the people who work here, modern computational techniques and state\-of\-the\-art research infrastructure to analyse large data sets across markets quickly and efficiently, to maximize the effectiveness of our proprietary trading algorithms. We are actively seeking new methods and ideas. The models that drive our trading strategies have evolved considerably over the last 10 years, from econometric methods that gave our company its name, to trees, to neural networks, to modern deep learning architectures.
+
+
+
+XTX Markets has an unrivalled level of computational resources in the trading industry, with a growing research cluster currently containing over 25,000 GPUs with 650 petabytes of usable storage. Teams across the firm include world\-class researchers, developers and technologists with backgrounds in pure math, programming, physics, computer science and machine learning. The firm is also constructing a large\-scale data centre in Finland to future\-proof its significant computational capabilities.
+
+
+
+At XTX Markets technology is our business and we are a diverse organization which attracts outstanding talent from across all industry backgrounds. We are focused on teamwork and our people collaborate on all aspects of the business, working openly and with respect for each other, our clients and the market. Our culture is non\-hierarchical and one where everyone is valued. We strive for excellence in everything we do.
+
+  
+
+
+**XTY Labs**
+
+
+
+XTY Labs, a division of XTX Markets established in 2024, stands at the intersection of finance and cutting\-edge machine learning research. The lab is designed to be a home for those eager to pioneer the future of algorithmic trading, with a strategic focus on developing and applying novel machine learning techniques to financial data.
+
+
+
+Situated in Hudson Yards, New York City, XTY Labs offers a state\-of\-the\-art, “academia\-like” workspace designed to inspire creativity and innovation. Led by Research Director Dr. Atlas Wang \[Link], researchers will have the opportunity to explore new ideas and transform their advanced machine learning research into real\-world financial solutions, backed by XTX Markets' expansive research cluster, rich datasets, and advanced technological infrastructure.
+
+
+
+Emphasizing practical application, XTY Labs’ mission is to swiftly integrate successful models into the market, directly enhancing X

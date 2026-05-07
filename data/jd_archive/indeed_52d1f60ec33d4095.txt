@@ -1,0 +1,35 @@
+**We are a growing IT company; a great place to start and grow your career!**
+
+
+
+CCS is a leading technology consulting firm providing best in class solutions to our clients for over 45 years. Expressed simply in our tagline – Right People, Right Results, Right Careers! Our philosophy is, in fact, an obsession that drives our behavior, our culture and our work. It's why we put tremendous emphasis on hiring individuals that embody the principles that align with our obsession. We continue to successfully provide network integration, support services, products solutions, and applications services to our valued clients in the northeast. Our focus is simple...our goal is to make technology easy and to help our clients use it as effectively as possible.
+
+
+We are a certified channel partner for Infinite Campus, the K\-12 student information system used by school districts across the country. Our team builds add\-on products, custom integrations, and tailored reporting solutions that extend Infinite Campus for the districts we serve. We are hiring two Software Developer Interns to join our team for a 10–12 week summer program. Interns will work alongside our developers on real client\-facing projects — supporting Java\-based add\-ons, writing custom SSRS reports, and manipulating data out of MS SQL Server. What they work on over the summer directly impacts school districts and gets used by the educators and administrators there.
+
+
+
+Hourly Rate: $20/hour
+
+**What You'll Do:**
+
+
+* Write and optimize T\-SQL queries, stored procedures, and views against MS SQL Server
+* Develop and maintain Java\-based add\-on products that extend Infinite Campus functionality
+* Write custom reports using SQL Server Reporting Services (SSRS) based on district requirements
+* Work with senior developers to translate client requests into technical specifications
+* Test, debug, and document your work so it's ready to hand off to clients
+* Perform other job\-related duties as assigned
+
+**What You Bring:**
+
+
+* Currently pursuing or recently completed a degree in Computer Science, Software Engineering, Information Systems, or a related field — recent grads and those graduating soon are encouraged to apply
+* Solid Java fundamentals — classes, interfaces, collections, exception handling
+* Working knowledge of SQL; comfortable writing JOINs, aggregations, and basic stored procedures
+* Strong attention to detail — our clients are school districts, and accuracy in reporting matters
+* Clear written communication for documenting work and interacting with the team
+* A genuine passion for learning — eager to pick up new tools, ask questions, and grow through hands\-on work
+* Working conditions: part\-time role, 20 hours per week, on\-site in Hauppauge, NY; 10–12 week engagement beginning around May 2026
+* Preferred: experience with SSRS or any other reporting tool (Crystal Reports, Power BI, Tableau)
+* Preferred: exposure to MS SQL Server specifically (vs. MySQL/Postgres); familiarity with RE

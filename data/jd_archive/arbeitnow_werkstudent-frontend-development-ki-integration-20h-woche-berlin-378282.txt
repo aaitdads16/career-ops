@@ -1,0 +1,44 @@
+<p>Du möchtest nicht nur Frontends bauen, sondern aktiv mitgestalten, wie moderne Webanwendungen durch KI smarter werden? Dann bist du bei uns genau richtig. Wir verbinden saubere Frontend-Entwicklung mit neuesten KI-Technologien – und suchen dich zur Unterstützung.</p>
+<h2>Aufgaben</h2>
+<ul>
+<li>Entwicklung moderner, performanter Web-Frontends mit Fokus auf Usability und Responsiveness</li>
+<li>Integration von KI-Funktionalitäten über APIs (z. B. OpenAI, Azure AI, Hugging Face)</li>
+<li>Nutzung von KI-Tools wie GitHub Copilot oder Cursor zur effizienten Entwicklung</li>
+<li>Entwicklung und Optimierung von Prompts zur Generierung von UI-Komponenten oder Logik</li>
+<li>Eigenständige Umsetzung kleiner Features und Prototypen</li>
+<li>Mitwirkung an der Weiterentwicklung unserer Frontend-Architektur</li>
+</ul>
+<h2>Qualifikation</h2>
+<ul>
+<li>Laufendes Studium im Bereich Informatik, Wirtschaftsinformatik, Medieninformatik oder vergleichbar</li>
+<li>Gute Kenntnisse in HTML5, CSS3 und modernem JavaScript (ES6+)</li>
+<li>Erfahrung mit mindestens einem Frontend-Framework (idealerweise React, alternativ Angular oder Vue)</li>
+<li>Verständnis für responsive Design und moderne UI-Konzepte</li>
+<li>Grundkenntnisse in Git</li>
+<li>Interesse an der Integration von KI in Webanwendungen</li>
+</ul>
+<p>Was uns besonders wichtig ist</p>
+<ul>
+<li>Du gehst Probleme analytisch und strukturiert an</li>
+<li>Du arbeitest selbstständig und recherchierst eigenständig Lösungen</li>
+<li>Du hast Lust, neue Tools und Technologien im KI-Umfeld auszuprobieren</li>
+<li>Gute Deutsch- und Englischkenntnisse</li>
+</ul>
+<p>Nice-to-have</p>
+<ul>
+<li>Erste Erfahrungen mit KI-APIs oder Prompt Engineering</li>
+<li>Grundkenntnisse in Python</li>
+<li>Erfahrung mit Cloud-Plattformen (AWS, Azure oder GCP)</li>
+<li>Interesse an UI/UX-Design</li>
+</ul>
+<h2>Benefits</h2>
+<p>Das bieten wir dir</p>
+<ul>
+<li>Spannende Projekte an der Schnittstelle von Frontend und KI</li>
+<li>Viel Gestaltungsspielraum und die Möglichkeit, eigene Ideen einzubringen</li>
+<li>Arbeiten mit modernen Tools und Technologien</li>
+<li>Flexible Arbeitszeiten (bis zu 20h/Woche, ideal mit deinem Studium kombinierbar)</li>
+<li>Perspektive auf langfristige Zusammenarbeit</li>
+</ul>
+<p>Wir freuen uns auf deine Bewerbung!</p>
+<p>Find <a href="https://www.arbeitnow.com/">Jobs in Germany</a> on Arbeitnow</a>

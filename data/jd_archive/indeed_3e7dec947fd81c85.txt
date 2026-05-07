@@ -1,0 +1,44 @@
+Na Dialog, nossa plataforma já transforma a comunicação e o engajamento de milhares de colaboradores em grandes empresas. Estamos buscando um(a) UX/UI Designer Sênior para se juntar ao nosso time, alguém que combine pensamento estruturado e capacidade de execução, com fluência em IA pra destravar problemas complexos e elevar a experiência dos nossos usuários.
+
+
+**O que você vai fazer por aqui:**
+
+
+* Liderar o design de features estratégicas do produto, com autonomia pra propor, questionar e definir direção
+* Trabalhar lado a lado com PO e devs em problemas complexos, contribuindo desde a definição até o handoff
+* Estruturar e evoluir o uso de IA no upstream do produto: prototipação assistida (v0, Lovable, Figma Make, Cursor, Replit), geração de variações pra testes, aceleração de discovery
+* Entregar protótipos navegáveis e testáveis em ciclos curtos, prontos pra implementação direta pelo time de tech
+* Liderar a evolução do nosso Design System, trazendo rigor de UX e UI
+* Atuar como par de desenvolvimento de um PO em formação, ajudando a destravar pensamento estratégico e arquitetural
+* Trazer visibilidade e narrativa pro impacto de IA no nosso processo de produto
+
+**O que você precisa trazer na bagagem:**
+
+
+* Experiência sênior comprovada como Product Designer / UX Designer em produtos digitais
+
+Vivência no ciclo completo: discovery definição prototipação validação* handoff
+* Domínio avançado de Figma (componentes, variants, auto\-layout, prototyping)
+* Fluência em ferramentas de prototipação assistida por IA (v0, Lovable, Cursor, Figma Make, Replit, Bolt ou similares) — uso real em projeto, não experimentação
+* Experiência conduzindo e aplicando UX Research (qualitativo e quantitativo) com pragmatismo, sabendo inclusive quando não pesquisar
+* Capacidade de evoluir Design Systems, não só consumi\-los
+* Noções sólidas de frontend (HTML/CSS, comportamento de componentes, restrições técnicas) pra dialogar com devs
+
+**Soft skills que vão te fazer brilhar aqui:**
+
+
+* Pensamento crítico ativo: questiona regras de negócio, propõe alternativas, não aceita briefing como verdade
+* Autogestão e organização: gerencia o próprio tempo e demandas, não precisa de microgerenciamento
+* Transparência e comunicação assertiva: sinaliza disponibilidade, defende ponto de vista com argumento, discorda com elegância
+* Senioridade emocional: opera bem em ambientes com prioridades que mudam, sem perder qualidade nem ritmo
+* Mentalidade de produto: entende que design existe pra resolver problema de negócio
+* Velocidade com qualidade: distingue quando uma demanda pede 30 minutos e quando pede 3 dias
+
+**Diferenciais que pesam bastante na nossa avaliação:**
+
+
+* Experiência prévia liderando refatoração de Design System (essa é uma das primeiras grandes missões da posição)
+* Experiência em produtos B2B SaaS
+* Experiência em produtos de comunicação interna ou RH tech
+* Experiência com produtos que envolvem agentes de IA ou recursos generativos
+* Familiaridade com métricas de pr

@@ -1,0 +1,53 @@
+**About** **kos.ai**
+--------------------
+
+
+Trillions of dollars are flowing into datacenters, defense, energy, and manufacturing. The finance teams processing that capital can't keep up. 800\-page invoices, thousand\-page contracts, landing every few weeks, often on weekends. The world can't hire specialized accountants fast enough.
+
+
+Kos is the world's first virtual finance employee for america’s industrial revival. We're processing invoices for some of the fastest\-growing infrastructure and defense companies in America. Backed by $12M from 8VC, XYZ, and MVP with industry\-leaders as shareholders (Keith Taylor \[ex\-CFO Equinix], Heather Paduck \[CFO STACK], Matt DeNezza \[ex\-CFO Crusoe], Sachin Katti \[Industrial Compute OpenAI]).
+
+
+Media: The Information covering our launch
+
+**The Role**
+------------
+
+
+You'll work alongside the founding engineering team on bounded projects. Eval infrastructure. ERP integration stubs. Internal ops dashboards. The agent training pipeline. Whatever you ship lands in production at live customers.
+
+
+What you'll do:
+
+* Build and ship a bounded project in one of: eval infrastructure, ERP integration stubs, internal ops dashboards, or the agent training pipeline
+* Partner with the founding team. They're your reviewer and your mentor.
+* Learn how an AI\-native product works under the hood. The agent loop, the eval harness, the production plumbing. Not the marketing version.
+* Contribute to code reviews, design discussions, and the culture of the team
+
+**You**
+-------
+
+* Current CS or ML undergrad or Master's student with a hands\-on project or internship track record
+* Fluent in one of Python, TypeScript, or Go. You pick up whatever else the project needs.
+* You've played with LLMs, agents, or computer\-use workflows. You've built something, not just read about it.
+* You're hungry to ship code into production, not complete a rotational checklist
+* You'd rather ship one thing a customer touches than polish ten projects that live on a demo\-day slide
+* You're comfortable working in\-person at our SF office for the whole internship
+
+**Comp and Benefits**
+---------------------
+
+* Relocation benefits
+* Visa sponsorship for eligible candidates
+
+**Team**
+--------
+
+
+Tanuj and Mani met at Stanford as graduate researchers under Sachin Katti.
+
+
+Tanuj spent his career in and around the operators Kos serves: IT, datacenters, industrials, and hardware. He previously founded Spot AI, a computer vision company which scaled to over 1,000 enterprise customers. Mani's an International Olympiad medalist, earned his Engineering PhD at Stanford, \& published leading research at Microsoft Research. He then built product within Microsoft Azure's Strategic Missions and Technologies group.
+
+
+We built Kos because the finance and operations teams behind America's re\-industrialization are talented, overwhelmed, and can't hire their way out. Every CFO we spoke to described the same problem: 800\-page pay apps, thousand\-page contracts, work pil

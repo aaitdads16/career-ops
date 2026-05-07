@@ -1,0 +1,79 @@
+The Opportunity
+  
+Applied Scientist / Machine Learning Engineering Interns wanted at Adobe to pioneer AI in enterprise software. Interns use innovative research techniques in projects like AI Assistant in AEP, changing how Adobe’s Digital Experience customers handle audience creation, journey optimization, and personalized experiences on a large scale.
+  
+  
+
+Support enterprise AI projects by implementing advanced research strategies, experimental methods, and optimization techniques to improve conversational experiences and workflow planning.
+  
+  
+
+All 2026 Adobe interns will be co\-located hybrid. This means that interns will work between their assigned office and home. Interns will be based in the office where their manager and/or team are located, where they will get the most support to ensure collaboration and the best employee experience. Managers and their organization will determine the frequency they need to go into the office to meet priorities.
+  
+  
+
+What You’ll Do
+  
+  
+
+Conduct practical research and development in a fundamental area of creating smart assistants and multi\-agent systems, like natural language understanding, designing conversational interactions, generative and agent\-based AI, logic, learning through rewards, causal reasoning, and ongoing learning.
+  
+  
+
+Develop and implement scalable, efficient, and interpretable algorithms that can work with large\-scale data in production systems, specifically the AEP Agent Orchestrator and AI Assistant.
+  
+  
+
+Build benchmark datasets, evaluation protocols, and metrics to advance model performance.
+  
+  
+
+Collaborate with applied researchers, engineers, and product managers to translate research ideas into coordinated solutions.
+  
+  
+
+Present findings through technical reports, publications, or demos to share impact internally and externally.
+  
+  
+
+What You Need to Succeed
+  
+  
+
+Enrolled full\-time in a Computer Science, Statistics, Data Science, NLP, or related quantitative field program
+  
+  
+
+Strong understanding of machine learning, deep learning, statistical modeling, or natural language processing.
+  
+  
+
+Demonstrated experience in research (publication record at top AI/ML conferences strongly preferred).
+  
+  
+
+Experience with Python required; familiarity with PyTorch/TensorFlow or A2A/MCP is beneficial.
+  
+  
+
+Familiarity with data analysis tools and modern ML stacks (e.g., SQL, scikit\-learn, Hugging Face, or cloud ML platforms).
+  
+  
+
+Experience with LLMs including prompt/context\-engineering, modern LLM APIs, fine\-tuning models etc.
+  
+  
+
+Strong analytical problem\-solving skills, with ability to invent experiments and interpret results.
+  
+  
+
+Excellent communication skills with the ability to explain technical results to non\-technical collaborators.
+  
+  
+
+Ability to participate in a full\-time internship between May–September.
+  
+About Adobe
+  
+Adobe empowers everyone to create through innovative platforms and tools that unleash creativity, productivity a

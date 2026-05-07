@@ -1,0 +1,25 @@
+Within the Actuarial Risk team, we are looking for a working student to support us with our actuarial risk processes and change projects. Join us as a working student intern and launch your career with hands\-on experience, building in Python, data analysis, modelling and automation, and the chance to make impact at the intersection of liabilities, pricing, reinsurance, models and regulation.
+
+### **What you need to know about us**
+
+
+We are Athora Netherlands, an insurance company with the well\-known brands Zwitserleven and Reaal. We are mainly involved in pensions and life insurance in the Dutch market. We are part of a European group with offices in Ireland, the United Kingdom, Belgium, Germany and Italy. We are a strong company with over one million customers and we want to grow into one of the most important players in the rapidly changing pension market in the coming years. That is why we are looking for people who are not afraid of change, who are getting things done, who have the ambition to achieve results and who therefore know how to get the best out of themselves and their team. Smarter together, we call it.
+
+### **What are you going to do?**
+
+
+You will be working in the Actuarial Risk department, part of the Chief Risk Officer (CRO) domain. Actuarial Risk covers model risk management and insurance risk management. You will be part of a team of colleagues with different backgrounds and nationalities. Our culture is open, professional and inclusive. We count on your own responsibility to deliver, with flexibility to choose where to work (home or office) and on which days to work depending on your weekly university schedule.
+
+
+Important responsibilities include:
+
+* Contribute to actuarial risk processes and projects. Work on longevity risk, reinsurance, pricing, buy\-outs, stress testing, scenario analysis or regulatory topics.
+* Insight generation. See how insurance cash flows, assumptions and market movements affect results under Solvency II \& IFRS\-17\.
+* Automating risk \& reporting processes. Use Python and Databricks to improve and automate actuarial checks and analyses.
+* Challenge assumptions \& models. Review mortality, expenses, lapses and reinsurance assumptions using data, analytics and market insights \& review actuarial and asset\-related models.
+* Data \& model deep\-dives. Trace data from source systems into actuarial models and test whether models behave as expected
+* Exploring AI \& new tooling. Experiment with AI and modern analytics to make actuarial risk work faster, smarter and more scalable.
+* See the full picture. You work at the intersection of assets, liabilities, pricing, reinsurance, models and regulation
+* Strong technical foundation. Build practical skills in Python, data analysis, modelling and automation.
+* Meaningful impact. Your work supports decisions that matter for financial stability and policyholders.
+* Curiosity welcomed. Challenging status quo, new tools and critical questions are actively encou

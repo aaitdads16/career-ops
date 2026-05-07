@@ -1,0 +1,47 @@
+**Role: Product Management Intern**  
+We’re looking for someone who can think end\-to\-end—understanding user problems, shaping product flows, designing clean interfaces, and helping bring new features to life. You’ll work directly with the founding team and own meaningful product areas from day one.
+
+**What You’ll Work On**  
+\-Prompt Design \& Testing: Researching, writing, and testing prompts for AI models (like GPT or Claude) to achieve specific results.  
+\-Supporting project management—tracking progress, coordinating stakeholders, and ensuring smooth execution.  
+\-Product Setup \& Configuration Management: work with stakeholders across teams to build consensus and finalize the right configurations for the platform.  
+\-Collaborating with engineering to ensure shipped features match intent.  
+\-Running lightweight user research and usability tests.  
+\-Turning fuzzy ideas into clear specs and user stories.  
+\-Creating wireframes, flows, and prototypes in Figma.
+
+**Who We’re Looking For**  
+\-A student or recent graduate from any field with strong product interest.  
+\-High ownership mindset—with a focus on outcomes.  
+\-Strong communication and reasoning skills.  
+\-Comfortable with ambiguity and biased toward action.  
+\-Interest in startups, 0→1 building, and solving real user problems.  
+\-Interest or experience in LLMs, agents, automation, or AI workflows.  
+Bonus: Portfolio of design work, product thinking, or side projects (Figma, GitHub, Notion, etc.).  
+Bonus: experience with project management, UX research, or working in early\-stage teams.
+
+**Nice\-to\-Haves**  
+\-Prior internship in a startup or product/design team.  
+\-Understanding of usability heuristics and UX principles.  
+\-Some technical comfort—APIs, JSON, scripting, or no\-code tools.
+
+**What You’ll Get**  
+\-Real ownership of features in conversational AI used across India’s top \-colleges, B\-schools and corporates.  
+\-Opportunity to run full product cycles—research → design → specs → execution → launch.  
+\-A fast\-paced environment where your work ships, not sits.  
+\-Potential full\-time offer based on performance.
+
+**How to Apply**  
+\-Send us: Your resume  
+\-Portfolio links (if any) (Figma, GitHub, Notion, case studies, etc.)  
+\-Any AI/LLM side projects (strongly encouraged)
+
+Pay: Up to ₹15,000\.00 per month
+
+Benefits:
+
+* Paid sick time
+* Paid time off
+* Work from home
+
+Work Location: Hybrid remote in Bengaluru, Karnataka

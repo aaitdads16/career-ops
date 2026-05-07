@@ -1,0 +1,43 @@
+**Werk mee aan de groei van New York Pizza op delivery platforms!**
+
+
+Delivery platforms zoals Thuisbezorgd en Uber Eats spelen een steeds grotere rol in de groei van New York Pizza. Jaarlijks worden via deze platforms honderdduizenden bestellingen geplaatst. Tegelijkertijd neemt de concurrentie op deze platforms toe en hebben promoties, marketingacties en platformtools een grote invloed op zichtbaarheid en performance.
+
+
+Daarom wil New York Pizza een **data‑gedreven Growth Intelligence framework** ontwikkelen dat inzicht geeft in:
+
+* welke acties groei genereren op delivery platforms
+* hoe concurrentie onze platformperformance beïnvloedt
+* hoe marketinginvesteringen bijdragen aan orders via zowel delivery platforms als ons eigen bestelplatform
+
+ **De afstudeeropdracht**
+
+
+Tijdens deze stage ontwikkel je een analyse‑ en datamodel dat inzicht geeft in de factoren die de performance van New York Pizza beïnvloeden op delivery platforms. Je werkt met marketingdata die middels van interne AI\-tooling toegankelijk worden gemaakt. Daarnaast haal je data uit andere bronnen zoals dashboard in PowerBI, en BigQuery.  
+
+  
+
+
+
+Je analyseert onder meer de impact van promoties en marketingtools op platformperformance, zoals kortingsacties, toprank‑campagnes, gratis bezorging en lokale winkelacties. Daarnaast onderzoek je hoe verschillende marketingactiviteiten bijdragen aan orders via delivery platforms en het eigen bestelplatform en welke acties daadwerkelijk zorgen voor extra groei. Tot slot kijk je naar markt\- en concurrentieontwikkelingen binnen delivery platforms en hoe New York Pizza presteert ten opzichte van de markt. Je gebruikt hierbij methoden zoals Mix marketing/uplift modelling, Promotion elasticity en experimentenanalyse om beter te begrijpen welke marketingacties daadwerkelijk leiden tot extra orders en groei.
+
+
+Naast je onderzoeksopdracht draai je mee in het digital marketing team. Je ondersteunt onder andere bij:  
+
+  
+
+* het monitoren van promoties en acties op Thuisbezorgd en Uber Eats
+* het analyseren van performance van campagnes en promoties
+* het signaleren van kansen om campagnes te verbeteren
+* samenwerking met platformpartners
+* content en marketingactiviteiten met collega\-marketeers
+
+  
+
+Zo combineer je een strategische afstudeeropdracht met praktische ervaring in digital marketing en platformstrategie.
+Als jij de opdracht tot een succes weet te maken kan je aan het einde van je stage concrete aanbevelingen geven voor het optimaliseren van promoties en marketinginvesteringen, inzichten geven over platform\- en concurrentieontwikkelingen en lever je een analysemodel voor marketing impact en Third Party Performance Dashboard op.
+
+ **Wat breng jij mee?**
+
+
+Wij hechten veel waarde aan onze mensen, we vinden het dan ook belangrijk dat nieuwe collega’s goed bij ons team en bedrijf passen. Wij zijn ambitieus en ondernemend; heb je een mooi idee? Go for it! Hiërarchie is bij ons niet belangrijk, de deur staat altijd open voor elkaar en iede

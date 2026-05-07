@@ -1,0 +1,43 @@
+We are looking for PhD research interns excited to advance the next generation of large language models through reinforcement learning. Our applied deep learning research team at NVIDIA has helped pioneer projects such as Megatron, MT\-NLG, and DLSS. We build state\-of\-the\-art foundation models and develop new methods to improve their reasoning, alignment, reliability, and ability to solve real\-world tasks.
+
+
+This internship will focus on algorithmic research at the intersection of reinforcement learning and large language models. You will design, implement, and evaluate new RL\-based methods for improving LLM behavior, with a strong emphasis on hands\-on experimentation and rapid prototyping at scale.
+
+**What you will be doing:**
+
+* Develop and prototype reinforcement learning algorithms for large language models
+* Explore methods for improving reasoning, alignment, instruction following, and multi\-turn interaction
+* Design experiments to evaluate model behavior, robustness, hallucination, and task performance
+* Implement research ideas in Python and PyTorch, and run experiments on large\-scale GPU clusters
+
+**What we need to see:**
+
+* Pursuing a PhD in AI, ML, CS, CE, EE, Math, Physics, or a related field
+* Strong background in reinforcement learning and natural language processing
+* Excellent programming skills, especially in Python
+* Experience with deep learning frameworks such as PyTorch
+* Comfort with experimental research, debugging models, and working with large\-scale training pipelines
+
+**Ways to stand out from the crowd:**
+
+* Publications or open\-source contributions in RL, LLMs, alignment, reasoning, or post\-training
+* Experience with RLHF, RLAIF, policy optimization, reward modeling, or agentic LLM systems
+* Strong intuition for both algorithms and large\-scale implementation
+
+
+If you are excited about using reinforcement learning to make language models more capable, reliable, and useful, this team could be a great fit.
+
+
+Our internship hourly rates are a standard pay based on the position, your location, year in school, degree, and experience. The hourly rate for our interns is 30 USD \- 94 USD.
+
+You will also be eligible for Intern benefits.
+
+
+Applications for this job will be accepted at least until May 10, 2026\.
+This posting is for an existing vacancy.
+
+
+NVIDIA uses AI tools in its recruiting processes.
+
+
+NVIDIA is committed to fostering a diverse work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.

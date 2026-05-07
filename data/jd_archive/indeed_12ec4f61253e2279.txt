@@ -1,0 +1,39 @@
+Our mission is to make biology easier to engineer. Ginkgo is constructing, editing, and redesigning the living world in order to answer the globe’s growing challenges in health, energy, food, materials, and more. Our bioengineers make use of an in\-house automated foundry for designing and building new organisms.
+
+ **About the Role:** Ginkgo Bioworks is constructing the world’s first "Total Autonomous Lab"—a facility where scientific work is requested by code and executed by robots, 24/7\. We are looking for a **Software Intern** to help build the digital brain of this lab. You will work with **Catalyst**, our proprietary software stack that orchestrates fleets of Reconfigurable Automation Cells (RACs). This role is ideal for software engineers who want to apply their skills to physical systems or computational biologists who want to move beyond analysis into autonomous execution.
+
+
+**Responsibilities:**
+
+
+* **Enable "Protocols as Code":** Develop and refine Python\-based protocols using the Catalyst Client to control liquid handlers, plate readers, and robotic arms.
+* **Build the AI Scientist:** Assist in the development of **Catalyst Agent**, our LLM\-based interface that allows scientists to launch experiments using natural language.
+* **Integrate Lab Data:** Work on data pipelines that automatically harvest, structure, and upload experimental data from RACs into our data lake for AI model training.
+* **Develop Device Drivers:** Help integrate new hardware instruments into the Catalyst ecosystem, writing the drivers that allow our software to "talk" to new lab tools.
+
+
+**Preferred Qualifications:**
+
+
+* Recent graduate (BS/MS) or current student in Computer Science, Bioengineering, or a related STEM field.
+* Strong proficiency in **Python**; experience with hardware control or APIs is a plus.
+* Enthusiasm for **"Lab\-in\-the\-Loop"** technologies where AI models drive physical experimentation.
+* Interest in biological data standards and laboratory automation.
+
+  
+
+
+
+*The base salary range for this role is $45,100\-$63,600\. Actual pay within this range will depend on a candidate's skills, expertise, and experience. We also offer a comprehensive benefits package including medical, dental \& vision coverage, health spending accounts, voluntary benefits, leave of absence policies, 8 paid holidays in addition to a full\-week winter shutdown and unlimited Paid Time Off policy.*
+
+
+* ***It is expected that all Internships are onsite five days a week.***
+  
+
+
+It is the policy of Ginkgo Bioworks to provide equal employment opportunities to all employees, employment applicants, and EOE disability/vet.  
+
+
+
+**Privacy Notice**
+I understand that I am applying for employment with Ginkgo Bioworks and am being asked to provide information in connection with my application. I further understand that Ginkgo gathers this information through a third\-party service provider and that Ginkgo may also use other service providers to assist in the application process. G

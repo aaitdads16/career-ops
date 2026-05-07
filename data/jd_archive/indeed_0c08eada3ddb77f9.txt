@@ -1,0 +1,32 @@
+Introduction:
+
+Established in 1912, Bank of China is one of the largest banks in the world, with over $3 trillion in assets and a footprint that spans more than 60 countries and regions. Our long\-term outlook, institutional weight and global breadth provide our clients with a stable and reliable financial partner, whether in Corporate or Personal Banking or our Trade Services, Commodities, Financial Institutions and Global Markets lines of business.
+Overview:
+
+The intern to be hired is expected to assist senior members in the model team to conduct all BAU activities. She/he will help collect business/development data, run credit risk ratings/CECL/Stress Test, aggregate model output, conduct data analysis, and also document models for model risk management purpose (internal model review and audit). She/he will participate in model lifecycle and provide assistance for any finding/regulatory issue (e.g. MRA) remediation.
+
+
+Responsibilities:
+* **Credit Risk Rating**: The intern will coordinate the risk rating requests from FLUs and CRM CA teams, be familiar with the model setup and requirements, and generate the rating reports as required.
+* **Stress Test**: The intern will help run the quarterly stress tests, aggregate the results, perform in\-depth analysis, and prepare the reports.
+* **Model Risk Governance**: The intern will help update the model docs for ERM reviews, assist the finding remediation, track the finding/issue status.
+* **Data Collection**: The intern will assist senior members in the model team collecting necessary data from different locations or sources, clean the data, and report the outcome in the designated formats, e.g. CECL scenarios, loan rating history and major events, etc.
+* **Admin Duties**: Help the team lead on various team admin work such as invoice processing, meeting organization and minutes, meeting deck preparation, etc.
+
+
+Qualifications:
+* Advanced degree in quantitative fields such as Math, Statistics, Physics, Computer Science, Financial Engineering, etc.
+* Familiar with the programming languages such as VBA, Python, and SQL
+* Excellent written and verbal communication skills
+* Strong organizational and time management skills
+* Ability to work independently and collaboratively in a team environment
+* Eagerness to learn and take initiatives
+* Basic knowledge of finance\-related tools, concepts, or technologies
+* Problem\-solving and critical thinking skills
+
+
+Pay Range *Actual salary is commensurate with candidate’s relevant years of experience, skillset, education and other qualifications.*
+
+  
+
+: USD $18\.00 \- USD $18\.00 /Hr.

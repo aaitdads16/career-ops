@@ -1,0 +1,36 @@
+**What to Expect**
+Consider before submitting an application:
+
+  
+
+This position is expected to start August or September 2026 and continue through fall term (ending approximately December 2026\) or continuing into Winter/Spring 2027 if available and there is an opportunity to do so. We ask for a minimum of 12 weeks, full\-time (40 hours/week) and on\-site, for most internships. Our internship program is for students who are actively enrolled in an academic program. Recent graduates seeking employment after graduation and not returning to school should apply for full\-time positions, not internships.
+
+
+International Students: If your work authorization is through CPT, please consult your school on your ability to work 40 hours per week before applying. You must be able to work 40 hours per week on\-site. Many students will be limited to part\-time during the academic year.
+
+
+Internship Program at Tesla
+
+
+The Internship Recruiting Team is driven by the passion to recognize and develop emerging talent. Our year\-round program places the best students in positions where they will grow technically, professionally, and personally through their experience working closely with their Manager, Mentor, and team. We are dedicated to providing an experience that allows the intern to experience life at Tesla by including them in projects that are critical to their team’s success.
+
+
+About the Team
+
+
+The Systems Validation team is responsible for validating all software and system requirements prior to any new software release or new product introduction. This includes inventing and building state of the art automated test infrastructure to increase the efficiency and precision of testing used throughout the development and validation cycle.
+
+
+The team is looking for highly motivated interns to support Drive Systems, Brakes, Steering, Suspension, Crash Safety, Thermal Management, HVAC, Body Controls, Lighting, Access Controls, Battery Management, Charging, Power Conversion, High and Low Voltage Power Distribution, Autonomy and Core Test Infrastructure.
+
+
+The ideal candidate is strong in system\-level troubleshooting, automation tools, and hardware and software design, with a passion for mechatronics and seamless user experiences.
+
+
+Interns will directly impact the continuous development of software for existing and new vehicle programs by contributing to the validation strategy and building new automated test infrastructure.
+
+ **What You'll Do*** Develop and execute comprehensive system\-level validation plans for the continuous improvement of existing products and the launch of new products
+* Specify, design, develop and integrate test automation frameworks, tools and sub\-system test\-setups using Python, C\+\+ and Rust
+* Collaborate directly with firmware, hardware and controls engineers to identify, diagnose, and resolve issues early in the development cycle
+* Analyze test results, generate reports, and provide recommendations for product improvements
+* Inv

@@ -1,0 +1,38 @@
+Se você é curioso, gosta de tecnologia, já usa IA no seu dia a dia e quer aprender construindo soluções reais, esse programa é para você!
+
+  
+
+Aqui, você não vai apenas testar ferramentas. Você vai participar da construção de soluções de **Dados, Inteligência Artificial, automação e desenvolvimento de aplicações** que ajudam a transformar a forma como a empresa trabalha, decide e escala.
+
+  
+
+Estamos criando um programa de estágio focado em **Dados, Inteligência Artificial e Automação aplicada ao negócio**, conectado ao nosso programa **AI First** e à construção do nosso **Data Lake corporativo**.
+
+  
+
+Você vai atuar em projetos reais, apoiando iniciativas de automação de processos, organização e uso de dados, criação de soluções com IA, desenvolvimento de aplicações internas, criação de agentes inteligentes e experimentação de novas tecnologias.
+
+
+A ideia é formar talentos com visão prática, capacidade técnica e vontade de construir. Pessoas que saibam usar IA como acelerador, mas que também queiram aprender fundamentos de dados, programação, APIs, integrações, automações e desenvolvimento de software.
+
+  
+
+O programa prevê atuação em diferentes áreas da empresa, como **Growth, Produtos, Marketing, Tech e RH**, sempre com foco em resolver problemas reais, aumentar eficiência e apoiar a evolução da companhia com dados, IA e tecnologia.
+
+ **Responsabilidades e atribuições**  
+
+* Mapear processos internos e identificar oportunidades de melhoria com dados, IA e automação;
+* Apoiar a construção de soluções para automatizar atividades manuais e aumentar a produtividade das áreas de negócio;
+* Desenvolver scripts, aplicações simples, APIs, integrações e protótipos usando tecnologias como **Python**, SQL, ferramentas de automação e IA generativa;
+* Participar de iniciativas ligadas ao **Data Lake**, apoiando organização, ingestão, tratamento, documentação e uso de dados para análises e produtos internos;
+* Criar automações usando **n8n**, APIs, webhooks e integrações entre sistemas;
+* Apoiar a criação de agentes inteligentes usando **Gemini Enterprise**, **Agent Platform**, **Agent Builder** e outras tecnologias de IA aplicadas ao negócio;
+* Testar modelos, agentes, prompts, fluxos automatizados e soluções com IA, com forte uso de **Gemini**, aplicadas a problemas reais da empresa;
+* Apoiar projetos estratégicos das áreas de **Growth, Produtos, Marketing, Tech e RH**;
+* Participar de job rotation dentro da área, conhecendo diferentes frentes como engenharia de dados, analytics, IA aplicada, automação, desenvolvimento, produto, marketing, growth e processos internos;
+* Documentar aprendizados, soluções criadas, hipóteses testadas e resultados alcançados;
+* Apresentar ideias, protótipos e soluções para o time técnico, lideranças e áreas de negócio.
+
+ **Requisitos e qualificações**  
+
+* Estar cursando graduação, tecnólogo ou curso técnico em áreas relacionadas a Tecnologia, Dados, Engenharia, Ciência da Computação, Sistemas de Informação, Análise e Desenvo

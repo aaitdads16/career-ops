@@ -1,0 +1,36 @@
+Technical Intern**At a glance**
+---------------
+
+
+Are you passionate about technology and eager to gain hands\-on experience in a dynamic and collaborative environment? Join ABN AMRO's X\-Domain Design \& Engineering team as a Technical Intern and be part of a team that leverages GenAI to create bank wide IT solutions and assist with big IT Change Initiatives and Programs.
+
+**Your job**
+------------
+
+
+As a Technical Intern, you will immerse yourself in the usage, analysis, and testing of our AI capabilities. We have several ongoing initiatives that aim to increase GenAI adoption in our IT organization. In particular, our focus is to find use cases for GenAI where we utilize its strength to analyse design documents, architectural documents, and generate code to improve efficiency, compliance \& security.
+For example, by collaborating with various teams to understand their domain, you prototype Proof\-of\-concept GenAI solutions using the latest AI research.**Your working environment**
+----------------------------
+
+
+Our team is the X\-Domain Design \& Engineering team, which assists in several cross\-domain initiatives. These are typically more complicated, bank\-wide big IT changes and programs, that require the involvement of several departments within ABN AMRO. One of those initiatives, getting a clear insight in the IT Debt of several legacy IT applications, you'll be assisting us with.
+The team is small, dynamic, varied in terms of roles, and consists of knowledgeable and experienced members. We're looking forward to helping you as well with your ambitions, by providing coaching or helping you out with any questions or interests you may have. We're well connected throughout the organization, so if your aim is to get a better understanding of an organization like ours, this is the position for you!* Preprocess complex data to create context for GenAI by creating abstracts from technical documentation
+* Work on creative utilization of AI for various use cases, such as generating reports for IT governance, cross referencing documents or scanning codebases
+* Create and test prompts for our internal GenAI models using state\-of\-art prompt engineering techniques
+* Use Github Copilot to create skills, custom instructions and agentic solutions for AI\-assisted developer tools
+* Have real impact on the enterprise and developer practices through automation
+* Show your independence by leading your projects from design to execution. Aling the way, you evaluate, run proof\-of\-concepts, and handle stakeholder management.
+**Your profile**
+----------------
+
+
+Candidates for the internship need to fulfil the following requirements:
+
+* Available for 6\-7 months, starting in June 1st.
+* University education (Bachelor or Master degree);
+* Fluency in English or Dutch required.
+**What we offer**
+-----------------
+
+
+Are you looking for a challenging internship to develop yourself? Do you want to work in one of the best working environments in the Netherlands? We in

@@ -1,0 +1,40 @@
+**Unternehmensübersicht**
+
+Die ESCRIBA ist seit mehr als 25 Jahren Pionier für innovative Unternehmenssoftware in Berlin. Wir revolutionieren Verwaltungsprozesse durch intelligente Digitalisierung und Automatisierung, mit besonderem Fokus auf HR\-Lösungen. Unsere Stärke, die Kombination aus digitalen Workflows, Case Management und objektorientierter Dokumentenerstellung auf unserer Low\-Code Entwicklungsplattform, bringen wir mit AI auf die nächste Stufe. Auch intern wollen wir konsequent auf „AI First“ setzen.
+
+**Stellenzusammenfassung**
+
+Du prüfst Prozesse und Daten routinemäßig danach, wo KI Hebel hat und verwirklichst Verbesserungsmöglichkeiten schnell. Mit Claude Code, Cursor oder Codex baust du in wenigen Tagen funktionierende Anwendungen für den eigenen Gebrauch. Bei ESCRIBA treibst du als zentraler AI Builder die interne Transformation an.
+
+**Zu deinen Aufgaben gehören:**
+
+* Entwicklung interner MVPs, Tools und Automationen, die reale Geschäftsprobleme lösen
+* Identifikation, Scope\-Definition und Priorisierung von AI\-Use\-Cases in Zusammenarbeit mit Fachabteilungen (Finance, HR, Operations, Sales)
+* Analyse und Beschleunigung bestehender Prozesse durch den gezielten Einsatz von AI\-Agenten und intelligenten Workflows
+* Aufbau und Pflege einer strukturierten Prompt\-Bibliothek, technischer Spezifikationen (Markdown), Templates und Guardrails als skalierbare Wissensbasis
+* Befähigung und Begleitung von Kolleginnen und Kollegen im praktischen Umgang mit modernen AI\-Tools
+
+**Dein Profil:**
+
+* Nachweisliche, praktische Erfahrungen im produktiven Einsatz von AI\-Coding und Agenten\-Tools (Claude Code, Cursor, Codex oder vergleichbare Lösungen).
+* Builder\-Mindset: Mit Pragmatismus und Ergebnisorientierung überführst du Ideen zügig in testbare Prototypen.
+* Tech\-Stack: Python als Basis, idealerweise ergänzt durch Django, Next.js, PostgreSQL und Docker. Tiefes Expertenwissen ist nicht erforderlich, entscheidend ist der effektive Einsatz von KI\-Tools in diesen Umgebungen.
+* Sehr gute Deutschkenntnisse für die reibungslose Zusammenarbeit mit den Fachabteilungen.
+* Du denkst ganzheitlich in Workflows, Automatisierungen, Agenten und Feedback\-Loops.
+
+**Bewerbung**
+
+Zeig uns, was du gebaut hast: GitHub\-Repos, Demos, Screenshots.
+
+Gehalt: ab 45\.000,00€ pro Jahr
+
+Leistungen:
+
+* Betriebliche Altersvorsorge
+* Empfehlungsprogramm
+* Essenszuschuss
+* Flexible Arbeitszeiten
+* Homeoffice\-Möglichkeit
+* Kostenlose Getränke
+
+Arbeitsort: Zum Teil im Homeoffice in 10553 Berlin
