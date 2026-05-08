@@ -1,0 +1,46 @@
+**Job Description:**
+
+
+Integral Ad Science (IAS) is a leading global media measurement and optimisation platform that delivers the industry’s most actionable data to drive superior results for the world’s largest advertisers, publishers, and media platforms — and we’re looking for a Data Science Intern to join our Multimedia Services (Embeddings \& Agentic Systems) Team. IAS’s software provides comprehensive and enriched data that ensures ads are seen by real people in safe and suitable environments, while improving return on ad spend for advertisers and yield for publishers. Our mission is to be the global benchmark for trust and transparency in digital media quality. For more information, visit integralads.com.  
+
+  
+
+As a Data Science Intern, you will work on cutting\-edge machine learning projects that power IAS’s next generation of multimodal classification systems. You’ll get hands\-on experience with large\-scale video, image, text, and audio models; active learning workflows; and high\-throughput ML pipelines running in production. This internship is an opportunity to contribute to systems used by major global advertisers, collaborate with experienced data scientists and ML engineers across Dublin, Italy, and the US, and build portfolio\-ready work that has real impact. You’ll have the space to experiment, the mentorship to grow, and the ability to ship meaningful improvements that shape IAS’s future AI capabilities.
+
+**This is a 36\-hour\-per\-week, 10\-week hybrid internship running from June 15 to 24 August, 2026\. Applications are due by 11 May, 2026\.**  
+
+  
+
+What you’ll get to do  
+
+Build and evaluate machine learning models for multimodal content understanding across video, audio, text, and images.  
+
+Develop and analyse models used for model training, active learning, and large\-scale evaluation.  
+
+Run experiments using modern ML frameworks (PyTorch, TensorFlow, Hugging Face) and document findings clearly.  
+
+Contribute to ML pipelines and tooling used for retrieval, embeddings, and automated annotation.  
+
+Collaborate with data scientists, ML engineers, and knowledge engineers to test new ideas and improve classification accuracy.  
+
+Present results, insights, and recommendations to the broader ML team.  
+
+Support ongoing research initiatives in areas like semantic topic modelling, misinformation analysis, and trend detection.  
+
+  
+
+You should apply if you have most of this experience  
+
+Currently pursuing a degree in Computer Science, Machine Learning, Data Science, or a related field.  
+
+Experience with Python and common data science libraries (NumPy, Pandas, Scikit\-learn).  
+
+Familiarity with at least one deep learning framework (PyTorch or TensorFlow).  
+
+Interest in computer vision, NLP, audio processing, or multimodal modelling.  
+
+Ability to work with datasets, run experiments, and explain results clearly.  
+
+Curiosity, willingness to learn, and comfort asking questions.  
+
+Strong analytical thinking and attention to d

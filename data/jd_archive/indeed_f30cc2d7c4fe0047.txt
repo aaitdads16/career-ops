@@ -1,0 +1,32 @@
+**What to Expect**
+Consider before submitting an application:
+
+
+This position is expected to start August or September 2026 and continue through fall term (ending approximately December 2026 or later, if available). We ask for a minimum of 12 weeks, full\-time (40 hours/week) and on\-site, for most internships. Our internship program is for students who are actively enrolled in an academic program. Recent graduates seeking employment after graduation and not returning to school should apply for full\-time positions, not internships.
+
+
+International Students: If your work authorization is through CPT, please consult your school on your ability to work 40 hours per week before applying. You must be able to work 40 hours per week on\-site. Many students will be limited to part\-time during the academic year.
+
+  
+
+Internship Programs at Tesla
+
+  
+
+The Internship Recruiting Team is driven by the passion to recognize emerging talent. Our year\-round program places the best students in positions that they will grow both technically and personally through their experience working closely with their Manager, Mentor, and team. We are dedicated to providing an experience that allows for the intern to experience life at Tesla by giving them ownership over projects that are critical to their team’s success.
+
+  
+
+What to Expect
+
+
+Tesla rapidly ships software updates over the air to millions of vehicles on the road around the globe. As a member of the Maps and Navigation Validation team, you'll be responsible for ensuring that improvements and new features for our vehicles are thoroughly vetted, building confidence and assessing risks before signing off on each software release.  
+
+  
+
+Join a team of top\-notch Software Engineers and Test Engineers committed to continuously improving our vehicles' features and to holding the highest bar for the performance and reliability of our software systems. You will build automation \& simulation tools and fleet telemetry pipelines to perform data\-based assessments of the quality of our routes, turn\-by\-turn guidance, and map \& traffic data across markets worldwide. You will collaborate across teams to ensure Tesla's navigation systems integrate seamlessly with our vehicles' maps UI, self\-driving capabilities, and the supercharging network. The ideal candidate is a self\-driven and hands\-on problem solver, interested in utilizing a range of technologies and strategies to validate and ship features.
+
+ **What You'll Do*** Become an expert on subsystems within the Maps and Navigation stack to perform validation reviews and risk assessments before releasing software to the fleet
+* Write and ship software to the vehicle and build automated systems in the backend to generate and analyze fleet data from the millions of Tesla vehicles worldwide
+* Define evaluation metrics, create visualizations and dashboards to support the monitoring and refinement of our navigation systems
+* Implement and improve internal tools to accelera

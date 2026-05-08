@@ -1,0 +1,23 @@
+Header: About Lubrizol
+
+The Lubrizol Corporation, a Berkshire Hathaway company, is a specialty chemical company whose science delivers sustainable solutions to advance mobility, improve wellbeing and enhance modern life. Founded in 1928, Lubrizol owns and operates more than 100 manufacturing facilities, sales, and technical offices around the world and has about 8,000 employees. For more information, visit www.Lubrizol.com. 
+
+We value diversity in professional backgrounds and life experiences. By enabling a consistent, unbiased, and transparent recruitment process, Lubrizol seeks to create a positive experience for candidates so we can get to know them at their best. We recognize unique work and life situations and offer flexibility, ensuring our employees feel engaged and fulfilled in every aspect of life.
+
+Join Our Thriving Team at Lubrizol as a Data Scientist/Statistician Intern (PhD level)
+
+Unleash Your Potential. At Lubrizol we're transforming the chemical industry and looking for exceptional talent to join us on this journey. If you are ready to join an international company with talent around the world, and want to make a real impact, we want you on our team.
+
+What You'll Do
+
+The empowered and agile Data Science & Statistics team is charged with creating analytics systems that enable highly effective product development via virtual experimentation, optimization and knowledge discovery. In addition, the team provides data science consulting services to the Lubrizol technical community throughout the world. You'll collaborate with a diverse group of passionate individuals to deliver sustainable solutions to advance mobility, improve wellbeing and enhance modern life.
+
+Potential projects (depending on intern skills and current Lubrizol needs):
+
+Create predictive models by mining complex data for critical formulating or testing insights Implement and assess algorithms in R and Python (SAS, JMP, or C#/C++, optional) Research, develop, and operationalize new statistical, machine learning and/or optimization methods Implement and improve forecasting algorithmsInvestigate applications of Cheminformatics modelling Investigate active learning for process optimizationscheduling and inventory optimization accelerate process and product development cycle using emerging AI methods (such as LLM, RAG, Agentic AI)
+
+Previous Intern Projects Include
+
+Predictive modeling using Bayesian and machine learning methods R/Shiny tool development to enable model predictions and formulation optimization Creation of an interactive visualization tool for monitoring predictive modelsDevelopment of a bootstrap procedure for a hypothesis testMultitask learning (transfer learning) using co-regionalized Gaussian ProcessesMultivariate variable selection approach using Variational BayesMulti-objective optimization using genetic algorithmsSurvival modeling using bagged Cox proportional hazards regression treesBootstrap variance estimation for complex nonlinear models
+
+Requireme

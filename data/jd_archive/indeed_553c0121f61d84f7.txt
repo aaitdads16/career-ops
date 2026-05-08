@@ -1,0 +1,42 @@
+Estamos buscando uma liderança técnica e de produto para capitanear uma das nossa frente de engenharia. Sua missão será unir a visão de negócio à excelência técnica, otimizando processos através de metodologias ágeis e, crucialmente, escalando a produtividade do time por meio de **Software Development Driven by AI (SDD)**. Você não apenas gerenciará pessoas, mas será o arquiteto de um ecossistema de alta performance.
+
+ **Esta é uma posição de liderança, que tem o modelo de trabalho híbrido:3 dias presenciais no hub de São Paulo/SP ou 1 dia presencial no hub de Porto Alegre/RS.**
+
+ **Responsabilidades e atribuições** **Seus desafios para fazer a diferença neste time:**
+
+* Liderança de Squads: Coordenar times multidisciplinares (Engenharia e Produto), garantindo o alinhamento entre o *roadmap* de produto e a viabilidade técnica;
+* Evolução de Processos: Identificar gargalos no ciclo de vida de desenvolvimento e implementar melhorias contínuas baseadas em métricas (DORA Metrics, SPACE);
+* Cultura de IA (SDD): Liderar a adoção de ferramentas de IA generativa no dia a dia do time (Github Copilot, Cursor, automação de testes via LLMs) para potencializar a entrega;
+* Visão de Negócio: Traduzir objetivos estratégicos da empresa em soluções técnicas escaláveis, atuando como ponte entre stakeholders e o time técnico;
+* Mentoria e People Care: Desenvolver talentos, realizar 1:1s, planos de carreira e fomentar um ambiente de inovação e segurança psicológica;
+* Excelência Técnica: Garantir boas práticas de arquitetura, qualidade de código e segurança, promovendo a cultura de *Continuous Delivery*.
+
+  
+
+Todas as nossas vagas são para todos. Aqui as pessoas são únicas, respeitamos e valorizamos as diferenças.
+
+ **Requisitos e qualificações** **Perfil de Humanz que buscamos:**
+
+* Residir nas cidades de São Paulo/SP ou Porto Alegre/RS ou regiões metropolitanas;
+* Histórico comprovado liderando times de tecnologia (Engineering Lead, Staff Engineer ou Coordenador);
+* Forte entendimento de descoberta de produto (*discovery*), UX e métricas de negócio;
+* Experiência profunda com Scrum, Kanban e gestão de fluxo;
+* Conhecimento prático em ferramentas de **AI\-Assisted Development** e como aplicá\-las para reduzir o *lead time;*
+* Capacidade de transitar entre discussões de baixo nível técnico e apresentações executivas;
+* Familiaridade com arquiteturas modernas (Microsserviços, Cloud, CI/CD).
+
+  
+
+
+
+**Bacana se você tiver, mas não é obrigatório:**
+
+* Experiência na implementação de fluxos de **SDD** (Software Development Driven by AI) do zero;
+* Conhecimento em Engenharia de Prompt para automação de tarefas de engenharia;
+* Atuação prévia em ambientes de escala acelerada (Scale\-ups).
+
+  
+
+**Informações adicionais**  
+
+Somos uma empresa de tecnologia que desenvolve uma solução de IA completa, a Zenvia Customer Cloud, com o propósito de revolucionar a experiência do cliente em todas as etapas da jornada, da atração até o pós\-venda. Se você já interagiu com um chatbot,

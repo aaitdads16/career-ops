@@ -1,0 +1,29 @@
+**Dein Herz schlägt für Generative und Agentische KI?** Dich begeistern die zahlreichen Einsatzmöglichkeiten von RAG\-basierten Systemen und KI\-Agenten in der Industrie? Du möchtest für Kunden individuelle Softwarelösungen für ihre Anwendungsfälle entwickeln? Dann sollten wir uns kennenlernen!  
+
+  
+
+MaibornWolff ist ein **i****nhabergeführtes IT\-Beratungsunternehmen** mit mehr als 30 Jahren Expertise. Rund 800 Menschen beraten unsere Kunden bei ihren Digitalisierungsstrategien und entwickeln für sie moderne individuelle Softwarelösungen. 2024 sind wir in die Lünendonk\-Liste der „**führenden mittelständischen IT\-Beratungen in Deutschland**“ aufgestiegen, worauf wir stolz sind.  
+
+  
+
+Über **20 Kolleginnen und Kollegen** unterschiedlichster Senioritäten und Spezialisierungen bilden unser **Artificial\-Intelligence\-Team**, das eine Leidenschaft verbindet: mit state\-of\-the\-art\-KI innovative und maßgeschneiderte Software für unsere Kunden zu entwickeln. Dafür nutzen sie multi\-modale Foundation\-Modelle sowie klassische ML\-Techniken, um individuelle Problemstellungen zu lösen.  
+
+  
+
+**Beispiele gefällig?** Für einen global agierenden Tourismusanbieter haben wir einen **AI Holiday Planning Assistant** implementiert, der Kundenbedürfnisse präzise erfasst und daraus individuelle Urlaubsangebote generiert. Vielleicht hast du damit ja schon deinen letzten Urlaub geplant. Als Teil unseres Teams kannst du noch einen Schritt weiter gehen und verschiedenste KI\-basierte Anwendungen von der Idee bis zum Go\-Live umsetzen.
+
+#### **Deine Aufgaben**
+
+* Du arbeitest in **enger Abstimmung mit unseren Kunden**: Du besprichst Bedarfe, leitest Lösungsvorschläge ab und hältst unsere Kunden während des gesamten Entwicklungsprozesses auf dem Laufenden.
+* Deine Leidenschaft liegt in der ganzheitlichen Umsetzung: Du **designst KI\-basierte Systeme** und setzt diese gemeinsam mit deinem Team um.
+* Innerhalb deines Teams übernimmst du **fachliche Verantwortung** und unterstützt die langfristige Weiterentwicklung deiner Teamkolleg:innen.
+* Du sorgst für **stetige Innovation**: Du testest neue Tools, Technologien und Modelle, um unsere Lösungen und Architekturen auf dem neuesten Stand zu halten.
+* Du **teilst deine Expertise aktiv** – sowohl intern mit Kolleg:innen als auch extern durch Workshops, Messebesuche und Vorträge.
+
+#### **Dein Profil**
+
+* Du hast dein **Studium in Informatik, Data Science** oder einer vergleichbaren Studienrichtung erfolgreich abgeschlossen.
+* Du verfügst über **mehrjährige praktische Erfahrung in der Entwicklung von KI\-Plattformen** über den gesamten Lebenszyklus hinweg – vom Training bis zur Inferenz.
+* Als Tech Lead hast du bereits **KI\-Teams angeleitet** und Projekte zum erfolgreichen Abschluss gebracht. Zudem kommunizierst du souverän mit Kunden.
+* Du bist routiniert in der **Entwicklung mit Python** und hast bereits mit Tools und Technologien wie **Uvicorn, FastAPI, LangChain** und **DeepEval** gearbeitet.
+* Du hast fundierte Kennt

@@ -1,0 +1,38 @@
+**Calling all innovators – find your future at Fiserv.**
+
+
+We’re Fiserv, a global leader in Fintech and payments, and we move money and information in a way that moves the world. We connect financial institutions, corporations, merchants, and consumers to one another millions of times a day – quickly, reliably, and securely. Any time you swipe your credit card, pay through a mobile app, or withdraw money from the bank, we’re involved. If you want to make an impact on a global scale, come make a difference at Fiserv.
+
+**Job Title**
+
+
+Especialista em Automação RPA**O que um(a) Especialista em Automação RPA bem\-sucedido(a) faz na Fiserv?**  
+
+Um(a) Especialista em Automação RPA bem\-sucedido(a) na Fiserv traduz a complexidade dos processos de negócio em soluções automatizadas que acompanham o ritmo da vida digital. Atuamos em parceria com áreas de negócio para identificar oportunidades de automação que gerem eficiência, segurança e escalabilidade. Com foco em RPA e tecnologias emergentes, conectamos dados, sistemas e pessoas para criar jornadas mais simples e inteligentes. Em um ambiente colaborativo e inovador, contribuímos diretamente para que nossos clientes ofereçam experiências financeiras alinhadas à velocidade do mercado.
+
+**O que você vai fazer:**
+
+* Mapear processos de negócio e identificar oportunidades de automatização com foco em RPA
+* Desenhar fluxos e modelar processos, preferencialmente utilizando notação BPMN
+* Desenvolver, configurar e manter robôs utilizando ferramentas de RPA como UiPath, Automation Anywhere e Power Automate
+* Implementar estratégias de orquestração de bots, incluindo filas, agendamentos e balanceamento de carga
+* Definir e implementar regras de tratamento de exceções e mecanismos de monitoramento
+* Realizar testes funcionais e de regressão das automações desenvolvidas
+* Implantar robôs em ambientes de homologação e produção, garantindo estabilidade e rastreabilidade
+* Colaborar com áreas de negócio para priorizar demandas, documentar soluções e apoiar iniciativas de melhoria contínua
+
+**O que você precisa ter:**
+
+* Domínio de ferramentas de RPA (UiPath, Automation Anywhere e/ou Power Automate)
+* Experiência em desenvolvimento de software com pelo menos uma linguagem entre Python, C\# ou JavaScript
+* Capacidade analítica para mapeamento de processos e identificação de melhorias em fluxos de negócio
+* Habilidade de comunicação para interagir com áreas de negócio e traduzir necessidades em soluções técnicas
+* Perfil organizado, colaborativo, com pensamento lógico e foco em resolução de problemas
+
+**O que seria ótimo ter (Desejável):**
+
+* Conhecimento em modelagem de processos utilizando BPMN
+* Noções de Machine Learning, NLP e/ou Computer Vision, com uso básico de Azure AI, OpenAI, TensorFlow ou Scikit\-learn
+* Experiência em aplicações de IA voltadas a OCR inteligente, classificação de e\-mails e chatbots
+* Vivência com sistemas de pagamento e automação de rotinas financeiras
+* Atuação prévia em iniciativas de mel

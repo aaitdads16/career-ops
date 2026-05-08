@@ -1,0 +1,37 @@
+Ben jij een ervaren testmanager die structuur brengt in complexe IT‑ en pensioentrajecten? Weet jij testers, actuarissen, product specialisten en klantteams te verbinden, prioriteiten scherp te stellen en de kwaliteit van opleveringen aantoonbaar te verhogen? Dan zijn wij op zoek naar jou.
+
+
+Met het oog op de transitie naar de Wet toekomst pensioenen (WTP) en de verdere doorontwikkeling van onze software zoeken wij een testmanager voor een vaste aanstelling binnen Lumera.
+
+**Over Lumera**
+
+
+Lumera is een innovatieve insurtechorganisatie die digitale oplossingen levert aan pensioenfondsen en uitvoerders. Met ons platform AxyLife helpen wij klanten om pensioenadministratie eenvoudiger, flexibeler en toekomstbestendig te maken. In een markt die volop in beweging is – met grote veranderingen in zowel SPR‑ als FPR‑omgevingen – werken wij aan betrouwbare, schaalbare en maatschappelijk relevante dienstverlening.
+
+**Jouw rol**
+
+
+Als testmanager neem je de regie over onze testactiviteiten en overzie je meerdere parallelle klant\- en WTP‑trajecten. Je zorgt voor focus, prioritering en een consistente testaanpak, zodat het testteam effectief kan werken en kwaliteit kan leveren. Je stuurt testers inhoudelijk en operationeel aan, werkt nauw samen met Product Specialisten/Modelleurs, Product Owners en Service Delivery Managers en bent hét aanspreekpunt voor interne én externe stakeholders.
+
+
+Je gaat onder andere:
+
+* Testactiviteiten plannen, organiseren en coördineren over verschillende klanttrajecten, releases en WTP‑migraties (SPR en FPR).
+* Capaciteit, rollen en werkzaamheden binnen het testteam verdelen en de voortgang bewaken.
+* Teststrategieën, testplannen en rapportages ontwikkelen en doorvoeren, met oog voor risico’s, actuariële juistheid en klantwaarde.
+* Testers inhoudelijk en procesmatig begeleiden en coachen, met specifieke aandacht voor WTP‑trajecten en complexe rekenlogica.
+* Zorgen voor heldere en tijdige communicatie met interne en externe stakeholders (klantteams, SDM’ers, Product Owners, actuarissen, modelleurs) over planning, afhankelijkheden en bevindingen.
+* Bijdragen aan uniforme werkwijzen voor testcases, bevindingen en rapportage, onder meer op basis van ISTQB‑principes en Agile/Scrum.
+* Belemmeringen wegnemen (requirements, testdata, omgevingen) zodat teams kunnen blijven leveren.
+* Meedenken over verdere professionalisering van de testafdeling, onder meer op het gebied van geautomatiseerd testen, inzet van AI, WTP‑regressies en kennisdeling.
+
+**Wie jij bent**
+
+
+Je bent een verbinder met overzicht, senioriteit en leiderschap. Je schakelt moeiteloos tussen strategie en operatie, kunt ingewikkelde actuariële en pensioenvraagstukken vertalen naar concrete testaanpakken en weet mensen mee te nemen in een duidelijke, pragmatische werkwijze. Communicatie – zowel intern als richting klanten – is een van je sterkste kanten.
+
+
+We zoeken iemand die:
+
+* Ruime ervaring heeft in testen en testmanagement binnen softwareontwikkeling.
+* Bekend is met

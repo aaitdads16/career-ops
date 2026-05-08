@@ -1,0 +1,47 @@
+**Wat ga je onderzoeken**
+-------------------------
+
+
+Bij de behandeling van kritiek zieke patiënten worden dagelijks duizenden datapunten verzameld via apparatuur voor bewaking en ondersteuning van vitale functies. Deze grote hoeveelheden data bieden unieke mogelijkheden voor geavanceerde statistische analyses en kunstmatige intelligentie.
+
+
+Binnen dit promotietraject werk je aan onderzoek naar acute verwardheid (delier) bij intensive care patiënten. Je onderzoekt welke combinatie van geneesmiddelen en behandelstrategieën op welk moment bijdragen aan het voorkomen, behandelen of juist veroorzaken van delier. Hiervoor maak je onder andere gebruik van causale inferentie en reinforcement learning.
+
+
+Het onderzoek vindt plaats binnen het center for critical care computational intelligence van de afdeling intensive care volwassenen van Amsterdam UMC. De onderzoeksgroep is partner binnen de Nederlandse ICUdata en Europese INDICATE consortia. Samen met intensive care afdelingen in binnen\- en buitenland bundelen we data en expertise om de behandeling van toekomstig kritiek zieke patiënten preciezer en effectiever te maken.
+
+
+Dit PhD\-traject wordt ondersteund door financiering van ZonMw, de Europese Commissie en Zorgverzekeraars Nederland (ZN).
+
+*Wil je alvast meer weten over de verschillende fases binnen het PhD\-traject? Op* *deze pagina* *lees je hierover meer informatie.*
+
+**Wat ga je doen**
+------------------
+
+
+Als arts\-onderzoeker werk je op het snijvlak van intensive care geneeskunde, datawetenschappen en kunstmatige intelligentie. Je combineert klinische vraagstukken met innovatieve analysetechnieken.
+
+
+Je werkzaamheden bestaan onder andere uit:
+
+* het verzamelen, combineren en analyseren van grote hoeveelheden routinematig verzamelde intensive care data binnen de ICUdata en INDICATE samenwerkingen;
+* het ontwikkelen en toepassen van AI\-technieken, zoals machine learning, causale inferentie en reinforcement learning;
+* het onderzoeken welke behandelstrategieën en geneesmiddelcombinaties bijdragen aan betere uitkomsten voor intensive care patiënten;
+* het onderhouden van contacten met samenwerkende intensive care afdelingen en bijdragen aan kwaliteitsverbetering;
+* het publiceren van onderzoeksresultaten in wetenschappelijke tijdschriften en presenteren op congressen.
+
+
+Je werkt toe naar een promotie. Afhankelijk van jouw ambities en de mogelijkheden binnen de afdeling is het bespreekbaar om het promotietraject te combineren met werkzaamheden als anios op de afdeling intensive care volwassenen van Amsterdam UMC.
+
+**Wat neem je mee**
+-------------------
+
+
+Je hebt interesse in datawetenschappen en wilt bijdragen aan innovaties binnen de intensive care geneeskunde. Daarbij werk je graag samen in een multidisciplinair team.
+
+
+Verder heb je:
+
+* een afgeronde opleiding tot basisarts of technische geneeskundige;
+* affiniteit met kunstmatige intelligentie, machine learning en data\-analyse;
+* bij voorkeur ervaring met programmeren in Python en databas

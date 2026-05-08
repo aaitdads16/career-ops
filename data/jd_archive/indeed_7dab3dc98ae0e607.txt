@@ -1,0 +1,66 @@
+At NiCE, we don’t limit our challenges. We challenge our limits. Always. We’re ambitious. We’re game changers. And we play to win. We set the highest standards and execute beyond them. And if you’re like us, we can offer you the ultimate career opportunity that will light a fire within you.
+
+**About the job**
+
+
+
+At NICE, we don’t limit our challenges. We challenge our limits. Constantly. We’re relentless. We’re ambitious. And we make an impact. Our NICErs bring their A game and spend each day turning it into an A\+. And if you’re like us, we can offer you the kind of challenge that will light a fire within you.  
+
+  
+
+**Intern Business Analyst**  
+
+  
+
+**Location: Hoboken NJ**  
+
+**Duration: 8 weeks**
+
+
+**Department: Professional Services**
+
+  
+
+
+**About the Internship:**
+
+  
+
+Actimize is seeking a Summer Intern to support high‑impact initiatives within our Professional Services organization. This role focuses on AML data integration research and synthetic data generation to strengthen our presales expertise, implementation efficiency, and scenario tuning capabilities.
+
+
+
+This internship offers hands‑on exposure to financial crime technology, enterprise data systems, and real‑world analytics used by leading financial institutions.
+
+  
+
+
+**What you’ll Do**
+
+  
+
+* Research and document how Actimize AML solutions integrate with common banking, payments, and data platforms
+* Build a structured Data Source Integration Library capturing: Data sources, transaction types, integration methods, and implementation complexity
+* Identify reusable integration assets such as: Data mapping templates, ETL patterns, Data validation and quality checks
+* Design synthetic AML datasets to support Transaction Monitoring (SAM), Watchlist Filtering (WLF)
+* Generate datasets based on industry type, risk appetite, transaction volumes, and scenario parameters
+* Document findings and create materials usable by presales and delivery teams
+
+  
+
+
+**Required Skills and Experience:**
+
+  
+
+* Currently pursuing a Bachelor’s or Master’s degree in: Computer Science, Data Science, Analytics, Information Systems, Statistics, or related field
+* Strong analytical, research, and problem‑solving skills
+* Interested in financial services, data integration, or financial crime prevention
+* Comfortable working with data and clearly documenting results
+* Able to work independently and collaborate with cross‑functional teams
+* Exposure to Python, SQL, or data analysis tools, Understanding of ETL, APIs, or batch vs. streaming data
+***About NiCE***
+
+*NICE Ltd. (NASDAQ: NICE) software products are used by 25,000\+ global businesses, including 85 of the Fortune 100 corporations, to deliver extraordinary customer experiences, fight financial crime and ensure public safety. Every day, NiCE software manages more than 120 million customer interactions and monitors 3\+ billion financial transactions.*
+
+*Known as an innovation powerhouse that excels in AI, cloud and digital, NiCE is consistently recognize

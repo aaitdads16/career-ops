@@ -1,0 +1,62 @@
+IPG Photonics is revolutionizing the laser industry as the pioneering developer and leading producer of fiber lasers and amplifiers. Headquartered in Marlborough, MA, IPG has over 4,800 employees in more than 25 locations around the world. We aspire to work together with our employees and customers to apply light in ways that improve life.
+
+
+Our mission is to develop innovative laser solutions to make the world a better place. To accomplish this mission, we are committed to attracting and retaining the best talent and an engaged, diverse, and thriving workforce that drives a sustainable future for our company and society.
+
+
+
+
+
+Working at IPG Photonics you can expect challenging projects, a motivating and friendly environment, and competitive benefits.
+
+
+
+Are you looking for a summer position? If so, IPG Photonics may be the place for you! Working with IPG Photonics you can expect interesting tasks and challenging projects as well as a motivating and friendly environment. You will be working with teams that influence the future of laser technologies.
+
+
+**Job Summary:**
+
+
+
+IPG Photonics' Automation Group is a team of engineers and programmers dedicated to automation of various manufacturing tasks. Several on\-going projects include design, production, installation and support of test and measurement systems, computer\-controlled manufacturing tools and assembly stations for optical components and lasers. Motion components (including robotic arms), machine vision systems, dispensing systems, DAQ and industrial control equipment, typically controlled by LabVIEW or C\# custom applications, are among the building blocks used in the group.
+
+
+
+
+
+**Job Functions:**
+
+
+
+Depending on their interest, background and skills, Intern will be involved in one or several of the following activities:
+
+
+* Design and assembly of mechanical and electrical components and assemblies for automated production tools
+* Installation of hardware/equipment/driver/controller for R\&D and production stations
+* Development and optimization of manufacturing steps in an assembly procedure
+* Development of data processing algorithms for internal and customer products
+* Software design for process control, DAQ and logging applications
+
+
+Requirements:
+* Enrollment in a relevant engineering degree program, preferred disciplines:
+
+
+	+ Robotics Engineering
+	+ Electrical \& Computer Engineering
+	+ Mechanical Engineering
+	+ Manufacturing/Industrial Engineering
+	+ Materials Science \& EngineeringExperience:
+
+
+
+Familiarity with the following tools and techniques:
+
+
+	+ Remote control and Data Acquisition of scientific and industrial equipment (DAQ and general I/O boards, oscilloscopes, optical metrological devices, etc.)
+	+ Software development of automated procedures in LabVIEW, C\# or Python
+	+ Machine Vision applications
+	+ Motion applications (motorized positioners, 6\-axis robotic arms)
+	+ Mechanical CAD (SOLIDWORKS or similar)
+	+ Free\-space optical alignment
+	+ Statistical analysis of en

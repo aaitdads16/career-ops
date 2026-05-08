@@ -1,0 +1,36 @@
+#### **About Eridu**
+
+
+Eridu is a Silicon Valley\-based hardware startup pioneering infrastructure solutions that accelerate AI data centers to deliver *Faster AI*. Today’s AI performance is frequently limited by communication bottlenecks. Eridu introduces multiple industry\-first innovations across silicon, packaging, software, and systems to deliver an order of magnitude improvement in performance and unlock greater GPU utilization to speed training job completion times and tokens\-per\-second for more profitable inference. We do this while simultaneously reducing capital and power costs and improving reliability.
+
+  
+
+The company’s solutions and value proposition have been widely validated by leading hyperscalers.
+
+  
+
+Eridu has raised over $200M to date including its most recent, oversubscribed Series A round. The company is led by a veteran team of Silicon Valley executives who have delivered multiple billion dollar product lines and led multiple companies to billion dollar exits, including serial entrepreneur Drew Perkins, co\-founder of Infinera (NASDAQ: INFN), Lightera (acq. by Ciena), Gainspeed (acq. by Nokia) and Mojo Vision (the world’s leading micro\-LED company). The company is in execution mode and has a world\-class engineering team with decades of experience in state\-of\-the\-art silicon, packaging, optics, software, and systems. Eridu is working with best\-in\-class supply chain partners including silicon, packaging and systems.
+
+  
+
+Visit our website eridu.ai to learn more.
+
+#### **Position Overview**
+
+
+The Mechanical Engineering Intern will support the design, prototyping, and validation of mechanical components and test systems for next\-generation AI infrastructure. In this role, you will gain hands\-on experience working with CAD tools, building and iterating prototypes, and assisting with lab testing and data collection. You will collaborate with experienced engineers across the full development cycle—from concept design to experimental validation—while developing practical skills in rapid prototyping, measurement techniques, and engineering analysis. This is a great opportunity to contribute to innovative projects while learning in a fast\-paced, collaborative environment.
+
+#### **Responsibilities**
+
+* Design prototype fixtures, concept designs, test coupons, and mechanical assemblies in SolidWorks
+* Fabricate and iterate prototypes using rapid prototyping and external machine shops
+* Execute lab bring\-up of new fixtures and test platforms; own first\-article validation
+* Perform surface profiling, substrate warpage, and TTV measurements
+* Set up and run pressure mapping, electromigration, and compression characterization tests
+* Document test procedures, measurement data, and failure analyses
+
+#### **Qualifications**
+
+* BS in Mechanical Engineering or related field (MS preferred; equivalent hands\-on experience considered)
+* Able to work full\-time on\-site in Saratoga CA
+* Proficient in SolidWorks — 3D modeling, assemb

@@ -1,0 +1,44 @@
+Estamos em busca de pessoas **apaixonadas** por **educação** e **tecnologia**!
+
+  
+
+Queremos que você saiba atuar em um ambiente que exige a união de **múltiplas competências** e **experiências** e com **foco no resultado** para deixarmos nosso legado no mundo.
+
+  
+
+Se você, assim como nós, tem paixão por educação e tecnologia, o UOL EdTech é para você!  
+
+
+
+  
+
+**Confira essa oportunidade e vem ser \#EdTecher!**
+
+ **Responsabilidades e atribuições**  
+
+* Atuar como referência técnica em desenvolvimento mobile, contribuindo para a evolução das aplicações da UOL EdTech (OPM) com foco em qualidade, escala e experiência do usuário.
+* Definir e sustentar arquitetura de soluções mobile (modularização, padrões, camadas, offline\-first quando aplicável, gestão de dependências, observabilidade e segurança).
+* Projetar e implementar funcionalidades complexas em Flutter, React Native, Android nativo (Kotlin/Java) e iOS nativo (Swift/Obj\-C), avaliando trade\-offs de cada abordagem.
+* Liderar decisões técnicas sobre estratégia multiplataforma vs nativo, performance, acessibilidade, integração com SDKs e evolução do ciclo de vida dos apps.
+* Conduzir integrações com APIs e serviços, garantindo resiliência (retries, cache, idempotência quando aplicável), e boas práticas de autenticação/autorização.
+* Implantar e evoluir práticas de engenharia: code review, padrões de código, testes automatizados, CI/CD mobile, release management e monitoramento em produção.
+* Atuar na melhoria contínua de performance (startup time, memory, battery, render), estabilidade (crashes/ANRs) e experiência (UX, tracking, analytics).
+* Colaborar com Produto, Design, Dados, Engenharia e Plataforma para definir soluções ponta a ponta e garantir entregas previsíveis.
+* Promover uso prático de IA para acelerar o desenvolvimento e a operação (ex.: automação de testes, análise de crashes/logs, geração de documentação e assistentes internos para troubleshooting).
+* Mentorar pessoas do time, apoiando evolução técnica, boas práticas e cultura de engenharia.
+
+  
+
+**Requisitos e qualificações**  
+
+* Experiência com IA aplicada em mobile.
+* Uso de copilots/agentes no fluxo de desenvolvimento.
+* Estratégias para avaliação de código, geração de testes e documentação.
+* Integração com SDKs/APIs de IA (quando aplicável), com foco em privacidade e custo
+* Vivência com arquitetura orientada a módulos, design systems e componentes compartilhados (mobile e/ou cross\-plataform).
+* Experiência com observabilidade avançada (ex.: Datadog, Firebase Crashlytics/Performance, Sentry) e definição de SLIs/SLOs para apps.
+* Experiência com integrações de SDKs de terceiros (analytics, antifraude, biometria/prova de vida, pagamentos, deep links, push).
+* Conhecimento de segurança mobile (OWASP Mobile, secure storage, certificate pinning, hardening).
+* Experiência em ambientes multi\-produto / multi\-squad e apps white\-label.
+
+ **Informações adicionais** **Para se destacar nessa posição, seria legal se você também ti
