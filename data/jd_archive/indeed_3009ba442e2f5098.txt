@@ -1,0 +1,45 @@
+**About the Opportunity**
+
+
+
+The Commercial \& Industrial (C\&I) Team facilitates the management of our non\-residential demand response programs, covering some of our largest customers and programs by flexible grid capacity. Our newly formed team will play a critical role in ensuring the scalability and flexibility of our future by creating a first class platform for our clients. This is an opportunity to join a highly energized team of engineers eager to define and develop key concepts, solve complex challenges with real\-world constraints and have a positive impact on our climate future. This is a three\-month internship opportunity.
+
+
+**Main Responsibilities: What you'll do**
+
+
+* Collaborate with and receive mentorship from brilliant engineers from a variety of backgrounds, gaining wisdom from their unique experiences and talents
+* Own a high\-impact project during your internship and deepen your knowledge of modern data engineering tools like Snowflake, dbt, Airflow, and Sigma
+* Work in an agile environment, deepening your understanding of translating product requirements into excellent products
+* Improve monitoring, troubleshooting, and resolution processes to improve EnergyHub's products
+* Improve our production pipelines, reducing tech debt and ensuring efficient data processing for our customers
+* Other duties as assigned
+
+
+**Required Skills and Experience: What you need**
+
+
+* First and foremost, you have to sincerely love data and all the things it can enable and empower
+* Current enrollment in (or immediate graduate of) an undergraduate or graduate program in or related to data engineering
+* Proficiency in SQL and Python and perhaps even dbt and Sigma experience, with an awesome ability to bring sanity and clarity to syntactic complexity
+* Some monitoring and dashboarding experience (e.g. Snowflake, Sigma, Datadog)
+* A clear understanding of the difference between OLAP and OLTP systems and a basic familiarity with file structures like CSV, JSON, and Parquet.
+
+
+**Preferred Skills and Experience: Nice\-to\-haves**
+
+
+* Drive and dedication for quality and performance in everything you touch and thirst for learning new techniques
+* Clear communication (written and verbal), capable collaboration (in\-office and online), and cultivated curiosity
+* Warmth and welcoming for your collaborators, colleagues, and cohort, with an urge to help them succeed and pay their generosity forward to others
+
+
+Please note that sponsorship of new applicants for employment authorization, or any other immigration\-related support, is not available for this position at this time.
+
+
+**Why work for EnergyHub?**
+
+
+* **Collaborate with outstanding people:** Our employees work hard, do great work, and enjoy collaborating and learning from each other.
+* **Gain well rounded experience:** EnergyHub offers a diverse and dynamic environment where you will get the chance to work directly with executives and develop expertise across multiple areas of the business.
+* **Work w

@@ -1,0 +1,53 @@
+**Job Description**  
+
+It’s not just about your career or job title… It’s about who you are and the impact you will make on the world. Because whether it’s for each other or our customers, we put People First. When our people come together, we Expand the Possible and continuously look for ways to improve what we create and how we do it. If you are constantly striving to grow, you’re in good company. We are revolutionizing the way the world moves for future generations, and we want someone who is ready to move with us.
+
+ **Who are we?**
+
+  
+
+
+
+Wabtec Corporation is a leading global provider of equipment, systems, digital solutions, and value\-added services for freight and transit rail as well as the mining, marine, and industrial markets. Drawing on nearly four centuries of collective experience across Wabtec, GE Transportation, and Faiveley Transport, the company has grown to become One Wabtec, with unmatched digital expertise, technological innovation, and world\-class manufacturing and services, enabling the digital\-rail\-and\-transit ecosystems.  
+
+  
+
+Wabtec is focused on performance that drives progress and unlocks our customers’ potential by delivering innovative and lasting transportation solutions that move and improve the world. We are lifelong learners obsessed with making things better to drive exceptional results. Wabtec has approximately 27K employees in facilities throughout the world. Visit our website to learn more!
+
+ **Internship – Computer Science Engineering**
+
+ **Overview**
+
+* The intern will be part of the products in Digital Solutions (Ex. Ports, Rail domain) and will be working as part of the engineering team delivering functional components as needed by the product management.
+* The intern is expected to have a basic SDLC knowledge
+* Assist with the development, troubleshooting and deployment of the software projects. Reports progress regularly to key stakeholders
+
+  
+
+**Key Deliverables \& Expectations**
+
+* Take ownership of module delivery under the guidance of assigned mentor.
+* Collaborate well with the team members
+* Develop code, write unit test and integration test cases.
+* Work closely with required teams to ensure business functionality is delivered on time
+* Participate in technical discussions and contribute to form of presentations or Proof of concepts.
+* Flexible and Quick learner
+* Be an excellent problem solver.
+
+  
+
+**Technical and Soft Skills**
+
+* Should have knowledge on programming (C/C\+\+/Java/Python)
+* Should have knowledge on frontend technologies such as Angular JS, Java Scripts, etc.
+* Possess good understanding of RDBMS
+* Knowledge of Cloud Related technologies like AWS will be add on
+* Good knowledge on Data structure, Algorithms is required.
+
+**Our Commitment to Embrace Diversity:**
+
+  
+
+
+
+Wabtec is a global company that invests not just in our products, but also our people by embracing diversity and inclusion. We care about our relationships with our employees and take pride in celebrating th

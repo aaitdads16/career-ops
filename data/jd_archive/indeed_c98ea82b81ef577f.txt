@@ -1,0 +1,32 @@
+**Summary**
+
+
+We're on a mission to improve Student Life – save students money and teach them how to shop smart! SPC connects students to the best brands and gives them access to exclusive discounts on relevant products, services and experiences. In turn, we provide our partners with a loyal base of student shoppers.
+
+  
+
+Our team– a creative, team\-first attitude motivated by grassroots thinking that focuses on the solution of bringing value to students, with our people at the centre of all that we do. We are all about ownership, giving each member the tools, support, and freedom to succeed. We value building careers with an eager\-to\-learn attitude to support each other’s success \- inside and outside the organization. We are fun, scrappy, and aren't afraid to take risks. If this sounds like a team, you'd like to be a part of getting in touch!
+
+  
+
+We are looking for a Junior Quality Assurance Specialist (co\-op) to help us ensure that only the highest quality features are released. As a Junior QA Specialist, you will be supporting our team by designing, writing, documenting, and executing test plans and scripts for all stages of the product development lifecycle, following company\-defined processes and methods.
+
+**Here's how you will impact SPC:**
+===================================
+
+* Develops and executes manual and automated test scripts
+* Identifies, investigates, reports and tracks bugs to closure using Jira
+* Handles projects with changing priorities and concurrent deadlines
+* Communicates test results, as well as any errors or issues discovered during testing, to QA team and developers
+* Takes part in the planning and implementation of the testing and quality strategy for new and existing projects
+* Leverage AI tools throughout the product development lifecycle to support ideation, prototype generation, user story creation, and iterative testing to improve product performance and speed to market.
+* Champion AI adoption across the product and development function to streamline workflows, enhance decision\-making, accelerate experimentation, and improve overall operational efficiency.
+
+**The soft skills you bring to the team:**
+==========================================
+
+* **Accountability:** Being accountable and passing on accountability for one's own actions and those of colleagues and the organization.
+* **Communication:** The ability to convey information to another effectively and efficiently and practice active listening.
+* **Adaptability:** The ability to remain fully functional by adapting to changing circumstances (environment, procedures, people).
+* **Collaboration:** The ability to work effectively with others on a common task; taking actions which respect the needs and contributions of others; contributing to and accepting the consensus; negotiating a win\-win solution to achieve the objectives of the team
+* **Problem Analysis:** The ability to detect problems, recognize important information, and link various data; to trac

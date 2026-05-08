@@ -1,0 +1,94 @@
+Job Title:
+
+
+ Data Scientist Apprentice 
+
+
+
+Location:
+
+
+ Malvern, England, United Kingdom 
+
+
+
+Role Type:
+
+
+ Early Careers – Apprenticeship 
+
+
+
+Job Title: Data Scientist Apprenticeship 
+
+
+
+Job Location: Malvern 
+
+
+
+Job Type: Permanent, Fulltime 
+
+
+
+Salary: £27,150 
+
+
+
+Job ID: 19982 
+
+
+
+
+ At QinetiQ we are creating a workplace that is inclusive; where our differences are not only embraced but make us stronger. A place where we can connect with each other and benefit from the experiences and thinking from people with varied backgrounds, and at different stages in their careers . 
+
+
+
+
+ About the team 
+
+
+
+Data Science & Engineering :
+
+
+ Our role is to ensure our customers gain the maximum advantage from their data. We are involved at all stages of the data lifecycle from the initial gathering & processing stage, through the analysis phase, leading to actionable outputs & advice. 
+
+
+
+
+ The Data Science and Engineering teams within Software Engineering, Communication Networks & Data Science (SECNDS) discipline consist of a mix of data scientists (exploring data sets and algorithms) and data engineers (building the infrastructure to capture and process the data). The team’s skills however are varied and cover a wide range of disciplines. Our daily work involves applying both conventional and novel machine learning techniques to customer problems as appropriate to advise on and/or demonstrate the opportunities created through exploiting their data. 
+
+
+
+
+ What will I be doing? 
+
+
+
+
+ The team works across all data types, everything from numerical data to natural language processing and signals analysis through to imagery interpretation. Where necessary, we also collect or simulate data using mathematical models. 
+
+
+
+
+ A typical day will see our apprentice working as part of small project teams. You will attend project meetings, be involved in data preparation, and applying the relevant 
+
+
+
+
+ Machine Learning or Artificial Intelligence techniques. You will over time, be expected to code up solutions to support this work, and to integrate with the team’s coding best practices. You may occasionally be involved in stakeholder engagements or presentations, and you will often help with the report writing process. Your days can have a mixture of on site and home working, depending on the specific project’s data requirements. 
+
+
+
+
+ We frequently collaborate with colleagues and subject experts across the business to gain cross-domain insight to support our work. 
+
+
+
+
+ In this role you will gain practical experience in the full end to end data pipeline from data collection, data wrangling and modelling through to generating conclusions and results. You will gain knowledge of statistical techniques such as supervised and unsupervised machine learning algorithms, develop programming skills in Python and for the Cloud, as well as general data analysis techniques. You will also gain soft skills such as of planning, technical report writing, and presenting. 
+
+
+
+Apprentice

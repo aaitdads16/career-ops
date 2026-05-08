@@ -1,0 +1,35 @@
+Het Nederlands Kanker Instituut \- Antoni van Leeuwenhoek (NKI\-AVL) streeft ‘a cure for every cancer and excellent care for every patient’ na. Om dit doel te realiseren proberen we continu het niveau van de diagnostiek die we verrichten en de behandelingen die we geven te verbeteren. Data speelt hierbij een centrale rol. In de spreekkamer levert dat snelle toegang op tot rijke informatie en decision support en in de research snelle toegang tot grote en goede kwaliteit datasets voor het ontwikkelen van o.a. AI toepassingen.
+
+#### **Waarom het AVL?**
+
+
+In het Antoni van Leeuwenhoek werken we met meer dan 3200 medewerkers aan de beste oncologische zorg en innovatief onderzoek. Robuuste en schaalbare Cloud infrastructuur speelt hierin een centrale rol: van het veilige verwerken en opslaan van onze data tot rekenkracht leveren aan de nieuwste AI modellen.
+
+
+Binnen Digital Oncology ontwikkelen we samen met implementatiepartner Kaiko een Data Lakehouse waarin alle medische data centraal wordt opgeslagen. Dit vormt de basis voor onze digitale transformatie en ondersteunt zowel zorg als onderzoek. Azure en Databricks spelen een cruciale rol hierin.
+
+
+Wil jij bijdragen aan onze baanbrekende zorg en onderzoek met geavanceerde cloud\-oplossingen? Het Antoni van Leeuwenhoek (AVL) zoekt een Product Owner die een sleutelrol speelt in de digitale transformatie van oncologische zorg en onderzoek. Als Product Owner draag je direct bij aan onze al eerder genoemde missie: "A cure for every cancer and excellent care for every patient."
+
+#### **Jouw functie**
+
+
+Als Product Owner binnen het Cloud Competence Center (CCC) van het cluster ICT (I\&A) ben je verantwoordelijk voor de visie, prioritering en de doorontwikkeling van de (publieke) Cloud infrastructuur en de Data\+AI Platformen. Je draagt bij aan de technische uitbreiding voor het hele instituut om zorg en onderzoek te versnellen / verbeteren. Je werkt nauw samen met multidisciplinaire teams van engineers, architecten en securityspecialisten aan een stabiele, veilige en schaalbare Cloud omgeving.
+
+
+Je vertaalt strategische doelstellingen naar concrete backlog\-items en zorgt ervoor dat het team waarde levert die aansluit bij de behoeften van interne stakeholders. Je bewaakt de balans tussen innovatie, stabiliteit en compliance.
+
+**Wat ga je doen?**
+
+* Het afstemmen met diverse stakeholders, zoals zorgprofessionals, onderzoekers en IT\-teams
+* Definiëren en uitdragen van de productvisie voor Cloud infrastructuur
+* Beheren en prioriteren van de product backlog
+* Het waarborgen dat oplossingen voldoen aan eisen rondom security, privacy en compliance binnen de zorg
+* Samenwerken met agile\-teams aan continue verbetering en automatisering
+* Monitoren van prestaties, kosten en security van de Cloud omgeving.
+
+  
+
+Wij zoeken een collega die energie krijgt van technische uitdagingen en zich graag inzet voor de zorg. Jij herkent jezelf in het volgende:
+
+* Je beschikt minimaal over een IT\-gerelateerd hbo / wo denkniveau

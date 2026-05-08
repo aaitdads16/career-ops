@@ -1,0 +1,57 @@
+**About the Opportunity**
+
+
+
+As a Software Engineering Intern on our growing EV team, you will design and develop frontend or backend services that support residential EV programs, while maintaining a strong security posture across our infrastructure. Working closely with leading EV  
+
+providers such as Tesla and GM, you will improve grid flexibility and enhance the value of our programs.
+
+
+
+Partnering with other engineers, you will build new services and products in EnergyHub’s EV platform, engaging homeowners and OEMs on initiatives that unlock the full potential of EVs and deliver meaningful grid impact.
+
+
+
+This role can encompass several areas including data monitoring, internal tooling and reporting, integrations with EV OEMs or other third party services, and new features to improve the quality and breadth of our EV solutions. Ideally, we would love our intern to be with us from July to December.
+
+
+**Main Responsibilities**
+
+
+* Develop Kotlin\-based or Ruby on Rails\-based solutions, working towards well\-structured, high\-quality code with automated testing
+* Develop front\-end solutions supporting EV drivers and/or utilities in React
+* Collaborate cross\-functionally with product managers, internal engineering teams, and stakeholders to contribute to high\-impact projects.
+* Work within real\-world constraints to develop creative solutions that work towards platform flexibility and scalability.
+* Contribute to best practices for CI/CD, data modeling, and iterative development (e.g., PoCs, rapid prototyping, milestone\-based execution).
+* Actively participate in a strong technical culture of respect, open communication, and collaboration.
+* Write and maintain technical documentation
+* Drive and embody the “Dev Owns Quality” culture
+* Other duties as assigned
+
+
+**Key Skills and Experience**
+
+
+* Eager to learn new technologies and enthusiastic to be a full\-stack engineer with a focus on application development, integrations and internal tooling
+* Experience developing the full SDLC
+* Experience with Java, Kotlin and/or Ruby on Rails
+* Experience with React
+* Strong problem\-solving skills, capable of balancing multiple use cases while enabling flexibility
+* Strong communication skills, with an emphasis on cross\-functional collaboration  
+
+and working on challenging technical problems
+
+
+**Preferred Skills and Experience**
+
+
+* Extensive data engineering experience is a huge plus, including addressing data quality issues, building data pipelines, monitoring and alerting
+* Experience with relational databases and SQL is a plus
+* Experience with S3, MongoDB, AWS, DBT, Snowflake a plus
+* Experience with web services and RESTful APIs
+* Familiarity with CI/CD pipelines and modern software development practices
+* Proven ability to deliver high\-quality, iterative value while maintaining execution speed
+* Knowledge of modern security best practices, authentication/authorization frameworks, and system/API hardening
+
+
+Please note that sponsorship of n

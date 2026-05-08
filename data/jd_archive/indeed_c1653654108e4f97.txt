@@ -1,0 +1,37 @@
+**Trước khi bạn nộp đơn xin việc, hãy chọn tùy chọn ngôn ngữ của bạn từ các tùy chọn có sẵn ở trên cùng bên phải của trang này.**
+
+
+Khám phá cơ hội tiếp theo của bạn tại tổ chức Fortune Global 500\. Hình dung các khả năng đổi mới, trải nghiệm văn hóa bổ ích của chúng tôi và làm việc với các nhóm đầy tài năng giúp bạn trở nên tốt hơn mỗi ngày. Chúng tôi hiểu những gì cần thiết để dẫn dắt UPS trong tương lai — những người có khả năng kết hợp độc đáo giữa năng lực với niềm đam mê. Nếu bạn có tố chất và khả năng lãnh đạo bản thân hoặc nhóm, sẽ có những vai trò sẵn sàng để bạn trau dồi kỹ năng và đưa bạn lên một tầm cao mới.
+
+**Mô tả công việc:**
+
+
+The UPS Global Engineering Robotics \& Automation team drives automation strategies and new robotics deployment across regional operations through cross\-functional collaboration. The Singapore office focuses on regional pilots and supports global projects in simulation, humanoid, machine vision, physical automation and data\-driven automation. UPS continues to invest in innovation and advanced technology to build the Network of the Future.
+
+
+The Global Engineering Robotics \& Automation team in Singapore is looking for an intern to work on innovation\-driven operations technology projects. We are offering an opportunity for the candidate to assist in the design and implementation of data analytics / simulation solutions. In this role, you will be supporting data analysis, simulation, optimization (optional) and software development (optional) efforts, collaborating with a cross\-functional technical team while tackling initiatives that will:
+
+* Provide best\-in\-class applicable data analytics and simulation solutions to our internal stakeholders
+* Enhance your individual skills in the areas of data analytics and simulation
+* Place UPS at the forefront of practical usage of data analytics and simulation through research, design, development, and deployment of various applications, models, and platforms for R\&D proof\-of\-concepts (POCs) and prototypes
+
+**Job Responsibilities**
+
+
+As a Data Analyst intern, you will be required to:
+
+* Support the team in conducting data analysis and simulation work.
+* Work closely with the team to understand business objectives and data requirements.
+* Build reports of analysis to be shared with business stakeholders.
+* Document the process, including codes and logic used during the analysis to support knowledge sharing and future development.
+* Stay up to date with emerging trends and technologies in data science and analytics.
+
+**Job Requirements**
+
+* Proficiency in Python with experience using data science libraries such as Pandas, Numpy, Scipy etc.
+* Proficiency in SQL/BigQuery.
+* Basic understanding of machine learning algorithms and techniques is a plus.
+* Experience in software/application development is a plus.
+* Experience in Looker or other visualization tools is a plus.
+* Familiarity with cloud computing platforms such as GCP, Azure.
+* Familiarity with object\-ori

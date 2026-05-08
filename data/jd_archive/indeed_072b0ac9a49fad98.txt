@@ -1,0 +1,27 @@
+**About Us**
+
+
+Automation Anywhere is the leader in Agentic Process Automation (APA), transforming how work gets done with AI\-powered automation. Its APA system, built on the industry’s first Process Reasoning Engine (PRE) and specialized AI agents, combines process discovery, RPA, end\-to\-end orchestration, document processing, and analytics—all delivered with enterprise\-grade security and governance. Guided by its vision to fuel the future of work, Automation Anywhere helps organizations worldwide boost productivity, accelerate growth, and unleash human potential.
+
+### **Job Title : Tech Support L1 Intern**
+
+### **Location \- Bangalore / Hyderabad**
+
+### **Duration \- 1 Year**
+
+### **Shift \-EST (Mandatory)**
+
+### **Stipend \- 40k per month**
+
+* ### **Bachelor’s degree in Computer Science, Information Technology, or a related field (or equivalent experience).**
+* ### **understanding of REST APIs troubleshooting API\-related issues.**
+* ### **Proficiency in scripting languages (e.g., Python, JavaScript, Bash) for automating tasks and processes.**
+* ### **Knowledge of security standards** **(authentication/authorization)** **\& practices including OAuth, SAML, and SSO.**
+* ### **Excellent problem\-solving skills**
+* ### **Strong communication skills to explain technical concepts to non\-technical users.**
+* ### **Familiarity with cloud computing platforms (e.g., AWS, Azure).**
+* ### **Knowledge of Generative AI and Prompt Engineering.**
+
+  
+
+All unsolicited resumes submitted to any @automationanywhere.com email address, whether submitted by an individual or by an agency, will not be eligible for an agency fee.

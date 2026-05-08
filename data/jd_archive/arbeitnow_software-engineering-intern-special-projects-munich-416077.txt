@@ -1,0 +1,12 @@
+<p>Doctario baut KI-Infrastruktur für medizinische Abrechnung – einen Markt von €341 Milliarden allein in Deutschland, der bis heute größtenteils manuell betrieben wird. Unser Produkt ist live, Kunden arbeiten produktiv damit, und wir wachsen schnell.</p>
+<p>In weniger als vier Wochen haben wir eine Seed-Finanzierung knapp unterhalb der siebenstelligen Marke abgeschlossen. Jetzt suchen wir Verstärkung für Projekte mit extremer Priorität, die technisch gelöst werden müssen – schnell und sauber.</p>
+<h2>Aufgaben</h2>
+<p>Du arbeitest an Projekten mit höchster Priorität – temporäre, geschäftskritische Herausforderungen, die technisch gelöst werden müssen und nicht warten können. Das sind keine Nebenprojekte, sondern Aufgaben, die direkt auf unser Produkt und unsere Kunden einzahlen.</p>
+<p>Du bekommst ein konkretes Problem, die Freiheit es zu lösen, und direkten Zugang zu den Gründern für Feedback und Sparring. Dein wichtigstes Werkzeug: AI-gestütztes Engineering. Du arbeitest intensiv mit Claude Code, Codex und weiteren AI-Tools – nicht als Spielerei, sondern als Multiplikator. Wir erwarten, dass du diese Tools beherrschst und damit in kurzer Zeit Ergebnisse lieferst, für die andere Wochen brauchen.</p>
+<h2>Qualifikation</h2>
+<p>Du studierst Informatik oder einen verwandten Studiengang und kannst eigenständig Software bauen – nicht nur im Team, sondern auch allein ein Projekt von null auf eins bringen. Du nutzt AI-Tools wie Claude Code, Cursor, Codex oder vergleichbare Tools täglich und produktiv – nicht zum Ausprobieren, sondern zum Shippen. Du bist schnell, pragmatisch und lieferst Ergebnisse. Erfahrung mit Python und/oder TypeScript. Bonus: Du hast schon mal etwas gebaut und gelauncht – egal ob App, Bot, Tool oder Side Project. Deutsch beherrschst du auf muttersprachlichem Niveau.</p>
+<h2>Benefits</h2>
+<p>Feste Vergütung, mindestens 3 Monate Praktikumsdauer. Voll ausgestattetes Büro in München, eigenes Setup nach deinen Präferenzen. Bestes Tooling garantiert – Claude, Codex, eigener Development Server. Vor-Ort-Position – wir arbeiten gemeinsam im Büro. Kein Kaffeekochen, kein Zuschauen – du bist Teil des Teams.</p>
+<p>Ein kurzes Kennenlernen mit den Gründern und ein praxisnahes technisches Gespräch. Unkompliziert und fair.</p>
+<p><strong>Bewirb dich</strong> mit deinem Lebenslauf oder LinkedIn-Profil. Zeig uns, was du gebaut hast – GitHub, Side Projects oder Demo-Links sagen mehr als jede Note.</p>
+<p>Find <a href="https://www.arbeitnow.com/">Jobs in Germany</a> on Arbeitnow</a>

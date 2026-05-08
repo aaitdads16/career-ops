@@ -1,0 +1,51 @@
+Job Summary
+
+We are seeking a motivated **Web Developer Intern** to join our IT team for a hands\-on internship experience. In this role, you will contribute to the development, maintenance, and improvement of company websites and web applications, working on both front\-end and back\-end tasks.
+
+The ideal candidate has a strong interest in web development, website maintenance, and back\-end technologies. Familiarity with **Laravel, WordPress, or other web development frameworks and content management systems** would be considered an asset.
+
+This position offers an excellent opportunity to gain real\-world experience, collaborate with experienced professionals, and develop practical skills in modern web technologies.
+
+Job Responsibilities
+
+* Assist in developing, maintaining, and improving company websites and web applications
+* Support back\-end development and contribute to server\-side logic, integrations, and application functionality
+* Help maintain, update, and customize websites built with **WordPress**
+* Assist with web application development and troubleshooting using frameworks such as **Laravel**
+* Work with databases and APIs to ensure efficient data handling and system integration
+* Collaborate with the IT team to implement technical solutions based on business needs
+* Troubleshoot and debug technical issues to improve performance and user experience
+* Participate in testing, deployment, and documentation of web solutions
+* Continuously learn and apply new tools, frameworks, and technologies
+
+Required Skills
+
+* Currently pursuing a degree or diploma in Computer Science, Software Engineering, Web Development, Information Technology, or a related field
+* Basic knowledge of web development concepts, including front\-end and/or back\-end development
+* Understanding of **HTML, CSS, and JavaScript** fundamentals
+* Familiarity with at least one programming language, such as JavaScript, Python, Java, or similar
+* Interest in back\-end development, website maintenance, and web technologies
+* Basic understanding of databases and APIs is an asset
+* Strong problem\-solving skills and attention to detail
+* Ability to work both independently and collaboratively in a team environment
+* Willingness and ability to learn new technologies quickly
+
+Preferred Skills / Assets
+
+* Familiarity with **Laravel** or similar web application frameworks
+* Experience with **WordPress**, including themes, plugins, or website content management
+* Understanding of responsive web design and website performance optimization
+* Experience using Git or other version control tools
+* Exposure to website hosting, deployment, or debugging tools
+
+Compensation and BenefitsCompensation
+
+* $18\.00 per hour
+* Full\-time
+
+Benefits \& Perks
+
+* Hands\-on experience working on real\-world web development projects
+* Exposure to website development, web applications, WordPress, Laravel, databases, and APIs
+* Mentorship and guidance from experienced IT professionals
+* Opportunity to devel

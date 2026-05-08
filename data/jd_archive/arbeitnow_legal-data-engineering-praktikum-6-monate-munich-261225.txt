@@ -1,0 +1,62 @@
+<p>Silvernova entwickelt den ersten digitalen Mitarbeiter für Anwaltskanzleien, der wirklich mitdenkt.</p>
+<p>Unser KI Associate begleitet Juristinnen und Juristen bei Recherche, rechtlicher Bewertung und Schriftsätzen – kompetent, proaktiv und individuell. Damit das funktioniert, braucht es weit mehr als ein gutes Sprachmodell: Entscheidend sind hochwertige juristische Daten, intelligente Datenpipelines und Wissensstrukturen, die rechtliche Zusammenhänge zuverlässig abbilden.</p>
+<p>Genau hier setzt du an: Du unterstützt uns dabei, juristische Informationen aus verschiedensten Quellen zu erschließen, aufzubereiten und in strukturierte Datenmodelle zu überführen. Aus unübersichtlichen Dokumenten, Webseiten und PDFs entstehen so belastbare Datengrundlagen für Suche, RAG-Systeme und komplexe juristische Wissensgraphen.</p>
+<p>Während andere nur Wrapper um bestehende LLMs bauen, investieren wir tief in eigenes Preprocessing, juristische Wissensmodelle und ein hochspezialisiertes Agenten-Ökosystem. Du arbeitest damit an einer der wichtigsten Grundlagen unseres Produkts: den Datenstrukturen, die unseren KI Associate präzise, kontextstark und wirklich nützlich machen.</p>
+<p>Wir wachsen sehr schnell und suchen Menschen, die Lust haben, Verantwortung zu übernehmen, sich in neue technische und fachliche Themen einzuarbeiten und mit uns den Rechtsmarkt neu zu definieren. Wenn du moderne Data-Engineering-Methoden auf eine der spannendsten Herausforderungen im Rechtsmarkt anwenden möchtest, bist du bei uns genau richtig.</p>
+<h2>Aufgaben</h2>
+<ul>
+<li><strong>Du entwickelst Webscraping-Pipelines mit Python</strong>, mit denen juristische Inhalte aus HTML, PDFs und weiteren Quellenformaten zuverlässig extrahiert werden.</li>
+<li><strong>Du bereitest unstrukturierte Daten so auf, dass daraus nutzbare Legal-Datasets entstehen</strong> – inklusive Bereinigung, Normalisierung, Strukturierung und Modellierung der Daten.</li>
+<li><strong>Du gestaltest Datenmodelle für juristische Inhalte mit</strong>, zum Beispiel für Dokumente, Normen, Entscheidungen, Verweise, Metadaten und Beziehungen zwischen Entitäten.</li>
+<li><strong>Du unterstützt bei der Ingestion in Such- und Retrieval-Systeme</strong>, damit juristische Informationen schnell, präzise und skalierbar auffindbar werden.</li>
+<li><strong>Du wirkst beim Aufbau einer GraphRAG-Struktur mit</strong>, in der juristische Dokumente, Begriffe und Verweise als Wissensgraph modelliert werden</li>
+<li><strong>Du bringst deine Ideen aktiv in ein agiles Team ein</strong> und arbeitest eng mit Engineering, Product und Legal-Expert:innen zusammen.</li>
+</ul>
+<h2>Qualifikation</h2>
+<p><strong>Qualifikationen</strong></p>
+<p>Erfahrung mit</p>
+<ul>
+<li>Datenscraping aus verschiedenen Quellenformaten (HTML, PDF, etc.)</li>
+<li>Datenaufbereitung und Erstellung von Datenmodellen</li>
+<li>Ingestion in Suchdatenbanken</li>
+<li>Scrum</li>
+<li>Verständnis für den Aufbau skalierbarer Systeme</li>
+</ul>
+<p><strong>Fachliche Kenntnisse</strong></p>
+<ul>
+<li>Python w/ Typing</li>
+<li>HTML, Markdown</li>
+<li>Erfahrung mit Java, C++, C# oder Rust</li>
+<li>Datenstrukturen / ER</li>
+<li>Github / CI &#x26; CD</li>
+<li>Testing / Monitoring (Sentry, Matomo, Cloudwatch)</li>
+<li>Cloud-Deployment (K8S, Docker)</li>
+<li>Objektspeicher (AWS S3)</li>
+<li>Message Broker (AMQP/RabbitMQ)</li>
+<li>RAG (Basics (Chunking, Embedding, …), Preprocessing mittels LLMs, Vector-Databases (OpenSearch, pgvector, ElasticSearch, etc.), GraphRAG (Neo4j, Neptune, etc.))</li>
+</ul>
+<p><strong>Sprachkenntnisse</strong></p>
+<ul>
+<li>Deutsch (≥ C1 oder Muttersprachler)</li>
+<li>Englisch (≥ C1)</li>
+</ul>
+<p><strong>Persönliche Kompetenzen</strong></p>
+<ul>
+<li>Hohes Bewusstsein für Ownership</li>
+<li>Arbeitet sich leicht in neue Themen ein</li>
+<li>Proaktivität und Begeisterung, tief in neue Themen einzusteigen</li>
+<li>Teamplayer</li>
+</ul>
+<h2>Benefits</h2>
+<ul>
+<li><strong>Ownership und Freiheit:</strong> Als wachsendes Startup kannst du bei uns deine Ideen einbringen, Neues ausprobieren und echten Impact schaffen.</li>
+<li><strong>Wachse über dich hinaus:</strong> Wir geben dir Raum für unternehmerisches Arbeiten, damit du dich persönlich und fachlich weiterentwickeln kannst</li>
+<li><strong>Teamkultur:</strong> Dich erwartet ein offenes, herzliches Miteinander mit regelmäßigen Team-Events und einer lebendigen Unternehmenskultur.</li>
+<li><strong>Homeoffice:</strong> Ein fester Homeoffice-Tag pro Woche ist Standard – nach Absprache auch flexibel mehr.</li>
+<li><strong>Arbeitslaptop:</strong> Wir stellen Dir einen leistungsstarken Laptop und Ausstattung zur Verfügung, die du für produktives und komfortables Arbeiten brauchst.</li>
+<li><strong>Wellpass inklusive:</strong> Du erhältst du Zugang zu hunderten Sport-, Fitness- und Wellnessangeboten</li>
+</ul>
+<p>Starte jetzt bei Silvernova im Legal Data Engineering (Praktikum)</p>
+<p><strong>Zu den Bewerbungsfragen</strong>: Kurze, präzise Antworten genügen. Wir interessieren uns für konkrete Beispiele &#x26; Erfahrungen.</p>
+<p>Wir freuen uns auf Dich!</p>
+<p>Find <a href="https://www.arbeitnow.com/">Jobs in Germany</a> on Arbeitnow</a>

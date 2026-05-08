@@ -1,0 +1,70 @@
+**Company:** Nexilis  
+**Location:** Bengaluru / Hybrid  
+**Internship Duration:** 3–6 Months  
+**Employment Opportunity:** High\-performing candidates may be offered a full\-time role based on performance and project contribution.
+
+**About Nexilis**
+
+At Nexilis, we work on next\-generation embedded and intelligent systems involving Linux\-based platforms, edge computing, networking, real\-time video analytics, and AI\-enabled products. We focus on building reliable, scalable, and production\-ready solutions for industrial and smart technology applications.
+
+We are looking for highly motivated Embedded C/C\+\+ Interns with strong Linux fundamentals and a passion for low\-level system development.
+
+**Role Overview**
+
+As an Embedded C/C\+\+ Intern, you will work closely with the engineering team on Linux\-based embedded systems development. The role involves software development, debugging, networking, RTSP/video stream handling, system\-level programming, and performance optimization on embedded platforms.
+
+This internship is designed for candidates who enjoy solving real engineering problems and want hands\-on exposure to embedded product development.
+
+**Key Responsibilities**
+
+* Develop and maintain embedded software using C/C\+\+
+* Work on Linux\-based embedded platforms and device\-level applications
+* Work with Ethernet\-based communication and networking applications
+* Assist in RTSP video streaming, video pipeline integration, and stream processing
+* Perform debugging using logs, terminal tools, and system\-level debugging methods
+* Work with multithreading, inter\-process communication, and socket programming
+* Support software testing, validation, and performance optimization
+* Collaborate with cross\-functional teams during development and troubleshooting
+* Maintain proper technical documentation and code quality
+
+**Required Skills**
+
+**Strong Fundamentals In**
+
+* Embedded C and C\+\+
+* Linux operating system and command\-line usage
+* Data structures and programming concepts
+* Memory management and pointers
+* Multithreading and process handling
+* Operating system fundamentals
+
+**Good Understanding Of**
+
+* Linux system programming
+* Ethernet and TCP/IP networking concepts
+* RTSP/video streaming fundamentals
+* Socket programming
+* Makefiles and build systems
+* Shell scripting
+* Debugging tools such as GDB
+* Git/version control systems
+
+**Preferred Skills (Good to Have)**
+
+* Experience with Raspberry Pi, ESP32, BeagleBone, or similar platforms
+* Knowledge of embedded Linux internals
+* Familiarity with RTOS concepts
+* Exposure to GStreamer, FFmpeg, or OpenCV pipelines
+* Experience working on personal or academic embedded/Linux projects
+
+**Eligibility**
+
+* BE/BTech/MTech students or recent graduates in:
+* Electronics \& Communication
+* Electrical Engineering
+* Computer Science
+* Embedded Systems
+* Instrumentation or related fields
+* Candidates should have strong problem\-solving ability and willingness to learn quickly.
+
+Job Types: Full\-time

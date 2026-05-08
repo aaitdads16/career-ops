@@ -1,0 +1,22 @@
+The Role
+  
+You'll work on the development of an EV charger management system deployed on AWS. You'll contribute across the full backend stack, from cloud infrastructure and APIs to an AI\-powered customer service agent that supports EV drivers and network operators.
+  
+What You'll Work On
+  
+* AWS serverless infrastructure (Lambda, API Gateway, DynamoDB, SAM/CDK)
+* REST and WebSocket APIs for the operator dashboard and driver\-facing mobile app
+* OCPP protocol integration for real\-time charger communication
+* Multi\-tenant architecture supporting isolated operator networks
+* Payment and session management backend services
+* An AI customer service agent capable of handling driver inquiries, session issues, and operator support — integrated into the platform and deployed on AWS
+
+
+What We're Looking For
+  
+* Currently enrolled in a CS, Software Engineering, or related undergraduate program
+* Hands\-on experience or coursework involving AWS (Lambda, API Gateway, IAM, or similar)
+* Exposure to WebSocket protocols, Infrastructure as Code (SAM/CDK), IoT/device communication, or multi\-agent orchestration frameworks
+* Comfortable writing backend code in Python or Node.js
+* Familiarity with REST API design and cloud deployment workflows
+* Some experience building AI agents or LLM\-powered applications (e.g. using LangChain, the Anthropic or OpenAI SDK, tool/function calling, RAG pipelines, or prompt engineering)

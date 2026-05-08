@@ -1,0 +1,52 @@
+Snyk is the leader in secure AI software development, helping millions of developers develop fast and stay secure as AI transforms how software is built. Our AI\-native Developer Security Platform integrates seamlessly into development and security workflows, making it easy to find, fix, and prevent vulnerabilities — from code and dependencies to containers and cloud.
+
+
+Our mission is to empower every developer to innovate securely in the AI era — boosting productivity while reducing business risk. We’re not your average security company \- we build Snyk on One Team, Care Deeply, Customer Centric, and Forward Thinking.
+
+
+It’s how we stay driven, supportive, and always one step ahead as AI reshapes our world.
+
+
+**Code Rules Internship JD**
+============================
+
+  
+
+**Why this role?**
+
+As a Software Engineer Intern in the Code Rules team, you’ll ship code at the intersection of AI and SAST, evolving the engine that hunts for vulnerabilities at scale. Join the team to build the future of automated security!
+
+
+**What You’ll Do:**
+
+* Embed with Snyk Code engineers to refine the engine’s core logic and detection capabilities.
+* Prototype novel approaches at the intersection of AI, Formal Methods, Fuzzing.
+* Apply academic research to industry\-leading security tooling.
+
+**What You Bring:**
+
+* Proficiency in at least one programming language.
+* The ability to understand complex, abstract systems like data\-flow engines or abstract syntax trees.
+* Effective communicator both verbally and in writing.
+* Curiosity and bias for action
+
+**It’d Be Awesome If You Also…**
+
+* Have hands\-on experience with AI/LLMs or modern security tools
+* Experience working with or building static analysis tools (SAST), linters, or compilers
+* Experience with fuzzing.
+
+*We care deeply about the warm, inclusive environment we’ve created and we value diversity – we welcome applications from those typically underrepresented in tech. If you like the sound of this role but are not totally sure whether you’re the right person, do apply anyway!*
+
+**About Snyk**
+
+Snyk is committed to creating an inclusive and engaging environment where our employees can thrive as we rally behind our common mission to make the digital world a safer place. From Snyk employee resource groups, to global benefits that help our employees prioritize their health, wellness, financial security, and a work/life blend, we aim to support our employees along their entire journeys here at Snyk.
+
+
+**Benefits \& Programs**
+
+* Prioritize health, wellness, financial security, and life balance with programs tailored to your location and role.
+* Flexible working hours, work\-from home allowances, in\-office perks, and time off for learning and self development
+* Generous vacation and wellness time off, country\-specific holidays, and 100% paid parental leave for all caregivers
+* Health benefits, employee assistance plans, and annual wellness allowance
+* Country\-specific life insurance, disability benefits, and re

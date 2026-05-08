@@ -1,0 +1,32 @@
+Joining Razer will place you on a global mission to revolutionize the way the world games. Razer is **a place to do great work**, offering you the opportunity to make an impact globally while working across a global team located across 5 continents. Razer is also **a great place to work,** providing you the unique, gamer\-centric \#LifeAtRazer experience that will put you in an accelerated growth, both personally and professionally.
+
+**Job Responsibilities :**
+--------------------------
+
+
+This role is responsible for designing, building, and maintaining scalable, high\-volume data processing systems that support Razer’s internal analytics and AI use cases. The Data Engineer enables the reliable collection, transformation, and storage of raw data into high\-quality, trusted datasets for data scientists, business analysts, and downstream applications.  
+
+  
+
+The role focuses on developing and operating data pipelines, data platforms, and integration frameworks to ensure data reliability, performance, and scalability. Working closely with data scientists, analytics engineers, data analysts, data product managers, and other internal stakeholders, the Data Engineer helps unlock insights, power analytics, and enable the effective use of AI and machine learning capabilities across the organization.**Essential Duties and Responsibilities**
+
+* **Design, develop and maintain** scalable data systems that enable the organization to store, process, and analyze large volumes of structured and unstructured data used for analytics and AI use cases.
+* **Build and operate** reliable data pipelines and platform that support batch and streaming workloads, ensure data freshness, accuracy, and completeness.
+* **Manage data lakes and data warehouses** by populating and operationalizing them. This involves designing and creating data\-marts, tokenization and vectorization techniques to support Gen AI use cases.
+* **Leverage modern build tools and AI** to enhance automation, data quality, testing, and deployment of data pipelines.
+* **Design and implement cloud\-based data infrastructure** in alignment with the company’s security, governance, and cost optimization policies.
+* **Collaborate with** data scientists, data analysts, analytics engineers, data product managers and business users to understand data requirements and translate them into scalable, maintainable data solutions.
+* **Mentor** interns for the duration of their internship to upgrade, maintain and implement data pipelines.
+
+**Education \& Experience**
+
+* Bachelor’s or Master’s degree in Computer Science, Engineering, or a related discipline.
+* Minimum of 2 years of hands\-on experience in data engineering or a closely related role; supporting, building and improving production data pipelines and platforms.
+
+**Pre\-Requisites :**
+---------------------
+
+**Skills required**
+
+* Proven experience in building and maintaining ELT/ETL pipelines using Python, SQL with software programming best practices.
+* Excelle

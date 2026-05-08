@@ -1,0 +1,35 @@
+Overview:
+
+Keysight is at the forefront of technology innovation, delivering breakthroughs and trusted insights in electronic design, simulation, prototyping, test, manufacturing, and optimization. Our \~15,000 employees create world\-class solutions in communications, 5G, automotive, energy, quantum, aerospace, defense, and semiconductor markets for customers in over 100 countries. Learn more about what we do.
+Our award\-winning culture embraces a bold vision of where technology can take us and a passion for tackling challenging problems with industry\-first solutions. We believe that when people feel a sense of belonging, they can be more creative, innovative, and thrive at all points in their careers.
+Responsibilities:
+* Understand the current state of the software, with support from team.
+* Gather requirements and work with product owner to refine the requests for implementation.
+* Based on requirements, breakdown the user stories to into manageable tasks
+* Implement the feature in code following coding best practices and guidelines.
+* Code review and unit testing to ensure software quality
+
+
+Qualifications:
+* Currently enrolled in Bachelor/Master Computer Science/Electrical/Electronic Engineering or
+  
+
+a software related discipline, from an accredited college or university
+* Proficiency in object\-oriented analysis, design \& programming
+* Experience and interest in software development.
+* Able to work independently and creatively.
+* Familiarity with software tools such as Visual Studio, Visual Studio Code, git and Bitbucket
+* Good to have the knowledge and experience of:
+  
+
+o C\#, TypsScript, JS, Python
+  
+
+o LLM Multi Model, AI/ML in area of OCR/ICR
+  
+
+o Test automation
+
+  
+
+Careers Privacy Statement\*\*\*Keysight is an Equal Opportunity Employer.\*\*\*

@@ -1,0 +1,15 @@
+<p><strong>Das deutsche Gesundheitswesen verarbeitet jedes Jahr €341 Milliarden – mit Prozessen, die für die Faxmaschine gebaut wurden. Wir bauen die KI, die das ablöst.</strong></p>
+<p>Doctario entwickelt KI-Infrastruktur für medizinische Abrechnung: hochreguliert, extrem komplex, und bisher fast vollständig manuell. Unser Produkt ist live, Kunden arbeiten produktiv damit, und die Nachfrage wächst schneller als unser Team.</p>
+<p>In weniger als vier Wochen haben wir eine Seed-Finanzierung knapp unterhalb der siebenstelligen Marke abgeschlossen. Jetzt bauen wir das AI-Engineering-Team, das diese Infrastruktur skaliert.</p>
+<p><strong>Warum jetzt einsteigen?</strong></p>
+<p>Du arbeitest nicht an einem Proof of Concept – du baust KI-Systeme, die heute in Produktion laufen und echte Entscheidungen treffen. Du kommst in einer Phase, in der deine Architekturentscheidungen das Fundament für alles Weitere legen. Wenige Meetings, wenig Bürokratie – dafür echtes Ownership und direkter Impact. Wir suchen jemanden, der zeitnah einsteigen kann.</p>
+<h2>Aufgaben</h2>
+<p>Du baust Full-Stack-Features end-to-end – vom UI über die API bis zur KI-Integration. Du übersetzt fachliche Anforderungen aus dem Medical-Billing-Umfeld in pragmatische, funktionierende Software. Du arbeitest an eigenen Projekten mit klarem Scope und unterstützt das Team bei größeren Initiativen.</p>
+<p>Du verstehst, wie man KI als Werkzeug einsetzt – nicht um Modelle from scratch zu trainieren, sondern um intelligente Produkte zu bauen, die Menschen wirklich nutzen. Du arbeitest eng mit den Foundern, triffst pragmatische Entscheidungen und übernimmst Verantwortung für das, was du baust.</p>
+<h2>Qualifikation</h2>
+<p>Du hast Coding-Erfahrung – idealerweise im Rahmen eines Informatik- oder vergleichbaren Studiums – und schon eigene Projekte gebaut, ob im Studium, als Side Project oder im Praktikum. Du arbeitest mit Python und/oder TypeScript und bist im Umgang mit modernen KI-Tools (LLMs, AI-APIs, Coding-Agents) souverän. Du denkst unternehmerisch, willst Dinge gebaut bekommen und scheust dich nicht, dich in unbekanntes Terrain einzuarbeiten. Deutsch beherrschst du auf muttersprachlichem Niveau – notwendig, weil wir nah am Kunden und an regulatorischen Anforderungen arbeiten.</p>
+<h2>Benefits</h2>
+<p>€2.400 pro Monat. EGYM Wellpass, voll ausgestattetes Büro in München, eigenes Setup nach deinen Präferenzen. Bestes Tooling garantiert – Claude, Codex, eigener Development Server und alles, was du brauchst, um produktiv zu arbeiten. Vor-Ort-Position, mindestens 3 Monate – wir arbeiten gemeinsam im Büro.</p>
+<p>Ein Kennenlernen mit den Gründern, ein praxisnaher technischer Case, ein Lunch oder Dinner mit dem Team. Kein Marathon.</p>
+<p>Bewirb dich mit deinem Lebenslauf oder LinkedIn-Profil. GitHub, Side Projects oder Referenzen zu eigenen Projekten sind ein Plus.</p>
+<p>Find more <a href="https://www.arbeitnow.com/english-speaking-jobs">English Speaking Jobs in Germany</a> on Arbeitnow</a>

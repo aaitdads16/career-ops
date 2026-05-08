@@ -1,0 +1,40 @@
+Luminate is the entertainment industry's preeminent data and insights partner, serving as the single source of truth for record labels, film studios, talent agencies, and every part of the music and entertainment ecosystem. By aggregating data from over 500 verified sources, Luminate provides customers with the objective validation needed to make critical business decisions and track global market share. While its data famously fuels the Billboard Charts and the Variety Streaming Originals Charts, Luminate's primary mission is to empower the entertainment industry with essential, accurate and objective data.
+
+**Luminate** is maintaining and building out our industry\-leading SaaS platform serving the music, film, and TV industries. Our mission is to deliver the entertainment industry's most essential, objective, and trustworthy information across music, film and television, with data compiled from hundreds of verified sources.
+
+  
+
+
+
+We are looking for a **full\-stack software engineering intern** to join us for the summer. You will work with the Data Ingestion team, responsible for the timely and accurate transfer of information from our data providers into our data warehouse. The Data Ingestion team is a multidisciplinary team, composed of product managers, subject matter experts, and your fellow engineers, that delivers high\-impact solutions that power our SaaS platform and, ultimately, brings value to our customers in the music industry. What we want from you is passion for data quality and continuous, iterative deployment strategies – and the initiative to grow your collaboration, communication, empathy, humility, and software engineering skills during your time with us.
+
+  
+
+
+### **What You'll Do**
+
+
+* Work with your team to deliver scalable engineering solutions that affect Luminate Data's product roadmap.
+* Deploy code and cloud\-based infrastructure utilizing best practices and tools in modern software development, including cutting\-edge AI developer tools.
+* Develop not just code, but all other parts of the stack: test suites, developer tools, documentation, etc.
+* Tackle bugs and tech hygiene tickets from the engineering backlog.
+* Contribute back to our engineering practice in ways that best demonstrate your own unique strengths. We strive for continuous improvement!
+* Work with stakeholders including data, design, product teams and assisting them with data\-related technical issues.
+
+### **Preferred Qualifications**
+
+
+
+To be considered for this role, you must be:
+
+
+* Currently pursuing a degree in Computer Science or a related field
+* Available for 8\-12 weeks between June\-August 2026 to work in our New York office
+
+
+Additionally, we'd love to hear from you if you have:
+
+
+* A solid foundation of Computer Science fundamentals, including best practices for cloud\-based infrastructure, data quality and validation testing, and continuous integration and delivery (CI/CD) patterns
+* Experience writing code in Python, SQL, and/or Java
+*

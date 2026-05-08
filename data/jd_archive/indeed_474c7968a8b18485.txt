@@ -1,0 +1,99 @@
+**Our mission**
+
+
+We are building the operating system for the €20B German tax advisory industry.
+
+
+At Limetax, we acquire established tax advisories and transform them into high\-performing, technology\-enabled businesses. Instead of building software in isolation, we work directly on real companies, real workflows, and real data.
+
+
+Our goal is simple: reduce manual work in tax advisory and redefine how tax operations are run — through applied AI.
+
+**Your mission**
+
+
+As an **Applied AI Engineering Intern**, you will work on systems that automate real tax workflows using AI.
+
+
+You won’t be working on demos or side projects. You will build and improve systems that are actively used in production — from document processing to decision support.
+
+
+Your work will directly impact how tax professionals operate on a daily basis.
+
+**How your day\-to\-day will look like**
+
+**Build AI Systems**
+  
+
+Design and improve document intelligence systems that process real tax documents at scale.
+
+**Work with LLMs \& RAG**
+  
+
+Develop and iterate on retrieval\-based systems using internal knowledge bases, tax law, and client data.
+
+**Ship Data Pipelines**
+  
+
+Work on pipelines that power ML and AI workflows in production environments.
+
+**Improve Decision Systems**
+  
+
+Contribute to prediction and suggestion systems (e.g. booking proposals, anomaly detection).
+
+**Operate in Production**
+  
+
+Monitor, evaluate, and continuously improve AI systems running in real workflows.
+
+**Collaborate Closely**
+  
+
+Work directly with founders, engineers, and domain experts to translate real processes into AI\-driven solutions.
+
+**Is it you we are looking for?**
+
+
+You are...
+
+* Studying Computer Science, Data Science, AI, Information Systems, or a related field
+* Someone who has built at least one end\-to\-end project (e.g. LLM app, ML pipeline, or data system)
+* Comfortable working with Python (TypeScript is a plus)
+* Curious about applying AI in real\-world, high\-stakes environments
+* A hands\-on builder who enjoys working with messy, real data
+* Interested in how systems behave in production — not just in notebooks
+* Someone who takes ownership and likes to see things through end\-to\-end
+* Able to collaborate with both technical and non\-technical stakeholders
+
+**Why Limetax?**
+
+**Real impact from day one**
+  
+
+You will work on AI systems that are deployed in production and actively used. Your work will reduce manual work and improve real operations — within weeks.
+
+**Real world problems**
+  
+
+Work with real transactions, documents, and client histories across multiple firms.
+
+**Ownership early on**
+  
+
+You won’t just support — you will take ownership of meaningful parts of the system and ship features that go live.
+
+**Tight feedback loop**
+  
+
+See how your work performs in real workflows and iterate quickly.
+
+**Steep learning curve**
+  
+
+Work on real systems, real constraints, and real impact — alongside experienced builders.
+
+**Path to full\-time**
+  
+
+Strong performance can d

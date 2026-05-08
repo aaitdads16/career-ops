@@ -1,0 +1,39 @@
+**Company Description**
+
+Vedanta Mobility is a deep tech AI company focused on creating advanced mobility solutions to enhance global migration, digital documentation, and cross\-border mobility. We specialize in AI\-powered advisory tools, multilingual digital platforms, and mobile service technologies that simplify complex immigration and mobility processes. With initiatives like Visa on Wheels™ and Dignity on Wheels™, we bring technology\-driven support closer to communities by combining artificial intelligence, digital infrastructure, and compliance workflows. Driven by a vision of ethical mobility, Vedanta Mobility aims to empower individuals, professionals, and organizations with innovative and accessible solutions for responsible global movement.
+
+**Role Description**
+
+This is an internship opportunity with Vedanta Mobility for individuals passionate about AI and global mobility technology. The role includes assisting in the design, research, and development of intelligent systems and tools, supporting project implementation, and creating insightful reports and presentations. Additionally, interns will collaborate with cross\-functional teams on real\-world projects and contribute ideas to ongoing initiatives. This is a hybrid role based in Bangalore Urban district, with the flexibility to work remotely also for part of the assignment without any STIPEND.
+
+**AI / Machine Learning Intern – Prototype Development (Bengaluru)**
+
+We are initiating the **prototype development of “DIGNIPATH (Dignity on Wheels)”**, an AI\-driven mobility intelligence platform being developed under **VEDANTA MOBILITY, which**  is already accepted, evaludated and under consideration for implementation by Think10X Innovation Platform of Ministry of Interior, UAE.
+
+The project explores a research concept called **Bidirectional IC Mobility Intelligence** to support structured insights in global mobility and visa preparation processes around the world. We have an immediate project MOI, UAE as our proposal is already acknowledged and under final reveiw.
+
+We are looking for **AI / Data Science interns based in Tier 2 cities only**, preferably , who are interested in contributing to an early\-stage deep\-tech prototype.
+
+**Project Scope**
+
+* Build a small **AI proof\-of\-concept prototype, Demo**
+* Develop an **intent analysis model using sample datasets**
+* Create a simple **prototype dashboard (Python / Streamlit)**
+* Assist in AI architecture and research documentation
+
+**Preferred Skills**
+
+* Python
+* Machine Learning basics
+* Data analysis / AI modeling
+* Familiarity with tools like Streamlit, Scikit\-learn, or similar frameworks
+
+**Location:** Bengaluru
+
+**Mode:** Hybrid / Remote collaboration possible
+
+**Duration:** 8–12 weeks
+
+**Note:**
+
+This is currently a **research\-stage prototype internship and does not include a stipend**. However, contributors will gain hands\-on experience working on an early\-stage next Generation AI concept and may have the **opportunity

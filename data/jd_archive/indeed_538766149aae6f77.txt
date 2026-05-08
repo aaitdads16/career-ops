@@ -1,0 +1,48 @@
+Monday Merch is building a faster, smarter way for companies to create branded merchandise. Behind every order is a busy flow of product data, supplier updates, customer communication, logistics, and internal tools. This internship is about using AI to make that flow clearer, faster, and easier to trust.
+
+
+AI is already part of how we build and operate at Monday Merch. We use the newest models and tools, including ChatGPT, Claude, and other frontier AI products, to improve engineering and day\-to\-day workflows. This internship is about helping push that work further.
+
+
+As an AI Automation \& Agent Builder Intern, you will learn by building. You will sit close to the teams doing the work, spot repeated tasks, prototype useful AI workflows, test them in real situations, and improve them based on feedback.
+
+### **Location \& work mode**
+
+
+This internship is based in our Rotterdam office. We work together in person because the best automation ideas usually come from being close to the teams who run the business every day.
+
+### **What you’ll work on**
+
+* Build internal AI assistants for repeated team questions, customer updates, or operational checks.
+* Turn scattered information from emails, spreadsheets, supplier files, order notes, and internal docs into useful structure.
+* Create simple automations that remove copying, checking, or status\-update work.
+* Test prompts, guardrails, and examples so workflows behave reliably.
+* Write clear documentation and help teams adopt what you build.
+* Measure whether a prototype actually saves time, reduces mistakes, or improves the experience for a team.
+
+### **Why Monday Merch?**
+
+* Rapid growth opportunities in a fast\-paced scale\-up.
+* Work from our beautiful office in the city centre of Rotterdam.
+* Yearly company workation.
+* Access to the newest AI models and tools, including ChatGPT, Claude, and other frontier products.
+* Work with a team already applying AI across engineering and operational workflows.
+* Work with great tools, including a brand new MacBook, and bright, hard\-working people.
+* Ranked in the LinkedIn Top 10 Startups of The Netherlands in 2025\.
+
+  
+
+This internship can fit a student or early\-career builder who is curious about AI, automation, and how companies actually work.
+
+### **What you’ll bring**
+
+* You are comfortable experimenting with AI tools and learning new software quickly.
+* You have basic technical fluency, for example with spreadsheets, prompts, APIs, no\-code tools, or simple scripts.
+* You are interested in e\-commerce, operations, customer experience, supply chain, data, or internal tools.
+* You communicate clearly with non\-technical teammates.
+* You test edge cases and care whether a workflow still works after the first demo.
+* You can work from our Rotterdam office.
+* You prefer practical building over abstract research.
+
+
+It is a plus if you have used tools such as ChatGPT, Claude, Make, Zapier, n8n, Airtable, Google Sheets automation, Python, JavaScript, SQL, or

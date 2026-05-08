@@ -1,0 +1,24 @@
+We are looking for an enthusiastic and analytical Associate Data Scientist to join our growing data team. The candidate will work closely with data engineers, analysts, and business stakeholders to build data\-driven solutions, perform analysis, and support machine learning initiatives.
+
+· Assist in data collection, cleaning, preprocessing, and transformation activities
+
+· Perform exploratory data analysis and generate actionable insights
+
+· Support the development and testing of machine learning models
+
+· Work on statistical analysis and predictive analytics projects
+
+· Develop dashboards, reports, and visualizations for business stakeholders
+
+· Collaborate with cross\-functional teams to understand business problems and data requirements
+
+· Write efficient SQL queries to extract and analyze data  
+. Support deployment and monitoring of analytical models and workflows
+
+· Document processes, methodologies, and project outcomes
+
+Stay updated with latest trends and technologies in data science and AI
+
+Pay: ₹10,000\.00 \- ₹20,000\.00 per month
+
+Work Location: In person

@@ -1,0 +1,49 @@
+At Avis Budget Group, we are proud to be a **performance driven organization. Our 25,000 employees encourage** each other to be at their best through outstanding leadership, training and tools and rewards.
+
+
+As a participant of our ABG Accelerate internship program you will be encouraged to explore different areas of our business to grow both personally and professionally to jump start a rewarding career.
+
+**Role Overview**
+
+
+We are looking for curious, technically strong graduate students passionate about AI who want to see their work make a real impact in a global business. You will contribute to live data and AI projects, help educate stakeholders on AI implementation, and bring fresh thinking to how we leverage emerging technologies.
+
+**What You'll Be Doing**
+
+* Contribute to active AI and data engineering projects, working alongside senior engineers and analysts.
+* Help build, test, and document AI\-powered features or data pipeline enhancements.
+* Translate AI concepts and project findings into clear language for non\-technical business stakeholders.
+* Showcase and explain your GitHub projects and prior AI work, helping to establish best practices within the team.
+* Support the creation of internal training materials or demos that help employees understand AI implementation.
+
+**What You'll Bring**
+
+* Currently enrolled in an undergraduate or graduate program in Computer Science, Data Science, AI/ML, or a related discipline.
+* Active GitHub profile with at least one substantive AI or machine learning project.
+* At least one prior project using AI/ML tools or techniques (academic, personal, or professional).
+* Previous internship or work experience in a business or technology environment.
+* Strong communication skills — able to bridge technical and non\-technical conversations.
+* Personable, enthusiastic, and naturally able to teach diverse stakeholders about AI topics.
+* Comfort with Python and familiarity with common AI/ML libraries (scikit\-learn, PyTorch, HuggingFace, OpenAI API).
+
+**Bonus Points**
+
+* Experience with data engineering tools (SQL, pandas, dbt, Airflow).
+* Exposure to LLMs or generative AI in a practical context.
+* GitHub profile demonstrating collaborative projects and consistent contributions.
+
+
+Salary: £30,000 Full time equivalent. This role will be an 8 week internship.
+
+**Who we are:**
+
+
+Here at Avis Budget Group, you will be joining a team of 25,000 driven people, performing with purpose. Together, we’re moving the future of transportation forward with our innovative, customer\-focused solutions.
+
+
+Our culture is performance driven, where we encourage and support each other to be at our best through leadership, training, tools, and rewards.
+
+
+We are proud to make a positive difference to the lives of our colleagues, customers, and communities where we operate.
+
+*Avis Budget Group is an Equal Opportunity Employer – Qualified applicants will receive consideration for employment without regard to their race, color, religi

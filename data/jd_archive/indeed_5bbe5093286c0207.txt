@@ -1,0 +1,34 @@
+### **Basic Information**
+
+Job Name
+Associate Product Developer \- USA (B)
+Country
+United States
+State
+California
+City
+Santa Clara
+Date Published
+07\-May\-2026
+Job ID
+46802
+### **Description and Requirements**
+
+\#LI\-BS1
+Hybrid: \#LI\-Hybrid
+BMC empowers nearly 80% of the Forbes Global 100 to accelerate business value, faster than humanly possible. Our industry\-leading portfolio unlocks human and machine potential to drive business growth, innovation, and sustainable success. BMC does this in a simple and optimized way by connecting people, systems, and data that power the world’s largest organizations so they can seize a competitive advantage.
+BMC Software runs the systems that the world's largest enterprises depend on — mainframes, automation, and the control plane underneath them. Putting agentic AI into that environment raises the bar: every agent's action must be grounded, auditable, and reversible. The Office of the CTO is working on the AI Foundation that makes this possible across BMC's product lines, and the heart of it is an Enterprise Agent Gym — the evaluation harness and experimentation loop that turns “the prototype worked” into “the agent is safe to promote to production.” **What you'll do**
+Work directly with members of the technical staff in the Office of the CTO, on the evals and experimentation layer that BMC AI products are built on.* Design evaluations that catch the failure modes of enterprise agents, including hallucinated tool calls, policy violations, context collapse, and regression under distribution shift.
+* Build the Agent Gym — task definitions, graders, reward signals, and trajectory capture — for multi\-step agentic workflows.
+* Run experimentation sweeps across prompts, models, and scaffolds; quantify trade\-offs between accuracy, cost, and latency.
+* Turn evaluation results into promotion gates and readiness reports that product teams can act on.
+* Contribute to our Responsible AI tooling — grounding checks, policy enforcement, and human\-in\-the\-loop escalation paths.
+ **What you'll take on**
+Your project will be part of the BMC AI Foundation’s active workstreams (Agent Gym): evaluations, grader design, experimentation tooling, dataset curation, or trace / replay infrastructure. Exact scope is matched to your strengths during onboarding, with your technical mentors, and is sized to be shippable within 12 weeks.  
+
+
+**To be successful in this role, you will:*** Pursue an MS or PhD in CS, ML, or a closely related field, with coursework or research in LLMs, reinforcement learning, or evaluation methodology.
+* Build non\-trivial work on modern LLM and agent stacks — multi\-step tool\-using agents, RAG pipelines, or post\-training (SFT, DPO, RLHF, or RLVR) — in research, open source, or production.
+* Frame a hypothesis, choose the right baselines and ablations, read a learning curve or reward trajectory honestly, and write up what you learned.
+* Treat evaluation as a first\-class AI and Engineering problem
+ **Espec
