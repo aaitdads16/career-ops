@@ -1,0 +1,44 @@
+**Lab Summary:** AI Research Center (AIC) located in Mountain View, California focuses on research and development which directly impacts future Samsung products reaching hundreds of millions of users worldwide. We are focused on pushing the state\-of\-the\-art and practice in natural language and knowledge intelligence.
+
+
+**Position Summary:** Samsung Research AI center, located in Mountain View, CA, is currently recruiting world\-class students who can thrive in a fast\-pace, cross team, results\-driven environment, with focus on highly visible, challenging, and cross discipline projects. You will be part of an exciting project to build an adaptive, personalized, contextual and secure AI model and system to enable fast, accurate and safe interactions tailored to users' needs on Samsung devices.
+
+
+**Position Responsibilities:** We are looking for Fall Interns (Flexible start date for a 3 month internship between September\-December).
+
+
+* Develop and implement novel deep learning/reinforcement learning algorithms for natural language processing (text, speech) in various applications
+* Contribute to the research activities of our team
+* Generate creative solutions (patents) and publish in top conferences (papers)
+
+
+**Required Skills:**
+
+
+* Current Ph.D. student in CS, EE, or related field
+* Experience in one or more of the following areas:
+	+ Expertise in LLM including model architecture, training/finetuning techniques, retrieval augmented generation (RAG), reasoning and action planning, etc.
+	+ Experience in planning, tool use, agent AI, and agent memory to develop autonomous systems for decision\-making, problem\-solving, and adaptability.
+	+ Experience in knowledge augmented AI technologies (e.g., language prompt, knowledge graph, neuro\-symbolic learning)
+	+ Experience in conversational AI technologies: natural language processing (e.g., language models, semantic parsing, natural language generation etc.), dialogue (e.g., state tracking, policy learning), and representation learning (embedding, conceptualization, etc.)
+	+ Experience in multimodal AI technologies for various multimodal applications
+	+ Experience in on\-device AI technologies such as lightweight model architecture design
+* Teamwork and communication skills
+* Proficiency in a neural network library (e.g., PyTorch, TensorFlow)
+* Track record of research/publications on machine learning and artificial intelligence field (NeurIPS, ICML, ICLR, AAAI, IJCAI, CVPR, ACL, EMNLP, NAACL, TACL, etc.)
+
+**Additional Information**
+
+Disclosure of Trade Secrets
+
+
+
+Samsung has a strict policy on trade secrets. In applying to Samsung and progressing through the recruitment process, you must not disclose any trade secrets of a current or previous employer.
+
+
+
+Essential Job Functions
+
+
+
+This position will be performed in an office setting. The position will require the incumbent to sit and stand at a desk, communicate in person and by telephone, and frequently operate standard office equipment, such
