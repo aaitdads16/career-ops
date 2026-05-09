@@ -1,0 +1,34 @@
+**What to Expect**
+Consider before submitting an application:
+
+
+This position is expected to start May or June 2026 and continue through summer term (ending approximately August 2026\) or continuing into Fall 2026 if available and there is opportunity to do so. We ask for a minimum of 12 weeks, full\-time (40 hours/week) and on\-site, for most internships. Our internship program is for students who are actively enrolled in an academic program. Recent graduates seeking employment after graduation and not returning to school should apply for full\-time positions, not internships.
+
+
+International Students: If your work authorization is through CPT, please consult your school on your ability to work 40 hours per week before applying. You must be able to work 40 hours per week on\-site. Many students will be limited to part\-time during the academic year.
+
+
+The Internship Recruiting Team is driven by the passion to recognize and develop emerging talent. Our year\-round program places the best students in positions where they will grow technically, professionally, and personally through their experience working closely with their Manager, Mentor, and team. We are dedicated to providing an experience that allows the intern to experience life at Tesla by including them in projects that are critical to their team’s success.
+
+
+About the Team
+
+
+As a Software Engineer within our AI teams, you will contribute to one of the most advanced and widely deployed AI Platforms in the world, powering Autopilot and our Humanoid Robot, Optimus.
+
+
+In this role, you will be responsible for the design and development of the AI inference stack running neural networks in millions of Tesla vehicles and Optimus. You will collaborate closely with the AI Engineers and Hardware Engineers to understand requirements and co\-design the compiler/runtime to extract the maximum performance out of our hardware.
+
+
+The inference stack is purpose\-driven: deployment and analysis of production models inform the team's direction, and the team's work immediately impacts performance and the ability to deploy increasingly complex models. With a cutting\-edge co\-designed MLIR compiler and runtime architecture, and full control of the hardware, the compiler has access to traditionally unavailable features that can be leveraged via novel optimization approaches for code generation aimed at squeezing the best performance possible out of Tesla’s hardware.  
+
+
+
+  
+
+**What You'll Do*** Write, debug and maintain robust software for Tesla AI inference (Compiler / Runtime) across FSD, Optimus, and Data Center use\-cases
+* Provide AI developers access to performance\-critical hardware features through new APIs and Domain\-Specific Languages (DSLs)
+* Design APIs, compiler and runtime features enabling distributed inference on Tesla’s hardware
+* Support the integration of our deployment stack with ML frameworks (PyTorch, JAX)
+* Keep up\-to\-date and collaborate with ML/compiler open\-source community
+* Ana

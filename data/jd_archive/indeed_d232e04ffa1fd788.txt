@@ -1,0 +1,43 @@
+**What to Expect**
+Start date: August/September 2026
+  
+
+Duration: 6 months
+  
+
+Location: Amsterdam
+  
+
+Fulltime position (40hours a week)
+  
+
+  
+
+NOTE: YOU MUST BE ENROLLED IN EDUCATION DURING THE ENTIRE INTERNSHIP TO BE CONSIDERED
+  
+
+  
+
+Tesla is seeking a highly motivated AI/Data Engineer Intern to join our dynamic Energy team in Amsterdam. This role focuses on AI skills harnesses, data intelligence, automation, and fleet health optimization across Tesla’s industry\-scale energy products (Megapack and Powerpack). The successful candidate will drive data\-driven operational efficiency and contribute directly to Tesla’s mission of accelerating the world’s transition to sustainable energy.  
+
+**What You'll Do*** Data Intelligence: Develop ETL pipelines, dashboards, and workflow automation tools to improve data accessibility and reporting
+* Diagnostics \& Machine Learning: Build intelligent diagnostics tools and predictive models to enhance fleet health and operational performance
+* Automation \& AI: Streamline Skills Harnesses and automate data handling (e.g., ticket refinement, data extraction, and workflow orchestration)
+* Collaboration: Work closely with cross\-functional engineering and analytics teams to enhance operational efficiency
+* Reporting: Prepare concise technical reports and dashboards to communicate contractual and performance insights to stakeholders
+  
+
+**What You'll Bring*** Currently pursuing a degree in Computer Science, Data Engineering, Machine Learning, or a related technical field
+* Experience or interest in energy systems, SCADA data, or electrical troubleshooting and RCA is a plus
+* Proficiency in Python, SQL, and ETL frameworks for data manipulation and automation
+* Familiarity with agentic AI frameworks and skills
+* Experience with machine learning, applied analytics, and operational diagnostics
+* Hands\-on approach with strong analytical and problem\-solving skills
+* Fluent in English (C1 level), written and spoken, and a passion for renewable energy and Tesla’s mission
+  
+
+Tesla is an Equal Opportunity / Affirmative Action employer committed to diversity in the workplace. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, age, national origin, disability, protected veteran status, gender identity or any other factor protected by applicable federal, state or local laws.  
+
+  
+
+Tesla is also committed to working with and providing reasonable accommodations to individuals with disabilities. Please let your recruiter know if you need an accommodation at any point during the interview process.

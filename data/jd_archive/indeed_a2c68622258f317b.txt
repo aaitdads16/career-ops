@@ -1,0 +1,46 @@
+Job Description
+Research Intern \- GHAI\-2
+Job Location: Santa Clara, California
+Location Flexibility: Multiple Locations in Country
+Req Id: 8046
+Posting Start Date: 5/8/26
+At Fujitsu, we are driven by our purpose to make the world more sustainable by building trust in society through innovation.
+
+
+We have been a pioneer in technology and innovation for over 80 years, and we are committed to using our expertise to help businesses and organizations transform for the digital age. We believe that digital transformation is essential to creating a more sustainable future. That's why we are working with our customers to develop solutions that can help them reduce their environmental impact, improve their efficiency, and create a more equitable society.
+
+
+We are committed to contributing to the United Nations Sustainable Development Goals (SDGs). These goals are a blueprint for a better future for all, and we believe that technology can play a vital role in achieving them.
+
+
+If you share our passion for making a meaningful impact on the world, we invite you to join our global family of 130,000 employees spanning more than 50 countries. We are a diverse workforce, and we offer a wide range of opportunities for you to grow and develop your career.
+
+
+Together, we can create a more sustainable future for all.  
+
+
+
+**Research Intern at Fujitsu Research of America**
+
+**Location: Santa Clara, CA**
+
+The Space Data Frontier Research Center at Fujitsu focuses on combining research across multiple technical fields to address large\-scale societal and industrial challenges. These challenges require new approaches that integrate artificial intelligence, sensing, modeling, optimization, and domain knowledge. Our goal is to develop evidence\-based scientific tools that support decision\-making, improve operational efficiency, and accelerate innovation across industries.
+
+
+We are seeking exceptional research interns to join our Space Data Frontier Research Center Lab in Silicon Valley to work on novel problems and applications related to wind field predictions. You will contribute to developing machine learning based models for predicting wind fields for application to complex real\-world systems and scenarios.  
+
+
+
+  
+
+The internship duration is 3 months.
+
+
+**Job responsibilities**
+
+* Develop and train machine learning models for wind field prediction using diverse data sources, ranging from numerical model outputs to meteorological and atmospheric observations.
+* Incorporate data assimilation techniques into ML pipelines to improve forecast accuracy and physical consistency.
+* Explore and integrate satellite data into the modeling pipeline to enhance spatial coverage and resolution.
+* Benchmark developed models against established baselines and conduct rigorous evaluation across diverse real\-world scenarios.
+* Contribute to publishable research suitable for top\-tier venues such as NeurIPS, ICML, or related conferences and journals.
+Collaborate with research scienti
