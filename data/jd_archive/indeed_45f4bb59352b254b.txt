@@ -1,0 +1,55 @@
+**We help the world run better**  
+
+At SAP, we keep it simple: you bring your best to us, and we'll bring out the best in you. We're builders touching over 20 industries and 80% of global commerce, and we need your unique talents to help shape what's next. The work is challenging – but it matters. You'll find a place where you can be yourself, prioritize your wellbeing, and truly belong. What's in it for you? Constant learning, skill growth, great benefits, and a team that wants you to grow and succeed. **What You’ll Build**
+
+  
+
+The SAP Internship Experience Program is SAP’s global, strategic, paid internship program that provides university students with opportunities to find purpose in their careers. This is more than an internship; it’s the foundation for a career built on connection, creativity, and impact.
+
+  
+
+Position title: SAP SuccessFactors iXp Intern – AI Software Developer
+
+
+Location: San Ramon, USA
+
+
+Expected Start Date: June 1, 2026
+
+
+Duration: 10 Weeks
+
+**What You'll Do**
+
+* Design, develop, and deliver new features using Java and legacy stack within an agile team setup.
+* Build services using Java, Spring, REST framework, deploying with Docker, Kubernetes, and cloud\-native CI/CD pipelines.
+* Collaborate closely with developers, architects, and scrum teams while setting a positive example.
+* Contribute across the stack, designing scalable distributed systems and ensuring robust, cloud\-compliant deployments (e.g., zero\-downtime, feature flags, frequent releases).
+* Gain deep understanding of the compensation module and legacy systems, contributing new functionality and improvements.
+* Engage in all stages of development—from requirements analysis to architecture, coding, testing, and delivery.
+
+ **What You’ll Bring**
+
+  
+
+
+
+We’re looking for someone who takes initiative, perseveres, and stays curious. You like to work on meaningful innovative projects and are energized by lifelong learning.
+
+  
+
+
+
+* Education: Bachelor’s degree in computer science or a related engineering discipline; a master’s degree in computer science is highly preferred.
+* Eligibility: Must be currently enrolled, or recently graduated (start date must be within 6 months of graduation date) from a coding academy/bootcamp, apprenticeship, associate, bachelor’s, master’s or JD/PhD program
+* Strong technical proficiency in one or more programming languages or platforms, including Java, Node.js, Python, HTML5, and JavaScript.
+* Good understanding of RESTful APIs and hands\-on experience in their design and development.
+* Familiarity with source control systems (Git) and CI/CD tools such as Jenkins.
+* Familiarity in software development using cloud\-native technologies across IaaS providers including SAP, AWS, Azure, and GCP.
+* Excellent written and verbal communication skills in English.
+
+ **Where You Belong**
+
+  
+
+Be part of SAP Next Gen, a global community for students, universities, schools and educational partners, who are passionate about innovation and tech
