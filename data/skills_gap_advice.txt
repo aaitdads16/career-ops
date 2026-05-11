@@ -1,34 +1,44 @@
-<b>🎯 ML/AI Internship Market Analysis</b>
+<b>📊 Analysis: 1310 Internship Listings vs. Your Profile</b>
 
-<b>1. SKILLS GAPS (5-6/10 roles)</b>
+---
+
+<b>1. 🔍 SKILLS GAP (from 5-6/10 roles)</b>
+
 Skills appearing in adjacent roles the candidate likely lacks:
-- <b>Cloud platforms</b> (AWS/GCP/Azure deployment, MLOps pipelines)
-- <b>Knowledge graph tooling</b> (Neo4j, SPARQL, RDF/OWL ontologies)
-- <b>Agentic frameworks</b> (LangChain, AutoGen, tool-use / function-calling patterns)
-- <b>Finance/banking domain</b> (quant modeling, risk ML — niche but recurring)
-- <b>EV/embedded integration</b> (low-level systems, edge deployment)
+- <b>Recommender Systems</b> (collaborative filtering, matrix factorization)
+- <b>MLOps/deployment</b> (Docker, Kubernetes, model serving pipelines)
+- <b>Time-series / sensor data</b> (IoT, telematics, signal processing basics)
+- <b>Cloud platforms</b> (AWS SageMaker, Azure ML, GCP Vertex AI — hands-on, not just familiarity)
+- <b>SQL + data pipelines</b> (ETL, Spark, Databricks appear in adjacent roles frequently)
 
-<b>2. TOP KEYWORDS (9-10/10 roles)</b>
-Reinforce these on every resume version:
-- <b>LLM fine-tuning / LoRA / PEFT</b>
-- <b>Agentic AI / AI agents</b>
-- <b>Knowledge Graphs + LLMs</b>
-- <b>Generative AI / GenAI</b>
-- <b>Research internship / publication-track</b>
-- <b>PyTorch, NLP, Computer Vision</b>
-- <b>Multimodal models (CLIP)</b>
-- <b>Neuromorphic / novel architectures</b> (emerging signal)
+---
 
-<b>3. QUICK WINS 🚀</b>
-Three highest-ROI additions to expand eligible pool:
+<b>2. 🏷️ TOP KEYWORDS (9-10/10 roles)</b>
 
-- <b>LangChain/LangGraph mini-project</b> — builds an agentic AI portfolio piece; directly unlocks Samsung Agentic AI + Qualys roles and many 6-7/10 roles currently missed
+Reinforce these in <b>every resume bullet</b>:
+- <b>Deep Learning, Model Training, Fine-tuning</b>
+- <b>LLMs, RAG, Agentic AI / AI Agents</b>
+- <b>Computer Vision, Image Generation</b>
+- <b>NLP, Information Retrieval</b>
+- <b>PyTorch, LoRA</b>
+- <b>Applied Research, Real-time Inference</b>
 
-- <b>Neo4j + knowledge graph demo</b> (link to existing NLP/LLM work) — two Samsung KG roles are 9/10 fits; adding a public KG+RAG project makes applications much stronger
+---
 
-- <b>AWS/GCP ML deployment cert</b> (e.g. AWS ML Specialty or Google Professional ML Engineer) — unlocks the large cloud-adjacent adjacent pool currently scoring 5-6/10
+<b>3. ⚡ QUICK WINS (expand eligible pool fast)</b>
 
-<b>4. REGIONAL PATTERNS 🌍</b>
-- <b>Europe (UK/NL)</b>: Heavily research-lab focused (Samsung SRUK, Prosus, Perspectum) — emphasize <b>publications, research methodology, academic rigor</b>
-- <b>USA/Canada</b>: Leans applied/engineering (d-Matrix, Futurewei, Qualys) — emphasize <b>production impact, system scalability, GenAI deployment</b>
-- <b>Asia</b>: Finance + AI hybrid roles dominate (Crédit Agricole SG) — domain knowledge matters more; <b>less pure ML research
+- <b>🥇 MLOps basics</b> — A small project deploying a model with FastAPI + Docker + HuggingFace Spaces unlocks dozens of ML Engineer roles currently scoring 6/10
+- <b>🥈 AWS/GCP free-tier certification</b> (AWS Cloud Practitioner, ~1 week) — explicitly required in ~30% of adjacent roles; low effort, high signal
+- <b>🥉 RecSys mini-project</b> — A simple collaborative filtering or two-tower model on MovieLens directly targets the Amazon/Samsung tier roles and fills the most common gap
+
+---
+
+<b>4. 🌍 REGIONAL PATTERNS</b>
+
+- <b>USA/Canada</b>: Favors <b>applied engineering</b> (deployment, MLOps, product-facing ML); values cloud experience heavily
+- <b>Europe</b>: Skews toward <b>research depth</b> (Microsoft, Robin Radar) — publications, efficiency, novel architectures matter more; your EURECOM background is a direct asset here
+- <b>Asia</b>: Emphasizes <b>agentic AI, RAG pipelines, LangChain</b> (TE Connectivity Singapore); also more open to GenAI-focused profiles without strict research pedigree
+
+---
+
+<b>💡 Priority action:</b> Add a Docker-

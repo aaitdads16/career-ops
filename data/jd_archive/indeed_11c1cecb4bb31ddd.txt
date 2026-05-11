@@ -1,0 +1,36 @@
+**Hi, Future Homie!**
+
+
+At Homebase, you’ll join a team that’s bold, fast\-moving, and obsessed with helping small businesses thrive. We build with empathy, act with urgency, and take big swings that drive real\-world impact. Here, every Homie shows up to raise the bar, support one another, and celebrate wins as a team.
+
+
+We’re not just building an app—we’re building *unstoppable* teams. So what do you say, are you in?
+
+**This is a 3\-month summer internship (June 2026 –August 2026\) in San Francisco, California.**
+
+ **Your** ***Impact*** **Starts Here**
+
+
+We’re looking for an **AI Engineering Intern** who loves mapping real workflows, breaking down ambiguous problems, and shipping AI automations that directly improve how our internal teams operate. In this role, you’ll embed with partner teams, learn how their work gets done, and rapidly experiment with LLM\-powered solutions that drive measurable impact.
+
+
+This internship is a fit if you’re excited about AI\-first engineering, fast iteration, and operating at the front lines of the business. You’ll help build the playbooks and tools that shape how Homebase adopts AI across the company.
+
+**These are the key ways you’ll contribute and create impact in this role:**
+
+* **Embed with internal teams** (e.g., Sales, Marketing, Support) to map workflows, surface pain points, and identify high\-leverage automation opportunities.
+* **Design, prototype, and ship AI\-powered automations end\-to\-end**, applying LLMs creatively to real business workflows in ambiguous, fast\-changing environments.
+* **Build full\-stack solutions**—from Python scripts and backend services to intuitive React interfaces—for internal teams to use in production.
+* **Operate like a product\-minded engineer:** run interviews, co\-design solutions, and iterate based on real\-world usage and feedback.
+* **Measure impact rigorously**—ship changes that move metrics like rep talk time, ticket deflection, adoption, and operational efficiency.
+* **Codify what works** by creating reusable templates, playbooks, and documentation for future engineers and partner teams.
+* **Experiment with AI tools** to accelerate your own workflows and demonstrate AI fluency in your daily work (a Homebase expectation for all roles).
+
+**The Foundation for Success \-** These are the experiences and strengths that will set you up for success in this role:
+
+* Curiosity and enthusiasm for **AI\-first engineering**, including hands\-on experimentation with LLMs, agents, or automation tooling.
+* Experience with **Python, JavaScript/TypeScript, or React**, whether through coursework, personal projects, hackathons, or open\-source contributions.
+* Comfortable navigating **ambiguity**, learning new systems quickly, and working directly with non\-technical stakeholders.
+* A product mindset—ability to break down problems, scope solutions, and iterate quickly based on user feedback.
+* Strong communication skills for pairing with business partners and demoing work.
+* **Abi
