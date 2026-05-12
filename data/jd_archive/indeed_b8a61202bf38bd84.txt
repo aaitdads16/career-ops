@@ -1,0 +1,49 @@
+The Opportunity
+  
+The Adobe Data Science team is looking for summer interns. The team applies AI and machine learning techniques to big customer data to address and challenge business problems, such as driving go\-to\-market strategies, sales prioritization, growing product engagement and customer service improvement.
+  
+As a Data Science Engineer Intern, you'll work on modern AI quality measurement, evaluation systems, and user analytics that directly influence how millions of Adobe customers interact with AI\-powered product assistants across Adobe Experience Platform (AEP).
+  
+  
+
+All 2026 Adobe interns will be co\-located hybrid. This means that interns will work between their assigned office and home. Interns will be based in the office where their manager and/or team are located, where they will get the most support to ensure collaboration and the best employee experience. Managers and their organization will determine the frequency they need to go into the office to meet priorities.
+  
+  
+
+What You’ll Do
+  
+Build and implement evaluation frameworks to measure AI Assistant quality across Quality metrics
+  
+Build automated evaluation pipelines using LLM\-as\-a\-judge systems and classical ML models
+  
+Analyze complex user interaction data to identify patterns in AI Assistant performance and failure modes
+  
+Extract and analyze user conversation data to understand customer journeys with AI assistants
+  
+  
+
+What You Need to Succeed
+  
+Currently enrolled full time and pursuing a Bachelor's or Master’s in Statistics, Mathematics, or Engineering is desired; or equivalent experience required with an expected graduation date of December 2026 – June 2027
+  
+Solid understanding of SQL and R/Python
+  
+Understanding of statistical modeling/machine learning/ data mining concepts, and a track record solving problems with these methods.
+  
+Ability to apply statistical/machine learning techniques such as hypothesis testing, time series forecasting, linear and logistic regression, random forests, etc.
+  
+Ability to participate in a full\-time internship between May\-September
+  
+About Adobe
+  
+Adobe empowers everyone to create through innovative platforms and tools that unleash creativity, productivity and personalized customer experiences. Adobe’s industry\-leading offerings including Adobe Acrobat Studio, Adobe Express, Adobe Firefly, Creative Cloud, Adobe Experience Platform, Adobe Experience Manager, and GenStudio enable people and businesses to turn ideas into impact, powered by AI and driven by human ingenuity.
+  
+  
+
+Our 30,000\+ employees worldwide are creating the future and raising the bar as we drive the next decade of growth. We’re on a mission to hire the very best and believe in creating a company culture where all employees are empowered to make an impact. At Adobe, we believe that great ideas can come from anywhere in the organization. The next big idea could be yours.
+  
+  
+
+Let’s Adobe together
+  
+At Adobe, we believe in creating a compa
