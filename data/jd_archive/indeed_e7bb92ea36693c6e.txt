@@ -1,0 +1,41 @@
+Combineer technologie en innovatie en maak positieve impact op de wereld! Onze oplossingen helpen voedselverspilling te verminderen, productieketens duurzamer te maken en de kwaliteit van voedsel en planten te verhogen. Zo dragen we bij aan een gezondere en efficiëntere wereld. Sluit jij je aan bij ons team en help je mee het verschil te maken? Bij Viscon Group zijn we op zoek naar een:
+
+  
+
+Een klant komt met een duidelijke vraag: kan ons systeem onderscheid maken tussen rijp en onrijp fruit of zelfs rotte exemplaren detecteren, voordat het verpakt wordt? Jij stapt in de auto, laptop in de tas, richting productielocatie. Daar observeer je de lijn. Hoe ligt het fruit op de band? Hoe moet je belichten, kunnen we de juiste data verzamelen? Camera positioneren, belichting afstellen, eerste beelden schieten. Binnen no\-time staat er een kleine testomgeving waar jij data verzamelt. Ruwe beelden, maar waardevol.
+
+
+
+Op kantoor duik je in de beelden. Je zoekt patronen, afwijkingen, bruikbare kenmerken. Je stelt niet alleen vast *wat* zichtbaar moet zijn, maar ook *hoe* het visionmodel daarop moet kunnen reageren. Misschien ontwikkel je een eenvoudige pre\-analyse, of overleg je met een collega over de keuze tussen een traditioneel algoritme of een neuraal netwerk.
+
+
+
+Uiteindelijk lever je niet alleen beelddata of een stukje techniek, je selecteert de camera’s en lenzen en je configureert de belichting zoals vereist door het project. Technisch inzicht en kennis kan jij vertalen naar gerealiseerde, praktische oplossingen.
+
+  
+
+
+### **Wat ga je doen?**
+
+
+
+Als **Vision Engineer** speel je een sleutelrol in het ontwerpen, analyseren en implementeren van industriële vision\-oplossingen binnen geautomatiseerde systemen. Je bent verantwoordelijk voor het volledige traject: van probleemanalyse en het selecteren van geschikte camera’s, lenzen en verlichting, tot het verzamelen en analyseren van beeldmateriaal en het opstellen van duidelijke eisen voor algoritmeontwikkeling.
+
+
+
+Je combineert een technische en wetenschappelijke aanpak met een goed gevoel voor praktische toepasbaarheid. Je werkt nauw samen met onze software developers, system engineers en projectteams om ervoor te zorgen dat de visionoplossing robuust, herhaalbaar en goed te integreren is.
+
+
+
+Denk aan projecten zoals bovenstaande, een eierinspectiesysteem dat afwijkingen herkent voordat het ei de volgende productiefase ingaat, of een cameraopstelling die plantjes scant op groei en gezondheid. Je combineert je kennis van algoritmen met praktische inzichten om het optimale resultaat te bereiken.
+
+  
+
+
+### **Jouw verantwoordelijkheden**
+
+
+* Opstellen van functionele en technische requirements voor vision\-systemen.
+* Plannen en uitvoeren van beeldacquisities (zowel intern als op locatie), inclusief opstelling en parametrisering.
+* Analyseren van ruwe beelddata en evalueren van algoritmische aanpakken in samenwerking met vision developers.
+* Documenteren van waarnemingen, keuzes en systeemparameters in g

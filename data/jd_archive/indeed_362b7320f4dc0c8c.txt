@@ -1,0 +1,38 @@
+Quadric has created an innovative general purpose neural processing unit (GPNPU) architecture. Quadric's co\-optimized software and hardware is targeted to run neural network (NN) inference workloads in a wide variety of edge and endpoint devices, ranging from battery operated smart\-sensor systems to high\-performance automotive or autonomous vehicle systems. Unlike other NPUs or neural network accelerators in the industry today that can only accelerate a portion of a machine learning graph, the Quadric GPNPU executes both NN graph code and conventional C\+\+ DSP and control code.  
+
+  
+
+**Role:**  
+
+You will join the data science team for internship focused on model optimization for Quadric's custom GPNPU architecture. Working alongside a senior data scientist mentor, you will contribute to quantization library and/or numerical accuracy testing/debugging infrastructure.
+
+ **Responsibilities:**
+
+* Run and contribute to new quantization workflows on vision and language models under mentor guidance.
+* Build calibration datasets and tooling to visualize per\-layer error and distribution statistics for debugging.
+* Contribute to numerical accuracy testing infrastructure, numerical validation debug tooling of neural networks, and quantization library.
+
+ **Requirements**  
+
+* Currently pursuing or recently graduated with a B.S., M.S., or Ph.D. in CS, EE, Applied Math, or a related field.
+* Solid Python skills and comfort with PyTorch (or TensorFlow), NumPy, and basic data\-viz tools (Matplotlib/Plotly).
+* Coursework or project experience in machine learning; familiarity with CNNs and/or Transformers.
+* Curiosity about quantization, numerical representation, fixed\-point arithmetic, or low\-level performance.
+* Ability to read a research paper and discuss the core ideas.
+* Bonus: prior exposure to quantization, model compression, or any of PyTorch FX/PTQ/QAT, TF\-Lite, ONNX\-Runtime, TVM, or MLIR Quant.
+* Bonus: any hands\-on experience with embedded systems, DSPs, GPUs, or other accelerators.
+
+  
+
+**Benefits**  
+
+At Quadric, we value Integrity, Humility, and Happiness. What we expect from one another is simple and clear: Initiative, Collaboration, and Completion. We are a collaborative team focused on building something extraordinary in the edge computing space.
+
+
+The hourly rate for this temporary internship position is $45\.00/hour to $60\.00/hour. The actual rate offered will depend on a number of factors, including the specific level of the role, years and depth of relevant experience and education, technical skills and competencies, and work location.
+
+
+Quadric interns receive hands\-on experience working alongside industry experts in AI and semiconductor technology, with access to mentorship and meaningful project ownership from day one.
+
+
+Founded in 2016 and based in downtown Burlingame, California, Quadric is building the world’s first supercomputer designed for the real\-time needs of edge devices. Quadric aims to empower developers in every

@@ -1,0 +1,39 @@
+**About the Role**  
+
+  
+
+imagine this. You are building the next generation of autonomous flight intelligence, transforming how drones are operated in high pressure environments where speed, precision, and decision making matter most. As an AI Engineering Intern, you will work at the intersection of artificial intelligence, robotics, and edge computing, developing systems that allow operators to control FPV drones through natural language commands. This is not about theoretical research sitting in a lab. This is hands on engineering with real world impact, pushing autonomous systems into the future of aerospace and defense.
+
+
+At Destinus, we are revolutionizing the defense industry with cutting\-edge Unmanned Aerial Vehicles UAVs. Our innovative technologies are designed to meet the unique demands of modern defense operations, delivering unparalleled speed, precision, and cost effectiveness. Destinus partners with government agencies and defense organizations worldwide to provide advanced solutions for mission\-critical operations, enabling a new era of efficiency and technological superiority. Join us in shaping the future of defense with groundbreaking aerospace innovations.
+
+ **What You’ll Do**
+
+* Develop and optimize low latency AI pipelines that convert voice commands into real time drone actions on edge computing hardware
+* Benchmark and adapt Vision Language Action models for autonomous flight applications and FPV drone control
+* Build software interfaces connecting edge compute systems with FPV control links and drone communication protocols
+* Curate and fine tune multimodal datasets combining voice instructions with visual FPV data, including noisy and tactical environments
+* Improve inference performance and reduce latency across the full Voice to Action command loop to support safe and responsive flight
+* Collaborate with AI engineers, robotics specialists, and aerospace teams to rapidly prototype and test next generation autonomous capabilities
+* Work directly with cutting edge hardware platforms such as NVIDIA Jetson and embedded AI systems
+
+  
+
+**Requirements** **What You’ll Need**
+
+* Currently pursuing a Master’s or PhD in Computer Science, Robotics, Electrical Engineering, or a related field
+* Strong knowledge of machine learning frameworks such as PyTorch or JAX
+* Familiarity with Transformers, Large Language Models, or Vision Language Models
+* Hands on experience with Linux based embedded systems and edge AI hardware is highly valued
+* Understanding of drone flight stacks such as PX4 or ArduPilot and communication protocols like MAVLink is a plus
+* Strong problem solving skills with the ability to connect advanced AI concepts to real hardware applications
+Comfortable working in experimental environments where rapid iteration and creativity are essential  
+* 
+
+  
+
+**Who You Are**  
+
+  
+
+You are curious, hands on, and obsessed with making technology work beyond simulations and research papers. You enjoy solving problems that comb
