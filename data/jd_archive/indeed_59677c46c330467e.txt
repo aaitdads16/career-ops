@@ -1,0 +1,29 @@
+**Company Description**  
+
+Since its spin\-off in September 2025 AUMOVIO continues the business of the former Continental group sector Automotive as an independent company. The technology and electronics company offers a wide\-ranging portfolio that makes mobility safe, exciting, connected, and autonomous. This includes sensor solutions, displays, braking and comfort systems as well as comprehensive expertise in software, architecture platforms, and assistance systems for software\-defined vehicles. In the fiscal year 2024 the business areas, which now belong to AUMOVIO, generated sales of 19\.6 billion Euro. The company is headquartered in Frankfurt, Germany and has about 87\.000 employees in more than 100 locations worldwide.
+
+ **Job Description**  
+
+This internship focuses on Developing Efficient AI Models in Resource\-Constrained Environments, with exciting applications such as:  
+
+* Autonomous Driving \& Safety Systems – Contribute to AI\-powered self\-driving, assisted parking, and advanced safety features like emergency braking and fallback systems.
+* LLM\-based Interactive Cockpit Systems – Develop methods and applications to deploy lightweight Small Language Models on the edge for use\-cases such as car cabin controls, or automotive conversational assistants.
+
+Primary Goals:  
+
+* Develop efficient AI models for deployment in resource\-constrained automotive environments.
+* Explore and implement optimization methodologies for AI models intended for embedded devices and edge platforms.
+* Build, modify, benchmark, and improve AI models for real\-world automotive use cases, including autonomous driving, and intelligent cockpit applications.
+* Investigate methods for deploying lightweight Small Language Models on edge devices for use cases such as car cabin controls and automotive conversational assistants.
+* Evaluate the performance, efficiency, and deployment feasibility of developed AI models through testing, benchmarking, and comparison with existing approaches.
+* Document project findings, implementation details, evaluation results, and technical recommendations in a clear and comprehensible manner.
+  
+
+This internship provides an excellent opportunity for individuals passionate about Artificial Intelligence, Embedded AI, Computer Vision, Generative AI, NLP, and automotive applications. As part of the AI team in AUMOVIO Singapore, previously Continental Automotive, you will collaborate with AI experts in Singapore and across the globe, gain practical experience in real\-world AI deployment challenges, and contribute to AI solutions that support smarter, safer, and more autonomous vehicles.
+
+
+Activities:  
+
+* Research and analyze the latest AI advancements from top\-tier conferences, with a focus on efficient AI models, embedded AI, computer vision, generative AI, and NLP.
+* Benchmark, adapt, and improve state\-of\-the\-art AI methods for practical automotive use cases.
+* Develop, modify, or use existing AI models for resource\-constraine

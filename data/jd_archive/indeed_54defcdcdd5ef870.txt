@@ -1,0 +1,49 @@
+**Company Description**  
+
+Since its spin\-off in September 2025 AUMOVIO continues the business of the former Continental group sector Automotive as an independent company. The technology and electronics company offers a wide\-ranging portfolio that makes mobility safe, exciting, connected, and autonomous. This includes sensor solutions, displays, braking and comfort systems as well as comprehensive expertise in software, architecture platforms, and assistance systems for software\-defined vehicles. In the fiscal year 2024 the business areas, which now belong to AUMOVIO, generated sales of 19\.6 billion Euro. The company is headquartered in Frankfurt, Germany and has about 87\.000 employees in more than 100 locations worldwide.
+
+ **Job Description**  
+
+Join the AUMOVIO Robotics R\&D team in Singapore to help shape the future of humanoid robotics. We are currently expanding our technology portfolio by developing advanced software features for humanoid applications. As an intern, you will work at the forefront of robotics innovation, collaborating closely with our senior R\&D engineers to bring complex features from concept to reality.
+
+
+We offer three distinct project tracks. You will have the opportunity to specialize in one of the following areas based on your interests and expertise:  
+
+* Vision\-Language Model (VLM) Integration
+
+
+ Integrate VLMs for high\-level scene understanding and adaptive task planning.  
+
+ Develop pipelines to process sensor data and generate actionable commands for robotic sorting tasks.  
+
+* Simulation Environment Setup (NVIDIA Isaac Sim / Omniverse)
+
+
+ Construct and configure the digital twins of a mock\-up workspace using Isaac Sim or Omniverse.  
+
+ Configure physics properties, sensor modeling, and environment lighting conditions.  
+
+* Real\-to\-Sim using 3D Gaussian Splatting
+
+
+ Evaluate and implement state\-of\-the art open source solutions for 3D Gaussian Splatting.  
+
+ Build scene reconstruction pipeline from real\-world camera feeds using evaluated open source solution. **Qualifications**  
+
+a) Familiar with Python programming and the current landscape of frontier LLMs (open/closed source)  
+
+b) Experience with prompting (context engineering) and an understanding/intuition about strengths and weaknesses of current LLMs  
+
+c) Knowledge or experience in robotics or related fields like actuators, sensor perception(vision, lidar, etc).  
+
+d) Added advantage if familiar with ROS/ROS2, humanoid robotics, or navigation algorithms  
+
+e) Added advantage with knowledge in Docker  
+
+f) Willingness to learn, perform tasks and solve problems and  
+
+g) Good communication skills, fluent in English, both written and oral.
+
+ **Additional Information**  
+
+Ready to take your career to the next level? The future of mobility isn’t just anyone’s job. Make it yours! **Join AUMOVIO. Own What’s Next.**

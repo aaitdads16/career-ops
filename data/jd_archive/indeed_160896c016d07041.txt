@@ -1,0 +1,23 @@
+Ensign is hiring !
+
+**Key Responsibilities:**
+
+* Design and implement Agentic AI for Cyber Security
+* Assessment of AI Security for existing AIOps pipeline
+* Support team to optimise AI Models for deployment
+* Support the team in monitoring AI Models in Operations
+* Take part in any other activities or projects assigned
+
+ **Learning Outcomes:**
+
+* Working experience in Industry
+* Good understanding of how AI and how it can be applied in Cyber Security
+* Time management and communication skills in working environment
+* Skills in software development in AI model development, machine learning operations and workflows
+
+ **Qualifications/Requirements:**
+
+* Ability to do development using Python or C\+\+
+* Understanding of Machine Learning workflow
+* Ability to understand tools and frameworks such as LangChain, LangGraph, MCP Servers, Keras, PyTorch, Tensorflow used by AI Engineers
+* Good attitude towards learning

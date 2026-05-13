@@ -1,0 +1,22 @@
+**Job ID** 10149192 **Location** Zurich, Switzerland **Business** The Walt Disney Studios **Date posted** May 12, 2026
+#### **Job Summary:**
+
+
+We offer an interesting modern workplace close to the city center of Zurich, uncomplicated work atmosphere, and exciting tasks in an international environment with the latest technologies. Interns work under supervision of a senior researcher or artist, as a member of an existing group. Internship positions generally run 3 to 4 months full time in **Zurich, Switzerland**. The work language is English.
+
+**Responsibilities**
+
+* Research, develop, and implement concepts, modules, or capabilities in image, video, geometry, or motion processing.
+* Collaboration with and support of other engineers and researchers
+* Communication of research project agenda, projects, and results
+
+**Qualifications**
+
+* Bachelor's in computer science, preferably with an eye toward or in the process of obtaining a master’s or Ph.D.
+* Proven track record of achieving significant results.
+
+**Preferred Qualifications**
+
+* Demonstrated software engineering experience via an internship, work experience, coding competitions, or published papers.
+* Experience within machine learning (particularly deep learning), rendering, computer vision, image processing, numerical optimization, or real\-time game engines.
+* High levels of creativity and quick problem\-solving capabilities

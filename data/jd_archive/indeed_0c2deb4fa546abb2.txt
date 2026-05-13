@@ -1,0 +1,27 @@
+**Company Description**  
+
+The Bosch Research and Technology Center North America with offices in Sunnyvale, California, Pittsburgh, Pennsylvania, and Cambridge, Massachusetts is a part of the global Bosch Group (www.bosch.com), a company with over 70 billion euro revenue, 400,000 employees worldwide, a very diverse product portfolio, and a history spanning over 125 years. The Research and Technology Center North America (RTC\-NA) is dedicated to providing technologies and system solutions for various Bosch business fields, primarily in the field of artificial intelligence, energy technologies, internet technologies, circuit design, semiconductors and wireless, as well as advanced MEMS design.
+
+
+As a part of the global research, our AI research in Silicon Valley focuses on Foundation Models, Big Data Visual Analytics, Explainable AI (XAI), Natural Language Processing, Computer Vision \& Mixed Reality, Cloud Robotics, Data Science, AI System Engineering, Time\-series Analysis. We develop scalable, intelligent, and trustworthy AIoT solutions for Bosch products and services in application areas such as automated driving, advanced driver assistance systems (ADAS), robotics, smart manufacturing, enterprise AI, health care, smart home and building solutions.
+
+
+Originating from the AI research in Silicon Valley, our **Foundation Model Powered AI Enablers** group plays a pivotal role in shaping the future of industrial AI experiences for Bosch products and services. By fusing cutting\-edge machine learning, data analysis, and interactive visualization technologies, we research and develop scalable and transparent AI \& big data analytic solutions (e.g., audio, images, sensor logs) for a range of domains, including Industry 4\.0 (I4\.0\), IoT, autonomous driving, and connected vehicles. Our award\-winning team (IEEE VIS best paper \& best paper runner\-ups) actively collaborates with leading academic and industry groups to advance research ideas and disseminate findings in top AI conferences and journals, such as CVPR, ICCV, ICRA, ECCV, NeurIPS, ICLR, TVCG, SIGGRAPH.
+
+**We Are Bosch.**
+
+
+At Bosch, we shape the future by inventing high\-quality technologies and services that spark enthusiasm and enrich people’s lives. Our areas of activity are every bit as diverse as our outstanding Bosch teams around the world. Their creativity is the key to innovation through connected living, mobility, or industry.
+
+
+Let’s grow together, enjoy more, and inspire each other. **Work \#LikeABosch**
+
+* **Reinvent yourself:** At Bosch, you will evolve.
+* **Discover new directions:** At Bosch, you will find your place.
+* **Balance your life:** At Bosch, your job matches your lifestyle.
+* **Celebrate success:** At Bosch, we celebrate you.
+* **Be yourself:** At Bosch, we value values.
+* **Shape tomorrow:** At Bosch, you change lives.
+
+
+Do you want beneficial technologies being shaped your ideas? Whether in the areas of mobility solutions, consumer goods, industrial technology or
