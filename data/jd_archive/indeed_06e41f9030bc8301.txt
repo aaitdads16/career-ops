@@ -1,0 +1,39 @@
+**AI Engineering Summer Intern Stamford, CT****Position Overview**
+Information Services Group (ISG) is seeking a small group of highly capable technical interns to join our AI Acceleration Unit for an intensive summer build program focused on applied enterprise AI.
+This is not a research internship. Interns will work directly with ISG leadership and engineers to design and build production\-grade AI agents, automation tools, and analytics capabilities that support consulting delivery, benchmarking, financial modeling, and internal productivity.
+The program culminates in a formal executive demonstration of the solutions developed during the program. It is designed for students who want to ship real AI products, not just experiment with models.**Responsibilities**
+Interns will collaborate with ISG’s AI team to build real enterprise solutions, such as:
+
+* AI agents that automate consulting workflows
+* LLM\-powered research and benchmarking assistants
+* Data engineering pipelines supporting analytics and financial models
+* Automation tools that enhance internal productivity and delivery operations
+* Structured and unstructured data analysis using modern AI frameworks
+
+
+All projects will have defined problem statements, executive sponsors, and clear build objectives.
+
+
+This program is designed for students who want to ship real AI products, not just experiment with models.
+
+**Required Skillsets**
+
+* This summer internship will last 6\-8 weeks and requires reporting to the corporate office in Stamford, CT daily
+* Strong proficiency in Python
+* Experience using LLM APIs (OpenAI, Anthropic, etc.) and prompt engineering
+* Familiarity with cloud AI environments (Azure preferred)
+* Understanding of data engineering fundamentals including data cleaning, transformation, and pipelines
+* Ability to work with structured and unstructured datasets
+* Experience using Git / GitHub
+* Comfort working with modern AI development tools such as ChatGPT, Claude, Gemini, or Codex
+* Prior internship or project applying AI to real business problems
+* Experience building AI agents, automation workflows, or analytics tools
+* Exposure to ML frameworks or modern AI developer ecosystems
+* Prior internship or project applying AI to real business problems
+* Experience building AI agents, automation workflows, or analytics tools
+* Exposure to ML frameworks or modern AI developer ecosystems
+
+
+At ISG, we don’t just accept difference — we celebrate it, we support it, and we thrive on it for the benefit of our employees, our clients, and our communities. We are committed to building a team that represents a variety of backgrounds, perspectives, and skills. ISG is proud to be an equal opportunity workplace and we are committed to creating an inclusive environment for all employees. The more diverse and inclusive we are, the better our work will be.
+
+The duties and responsibilities described in this job description may not be a comprehensive list. Additional tasks may be assigned to the em

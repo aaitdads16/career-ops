@@ -1,0 +1,49 @@
+Drug development shouldn’t be guesswork, not when patients are waiting.
+
+  
+
+Pathos is building a next\-generation biotech with AI at the core. Not as a feature, but as the operating system for how medicines get developed. We believe most drugs don't fail because the science was wrong. They fail because they were tested in the wrong patients, with the wrong assumptions, in trials that couldn't answer the real question: who benefits, and why?
+
+  
+
+Pathos exists to change that. We're building the largest foundation model in oncology and pairing it with proprietary AI systems, deep oncology expertise, and 200\+ petabytes of multimodal data linked to patient outcomes so we can make development decisions with more precision, much earlier.
+
+  
+
+This is not theoretical. We're well\-capitalized, have the leadership to build a generational company, and operate in a way that most biotechs don't.
+
+ **How We Build**
+
+
+Pathos does not operate like a traditional biotech. There is no middle management. There are no layers of approval. The company is designed, from the ground up, around small teams of 2 to 4 subject matter experts who each command hundreds of AI agents to do the work that used to require dozens of people.
+
+  
+
+Everyone builds. Everyone ships. Every function at Pathos — from clinical execution to asset selection to the foundation model itself — runs on this model. Our product velocity delivers meaningful outcomes in hours instead of weeks. This is not a future aspiration. It is how we operate today.
+
+  
+
+The people who thrive here are operators: deep experts who can specify what needs to happen, orchestrate AI agents to execute at scale, and make high\-judgment calls that compound over time.
+
+ **About the role**
+
+
+We are hiring **Machine Learning Engineer Interns.** You will work alongside senior researchers and engineers on high\-impact projects spanning:
+
+* Hyper\-scale training \& inference infrastructure
+* Pre\-training \& Post\-training of multi\-modal foundational models
+* Knowledge Graph (KG) \& Retrieval Augmented Generation (RAG)
+* Evaluation of reasoning capabilities (logic, metric design, dataset curation)
+
+
+This role is ideal for candidates who want to operate at the intersection of **frontier machine learning** and **real\-world, high\-stakes research and production systems**.
+
+### **What You Will Do**
+
+
+Depending on your strengths and the team’s needs, you will:
+
+* Use Nsight to profile and analyze post\-training pipeline, identify process that dominates wall\-clock time (rollout GEMM vs KV cache I/O vs weight reloading vs reward compute)
+* Design and prototype an NCCL\-based weight broadcast path that streams updated LoRA (and, optionally, full base) weights directly into inference engine’s GPU memory
+* Improve hyper\-scale training throughput and efficiency by investigating sharding granularity, mixed\-precision policy, communication overlap, gradient bucketing, etc.
+* Deep dive into Mixture\-of\-Experts training strategies, study

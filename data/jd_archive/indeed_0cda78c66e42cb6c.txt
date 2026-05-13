@@ -1,0 +1,39 @@
+**THE COMPANY**
+
+
+LUDO ROBOTICS is dedicated to building general\-purpose robotic intelligence systems that are robust, adaptive, and capable of handling real\-world scenarios. We believe that data\-driven machine learning at massive scale is the key to unlocking these capabilities and enabling the widespread deployment of robots across society.
+
+
+We are a new startup headquartered in Bay Area, California, with an office in Seoul, Korea. Our team spans a wide range of backgrounds and experience, from new graduates to seasoned domain experts. What matters most to us is ownership, speed, and intellectual curiosity \- people who take responsibility, move fast, and enjoy thinking deeply about hard problems.
+
+
+We are supported by a highly advanced AI Center within KRAFTON, a leading global video game company best known for the genre\-defining worldwide success PUBG: Battlegrounds. KRAFTON has extensive experience building and operating large\-scale, data\-rich products, and we have secured investment from them. This gives us strong long\-term backing, deep technical partnership opportunities, and access to world\-class infrastructure and talent networks as we push robotic intelligence forward.
+
+
+We are looking for passionate builders who want to explore uncharted territory, take on difficult problems, and ship ambitious, industry\-shaping work. You will collaborate across diverse teams as we bring our technology from research into real\-world deployment.
+
+
+**THE OPPORTUNITY**
+
+
+We're looking for passionate and driven AI/ML Research Interns to join our team for a 8\-10\-week program at the forefront of physical AI and embodied intelligence. You'll work on meaningful, research\-driven projects at the intersection of machine learning, world modeling, and robotics — with real deliverables and the opportunity to make a genuine impact. All interns will start on or around June 22, 2026\.
+
+
+By the end of the program, you'll be expected to produce:
+
+
+* A working prototype or experimental system (e.g., a learned world model, simulation environment, or control pipeline)
+* A technical write\-up and presentation covering your approach, methodology, and results
+* A demonstration of how your system contributes to modeling, prediction, or control in a physical AI context
+
+**RESPONSIBILITIES**
+
+
+Project focus areas will be tailored to your skills and interests, and may include:
+
+
+* Developing and training world models that capture human behavior, social interaction dynamics, and physical environments
+* Building and refining simulation environments and digital twins for robot–human interaction, enabling scalable training and evaluation
+* Designing and integrating robot learning algorithms (e.g., reinforcement learning, imitation learning, generative modeling) that leverage world models for prediction and planning
+* Exploring closed\-loop systems where perception, prediction, and control are tightly coupled in real\-time robotic settings
+* Prototyping systems that combi

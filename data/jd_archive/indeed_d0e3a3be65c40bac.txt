@@ -1,0 +1,32 @@
+**About the role**  
+
+
+At Tesco, our Data Science team focuses on modelling complex business problems and deploying data products at scale. Our work extends across multiple areas including physical stores, online, finance, and supply chain.  
+
+
+The Data Science team works across several domains and problem types: forecasting, online, pricing, security, fulfilment, distribution, property, IoT and computer vision are just some. Our team members are encouraged to allocate working hours for learning and personal development every week and are provided with multiple learning resources and tools. Multiple academic collaborations enrich the team’s expertise; knowledge\-sharing events are held regularly. Furthermore, we offer a great work\-life balance, regular team days and a relaxed yet engaging culture.
+**You will be responsible for**  
+
+
+This is a hands\-on position where you will need to leverage your analytical mindset to find solutions to complex problems. As a Data Scientist, you will need to understand difficult business problems and prototype solutions with minimal support.  
+
+A core component of the role is applying, modifying and designing algorithms and mathematical models to solve business problems using big data architectures (Hadoop, Spark, Cloud). In this role, your primary modelling focus will be neural network\-based forecasting, with a strong emphasis on rigorous evaluation against robust baselines, careful validation, and scalable deployment.
+Our Data Scientists must be able to validate, document and present the modelling process and performance, as well as communicate complex solutions in a clear, understandable way to non\-experts.  
+
+Data Scientists are also responsible for promoting data science across Tesco and representing Tesco across the external Data Science community.  
+
+Finally, as a Data Scientist, you will be expected to drive innovation and take ownership of aspects of the project development, support the Lead Data Scientist and Product Manager in managing relationships with business stakeholders, and mentor and supervise junior team members and interns.  
+
+You will;  
+
+* Design and improve deep learning and related machine learning forecasting models for large\-scale retail time series.
+* Build robust training and backtesting pipelines (time\-aware CV, leakage controls, stability checks).
+* Apply best practices for productionisation (monitoring, retraining strategies, performance and cost considerations).
+* Collaborate closely with engineering, product, and business partners to ensure models are reliable, scalable, and deliver measurable business value.
+
+**You will need**  
+
+
+We are looking for ambitious individuals with a mix of statistics, programming skills and familiarity with time series analysis. A proven track record of designing and modifying advanced algorithms and applying them to large data sets is essential. Some project and stakeholder management experience is preferred.  
+
+An ideal candidate will have a s

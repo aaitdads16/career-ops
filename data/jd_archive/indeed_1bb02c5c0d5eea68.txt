@@ -1,0 +1,51 @@
+Uniphore is one of the largest B2B AI\-native companies—decades\-proven, built\-for\-scale and designed for the enterprise. The company drives business outcomes, across multiple industry verticals, and enables the largest global deployments.
+  
+
+  
+
+Uniphore infuses AI into every part of the enterprise that impacts the customer. We deliver the only multimodal architecture centered on customers that combines Generative AI, Knowledge AI, Emotion AI, workflow automation and a co\-pilot to guide you. We understand better than anyone how to capture voice, video and text and how to analyze all types of data.
+  
+
+  
+
+As AI becomes more powerful, every part of the enterprise that impacts the customer will be disrupted. We believe the future will run on the connective tissue between people, machines and data: all in the service of creating the most human processes and experiences for customers and employees.
+
+
+**Job Description:**  
+
+
+
+**About the role**
+------------------
+
+Uniphore's Agentic Process Discovery platform enables enterprises to automatically understand how their teams work — ingesting screen recordings, videos, and transcripts to map and codify business processes at scale. As an intern on this team, you'll contribute directly to next\-generation enhancements of this capability, working alongside AI researchers and product engineers on real, production\-grade challenges.
+
+
+**What you'll work on**
+-----------------------
+
+* Improve the platform's ability to ingest and interpret multi\-modal data sources — video, screen recordings, and audio transcripts — to produce richer process models.
+* Explore and prototype techniques for deeper process understanding, such as intent recognition, workflow segmentation, and procedural summarization.
+* Contribute to pipelines that translate discovered process knowledge into automation workflows and training data for small language models (SLMs).
+* Collaborate with product, data science, and automation engineering teams to ensure process artifacts are structured for maximum downstream utility.
+* Help define evaluation frameworks and quality benchmarks for process discovery outputs.
+What we're looking for
+
+
+* Currently pursuing a degree in Computer Science, AI/ML, Data Science, or a related field (BS, MS, or PhD).
+* Coursework or project experience with machine learning, NLP, computer vision, or multi\-modal systems.
+* Familiarity with Python and common ML frameworks (PyTorch, HuggingFace, etc.).
+* Exposure to LLMs, SLMs, or fine\-tuning workflows is a strong plus. **\+**
+* Interest in process mining, workflow analysis, or RPA concepts is a bonus. **\+**
+* Strong curiosity, collaborative mindset, and comfort working in a fast\-moving applied research environment.
+  
+
+  
+
+**Hiring Range** **:**
+
+$45 \- $68 \- for Primary Location of USA \- CA \- Palo Alto
+The specific rate will depend on the successful candidate's qualifications and prior experience.
+
+
+In addition to competitive base pay, this position also incl

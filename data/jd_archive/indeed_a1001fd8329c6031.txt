@@ -1,0 +1,37 @@
+**Company Description**  
+
+Since its spin\-off in September 2025 AUMOVIO continues the business of the former Continental group sector Automotive as an independent company. The technology and electronics company offers a wide\-ranging portfolio that makes mobility safe, exciting, connected, and autonomous. This includes sensor solutions, displays, braking and comfort systems as well as comprehensive expertise in software, architecture platforms, and assistance systems for software\-defined vehicles. In the fiscal year 2024 the business areas, which now belong to AUMOVIO, generated sales of 19\.6 billion Euro. The company is headquartered in Frankfurt, Germany and has about 87\.000 employees in more than 100 locations worldwide.
+
+ **Job Description**  
+
+We are seeking a highly motivated Embedded Resilient AI Engineer Intern to support the evaluation, optimization, and deployment of AI models on resource\-constrained embedded platforms, including FPGA\-based systems and state\-of\-the\-art microcontrollers (MCUs).  
+
+The intern will work at the intersection of AI performance evaluation, embedded system design, and hardware\-aware AI optimization, with a strong emphasis on robustness, efficiency, and deployability for automotive embedded use cases.
+
+  
+
+1\.Evaluate performance of common AI/ML models under embedded constraints (latency, memory, power, accuracy).  
+
+2\.Propose and implement embedded AI solutions suitable for FPGA or MCU platforms  
+
+3\.Deploy and benchmark AI inference on FPGA\-based systems and/or up\-to\-date MCUs.  
+
+4\.Analyze trade\-offs between different hardware platforms and optimization approaches.  
+
+5\.Document results and provide clear technical summaries.
+
+ **Qualifications**  
+
+1\. Bachelor’s in Electrical Engineering, Computer Engineering, Computer Science, or related field.  
+
+2\.Programming experience in C/C\+\+, Verilog/VHDL, Python is a plus.  
+
+3\.Basic knowledge of FPGA\-based AI acceleration  
+
+4\..Basic understanding of machine learning and embedded systems.  
+
+5\.trong analytical and documentation skills.
+
+ **Additional Information**  
+
+Ready to take your career to the next level? The future of mobility isn’t just anyone’s job. Make it yours! **Join AUMOVIO. Own What’s Next.**

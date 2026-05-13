@@ -1,0 +1,37 @@
+At Alpha and Omega Semiconductor (AOS), we design, develop and globally supply a broad range of power semiconductors, including a wide portfolio of Power MOSFET, IGBT, IPM, TVS, GaN/SiC, Power IC and Digital Power products. You will find our products in everyday applications including personal computers, graphic cards, gaming consoles, TVs, home appliances, smart phones, power tools, and more! At the center of our innovation is our people who bring passion, talent, and a collaborative atmosphere to our growing company. We offer an impressive benefit package and career development opportunities. If you are ready to take the next step in your career working with a team of passionate and talented people, then take a look at the job opportunity below to POWER your career!
+
+**Overview**  
+
+  
+
+Alpha and Omega Semiconductor (AOS) is exploring how artificial intelligence can enhance productivity and operational efficiency across a global semiconductor organization. We are early in this journey and intentionally taking a measured approach given the risks associated with data security, confidentiality, and AI model training.
+
+
+This internship is designed for someone who can help us answer a fundamental question: *Where should we start with AI\-and how do we do it responsibly?*
+
+**Duration:** Summer 2026, 10–12 weeks
+
+**Key Responsibilities**
+
+* Research practical AI use cases relevant to a semiconductor environment (e.g., Sales, HR, engineering workflows, manufacturing support, and corporate functions)
+* Analyze how peer companies and leading organizations are deploying AI tools while protecting confidential and proprietary information
+* Evaluate AI platforms (e.g., Anthropic, OpenAI, enterprise copilots) with a focus on data privacy, model training risk, and enterprise controls
+* Identify "low\-risk, high\-impact" opportunities for AI adoption within AOS
+* Develop guidelines and recommendations for safe and compliant use of AI, including guardrails around sensitive data
+* Liaise with external AI vendors/partners to understand capabilities, limitations, and security frameworks
+* Synthesize findings into clear, executive\-ready recommendations, including a proposed starting roadmap
+
+**Qualifications**
+
+* Currently pursuing a degree in Business, HR, Engineering, Data Science, or related field
+* Strong research and critical thinking skills; able to separate hype from practical application
+* Interest in AI with an appreciation for data privacy, security, and compliance considerations
+* Ability to communicate complex topics in a clear, business\-oriented way
+* Comfortable navigating ambiguity\-we are building the playbook as we go
+
+**What You'll Gain**
+
+* Hands\-on experience shaping how a global semiconductor company approaches AI adoption
+* Exposure to real\-world considerations around AI risk, governance, and data protection
+* Opportunity to interact with leading AI providers and influence early\-stage strategy
+* Visibility with senior leadership through pr

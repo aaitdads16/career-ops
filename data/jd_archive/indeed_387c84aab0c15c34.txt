@@ -1,0 +1,37 @@
+**About this position**
+-----------------------
+
+
+Do you want to contribute meaningfully to our AI research by applying Test\-Time Adaptation to help robots and drones tackle challenging situations more intelligently?
+
+
+Recently, a new paradigm emerged in the Machine Learning (ML) research field called Test\-Time Adaptation (TTA). TTA is a generically applicable technique to make pre\-trained ML models adapt to the situation or environment of a system during operations or test\-time. The direct impact of this research is that a autonomously driving vehicle with mud on its sensors would still detect obstacles on its path with an adaptive model where a non\-adaptive model would fail. The adaptation process happens continuously. A key challenge is to extract knowledge from the situation during test\-time without any semantic meaning supplied by humans..
+
+
+**What will be your role?**
+---------------------------
+
+
+The Test\-Time Adaptation concept has existed now for several years. In this time the state\-of\-the\-art has moved fast in different directions. One of those is the adaptation of a model on as little data as possible whilst optimizing for performance gain. Another direction is adaptation with little extra computational resources on cheap hardware. Stability of the adaptation process is another hotly researched direction. Stability guarantees are difficult to verify and controlling stability is a key challenge in TTA.
+
+
+The extraction of knowledge from raw data brings additional challenges, such as the optimal use of the available information, control and stability of the adaptation process and the optimal use of compute resources associated with these extra functionalities.
+
+
+In this assignment you will tackle one or more of these research directions and challenges in your applied research. You will work with state\-of\-the\-art ML techniques and implement and evaluate those in military\-relevant scenarios. The applications of your research are numerous and you can decide which to pick. We expect you to perform a critical analysis of the limitations of current methods and that you propose new, improved or extended methods to bring the TTA field one step further.
+
+
+Your thesis project will be part of the Collaborative Autonomous Systems department within TNO. This department is a dynamic and interdisciplinary team of approximately 35 experts working on advanced autonomy and AI solutions for ground, air and maritime systems. The department has strong expertise in mission autonomy, localization and navigation, situational awareness and robotics.
+
+
+**What we expect from you**
+---------------------------
+
+
+We are looking for a motivated master’s degree student with an interest in Machine Learning and Deep Learning for defence related applications. This position is a great fit for students who enjoy combining theoretical concepts with hands\-on experiments and applications.
+
+
+Requirements:
+
+
+* You are in the last phase of your master’s degree in

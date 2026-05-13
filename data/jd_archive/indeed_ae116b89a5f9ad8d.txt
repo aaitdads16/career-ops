@@ -1,0 +1,47 @@
+**About Flexion:**
+
+
+At Flexion, we’re building the intelligence layer powering the next generation of humanoid robots. Our mission is to accelerate the transition from fragile prototypes to real\-world humanoid deployment. We are founded by leading scientists in robot reinforcement learning (ex\-Nvidia, ex\-ETH Zürich), and backed by leading international VC firms. In just months, we’ve gone from our first line of code to deploying real humanoid capabilities.  
+
+  
+
+Fifty of the world's best robotics researchers are already building the future at Flexion's headquarters in Zurich. Among them are Nikita Rudin, David Hoeller, Julian Nubert, and Korrawe Karunratanakul \- scientists who have redefined what humanoid robots can do. Now we are building their counterpart team in the United States, in San Francisco.
+
+**The Role:**
+
+
+If you are among the most capable and ambitious early\-career robotics researchers, someone who has stared at the limits of what robots can do today and decided that simply wasn't good enough, we want to hear from you.
+
+
+You will join Flexion's US research team as an intern, take on research problems that matter most, and deploy real solutions on real hardware. You will work directly with a world\-class team across two continents on challenges that have no published answers yet. This internship is designed to give exceptional graduate researchers the opportunity to do their highest\-impact work in a fast\-moving industrial research environment, with a clear path to a full\-time Research Scientist role following the internship.
+
+ **Requirements** **Must\-haves:**
+
+* Ongoing PhD in Robotics, Machine Learning, or a closely related field, or a recently completed Master's degree with exceptional research output
+* Demonstrated experience deploying learning\-based controllers on real robotic hardware, or strong research signal that you can do so quickly
+
+**Strong working knowledge in:**
+
+* Reinforcement learning
+* Physics\-based simulation (Isaac Gym/Lab, MuJoCo, or equivalent)
+* Python and PyTorch, including training neural networks at scale
+
+**Knowledge in at least two of the following:**
+
+* Diffusion models
+* Flow matching
+* Dexterous manipulation
+* Sim\-to\-real transfer and real\-to\-sim calibration
+* Whole\-body control and loco\-manipulation
+* Synthetic data generation for robot learning
+* Vision Language Model Fine\-Tuning (SFT and RL\-based)
+* Transformer\-based 3D Scene Understanding
+
+  
+
+**Benefits**  
+
+* Competitive compensation package
+* A front\-row seat at one of the world’s most ambitious robotics companies
+* An energetic, collaborative team with a relentless bias for action
+* The opportunity to build something no one has ever done in this field \- alongside the world’s leading researchers
