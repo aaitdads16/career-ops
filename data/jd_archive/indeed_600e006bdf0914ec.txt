@@ -1,0 +1,55 @@
+**Responsabilidades e atribuições**  
+
+**O que te espera no dia a dia:**
+---------------------------------
+
+* Coordenar uma equipe técnica de líderes técnicos, funcionais e desenvolvedores, interagindo com a área de negócios para prestar as melhores soluções para atendimento dos clientes internos e externos.
+* Interagir e reportar o andamento de atividades de área, tanto na questão de gestão de pessoas, como sistemas, para a gerência/diretoria.
+* Atuar na gestão de equipe de pessoas, nas competências de recursos humanos, avaliando necessidades, desempenho, ajudando na evolução das competências, avaliações, feedbacks, recrutamento, etc.
+* Acompanhar o bom andamento das atividades pessoas, atuando na programação das atividades, férias, “apontamento de horas”, etc.
+* Ser responsável por atuar nas decisões e orientações técnicas estruturantes da área de sistemas.
+* Acompanhar a elaboração e execução de projetos de sistemas, garantindo o atingimento dos objetivos determinados pela companhia.
+* Orientar os profissionais sobre práticas e demais direcionais da companhia.
+* Acompanhar e garantir, junto com a equipe da produção, o correto funcionamento dos sistemas de TI, prestando suporte n3\.
+
+ **Requisitos e qualificações**  
+
+#### **Buscamos alguém que:**
+
+* Pensa e age a partir das perspectivas dos clientes. Demonstra interesse e curiosidade de conhecer os clientes, seus comportamentos e preferências para atender e superar suas expectativas;
+* Demonstra compromisso permanente em aprender, ensinar e desenvolver, contribuindo para um ambiente descontraído, respeitoso e colaborativo, incentivando a diversidade;
+* É flexível para se desprender de paradigmas e modelos mentais existentes. Busca soluções inovadoras e sustentáveis, para criar vantagens competitivas para o negócio, equilibrando os interesses econômicos, ambientais e sociais.
+
+**Para fazer parte do nosso time, é essencial:**
+------------------------------------------------
+
+* Graduação Completa em Ciências da Computação e/ou áreas correlatas;
+* Inglês intermediário
+* Experiências/vivência nas tecnologias da SalesForce (React.js, Rest API, Aura, LWC, Visualforce, Triggers, Workflows, Process Builders, Lightning Web Components, Flow e APEX)
+* Conhecimento em SQL.
+* Conhecimento em sistemas distribuidos client\-servidor, cluster e principalmente sistema em Cloud (SaaS).
+* Conhecimento em análise funcional e técnica, no nível de arquitetura.
+* Conhecimento de projetos utilizando metodologia Agil e cascata.
+* Ter no mínimo 2 anos de experiência em coordenação/liderança de pessoa na área de TI.
+Ter experiência em sistemas atendimento (CRM).  
+* 
+
+  
+
+**É diferencial:**
+------------------
+
+* Certificação em Dev Salesforce.( Administrador/ Desenvolvedor)
+
+Ter trabalhado com Salesforce, mesmo que no nível de coordenação ou liderança.  
+* 
+
+  
+
+  
+
+  
+
+**Informações adicionais**  
+
+Na **Claro, pessoas é um dos nossos valores.** Com este pensamento, investimos sempre no cuidado com a saúde, bem\-estar e q

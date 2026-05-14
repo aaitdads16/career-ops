@@ -1,0 +1,44 @@
+Lambda, The Superintelligence Cloud, is a leader in AI cloud infrastructure serving tens of thousands of customers. Our customers range from AI researchers to enterprises and hyperscalers. Lambda's mission is to make compute as ubiquitous as electricity and give everyone the power of superintelligence. One person, one GPU.
+
+
+If you'd like to build the world's best AI cloud, join us.
+
+* Note: This position requires presence in our San Francisco office location 4 days per week; Lambda’s designated work from home day is currently Tuesday.
+
+  
+
+The Capital Markets \& Corporate Development (CMCD) team sits at the center of how Lambda funds and scales its infrastructure. We lead debt and equity capital raises, evaluate strategic transactions, and partner closely with executives, investors, and external advisors to execute high\-impact deals.
+
+
+As a CMCD Intern, you’ll build a centralized source of truth for market comparables across debt, equity, and M\&A transactions. This work directly informs live capital raises and strategic decisions. You’ll contribute to real transactions, develop investor\-grade materials, and gain exposure to senior stakeholders across the company and external partners.
+
+ **What You’ll Do**
+
+* Build and own consolidated databases for debt, equity and transaction comparables to support live deal execution
+* Evaluate and present potential M\&A targets, including preparing supporting financial analyses
+* Own deal\-level financial models including cash flow waterfalls, merger models and potential investment return models
+* Prepare board\-facing materials and analysis to support transaction decisions
+* Interface with lenders, bankers, advisors, strategic partners and founders
+
+**You**
+
+* Currently pursuing an MBA
+* Have prior investment banking experience or equivalent (e.g., corporate development, private equity, etc.)
+
+**Nice to Have**
+
+* Experience in TMT coverage, leveraged finance or M\&A
+* Experience executing debt and equity transactions for high\-growth and / or capital intensive industries
+
+**Salary Range Information**
+
+
+This is an hourly role, eligible for overtime. The hourly rate for this position has been set based on market data and other factors. However, an hourly rate higher or lower than this range may be appropriate for a candidate whose qualifications differ meaningfully from those listed in the job description.
+
+ **About Lambda**
+
+* Founded in 2012, with 500\+ employees, and growing fast
+* Our investors notably include TWG Global, US Innovative Technology Fund (USIT), Andra Capital, SGW, Andrej Karpathy, ARK Invest, Fincadia Advisors, G Squared, In\-Q\-Tel (IQT), KHK \& Partners, NVIDIA, Pegatron, Supermicro, Wistron, Wiwynn, Gradient Ventures, Mercato Partners, SVB, 1517, and Crescent Cove
+* We have research papers accepted at top machine learning and graphics conferences, including NeurIPS, ICCV, SIGGRAPH, and TOG
+* Our values are publicly available: https://lambda.ai/careers
+* We offer generous cash \& equity

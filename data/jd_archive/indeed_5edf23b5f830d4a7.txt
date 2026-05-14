@@ -1,0 +1,25 @@
+Overview:
+**About the Role \& Team**
+
+  
+
+IDC is seeking a summer intern to join the AI, Data, and Automation team and help develop original, high\-impact research on artificial intelligence and adjacent ADA topics. This is a hands\-on opportunity to study AI while also using AI as part of the research process through strong writing, analytical rigor, and practical experimentation with tools such as OpenAI Codex or Anthropic Claude Code. The intern will contribute across multiple research efforts as priorities evolve. The role includes testing ideas, building lightweight prototypes, analyzing data, and creating visualizations, but it also requires the foundational work behind strong research: source gathering, literature reviews, data cleanup, fact\-checking, quality control, and organizing findings into reusable research assets.**What You’ll Do**
+
+* Support multiple concurrent research efforts across the AI, Data, and Automation team, with topics shifting based on team priorities and the evolving research agenda.
+* Research important questions about artificial intelligence, data, and automation, including model capabilities, enterprise adoption, agentic workflows, developer tooling, and workflow transformation.
+* Use artificial intelligence\-assisted coding tools such as Codex or Claude Code to accelerate research tasks, build small prototypes, and help establish repeatable AI\-assisted research workflows.
+* Design and execute lightweight experiments, structured comparisons, literature reviews, and analyses that support distinctive points of view.
+* Analyze quantitative and qualitative data using Python, spreadsheets, or similar tools; create charts, graphics, or simple dashboards that strengthen published research.
+* Own foundational research support tasks such as source gathering, data cleaning, fact\-checking, quality assurance, and organizing notes, evidence, and working files.
+* Draft, edit, and refine memos, presentation materials, and publication\-ready research in collaboration with senior analysts on the AI, Data, and Automation team.
+* Background in business, economics, supply chain, or operations is a plus, particularly for research involving enterprise adoption, procurement workflows, or technoloty\-driven process transformation.
+
+ **Expected Deliverables**
+
+**By the end of the internship, the intern should produce:**
+
+* One or more draft research briefs, report sections, or bylined contributions supporting priority artificial intelligence, data, or automation topics across the ADA agenda.
+* A repeatable artificial intelligence\-assisted research workflow that uses tools such as Codex or Claude Code to support analysis and writing.
+* A small prototype, notebook, benchmark, or analytical artifact that tests a research question or supports a published argument.
+* A set of clear data visualizations, charts, or simple dashboards ready for use in research notes, client presentations, or briefings.
+* A short memo summarizing key findings,

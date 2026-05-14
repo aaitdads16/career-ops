@@ -1,0 +1,32 @@
+**Role Overview**
+
+To support the development of AI\-driven data analytics and sales tools that enhance distributor/dealer performance, improve project evaluation accuracy, and strengthen business development efforts within PWP.
+
+**Key Responsibilities**
+
+* Assist in developing and maintaining AI\-enabled sales analytics tools and dashboards
+* Support creation of ROI calculators, engine sizing models, and project feasibility tools
+* Analyze distributor/dealer sales data to identify trends, gaps, and improvement opportunities
+* Assist in economic analysis, project payback, and financial modeling
+* Support automation of reporting processes and internal data management
+
+**What We’re Looking For**
+
+✅ Currently pursuing a degree in **Data Science, Business Analytics, Statistics, Computer Science,** or related field.
+
+✅ Familiarity with Power BI and data visualization tools
+
+✅ Exposure to data processing, data visualization, or automation tools
+
+✅ Familiarity with AI\-assisted tools (e.g., data analytics platforms, Copilot, ChatGPT, or similar) is an advantage
+
+✅Strong interest in applying AI to business problems, especially in sales optimization, forecasting, and project evaluation
+
+✅Understanding of data structures, dashboards, and performance tracking metrics is a plus
+
+Job Type: Internship  
+Contract length: 6 months
+
+Pay: $1,000\.00 \- $1,500\.00 per month
+
+Work Location: In person

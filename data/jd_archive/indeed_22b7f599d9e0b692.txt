@@ -1,0 +1,37 @@
+**About Revspot**
+Revspot is building AI\-native revenue infrastructure for high\-ticket B2C businesses across real estate,
+fintech, edtech, wealth, and premium consumer brands.
+We combine proprietary consumer intelligence, AI\-led qualification, Voice AI, lead enrichment, and
+multi\-channel activation to help businesses generate and convert high\-intent customers faster. Our
+platform replaces fragmented GTM workflows with a unified AI\-powered revenue engine. **Role Overview**
+We’re looking for a Product Management Intern who wants to work at the intersection of AI, growth,
+data, and revenue systems.
+You’ll work directly with founders, engineers, GTM teams, and AI operators to help shape products
+that impact real customer outcomes. This is a hands\-on role with high ownership — ideal for
+someone who enjoys solving ambiguous problems, thinking structurally, and moving fast. **What You’ll Do*** Work closely with founders and product teams to define and prioritize product features
+* Translate customer problems into clear product requirements and workflows
+* Conduct user research, customer interviews, and competitive analysis
+* Write PRDs, feature specs, user stories, and product documentation
+* Analyze funnel metrics, product adoption, and operational workflows to identify bottlenecks
+* Coordinate across engineering, design, growth, and operations teams for execution
+* Support AI product experimentation across Voice AI, lead qualification, enrichment, and automation systems
+* Assist in shipping MVPs, internal tools, dashboards, and workflow automations
+* Track product performance and iterate based on user feedback and data
+
+
+Who You Are* Final\-year student or recent graduate from engineering, business, design, or related fields
+* Strong problem\-solving and analytical thinking skills
+* Curious about AI products, startups, growth systems, and automation
+* Comfortable working in fast\-paced, high\-ownership environments
+* Excellent communication and structured thinking
+* Ability to break down complex problems into simple workflows
+* Familiarity with tools like Notion, Excel/Sheets, Figma, Jira, Mixpanel, or SQL is a plus
+* Bonus: experience building side projects, startups, AI workflows, or product experiments
+
+
+What You’ll Gain* Direct exposure to building AI\-native B2C infrastructure products
+* Opportunity to work closely with founders and senior operators
+* Real ownership from Day 1 — not shadow work
+* Exposure to GTM systems, AI workflows, product strategy, and growth execution
+* Fast learning environment with rapid iteration cycles
+* Potential PPO/full\-time conversion for high performers

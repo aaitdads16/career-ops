@@ -1,0 +1,53 @@
+Geochemistry Research Scientist**San Francisco, CA (Mission District) · On\-site · Full\-time**
+
+
+About Thunderstone
+Thunderstone is a deep\-tech startup reinventing how the world accesses critical minerals. Traditional mining is excavation\-heavy, expensive, and environmentally destructive. We are developing new in\-situ mining methods using high\-voltage electrical stimulation to unlock metals with dramatically lower energy use, water consumption, and environmental impact.
+
+
+Our work sits at the intersection of geoscience, chemistry, and applied physics, with active laboratory programs focused on ore permeability, fluid flow, and electrically driven metal extraction.
+
+
+About the Role
+We are seeking a **Research Scientist (MS or PhD level)** to support hands\-on experimental development, data synthesis, and technical discussion across our core R\&D programs.
+
+
+This role is designed for an early\-career scientist who wants to work close to real experiments and physical systems — not a purely theoretical or managerial position. You will work directly with senior scientists and engineers, contributing to experimental execution, interpretation, and iteration in a fast\-moving applied R\&D environment.
+
+
+This is **not an intern or technician role**. You will have real ownership over experiments and a voice in technical decision\-making.
+
+
+What You’ll Do* Support the design, execution, and iteration of laboratory experiments related to:
+* + In\-situ metal recovery and leaching
+	+ Fluid flow through ore matrices
+	+ Electrical stimulation of geological materials
+	+ Materials and mineral characterization
+* Collect, process, and analyze experimental data (e.g. flow rates, electrical measurements, chemistry results).
+* Generate plots, summaries, and technical write\-ups to inform experimental direction.
+* Participate in troubleshooting and interpretation discussions to help guide next experiments.
+* Collaborate closely with engineers and scientists on experimental planning and system improvements.
+* Support technical documentation for internal reports, grants, and partner communications as needed.
+
+  
+
+**Requirements**  
+
+  
+
+What We’re Looking For**Required**
+
+* MS or PhD / equivalent in Geoscience, Geochemistry, Materials Science, Chemical Engineering, Physics, or a related field.
+* Hands\-on laboratory experience executing physical experiments.
+* Strong comfort working with experimental data and drawing conclusions from imperfect datasets.
+* Ability to reason across disciplines (chemistry, physics, geology).
+* Clear written and verbal technical communication skills.
+* Willingness to work primarily on\-site in a laboratory environment.
+* Self awareness, sense of humor, and overall good human :)
+
+**Nice to Have**
+
+* Experience with mineral processing, hydrometallurgy, electrochemistry, or porous media.
+* Familiarity with electrical measurements or experimental hardware.
+* Python, MATLAB, or similar tools for data analysis and visualization.
+Experience in

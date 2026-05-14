@@ -1,0 +1,48 @@
+**DESCRIPTION**
+---------------
+
+
+Are you passionate about innovation? Do you want to solve real customer problems through innovative technology? Do you enjoy working on scalable projects in a collaborative team environment? Do you want to see your solutions directly impact millions of customers worldwide?  
+
+  
+
+At Amazon, we hire the best minds in technology to innovate and build on behalf of our customers. Customer obsession is part of our company DNA, which has made us one of the world's most beloved brands.  
+
+  
+
+We're looking for curious minds who think big and want to define tomorrow's technology. At Amazon, you'll grow into the high\-impact contributor you know you can be, supported by a culture of learning and mentorship. Every day brings exciting new challenges and opportunities for personal growth.  
+
+  
+
+Do you want to write secure, stable, testable and maintainable code, as well as test it? Do you enjoy working on automation frameworks in a team environment?  
+
+  
+
+As an SDE\-T you can be expected to use coding knowledge to create automated test scripts. You will use this knowledge to both identify issues in the original software and in the testing scripts.  
+
+If this describes you, consider joining us as an intern in the fall of 2026\. Amazon interns have the opportunity to work alongside the industry’s brightest engineers who innovate every day on behalf of our customers. You will be matched to a manager and a mentor. You will have the opportunity to impact the evolution of Amazon technology as well as lead mission\-critical projects early in your career. Your work will contribute to solving some of the most complex technical challenges in the company.  
+
+  
+
+Amazon internships across all seasons are full\-time positions, and interns should expect to work in office, Monday\-Friday, up to 40 hours per week typically between 8am\-5pm. Specific team norms around working hours will be communicated by your manager. Interns should not have conflicts such as classes or other employment during the Amazon work\-day.  
+
+  
+
+Applicants should have a minimum of one quarter/semester/trimester remaining in their studies after their internship concludes.
+  
+
+  
+
+Key job responsibilities  
+
+* Collaborate with experienced cross\-disciplinary Amazonians to use technology to validate and verify software.
+* Invent, refine and develop solutions to help lead fundamental changes in the industry.
+* Build tools and automation frameworks that enable QA Engineers to easily automate tests.
+* Troubleshoot, research and resolve defects.
+* Create \& manage bug reports and communicate with the team.
+**BASIC QUALIFICATIONS**
+------------------------
+
+* Are 18 years of age or older
+* Are enrolled in a Bachelor's degree or above in Computer Science, Computer Engineering, Data Science, Information Systems, or related STEM fields
+* Experience with one or more general\-purpose programming languages such as Java, C/C\+\+, C\#, Objective C, Python, JavaScript, Ruby, or

@@ -1,0 +1,41 @@
+**Company Overview**
+====================
+
+
+Each year, 2\.5 trillion hours are spent on household chores. At Matic, we’re on a mission to recapture that lost time, and we’re doing it by revolutionizing home robotics.
+
+
+Our first product, also called Matic, is a Wall\-E\-esque floor cleaning robot. We've built what amounts to "full self\-driving in the home” with real\-time 3D mapping, adaptive path\-tracking, and a precise semantic understanding of the home. Our breakthroughs in spatial AI allow Matic to work reliably in real homes, using only RGB cameras and neural networks running on\-device.
+
+**Privacy First**
+-----------------
+
+
+What happens in the home, stays in the home. Our robots are private by design, with all data processing performed by the robot itself, not in the cloud.
+
+**Our Approach**
+----------------
+
+
+Before the iPhone, consumers adopted several distinct devices; cell phones, PDAs, and portable music players each served a particular need. We believe in a similar progression for home robotics, starting with single\-purpose robots and building iteratively toward more complex capabilities over time.
+
+**Our Culture**
+---------------
+
+
+Matic is a tight\-knit and collaborative team, singularly focused on building products our customers will cherish. We're ultra\-hardworking people committed to solving tough problems that save precious time and energy.
+
+**About the role**
+==================
+
+
+We’re looking for a Customer Support Intern with an analytical, innovative, and customer\-centric mindset. You will be responsible for delivering a three\-Michelin\-star exceptional customer experience to every single Matic customer. You’ll be the first point of contact for customer questions, bugs, feature requests, and issues. You will own the entire experience from the first email or customer ticket to resolution. This means diagnosing problems, collaborating with a cross\-functional team to find solutions, resolving them, and thinking through how to prevent these problems in the future for all customers. You must understand Matic robot products inside and out from a hardware \+ software \+ algorithms \+ app perspective. You’ll be troubleshooting real robots, collaborating with engineers, and helping us spot patterns that improve our product and processes. You will be the voice of the customer and support the innovation and design of a great customer service experience in an AI\-first world.
+
+
+This is designed to be a three\-month internship and is well\-suited for anyone early in their career hoping to hone their customer support, problem\-solving, technical troubleshooting, and communication skills.
+
+**What you’ll do**
+------------------
+
+* Support customers end\-to\-end—from first response to resolution—escalating complex issues to the right teams, keeping customers updated, and driving follow\-up until closure.
+* Ensure every customer issue assigned to you is acknowledged and fully resolved—no missed responses, no open threads left behind,

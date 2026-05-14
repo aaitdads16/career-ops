@@ -1,0 +1,30 @@
+Lambda, The Superintelligence Cloud, is a leader in AI cloud infrastructure serving tens of thousands of customers. Our customers range from AI researchers to enterprises and hyperscalers. Lambda's mission is to make compute as ubiquitous as electricity and give everyone the power of superintelligence. One person, one GPU.
+
+
+If you'd like to build the world's best AI cloud, join us.
+
+* Note: This position requires presence in our San Francisco office location 4 days per week; Lambda’s designated work from home day is currently Tuesday.
+ **About the Role**
+
+
+Lambda Security protects some of the world's most valuable digital assets: invaluable training data, model weights representing immense computational investments, and the sensitive inputs required to leverage best of breed AI models. We're responsible for securing every byte that powers breakthrough artificial intelligence.
+
+
+As a Software Engineering Intern on the Security team, you'll spend the summer shipping production security detections against Lambda's real log data: code that fires on real events and routes to a real on\-call team. This is not a sandbox project. The detections you build will be the first line of warning when something looks wrong in our environment.
+
+
+You'll work alongside a senior engineer mentor on code review, security concept training, and unblocking your work. Between those sessions, your primary partner is a frontier LLM: you'll use it to learn log schemas, reason through threat models, and accelerate your way through code you've never written before. We expect interns to drive their own learning and use AI tools fluently; the bar for what a great junior engineer can ship has changed, and this role is designed around that change.
+
+
+The work spans LLM\-based classifiers for sensitive data exposure, identity and access pattern detection, and the security infrastructure that everything else depends on. You and your mentor will pick the specific projects together, prioritizing where the data is richest and the business value is clearest.
+
+
+If you love writing code, are excited about working with AI tools to solve problems you couldn't solve alone, and find the idea of protecting AI infrastructure genuinely interesting \- even if you've never taken a security class \- we'd love to hear from you.
+
+
+We value diverse backgrounds, experiences, and skills, and we are excited to hear from candidates who can bring unique perspectives to our team. If you do not exactly meet this description but believe you may be a good fit, **please still apply** and help us understand your readiness for this role.
+
+**What You’ll Do**
+
+* Ship real production detections you develop against Lambda's real log data over the course of the summer, chosen with your mentor from a menu of high\-value security gaps.
+* Use frontier LLMs as your primary partner for learning unfamiliar codebases, reading log schemas, reasoning through threat models, and accelerating your output as a working software engi

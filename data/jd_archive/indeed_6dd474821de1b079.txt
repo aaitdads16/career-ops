@@ -1,0 +1,41 @@
+* DATA
+BARCELONA
+**DATA****SCIENCE****INTERN**
+-----------------------------
+
+
+#### **YOU ARE**
+
+
+* You are a Python\-first, statistics\-strong individual.
+* You possess the autonomy and speed to self\-direct and ship working code without step\-by\-step guidance.
+* You are capable of explaining complex modeling choices in plain language with actionable conclusions.
+* You are currently a student at a university in Spain able to sign a “convenio de prácticas”.
+#### **YOUR MISSION**
+
+
+* Partner with Data Analysts to solve complex problems such as probabilistic LTV, churn prediction, and forecasting.
+* Build, compare, and iterate LTV models (e.g., survival/retention\-based, GBMs) to produce calibrated predictions for UA and pricing.
+* Predict churn windows and retention curves by app/geo/cohort to inform payback and creative strategies.
+* Translate model outputs into conversion signals for Google and Meta optimization.
+* Pull and transform event and purchase data from BigQuery, RevenueCat, and AppsFlyer into model\-ready datasets.
+* Evaluate A/B tests and pricing experiments using frequentist or Bayesian methods
+#### **YOUR SKILLS**
+
+
+* **Core Technical:** Strong hands\-on experience with Python (pandas, NumPy, scikit\-learn, Jupyter).
+* **Theoretical:** Solid understanding of probability, hypothesis testing, regression, classification, and model calibration.
+* **Evidence:** Ability to show at least one end\-to\-end model (academic or personal project).
+* **Nice\-to\-have:** Experience with Bayesian modeling (PyMC/Stan), survival analysis, gradient boosting (XGBoost/LightGBM), and SQL/BigQuery.
+
+  
+
+
+#### **WE OFFER YOU**
+
+
+* **Remuneration:** A remunerated full\-time position providing real ownership and impact.
+* **Flexibility:** Flexible working hours, 25 days annual leave, and 1 month of ‘work from anywhere’ outside of Spain.
+* **Workspace:** Private office at Norrsken House and a **€5,000 budget** for professional home\-office equipment.
+* **Wellness:** Option for a high\-end gym membership (innerflow.es) and healthy in\-office catering starting at €2\-€3\.
+* **Career:** Tailored career plan with performance reviews and salary calibrations every 6 months.

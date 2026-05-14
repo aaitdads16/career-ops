@@ -1,0 +1,30 @@
+### **Company Description**
+
+
+**Join us and make YOUR mark on the World!**
+
+
+Lawrence Livermore National Laboratory (LLNL) has turned bold ideas into world\-changing impact advancing science and technology to strengthen U.S. security and promote global stability.
+
+
+Our mission spans four critical national security areas nuclear deterrence, threat preparedness, energy security, and multi\-domain defense empowering teams to take on the toughest challenges of today and tomorrow. With a culture built on innovation and operational excellence, LLNL is a place where your expertise can make a real impact.
+
+
+### **Job Description**
+
+
+We have an opening for a **Mechanical Engineer** to support the Advanced Sources and Detectors (ASD) Scorpius program, a first\-of\-a\-kind linear accelerator advancing national security science. ASD Scorpius is being executed on behalf of the Department of Energy (DOE) National Nuclear Security Administration (NNSA) through a multi\-institution collaboration involving Lawrence Livermore National Laboratory (LLNL), Los Alamos National Laboratory (LANL), and the Nevada National Security Site (NNSS).You will contribute to the design, development, and assembly of mechanical systems supporting high\-energy pulsed power and accelerator technologies. This includes supporting the development and integration of solid\-state pulsed power (SSPP) subsystems, as well as high\-voltage infrastructure and diagnostic systems critical to accelerator performance. You will perform hands\-on engineering across the full lifecycle—from concept development and detailed design through fabrication, assembly, integration, and testing. You will work closely with multidisciplinary teams across institutions to develop robust hardware solutions and support system integration efforts, contributing to the successful delivery of a complex, first\-of\-its\-kind national security capability. This position is in the National Security Engineering Division (NSED), within the Engineering Directorate.
+
+*This position requires full\-time on\-site presence due to the nature of the work.*
+
+
+This position will be filled at either level based on knowledge and related experience as assessed by the hiring team. Additional responsibilities will be assigned if hired at the higher level.
+
+**In this role, you will**
+
+* Design, develop, and support fabrication of mechanical components and assemblies for pulsed power and linear accelerator systems.
+* Support assembly and integration of high\-voltage subsystems, including cable routing, structural supports, and diagnostic hardware.
+* Develop and refine mechanical designs for oil\-filled systems, manifolds, and insulating structures used in high\-voltage environments.
+* Conduct basic engineering analyses (e.g., structural, thermal, or FEA) to inform design decisions and improve system reliability.
+* Collaborate with multidisciplinary teams to integrate mechanical systems with electrical, diagnostic, and control subsystems.
+* Supp

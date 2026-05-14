@@ -1,0 +1,88 @@
+**Engenheiro(a) de Automação com IA (Backend \+ AI Builder)**
+
+
+Profissional híbrido responsável por mapear, desenhar e implementar automações de processos internos do time de tecnologia usando IA, atuando ponta a ponta, desde a descoberta do problema com stakeholders até a entrega em produção e sustentação. Deve ter base sólida de backend para transitar em demandas correlatas do time (integrações, APIs, manutenção de serviços) quando necessário.
+
+
+Responsabilidades principais
+
+
+O profissional vai atuar em três frentes que se complementam. Na frente de descoberta e mapeamento, conduz entrevistas com áreas demandantes, mapeia processos atuais (AS\-IS), identifica gargalos automatizáveis, avalia viabilidade técnica e ROI, e prioriza oportunidades junto à liderança. Na frente de desenho e implementação, desenha a arquitetura da solução (escolhendo entre LLM, RPA, workflow tradicional ou combinação), prototipa rapidamente, implementa de ponta a ponta, incluindo integrações, prompts, guardrails, observabilidade, e leva pra produção com testes e documentação. Na frente de sustentação e evolução, monitora qualidade das automações em produção (acurácia, custo de tokens, latência), itera com base em feedback, e contribui em demandas gerais de backend do time quando a fila de automação estiver vazia.
+
+**Stack e conhecimentos técnicos**
+
+
+Backend (obrigatório)
+
+
+Linguagem principal: Python ou Node.js/TypeScript e conhecimento sólido em backend com .NET (C\#)
+
+
+APIs REST: design, consumo, autenticação (OAuth2, JWT, API keys), versionamento
+
+
+Bancos de dados: SQL (PostgreSQL/SQL Server) e noções de NoSQL/vetoriais (Pinecone, Qdrant, pgvector)
+
+
+Mensageria e filas: RabbitMQ, Kafka ou similares (importante pra automações assíncronas)
+
+
+Containers: Docker e noções de Kubernetes
+
+
+Git, CI/CD (GitHub Actions, Azure DevOps, GitLab CI)
+
+**IA aplicada (obrigatório)**
+
+
+Uso de APIs de LLMs (Anthropic Claude, OpenAI, Gemini), não precisa treinar modelos, mas precisa saber consumir bem
+
+
+Prompt engineering estruturado (não no nível de "truques", mas de design de prompts confiáveis e testáveis)
+
+
+RAG (Retrieval\-Augmented Generation): indexação, chunking, embeddings, busca semântica
+
+
+Function calling / tool use / agentes
+
+
+MCP (Model Context Protocol)
+
+
+Avaliação de outputs: como medir qualidade, criar suítes de teste, detectar regressões
+
+
+Guardrails: validação de saída, fallbacks, controle de custo
+
+
+Plataformas de automação (desejável)
+
+
+n8n, Make, Zapier, Power Automate, pra resolver rápido o que não exige código custom
+
+
+Ferramentas de orquestração: LangChain, LlamaIndex, Semantic Kernel (com cautela, saber quando NÃO usar também)
+
+**Soft skills críticas**
+
+
+Capacidade de conversar com áreas de negócio e traduzir necessidade em solução
+
+
+Documentação técnica clara
+
+
+Pragmatismo: saber quando IA é a resposta e quando uma regra simples resolve melhor
+
+
+  
+
+Escolaridade Mínima: Ensino Superior
+
+
+  
+
+* Ajuda de custo
+* Beneficio corporativo de Viagens
+* Clube de Vantan

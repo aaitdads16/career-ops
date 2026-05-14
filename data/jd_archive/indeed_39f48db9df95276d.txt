@@ -1,0 +1,38 @@
+**Overview**  
+
+The Future AI Infrastructure team at Microsoft Research Cambridge (UK) is pioneering scalable, energy\-efficient optical technologies to redefine the future of data centre infrastructure. We’re looking for a talented, curious and motivated PhD student to join our multidisciplinary and highly collaborative team for a research internship starting in summer 2026\. In this role, you will design and explore novel light source concepts for next\-generation optical transmitters. You will tackle real\-world technical challenges, pushing the boundaries of current technology to deliver transformative solutions for AI\-scale systems.
+
+* **Location: Cambridge, UK**
+* **Duration: 12 Weeks**
+
+ **Responsibilities**  
+
+* Research novel technologies for light sources.
+* Design and simulation of novel light sources.
+* Lab\-based experimental evaluation.
+* Documenting and presenting your findings in technical documents and presentations.
+
+  
+
+**Qualifications** **Required/Minimum Qualifications:**
+
+* Be enrolled in a PhD program in Photonics, Physics, Electronic Engineering, or related discipline.
+* Knowledge of the physics of semiconductor photonics devices.
+* Experience with integrated photonics design and simulation.
+* Experience with characterization of photonics devices in an optical lab.
+* Interns are expected to be physically located in Cambridge, UK.
+
+**Preferred/Additional Qualifications:**
+
+* Experience with optical device simulation tools (e.g. Ansys Lumerical, RSoft, MEEP, Tidy3D, TCAD).
+* Familiarity with free\-space optics
+
+  
+
+  
+
+This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled.
+
+  
+
+Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process**.**

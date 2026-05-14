@@ -1,0 +1,49 @@
+We are UMG, the Universal Music Group. We are the world’s leading music company. In everything we do, we are committed to artistry, innovation and entrepreneurship. We identify and develop recording artists and songwriters, and we produce, distribute and promote the most critically acclaimed and commercially successful music to delight and entertain fans around the world.
+
+
+We are in search of a **Data Scientist** **I**ntern (6 months duration) from Jun to Dec'26 based in Singapore.
+
+**What You’ll Do:**
+
+**Trend Analysis**
+
+
+Develop machine learning models to forecast trends on a recurring basis (annually or quarterly, depending on market dynamics and data velocity).
+
+**Content Tagging at Scale**
+
+
+Enable systematic identification of new content patterns and cultural signals at scale.
+
+**Performance \& Decay Modeling**
+
+
+Develop predictive models to estimate the long\-term performance and decay rate of based on historical consumption data.
+
+**What You Bring:**
+
+* Interest in music or entertainment industry
+* Currently pursuing a degree in Data Science, Computer Engineering, Computer Science, AI, Statistics, Mathematics, Engineering, or related fields
+* Strong programming skills in Python, SQL or R for data analysis
+* Familiarity with machine learning concepts and libraries (eg. NumPy, Pandas, scikit\-learn)
+* Understanding of data visualization tools (e.g. Matplotlib, Seaborn, Tableau).
+* Strong analytical thinking and problem\-solving skills
+* Good communication and teamwork skills
+
+**Interested? Please follow the link to submit your application today!**  
+
+Note: Only shortlisted applicants will be contacted.
+
+ **About us:**
+
+
+Universal Music Group (UMG) is the world leader in music\-based entertainment, with a broad array of businesses engaged in recorded music, music publishing, merchandising and audiovisual content in more than 60 countries.
+
+
+Featuring the most comprehensive catalog of recordings and songs across every musical genre, UMG identifies and develops artists and produces and distributes the most critically acclaimed and commercially successful music in the world. Committed to artistry, innovation and entrepreneurship, UMG fosters the development of services, platforms and business models in order to broaden artistic and commercial opportunities for our artists and create new experiences for fans.
+
+
+UMG's catalog is marketed through two distinct divisions, Universal Music Enterprises (in the U.S.) and Universal Strategic Marketing (outside the U.S.). UMG also includes Universal Music Publishing Group, one of the industry's premier music publishing operations worldwide and Bravado, the leading provider of consumer, lifestyle and branding services to recording artists and entertainment brands around the world.
+
+**Job Category:**
+-----------------

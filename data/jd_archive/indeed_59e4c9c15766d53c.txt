@@ -1,0 +1,53 @@
+**Company Description**  
+
+Located in the San Francisco Bay Area, El Capitan Biosciences comprises a team of passionate, versatile, and seasoned professionals. Our team's extensive research and industry backgrounds enable us to stay at the forefront of innovation.
+
+
+At El Capitan Biosciences (ECB), our mission is to advance noninvasive diagnostics and monitoring by harnessing advanced machine learning algorithms and proprietary molecular methods to extract, quantify and interpret human RNA present in stool. By enabling whole transcriptome\-sequencing of human transcripts shed from gut and immune cell populations, we aim to discover clinically meaningful biomarkers that reflect mucosal integrity, presence of disease, inflammatory activity and broader gastrointestinal health. Our multiplex RNA\-based panels integrate signals across multiple pathways to deliver a comprehensive, actionable picture of disease biology, supporting improved diagnosis, monitoring, and overall understanding of gut health.
+
+
+Company website: https://elcapitanbio.com/
+
+
+Why Join Us
+
+* Opportunity to help shape the commercial direction of a novel platform technology
+* Direct impact on partnerships with leading pharma and diagnostics organizations
+* Collaborative, science\-driven startup environment
+
+  
+
+**Job Description** **Position Overview**
+
+
+We are seeking a highly motivated Bioinformatics Summer Intern to support the development of RNA\-seq data analysis pipelines and machine learning models for biomarker discovery and clinical diagnostics. This role is ideal for candidates interested in translational genomics, AI in healthcare, and next\-generation diagnostics.
+
+
+Schedule: 40hrs/week, 12 weeks
+
+
+Hourly rate: $35\-$42\.5/hr
+
+**Key Responsibilities**
+
+* Analyze RNA\-seq datasets, including preprocessing, QC, normalization, and differential expression analysis
+* Develop and optimize bioinformatics pipelines for transcriptomic data (bulk RNA\-seq and/or degraded RNA samples)
+* Apply machine learning and statistical methods to identify diagnostic or predictive biomarkers
+* Assist in building and evaluating predictive models, including deep learning approaches
+* Explore integration of large language models (LLMs) or multimodal AI approaches for biological data interpretation
+* Collaborate with wet\-lab scientists and cross\-functional teams to interpret results and refine experimental design
+* Present findings through reports, visualizations, and internal presentations
+
+  
+
+**Qualifications** **Basic Qualifications**
+
+* Current PhD student, recent PhD graduate, or postdoctoral researcher in Bioinformatics, Computational Biology, Biology, or a related field
+* Hands\-on experience with RNA\-seq data analysis
+* Strong programming skills in at least one language (e.g., R or Python)
+* Familiarity with Linux/Unix environments and proficiency in bash scripting
+* Formal training in statistics and machine learning
+
+**Preferred Qualifications**
+
+* Experience with machine learning fram

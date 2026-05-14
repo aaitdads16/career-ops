@@ -1,0 +1,39 @@
+Location: SINGAPORE, Singapore
+Thales is a global technology leader trusted by governments, institutions, and enterprises to tackle their most demanding challenges. From quantum applications and artificial intelligence to cybersecurity and 6G innovation, our solutions empower critical decisions rooted in human intelligence. Operating at the forefront of aerospace and space, cybersecurity and digital identity, we’re driven by a mission to build a future we can all trust.
+
+
+In Singapore, Thales has been a trusted partner since 1973, originally focused on aerospace activities in the Asia\-Pacific region. With 2,000 employees across three local sites, we deliver cutting\-edge solutions across aerospace (including air traffic management), defence and security, and digital identity and cybersecurity sectors. Together, we’re shaping the future by enabling customers to make pivotal decisions that safeguard communities and power progress.
+Thales Singapore Engineering Competence Centre (ECC) is a well\-established R\&D and engineering centre serving major customers worldwide in Digital Identity and Security domains ranging from mobile connectivity, IoT, banking \& payment to government solutions.
+
+**Objective:**
+
+* Investigate and experiment with open source AI technology stacks and industrial AI service providers.
+* Prototype AI features that improve operation efficiencies or enhance customer experiences.
+* Support industrialization of Prototypes.
+
+**Responsibilities:**
+
+* Research and develop in areas such as RAG, Agentic AI, and AI managed services – build PoC to showcase and inspire new ideas.
+* Develop and refine tools/functions that align with specific business unit use cases.
+* Explore and apply fine\-tuning techniques to customize models for specific domain tasks, optimising their performance and relevance.
+* Collaborate closely with the supervisor, gaining insights into AI’s role in real\-world business applications.
+
+**Requirements:**
+
+* **Education**: Computer Science student with a good foundation in Data Science.
+* **Technical Skills**:
+	+ Proficiency in Python, Docker Compose, and basic Linux commands.
+	+ Familiarity with open\-source frameworks and tools, including GitHub.
+* **Traits**:
+	+ Independent and analytical thinker.
+	+ Open\-minded, with a proactive approach to problem\-solving
+* **Commitment:** Able to commit on a full\-time basis, for ideally 6 months (or a minimum of 5 months)
+
+**Learning Outcomes:**
+
+* Hands\-on experience in latest GenAI research and practical applications.
+* Opportunity to work on high\-impact projects directly supporting business objectives.
+* Mentorship and guidance from industrial supervisor, with a focus on professional development in GenAI.
+
+
+At Thales, we’re committed to fostering a workplace where respect, trust, collaboration, and passion drive everything we do. Here, you’ll feel empowered to bring your best self, thrive in a supportive culture, and love the work you do. Join us, and be part of a team
