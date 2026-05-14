@@ -1,0 +1,44 @@
+**What to Expect**
+Consider before submitting an application:
+
+
+This position is expected to start August or September 2026 and continue through fall term (ending approximately December 2026\) or continuing into Winter/Spring 2027 if available and there is an opportunity to do so. We ask for a minimum of 12 weeks, full\-time (40 hours/week) and on\-site, for most internships. Our internship program is for students who are actively enrolled in an academic program. Recent graduates seeking employment after graduation and not returning to school should apply for full\-time positions, not internships.
+
+
+International Students: If your work authorization is through CPT, please consult your school on your ability to work 40 hours per week before applying. You must be able to work 40 hours per week on\-site. Many students will be limited to part\-time during the academic year.  
+
+
+
+  
+
+  
+
+**What You'll Do*** Bring up RTOS (Real Time Operating Systems) on the next generation of embedded systems for Tesla autonomy
+* Deliver high\-quality C code in a real\-time embedded environment
+* Develop and maintain Linux device drivers for AI interface hardware accelerators, camera capture, ISP (Image Signal Processors), GPU, Ethernet, UFS, and PCIE
+* Define the hardware, software interactions for our next generation fully autonomous car platform, Humanoid Robot, and the expanding AI inference use\-cases
+* Develop and bring\-up the system software stack that runs on the AI platform and interacts with various sensors in the car and robot
+ **What You'll Bring*** Currently pursuing a degree in Computer Science, Computer Engineering, Software Engineering, or a related field of study with a graduation date between December 2026 – December 2027
+* Strong C/C\+\+ programming skills
+* Experience working with and writing softwarefor embedded Linux systems; experience with software/kernel preferred
+* Experience in Python/Perl/Bash Scripting is a plus
+* Experience working and debugging complex, distributed software systems
+* Comfortable analyzing data to improve design and performance of a system
+* Understanding of hardware and software development processes
+* Experience with Ethernet or CAN communication protocols is preferred
+  
+
+**Compensation and Benefits**
+Benefits
+As a full\-time Tesla Intern, you will be eligible for:
+
+
+* Medical plans \> plan options with $0 payroll deduction
+* Family\-building, fertility, adoption and surrogacy benefits
+* Dental (including orthodontic coverage) and vision plans. Both have an option with a $0 payroll contribution
+* Company Paid (Health Savings Account) HSA Contribution when enrolled in the High Deductible Medical Plan with HSA
+* Healthcare and Dependent Care Flexible Spending Accounts (FSA)
+* 401(k), Employee Stock Purchase Plans, and other financial benefits
+* Company Paid Basic Life, AD\&D, and short\-term disability insurance (90 day waiting period)
+* Employee Assistance Program
+* Sick and Vacation time (Flex time for salary position

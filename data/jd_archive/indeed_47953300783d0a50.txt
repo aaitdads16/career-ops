@@ -1,0 +1,48 @@
+**Company Description**  
+
+As the preferred partner for window and door automation, Somfy is committed to inspiring new and better ways of living for all. Better ways of producing, consuming, and housing that we must imagine together around the world in order to inhabit our planet in a more virtuous and permanent way. Acting for better ways of living means fostering the alliance of a sustainable economic model with environmental protection and self\-fulfillment for everyone.  
+
+As a French, family\-owned, and independent group, in continuous growth since our creation, we have been world leaders for 50 years and pioneers in home automation. Innovation continuously guides our work and guarantees the excellence of our solutions.  
+
+We are present in 59 countries, with eight production sites and 17 R\&D centers. We are pursuing an ambitious industrial strategy based on “Smart Living” and the value we bring to our customers.  
+
+We are committed to reducing our environmental footprint every day. Today, more than 60% of our products are eco\-designed, and all will be by 2030\. At the same time, we have implemented a responsible purchasing policy that prioritizes local suppliers.  
+
+We are deeply committed to the well\-being of our 6,880 employees, we promote their sustainable employability by promoting internal mobility and developing their skills. We foster diversity and inclusion by building on our strong corporate culture.
+
+ **Job Description**  
+
+We’re looking for a Junior Web Developer Intern ready to jump in and contribute from day one. This is not a shadowing role—you’ll work alongside our Webmaster and marketing team on live enterprise websites, supporting key initiatives that drive business growth.
+
+
+If you're eager to apply your technical skills in a real production environment and build a strong portfolio, this is a unique opportunity to do just that.
+
+**What You'll Do:**
+
+* Collaborate on large\-scale website enhancements (UX, performance, scalability)
+* Develop responsive web components using HTML, CSS, JavaScript, and PHP
+* Support backend development tasks within Laravel\-based applications
+* Assist with API integrations and marketing automation workflows
+* Debug and resolve front\-end and back\-end issues
+* Perform cross\-browser and cross\-device QA testing
+* Contribute to SEO, site speed, and accessibility improvements
+* Support website analytics and performance reporting
+
+**Example Projects**
+
+* Redesign key product pages to enhance user experience and performance
+* Improve inquiry/contact forms with smarter workflows and UX enhancements
+* Support broader website modernization and digital initiatives
+
+  
+
+**Qualifications**  
+
+* Currently pursuing or recently completed a degree in:
+	+ Computer Science, IT, Engineering, or related field
+* Basic knowledge of:
+	+ HTML, CSS, JavaScript
+	+ PHP (Laravel a plus)
+* Familiarity with APIs and web forms/data handling
+* Interest in SEO and web performance optimization
+* Strong attention to detail

@@ -1,0 +1,33 @@
+**A Blip busca um** **AI Solutions Engineer** **com perfil híbrido e** **foco em resultados****. Sua missão principal é atuar como elo entre a tecnologia e a realidade dos nossos desafios internos. Você será responsável por entender as dores das áreas, diagnosticar onde e como soluções de IA agregam valor e implementá\-las para que tornem a área mais eficiente e produtiva.**
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+O time de AI Ecosystem tem o propósito de acelerar a fluência, adoção e governança de IA em toda a Blip, atuando como Centro de Excelência para times do ecossistema Blip, e garante que a IA seja integrada de forma responsável e orientada a impacto de negócios.
+
+
+
+Como parte do time de AI Ecosystem (CoE), seu desafio é garantir que a vanguarda da GenAI seja traduzida em soluções prontas para serem integradas no dia\-a\-dia de Blippers. O objetivo é transformar dores latentes em sistemas autônomos de alto impacto, liderando a transição de processos manuais para fluxos de trabalho inteligentes.
+
+
+### **Propósito do Cargo**
+
+
+
+Projetar e implementar soluções de IA que resolvam problemas reais de áreas de negócio da Blip. O foco é a transformação de processos operacionais em fluxos AI\-Driven, garantindo que a tecnologia esteja a serviço do ROI e da eficiência organizacional.
+
+
+**Requisito**
+
+
+**Formação acadêmica:** Engenharia de Sistemas, Ciência da Computação, Engenharia da Computação.
+
+
+### **️** **Hard Skills**
+
+
+* **Implementação de Sistemas de IA:** Experiência sólida em arquitetar e implementar soluções ponta\-a\-ponta (end\-to\-end) onde múltiplos agentes de IA colaboram de forma autônoma, integrando agentes de IA a sistemas legados, orquestração de Agentes Autônomos (LangGraph, CrewAI ou frameworks proprietários) e integração via MCP(Model Context Protocol) ou APIs robustas com sistemas legados.
+* **Engenharia de Software:** Domínio de Python/Node.js, padrões de microsserviços e stack de tecnologia/Templates que facilitem a adoção da IA por outros times não\-técnicos. Capacidade de desenvolver SDKs e Blueprints (templates técnicos) que padronizem o consumo de IA por outros times, garantindo código limpo e testável.
+* **Arquitetura Agêntica e RAG:** Proficiência na construção de sistemas de recuperação de informação e agentes autônomos que operem com boa performance.
+* **Mensuração Técnica de ROI:** Capacidade analítica para mensurar o sucesso técnico através de indicadores de negócio (indicadores táticos, estratégicos e operacionais).
+* **Estado da Arte e Benchmarking:** Habilidade para validar tecnicamente ferramentas de mercado e decidir entre *buy vs. build* com base em requisitos técnicos e de

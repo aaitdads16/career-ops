@@ -1,0 +1,43 @@
+**Our Purpose**
+
+*Mastercard powers economies and empowers people in 200\+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential.*
+
+**Title and Summary**
+
+
+Data Scientist
+Overview:  
+
+Are you passionate about building scalable, high\-performance data platforms that power personalized experiences for millions of users? Do you thrive in a fast\-paced environment where innovation and collaboration drive success? Join the Loyalty group at Mastercard, where we connect anonymized transaction data with a robust advertising network to deliver highly personalized card\-linked offers.  
+
+We are looking for a Senior Data Scientist who brings deep technical expertise, a strong foundation in software engineering, and a passion for solving complex data challenges. You’ll work on mission\-critical projects that shape the future of Mastercard’s offers platform, leveraging cutting\-edge technologies in Data, cloud computing, and real\-time processing.  
+
+This is an exciting opportunity to work with a collaborative, agile team that values creativity, continuous learning, and delivering high\-quality software at scale.  
+
+  
+
+About the Role:  
+
+We are looking for a Data Scientist with a strong foundation in both data science and data engineering. This role requires someone who can not only build predictive models but also design, develop, and maintain scalable data pipelines and infrastructure. You will work cross\-functionally to turn data into actionable insights and production\-ready solutions.  
+
+* Develop, validate, and deploy machine learning models for business use cases
+* Perform exploratory data analysis (EDA) to uncover trends, patterns, and insights
+* Apply statistical techniques to solve complex business problems
+* Communicate findings clearly to stakeholders using visualizations and reports
+* Design and run A/B tests and experiments
+* Build and maintain scalable data pipelines (ETL/ELT)
+* Work with large datasets in distributed environments
+* Ensure data quality, integrity, and reliability across systems
+* Optimize data workflows and processing performance
+* Partner with product, engineering, and business teams to define data\-driven solutions
+* Translate business requirements into technical implementations
+* Deploy models into production and monitor their performance
+* Contribute to best practices in documentation, and reproducibility
+
+  
+
+All About You:  
+
+* Bachelor’s or Master’s degree in Computer Science, Data Science, Statistics, or related field
+* Multiple years of professional experience in data science and/or data engineering roles
+* Strong programming skills in SQL

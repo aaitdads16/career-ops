@@ -1,0 +1,52 @@
+#### **Werktijden**
+
+
+##### **40 uur**
+
+
+#### **Opleidingsniveau**
+
+
+##### **HBO**
+
+
+#### **Afdeling**
+
+
+##### **Research en Development**
+
+
+**Wil jij als Machine Learning Engineer aan de frontlinie staan van de energietransitie?**  
+
+Wil jij werken bij een organisatie die een leidende rol in de markt van duurzame energieopslag aanneemt? Kom werken bij Kiwatt en haal het beste uit jezelf.
+
+**Wat ga je doen als Machine Learning Engineer?**
+-------------------------------------------------
+
+* Je ontwikkelt en onderhoudt verschillende modellen voor optimaal gebruik van onze batterij. Denk hieraan het voorspellen van verschillende energiemarkten, optimaal voorspellen van het verbruik en opwek van de klant en het voorspellen van de performance van de batterij.
+* Je zoekt steeds naar de juiste oplossing met behulp van Machine Learning, AI, data of heuristiek om zo de meeste waarde toe te voegen aan onze producten.
+* Je onderhoudt deze modellen en breidt ze uit op basis van marktontwikkelingen en feedback van collega’s en klanten.
+* Je zorgt ervoor dat de data uit deze modellen ons algoritme voeden zodat de batterij optimaal ingezet wordt.
+* Samen met onze software engineers bedenk je nieuwe manieren om de sturing van de batterij op de veranderende marktomstandigheden en klantprofielen aan te passen.
+* Samen met onze software engineers werk je aan verbetering van ons systeem, bijvoorbeeld door predictive maintenance en foutanalyse op basis van interne data.
+
+**Werken bij Kiwatt**
+---------------------
+
+
+Kiwatt is opgericht in 2019 en wil energieopslag eenvoudig maken voor ondernemers en particulieren. Kiwatt is een belangrijke speler in de energietransitie door slimme oplossingen aan te bieden voor de opslag van energie. Wij zorgen er voor dat ieder bedrijf zelf controle heeft over de opgewekte energie. We zijn continu bezig met de doorontwikkeling en optimalisatie van onze producten. Dromen over een duurzame installatie is mooi, maar echt iets doen is beter. Wij zijn geen traditioneel bedrijf, maar innovatief en snel groeiend. We zijn altijd op zoek naar specialisten. De energietransitie is in volle gang en jij kan hier een bijdrage aan leveren!  
+
+  
+
+Nieuwsgierig naar Kiwatt? Kom gewoon eens kijken!
+
+**Wie ben jij als Machine Learning Engineer?**
+----------------------------------------------
+
+* Je hebt een afgeronde HBO\- of WO\-opleiding op het gebied van Data Science/AI, Wiskunde of Informatica.
+* Je hebt een achtergrond in en ervaring met machine learning en data science.
+* Je hebt kennis van de energiemarkt of bent bereid deze snel op te doen.
+* Je hebt ervaring met programmeren in Python en ervaring met Machine Learning tools zoals Tensorflow.
+* Je hebt ervaring met Javascript of bent bereid dit snel te leren.
+* Je hebt kennis van MLOps voor versie beheer, testen en in productie brengen van Machine Learning modellen
+* Gedrevenheid en passie? Dat heb jij. Natuurlijk ben je blij wanneer je weekend hebt, maar je bent net zo blij als je maandagocht

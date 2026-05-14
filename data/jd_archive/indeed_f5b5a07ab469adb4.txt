@@ -1,0 +1,59 @@
+**About Astera:**
+=================
+
+
+Astera is a private foundation on a mission to steer science and technology toward an abundant future. We believe the coming years will bring an era of unprecedented scientific and technological advancement as exponential progress in AI converges with central advances in other fields to dramatically accelerate innovation. This inflection point provides an unparalleled opportunity to fundamentally rethink the institutions, systems, and tools that drive scientific progress.
+
+
+Unlike traditional non\-profit research organizations, projects supported by Astera operate like high\-velocity startups, allowing us to focus on ambitious goals, match structure to problem, and attract strong technical talent and leadership. You can read more about our mission, vision, and programming here.
+
+**Position Summary**
+====================
+
+
+Astera Institute is seeking a Software Engineering Intern to help build infrastructure for large\-scale distributed simulation systems, including biological systems and physics\-based environments.
+
+
+This internship is ideal for someone excited about systems programming, simulation, distributed computing, or scientific infrastructure. You’ll work closely with experienced engineers on real technical problems spanning simulation, networking, orchestration, and performance optimization.
+
+
+You do not need prior professional experience in all of these areas — we care most about strong technical fundamentals, curiosity, and a willingness to learn quickly.
+
+
+Areas you may work on include:
+
+* Distributed computing systems
+* High\-performance C\+\+ infrastructure
+* Biological system simulation
+* 3D physics simulation environments
+* Networking and communication systems
+* Simulation tooling and visualization
+
+**Responsibilities:**
+=====================
+
+* Contribute to distributed simulation infrastructure and tooling
+* Help build networking and communication systems for multi\-node simulations
+* Assist with development of MuJoCo\-based or other 3D simulation environments
+* Work on systems for large\-scale biological simulations
+* Improve simulation throughput and system reliability
+* Debug and profile performance bottlenecks
+* Build internal tools for orchestration, visualization, and developer workflows
+* Collaborate with researchers and engineers across simulation and infrastructure projects
+
+**Qualifications and Experience**
+=================================
+
+* Strong programming fundamentals
+* Experience with C\+\+, Python, or similar systems languages
+* Familiarity with Linux development environments
+* Understanding of data structures, algorithms, and concurrency fundamentals
+* Interest in distributed systems, simulation, or systems engineering
+* Ability to learn quickly and work independently on technical problems
+
+**Nice to Have**
+================
+
+* Experience with C\+\+ projects
+* Familiarity with networking or distributed systems concepts
+* Experience with physics simulators such as MuJoCo,

@@ -1,0 +1,33 @@
+At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI\-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high\-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low\-ego individuals who thrive in dynamic and fast\-moving environments and move with an experimental mindset — who rapidly test emerging capabilities to discover simpler, more powerful ways to deliver results. At Snowflake, your role isn't just to execute a function, but to help redefine the future of how work gets done.
+
+
+Observe by Snowflake is an AI\-powered observability platform built on the Snowflake Data Cloud and engineered for scale. We ingest and store logs, metrics, traces, and events on an open, scalable data lake using open formats like Apache Iceberg, delivering deep correlation and long\-term analytics at dramatically lower cost. A dynamic Knowledge Graph and chat\-based AI SRE provide rich context and guided workflows so teams can move from detection to root cause and resolution significantly faster.
+
+
+The Infrastructure team at Observe by Snowflake is responsible for building, scaling, and operating the development and production environments that power our observability platform. We are a small, highly collaborative team with a broad scope, focused on delivering reliable infrastructure while continuously improving the systems that support our engineers and customers.
+
+
+We’re looking for dedicated students who share our passion for ground\-breaking technology and want to create a lasting future for you and Snowflake.
+
+**WHAT WE OFFER :**
+
+* Paid, full\-time internships in the heart of the software industry
+* Post\-internship career opportunities (full\-time and/or additional internships)
+* Exposure to a fast\-paced, yet fun, startup culture
+* A chance to work with world\-class experts on challenging projects
+* Opportunity to provide meaningful contributions to a real system used by customers
+* High level of access to supervisors (manager and mentor), detailed direction without
+* micromanagement, feedback throughout your internship, and a final evaluation
+* Stuff that matters: treated as a member of the Snowflake team, included in company
+* meetings/activities, flexible hours, casual dress code, accommodations to work from
+* home, swag and much more
+* Catered lunches, access to gaming consoles, recreational games, happy hours,
+* company outings, and more
+* Embraced as a full member of the diverse Snowflake engineering team
+
+**WHAT WE EXPECT :**
+
+* Must be actively enrolled in an accredited college/university program during the time of the internship
+* Required: A completed BS degree, with an MS or PhD in progress
+* Desired Majors: Computer Science, Computer Engineering, Electrical Engineering, Physics, Math, or related field
+* Required coursework: alg

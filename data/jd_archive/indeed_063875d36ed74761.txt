@@ -1,0 +1,39 @@
+**DESCRIPTION**
+---------------
+
+
+The Economic Value \& Optimization (EV\&O) team builds causal econometric models that quantify the long\-term economic value of Amazon's retail selection. Our models inform portfolio\-level assortment decisions worth billions in projected OPS impact. We are looking for an Econ intern to work on improving our dynamic causal modeling framework and strengthening the empirical grounding of model outputs through experimental calibration. The intern will work with senior economists and scientists to develop methodological improvements that directly influence how Amazon decides what assortment to carry.  
+
+  
+
+Key job responsibilities  
+
+* Develop and test extensions to our dynamic econometric framework including incorporating Gen AI methodology.
+* Design and implement models to reconcile counterfactual estimates with experimental treatment effects from selection de\-assortment experiments.
+* Conduct econometric analyses on large\-scale customer behavior panel data.
+* Quantify model performance using validation metrics and identify sources of bias.
+* Communicate findings to science leadership and business stakeholders through written documents and presentations.
+**BASIC QUALIFICATIONS**
+------------------------
+
+* Are enrolled in a Ph.D. in econometrics, statistics, industrial engineering, operations research, optimization, data mining, analytics, or equivalent quantitative field
+* Experience in econometrics (e.g., program evaluation, forecasting, time series, panel data, or high dimensional problems), economic theory, and quantitative methods
+* Experience with statistical analytics and programming languages such as R, Python, Ruby, etc.
+* Experience working with large, complex data sets
+
+**PREFERRED QUALIFICATIONS**
+----------------------------
+
+* Experience statistical modeling, or related analytic techniques
+* Experience developing experimental and analytic plans for data modeling processes, use of strong baselines, ability to accurately determine cause and effect relations
+* Experience with SQL or distributed computing frameworks (Spark, Hive)
+* Research experience involving counterfactual estimation or policy evaluation
+* Strong written and verbal communication skills, with ability to present technical results to non\-technical audiences
+
+  
+
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.  
+
+  
+
+Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position.

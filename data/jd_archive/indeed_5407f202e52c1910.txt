@@ -1,0 +1,36 @@
+**About Inspiration Commerce Group (ICG)**  
+
+We’re a team of \~50 people who’ve done 6 acquisitions in 18 months and scaled from $0 to \>$100M in revenue. We’re a global group with businesses across the US, UK, and EU. We buy and build companies that help people find and buy the products they love. Our portfolio includes leading fashion marketplaces like Italist, HEWI and Verishop, affiliate marketing platforms like Stylight and MyBestBrands, B2B technology solutions like Bonsai, and niche Marketplaces in the Creator and Construction spaces like Everpress and DOZR.
+
+
+**About the Role**
+------------------
+
+
+We’re looking for someone to join us as a **Summer Intern (Ecommerce Operations)** on our Italist luxury fashion marketplace.
+
+
+Throughout the summer you will pilot a number of projects we have in our backlog, testing and experimenting to see what works (that we'll then invest in long\-term) vs. what doesn't. You'll have the opportunity to leverage AI in your work, and to develop your skillset across Account Management, Conversion Rate Optimization (CRO), Pricing Strategy and Data Analysis/Business Intelligence.
+
+
+This is a hands\-on role \- you will not be building decks and plans, you'll be taking project briefs and doing the actual work. This is full\-time over the summer, and has the opportunity to convert to full\-time or part\-time after the internship. We are open to both current students, new grads, and folks making a career pivot or returning from a leave.
+
+
+*This is a full\-time, remote\-first role in Canada, the UK or the EU*.
+
+
+**Things You'll Work On**
+-------------------------
+
+* **Piloting Projects**: we have a backlog of projects we're looking to pilot across the business — you'll take project briefs, launch new initiatives quickly, iterate based on data, and then present your results so we can decide what to double\-down on vs. what to pass on for now.
+* **Reporting \& Data Analysis**: you'll dig deep into data across our business to draw insights and make data\-backed recommendations on actions we can take. You'll learn to query data using SQL via AI interfaces, build reporting and dashboards, and set up alerting/monitoring with various integrations.
+* **Building with AI**: we are in the process of becoming more AI\-first as an organization, and you'll be part of that transformation. You'll write code, build prototypes, manage API integrations, create automations and more through Claude Cowork, Cursor, etc.
+
+**Attitudes**
+-------------
+
+
+We don't care what your current job title is, how long you've been working, or whether you have a pedigreed background. We *do* care about you being tightly aligned with our operating principles:
+
+* **You’re competitive and love to win**. You’re competitive and are always looking for an edge. You have a high bar (some would say “unrealistic”) for yourself and those you work with.
+* **You do whatever it takes**. You’re willing to do what others won’t to achieve what others can’t. What we’re do

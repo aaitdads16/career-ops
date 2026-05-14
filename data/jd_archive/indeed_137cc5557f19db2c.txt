@@ -1,0 +1,89 @@
+REQ ID
+  
+  
+
+98273
+  
+  
+
+POSTED
+  
+  
+
+May 13, 2026
+  
+  
+
+FUNCTION
+  
+  
+
+IT – Information Technology
+  
+  
+
+LOCATION
+  
+  
+
+Amsterdam, NH, NL, 1082VA
+  
+  
+
+GLOBAL BI \& ANALYTICS INTERNSHIP
+  
+  
+
+AMSTERDAM, COTY HQ
+  
+  
+
+About Coty
+  
+  
+
+At Coty, we are seeking motivated Global BI \& Analytics Interns to join our team as part of Coty’s Data Talent Factory, a structured 6\-month rotation program designed for students eager to build hands\-on skills in data, analytics, and generative AI. You’ll spend your first 2 months training with the Global BI team at our HQ in Amsterdam\-Zuid, then rotate through 2 business analytics teams (2 months each), applying your skills to real projects across the organization.
+  
+  
+
+We’re Coty, one of the world’s largest beauty companies with an iconic portfolio of brands across fragrance, color cosmetics, and skin and body care. Coty is the global leader in fragrance and number three in color cosmetics. Coty’s products are sold in over 150 countries around the world. Coty and its brands are committed to a range of social causes as well as seeking to minimize its impact on the environment.
+  
+  
+
+About the Business Facing BI Team in Amsterdam
+  
+  
+
+The Business Facing BI team plays a pivotal role in implementing a variety of business intelligence and data analytics solutions to enable data\-driven decision\-making globally. We actively set and refine Power BI guidelines to ensure scalable, secure, and innovative BI practices across Coty. Although our team is small, we are diverse with members based in Amsterdam and New York City. We embrace continuous learning and rapid adoption of cutting\-edge technologies. We are actively exploring how generative AI is reshaping the way we build and deliver analytics. As an intern, you’ll be part of that journey.
+  
+  
+
+What we offer
+  
+  
+
+At Coty, we offer an exceptional opportunity for our Global BI \& Analytics interns to gain hands\-on experience in a vibrant and dynamic environment.
+  
+  
+
+**Months 1\-2:** Training in Power BI and Databricks fundamentals, with a focus on Coty’s standards and best practices. Includes exploration of generative AI capabilities within these platforms.
+  
+  
+
+**Months 3\-4:** First project rotation with a business analytics team.
+  
+  
+
+**Months 5\-6:** Second project rotation with a different business analytics team.
+  
+  
+
+By the end of the program, you’ll have a portfolio of real deliverables, cross\-functional exposure, and a strong foundation for a career in data \& analytics. You will receive direct mentorship from the Business Facing Power BI Manager, fostering both personal and professional growth. Additionally, you’ll benefit from an inclusive, supportive work environment that encourages collaboration and innovation.
+  
+  
+
+Read a testimonial from a former intern about their time with the Global BI \& Analytics team:
+  
+  
+
+“My internship with the Global BI \& Analytics team was truly unique. It went far beyond dashboards and dat

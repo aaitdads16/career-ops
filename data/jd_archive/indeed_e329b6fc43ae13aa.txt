@@ -1,0 +1,38 @@
+**Job Title:** AI Agent Development （ Intern/Part time/Full Time)  
+
+**Department:** IT and SEO Department ( I\-G\-01\-01\)
+  
+
+**Location:** Onsite (San Jose, CA)  
+
+**Employment Type:** **1**） 3\-6 Month Internship CPT/OPT 2\)1 year Part Time/Full Time
+
+**About ALLCPR**
+
+
+ALLCPR （ ALL of us should learn CPR） is a leading community emergency training network in North America, founded in Silicon Valley in 2022 by the USJ Education Group . ALLCPR specializes in CPR, BLS, and AED training as well as first aid product and service solutions for individuals, families, and corporate groups. Today, ALLCPR has grown into an internationally recognized brand in emergency training. It is an American Red Cross Primary Licensed Training Provider (PLTP) and an American Heart Association (AHA) Training Partner and was honored with the 2024 American Red Cross Achievement Award for its outstanding achievements in community emergency training. ALLCPR has established over 160 community emergency training centers across 35 U.S. states, supported by more than 200 full\-time and part\-time instructors. ALLCPR trains approximately 7,000 participants each month, with over 100,000 individuals trained to date.Through its proprietary AI Agent Management Platform, ALLCPR has achieved intelligent, end\-to\-end digital management—from registration and instruction to assessment and certification. The organization is also actively expanding into China, Canada, and Australia, advancing its global development strategy to build a truly international community emergency training ecosystem**.**
+
+**Position Summary:**
+
+
+To support our nationwide growth and operational efficiency, we are seeking an innovative and technically skilled **AI Agent Development Technician**. This role is responsible for designing, developing, and maintaining custom AI\-powered tools that automate internal workflows and enhance both staff and student experiences. You will work across departments to identify bottlenecks and build intelligent agents (chatbots, automations, scripts, etc.) that directly support business needs.
+
+
+This is a high\-impact role for someone who thrives at the intersection of software development, process automation, and emerging AI technologies.
+
+### **Key Responsibilities:**
+
+#### **Cross\-Departmental Automation:**
+
+* Collaborate with departments such as Customer Service, HR, and Operations to understand workflow pain points and identify tasks suitable for automation.
+* Translate department needs into functional AI\-driven solutions, ranging from rule\-based bots to more advanced conversational AI agents.
+
+#### **AI Agent Design \& Development:**
+
+* Build, test, and deploy AI assistants and task automation tools (e.g., scheduling bots, FAQ responders, resume screeners, internal task trackers).  
+
+Use APIs, custom scripts, and integrations to connect AI tools to internal systems such as CRMs, scheduling platforms, and websites.
+
+#### **Code Maintenance \& Documentation:**
+
+* Maintain

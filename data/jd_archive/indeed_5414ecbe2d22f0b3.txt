@@ -1,0 +1,45 @@
+This is a 10\-week internship starting June 8 or 1 5 and is fully on\-site at the listed office location.
+
+
+**Company Overview**
+
+At Bloom Energy, our vision for a world powered by clean, reliable, and affordable energy is more than just a dream— we’re making it a reality.
+  
+
+  
+
+For over two decades, we’ve been at the forefront of the global energy transition, pioneering solutions that empower critical industries to thrive in a rapidly digitizing, energy\-intensive world. From revolutionizing power for AI\-driven data centers to ensuring resilience for hospitals, electric grids, manufacturing facilities, and utilities, our solid oxide fuel cell (SOFC) and solid oxide electrolyzer (SOEC) technologies are redefining what’s possible by delivering energy abundance for all. With more than 30,000 fuel cell modules deployed worldwide, we are the trusted partner for Fortune 100 companies and innovators alike. Our cutting\-edge solutions enable unparalleled “time\-to\-power” capabilities, reliability, and sustainability, ensuring our customers remain ahead in a world where soaring energy demand and intensifying energy scarcity are rapidly becoming the new norm.
+  
+
+  
+
+At Bloom, we thrive on collaboration, bold thinking, and relentless innovation. We believe that, together, we can create a brighter, more sustainable future while tackling the most pressing challenges of the 21st century.
+
+
+**Department Overview**
+
+The IT Helpdesk team provides hands\-on experience in providing technical assistance , troubleshooting hardware and software issues, and supporting end\-users across the organization.
+
+
+**Position Responsibilities**
+
+* Provide first\-level technical support to employees via phone, email, or in\-person.
+* Troubleshoot and resolve issues related to hardware, software, printers, and network connectivity.
+* Assist with setting up and configuring laptops, desktops, mobile devices, and peripherals.
+* Support onboarding and offboarding processes, including account setup and equipment provisioning.
+* Document support requests, resolutions, and procedures in the helpdesk ticketing system.
+* Collaborate with IT team members to escalate and resolve complex issues.
+* Help maintain inventory of IT equipment and supplies.
+* Contribute to process improvement and knowledge base documentation.
+**Minimum Qualifications**
+
+* Currently a student earning a Bachelor’ s degree in Information Technology , Computer Science, or a related field.
+* Must be graduating between May 202 6 and August 202 7
+* Basic understanding of computer hardware, operating systems (Windows, macOS), and common software applications.
+* Familiarity with troubleshooting techniques and customer service principles.
+* Strong communication and interpersonal skills.
+* Ability to work independently and in a team environment.
+**Desired Qualifications**
+
+* Experience with helpdesk or ticketing systems (e.g., ServiceNow, Jira, Zendesk).
+* Familiarity with Active Directory, Office 365, and remote support

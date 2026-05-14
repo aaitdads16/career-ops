@@ -1,0 +1,50 @@
+**Job ID:** 15799
+**Business Unit:** MTA Headquarters
+**Location:** New York, NY, United States
+**Regular/Temporary:** Intern
+**Department:** Transportation IT Products
+**Date Posted:** May 13, 2026
+**Description**
+
+
+Department: MTA IT
+Location: 420 Lexington Avenue, New York, NY 10170
+Position Title: Onboard Fare Systems, Technology \& Engineer Fellow
+Hourly Rate: $21\.00 (Undergraduate), $23\.00 (Graduate)
+
+All internship positions are onsite and require regular, in\-person attendance at the designated work location.  
+
+**OVERVIEW OF DEPARTMENT:**
+The Onboard Fare Systems team provides and supports ticket selling services for both the MNR and LIRR Transportation Departments. These services include both the Onboard Ticket Issuing Machines as well as back\-end support to allow for ticket selling and reporting capabilities.
+
+The fellow will need to learn the basics of how credit and debit card information must be protected. Your main task will be to get familiar with how the current Onboard Ticket Issuing Machine works, including the devices connected to it (like card readers, printers, or scanners). After that, you will research other hardware options that could replace or improve the current setup. These options should include devices that can safely accept credit and debit card payments and meet PCI security requirements. Familiarity with Payment Card Industry Data Security Standard (PCI) or Mobile Point of Sale is preferred.  
+
+At the end of the project, you will create a report that compares the different hardware solutions you found. This report will include:  
+
+* A simple comparison chart or matrix
+* A list of pros and cons for each option
+* A clear summary of which solution you recommend and why
+
+
+This position begins in Fall 2026; candidates should be ready to commit minimum of 12‑months in the role.
+**RESPONSIBILITIES:*** Analysis of current devices
+* Documentation of existing solution
+* Documentation of user requirements/needs of new proposed devices
+* Research of new technologies
+* Research of new device alternatives
+* Communicating with members within the IT team and user community
+* Report creation
+* Presentation of Findings
+
+**PROJECTS:**
+The projects the intern will work on will include:
+
+* Understand the existing Onboard Ticket Issuing Machine configuration and all peripherals and document requirements for each device.
+* Research alternate solutions for an Onboard Ticket Issuing Machine Evaluation and Recommendations report on alternate solutions.
+* Provide a clear summary of a recommended solution for the team to pursue
+
+**REQUIRED QUALIFICATIONS:*** Proficiency in Microsoft Office Suite is a must.
+* The candidate should possess organizational, analytical and communication skills.
+* The candidate should be able to work well under pressure and prioritize tasks effectively.
+* The candidate should have a keen eye for detail and be able to work independently while being an active team player.
+* Familiarity with PCI or Mobile Point of

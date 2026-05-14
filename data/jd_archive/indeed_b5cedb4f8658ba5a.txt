@@ -1,0 +1,48 @@
+**Sobre nós**
+
+
+
+Somos orgulhosamente brasileiros e populares, digitais sempre e presenciais quando o cliente quiser. Inovamos para dar acesso a serviços financeiros e oferecemos uma experiência que encoraja as pessoas a vencerem o hoje. Nossa razão de existir é clara: **lutar por uma experiência bancária que acolhe e encoraja todos os brasileiros.** E fazemos isso com disponibilidade, acolhimento e agilidade.
+
+
+**Nossa cultura, O Jeito Agi**
+
+
+**Viver pelo cliente**  
+
+Nosso principal ativo são os clientes. A empresa só existe se conseguir resolver suas dores, entregando produtos e experiências melhores que alternativas disponíveis no mercado.
+
+
+**Agir como empreendedor**  
+
+Quantas empresas você conhece que cobram espírito de dono do time? Muitas, né? Mas quantas delas possibilitam que as pessoas sejam de fato donas? E não se trata de dar essa oportunidade para poucos, mas de tornar isso possível para todos. No Agibank é assim, então aqui você age como dono porque já é dono ou porque sonha em ser o próximo.
+
+
+**Crescer na jornada**  
+
+Nossa cultura é forte. Então, só faz sentido empreender aqui caso você se identifique muito com ela. Se você é uma pessoa fanática por resultado, tem pavor de zona de conforto, vive em eterna busca por conhecimento, prefere as coisas ditas direto ao ponto e quer estar rodeada de pessoas que também são assim, você vai curtir muito sua jornada aqui.
+
+**Modelo de trabalho**  
+
+Híbrido • Campinas/SP  
+
+  
+
+**Nosso time de Tecnologia**
+
+  
+
+
+Muito mais do que código e sistemas — é o meio essencial que torna possível o nosso modelo único, que combina o melhor do digital com a presença física e humana. Aqui, tecnologia não é um fim em si mesma, mas a ponte entre inovação e a experiência real do cliente. Atuam lado a lado com as áreas de negócio para garantir soluções robustas, escaláveis e centradas nas pessoas, sem abrir mão de um olhar técnico e científico aprofundado em frentes como desenvolvimento de software, infraestrutura, cibersegurança e arquitetura. É nessa interseção entre propósito, técnica e impacto que constroem o presente e futuro.
+
+
+#### **Seus desafios para crescer na jornada**
+
+
+* Apoiar testes de segurança em aplicações baseadas em LLMs, cobrindo cenários como prompt injection, jailbreak, vazamento de dados, abuso de ferramentas e manipulação de contexto.
+* Executar casos de teste em agentes internos e user\-facing, seguindo os playbooks definidos pelo time.
+* Contribuir para a evolução das suítes de testes com Promptfoo ou ferramentas equivalentes.
+* Apoiar a análise de alertas e sinais gerados por controles como LLM Firewall, guardrails, Anonymizer e AI Gateway.
+* Realizar validações funcionais e testes de regressão nos serviços e controles de AI Security.
+* Apoiar análises básicas de logs, métricas e eventos relacionados ao tráfego de LLMs, agentes e plataformas internas.
+* Ajudar a identificar falsos positivos, falsos negativos e oportunidades de melhoria em regras, heurísticas e políticas de detec

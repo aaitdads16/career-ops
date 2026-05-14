@@ -1,0 +1,41 @@
+Ben jij een ervaren tester die energie krijgt van complexe materie, ketens die moeten kloppen en software die foutloos moet werken? Werk je graag hybride en wil je bijdragen aan betrouwbare, toekomstbestendige pensioenadministratie binnen een innovatieve insurtechorganisatie? Dan is deze rol bij Lumera iets voor jou.
+
+**Over Lumera**
+
+
+Lumera is een toonaangevende insurtech die pensioenadministraties moderniseert. Met ons platform AxyLife helpen we pensioenfondsen en uitvoerders om hun processen eenvoudiger, flexibeler en toekomstbestendig te maken. De pensioensector verandert snel. Digitalisering, data en automatisering spelen daarin een cruciale rol. Bij Lumera werk je aan oplossingen die écht impact hebben op miljoenen deelnemers.
+
+**Jouw rol**
+
+
+Als Product Specialist Tester ben je de inhoudelijke schakel tussen business en IT. Je test functionaliteiten binnen AxyLife, analyseert procesmatige en rekenkundige uitkomsten en zorgt ervoor dat onze software voldoet aan wet‑ en regelgeving, pensioenregelingen en klantafspraken. Je werkt aan interne releases én klantprojecten, waarbij kwaliteit, nauwkeurigheid en ketenstabiliteit centraal staan.
+
+
+Deze rol past uitstekend bij testers die ervaring hebben in complexe domeinen zoals pensioen, verzekeringen, energie of zorg. En testers die graag schakelen tussen inhoud, techniek en gebruikers.
+
+**Je gaat onder andere:**
+
+* Testscenario’s en testcases ontwerpen op basis van pensioenprocessen, rekenregels en functionele ontwerpen.
+* Functionaliteiten in AxyLife testen (functioneel, ketenbreed en waar relevant rekenkundig).
+* Bevindingen analyseren en helder documenteren.
+* Resultaten toetsen aan wetgeving, regelingsteksten en klantafspraken.
+* Intensief samenwerken met developers, productowners, consultants en klantteams.
+* Bijdragen aan het verbeteren van testaanpak, processen, automatisering en tooling.
+* Meedenken over functionele ontwerpen en requirements wanneer dat nodig is.
+* Waar nodig deelnemen aan klantprojecten of tijdelijk op klantlocatie werken als specialistische tester.
+
+
+Je werkt hybride, met veel ruimte om vanuit huis te werken. Voor overleg, teamdagen of specifieke werkzaamheden kom je naar kantoor.
+
+**Wie jij bent**
+
+
+Je combineert analytische kracht met inhoudelijke nieuwsgierigheid. Je vindt het leuk om complexe materie te doorgronden en om te zetten in duidelijke testcases, heldere analyses en concrete verbeteringen.
+
+**Wij zoeken iemand die:**
+
+* Ervaring heeft als softwaretester in een complex domein (pensioen, verzekeringen, energie, zorg of vergelijkbaar).
+* Ervaring heeft met testontwerp en het beoordelen van user stories en requirements.
+* Goed kan omgaan met situaties waarin user stories en requirements niet volledig zijn uitgewerkt, en in staat is om via exploratory testing toch tot een gedegen testaanpak te komen.
+* Bekend is met SQL, XML, API‑testen (bijv. SoapUI/Postman), of bereid is dit snel te leren.
+* Ervaring heeft met Agile/Scrum‑teams en samenwerken met developers e

@@ -1,0 +1,57 @@
+**Description**  
+
+
+
+  
+
+Department: MTA IT  
+
+Location: 2 Broadway, New York, NY 10004  
+
+Position Title: Enterprise Architecture, Technology \& Engineer Fellow  
+
+Hourly Rate: $21\.00 (Undergraduate), $23\.00 (Graduate)  
+
+  
+
+All internship positions are onsite and require regular, in\-person attendance at the designated work location.  
+
+  
+
+**OVERVIEW OF DEPARTMENT:**  
+
+The Enterprise Architecture team works to support data governance and digital transformation across the MTA.  
+
+  
+
+The MTA IT Enterprise Architecture Fellow will work with senior staff to support ongoing efforts in Enterprise Architecture, data governance, and digital transformation. The intern will help to create processes and technology solutions that define, uphold, and communicate MTA IT’s data democratization vision, encompassing the principles, governance and management that support business strategies and drive technology innovation in Artificial Intelligence (AI) and Machine Learning (ML). This position begins in Fall 2026; candidates should be ready to commit minimum of 12‑months in the role.  
+
+  
+
+**RESPONSIBILITIES:**  
+
+* Support Abacus Modeling and Scripting \- Assist in developing and maintaining scripts in Abacus (VBScript, Python, or JavaScript) to automate modeling, diagram generation, and data imports/exports.
+* Contribute to Data, AI/ML initiatives – Drive the modernization of MTA’s Data, ML, and AI services, to enhance operational efficiency, enable data\-driven decision\-making, and maximize business value.
+* Research Data and AI Policies and Industry Regulations – Stay current on Data and AI policy developments and industry regulations, contributing to the creation of governance frameworks to ensure responsible practices within MTA.
+* Monitor Technologies and Regulatory Trends – Track technology advancements as well as changes in federal and state regulations, providing actionable insights to inform MTA’s IT strategy.
+* Assist in Data Validation and Policy Development – Support data validation efforts, review processes, and contribute to the development of policies, ensuring accuracy and compliance across multiple initiatives.
+* Provide Research and Administrative Support – Handle foundational research tasks and support key activities to enable high\-priority projects.
+* Foster Talent Development and Efficiency – The intern will enhance workflow efficiency, free up resources, and contribute to the development of future talent for the growing needs in Data and AI governance by taking on research, analysis, and documentation tasks.
+
+  
+
+  
+
+**PROJECTS:**  
+
+* Researching and drafting policies for research data and AI.
+* Participate in modeling, diagram generation and data imports/exports.
+* Track changes in technology regulation at the state and federal levels.
+
+  
+
+  
+
+**REQUIRED QUALIFICATIONS:*** Proficiency in Microsoft Office Suite is a must.
+* The candidate should possess organizational, analytical and communication skills.
+* The candidate should

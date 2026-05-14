@@ -1,0 +1,68 @@
+**1\-800\-Flowers.com Internship Program – AI**
+===============================================
+
+
+**Position Title:** AI Software Development Intern  
+
+**Department:** Product \& AI Innovation / Software Development  
+
+**Location:** On\-Site – Jericho, NY  
+
+**Duration:** 10–12 Weeks (Summer Internship)  
+
+**Hours:** Full\-Time
+
+
+**About 1\-800\-Flowers.com, Inc.**
+-----------------------------------
+
+
+
+1\-800\-Flowers.com, Inc. is a leading provider of gifts designed to help customers express, connect, and celebrate life's most meaningful moments. Our family of brands includes Harry \& David, Cheryl's Cookies, PersonalizationMall.com, Things Remembered, and more.
+
+
+
+As part of our internship program, you'll gain hands\-on experience, learn from industry experts, and contribute to projects that directly impact how we deliver smiles every day.
+
+
+**Position Summary**
+--------------------
+
+
+
+The **AI Software Development Intern** will support the Software Development team within our Product \& AI Innovation organization by assisting with development initiatives, contributing to AI\-driven projects, and building tools that improve engineering efficiency.
+
+
+
+This role is ideal for students who are curious, technically driven, and excited about applying AI to real\-world software development challenges in a fast\-paced, innovative environment.
+
+
+**Key Responsibilities**
+------------------------
+
+
+### **Core Responsibilities (All Interns)**
+
+
+* Support department initiatives through research, documentation, and project coordination
+* Assist with cross\-functional collaboration across the 1\-800\-Flowers family of brands
+* Attend team meetings, present findings, and share progress with stakeholders
+* Participate in internship learning sessions, networking opportunities, and workshops
+* Contribute ideas to enhance business processes and improve customer experience
+
+### **Function\-Specific Responsibilities (AI Software Development)**
+
+
+* Assist in building AI\-powered tools to automate software development processes
+* Support development of automated code review solutions that provide intelligent, context\-aware feedback
+* Contribute to automation efforts related to deployments, security vulnerability remediation, and engineering workflows
+* Help design and develop internal tools or utilities to replace manual processes
+* Collaborate with engineers to identify opportunities where AI can improve efficiency and code quality
+* Participate in testing, debugging, and improving system performance
+* Document processes, tools, and technical solutions developed during the internship
+
+Requirements:
+* Currently pursuing a bachelor's degree in **Computer Science, Software Engineering, Information Technology, or a related field**
+* Strong foundation in programming (e.g., Python, Java, JavaScript, or similar)
+* Familiarity with software development principles and version control (e.g., Git)
+* Interest in or exposure to **AI/ML tools, APIs, or frameworks** (e.g., OpenAI

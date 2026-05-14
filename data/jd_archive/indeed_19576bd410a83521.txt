@@ -1,0 +1,47 @@
+Bei Roche kannst du ganz du selbst sein und wirst für deine einzigartigen Qualitäten geschätzt. Unsere Kultur fördert persönlichen Ausdruck, offenen Dialog und echte Verbindungen. Hier wirst du für das, was du bist, wertgeschätzt, akzeptiert und respektiert. Dies schafft ein Umfeld, in dem du sowohl persönlich als auch beruflich wachsen kannst. Gemeinsam wollen wir Krankheiten vorbeugen, stoppen und heilen und sicherstellen, dass jeder Zugang zur Gesundheitsversorgung hat – heute und in Zukunft. Werde Teil von Roche, wo jede Stimme zählt.
+  
+  
+
+Die Position
+  
+  
+
+Role Overview
+  
+  
+
+Are you interested in how software R organizations evolve to integrate AI and stay ahead in a changing technological landscape?We are looking for a high\-energy, detail\-orientedR AI Transformation Intern to join our strategy team.
+  
+You won't just be fetching coffee; you’ll be behind the scenes of major structural, cultural, and digital shifts as we embed AI into our engineering DNA, helping us bridge the gap between "traditional development" and "AI\-augmented innovation."
+  
+  
+
+Key Responsibilities
+  
+  
+
+* Data Analysis\& Insights: Gather and analyze R performance metrics and AI tool adoption rates to identify bottlenecks and track the progress of ongoing AI transformation initiatives.
+* Stakeholder Communication: Assist in drafting internal memos, newsletters, and presentation decks that translate complex AI strategies and LLM implementations into "human" language for our developers and engineers.
+* Project Management Support: Maintain project timelines (Gantt charts) and follow up on action items from cross\-functional workshops focused on AI integration and automated workflows.
+* Research: Conduct competitive benchmarking and research best practices in AI\-assisted coding, machine learning operations (MLOps), and organizational design for AI\-first R teams.
+* Workshop Facilitation: Help organize and document brainstorming sessions aimed at improving software delivery pipelines through AI and boosting developer engagement with new intelligent tools.
+
+
+What We’re Looking For
+  
+  
+
+* Curiosity: A genuine interest in the intersection of software business strategy, AI ethics, and engineering culture.
+* Communication: The ability to explain a complex technical AI concept or strategic shift simply and clearly.
+* Agility: Comfort with ambiguity—navigating the rapid evolution of AI in R is rarely a straight line!
+* Tech Savvy: Proficiency in Microsoft Excel (data visualization) and PowerPoint (storytelling), with an interest in exploring AI productivity tools.
+* Academic Background: Currently pursuing a degree in Computer Science, Data Science, Software Engineering, Business Administration, or a related field.
+
+
+Why Join Us?
+  
+  
+
+This isn't your typical administrative internship. You will gain a "bird's\-eye view" of how a software R organization operates at scale and learn the methodologies used to drive meaningful change in the age of AI.
+  
+If you're a proble

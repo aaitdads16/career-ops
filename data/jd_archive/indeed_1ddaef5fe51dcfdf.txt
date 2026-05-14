@@ -1,0 +1,44 @@
+At Mercedes\-Benz Research \& Development North America (MBRDNA), we are committed to delivering world\-class automotive technologies that push the boundaries of what is possible. Our teams of highly skilled engineers and designers use cutting\-edge software and technology, to enhance the driving experience and reduce environmental impact.  
+
+Automated analytics for data streamed from development fleets are at the backbone of fast and secure development of tomorrow’s ADAS and autonomous driving systems. As leader in these fields, Mercedes\-Benz is on the forefront of new developments in this area. This role will support and drive the software development for the automated analysis of live data in order to bring SAE Level L2\-L4 autonomous vehicles to the market safely. The focus of this internship will be to develop tools to evaluate an entire fleet of automated vehicles and to automate this data driven workflows in Databricks to enable the operation of our AD fleet at large scale.
+
+This internship will start in August of 2026 and go through the fall.
+### **Job Responsibilities:**
+
+* Learn and work with Databricks pipelines using PySpark and SQL
+* Develop high quality Python code following software engineering best practices (code reviews, clean design, refactoring, unit and regression testing)
+* Design, deploy, and integrate analytics toolchains in the cloud and within the autonomous driving fleet
+* Test and validate solutions both in cloud environments and on real development vehicles
+* Collaborate with international teams and development partners across regions
+* Work in an Agile/Scrum environment to deliver measurable, customer focused value
+* Explore the application of AI and data science methods to derive insights from large scale vehicle data
+
+### **Minimum Qualifications:**
+
+* Enrolled in a degree in Computer Science, Robotics, Electrical Engineering, or a related field
+* Strong programming skills in Python (e.g., pandas, Jupyter Notebooks)
+* Solid foundations in software engineering (Git, Linux, debugging, automated testing, basic design principles)
+* Experience with data analytics environments like Databricks, Spark or Pyspark
+* Experience with scripting languages to automated operation system workflows in Unix environments (e. g. shell script)
+* Experience with agile software development methods
+* Good communication skills, ability to formulate thoughts and ideas precisely in verbal and written form
+* Ability to work in a dynamic environment with changing boundary conditions
+
+### **Preferred Qualifications:**
+
+* Hands‑on experience with Apache Spark and/or Databricks
+* Experience working in Linux environments
+* Exposure to cloud‑based data processing or large‑scale data workflows
+* Curiosity, self‑motivation, and enthusiasm for solving open‑ended technical challenges
+* Interest in autonomous driving, ADAS, or automotive software systems
+
+Benefits/Perks:  
+
+* PTO
+* Sick Time
+
+  
+
+Additional Information:  
+
+The current hourly rate for th
