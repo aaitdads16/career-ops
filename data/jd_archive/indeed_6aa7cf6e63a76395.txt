@@ -1,0 +1,47 @@
+Estamos em busca de um **Desenvolvedor PHP Sênior** para atuar em projetos estratégicos, garantindo evolução contínua dos sistemas internos, segurança das integrações e alta qualidade técnica das entregas. Se você é uma pessoa analítica, detalhista, comprometida com boas práticas e gosta de desafios complexos, essa vaga é para você!
+
+  
+
+Vem ser Onset!
+
+ **Responsabilidades e atribuições**  
+
+* Desenvolver e manter aplicações PHP nativas rodando em IIS, integradas a SQL Server e outros sistemas internos;
+* Implementar, evoluir e dar suporte a APIs RESTful e serviços SOAP, garantindo segurança, performance e qualidade das integrações internas;
+* Analisar requisitos técnicos e de negócio, propor soluções viáveis e desdobrá\-los em tarefas de desenvolvimento;
+* Modelar e otimizar bancos de dados relacionais (SQL Server), incluindo consultas, procedures e funções;
+* Garantir a qualidade do código, aplicando boas práticas, padrões de desenvolvimento, revisão de código (code review) e testes;
+* Colaborar com analistas, arquitetos e áreas de negócio na especificação de requisitos e nas integrações entre sistemas;
+* Elaborar e atualizar documentação técnica de serviços, integrações, rotinas e componentes desenvolvidos;
+* Atuar na análise e correção de incidentes em produção, identificando causas\-raiz e propondo melhorias permanentes;
+
+  
+
+**Requisitos e qualificações** **Conhecimentos:**
+
+* Experiência sólida em desenvolvimento de software utilizando PHP 7\.4\+ (PHP nativo) em ambiente de produção
+* Experiência em modelagem de bancos de dados relacionais, com foco em SQL Server
+* Experiência com metodologias ágeis (Scrum/Kanban) – princípios, gestão de fluxo de trabalho e cerimônias
+* Experiência no desenvolvimento e consumo de APIs RESTful, incluindo modelagem de endpoints, versionamento, autenticação/autorização, tratamento de erros, performance e boas práticas de segurança
+* Experiência no desenvolvimento e consumo de serviços SOAP, incluindo definição de contratos (WSDL), integração com sistemas legados, tratamento de erros, performance e boas práticas de segurança
+* Sólida compreensão de desenvolvimento web, incluindo HTTP/HTTPS, cookies, sessões, CORS, melhores práticas, privacidade e segurança.
+
+
+Conhecimentos Específicos
+
+* Domínio de PHP 7\.4\+ (nativo), orientação a objetos, manipulação de arrays, sessões, tratamento de erros/exceções e boas práticas de organização de código;
+* HTML5, CSS3, Bootstrap e JavaScript em nível suficiente para manutenção e evolução de interfaces web;
+* Experiência em acesso a bancos de dados SQL Server via;
+
+ **Desejável**
+
+* Vivência com controle de versão usando Git (branching, pull requests, code review);
+* Experiência em desenvolvimento de aplicações PHP rodando em IIS, incluindo configuração de sites e application pools, FastCGI, URL Rewrite, permissões, logs e troubleshooting;
+
+  
+
+﻿
+
+**Diferenciais:**
+
+* Experiência em ambientes de sistemas críticos e complexos (alta disponibilidade, grande volume de dados, m

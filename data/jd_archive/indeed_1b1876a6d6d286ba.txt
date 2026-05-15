@@ -1,0 +1,56 @@
+**About Astera:**
+=================
+
+
+Astera is a private foundation on a mission to steer science and technology toward an abundant future. We believe the coming years will bring an era of unprecedented scientific and technological advancement as exponential progress in AI converges with central advances in other fields to dramatically accelerate innovation. This inflection point provides an unparalleled opportunity to fundamentally rethink the institutions, systems, and tools that drive scientific progress.
+
+
+Unlike traditional non\-profit research organizations, projects supported by Astera operate like high\-velocity startups, allowing us to focus on ambitious goals, match structure to problem, and attract strong technical talent and leadership. You can read more about our mission, vision, and programming here.
+
+**Position Summary**
+====================
+
+
+Astera Institute is seeking a Computational Neuroscience Intern to help analyze large\-scale connectome and neurophysiology datasets and develop computational models of neural circuits and brain function. This role is ideal for students or early\-career researchers interested in combining neuroscience, data analysis, and scientific computing.
+
+**Responsibilities:**
+=====================
+
+* Process and analyze neurophysiology data such as electrophysiology, calcium imaging, or spike train recordings
+* Analyze connectomics datasets, including neuronal connectivity graphs and anatomical reconstructions
+* Develop computational models of neural circuits and network dynamics
+* Implement data analysis pipelines and visualization tools
+* Collaborate with researchers to interpret experimental data and generate hypotheses
+* Contribute to documentation, reproducible workflows, and scientific reports
+
+**Qualifications and Experience**
+=================================
+
+* Experience programming in Python and Matlab
+* Familiarity with scientific computing libraries such as NumPy, SciPy, pandas, PyTorch, TensorFlow, or similar tools
+* Basic understanding of neuroscience concepts, neural systems, or computational modeling
+* Experience working with data analysis, statistics, or machine learning workflows
+* Ability to work independently and communicate technical findings clearly
+
+**Preferred Qualifications**
+============================
+
+* Experience with connectomics or neurophysiology datasets
+* Knowledge of computational neuroscience frameworks or simulators (e.g., NEST, Brian, NEURON)
+* Experience with machine learning or dynamical systems modeling
+* C\+\+ programming experience is a strong bonus
+* Familiarity with Linux, Git, and high\-performance computing environments
+
+**Nice\-to\-Have Areas of Interest**
+====================================
+
+* Neural circuit modeling
+* Vision neuroscience
+* Synaptic plasticity and learning
+* Large\-scale brain simulations
+* Data\-driven modeling of neural systems
+
+**Education**
+=============
+
+* Pursuing or recently completed a degree in Computational Neuroscience, Neu

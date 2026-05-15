@@ -1,0 +1,56 @@
+**Job ID:** 15737
+**Business Unit:** New York City Transit
+**Location:** Brooklyn, NY, United States
+**Regular/Temporary:** Regular
+**Department:** Prod.Plan. \& Sched.
+**Date Posted:** May 14, 2026
+**Description**
+
+
+Job Information:
+
+
+Title: Transit Management Analyst Series
+Department: Subways  
+
+Authority: NYCT
+Division/Unit: Service Delivery  
+
+Work Location:
+Hours:  
+
+Compensation:  
+
+Assistant Transit Management Analyst I:
+$67,933\* \- $80,421  
+
+Assistant Transit Management Analyst II:
+$78,874\* \- $87,847  
+
+Associate Transit Management Analyst:
+$89,162\* \- $115,445* All new hires will be brought in at the minimum of the salary range.
+  
+
+Deadline (If Applicable):  
+
+Reporting Manager (If Applicable):
+Chief System Operator, PCC.  
+
+
+  
+
+Position Summary:
+
+
+The role supports the PCC by enhancing operational efficiency through technology, data management, and process improvement. The position is responsible for maintaining and improving digital tools such as SharePoint, Microsoft Lists, Power Automate, and various PCC systems and databases. The candidate will help modernize workflows by assisting with AI, automation, and ETL efforts using tools such as SQL, Python, and Azure. Responsibilities include organizing and maintaining large datasets, developing Power BI dashboards, designing data entry applications, and serving as a key liaison with IT teams for new system development. The role also supports day‑to‑day operational needs, including documentation, reporting, audit preparation, and coordination with stakeholders across the organization to ensure accurate data, improved workflows, and effective administrative support.
+
+
+Responsibilities:
+
+* Support the team’s goal of using AI, automation, and new technology tools to improve PCC processes, reduce manual work, and make daily operations more efficient. Candidates with experience in SQL, Python, and Azure are preferred to support ETL work, data validation, and data quality efforts.
+* Manage, maintain, and improve SharePoint sites, Microsoft Lists, Power Automate, and other digital tools used for operational data entry, tracking, record management, and workflow support across the PCC environment.
+* Work closely with MTA IT / Product teams as the PCC point of contact to support the development of new databases, systems, applications, and digital solutions for department needs.
+* Monitor, maintain, and support PCC systems and databases such as SODOS, Edison, EMD, GO, Unusual, CBH, and related platforms, ensuring they continue to meet operational needs.
+* Design, build, and manage data entry tools, logs, applications, reports, spreadsheets, trackers, and system solutions used for daily operations, emergency reporting, and other department workflows.
+* Organize, clean, format, and maintain large datasets in Excel and related systems, including removing null values, improving data structure, and helping move data from older Access databases into newer sandbox or cloud\-based systems.
+* Develop,

@@ -1,0 +1,34 @@
+**Job ID:** 15832
+**Business Unit:** New York City Transit
+**Location:** New York, NY, United States
+**Regular/Temporary:** Intern
+**Department:** NYC Transit Authority
+**Date Posted:** May 14, 2026
+**Description**
+
+
+Department: Safety, Security, \& Environment
+Location: 2 Broadway, New York, NY 10004
+Position Title: Environmental, Health, \& Safety Data, Emerging Talent Intern
+Hourly Rate: $19\.00 (Undergraduate), $21\.00 (Graduate)
+
+All internship positions are onsite and require regular, in\-person attendance at the designated work location.  
+
+**OVERVIEW OF DEPARTMENT:**
+The Environmental Protection and Industrial Hygiene Department is part of the Office of System Safety, which provides oversight for all aspects of safety across New York City Transit. Our Environmental Protection unit is responsible for ensuring agency\-wide compliance with federal, state, and local environmental regulations. The team conducts field audits, reviews operations for environmental risks, issues recommendations, and works closely with operating departments to help them meet all applicable requirements.  
+
+The Industrial Hygiene unit focuses on evaluating potential workplace health hazards. This includes conducting noise and air monitoring, performing exposure assessments, and ensuring compliance with applicable OSHA standards. The team works directly with field personnel to identify risks, implement controls, and verify the effectiveness of protective measures.  
+
+Together, both units support the agency’s mission to maintain safe and compliant operations by providing technical expertise, oversight, and guidance on environmental compliance and employee health and safety. An intern in this department will gain hands‑on exposure to regulatory compliance, field assessments, data analysis, and the practical application of safety principles within one of the largest transit systems in the world.
+
+The intern will be responsible for refining existing data trackers in both SharePoint and Excel, creating new trackers as needed, and transferring data into Power BI. They will also help set up Power BI to generate automated reports.
+**RESPONSIBILITIES:*** Refine and standardize existing SharePoint and Excel data trackers.
+* Develop new data trackers as needed to support environmental and industrial hygiene programs.
+* Transfer and organize existing data into Power BI to support dashboard development.
+* Build and configure Power BI dashboards to generate automated safety and compliance reports.
+* Review current data workflows and recommend improvements to streamline reporting processes.
+* Assist with compiling safety and environmental metrics requested by the President’s Office.
+* Support the Environmental Protection and Industrial Hygiene teams with data organization and documentation.
+* Help ensure accuracy, completeness, and consistency of departmental data across all tracking systems.
+
+**PROJECTS:*** Refine and standardize existing data trackers in SharePoint and Excel, ens

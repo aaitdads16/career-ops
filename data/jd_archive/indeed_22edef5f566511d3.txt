@@ -1,0 +1,22 @@
+Overview:
+
+A U.S. Department of Energy National Laboratory managed by Princeton University, the Princeton Plasma Physics Laboratory (PPPL) is tackling the world’s toughest science and technology challenges using plasma, the fourth state of matter. With more than 70 years of history, PPPL is a leader in the science and engineering behind the development of fusion energy, a potentially limitless energy source. PPPL is also using its expertise to advance research in the areas of microelectronics, quantum sensors and devices, and sustainability sciences. Whether it be through science, engineering, technology or professional services, every team member has an opportunity to contribute to our mission and vision. Come join us!
+Responsibilities:
+**Core Duties:*** This assignment will focus on advancing research in artificial intelligence and machine learning applied to edge\-to\-exascale computing environments. Specifically, the work will involve investigating the incorporation of real\-time dynamic data into the ROSE surrogate building framework for the selection, optimization, and concurrent refresh of an ensemble of models, and designing adaptive system architectures that dynamically select appropriate models based on real\-time conditions and resource availability.
+
+
+Qualifications:
+**Education and Experience:*** Graduate Student.
+
+  
+
+Princeton University is an Equal Opportunity Employer and all qualified applicants will receive consideration for employment without regard to age, race, color, religion, sex, sexual orientation, gender identity or expression, national origin, disability status, protected veteran status, or any other characteristic protected by law.  
+
+The University considers factors such as (but not limited to) scope and responsibilities of the position, candidate's qualifications, work experience, education/training, key skills, market, collective bargaining agreements as applicable, and organizational considerations when extending an offer. The posted salary range represents the University's good faith and reasonable estimate for a full\-time position; salaries for part\-time positions are pro\-rated accordingly.  
+
+If the salary range on the posted position shows an hourly rate, this is the baseline; the actual hourly rate may be higher, depending on the position and factors listed above.  
+
+The University also offers a comprehensive benefit program to eligible employees. Please see this link for more information.  
+
+Please be aware that the Department of Energy (DOE) prohibits DOE employees and contractors from participation in certain foreign government talent recruitment programs. All PPPL employees are required to disclose any participation in a foreign government talent recruitment program and may be required to withdraw from such programs to remain employed under the DOE Contract.
+Standard Weekly Hours: 0\.00 Eligible for Overtime: Yes Benefits Eligible: No Probationary Period: N/A Essential Services Personnel (see policy fo

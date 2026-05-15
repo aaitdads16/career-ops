@@ -1,0 +1,56 @@
+**Job Description:**
+
+DXC Technology (NYSE: DXC) is a leading enterprise technology and innovation partner delivering software, services, and solutions to global enterprises and public sector organizations — helping them harness AI to drive outcomes at a time of exponential change with speed. With deep expertise in Managed Infrastructure Services, Application Modernization, and Industry\-Specific Software Solutions, DXC modernizes, secures, and operates some of the world's most complex technology estates. Learn more on dxc.com .
+
+
+**Software Engineering Intern**
+
+**What You’ll Do (Your Learning Opportunities)**
+
+As a **Software Engineering Intern** , you will gain real\-world exposure to IT systems and support work. Your responsibilities will include:
+
+
+* Working on incident tickets by updating status and tracking progress using a Service Management tool
+* Learning how to analyze and troubleshoot basic technical or system\-related issues
+* Assisting with simple system enhancements and report requests
+* Supporting testing activities for system changes, including:
+
+
+
+	+ Creating basic test cases
+	+ Preparing test data
+	+ Checking and documenting test results
+* Helping to prepare step\-by\-step instructions for deploying changes into the production environment
+* Compiling weekly or monthly summaries of incident tickets and service requests
+* Supporting other tasks or projects assigned by the team or account manager
+
+**Who Can Apply**
+
+* Diploma or Degree students
+* Undergraduates currently enrolled in a Diploma or Degree program at a college or university
+* Students studying Software Engineering, Information Technology, Computer Science, or related fields
+
+**Skills Required**
+
+* Basic knowledge or hands\-on experience in Java, .NET, or UI/UX (preferred).
+* Basic knowledge or hands\-on experience in HTML5, CSS, and JavaScript/jQuery.
+* Knowledge of React, Node.js, Next.js, and Bootstrap is an added advantage.
+* Experience with any CMS platform is an added advantage.
+* Proficiency in Microsoft Word, PowerPoint, and Excel.
+* Basic understanding of the Software Development Life Cycle (SDLC).
+* Good verbal and written communication skills in English.
+* Ability to work well in a team and communicate effectively.
+* Willingness to learn, manage multiple tasks, and take initiative.
+* Strong problem\-solving mindset and attention to detail.
+* Friendly attitude with good interpersonal skills.
+
+Why This Internship Is Great for Students
+
+
+* Hands\-on industry experience
+* Exposure to real systems, tools, and processes
+* Opportunity to apply classroom learning in a real work environment
+* Mentorship from experienced professionals
+* Strong foundation for future IT or software development careers
+
+At DXC Technology, we believe strong connections and community are key to our success. Our work model prioritizes in\-person collaboration while offering flexibility to support wellbeing, productivity, individual work styles, and life circumstances. We’re committed to fos

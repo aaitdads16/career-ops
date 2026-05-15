@@ -1,0 +1,29 @@
+Overview:
+
+Facility Solutions Group (FSG) is one of the nation’s largest electrical contractors. From the bright lights of Times Square to massive commercial developments across the five boroughs, we handle the design, installation, and service of the systems that power New York. We believe the future of the trades is driven by technology, and we are looking for a motivated intern to help us integrate AI into our core electrical operations. **The Mission**  
+
+This isn't a theoretical research role. At FSG, your mission is to build AI\-driven tools that solve the "boots\-on\-the\-ground" challenges of electrical contracting. You will work at the intersection of data science and the electrical trade, helping us move from manual processes to intelligent, automated workflows.
+Responsibilities:
+**Key AI Initiatives**  
+
+You will spend your summer focused on three core technical pillars:* **Automated Estimating \& Takeoffs:** Develop and refine Computer Vision models to "read" electrical symbols on PDF blueprints, automatically counting outlets, fixtures, and conduit runs to generate instant material bids.
+* **Predictive Labor Analytics:** Use historical project data to build regression models that predict "man\-hour" overruns based on building type, weather patterns, and NYC\-specific logistical delays.
+* **Safety \& Compliance Monitoring:** Implement real\-time object detection for job\-site cameras to ensure crews are following OSHA electrical safety protocols and wearing proper Arc Flash protection.
+* **Smart Procurement:** Build a recommendation engine to optimize the timing of copper and bulk material purchases based on market price fluctuations and project timelines.
+
+**NYC Specifics*** **Location:** You must be able to commute to our NYC office/job sites.
+* **The "Hustle" Factor:** Construction is fast\-paced. We need someone who can iterate on models quickly and pivot when project requirements change.
+
+**Why This Internship is Unique**  
+
+You won't be building another "cat vs. dog" classifier. You will be building tools that affect the physical infrastructure of New York City. You will see how your code translates into thousands of feet of conduit being installed correctly and safely. **Duration:** June – August 2026  
+
+
+Qualifications:
+* **Current Student:** Junior or Senior pursuing a degree in CS, Data Science, or Electrical Engineering with a heavy focus on AI.
+* **Python Expert:** Ability to write clean, production\-ready Python code.
+* **The AI Toolkit:** Familiarity with **OpenCV** (for blueprint analysis), **Pandas** (for labor data), and frameworks like **TensorFlow** or **PyTorch**.
+* **Physical Context:** A basic understanding of electrical systems (circuits, panels, voltage) is a major plus. You must be comfortable visiting active construction sites to collect training data.
+
+
+Pay Range: USD $18\.00 \- USD $22\.00 /Hr.

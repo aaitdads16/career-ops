@@ -1,0 +1,39 @@
+**Company Overview**
+====================
+
+
+Founded in 2015, PHIL is a Series D health\-tech startup that is building a platform that interfaces between doctors, pharmacies, and patients to streamline the process of patients receiving prescriptions. This is a complex, archaic industry, and we've set out to change that.
+
+
+PHIL’s B2B2C platform provides an end\-to\-end prescription management and delivery service. Our robust platform connects patients, prescribers, pharmacies, and manufacturers, enabling easy and affordable access to medicine. Through its digital stakeholder experiences, patient access services, market access solutions, and distribution models, pharma manufacturers can deliver affordable and timely therapy access to patients, resulting in more patients staying on their treatment plans longer. Consequently, pharma manufacturers are enabled for more innovation.
+
+
+The team at PHIL is a group of like\-minded individuals from varying backgrounds, passionate about creating a new and innovative healthcare platform that is focused on patient experience and overall human wellbeing. Ready to join our team of mission\-driven, analytical, and passionate people? Keep reading!
+
+**Application deadline:**
+-------------------------
+
+*Candidates may apply until May 29, 2026 at 9:00 PM PST. Following the application deadline, our team will review all submissions and contact candidates selected to move forward in the interview process.*
+
+  
+
+**Position Overview**
+=====================
+
+
+PHIL is seeking a motivated and curious AI Developer Summer Intern to join our Engineering team. This internship will provide hands\-on experience designing, building, testing, and deploying AI\- and ML\-powered solutions that solve real business problems.
+
+
+Reporting to the Engineering leadership team, you will collaborate with cross\-functional stakeholders to support AI initiatives focused on improving business processes, operational efficiency, and internal tooling. This role offers exposure to enterprise\-scale systems, modern AI architectures, and emerging technologies including generative AI and large language models (LLMs). You’ll have the opportunity to contribute to meaningful projects while learning from experienced technical mentors in a fast\-paced, high\-growth environment.
+
+**Responsibilities**
+====================
+
+* Assist in the design, development, testing, and deployment of AI/ML models and applications
+* Collaborate with Engineering, IT, and business stakeholders to translate business needs into technical solutions
+* Build and optimize data pipelines and inference workflows
+* Develop prototypes and AI\-powered applications within cloud environments such as AWS
+* Work with both structured and unstructured datasets, including text, APIs, and image\-based data
+* Experiment with large language models (LLMs), prompt engineering techniques, and AI APIs
+* Document code, experiments, and technical findings for team collaboration and knowledge sharing
+* Par

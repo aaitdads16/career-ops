@@ -1,0 +1,63 @@
+**About Neuralink:**
+
+
+
+We are creating devices that enable a bi\-directional interface with the brain. These devices allow us to restore movement to the paralyzed, restore sight to the blind, and revolutionize how humans interact with their digital world.
+
+**Team Description:**
+
+
+
+The Next Gen team at Neuralink is developing the next generation of brain\-computer interfaces. We are laying the groundwork for intuitive, high\-dimensional, and bidirectional interfaces between brains and machines, with the goal of helping people challenged by a variety of neurological disorders and conditions. Our team consists of scientists and engineers, working closely together to define the engineering requirements for these future products. As a Neuroengineer Intern on this team, you will contribute across a wide range of projects, from designing novel experimental preparations, to interpreting neural signals and behavioral data, to developing novel BCI paradigms. Successful candidates will be highly adaptable, able to deploy their core technical and creative skills to tackle a wide range of problems, and have a keen sense of urgency.
+
+
+**Job Description and Responsibilities:**
+
+
+* Design computational models to optimize electrical stimulation parameters and develop encoding strategies for sensory neural stimulation
+* Integrate machine vision algorithms with VR environments to design end\-to\-end solutions for prosthetic vision
+* Design, execute, interpret, and communicate the results of neural recording and stimulation experiments
+* Present results in a collaborative setting
+
+
+**Required Qualifications:**
+
+
+* Evidence of exceptional ability in neuroscience, biomedical engineering, electrical engineering, machine learning, or a related field
+* 2\+ years of academic or industry experience
+* A strong understanding of the scientific method and engineering first principles
+* Fluency with Python for data analysis
+
+
+**Preferred Qualifications:**
+
+
+* Experience with modern statistical inference and machine learning, including for machine vision applications
+* Experience with neural stimulation
+* Experience modeling the influence of electrical stimulation on neural activity, for example using the NEURON modeling environment
+* Experience modeling electric fields using finite element modeling (FEM)
+* Experience building and programming experimental instrumentation
+* Experience with in\-vivo electrophysiology, awake behaving recordings, and in particular, closed\-loop brain\-computer interface
+
+
+**Pay Transparency:**
+
+
+
+Based on California law, the following details are for California individuals only.
+
+
+
+**California Hourly Rate:**
+$35/Hr USD
+
+**What We Offer:**
+
+
+
+Full\-time employees are eligible for the following benefits listed below.
+
+
+* An opportunity to change the world and work with some of the smartest and most talented experts from different fields
+* Growth potential; we rapidly advance team members who have an outsized impact
+* Excellent medical, dental, and v

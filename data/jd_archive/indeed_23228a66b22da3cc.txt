@@ -1,0 +1,32 @@
+At the MBTA, we envision a thriving region enabled by a best\-in\-class transit system. Our mission is to serve the public by providing safe, reliable, and accessible transportation. MBTA’s Core Values are built around safety, service, equity, sustainability, and culture. Each employee that works for the MBTA performs their roles based on our vision, mission, and values. This includes attendance, participation, and contribution in local safety committee meetings as needed.
+
+
+
+**Job Summary**
+---------------
+
+
+The Data Engineer will be responsible for expanding, enhancing, and maintaining MBTA’s data warehouse and related infrastructure for effective utilization by internal and external stakeholders. The position will be a vital partner in implementing the MBTA’s broader data strategy. The role involves data warehouse management (including SQL\-based programming to structure data flows and data sources, providing input on data architecture, as well as managing the Extract, Transform and Load (ETL) process, automated data flows, error handling, and other related tasks), and working closely with other members of the Information Management and Technology teams team to promote effective data utilization. This individual will ensure a positive end\-user experience, application availability, and address errors efficiently, as well as oversee the mapping of data sources, data movement, interfaces, and analytics, with the goal of ensuring data quality.
+
+
+**Duties \& Responsibilities**
+------------------------------
+
+
+* Design, develop, and document ETL processes, technical architecture, data pipelines, and performance.
+* Develop integration process data flows and data mapping analyses.
+* Address application and data\-related problems regarding systems integration, compatibility, and multiple\-platform integration.
+* Develop and promote data integration methodologies and standards.
+* Develop and implement key components as needed to create testing criteria to guarantee the fidelity and performance of application and data architecture.
+* Identify and develop opportunities for code and data reuse, migration, or retirement of systems.
+* Work independently and collaboratively to identify issues, perform root\-cause analysis that would lead to proper and timely issue resolutions.
+* Take ownership over data flow errors, communicating about them and working to resolve them as efficiently as possible.
+* Establish methods and procedures for tracking data quality, completeness, redundancy, and improvement.
+* Work closely with the rest of the Business Intelligence team and other internal stakeholders to understand the needs of the business and build data resources to best meet those needs.
+* Perform all other duties and projects that may be assigned.
+
+**Minimum Requirements \& Qualifications**
+------------------------------------------
+
+
+* Bachelor’s Degree from an accredited institution in Computer Science, Information Systems, Business Administration or another rel

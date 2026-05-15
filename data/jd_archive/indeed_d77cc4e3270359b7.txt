@@ -1,0 +1,62 @@
+**About Rubrik**
+
+
+Rubrik empowers the world to stay in motion by organizing and protecting our customers' information. We’re a team of change makers, defining the future of cybersecurity. Our culture of empowerment encourages everyone to share their ideas, run with them, and leave their mark on what we’re building. United by our purpose to secure the world’s data, we continue to reach new heights. And the best part? We’re just getting started! Everyone here has the opportunity to grow by leaps and bounds, and there is unlimited potential in front of us. Let’s pioneer the next frontier in cybersecurity by securing the world’s data, together.
+
+
+**Information Security \- Who We Are**
+
+
+The Information Security (InfoSec) organization advances the overall state of security at Rubrik through critical initiatives and coordination of large security projects. Information Security builds technologies, tools, and processes to better enable teams at Rubrik to develop secure software and protect data and systems with appropriate security controls. Information Security also develops systems to monitor and respond to attacks against our systems, provides awareness education to teams on security best practices for data protection, and ensures data sharing relationships with third parties in order to securely protect Rubrik information.
+
+  
+
+
+
+**Position Overview**
+
+  
+
+
+
+We are looking for a highly motivated Offensive Security Intern with a strong hacker mindset to join our security team. This role is ideal for 3rd or 4th year engineering student who is passionate about cybersecurity, enjoys breaking systems ethically, and has a strong programming foundation.
+
+
+You will work closely with the Offensive Security team on real\-world attack simulations, vulnerability research, and modern attack surface areas including cloud and emerging AI systems.
+
+
+**Key Responsibilities**
+
+
+* Assist in web, API, and infrastructure penetration testing
+* Identify and validate security vulnerabilities (e.g., OWASP Top 10\)
+* Support threat modeling and attack simulation exercises
+* Write clear and concise vulnerability reports
+* Contribute to automation scripts and security tools
+* Participate in adversarial simulation lab exercises (where applicable)
+* Research emerging threats in areas such as:
+
+
+* + - * Cloud security
+			* Identity and access management
+			* GenAI / LLM security (prompt injection, SSRF via agents, etc.)
+
+**Preferred Qualifications**
+
+
+* Currently pursuing a Bachelor’s degree in Computer Science, Engineering, or related field.
+* Basic understanding of cloud computing concepts (AWS, Azure, or GCP).
+* Strong fundamentals in programming, preferably in one or more:
+
+
+* + - * Python
+			* JavaScript / Node.js
+			* Java / Go
+* Understanding of:
+
+
+* + - * Networking fundamentals (TCP/IP, HTTP, DNS)
+			* Operating Systems (Linux/Windows basics)
+* Basic knowledge of web security concepts (OWASP Top 10\)
+* Strong problem\-solving skills and eagerness to learn.
+* Good commun

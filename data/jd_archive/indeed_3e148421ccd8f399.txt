@@ -1,0 +1,43 @@
+**What EnergyHub does**
+
+
+
+EnergyHub thrives at the intersection of energy production and consumption, driving a Triple Bottom Line for energy utilities, consumers, and the planet. We reduce load at peak times, save money on wholesale electricity purchases, reduce the need for costly infrastructure upgrades, and ensure reliable power delivery. We reward consumers financially for access to their internet\-connected devices—thermostats, electric vehicles, home batteries, etc. And we help the planet by enabling more renewable energy and accelerating decarbonization.
+
+
+
+In addition to the mission, we work with fascinating technology, collaborate across a supportive organization, and genuinely want to see every team member—intern included—succeed. We collaborate joyfully, build really cool stuff, and do our part to save the world a little more every day.
+
+
+**What the Technical Writing team does**
+
+
+
+Clear, accurate documentation is the connective tissue of a great software platform. The Technical Writing team translates complex product and engineering concepts into accessible content for the utility clients, program operators, customer success teams, and device partners who rely on EnergyHub every day. We own the knowledge base, manage documentation workflows, and set the standards that keep content consistent, findable, and useful.
+
+
+
+We work across the product lifecycle: from gathering requirements before a feature ships to publishing and maintaining content long after launch. We use tools like ClickHelp, Confluence, Jira, and an evolving AI\-assisted documentation workflow. Good writing and good process go hand in hand here.
+
+
+**About the opportunity**
+
+
+
+You will work as a full member of the Technical Writing team, not as a sideline contributor. You will own real projects, produce content that ships, and leave behind work that genuinely improves the team's capabilities. Responsibilities include:
+
+
+* AI\-powered documentation assistant (core project)
+	+ Audit existing documentation to build a training corpus of high\-quality examples
+	+ Develop prompt templates and workflows for different document types (release notes, feature guides, FAQs, troubleshooting articles)
+	+ Build a style guide reference system so the AI agent applies EnergyHub's tone of voice consistently
+	+ Create a review and feedback loop for improving agent outputs over time
+	+ Test the agent against real documentation requests and measure quality and time savings
+	+ Document the agent's capabilities, limitations, and best use cases for the team
+* Process documentation overhaul
+	+ Map the full documentation lifecycle from request intake through publication
+	+ Create or update templates for common document types
+	+ Document the ClickHelp publishing workflow and platform\-specific conventions
+	+ Write guidelines for working with subject matter experts and gathering technical information
+	+ Establish quality checklists and review criteria
+	+ Build a new writer onboarding guide that syn

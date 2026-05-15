@@ -1,0 +1,64 @@
+Chemelex is a global leader in electric thermal and sensing solutions, protecting the world’s critical processes, places and people. With over 50 years of innovation and a commitment to excellence, we develop solutions that ensure safety, reliability, and efficiency in diverse environments – from industrial plants and data centers to people’s homes. We deliver future\-ready technologies, advanced engineering capabilities and local expertise backed by global standards. Our offering includes a leading portfolio from our trusted brands: Raychem, Tracer, Nuheat and Pyrotenax.
+  
+  
+
+KEY RESPONSIBILITIES
+  
+  
+
+Data Extraction \& Management
+  
+* Extract, consolidate, and validate data from multiple systems across the manufacturing environment (SAP, MES, manual logs, and other sources)
+* Ensure data integrity, consistency, and reliability for operational decision\-making
+* Identify gaps in data collection and partner with teams to improve data capture processes
+* Support development of standardized data structures for reporting and analytics
+
+
+Dashboard Development \& Visualization
+  
+* Design, build, and maintain dashboards to track key performance indicators, including:
+* Overall Equipment Effectiveness (OEE)
+* Throughput and production output
+* Scrap and yield performance
+* Downtime and equipment utilization
+* Create clear, actionable visualizations using Power BI, Tableau, or Excel
+* Continuously improve dashboards to support real\-time decision making on the production floor
+
+
+Manufacturing Performance \& Analytics
+  
+* Analyze production, quality, and maintenance data to identify trends and inefficiencies
+* Support root cause analysis efforts with data tied to downtime, scrap, and performance losses
+* Partner with Operations and Engineering to quantify performance gaps and track improvements
+* Assist in building leading indicators or basic predictive models for equipment performance
+
+
+Cross\-Functional Collaboration
+  
+* Work directly with Operations, Manufacturing Engineering, Maintenance, and Supply Chain teams
+* Translate operational challenges into data\-driven insights and recommendations
+* Support alignment between data, planning, and execution
+* Participate in daily and weekly operational reviews to provide visibility into performance
+
+
+Continuous Improvement \& Strategy Support
+  
+* Support development of data\-driven strategies to improve plant performance
+* Assist initiatives focused on improving:
+* Equipment uptime
+* Labor efficiency
+* Production flow
+* Cost per unit (CPU)
+* Identify opportunities to automate reporting and reduce manual processes
+
+
+Communication \& Reporting
+  
+* Present findings, trends, and recommendations in a clear and concise way
+* Build reports that are easy to interpret and drive action
+* Support leadership with data insights for operational and strategic decisions
+
+
+QUALIFICATIONS AND EXPERIENCE
+  
+* Currently pursuing a Bachelor’s degree in Data Analytics, Statistics, Computer Science, Industrial Engineering,

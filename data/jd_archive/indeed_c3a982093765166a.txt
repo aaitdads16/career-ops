@@ -1,0 +1,54 @@
+Job Description
+Intern \- AI Research Solution Architect
+Job Location: Santa Clara, California
+Location Flexibility: Primary Location Only
+Req Id: 8141
+Posting Start Date: 5/14/26
+At Fujitsu, we are driven by our purpose to make the world more sustainable by building trust in society through innovation.
+
+
+We have been a pioneer in technology and innovation for over 80 years, and we are committed to using our expertise to help businesses and organizations transform for the digital age. We believe that digital transformation is essential to creating a more sustainable future. That's why we are working with our customers to develop solutions that can help them reduce their environmental impact, improve their efficiency, and create a more equitable society.
+
+
+We are committed to contributing to the United Nations Sustainable Development Goals (SDGs). These goals are a blueprint for a better future for all, and we believe that technology can play a vital role in achieving them.
+
+
+If you share our passion for making a meaningful impact on the world, we invite you to join our global family of 130,000 employees spanning more than 50 countries. We are a diverse workforce, and we offer a wide range of opportunities for you to grow and develop your career.
+
+
+Together, we can create a more sustainable future for all.  
+
+
+
+AI Solutions Engineering Intern  
+
+
+
+Join Fujitsu’s Technology Strategy Unit as we bring the next generation of products at the intersection of artificial intelligence, infrastructure, and high\-performance computing to market.  
+
+As an AI Solutions Engineering Intern, you’ll work directly with the Product and Research teams to build technical demos, validate real\-world use cases, and help translate cutting\-edge research in AI infrastructure into impactful customer workflows.  
+
+Required:
+
+
+* Enrolled in a PhD or Master’s program in CS, Physics, Engineering, or a related field
+* Hands\-on experience with AI/ML, scientific computing, or cloud\-workflows
+* Comfortable building with tools like Jupyter, Docker, Python, and open\-source ML libraries
+Strong technical communication and problem\-solving skills  
+* 
+
+You’ll be a great fit if…
+
+
+* You bring deep domain knowledge in one of the following:
+* AI in bio/pharma research (e.g. protein modeling, drug discovery)
+* AI research (e.g. LLMs, model optimization, training workflows)
+* AI in finance (e.g. time series forecasting, risk modeling)
+* You’re familiar with (or eager to learn about) GPUs, cloud infrastructure, AI/ML pipelines, or HPC systems
+* You thrive in fast\-moving, research\-driven environments and enjoy working across product, research, and engineering
+Relocation Supported: Yes
+Visa Sponsorship Approved: No
+At Fujitsu, we are committed to creating a diverse and inclusive workplace where everyone feels valued and respected. We believe that diversity and inclusion are essential to our success, and we are committed to creating an environment where all employees can thrive.
+
+
+We are a

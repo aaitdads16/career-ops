@@ -1,0 +1,43 @@
+Introduction:
+**About SymphonyAI**
+--------------------
+
+
+SymphonyAI is a leading enterprise AI solutions provider helping retailers and manufacturers optimize business operations through advanced analytics, planning, and automation solutions. Our products support global organizations in improving supply chain efficiency, inventory performance, forecasting accuracy, and customer satisfaction. We are committed to delivering measurable outcomes for our clients through innovative technology, deep domain expertise, and strong customer partnerships.
+Job Description:
+**Job Summary*** We are looking for a Customer Support Apprentice to join our Retail Customer Support Team. This role is ideal for candidates who want to build a career in enterprise software support, retail analytics platforms, and SaaS operations.
+* The intern will work closely with the Customer Support, Product, and Engineering teams to assist in troubleshooting customer issues, analyzing system behavior, and ensuring timely resolution of support tickets for European clients.
+* This position offers hands\-on exposure to enterprise support tools, cloud platforms, SQL\-based troubleshooting, and customer interaction in a global environment.
+* *Shift: EU Shift (12:30 PM – 9:30 PM IST**)*
+
+**About the role**  
+
+Customer Support \& Ticket Management* Monitor, acknowledge, and update customer support tickets using Microsoft Dynamics 365\.
+* Perform initial issue triage and categorization based on priority, severity, and impact.
+* Ensure all tickets are properly documented, updated, and tracked until resolution.
+* Maintain SLA compliance by ensuring timely responses and updates.
+
+  
+
+Technical Troubleshooting* Perform basic to intermediate SQL queries using Microsoft SQL Server via SQL Server Management Studio to validate data and investigate issues.
+* Analyze application logs and telemetry using Azure Application Insights.
+* Identify potential root causes by reviewing system logs, configurations, and database records.
+* Replicate reported issues in test environments to assist engineering teams.
+
+  
+
+AI\-Enhanced Support \& Productivity* Familiarity with LLMs, machine learning concepts, SQL querying, and strong English communication skills.
+* Utilize AI assistants to analyze logs, summarize tickets, generate documentation, and enhance communication.
+* Apply AI for knowledge base development, troubleshooting guidance, and workflow optimization.
+* Explore AI tools to improve monitoring accuracy, detect patterns, and boost support efficiency.
+
+  
+
+Collaboration with Internal Teams* Log bugs, track issues, and monitor development progress in Azure DevOps.
+* Submit product feedback and feature requests through Aha!.
+* Work closely with Engineering, Product, and QA teams to support issue resolution and validation.
+
+  
+
+Documentation \& Knowledge Sharing* Create and update knowledge base articles, troubleshooting guides, and FAQs.
+* Document recurring issues and solutions to improve support efficienc

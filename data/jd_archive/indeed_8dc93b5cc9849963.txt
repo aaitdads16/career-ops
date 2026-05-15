@@ -1,0 +1,43 @@
+Olá, futuro(a) **PO (Product Owner PL/SR)**! ✨
+
+Estamos em busca de um Product Owner versátil, capaz de atuar em duas frentes estratégicas: tirar novas ideias do papel (Zero to One) e liderar a transformação digital de processos existentes, convertendo operações manuais ou complexas em experiências digitais fluidas.
+
+Mais do que organizar tarefas, você será o responsável por estruturar a solução. Seja concebendo um produto inédito ou modernizando um fluxo operacional, sua missão é garantir que cada decisão técnica e de negócio tenha um propósito claro. Você atuará na intersecção entre estratégia, processos e tecnologia, impulsionando a entrega de valor real.
+
+**Onde você vai jogar (Time e Estrutura):**
+
+Você fará parte de uma estrutura robusta e colaborativa. Não atuará isolado(a), mas sim como peça central de uma célula multidisciplinar composta por:
+
+Time de UX/Design: Para garantir fluidez e usabilidade.
+
+Squad de Desenvolvimento \& QA: Engenheiros focados em performance e qualidade.
+
+Especialistas de Negócio: Stakeholders com profundo conhecimento de mercado, com os quais você trocará experiências diariamente para desenhar a melhor solução.
+
+**Seus Desafios e Responsabilidades:**
+
+**1\. Concepção e Estratégia (Foco em Resultado)**
+
+Mentalidade de Construção: Liderar a descoberta de produtos, realizando benchmarking e pesquisas para identificar oportunidades reais, seja em novos mercados ou na otimização interna.
+
+Decisão Baseada em Fatos: Eliminar o "achismo". Utilizar dados e evidências para validar se estamos resolvendo o problema certo antes de iniciar o desenvolvimento.
+
+Entrega Incremental (MVP): Definir a primeira versão do produto com assertividade. O objetivo não é criar softwares complexos que demoram meses para sair do papel, mas entregar valor rápido e iterar com base no uso real.
+
+**2\. Engenharia de Processos e Lógica**
+
+Mapeamento de Cenários (As Is / To Be): Mergulhar na operação para entender o cenário atual e projetar o processo futuro otimizado. O software deve ser o reflexo de um processo inteligente.
+
+Raciocínio Lógico: Mapear fluxos condicionais e regras de decisão (ex: "Se Cliente A, então Ação B"), traduzindo a complexidade do negócio em diagramas visuais que tragam clareza absoluta para o time técnico.
+
+**3\. Especificação Técnica e PRD (Product Requirements Document)**
+
+Documentação Precisa: Criar PRDs que funcionem como a "fonte da verdade", contendo fluxogramas, regras de negócio e critérios de aceite detalhados para eliminar dúvidas durante o desenvolvimento.
+
+Wireframing e Prototipação Básica: Para demandas de menor complexidade ou validações rápidas de fluxo, você deve ter autonomia para desenhar wireframes ou mockups funcionais.
+
+Lógica de Dados: Estruturar logicamente quais dados, filtros e critérios são necessários para a construção de relatórios e telas, facilitando o trabalho da engenharia.
+
+**Requisitos (O que buscamos em você)**
+
+Histórico comprovado na construção e lançamento de produtos ou funcionalidade

@@ -1,0 +1,51 @@
+The **Process Engineer Summer Intern** will support the Process Engineering team in the development, qualification, and optimization of semiconductor manufacturing processes and capital equipment. This role provides hands\-on exposure to semiconductor process technologies, cleanroom operations, and equipment qualification activities.
+The intern will work closely with experienced engineers to analyze process performance, support tool setup and validation, and assist in continuous improvement initiatives. This internship offers a valuable opportunity to gain practical experience in semiconductor manufacturing environments and capital equipment development.
+
+
+**Essential Duties and Responsibilities*** Assist Process Engineers with **setup, qualification, and optimization of semiconductor manufacturing tools and processes**
+* Support **process characterization and validation activities**, including Design of Experiments (DOE) and data analysis
+* Participate in **tool installation, startup, and process qualification activities**
+* Collect and analyze process data related to yield, throughput, uniformity, and defect performance
+* Assist in performing **process troubleshooting and root cause analysis** related to equipment or process issues
+* Support development and documentation of **process recipes, work instructions, and qualification reports**
+* Assist with **tool and process acceptance testing** (FAT/SAT where applicable)
+* Participate in **continuous improvement initiatives** to enhance process capability and equipment performance
+* Work with cross\-functional teams including Mechanical Engineering, Electrical Engineering, Manufacturing, and Quality
+* Maintain accurate engineering records and technical documentation
+* Follow all **cleanroom protocols, ESD controls, and safety procedures**
+
+**Learning Objectives**During the internship, the Process Engineer Intern will gain experience in:* Semiconductor manufacturing processes
+* Cleanroom operations and protocols
+* Capital equipment setup and qualification
+* Process troubleshooting and yield improvement
+* Statistical process control (SPC) and data analysis
+* Engineering documentation and reporting
+* Cross\-functional collaboration in semiconductor equipment environments
+
+**Required Qualifications*** Currently pursuing a **bachelor’s degree** in one of the following:
+
+	+ Chemical Engineering
+	+ Materials Science and Engineering
+	+ Mechanical Engineering
+	+ Electrical Engineering
+	+ Manufacturing Engineering
+	+ Industrial Engineering
+	+ Physics
+	+ Or related engineering discipline
+* Minimum GPA of **3\.4**
+* Basic understanding of:
+
+	+ Engineering fundamentals
+	+ Data analysis and statistics
+	+ Laboratory or technical environments
+
+**Preferred Qualifications*** Coursework or exposure related to:
+
+	+ Semiconductor processing
+	+ Microfabrication
+	+ Thin films, etch, deposition, or lithography
+	+ Vacuum systems or plasma processes
+	+ Process control or instrumentation
+* Familiarity with:
+
+	+ Statistical

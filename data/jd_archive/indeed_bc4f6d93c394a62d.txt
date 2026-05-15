@@ -1,0 +1,43 @@
+**SLAC Job Postings**
+---------------------
+
+  
+
+
+**Position Overview:**
+
+
+The Machine Learning group at SLAC National Accelerator Laboratory is offering an internship for undergraduate and graduate students. The internship will focus on methodology and software development for sequential experimental design, with a strong focus on Bayesian methodology and neural network uncertainty quantification.
+
+
+The objective of this internship is to give students an opportunity to gain valuable hands\-on experience in machine learning/AI for science. Interns will develop practical machine learning skills in an applied, project\-based setting, including development, implementation, and benchmarking of new methods, as well as the writing of reusable scientific software. This experience will not only enhance their skills and knowledge in the field but will also give them a boost when applying for jobs or graduate programs in the future. Interns will work as members of an existing research team, with regular presentation of results and direct technical supervision.
+
+**Specific responsibilities (include but are not limited to):**
+
+* Outline research plan for the duration of the internship in discussion with the research group, including overall targets and intermediate milestones.
+* Review existing methodologies for neural network uncertainty quantification and identify opportunities for development.
+* Research and develop quality metrics, in conjunction with the research group.
+* Compare methodologies on existing datasets and summarize and present results.
+* Integrate methods with existing Bayesian experimental design approaches.
+* Deliver results as reusable software.
+
+**Opportunities and Benefits**
+
+* Growth and mentorship from exceptionally talented engineers and scientists from SLAC and Stanford University.
+* A mission\-driven, stable, collaborative, highly interdisciplinary, and supportive work environment.
+* Opportunity to experience a multidisciplinary research environment, integrating knowledge from many subject areas spanning the physical sciences, applied mathematics, and software engineering.
+
+**Note:** This is an hourly, non\-benefits eligible temporary\-nonexempt, internship position (work at 50% full\-time equivalent or more), not to exceed 980 hours in six consecutive months. Eligible applicants must be at least 18 years of age, currently enrolled in an educational program or recently graduated, and have US work authorization.
+
+**To be successful in this position, candidates should:**
+
+* Be pursuing a Bachelor's, Master's or Doctoral degree in a science, engineering or equivalent discipline.
+* Have strong communication skills.
+* Have the ability to work in a collaborative environment.
+* Be passionate about machine learning/AI for science.
+* Have prior experience in Python programming and machine learning.
+
+**SLAC Employee Competencies:**
+
+* Effective Decisions: Uses job knowledge and solid judgment to make quality decisions in a timely manner.
+*
