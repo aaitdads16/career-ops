@@ -1,0 +1,34 @@
+Há mais de 90 anos, o Banco Bmg atua com foco em democratizar o acesso a soluções financeiras, colocando sempre o cliente no centro de tudo o que fazemos. Somos referência em crédito consignado e estamos presentes em todo o Brasil, com agências, franquias, correspondentes bancários e um app completo que conecta milhões de pessoas a serviços financeiros de forma simples, acessível e inovadora.
+
+  
+
+Crescer e gerar resultados sustentáveis que tragam valor para nossos clientes, acionistas, colaboradores e para a sociedade em geral é uma prioridade para nós. Nossos resultados evidenciam esse comprometimento.
+
+  
+
+Guiados por princípios, construímos uma cultura organizacional que valoriza pessoas, impulsiona o protagonismo e transforma impacto social em legado. Atuamos com times que prezam pela autonomia, pelo comprometimento e pela excelência. Investimos continuamente em conhecimento e inovação para transformar a jornada dos colaboradores e clientes.
+
+  
+
+Esse cuidado com as pessoas nos levou a conquistar, em 2025, o reconhecimento como top 3 melhores instituições financeiras para se trabalhar no Brasil, ocupando a 3ª posição no ranking Great Place To Work. Um orgulho que reforça nosso compromisso de colocar o Jeito Bmg de Ser em prática todos os dias.
+
+  
+
+Esses pilares impulsionam uma transformação contínua, promovendo revisões diárias de processos, da jornada do cliente, da tomada de decisão e da forma como os times se conectam para gerar valor. No Bmg, somos movidos por fazer diferente e melhor, com integridade, simplicidade e um jeito único de ser: o Jeito Bmg.
+
+ **Responsabilidades e atribuições**  
+
+* Análise de dados e indicadores de fraude: Monitorar e interpretar dados transacionais e comportamentais para identificar padrões suspeitos e propor ações preventivas.
+* Desenvolvimento de estratégias antifraude: Criar e aprimorar modelos preditivos, regras de negócio e políticas de prevenção com foco em eficiência e redução de perdas.
+* Gestão de ferramentas e tecnologias: Avaliar e implementar soluções tecnológicas (machine learning, biometria, autenticação, etc.) que fortaleçam os mecanismos de defesa contra fraudes.
+* Elaboração de dashboards e relatórios gerenciais: Apresentar resultados, insights e recomendações para a alta liderança, com foco em tomada de decisão estratégica.
+* Interface com áreas internas e parceiros externos: Atuar em conjunto com times de risco, compliance, jurídico, atendimento e tecnologia, além de fornecedores e instituições reguladoras.
+* Acompanhamento regulatório e de mercado: Manter\-se atualizado sobre tendências, regulamentações e novas modalidades de fraude para antecipar riscos emergentes.
+* Gestão de projetos estratégicos: Liderar iniciativas de melhoria contínua, testes A/B, e projetos de inovação voltados à prevenção de fraudes.
+
+  
+
+**Requisitos e qualificações**  
+
+* Domínio de ferramentas como SQL, Python, R, SAS ou similares para análise de dados, investigação de padrões e anomalias.
+* Modelagem prediti

@@ -1,0 +1,27 @@
+About Origin
+Origin (previously 10xConstruction) is building general\-purpose autonomous robots for US construction to tackle rising costs, safety risks, and labour shortages. Our modular, multi\-trade platform combines purpose\-built hardware with real\-time site intelligence to navigate complex environments and execute tasks with precision. Trained in high\-fidelity simulation and already deployed on live sites, our robots deliver 5x faster execution, 250%\+ margin expansion, and significant cost savings. Join India’s most talent\-dense robotics team consisting of individuals from IITs, Stanford, UCLA, etc.
+
+
+About the role
+We're looking for a motivated and detail\-oriented Program Management Intern to join our Data Operations Team. In this role, you will own and drive data management pipeline across internal and external stakeholders – ensuring that data for every project is tracked in a timely basis and stored in a structured format that supports continuous model training.
+
+
+You’ll work at the intersection of AI, Software, and Hardware teams, coordinating with external and internal data operations teams. If you want hands\-on exposure to the critical role of data management in building new AI technologies, this is the role for you.
+
+
+Key Responsibilities* Coordinate data pipeline operations spanning collection, preparation, annotation, post\-processing, and cloud synchronization, ensuring seamless handoffs across each stage
+* Manage relationships with external vendors and onboard new vendors, including US\-based and India\-based agencies, for collection and annotation to ensure timely, high\-quality deliverables
+* Collaborate with cross\-functional internal teams – including AI/ML, Software, and Hardware – to identify data requirements, prioritize tasks, and align timelines
+* Track and report on metrics such as throughput, quality scores, turnaround times, and bottlenecks; prepare weekly/monthly status reports and dashboards for leadership review
+* Maintain data integrity and consistency throughout the pipeline by establishing and enforcing standard operating procedures (SOPs) for data handling, naming conventions, and version control
+* Proactively identify risks, blockers, and process inefficiencies in the data pipeline; propose and implement process improvements to optimize speed, cost, and quality
+* Document processes, workflows, and best practices to build institutional knowledge and enable smoother onboarding for future team members.
+
+
+Required Qualifications and Skills* Bachelor’s degree (or currently pursuing a degree) in Engineering, Business, or a related field.
+* Genuine curiosity about AI/ML
+* Strong analytical thinking and problem\-solving skills
+* Ability to clearly articulate thoughts and ideas using data and present them effectively through verbal and written channels
+* Proactive attitude; you don't wait to be told what to do next
+* Eagerness to learn, adapt, and work in a fast\-paced and evolving environment
+* Comfortable work

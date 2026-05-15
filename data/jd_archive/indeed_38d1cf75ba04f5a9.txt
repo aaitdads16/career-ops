@@ -1,0 +1,68 @@
+**Role Overview**
+
+As a Frontend Developer Intern, you will work closely with backend developers, AI engineers, and product teams to design and develop modern web\-based user interfaces and dashboards. The role involves building responsive applications, visualizing real\-time data, improving user experience, and contributing to scalable frontend architectures.
+
+This internship is intended for candidates who enjoy problem solving, UI engineering, and creating polished user experiences — not just basic webpage development.
+
+**Responsibilities**
+
+* Develop responsive and modern web interfaces using ReactJS
+* Build reusable UI components and frontend modules
+* Integrate frontend applications with REST APIs and backend services
+* Work on dashboards, monitoring systems, analytics views, and configuration interfaces
+* Improve application usability, responsiveness, and performance
+* Participate in frontend architecture discussions and UI design improvements
+* Debug and troubleshoot frontend issues across browsers and devices
+* Collaborate with backend, AI, and DevOps teams during product development
+* Contribute to frontend code quality, documentation, and version control practices
+
+**Required Skills**
+
+* Strong fundamentals in JavaScript, HTML5, and CSS3
+* Good hands\-on experience with ReactJS
+* Understanding of component\-based frontend architecture
+* Familiarity with responsive UI development
+* Understanding of REST API integration
+* Knowledge of Git/version control workflows
+* Basic understanding of asynchronous programming and API handling
+* Good analytical and debugging skills
+* Strong communication and teamwork abilities
+
+**Preferred Skills**
+
+* Experience with TypeScript
+* Familiarity with frontend frameworks/libraries such as Next.js, Material UI, Tailwind CSS, Bootstrap, or similar technologies
+* Understanding of state management libraries (Redux, Context API, Zustand, etc.)
+* Exposure to real\-time dashboards, WebSockets, or streaming data interfaces
+* Basic understanding of UX/UI principles
+* Familiarity with Figma or UI prototyping tools
+* Exposure to AI/analytics platforms is an added advantage
+
+**What You Will Gain**
+
+* Hands\-on experience building production\-grade frontend applications
+* Exposure to AI\-driven software platforms and real\-world engineering workflows
+* Opportunity to work on scalable dashboards and intelligent systems
+* Mentorship from experienced engineers
+* Practical experience in modern frontend development practices
+* Opportunity for full\-time employment based on performance
+
+**Candidate Profile**
+
+We are looking for candidates who:
+
+* Are passionate about frontend engineering and modern UI technologies
+* Enjoy solving practical engineering problems
+* Can quickly learn and adapt to new technologies
+* Take ownership of tasks and deliver high\-quality work
+* Have strong attention to detail and user experience
+
+Job Types: Full\-time, Permanent
+
+Pay: ₹10,000\.00 per month
+
+Education:
+
+* Bachelor's (Preferred)
+
+Work Loc

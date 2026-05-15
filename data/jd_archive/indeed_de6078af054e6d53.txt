@@ -1,0 +1,54 @@
+**About IQnext**
+
+We're revolutionizing how buildings are managed, shifting them away from traditional facilities management to a more innovative, data\-driven approach. IQnext is an integrated, centralized platform that is disrupting buildings and real estate infrastructure with its new\-age cloud\-based solution, delivering long\-term sustainability and operational efficiency that is scalable across portfolios.
+
+**Job Summary:** 
+
+We are seeking a Frontend Developer Intern with a strong interest in modern web application development. The ideal candidate should have a good understanding of Javascript/Typescript and a willingness to learn and contribute to real\-world projects. The intern will work closely with the frontend team to enhance and revamp parts of our admin portal and support development activities for the client portal.
+
+**Location**\- Bangalore (On\-site)
+
+**Responsibilities:**
+
+* Assist in developing and maintaining frontend features using Angular and TypeScript.
+* Support ongoing development and enhancement activities for the client portal.
+* Revamp and improve UI components and screens in the admin portal.
+* Implement responsive and user\-friendly interfaces using Angular Material and modern frontend practices.
+* Collaborate with developers and stakeholders to understand business requirements and translate them into functional UI components.
+* Debug and resolve frontend issues and optimize application performance.
+* Participate in code reviews, team discussions, and sprint activities.
+* Write clean, maintainable, and reusable code following coding standards and best practices.
+* Maintain proper documentation for implemented features and changes.
+
+**We’re looking for someone who:**
+
+* Has a Bachelor’s degree in Computer Science or a related technical field.
+* Has a basic understanding of HTML, CSS, JavaScript, and TypeScript.
+* Is eager to learn modern frontend development practices and frameworks.
+* Basic understanding of REST APIs and frontend\-backend integration.
+* Is familiar with version control tools like Git.
+* Possesses strong analytical and problem\-solving skills.
+* Demonstrates good communication skills, both written and verbal.
+* Has attention to detail and an interest in creating clean and user\-friendly interfaces.
+
+**Good to have:**
+
+* Familiarity with Angular/React or any other frontend frameworks.
+* Familiarity with Angular Material or similar UI component libraries.
+* Exposure to responsive design frameworks and browser debugging tools.
+* Understanding of software development lifecycle (SDLC) and Agile methodologies.
+* Experience with personal, academic, or internship frontend projects.
+
+**Benefits**
+
+* Stipend \- 12K/month
+* Explore the office environment
+* Meet and learn with all departments (even the CEO)
+
+**Who We Are**
+
+We are a group of ambitious individuals who are passionate about creating products made in India for the world.
+
+Visit to know more about the company.
+
+Work Location: In person

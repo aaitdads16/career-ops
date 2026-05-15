@@ -1,0 +1,56 @@
+**About Marvell**
+
+
+Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities.
+
+
+At Marvell, you can affect the arc of individual lives, lift the trajectory of entire industries, and fuel the transformative potential of tomorrow. For those looking to make their mark on purposeful and enduring innovation, above and beyond fleeting trends, Marvell is a place to thrive, learn, and lead.
+
+
+This is an existing vacancy.
+
+**Your Team, Your Impact**
+
+
+We are looking for a talented and enthusiastic candidate to join our Machine Learning team. Our team at Marvell is designing and developing high\-throughput, low\-latency Accelerator IPs for deep learning training and inference.  
+
+  
+
+As a student AI engineer, you will be working in close collaboration with the Data Scientists within the ML team and you will be involved in modeling and simulating the most recent cutting edge deep learning algorithms for the Accelerator IP currently under development. You'll also have the opportunity to develop a deep understanding of new topics and approaches in AI by implementing them and by running performance analysis.**What You Can Expect**
+
+
+Responsibilities
+
+* In collaboration with the Data Scientists, model and run performance analysis of different deep learning architectures for the Rianta proprietary hardware design.
+* Running different deep learning benchmarks on other hardware such as CPU, and GPU.
+* Modeling deep learning operations of the Accelerator under development, e.g. convolution, matrix multiplication, pooling layers, back\-propagation and running
+* performance analysis.
+* Investigate and comprehend related technical reports and research papers.
+* Writing technical reports on the various experiments that you performed.
+
+**What We're Looking For**
+
+
+Qualifications
+
+* Currently enrolled in a university and registered with the school's co\-op program (Master or Ph.D. are preferred).
+* Concrete programming skills in Python, C\+\+.
+* Be familiar with high performance computing, distributed processing, algorithm and data structures.
+* Be familiar with fundamental deep learning concepts and machine learning algorithms.
+* Be familiar with fundamental computer hardware architecture and multi\-core processors.
+* Demonstrate strong communication skills
+
+
+Preferred Qualifications:
+
+* Experience with deep learning frameworks such as Tensorflow and PyTorch.
+* Very familiar with the Linux development environment.
+* Familiar with linear algebra algorithms such as matrix factorization, SVD
+
+**Expected Base Pay Range (CAD)**
+
+
+36 \- 48, $ per hour.**Additional Compensation and Benefit Elements**
+
+
+With competitive compensation and great benefits, you will enjoy our workstyle within an environment of shared collaboration, transparency, and inclusivity. We’re dedicated to giving our people the tool

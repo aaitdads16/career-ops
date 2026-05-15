@@ -1,0 +1,55 @@
+**Putting people first, every day**  
+
+
+
+BDO is a firm built on a foundation of positive relationships with our people and our clients. Each day, our professionals provide exceptional service, helping clients with advice and insight they can trust. In turn, we offer an award\-winning environment that fosters a people\-first culture with a high priority on your personal and professional growth.
+
+
+**Your Opportunity**
+
+**BDO Digital** is looking for a **Co\-op or Intern, DevOps Engineer** to join the AppDev team from **September to December 2026** **.** This is a net new role and responsibilities will include:
+
+
+* Designing, managing, supporting, and maintaining defined customers Azure cloud environments as well as security controls for the environments
+* Building and maintaining continuous delivery pipelines using GitHub and Terraform for Infrastructure as Code
+* Writing scripts and automation using PowerShell, CLI and Python
+* Designing and implementing tasks in CI/CD pipelines and tools (e.g. Jenkins)
+* Developing and maintaining Azure security policies
+* Contributing to existing or new service offerings for our customers
+* Verifying and resolving configuration and other non\-software related issues
+* Creating and improving processes to improve overall Cloud operations and continue to keep apprised on DevOps, Microsoft Azure \& other cloud based technologies
+
+**How do we define success for your role?**
+
+* You demonstrate BDO's core values through all aspect of your work: Integrity, Respect and Collaboration
+* You understand your client’s industry, challenges, and opportunities; client describe you as positive, professional, and delivering high quality work
+* You identify, recommend, and are focused on effective service delivery to your clients
+* You share in an inclusive and engaging work environment that develops, retains \& attracts talent
+* You actively participate in the adoption of digital tools and strategies to drive an innovative workplace
+* You grow your expertise through learning and professional development.
+
+**Your experience and education**
+
+* Candidate for Math, Computer Science, Engineering, or related field
+* Infrastructure as Code (IaC) / Terraform
+* Python
+* PowerShell or Shell Scripting
+* Jenkins or GitHub or Azure DevOps
+* Azure REST API
+* Knowledge of Kubernetes, Azure SQL (Standalone, MI, DW), Azure Synapse Studio, Polybase, ADF, Databricks, Azure ML, MLFlow, ADLS g2, ADC g2, AKV, HSM is an asset.
+
+*The expected range of compensation for this role is* *$51,000\-$78,000\.*
+
+  
+
+**Why BDO?**  
+
+  
+
+Our people\-first approach to talent has earned us a spot among Canada’s Top 100 Employers for 2026 . This recognition is a milestone we’re thrilled to add to our collection of awards for both experienced and student talent experiences.
+
+
+Our firm is committed to providing an environment where you can be successful in the following ways:
+
+
+* We enable you to engage with how we change and evolve, being a key contributor to the succe

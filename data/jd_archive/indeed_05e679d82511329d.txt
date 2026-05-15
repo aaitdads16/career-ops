@@ -1,0 +1,39 @@
+**About Chubb**
+
+Chubb is a world leader in insurance. With operations in 54 countries and territories, Chubb provides commercial and personal property and casualty insurance, personal accident and supplemental health insurance, reinsurance and life insurance to a diverse group of clients. The company is defined by its extensive product and service offerings, broad distribution capabilities, exceptional financial strength and local operations globally. Parent company Chubb Limited is listed on the New York Stock Exchange (NYSE: CB) and is a component of the S\&P 500 index. Chubb employs approximately 43,000 people worldwide. Additional information can be found at: www.chubb.com .  
+
+
+
+**About Chubb India**
+
+At Chubb India, we are on an exciting journey of digital transformation driven by a commitment to engineering excellence and analytics. We are proud to share that we have been officially certified as a Great Place to Work® for the third consecutive year, a reflection of the culture at Chubb where we believe in fostering an environment where everyone can thrive, innovate, and grow.
+
+
+With a team of over 2500 talented professionals, we encourage a start\-up mindset that promotes collaboration, diverse perspectives, and a solution\-driven attitude. We are dedicated to building expertise in engineering, analytics, and automation, empowering our teams to excel in a dynamic digital landscape.
+
+
+We offer an environment where you will be part of an organization that is dedicated to solving real\-world challenges in the insurance industry. Together, we will work to shape the future through innovation and continuous learning.
+
+
+**Position Details:**
+
+* **Function/Department** : Advanced Analytics
+* **Location** : Bangalore, India
+* **Employment Type: Internship**
+* **Role Overview – Intern Trainee**
+
+**You Will:**
+
+* Work on AI\-driven claims solutions.
+* Explore and mine large, unstructured claims datasets to surface actionable patterns and insights
+* Break down complex, ambiguous business problems into well\-scoped, executable technical tasks
+* Build and iterate on Python\-based pipelines for data processing, feature extraction, and LLM integration
+* Collaborate with data scientists, and engineers to translate domain knowledge into working AI solutions
+* Prototype and evaluate LLM\-based workflows (e.g., RAG pipelines, Chain\-of\-Thought reasoning, document summarization)
+* Document your findings, code, and methodologies clearly for cross\-functional teams
+* **You Are:**
+* Curious and analytical — you dig into data until you understand what it's telling you
+* Structured in your thinking — you can take a vague, complex problem and map it into clear, manageable steps
+* A self\-starter who takes ownership and follows through with minimal supervision
+* Detail\-oriented with strong written communication skills — you can explain technical work to non\-technical stakeholders
+* Excited about applying AI to real\-world, high\-stakes business problems in insura

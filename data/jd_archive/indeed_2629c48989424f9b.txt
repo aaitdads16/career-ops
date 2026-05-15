@@ -1,0 +1,25 @@
+**Company Description**  
+
+As the world’s pioneering local delivery platform, our mission is to deliver an amazing experience, fast, easy, and to your door. We operate in around 65 countries worldwide powered by tech, designed by people. As one of Europe’s largest tech platforms, headquartered in Berlin, Germany. Delivery Hero has been listed on the Frankfurt Stock Exchange since 2017 and is part of the MDAX stock market index. We enable creative minds to deliver solutions that create impact within our ecosystem. We move fast, take action and adapt. No matter where you're from or what you believe in, we build, we deliver, we lead. We are Delivery Hero.
+
+ **Job Description**  
+
+We are on the lookout for an **Intern, Data Analyst (Vendor)** to join the Vendor Data team on our journey to always deliver amazing experiences. Your work will directly support how vendors are discovered, managed, and analyzed at scale. You'll be working mostly on Vendor Sales \& Operations topics, contributing to data\-driven initiatives such as vendor lead generation, vendor management, and competitor analysis.
+
+
+As part of our Vendor Team, you’ll be the driving force behind the success of thousands of restaurants, shops, and local businesses. Your contributions will empower vendors with advanced tools to manage their operations, boosting their visibility and reach. Every feature you help build will create growth opportunities for businesses of all sizes, strengthening Delivery Hero’s ecosystem and impact.
+
+
+You'll work with modern data tooling and collaborate closely with data engineers, analytics engineers, data analysts and product teams. If you're proactive, communicative, and eager to learn how real\-world data platforms are built and operated, this role will give you an excellent foundation.
+
+* Support the maintenance and improvement of data transformation pipelines and reports powering Vendor Sales \& Operations use cases
+* Work with SQL and dbt to build, test, and optimize data models in BigQuery
+* Assist with Airflow\-based orchestration, debugging pipeline failures and improving robustness
+* Collaborate closely with data engineers, analysts, and commercial stakeholders to understand data needs and translate them into reliable curated tables and reports
+* Document data models, pipelines, and assumptions to improve transparency and long\-term maintainability.
+
+ **Qualifications*** You are currently enrolled (or recently graduated) in a Bachelor's or Master's program such as: Computer Science, Computer Engineering, Software Engineering. etc.
+* Strong working knowledge of SQL (preferably Big Query) and experience with visualization tools (preferably Tableau)
+* A proactive and communicative mindset — you ask questions, flag issues early, and enjoy collaborating with others
+* Eagerness to learn, take ownership of tasks, and grow your technical skills in a production environment
+* Ability to work independently in a remote\-friendly setup, while joining on\-site twice

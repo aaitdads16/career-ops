@@ -1,0 +1,50 @@
+#### **About GenScript**
+
+
+GenScript Biotech Corporation (Stock Code: 1548\.HK) is a global biotechnology group. Founded in 2002, GenScript has an established global presence across North America, Europe, the Greater China, and Asia Pacific. GenScript's businesses encompass four major categories based on its leading gene synthesis technology, including operation as a Life Science CRO, enzyme and synthetic biology products, biologics development and manufacturing, and cell therapy.
+
+
+GenScript is committed to striving towards its vision of being the most reliable biotech company in the world to make humans and nature healthier through biotechnology.
+
+**Job Title:** AI Researcher Intern
+
+
+**Location**: United States (Remote)
+
+
+
+We are currently seeking candidates that are bilingual in Mandarin Chinese and English. The estimated pay\-rate will be $30 per hour, depending on education level.
+
+
+**Responsibilities will be dependent on core research function, and can be responsible for one or two of the below areas:**
+
+
+
+Harness Architecture Design \& Implementation
+
+
+* Research and design Agent execution framework, providing standardized runtime environment for intelligent agents
+* Implement tool call orchestration mechanism, supporting unified abstraction for function calling, API integration, and external system interaction
+* Build execution sandbox environment to ensure safety and controllability of Agent operations
+* Design task decomposition and planning engine, supporting automatic breakdown of complex goals and execution path optimization
+* Implement execution state tracking and anomaly recovery mechanisms to ensure reliability of long\-running tasks
+
+
+Memory System Architecture Development
+
+
+* Design hierarchical memory architecture, covering storage and retrieval mechanisms for working memory, short\-term memory, and long\-term memory
+* Research memory compression and summarization techniques, enabling efficient storage of massive interaction history while preserving key information
+* Build context\-aware memory system, supporting multi\-dimensional memory association based on time, task, and user
+* Develop memory retrieval augmentation mechanisms, achieving deep integration of RAG and Agent memory
+* Explore memory forgetting and update strategies, balancing memory capacity with information timeliness
+
+
+Multi\-Agent Collaboration Architecture
+
+
+* Research multi\-Agent system architecture, design communication protocols and collaboration mechanisms between Agents
+* Implement role specialization and task allocation algorithms, supporting orchestration of expert Agents, coordinator Agents, executor Agents, and other roles
+* Build consensus achievement and conflict resolution mechanisms to handle decision disagreements among multiple Agents
+* Design Agent social behavior norms, simulating communication, negotiation, and feedback patterns in human team collaboration
+* Explore emergent behavior and collective intelligence, researching self\-organizat

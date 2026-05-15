@@ -1,0 +1,55 @@
+Company
+NTUC First Campus
+ntucfirstcampus.com
+Designation
+Intern, HR Tech \& Automation (6\-months)
+Date Listed
+15 May 2026
+Job Type
+Entry Level / Junior Executive
+Intern/TS
+Job Period
+Flexible Start, For At Least 6 Months
+Profession
+IT / Information Technology
+Industry
+Computer and IT
+Location Name
+Downtown Core, Singapore
+Work from Home
+Address
+Downtown Core, Singapore
+Map
+Allowance / Remuneration
+$800 \- 1,200 monthly
+Company Profile
+Since 1977, NTUC First Campus (NFC) has been an early childhood education and services leader. As a social enterprise, we have been introducing many inspiring and innovative firsts in our drive to create bright futures for every child, their family and our people.
+
+
+We believe that every child and their family can realise their best potential – if children have access to high quality preschool education that nurtures them for a lifetime of growth, and parents get the help they need.
+
+
+We provide education and associated services for young children and their families through our preschools, driven by evidence\-based curriculum rooted in the latest international research. To meet the holistic needs of every family, we constantly innovate our curricula and services to better serve them.
+
+
+Job Description
+The Intern, HR Tech \& Automation (6\-months) is responsible for supporting the management and optimisation of RPA initiatives within NFC’s HR Systems team, with a focus on automating processes and leveraging data analytics to drive business insights.
+
+
+This role plays a crucial part in driving automation within the HR team, ensuring seamless implementation, documentation, and maintenance of RPA initiatives. This hands\-on position involves leveraging UiPath and Python to streamline HR processes, improve efficiency, and enhance data accuracy.
+
+
+The ideal candidate will bring expertise in RPA, Python\-driven automation, and HR analytics with a strong focus on operational efficiency and data management. A detail\-oriented approach, problem\-solving skills, and a continuous improvement mindset are essential for success in this role.
+
+ **RPA Development \& Maintenance**
+
+* Automate, integrate, and configure core HR processes to align with business objectives while maintaining data integrity and operational effectiveness, in collaboration with other HR functions
+* Design, develop, and maintain automation workflows using tools such as UiPath and Python or others
+* Collaborate closely with HR technology experts and business units to identify automation opportunities and optimise existing workflows
+* Conduct code reviews to uphold best practices and deliver high\-quality automation solutions
+* Provide post\-deployment support and maintain documentation to ensure the long\-term stability of workflows, troubleshooting of issues and refining automation systems
+
+**Training and Support**
+
+* Support HR and other staff members on using HR systems, automation tools, and data reporting platforms
+* Develop user manuals, and documentat

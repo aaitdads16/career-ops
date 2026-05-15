@@ -1,0 +1,34 @@
+'s\-Gravenhage* 
+* Hbo bachelor
+* 32 \- 36 uur
+* Schaal 11, Schaal 12 / €4\.024 \- €6\.907 (bruto)
+* (Data)analyse
+
+  
+Solliciteer voor 1 januari 2027
+  
+**Dit ga je doen**
+------------------
+
+**Wat ga je doen?**  
+
+Jij gaat het fundament leggen voor de dataverwerking en bijbehorende infrastructuur binnen de Algemene Rekenkamer. De Algemene Rekenkamer doet kwalitatief en kwantitatief onderzoek naar een grote verscheidenheid aan onderwerpen die impact hebben op het functioneren en presteren van het Rijk. De data die die we hiervoor nodig hebben willen we verwerken volgens moderne principes. De oplossingen hiervoor bedenk jij samen met het ontwikkelteam, waarbij je alle vrijheid hebt om jouw eigen ideeën aan te dragen. Sterker nog, dat verwachten we van jou! Hiervoor werk je samen met stakeholders binnen en buiten de organisatie. Je bedenkt concrete plannen voor het verwerken van data die aansluiten bij onze business en applicaties, stemt deze af met collega’s en voert deze uit. Vanuit je creatieve denkvermogen kom je met oplossingen. Het liefst gebruik je bestaande (open) standaarden en oplossingen en als die niet geschikt zijn ontwikkel je zelf oplossingen. Je ontwikkelt met moderne tools van het ontwikkelteam en deployt je code via onze eigen CI/CD\-straat naar onze Openshift Kubernetes infrastructuur. Toepassing van generatieve AI? Je bent een data\-engineer, maar ook hier zie je kansen voor dataverwerking. Een webapplicatie bouwen voor data\-uploads? Ja, voor de afwisseling pak je dat graag op. Uitleggen aan stakeholders waarom goede dataverwerking zo belangrijk is? Je bent onvermoeibaar! De komende jaren heb je de kans om als full\-stack data engineer aan de dataverwerking bij de Algemene Rekenkamer te werken en alles wat daar volgens jouzelf, je collega’s en stakeholders bij komt kijken.
+  
+
+  
+
+**Functie\-eisen**  
+
+* Afgeronde HBO\-/WO\-opleiding en aantoonbare ervaring op het gebied van computer/data science
+* Je hebt ervaring met het ontwerpen, ontwikkelen, bouwen, bevragen en beheren van API’s t.b.v. data\-analyse en softwareapplicaties en gebruikt daarbij graag open standaarden zoals bijvoorbeeld REST\-API Design rules van de Rijksoverheid.
+* Je hebt ervaring met meerdere onderdelen van CI/CD op basis van GitOps. Bijvoorbeeld Git, Automated Testing, Packaging, Helm, Containers, Kubernetes en/of ArgoCD. Of vergelijkbaar!
+* Je ontwikkelt in Python en TypeScript (pré) maar je laat je niet beperken door taal en tool.
+* Ervaring met de inzet van (generatieve) AI is een pré.
+* Je gaat een inhoudelijke discussie met je collega’s niet uit de weg. Sterker nog daar geniet je van! Samen kom je tot nog een beter plan.
+* Je kunt zelfstandig werken, bent analytisch sterk en kunt complexe problemen tot hun essentie terugbrengen.
+* Je hebt een mening en visie over dataverwerking en draagt deze uit.
+* je bent goed op de hoogte van de laatste trends en ontwikkelingen binnen je vakgebied.
+
+**Over de Algemene Rekenkamer**  
+
+Wij onderzoeken of de Rijksove

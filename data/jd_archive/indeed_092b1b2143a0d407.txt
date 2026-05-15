@@ -1,0 +1,31 @@
+**Applied Machine Learning Intern**
+
+**POSITION OVERVIEW**
+
+
+As a Vector **Applied Machine Learning Intern**, you will contribute to developing reusable software to apply and scale research breakthroughs in machine learning and AI. You will collaborate with some of the best and brightest AI developers and machine learning researchers and will work with leading industry sponsors and health stakeholders to apply AI. You will work closely with a technical lead on your software development projects for day\-to\-day direction.
+
+**Start date:** September 8, 2026
+
+**End date:** December 18, 2026
+
+**APPLIED INTERNSHIPS AT VECTOR**
+
+
+The applied internship program at Vector provides relevant, hands\-on learning and work experience in machine learning and AI. During the paid internship, interns will have the opportunity to attend research, recruitment, and commercialization talks at Vector and connect with key stakeholders in the AI ecosystem. Applied internships may be full\-time (36\.25 hours per week) or part\-time (20 hours per week) over the Fall academic term (September 8 \- December 18, 2026\) with an opportunity to continue over the Winter 2027 academic term. We welcome applications from all qualified candidates. Consistentwith Vector’s goals in this program to relieve disadvantages and alleviate the under\-representation of Black and Indigenous people in AI, and to attempt to achieve equal opportunity in the field of AI, preference in hiring will be given to qualified Black and Indigenous persons, studying at or having recently graduated from a Canadian post\-secondary institute, who self\-identify as such in the application process. This initiative is designed to meet the criteria of a special program under the Ontario Human Rights Code.
+
+**KEY RESPONSIBILITIES**
+
+* Work on AI software development projects following an agile methodology with teams that can include Vector AI software developers, professional staff, researchers, and industry sponsors;
+* Develop reference applications and model templates that apply AI research to real\-world problems using public and private data sets, providing software for training, testing, operating, and updating models;
+* Develop open source software for applying AI research techniques to common problems;
+* Contribute to industry projects that apply AI research to shared problems, contributing engineering expertise, and assisting with operational issues;
+* Develop prototypes and proofs of concept;
+* Report and present on software development including status and results; and,
+* Other duties as assigned.
+
+**PROFILE OF THE IDEAL CANDIDATE**
+
+* You are a self\-identified Black or Indigenous student or postdoctoral fellow (Indigenous ancestry or heritage – First Nations (status or non\-status), Métis or Inuit) or a recent graduate.
+* You are in second year or higher, studying at a Canadian university or college, or a recent graduate within one semester of graduation.
+* Experience in machine learning and/or statisti

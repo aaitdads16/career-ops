@@ -1,0 +1,17 @@
+Why choose between doing meaningful work and having a fulfilling life? At MITRE, you can have both. That's because MITRE people are committed to tackling our nation's toughest challenges—and we're committed to the long\-term well\-being of our employees. MITRE is different from most technology companies. We are a not\-for\-profit corporation chartered to work for the public interest, with no commercial conflicts to influence what we do. The R\&D centers we operate for the government create lasting impact in fields as diverse as cybersecurity, healthcare, aviation, defense, and enterprise transformation. We're making a difference every day—working for a safer, healthier, and more secure nation and world. Our workplace reflects our values. We offer competitive benefits, exceptional professional development opportunities for career growth, and a culture of innovation that embraces adaptability, collaboration, technical excellence, and people in partnership. If this sounds like the choice you want to make, then choose MITRE \- and make a difference with us.
+MITRE’s Data Science and Engineering department is looking for qualified applicants to bring their advanced data science, data engineering, machine learning, artificial intelligence, and applied research skills to bear on solving problems of critical national importance. MITRE’s diverse work program provides opportunities to apply your expertise and creative thinking in challenging domains such as national security, intelligence, transportation, and healthcare. Employees may also participate in MITRE’s internal research and development program, which provides funding for innovative applied research that addresses our sponsors’ hardest problems.
+
+**Roles \& Responsibilities:**
+
+
+The successful candidate for this position is a hybrid Data Scientist and Data Engineer who combines strong foundations in computer science, mathematics, and software engineering with hands\-on experience designing data systems and applying advanced analytics, machine learning, and AI techniques to solve mission problems. This role requires practitioners who can operate across the full data lifecycle from data modeling, processing, and infrastructure engineering to statistical analysis, machine learning, experimentation, and operational deployment. Our organization values innovation and believes that keeping up with the latest research and technologies is essential.
+
+
+The candidate should have hands\-on experience in several of the areas specified below, however it is **not** required that a candidate has experience in all of these areas.
+
+**Advanced Data Analytics and Artificial Intelligence**
+
+* Machine Learning and Model Evaluation (e.g., supervised, unsupervised, deep learning, reinforcement learning)
+* Statistical Analysis and Exploratory Data Analysis (e.g., descriptive statistics, regression, visualization)
+* Large Language Models and AI\-Assisted Workflows
+* Natural Language Processing (e.g., summarization, classifi

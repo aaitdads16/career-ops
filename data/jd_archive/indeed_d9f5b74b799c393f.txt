@@ -1,0 +1,52 @@
+**Company Overview**
+
+
+
+Amperesand is reinventing how the world powers its most critical systems.
+
+
+
+We are facing a once\-in\-a\-generation opportunity for infrastructure disruption. Electricity demand is skyrocketing, driven by AI factories, electric vehicles, and modern industrial growth. Energy supply is shifting to incorporate a more diverse mix of resources – including solar, gas, and batteries – at a massive scale.
+
+
+
+And yet the power infrastructure behind our latest mega\-projects hasn’t meaningfully changed in nearly 100 years. Supply chains for today’s infrastructure equipment can’t match the pace and sophistication of critical energy projects. Amperesand is building hardware and software that rewrites this broken power infrastructure playbook to support a new era of energy abundance.
+
+
+
+We’ve built a new class of intelligent, software\-defined power infrastructure products leveraging a decade of advanced medium voltage Solid State Transformer research that’s now ready for commercial deployment.
+
+
+
+Our products and solutions go far beyond the capabilities of traditional electrical equipment. We make power systems that are faster to deploy, dramatically smaller and more efficient, and capable of supporting modern, dynamic energy needs for tomorrow’s most demanding energy consumers.
+
+
+
+Scalable in\-house advanced manufacturing capability is our foundation for meeting timeline and quality expectation to serve infrastructure customers around the world.
+
+
+
+Amperesand is led by breakthrough energy hardware development veterans and funded by top tier investors who share our vision of building a category\-defining energy technology company.
+
+
+
+With hubs in San Francisco, Reno, and Singapore, our global team is laser focused on building foundational technology to solve the most pressing problems in power infrastructure at scale.
+
+
+
+Join us in building the power foundation of the future!
+
+**Role Summary**  
+
+As a Power Electronics Control Intern, you will contribute to the design, modeling, analysis, and validation of advanced power conversion systems, including AC\-DC and DC\-DC converters used in low\-voltage and medium\-voltage applications. This internship provides hands\-on exposure to real\-world power electronics development, with an emphasis on control systems, system\-level behavior, and laboratory validation. You will work closely with experienced power electronics, firmware, and system engineers, contributing through analysis, simulation, implementation support, and experimental evaluation of advanced power converters under technical guidance.
+
+
+**Responsibiliti****es:**
+
+
+* Assist in modeling and analysis of power converters and control loops using control\-oriented  
+
+techniques.
+* Support development and evaluation of control strategies for AC\-DC and DC\-DC power converters.
+* Help characterize system behavior, including stability, transient response, and operating limits.
+* Participate in laboratory testing, debugging, and valida

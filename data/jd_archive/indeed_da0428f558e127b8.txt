@@ -1,0 +1,35 @@
+**About Sembcorp**  
+
+Sembcorp is a leading energy and urban solutions provider headquartered in Singapore. Led by its purpose to drive energy transition, Sembcorp delivers sustainable energy solutions and urban developments by leveraging its sector expertise and global track record. **Key Roles and Responsibilities**
+* Developing AI solutions, algorithm\-based systems and quick front\-end prototypes to support business and technical needs.
+* Researching on latest AI technologies, tools, frameworks and solutions to assess and integrate into existing systems.
+* Working on AI and algorithm development, front\-end prototyping, back\-end integration and system integration testing.
+* Collaborating with teams to translate ideas, workflows and requirements into functional prototypes and scalable solutions.
+
+ **Qualifications, Skills \& Experience*** Background in Computing, Artificial Intelligence or equivalent
+* Experience with AI and algorithm development, including problem\-solving, logic design and model integration.
+* Experience with HTML, CSS/SCSS, JavaScript and Typescript for building quick front\-end prototypes.
+* Knowledgeable on communication mechanism between web/app/DB systems.
+* Familiar with languages and frameworks such as Python, Node.js, Angular, React, Typescript and related AI/ML tools.
+* Understand database SQL languages such as MSSQL, MySQL, KQL.
+* Able to support both rapid prototyping and solution development across front\-end and back\-end systems.
+
+ **Our Culture at Sembcorp**
+At Sembcorp, our culture is shaped by a strong set of shared behaviours that guide the way we work and uphold our commitment to driving the energy transition.  
+
+We foster an institution\-first mindset, where the success of Sembcorp takes precedence over individual interests. Collaboration is at the heart of what we do, as we work seamlessly across markets, businesses, and functions to achieve our goals together. Accountability is a core principle, ensuring that we take ownership of our commitments and deliver on them with integrity and excellence. These values define who we are and create a workplace where our people can thrive while making a meaningful impact on driving energy transition.  
+
+Join us in making a real impact!  
+
+Working Location: 30 Hill Street Singapore 179360**Job Snapshot**
+Updated Date
+14\-05\-2026
+Job ID
+Job ID3995
+Department
+AI \& Innovation
+Location
+Singapore, Central, Singapore
+Employee Group
+Attachment
+Employee SubGroup*

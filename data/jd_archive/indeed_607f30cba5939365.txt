@@ -1,0 +1,29 @@
+**Who we are**
+
+Zurich is a leading multi\-line insurer serving people and businesses in more than 200 countries and territories for more than 150 years. Today, we help communities stay resilient in the face of an ever\- changing risk landscape, whether driven by climate change or the effects of technology on work and the way we live our lives. In an era of unprecedented change, we are determined to shape a future in which we can all thrive. Reflecting its purpose to ‘create a brighter future together,’ Zurich aspires to be one of the most responsible and impactful businesses in the world.  
+
+
+**Our opportunity**
+
+The regional Data and Analytics team is at the heart of driving innovation across our business units, championing AI adoption and data maturity throughout the APAC region. As a Data Science Intern, you’ll join a dynamic, collaborative team that thrives on solving real\-world challenges and making a measurable impact. You’ll have the opportunity to work directly with stakeholders, supporting the delivery of cutting\-edge AI and analytical solutions using the latest data science and engineering practices. As part of our agile and lean team, you’ll help design and implement solutions that shape the future of our business—making every day a chance to learn, grow, and contribute to our shared success.  
+
+
+**Your role**
+**As a Data Scientist Intern your main responsibilities will involve:**
+* Collaborate with business stakeholders to identify, design, and engineer scalable data solutions that address business needs.
+* Build, deploy, and maintain AI\-driven applications and APIs using **FastAPI**, containerized with **Docker** and orchestrated via CI/CD pipelines powered by **GitHub Actions.**
+* Leverage **SQL** and **NoSQL** databases to manage, query, and optimize structured and unstructured data, ensuring robust data pipelines and storage architectures.
+* Develop and operationalize advanced models in machine learning, natural language processing (NLP), computer vision, and generative AI using frameworks such as **LangGraph** and **OpenAI Agents**, **OpenCV** and more.
+* Utilize **Azure** cloud services to architect, scale, and secure data science solutions in compliance with enterprise best practices.
+* Lead end\-to\-end implementation of data initiatives, from data ingestion and feature engineering to model development, deployment, and monitoring.
+* Analyze multi\-source datasets to provide actionable business insights, automate processes, and drive customer engagement improvements.
+* Facilitate stakeholder engagement and technical adoption through demonstrations, documentation, and collaborative problem\-solving.
+
+  
+
+
+**Your Skills \& Experience**
+**As a Data Scientist Intern your skills and qualifications will ideally include:**
+* Ongoing or completed bachelor’s degree in computer science, mathematics, data science, or a related field.
+* Experience implementing data science projects that deliver measurable value.
+* Proficiency in statis

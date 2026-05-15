@@ -1,0 +1,63 @@
+**About the Role**
+
+We are looking for a highly motivated **AI Software Validation Intern** with strong **Python programming skills** to help build the **testing and validation infrastructure for computer vision and AI\-based systems**.
+
+This role goes beyond traditional software testing. The intern will work on **developing automated test frameworks, tools, and validation platforms** that evaluate the performance, reliability, and robustness of AI models running on embedded hardware platforms.
+
+You will work closely with engineers developing **embedded computer vision applications such as ALPR (Automatic License Plate Recognition), safety monitoring systems, and industrial analytics**.
+
+**Key Responsibilities**
+
+**Test Framework Development**
+
+* Design and develop **Python\-based automated test frameworks** for validating AI and computer vision systems.
+* Build tools that automate **test execution, result collection, and performance analysis**.
+* Create scripts to validate AI model outputs against expected results.
+
+**Test Platform \& Tool Development**
+
+* Develop utilities for **dataset management, annotation verification, and result comparison**.
+* Build tools that generate **test scenarios and evaluate edge cases**.
+* Create **automation pipelines** to run validation on multiple datasets and hardware platforms.
+
+**AI Model Validation**
+
+* Validate AI models used in applications such as:
+
+◦ Vehicle detection
+
+◦ Automatic number plate recognition (ANPR)
+
+◦ Safety monitoring and PPE detection
+
+* Develop metrics and evaluation tools for **accuracy, robustness, and performance benchmarking**.
+
+**Data \& Result Analysis**
+
+* Build Python tools to analyze model outputs and generate **validation reports and visualizations**.
+* Compare results across **different model versions and optimization pipelines**.
+
+**Embedded System Testing**
+
+* Assist in validating AI software running on **edge AI platforms (Rockchip, Ambarella, etc.)**.
+* Develop scripts to automate testing of models deployed on embedded hardware.
+
+**Skills Required**
+
+**Must Have**
+
+* **Strong Python programming skills**
+* Good understanding of **software engineering fundamentals**
+* Experience with **Python libraries such as NumPy, OpenCV, Pandas**
+* Ability to design **modular scripts and reusable tools**
+* Familiarity with **Git and Linux environments**
+
+Job Types: Full\-time, Permanent
+
+Pay: ₹10,000\.00 per month
+
+Education:
+
+* Bachelor's (Preferred)
+
+Work Location: In person

@@ -1,0 +1,29 @@
+**Our Purpose**
+
+*Mastercard powers economies and empowers people in 200\+ countries and territories worldwide. Together with our customers, we’re helping build a sustainable economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential.*
+
+**Title and Summary**
+
+
+Principal AI Platform Engineer \- AI Center of Excellence
+Who is Mastercard?  
+
+Mastercard is a global technology company in the payments industry. Our mission is to connect and power an inclusive, digital economy that benefits everyone, everywhere by making transactions safe, simple, smart, and accessible. Using secure data and networks, partnerships and passion, our innovations and solutions help individuals, financial institutions, governments, and businesses realize their greatest potential.  
+
+Our decency quotient, or DQ, drives our culture and everything we do inside and outside of our company. With connections across more than 210 countries and territories, we are building a sustainable world that unlocks priceless possibilities for all.  
+
+  
+
+Overview:  
+
+The AI Center of Excellence is seeking a Principal AI Infrastructure Engineer to build and scale next\-generation infrastructure supporting Mastercard’s growing AI workloads. This role focuses on enabling high\-performance, scalable platforms across compute, storage, networking, and accelerators. The ideal candidate is technically deep, highly motivated, and brings an innovative, builder mindset to power advanced AI capabilities across the organization.  
+
+  
+
+About the Role:  
+
+* Lead AI infrastructure roadmap for Mastercard’s on premise private cloud, spanning strategy, design, procurement, delivery, installation, and lifecycle management, in alignment with enterprise AI priorities and governance frameworks.
+* Act as a product owner for AI infrastructure, translating business and data science needs into scalable, future proof platform capabilities that support both predictive ML and generative/agentic AI workloads at enterprise scale.
+* Lead RFI and RFP processes for AI infrastructure components, including CPU, GPU, storage, and networking, defining technical and commercial evaluation criteria, reviewing vendor responses, and driving fact based selection decisions in partnership with sourcing and finance teams.
+* Architect and scale infrastructure capable of training large scale predictive and generative models on petabytes of data, while supporting low latency inference (real time and batch) with thousands of transactions per second (TPS) across global workloads.
+* Define and champion modern AI infrastructure standards, including high performance storage , high speed networking , and advanced data center requirements such as liquid cooling and power den

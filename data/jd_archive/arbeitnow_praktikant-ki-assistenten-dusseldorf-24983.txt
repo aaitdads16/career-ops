@@ -1,0 +1,30 @@
+<h2>Was kommt auf Dich zu?</h2>
+<ul>
+<li>Anforderungen mit internen Stakeholdern (Sales, Marketing) aufnehmen und in Assistenten-Konzepte übersetzen</li>
+<li>Prompts, Systemanweisungen und Workflows in Claude entwickeln und kontinuierlich optimieren</li>
+<li>Assistenten in bestehende Tools integrieren (z.B. CRM, E-Mail, Slack) und Schnittstellen koordinieren</li>
+<li>Ergebnisse messen, Nutzerfeedback einholen und Assistenten iterativ verbessern</li>
+<li>Typische Anwendungsfälle gestalten: Lead-Qualifizierung, Follow-up-Automatisierung, Erstellung von Vertriebs- und Marketingtexten, Analyse von Kundenfeedback sowie Kampagnen-Briefings</li>
+<li>Dokumentation der Assistenten und Wissenstransfer ins Team sicherstellen</li>
+</ul>
+<h2>Was solltest Du mitbringen?</h2>
+<ul>
+<li>Studium im Bereich BWL, Wirtschaftsinformatik, Informatik oder ein vergleichbarer Studiengang – idealerweise mit Bezug zu digitalen Geschäftsmodellen oder Marketing/Vertrieb</li>
+<li>Verständnis von Prompt Engineering und LLM-Workflows – erste eigene Experimente mit KI-Tools sind ein klares Plus</li>
+<li>Erfahrung mit APIs oder No-Code-/Low-Code-Tools (z.B. Zapier, Make, n8n) von Vorteil</li>
+<li>Kommunikationsstärke an der Schnittstelle zwischen Tech und Business – Du kannst komplexe Themen verständlich erklären</li>
+<li>Strukturierte, eigenständige Arbeitsweise mit hohem Qualitätsanspruch und Hands-on-Mentalität</li>
+<li>Sprachkenntnisse: fließend Deutsch und gutes Englisch</li>
+<li>Echte Neugier für KI-Technologien und den Willen, die Zukunft der Unternehmensberatung aktiv mitzugestalten</li>
+</ul>
+<h2>Was kannst Du von uns erwarten?</h2>
+<ul>
+<li>Eine offene und partnerschaftliche Arbeitsatmosphäre mit starkem Teamzusammenhalt</li>
+<li>Flache Hierarchien und kurze Entscheidungswege in einem professionellen und international geprägten Umfeld</li>
+<li>Ein attraktives Vergütungspaket aus Fixgehalt und variablem Anteil sowie zusätzliche Benefits wie betriebliche Altersvorsorge und Mitarbeiterangebote</li>
+<li>Individuelle Entwicklungs- und Weiterbildungsmöglichkeiten zur Förderung Deiner fachlichen und persönlichen Kompetenzen</li>
+<li>Modernes IT-Equipment und ein Mobiltelefon für Deine tägliche Arbeit</li>
+<li>Ein attraktiver Unternehmensstandort direkt am Rhein im Herzen von Düsseldorf</li>
+<li>Regelmäßige Mitarbeiter- und Familienveranstaltungen</li>
+</ul>
+<p>Find more <a href="https://www.arbeitnow.com/english-speaking-jobs">English Speaking Jobs in Germany</a> on Arbeitnow</a>

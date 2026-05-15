@@ -1,0 +1,70 @@
+**About Themis Intelligence**
+
+
+
+Themis Intelligence builds the Utility Knowledge Base (UKB) and Human\-Guided Intelligence (HGI) platforms, redefining how utilities operate. Our systems transform complex operational data into clear, high\-confidence decisions. We design software that empowers grid professionals to think faster, act decisively, and operate with precision in critical environments. Every product we ship is built for real\-world performance: reliable, observable, and secure from day one.
+
+
+
+We are an AI\-first organization, continuously applying modern tools and workflows to improve how we plan, execute, and deliver outcomes.
+
+
+
+**About the Role**
+
+
+
+We’re looking for a co\-op student for a 12\-month duration who’s curious about how LLM agents behave in real\-world applications—especially when it comes to hallucination, grounding, and evaluation. You’ll be working on the post\-training lifecycle of Themis Agents (e.g., knowledge base assistants, alarm summarizers, and SCADA\-aware chatbots), ensuring that models are not only powerful but also accurate and trustworthy. You’ll contribute to designing and running evaluation frameworks, comparing retrieval strategies, testing prompt chains, and analyzing model behavior across a range of tasks. This is a hands\-on, research\-oriented role ideal for someone with AI\-related coursework and a passion for building better, safer AI systems.
+
+
+
+**In this role, you will**
+
+
+
+Evaluation \& Grounding
+
+
+
+ § Evaluate Themis Agents for accuracy, factual consistency, hallucination, and tool correctness.
+
+
+
+ § Analyze grounding failures—when models “go off\-script” from retrieved knowledge or internal documents.
+
+
+
+ § Score and compare outputs across tasks like Q\&A, summarization, and event reasoning.
+
+
+**Prompt \& Retrieval Testing**
+
+
+* Experiment with prompt templates, few\-shot examples, and retrieval settings.
+* Compare vector store search performance using embedding models, chunking strategies, and context window variations.
+* Run A/B tests across model versions and prompt chains.
+
+
+**Tooling \& Automation**
+
+
+* Build or extend evaluation pipelines in Python and frameworks like LangChain, OpenAI API, or Transformers.
+* Visualize and organize test results using tools like Streamlit, pandas, or Dash.
+* Help define “hallucination types” and build reproducible test suites for failure tracking.
+
+
+**You might thrive in this role if you**
+
+
+* Are pursuing a **Bachelor’s degree** in Computer Science, Engineering, Math, Physics, or a related field.
+* Have completed coursework in **machine learning, natural language processing, or AI systems**.
+* Enjoy debugging model outputs and understanding **why a chatbot gave a weird answer**.
+* Have worked on side projects involving **chatbots, retrieval\-based systems, or LLMs**.
+* Can write clean Python code and think critically about accuracy, context, and grounding.
+
+
+**Bonus Points For**
+
+
+* Experience with LangChain, LlamaIndex, or RAG architectures.
+* Famili

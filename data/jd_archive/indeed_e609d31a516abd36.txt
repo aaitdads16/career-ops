@@ -1,0 +1,21 @@
+**Overview**  
+
+Come build community, explore your passions and do your best work at Microsoft with thousands of University interns from every corner of the world. This opportunity will allow you to bring your aspirations, talent, potential—and excitement for the journey ahead.
+
+**Microsoft Research Asia (MSRA)** is now poised to extend roles into Singapore and looking for research interns in Foundation Model innovations (LLM, vision, multi\-modality, etc.), Deep Learning and Reinforcement Learning Foundation, Industrial AI application (e.g., AI for Healthcare, Embodied AI and Robotics, etc.).
+
+
+As a Research Science Intern, you will conduct research and leads research collaborations that yield new insights, theories, analyses, data, algorithms, and/or prototypes that advance the state\-of\-the\-art of computer science and engineering, as well as general scientific knowledge. You will formulate research problems in an area of study and initiates the design, development, execution and implementation of a research agenda to further academic knowledge and close identified gaps and provide expertise to product or business groups and may create long\-term business opportunities through research outcomes, but not responsible for addressing immediate product needs or demonstrating a clear path to product.
+
+
+We are seeking candidates excelling in deep thinking research aspects and fast\-paced entrepreneurial execution. The ideal candidates should have the ability to work with researchers and product team colleagues at Microsoft to push forward research agendas, being a team player in a collaborative and supportive environment with outstanding programming skills. We are seeking candidates with research skills and technical backgrounds. Applicants should demonstrate depth of knowledge in Natural Language Understanding, Computer Vision, Machine Learning, Algorithmic Foundations of Optimization, Data Mining or Machine Intelligence (Artificial Intelligence) as well as strong academia experience in data processing, experimentation, and modeling.
+
+
+Microsoft works with the world’s best researchers, moving with the current of technology as it rapidly evolves. Together we share the motivation to seek innovative solutions to the world’s toughest challenges and improve the lives of people everywhere. Microsoft provides a nurturing environment to support passionate researchers and engineers in AI technology innovation.
+
+
+Microsoft’s mission is to empower every person and every organization on the planet to achieve more. As employees we come together with a growth mindset, innovate to empower others, and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to create a culture of inclusion where everyone can thrive at work and beyond.
+
+ **Responsibilities**  
+
+* Analyze and improve performance of advanced algorithms on large\-scale datasets and cutting\-edge research in machine intelligence and machine lear

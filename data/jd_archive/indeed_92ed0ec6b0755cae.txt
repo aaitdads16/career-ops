@@ -1,0 +1,46 @@
+**Summary**
+-----------
+
+
+Employee will be assigned to Clinical Science Research \& Development Service, VA Boston Healthcare System, Boston, MA. The position is within the Boston Cooperative Studies Program Coordinating Center (Boston CSPCC). This position supports the Office of Research and Development (ORD) national effort in genomic medicine as well as the CSP initiatives in informatics.
+
+
+Learn more about this agency
+
+
+  
+**This job is open to**
+-----------------------
+
+
+### **The public**
+
+
+U.S. Citizens, Nationals or those who owe allegiance to the U.S.
+  
+**Duties**
+----------
+
+
+\*\***\*THIS IS NOT A VIRTUAL POSITION, YOU MUST LIVE WITHIN OR BE WILLING TO RELOCATE WITHIN A COMMUTABLE DISTANCE OF THE DUTY LOCATION\*\*\***  
+
+  
+
+**NOTE:** This is a **TERM** appointment (**not\-to\-exceed 4 years**). Term appointments are non\-status, nonpermanent appointments of limited duration (more than 1 year but not more than 4\). Term employees are eligible to earn leave and generally have the same benefits as permanent employees including health and life insurance, within\-grade increases and Federal Employees Retirement System and Thrift Savings Plan coverage. Term appointments may be extended without further competition (up to the 4\-year maximum). The appointment to a Term position does not confer eligibility for promotion or reassignment to other positions or the ability to be non\-competitively converted to permanent employment.  
+
+  
+
+Duties include, but may not be limited to the following:
+
+
+* Recommends systems to facilitate information exchange between VA clinical and research operations as well as with other governmental and industry\-based research programs.
+* Collaborates with and compliments other VA Programs and Projects; and champions well\-structured project plans that segment projects into pre\-defined phases with an emphasis on outcomes and lessons learned.
+* Provides consulting/advice regarding core infrastructure to support, maintain and improve other informatics developments at the facility including data standards.
+* Designs and develops effective databases for support of genomic and bioinformatics studies, and for other CSP studies as needed.
+* Designs, develops, tests, documents and oversees the implementation of new applications software in a structured query language (SQL) Server Web environment and Unix high\-performance cluster environments.
+* Analyzes and refines systems requirements.
+* Translates systems requirements into application prototypes.
+* Develops formal test plans to validate functionality and system performance.
+* Oversees the implementation of policies and procedures to ensure information systems reliability and accessibility.
+* Proposes and develops strategic biomedical informatics programs to support better utilization and analysis of VA health, research, and genomic data.
+* Analyzes informatics techniques, processes, and quality initiatives for improving the organizational effectiveness and processes of t

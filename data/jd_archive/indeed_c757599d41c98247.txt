@@ -1,0 +1,35 @@
+Kwaliteit begint bij het ontwerp en houdt pas op wanneer een dienst buiten gebruik wordt gesteld. Als Quality Assurance Specialist help je teams om kwaliteit niet als een einddoel te zien, maar als een integraal onderdeel van het productontwikkelingsproces. Je brengt structuur waar die ontbreekt en biedt teams het kader en het vertrouwen om verantwoordelijkheid te nemen voor wat ze opleveren.
+
+
+#### **Hier ga je werken**
+
+SURF is de IT\-coöperatie voor Nederlandse onderwijs\- en onderzoeksinstellingen. Samen met hen werken we aan digitale diensten en complexe innovatie\-uitdagingen om de kwaliteit van onderwijs en onderzoek te verbeteren.  
+
+Onze organisatie groeit snel, en daarmee ook de complexiteit van het landschap. Waar voorheen veel werd uitbesteed aan externe partijen, bouwen we steeds vaker zelf, met onze eigen ontwikkelaars. We bouwen een portfolio van interoperabele diensten: Dienst A maakt gebruik van functionaliteiten van Dienst B, en meerdere diensten draaien op gedeelde platforms en middleware. Deze afhankelijkheden maken kwaliteitsborging – en met name end\-to\-end\-testen – urgenter dan ooit.
+
+
+
+We streven ernaar om alles als open source te bouwen. Dit geldt ook voor testcode en testinfrastructuur, en het betekent dat kwaliteit niet alleen intern wordt ervaren, maar ook zichtbaar is voor de instellingen en gemeenschappen waarvoor we werken. Dit stelt hoge eisen aan de manier waarop kwaliteitsborging wordt georganiseerd en gedocumenteerd.
+
+
+
+Momenteel is QA nog niet structureel ingebed. Testers worden per project ingehuurd. De groeiende onderlinge afhankelijkheid tussen diensten vraagt om end\-to\-end\-testen dat nog vorm moet krijgen, en teams zoeken begeleiding bij teststrategieën, codekwaliteit en de Definition of Done. Jij helpt dat te veranderen: niet door het over te nemen, maar door het samen op te zetten met ontwikkelaars, (technische) productmanagers, ontwerpers, Scrum Masters en de Agile Coach, zodat kwaliteit een echte teamverantwoordelijkheid wordt.
+
+
+#### **In dit team kom je terecht**
+
+Je wordt onderdeel van het inrichtingsteam van de ontwikkelorganisatie: een multidisciplinair team met specialisten in development, design, architectuur, agile werken, privacy \& security en organisatieontwikkeling. Je werkt daarbij met name samen met de unit Accessible and Open Education \& Research en beweegt je in eerste instantie in de ruimte tussen SURF en Npuls, het landelijke programma voor digitale transformatie in het onderwijs.
+
+
+#### **Dit ga je doen**
+
+
+
+Als Quality Assurance Specialist vervul je een adviserende en onderzoekende rol. Je brengt in kaart wat er nodig is en biedt concrete ondersteuning aan de organisatie – van teststrategieën en \-beleid tot automatisering. Samen met de agile coach stimuleer je teams om te werken met een Definition of Done, waarbij je het aan de teams zelf overlaat om te bepalen wat dat precies inhoudt.
+
+
+
+Andere verantwoordelijkheden zijn onder meer:
+
+
+* Onderzoeken hoe QA momenteel is gestruc
