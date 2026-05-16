@@ -1,0 +1,28 @@
+**Venture outside the ordinary \- TMX Careers**
+
+The TMX group of companies includes leading global exchanges such as the Toronto Stock Exchange, Montreal Exchange, and numerous innovative organizations enhancing capital markets. United as a global team, we’re connecting cross\-functionally, traversing industries and geographies, moving opportunity into action, advancing global economic growth, and propelling progress. Through a rich exchange of ideas, meaningful collaboration, and a nimble operating model, we're powering some of the nation's most critical systems, fueling capital formation and innovation, bringing increased opportunity to business visionaries, product ingenuity to consumers, and career exploration to our team.
+
+
+**Ready to be part of the action?**
+
+Global Technology Services (GTS) is one of the foundational divisions of the TMX Group, that empowers internal TMX business lines for their technology needs, operations and digital innovation. GTS as a client centric organization focuses on building technology capabilities, enabling our clients with the best technology solutions and providing effective technology financial and resource management processes. The cost effective operation is a key attribute of the GTS execution. GTS is responsible for delivery of all technology initiatives and services across TMX.
+
+
+As a **Junior Systems Developer Intern** you will work with the systems engineering team to optimize and improve the configuration, accuracy, performance and implementation of the various supporting platforms. You will use various coding languages, scripting methodologies, or platform tooling to accomplish specific use cases encountered within the organization. Collaborating with others on the team to brainstorm about the best way to tackle a complex technological infrastructure, security, or development problem.
+
+
+You’ll be required to perform incremental testing actions on code, processes, and deployments to identify ways to streamline execution and minimize errors encountered. You will also be applying GitOps/DevOps principles to manage the platforms and help to drive functionality and adoption through continuous improvement, simplification, and automation.
+
+
+**This role reports to:** Senior Technical Manager, Platform Engineering, Monitoring and Observability
+
+
+**This role is hybrid (2\-3 days/week in the office) \- based in Toronto, ON.**
+
+**Must have(s):**
+
+* Currently enrolled in a Bachelor’s or Master’s program in Computer Science, Software Engineering, or a related technical field.
+* Proficiency in Python, Go (Golang), or equivalent, with a solid understanding of object\-oriented programming and scripting fundamentals.
+* Familiarity with Linux/Unix environments, basic networking concepts, and version control using Git.
+* Basic familiarity with cloud platforms (AWS, Google Cloud, or Azure) and an interest in Infrastructure as Code (IaC) concepts.
+* Excellent analytical and troubleshooting skills, with a strong desire

@@ -1,0 +1,76 @@
+**Penetration Testing Intern**
+==============================
+
+
+? Location: Brookfield, Bengaluru
+? Working Hours: 9:00 AM â 6:00 PM
+? Internship Duration: 3 Months
+? Stipend: â¹15,000 per month
+? Work Mode: In\-Office
+? Week Off: Alternative Saturdays Off**About the Role**
+------------------
+
+
+We are looking for enthusiastic and passionate Penetration Testing Interns who are eager to gain hands\-on experience in Cybersecurity, Ethical Hacking, and Application Security Testing. The intern will work closely with the security team to identify vulnerabilities, perform security assessments, and support secure development practices.**Required Knowledge Areas**
+----------------------------
+
+### **Web \& Application Security**
+
+* Web Application Penetration Testing
+* Mobile Application Penetration Testing (Android \& iOS)
+* API Security Testing and Exploitation
+* OWASP Top 10 Vulnerabilities
+* API Security Risks (IDOR/BOLA, Rate Limiting, Excessive Data Exposure, Parameter Tampering)
+* Authentication \& Authorization Mechanisms (JWT, Access Token, Refresh Token, Session Management)
+* Understanding of Security Misconfigurations
+* Logging and Sensitive Data Exposure Analysis
+
+### **Networking \& Protocols**
+
+* HTTP/HTTPS Protocols (RequestâResponse Structure, Headers, Cookies, Status Codes)
+* TLS/SSL Security and Certificate Handling
+* Server\-Level Penetration Testing
+* Linux Fundamentals for Security Testing
+
+### **Security Tools**
+
+* Burp Suite (Proxy, Repeater, Intruder, Scanner)
+* OWASP ZAP
+* Nmap
+* SQLMap
+* Hashcat / John the Ripper
+
+### **Security Testing Techniques**
+
+* Password Attacks (Brute Force, Dictionary Attacks, Credential Stuffing)
+* Exploitation Techniques and Proof\-of\-Concept Creation
+* Static and Dynamic Security Testing
+* Mobile App Security Testing (APK Analysis, Traffic Interception)
+* Secure Testing Practices in Production Environments
+
+### **Documentation \& Reporting**
+
+* Vulnerability Reporting and Documentation
+* CVSS Scoring and Risk Classification
+
+### **Additional Skills (Good to Have)**
+
+* Basic scripting knowledge in Python or Bash
+
+**Responsibilities**
+--------------------
+
+* Perform security assessments on web, mobile, and API applications
+* Identify, analyze, and document security vulnerabilities
+* Assist in vulnerability validation and remediation testing
+* Conduct network and server\-level security testing
+* Prepare detailed penetration testing reports with risk ratings
+* Work with development teams to improve application security
+* Support secure testing activities in staging and production environments
+
+**Preferred Qualification**
+---------------------------
+
+* B.Tech / BE in Cybersecurity, Computer Science Engineering (CSE), or Information Technology (IT)
+* Candidates from Electronics \& Communication Engineering (ECE) with strong networking and security knowledge can also apply
+* Candidates who have studied subjects such as Cyber Security, Ethical Hacking, Network Security, Information Security, Cryptograph
