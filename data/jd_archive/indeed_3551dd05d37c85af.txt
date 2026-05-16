@@ -1,0 +1,47 @@
+Somos uma organização **100% nacional**, apaixonados pela criação de tecnologia brasileira e focados em soluções e inovações.
+
+
+Geramos soluções em TIC's (Tecnologia da Informação e Comunicação), que são aplicadas em diversos setores, como: telecom, agronegócios, financeiro, utilities, indústrias, cidades, varejo e serviços de defesa e segurança.
+
+
+Acreditamos que por meio do **Nosso Jeito de Ser e de Fazer**, atingiremos resultados sustentáveis, contribuindo para o desenvolvimento das nossas pessoas e da sociedade.
+
+
+Nossos valores definem nossa essência: quem somos, o que nos inspira e nos torna únicos. Eles são o **Nosso Jeito de Ser.**
+
+ **Valores institucionais \- COCRIAR:**
+
+**C**olaboração
+
+**O**rientação ao cliente
+
+**C**onfiança
+
+**R**espeito
+
+**I**novação
+
+**A**daptabilidade
+
+**R**esultado
+
+
+A partir do Nosso Jeito de Ser definimos as competências e os comportamentos que refletem, na prática, o **Nosso Jeito de Fazer** \- Liderança e Capacidade de Influência, Integração e Cooperação, Escuta Ativa, Ética e Integridade, Inteligência Emocional, Curiosidade e Aprendizado, Pensamento Digital, Pensamento Sistêmico, Resiliência e Flexibilidade, Planejamento e Gerenciamento do Tempo, Geração de Valor, Decisão com Base em Dados
+
+
+Identifica\-se com **Nosso Jeito de Ser e de Fazer**? Então venha **COCRIAR** com a gente integrando nosso time como **Pesquisador(a) II**!
+
+ **Quais serão seus desafios no dia\-a\-dia:**
+
+* Liderança de Investigação Científica: Conduzir e liderar pesquisas de ponta em IA aplicada a sistemas de telecomunicações, sendo responsável pela proposição de novas técnicas e abordagens inovadoras;
+* Desenvolvimento de Modelos Avançados: Projetar e implementar arquiteturas complexas de IA/ML/GenAI (Aprendizado por Reforço, Aprendizado Federado, RAG, SLM/LLM) voltadas para a automação e otimização de redes de próxima geração (5G Advanced e 6G);
+* Mentoria e Colaboração: Orientar pesquisadores juniores e estagiários em tarefas técnicas, além de colaborar ativamente com parceiros acadêmicos e industriais no Brasil e no exterior;
+* Transferência Tecnológica e Produto: Atuar como ponte entre a pesquisa científica e o desenvolvimento de produtos, garantindo que as inovações sejam escaláveis e aplicáveis ao mercado global;
+* Produção Intelectual e Patentes: Liderar a redação de artigos científicos para periódicos de alto impacto e atuar proativamente na identificação de oportunidades para registro de patentes e softwares;
+* Roadmap Tecnológico: Contribuir estrategicamente para o refinamento do roadmap tecnológico do CPQD, antecipando tendências de Telco AI.
+
+**Buscamos alguém com:**
+
+* Formação Sólida: Mestrado completo ou Doutorado em curso em Engenharia Elétrica, Computação, Ciência da Computação ou áreas correlatas, com foco em IA/ML ou Telecomunicações;
+* Domínio em Frameworks e Linguagens: Sólida experiência com Python e frameworks de IA/ML (PyTorch, TensorFlow, Scikit\-learn);
+* Matemática e Estatística Aplicada: Conhecimento profu

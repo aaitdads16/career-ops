@@ -1,0 +1,35 @@
+**SLAC Job Postings**
+---------------------
+
+  
+
+
+**Position Overview:**
+
+
+The Stanford Synchrotron Radiation Lightsource (SSRL), a Directorate of the SLAC National Accelerator Laboratory, is seeking a Research Intern to participate in the analysis of data on materials ranging from Li\-ion batteries to polymer systems with techniques that can include transmission x\-ray microscopy (TXM), small angle scattering and x\-ray diffraction. These techniques allow probing of the structural and chemical changes taking place in Li\-ion batteries during operation. The intern will have access to software tools that will enable segmentation of the images and analysis of x\-ray absorption data. Additionally, the intern will have the opportunity to work with scientists and engineers developing a new, state\-of\-the\-art transmission x\-ray microscope. This position is expected to be proficient and work under limited supervision. The position can start in mid\-summer with the exact start date and duration dependent on the availability of the intern. By the end of the tenure, the intern is expected to have gained a good level of independence and proficiency in lab work and data analysis.
+
+**Your specific responsibilities include:**
+
+* Become proficient if the SSRL specific data analysis software programs
+* Identify a set of data from the measurements that will have been taken earlier in the experimental run to be analyzed.
+* Perform analysis and interpretation of the data sets and present the findings to the group.
+* Participate in seminars and group/department meetings to enhance knowledge and keep abreast of advances in the fields of research being conducted at SSRL.
+
+**Opportunities and Benefits:**
+
+* Great resume builder for someone seeking practical experience in a scientific and research environment
+* Opportunity to become more closely connected to the Stanford/SLAC scientific community, as the intern will be working with both students and staff from many different disciplines
+* Opportunity to learn about SLAC and exposure to the work environment in a research and user facility
+* Opportunity to work with engineers, scientists and technical staff on cutting\-edge technologies
+
+**Note**: This is an hourly, non\-benefits eligible temporary\-nonexempt student position (work at 50% full\-time equivalent or more), not to exceed 980 hours in six consecutive months Eligible applicants must be at least 18 years of age, currently enrolled in an educational program or recently graduated, and have US work authorization
+
+**To be successful in this position you will bring:**
+
+* An undergraduate degree in engineering or natural science such as physics, chemistry, or materials science.
+* Interest in physics, chemistry, materials science, and related fields.
+* Able to effectively communicate technical issues with other scientists, engineers, vendors, and others in a diverse multicultural environment.
+* Prior experience with Python programming would be beneficial.
+
+**SLAC Em

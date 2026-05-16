@@ -1,0 +1,62 @@
+Company: Singapore Exchange
+Location:
+Singapore, SG
+Unit: Indices \& Data Services
+Job Type: Intern
+Requisition ID: 3300
+**Singapore Exchange Internship Program**
+-----------------------------------------
+
+  
+
+
+Singapore Exchange (SGX) is Asia’s leading and trusted market infrastructure, facilitating the exchange of capital and ideas to create value for people, businesses and economies. As a multi\-asset exchange operating equity, fixed income and derivatives markets to the highest regulatory standards, SGX is a vertically integrated business that provides listing, trading, clearing, settlement, depository and data services. With about 40% of listed companies and 90% of listed bonds originating outside of Singapore as well as established linkages across the region and in Europe, SGX is Asia’s most international and connected exchange.  
+
+  
+
+Do you have what it takes to be at the heart of the financial industry?  
+
+  
+
+Be a part of this fast\-paced world where your contributions count. SGX offers you the unique experience of gaining insights into the Exchange business and the finance value chain. You will be immersed in the respective specialist functions – at SGX, we believe that our interns are involved in real\-time work from Day 1\.  
+
+  
+
+Note: Leave of Absence (LOA) may be required to take on the internship.
+
+
+**Platform Analytics**
+----------------------
+
+
+**Brief Overview:**  
+
+The Platform Analytics team is responsible for building and maintaining the internal data foundation that supports reporting, analytics, and business decision\-making across the organisation. High\-quality analytics data is critical in enabling the business to derive insights and operate in a data\-driven manner.
+
+
+
+This role sits within the Platform Analytics team and combines both **AI and engineering** capabilities. The selected intern will contribute to a greenfield initiative focused on automating a key internal business reporting function. This presents a unique opportunity to gain hands\-on experience in **AI prompt engineering**, while working with **modern cloud technologies** to design and build practical, production\-oriented solutions.
+
+  
+
+  
+
+**Job Responsibilities:**
+
+
+* Develop and refine AI prompt engineering solutions to support automation and data processing workflows
+* Design and build Python computation modules for internal reporting and processing systems on GCP
+* Implement and maintain efficient, scalable, and reliable Python code for data processing and automation
+* Support testing, validation, and troubleshooting of developed features to ensure production readiness
+* Maintain and enhance existing BAU Python processes, ensuring stability and performance
+* Collaborate with business and technology teams to translate requirements into practical solutions
+* Identify opportunities to improve workflows through automation and AI\-driven approaches
+
+  
+
+  
+
+**Knowledge and Skills requirements:**
+
+
+* Strong proficiency in **Python**, including data p

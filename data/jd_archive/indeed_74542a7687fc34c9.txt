@@ -1,0 +1,64 @@
+**About Us**
+
+
+A career at Hitachi Rail will help create a legacy. With operations in every corner of the world, our work goes to the cutting\-edge of digital transformation and technology. From the multi\-cultural strength of our global organisation to the sustainable and innovative ways we work to bring people together, there’s something for everyone to get stuck into. And that’s where you come in.
+
+
+Toronto, Ontario, Canada (Hybrid)**Job Title:** Software Analyst Intern
+
+**Rail Pass Type:** Internship/Co\-op (Full\-time/Hybrid)
+
+
+**Departure and Arrival Date (Start \-End):** September 2026 – April 2027 (8 months, will also consider 12 months)
+
+**Vacancy:** 1
+
+**Location:** 100 Consilium Place, Scarborough, ON M1H 3E3
+
+**Work hours/week:** 40
+
+**Pay Details:** $23\-$30 CAD hourly
+
+**Stations on Your Journey:**
+
+
+**Welcome and Onboarding Station**
+
+
+* Intern Orientation
+* Online Onboarding Curriculum
+* Buddy Program for mentorship and guidance
+
+**Hands\-On Work Station**
+
+* Real\-world projects with top industry talent
+* Paid internship \+ paid vacation
+* Hybrid work model
+* A chance to build your career with a global leader driving digital transformation and innovation that helps support sustainable future
+
+**Networking Station**
+
+
+* “Ask Me Anything” with the Executive Committee
+* Employee Resource Groups (ERGs)
+* Social Intern Events: Coffee Breaks, Onsite/Offsite events
+* Business Intern Events: Intern Showcase \& Graduation ceremony
+* Company Social Events: Holiday Party, Employee BBQs, Golf tournament, etc.
+
+**About This Opportunity**
+
+
+As a member of the Vital Software Engineering team supporting Ground Transportation Systems in Canada, the intern candidate will work under the direction of a senior software engineer to analyze, design, develop, and test software using continuous integration methods available in our organization.
+
+
+Joining Hitachi Rail as an intern is a fantastic opportunity to kickstart your career! Our roles offer real\-life work experiences that align with your area of study. The Early Careers Program provides more than just a job – it offers training, networking opportunities, career development, and social events.
+
+**Key Accountabilities**
+
+* Understand and adhere to the company’s processes and procedures for developing crucial software for safety\-critical railway systems
+* Assist in software development and algorithm implementations for safety\-critical systems, utilizing languages such as C, Python, and shell scripting
+* Develop software tools and scripts to enhance the existing software development toolchain.
+* Document the software solution comprehensively on the wiki
+* Work closely with cross\-functional teams to troubleshoot and resolve automation\-related issues
+* Collaborate with the team to identify and implement opportunities for further automation in software development and deployment
+* Demonstrate strong organizational abilities and quick integration into the team, balancing collaboration and independent

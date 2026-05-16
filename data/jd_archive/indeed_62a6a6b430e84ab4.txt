@@ -1,0 +1,29 @@
+**About Sembcorp**  
+
+Sembcorp is a leading energy and urban solutions provider headquartered in Singapore. Led by its purpose to drive energy transition, Sembcorp delivers sustainable energy solutions and urban developments by leveraging its sector expertise and global track record. **Key Roles and Responsibilities**
+This role sits within GEC and focuses on how AI can be applied to transform and enhance Know Your Counterparty (KYC) and third party due diligence processes across the Group. KYC due diligence is about knowing who we work with, verifying their identity, and spotting potential risks before we do business with them.
+This internship offers hand\-on exposure to real cases, regulatory guidelines and process improvement initiatives, giving you practical insights into how organisations manage ethics and compliance risks responsibly and sustainably.* Collaborate closely with GEC colleagues and Group Digital team to support the design and testing of AI\-enabled solutions for KYC (e.g. automated extraction and summarisation of corporate and ownership information, risk flagging based on sanctions, adverse media and risk indicators)
+* Assist in mapping current workflows to identify manual inefficiencies and opportunities for AI augmentation.
+* Prepare use cases, prompts, test datasets, and scenarios for AI pilots or proof of concepts.
+* Participate in user testing and document accuracy, explainability gaps, and operational limitations.
+* Support data analysis, tracking, and reporting, including building reporting dashboards and consolidating training statistics.
+
+
+What You’ll Deliver* Contribute to the training and development of an AI\-powered screener to reduce false positives and increase efficiency.
+* End\-to\-end mapping of current and optimised KYC alert review processes with recommendations to streamline and digitalise workflows, including AI\-enabled workflow
+* A prototype design for a systemised/ AI driven alert review process
+
+* Reporting dashboards or tools to facilitate tracking of volume and training statistics
+
+ **Qualifications, Skills \& Experience*** Background in Business, Finance, Accounting, Risk Management, Data Analytics, Computer Science, Compliance, Law or equivalent
+* Strong interest in compliance, technology, KYC and AI driven solutions
+* Basic understanding of KYC, AML/CFT, through academic coursework or prior internship experience preferred.
+* Analytical and solution curious mindset with the ability to break down complex data or integration problems into structured insights.
+* Strong attention to detail and ability to identify discrepancies in documentation and potential risk indicators.
+* Proactive and self\-driven, and keen to improve processes.
+* Ability to work both independently and collaboratively.
+
+* Proficiency in MS Office, in particular, use of Excel for data review and analysis.
+
+ **Our Culture at Sembcorp**
+At Sembcorp, our culture is shaped by a strong set of shared behaviours that guide the way we work

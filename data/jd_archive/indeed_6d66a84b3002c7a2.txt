@@ -1,0 +1,36 @@
+**The Opportunity**
+===================
+
+
+Join our cutting\-edge Engineering Team as we redefine the future of software development! We are looking for passionate, AI\-driven student innovators to help us build the next generation of Coding Agents and SDLC Agents. You will have the opportunity to move beyond simple chatbots and dive into the "Agentic" era of computing.
+As an intern, you will gain hands\-on experience with the infrastructure required to scale AI across a global engineering organization. By the end of your internship, you will have successfully designed and integrated AI agents into standard development workflows, helping us build systems that write and manage code.**Engineering at Nutanix**
+==========================
+
+
+We are a fast\-moving, high\-impact organization focused on bringing AI to the forefront of the software development lifecycle. Our team believes that the intersection of Large Language Models (LLMs) and software engineering will fundamentally change how applications are built, tested, and deployed. We collaborate closely across research and production teams to bridge the gap between theoretical AI and production\-ready developer tools.*"Building the tools that build the future."***Your Role**
+=============
+
+* Agentic Framework Development: Design and implement autonomous agents capable of performing tasks like automated bug fixing, code refactoring, and feature generation.
+* SDLC Integration: Integrate AI agents into standard development workflows, including Version Control Systems (GitHub/GitLab), CI/CD pipelines, and project management tools.
+* Evaluation Systems: Build frameworks to benchmark agent reliability, safety, and code quality using static analysis and execution\-based testing.
+* Prompt Engineering \& Tuning: Experiment with advanced prompting techniques (Chain\-of\-Thought, ReAct) and fine\-tuning strategies to optimize agent performance for coding tasks.
+
+**What You'll Bring**
+=====================
+
+* Currently pursuing a BS (Junior or rising Senior) or MS in Computer Science, or a related technical field.
+* Strong proficiency in Python or Java.
+* Solid understanding of the Software Development Lifecycle (SDLC), modern DevOps practices, Git, unit testing, and building/consuming REST APIs.
+* Demonstrated passion for AI, Machine Learning, and LLM\-powered applications.
+* Experience with agentic frameworks (LangChain, CrewAI, AutoGPT, AutoGen), vector databases (Chroma, Pinecone), or RAG architectures.
+* (For MS) Research experience in Automated Software Engineering (ASE), Natural Language Processing, or AI safety.
+
+**Work Arrangement: In office \| San Jose, CA**
+===============================================
+
+
+Should the role be within 50 miles of a Nutanix office, it will require coming into an office a minimum of 3 days per week. Additional team\-specific guidance and norms will be provided by your manager.**FOR US**
+==========
+
+
+The pay range for this position at commencement of employment is expect

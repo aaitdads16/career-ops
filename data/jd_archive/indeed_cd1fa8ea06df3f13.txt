@@ -1,0 +1,55 @@
+Estamos buscando um(a) profissional sênior para atuação em ambiente corporativo crítico no setor de telecomunicações, com forte experiência em ETL, integração de sistemas e manutenção evolutiva de aplicações orientadas a OSS.
+
+
+A posição é voltada para profissionais com perfil hands\-on, capacidade analítica e senioridade técnica comprovada para atuar na manutenção, evolução e construção de novas funcionalidades em aplicações responsáveis pelo processamento, parsing e integração de dados oriundos de plataformas OSS.
+
+
+Buscamos alguém que consiga compreender tecnicamente o ecossistema das aplicações, analisar problemas de forma estruturada e atuar diretamente na implementação das soluções.
+
+  
+
+Requisitos: **Principais Responsabilidades**
+
+* Desenvolvimento e manutenção de processos ETL
+* Evolução e manutenção de aplicações integradas ao ecossistema OSS
+* Análise, processamento e integração de dados oriundos de plataformas telecom
+* Desenvolvimento de novas funcionalidades e melhorias em sistemas existentes
+* Integração entre bancos de dados, APIs e sistemas corporativos
+* Tuning e otimização de queries SQL
+* Apoio técnico na análise e evolução das aplicações
+* Documentação técnica e suporte às equipes internas
+* Interação com áreas técnicas e de negócio
+
+ **Requisitos Obrigatórios**
+
+* Experiência em ambientes corporativos críticos, preferencialmente telecom
+* Conhecimento e atuação em ambientes OSS
+* Forte experiência com ETL e integração de dados
+* Experiência prática com Informatica Cloud (IICS)
+* SQL avançado e tuning de performance
+* Experiência com Oracle e MongoDB
+* Experiência com integração de APIs
+* Desenvolvimento e manutenção de aplicações utilizando:Java, JavaScript, XML
+* Capacidade de atuação em manutenção evolutiva e análise técnica de sistemas legados
+* Perfil analítico, consultivo e hands\-on
+* Excelente comunicação verbal e escrita
+* Capacidade de atuação com autonomia técnica
+
+ **Diferenciais**
+
+* Conhecimento em React, Angular e JQuery
+* Experiência em parsing e tratamento de dados telecom
+* Experiência com ferramentas de IA aplicadas à análise e manutenção de código existente
+* Vivência com:Claude, Cursor AI, Windsurf, Kiro, GitHub Copilot
+* Experiência em refatoração e modernização assistida por IA
+* Conhecimento em automação de processos
+
+  
+
+Benefícios  
+
+* Vale transporte
+* Vale refeição 42,00/dia trabalhado
+* Plano de saúde
+* Plano odontológico
+* Totalpass

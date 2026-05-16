@@ -1,0 +1,72 @@
+**About Us**
+
+
+A career at Hitachi Rail will help create a legacy. With operations in every corner of the world, our work goes to the cutting\-edge of digital transformation and technology. From the multi\-cultural strength of our global organisation to the sustainable and innovative ways we work to bring people together, there’s something for everyone to get stuck into. And that’s where you come in.
+
+
+Toronto, Ontario, Canada (Hybrid)**Job Title:** Software Analyst Intern
+
+**Rail Pass Type:** Internship/Co\-op (Full\-time/Hybrid)
+
+
+**Departure and Arrival Date (Start \-End):** September 2026 – April 2027 (8 months, will also consider 4 months)
+
+**Vacancy:** 1
+
+**Location:** 100 Consilium Place, Scarborough, ON M1H 3E3
+
+**Work hours/week:** 40
+
+**Pay Details:** $23\-$30 CAD hourly
+
+**Stations on Your Journey:**
+
+
+**Welcome and Onboarding Station**
+
+
+* Intern Orientation
+* Online Onboarding Curriculum
+* Buddy Program for mentorship and guidance
+
+**Hands\-On Work Station**
+
+* Real\-world projects with top industry talent
+* Paid internship \+ paid vacation
+* Hybrid work model
+* A chance to build your career with a global leader driving digital transformation and innovation that helps support sustainable future
+
+**Networking Station**
+
+
+* “Ask Me Anything” with the Executive Committee
+* Employee Resource Groups (ERGs)
+* Social Intern Events: Coffee Breaks, Onsite/Offsite events
+* Business Intern Events: Intern Showcase \& Graduation ceremony
+* Company Social Events: Holiday Party, Employee BBQs, Golf tournament, etc.
+
+**About This Opportunity**
+
+
+We are currently hiring a Software Analyst Intern for a summer term position, from May 2026 – August or December 2026 (4\-8months) at our Hitachi Rail Signalling and Rail Solutions (SRS) office.
+
+
+As a member of a collaborative development team, the individual in this role will work within the Test Tools and Test Infrastructure team to perform design, analysis, programming and integration activities in the development of software for train control systems that support Hitachi Rail SRS.
+
+**Key** **Accountabilities**
+
+
+* Understands and follows the company’s processes and procedures for developing or supporting vital software applications
+* Implements real time systems in C\+\+ and Python or C and with some Assembler
+* Designs, codes, debugs, writes test procedures and tests software code as well as writing scripts for test automation
+* Reviews code, test procedures and test results
+* Analyses and implements corrections for defect reports
+* Support in\-house testing teams to analyze and identify issues
+
+**Key Requirements**
+
+* The successful candidate should be working towards a bachelor’s degree from an accredited university or college in Computer/Electrical Engineering, Computer Science degree or a related field.
+* Completion of the second or third year of your undergraduate degree, or currently pursuing a master’s degree
+* Development experience in C/C\+\+ and Python
+* Knowledge of software architecture
+* K

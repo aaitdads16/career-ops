@@ -1,0 +1,38 @@
+Based in San Francisco, Arine is a rapidly growing healthcare technology and clinical services company with a mission to ensure individuals receive the safest and most effective treatments for their unique and evolving healthcare needs.
+
+
+
+Frequently, medications cause more harm than good. Incorrect drugs and doses costs the US healthcare system over $528 billion in waste, avoidable harm, and hospitalizations each year. Arine is redefining what excellent healthcare looks like by solving these issues through our software platform (SaaS). We combine cutting edge data science, machine learning, AI, and deep clinical expertise to introduce a patient\-centric view to medication management, and develop and deliver personalized care plans on a massive scale for patients and their care teams.
+
+
+
+Arine is committed to improving the lives and health of complex patients that have an outsized impact on healthcare costs and have traditionally been difficult to identify and address. These patients face numerous challenges including complicated prescribing issues across multiple medications and providers, medication challenges with many chronic diseases, and patient issues with access to care. Backed by leading healthcare investors and collaborating with top healthcare organizations and providers, we deliver recommendations and facilitate clinical interventions that lead to significant, measurable health improvements for patients and cost savings for customers.
+
+
+**Why is Arine a Great Place to Work?:**
+
+
+
+**Outstanding Team and Culture \-** Our shared mission unites and motivates us to do our best work. We have a relentless passion and commitment to the innovation required to be the market leader in medication intelligence.
+
+
+**Making a Proven Difference in Healthcare \-** We are saving patient lives, and enabling individuals to experience improved health outcomes, including significant reductions in hospitalizations and cost of care.
+
+
+**Market Opportunity \-** Arine is backed by leading healthcare investors and was founded to tackle one of the largest healthcare problems today. Non\-optimized medications therapies which cost the US 275,000 lives and $528 billion annually.
+
+
+**Dramatic Growth \-** Arine is managing more than 18 million lives across prominent health plans after only 4 years in the market, and was ranked 236 on the 2024 Inc. 5000 list and was named the 5th fastest\-growing company in the AI category.
+
+**The Role:**
+
+
+
+We are looking for an **AI Engineering Intern** to join our Team for the summer. This role is designed for a current graduate student, recent graduate, or someone with equivalent early\-career experience who is passionate about using advanced statistical methods and AI tools to improve population health and reduce the total cost of care through medication optimization at a health\-plan scale.
+
+
+**Internship Focus Areas:**
+---------------------------
+
+
+* **SOAP Note Transformation:** You will focus on the AI logic required to conve

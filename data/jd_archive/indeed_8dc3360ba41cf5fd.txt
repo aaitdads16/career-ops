@@ -1,0 +1,39 @@
+**Battery R\&D Internship**
+
+Enovix is seeking an R\&D Intern to support the design, fabrication, testing, and analysis of lithium\-ion batteries with silicon\-based anodes. This role is well suited for a PhD student or graduate researcher with strong experience in electrochemistry, battery materials, cell testing, and failure analysis.
+
+
+The ideal candidate will bring deep technical expertise in battery materials and electrochemistry, a hands\-on approach to experimentation, and enthusiasm for addressing complex challenges in silicon anode commercialization.
+
+
+The intern should be comfortable working across fundamental science, experimental execution, and product\-focused battery development. The intern will collaborate closely with scientists, engineers, and technical leadership to support the development of high\-performance lithium\-ion cells.
+
+
+**Key Responsibilities**
+
+The intern will contribute to one or more of the following areas:
+
+
+* Design and evaluate silicon\-based anode materials, composites, binders, conductive additives, and electrode formulations.
+* Fabricate electrodes and coin, pouch, or other test cells for electrochemical evaluation.
+* Perform battery testing, including formation, cycling, rate capability, fast\-charge testing, impedance measurements, and diagnostics.
+* Analyze capacity retention, coulombic efficiency, impedance growth, swelling, and other key performance metrics.
+* Investigate silicon anode degradation mechanisms, including volume expansion, SEI evolution, particle fracture, lithium inventory loss, and electrode\-level failure modes.
+* Use materials characterization techniques such as SEM, TEM, XRD, XPS, Raman, FTIR, BET, TGA, or related methods, as applicable.
+* Develop clear, data\-driven recommendations to guide silicon anode material and cell design.
+* Document experimental procedures, results, and conclusions in technical reports and presentations.
+* Work cross\-functionally with materials, cell engineering, process development, and product teams.
+
+**Required Qualifications**
+
+* Currently enrolled in a PhD program at a leading university, national laboratory, or research institute with a strong focus on batteries, electrochemistry, materials science, chemical engineering, mechanical engineering, or a related field.
+* Research experience in lithium\-ion batteries, preferably silicon\-carbon or other advanced anode systems.
+* Strong understanding of lithium\-ion battery fundamentals, including electrode design, interfacial chemistry, SEI formation, transport limitations, and cell degradation.
+* Hands\-on experience with battery cell assembly and electrochemical testing.
+* Ability to analyze complex experimental data and translate results into actionable technical insights.
+
+**Preferred Qualifications**
+
+* Direct experience with silicon anode materials, silicon\-carbon composites, pre
+* lithiation, binder systems, electrolyte additives, or high\-loading electrode design.
+* Familiarity with advanced diagnos

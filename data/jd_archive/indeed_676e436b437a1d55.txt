@@ -1,0 +1,88 @@
+Sliedrecht, Netherlands
+
+  
+
+
+**Kick\-start your AI journey at CERTUS**
+-----------------------------------------
+
+
+Are you excited to learn, experiment, and grow in the world of AI and computer vision? As an **AI / ML Engineer Intern** at CERTUS, you join a supportive and knowledgeable Computer Vision team where you get hands‑on experience with real models, real data, and real challenges. You’ll learn from senior engineers, practice with modern tools, and discover how AI comes to life inside production‑ready products.
+
+
+Do you have any questions or would you like to know more about this vacancy? I would be happy to get in touch with you.
+
+
+hr@certusautomation.com
+
+
+\+31 85 006 88 00
+
+
+### **What you’ll get from this internship**
+
+
+We designed this internship for people who want to learn by doing. You will work with real datasets, experiment with new techniques, and help improve the models that support our products. Step by step, you’ll gain understanding of what it means to develop, validate, and tune AI solutions in a professional environment.
+
+
+You can expect:
+
+
+* Guided learning – You work closely with experienced AI/ML engineers who coach you through every phase.
+* Hands‑on practice – From datasets and preprocessing to model training, you get real tasks with real impact.
+* Safe experimentation – You’ll explore new algorithms and tools in dedicated sandbox environments.
+* Modern tooling – We provide the frameworks, resources, and workflows you need to grow.
+* A friendly, collaborative team – You’re encouraged to ask questions, share ideas, and join discussions.
+### **What you’ll be doing**
+
+
+Your work supports ongoing AI and computer‑vision projects. During your internship, you will:
+
+
+* Assist with designing, training, and evaluating ML and computer‑vision models.
+* Help prepare datasets by checking annotations and ensuring data quality.
+* Support experiments with new algorithms, architectures, and tools.
+* Document your work according to our internal quality and ISO guidelines.
+* Analyze model performance and suggest improvements.
+* Apply frameworks and best practices under the guidance of senior engineers.
+* Collaborate with development teams during integration processes.
+ROL REQUIREMENTS:
+
+
+### **What helps you succeed**
+
+
+Education:
+
+
+Currently enrolled in a Bachelor’s or Master’s program in AI, Machine Learning, Data Science, Computer Science, Robotics, or a related field.
+
+
+Experience:
+
+
+Basic experience with Linux and a fundamental understanding of computer vision and ML.
+
+
+Knowledge:
+
+
+Basic Python skills; introductory knowledge of ML concepts; willingness to learn modern tools and techniques.
+
+
+Skills:
+
+
+Analytical mindset, attention to detail, structured working approach, eagerness to learn and experiment.
+
+
+Authority
+
+
+* Access to non‑production data and sandbox environments.
+* Permission to perform supervised experiments.
+* No authority to approve product changes, releases, or architectural decisions.
+Complexity
+
+
+Work consists o

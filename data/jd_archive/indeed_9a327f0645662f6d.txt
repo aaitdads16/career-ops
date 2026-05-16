@@ -1,0 +1,26 @@
+Bloomberg runs on data. Our products are fueled by powerful information. We combine data and context to paint the whole picture for our clients, around the clock \- from around the world. In Data, we are responsible for delivering this data, news, and analytics through innovative technology \- quickly and accurately. We apply problem\-solving skills to identify workflow efficiencies and implement technology solutions to enhance our systems, products, and processes.
+
+ **Our Team:**
+
+  
+
+Whether a fund investor, manager or advisor, Bloomberg has the data, solutions and industry network to help our clients take their fund and company analysis to the next level. The Alternative Investment Funds data team is made up of data specialists and technologists with a passion for private markets, from fund launch to liquidation, seed round to IPO and all the data in between.
+
+ **The Role:**
+
+  
+
+The Alternative Investment Funds Data Engineers are a dynamic group of individuals who tackle the most challenging aspects of our data product including data pipelining, process engineering and driving innovation. Our Data Engineers possess a unique combination of technical skills, domain expertise and eye for business, as well as good communication and interpersonal skills. As such, we are looking for a highly motivated individual with a passion for data and the technology that surrounds it.
+
+  
+
+As a Data Engineer you will apply your problem\-solving skills to handle the data pipelines, automation processes and human\-in\-the\-loop workflows that feed our Private Funds and Hedge Funds Data Products. In addition to the data pipelining work, you will analyze our data from an operational as well as product standpoint. This might be by building the associated ETLs or by designing prototype applications with our product teams. You will be expected to lead projects, collaborate with Engineering and Product, and own the end\-to\-end delivery of your project.
+
+ **We’ll trust you to:**
+
+* Build and enhance data pipelines and processes that powers Bloomberg’s Private Funds and Hedge Funds Databases, ensuring high data quality, consistency, and reliability.
+* Identify opportunities for automation and implement scalable ETL solutions, including human\-in\-the\-loop data workflows and custom tooling, to support the rapid growth and evolving needs of the product.
+* Leverage your technical expertise to streamline and standardize pipelining practices across the team and broader department, promoting efficiency and knowledge sharing.
+* Work closely with Engineering, Product, and Sales teams to drive end\-to\-end development, gather requirements, and deliver impactful data solutions that align with business goals.
+* Take full ownership of existing data pipelines and services in production, proactively ensuring their stability, reliability, and continuous improvement.
+* Help shape and elevate the team’s operational standards by contributing to best practices in technical development,

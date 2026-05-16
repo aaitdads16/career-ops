@@ -1,0 +1,29 @@
+**Job Overview**  
+We are seeking a highly skilled Business Analyst intern to join our organisation. The successful candidate will play a pivotal role in analysing business processes, identifying improvement opportunities, and delivering data\-driven solutions. This position offers an excellent opportunity for professionals with a strong background in data analysis, project management, and business analysis to contribute to strategic decision\-making and operational efficiency. The role involves collaborating with cross\-functional teams to develop innovative solutions that align with organisational goals.
+
+**Duties**
+
+* Gather and document business requirements through stakeholder interviews, workshops, and analysis of existing processes.
+* Develop detailed business process models and workflows using tools such as Visio.
+* Analyse large datasets employing SQL, R, Python, and VBA to identify trends, patterns, and insights.
+* Design and optimise databases using Oracle, Microsoft SQL Server, and database design principles.
+* Create visualisations and dashboards using Tableau and Power BI to communicate findings effectively to stakeholders.
+* Manage projects through the entire SDLC (Software Development Life Cycle), ensuring timely delivery of solutions.
+* Collaborate with IT teams on system enhancements, integrations, and data migration activities.
+* Assist in the development of reporting tools and automation scripts using Bash (Unix shell) for process optimisation.
+* Support business units by providing analysis skills that facilitate strategic planning and operational improvements.
+
+**Skills**
+
+* Proven expertise in Business Analysis with a strong understanding of SDLC methodologies.
+* Advanced data analysis skills with proficiency in SQL, R, Python, VBA, and Bash (Unix shell).
+* Experience in database design and management using Oracle and Microsoft SQL Server.
+* Strong visualisation capabilities using Tableau and Power BI.
+* Project management experience with the ability to coordinate multiple initiatives simultaneously.
+* Familiarity with Visio for process modelling and documentation.
+* Excellent analysis skills to interpret complex data sets and translate findings into actionable insights.
+* Knowledge of business processes optimisation and system integration techniques. This role is ideal for analytical professionals eager to utilise their technical expertise in a dynamic environment that values innovation, precision, and strategic thinking. Applicants should demonstrate a proactive approach to problem\-solving along with excellent communication skills to liaise effectively across departments.
+
+Pay: From £40,000\.00 per year
+
+Work Location: In person

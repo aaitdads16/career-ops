@@ -1,0 +1,61 @@
+**Sobre a Elo**
+
+ **Somos uma empresa 100% Brasileira!**
+
+
+A Elo é uma das principais empresas de tecnologia de pagamentos no Brasil. Com mais de dez anos de história e mais de 43 milhões de cartões ativos em parceria com 38 emissores.
+
+
+Com nosso DNA brasileiro e inovador, temos a missão de fomentar a inclusão de Pagamentos digitais no Brasil.
+
+  
+
+
+
+Oferecemos um portfólio completo de cartões de crédito, débito, pré\-pagos e especializados para pessoas e empresas. Além disso, desenhamos soluções customizadas para empresas, seja por meio das nossas plataformas de tokenização e de prevenção a fraudes, pagamentos por aproximação via QR Code e NFC, ou nossa consultoria especializada em gerar mais negócios para os nossos parceiros.
+
+
+Respeitamos as individualidades e promovemos uma cultura inclusiva, que busca a equidade e valoriza as diferenças (ex: Gênero, Religião, PcD, LGBTQIAP\+, Raça e Etnia). Todas as nossas vagas respeitam esse compromisso.
+
+  
+
+Quer mais informações sobre a Elo? Acesse: https://www.elo.com.br/
+
+  
+
+Curtiu? Então vem saber mais sobre o desafio que temos pra você!
+
+ **Nosso time de Autorizações faz:**
+
+* Gestão da performance de autorizações
+* Definição e execução de estratégias de autorização
+* Governança e conformidade regulatória
+
+  
+
+**Responsabilidades e atribuições** *Como Gerente de Autorizações você vai:*
+
+* Equilibrar aumento de aprovação e controle de risco
+* Maximizar taxas de autorização sem comprometer os níveis de fraude, chargeback e exposição financeira.
+* Reduzir fricções na jornada do pagamento
+* Atuar sobre causas\-raiz de negativas, falhas sistêmicas e inconsistências de processamento em ambientes físicos e digitais.
+* Orquestrar múltiplos stakeholders com interesses distintos
+* Conduzir alinhamentos técnicos e estratégicos entre emissores, credenciadores, bandeiras e áreas internas.
+* Responder rapidamente a cenários de crise
+* Gerenciar incidentes de autorização, quedas de performance ou indisponibilidades sistêmicas com agilidade, precisão e governança.
+
+  
+
+**Requisitos e qualificações** *Para esse desafio precisamos que você conheça:*
+
+* Ecossistema de meios de pagamento: **emissores, credenciadores, bandeiras, subcredenciadores e fintechs**.
+* Fluxo de autorizações (on\-us / off\-us), ambientes **CP, CNP e internacional**.
+* Indicadores de performance de autorização, TPV, taxas de aprovação, negativas e benchmark de mercado.
+* Regras dos arranjos de pagamento, manuais operacionais e impactos regulatórios no fluxo de autorização.
+* Análise de dados aplicada à performance de autorizações e identificação de causas\-raiz de negativas.
+* Uso de **inteligência artificial e modelos analíticos** para:
+* Detecção de padrões de comportamento transacional
+* Otimização de regras de autorização
+* Apoio à tomada de decisão em cenários de risco e fraude
+* Familiaridade com conceitos de **machine learning, automação e ferramentas de BI**.
+* Entendimento de integrações sistêmicas, mensageria de autorização e ambiente
