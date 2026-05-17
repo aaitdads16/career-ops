@@ -1,0 +1,31 @@
+This internship offers a unique blend of business analysis and data science exploration within the AI landscape. As a Data Scientist Intern (AI Analyst Intern), you'll conduct market research to identify key industry challenges addressable by AI, engage with stakeholders, and contribute to data analysis and development efforts.
+
+**Responsibilities:**
+
+* Conduct thorough market desktop research across diverse industries to identify and articulate key business pain points that AI/ML solutions can potentially address.
+* Research business opportunities and bridge the gap between AI and business for customers.
+* Collaborate with AI Engineers and Analysts to understand the technical requirements and feasibility of proposed AI/ML solutions.
+* Assist in exploratory design and development of functional prototypes and proof\-of\-concepts for identified AI/ML applications.
+* Experiment with different AI/ML libraries, frameworks (e.g., TensorFlow, PyTorch, scikit\-learn), and relevant technologies to implement prototype functionalities.
+* Document the design, development process, and performance of the prototypes, contributing to knowledge sharing within the team.
+
+**Required Skills and Qualifications:**
+
+* Currently pursuing or having completed a Bachelor’s degree in Business Analytics, Data Science, Computer Science, AI, Engineering, or a highly related field is required.
+* Proficiency in Python and SQL, along with relevant data science libraries (e.g., NumPy, Pandas, Scikit\-learn, TensorFlow, PyTorch).
+* Experience with data preprocessing, feature engineering, and model evaluation techniques or projects.
+* Prior experience (academic, internship, or project\-based) in market research, business analysis, or a similar function, with a proven ability to translate business needs into technical requirements
+* Good to have experience in building and testing small\-scale applications or prototypes (academic projects, personal projects, or contributions to open\-source projects are acceptable).
+* Ability to communicate technical concepts effectively and collaborate with cross\-functional teams.
+* Strong problem\-solving abilities and the capacity to engage in analytical reasoning are essential.
+* A strong drive to continuously learn and adapt to the evolving landscape of AI technologies and methodologies is essential.
+* A proactive, curious, and experimental mindset, with a demonstrated passion for innovation and problem\-solving.
+* Able to commit to a 6 months full time internship duration.
+* This is a full work\-from\-office (WFO) internship.
+
+Job Types: Full\-time, Internship  
+Contract length: 6 months
+
+Pay: $1,000\.00 \- $1,200\.00 per month
+
+Work Location: In person

@@ -1,0 +1,38 @@
+As an Data Scientist Intern (AI Engineer Intern), you'll be part of a dynamic team focused on developing, refining, and deploying core AI features for our proprietary AI\-driven products and solutions. You'll bridge the gap between AI research and application, translating innovative concepts into tangible, impactful features.
+
+**Key Responsibilities:**
+
+* Collaborate with cross\-functional teams to design, develop, and implement AI features, focusing on areas like natural language processing, data analysis, and predictive modeling.
+* Conduct research and rapid prototyping of the most suitable AI algorithms and techniques based on best practices, particularly those involving LLMs to address technical and business requirements.
+* Write clean, well\-tested, and well\-documented code, contributing to efficient and maintainable system components.
+* Contribute to the project's foundational knowledge by documenting the shared technical understanding and implementation details aligned with high\-level business requirements and project goals.
+
+**Qualifications:**
+
+* Currently pursuing a Bachelor’s or Master’s degree in Computer Science, Software Engineering, Data Science, Artificial Intelligence or a related field.
+* You are a team player that enjoys collaborating and communicating with diverse groups.
+* You enjoy tackling large challenges and enjoy discovering problems as much as solving them.
+* You are able to problem solve and adapt to changing priorities in a fast\-paced dynamic environment.
+* Able to commit to a 6 months full time internship duration.
+* This is a full work\-from\-office (WFO) internship.
+
+**Skills You’ll Need to Bring:**
+
+* You have built or prototyped features with AI technologies (LLMs, Embeddings, Fine\-Tuning).
+* You have experience in agentic frameworks (e.g., ADK, LangChain) for building LLM\-powered applications.
+* You have strong technical skills in Python.
+* You are adept at optimizing, refactoring, and improving Python code, ensuring our systems are efficient, scalable, and maintainable
+
+**Nice to Haves:**
+
+* Hands\-on experience with cloud platforms (GCP).
+* Demonstrated interest in advanced AI topics such as Reinforcement Learning (RL).
+* Familiarity with processing multi\-modal data (audio and video).
+* Familiarity with Agile development methodology and collaboration tools (e.g., JIRA) for task management and sprint planning.
+
+Job Types: Full\-time, Internship  
+Contract length: 6 months
+
+Pay: $1,000\.00 \- $1,200\.00 per month
+
+Work Location: In person
