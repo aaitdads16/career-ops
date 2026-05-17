@@ -1,0 +1,24 @@
+Data Science Lead (Contract)
+Central Manchester Hybrid Working
+Outside IR35 - 3 Month Contract (Likely Extension)
+
+
+We are supporting a large UK-based digital organisation undergoing a significant data and AI transformation, with growing demand for advanced analytics across commercial and customer-focused teams. This is a contract opportunity within a fast-moving Data Science function, working in a modern cloud-based environment.
+
+
+The role sits within a commercial analytics team focused on delivering measurable business impact through applied machine learning and production-grade data science.
+
+
+Key Focus Areas (Must-Have Experience)
+
+
+We are specifically looking for someone who has:
+
+
+Led data science projects in a commercial or enterprise environmentBuilt and deployedcustomer churn prediction modelsin a commercial environmentDevelopedNext Best Action / recommendation systemsto drive customer engagement and valueDeliveredcustomer segmentation models(e.g. clustering, behavioural segmentation, lifecycle modelling)Strong experience intime series analysis and forecasting(e.g. demand, revenue, customer behaviour trends)Worked end-to-end inproduction data science environments, not just proof-of-concept modelsStrong hands-on experience usingPythonas a primary programming languageExperience working withinDatabricks(notebooks, pipelines, or ML workflows)Astrong mathematical and statistical background, with confidence in applying theory to real commercial problemsRole Overview
+You will lead the development and delivery of data science products that generate measurable business value. Working closely with cross-functional teams, you will guide technical delivery from concept through to production, ensuring solutions are scalable, robust, and aligned to business and regulatory requirements. You will also support team capability development where required, contribute to a high-performance culture, and help position data science as a strategic internal consultancy function within an outside IR35 engagement.
+
+
+Responsibilities
+
+Lead the development of data science products from ideation to production deploymentApply statistical, mathematical, and machine learning techniques to solve real-world commercial problemsDevelop, validate, deploy, and monitor machine learning models in production environmentsBuild and maintain end-to-end data science solutions using modern MLOps practicesUse cloud-based platforms (notably Databricks) to develop scalable data productsTranslate complex analytical outputs into clear, business-focused insightsCollaborate with technical and non-technical stakeholders across multiple functionsEnsure compliance with governance, regulatory, and internal data standardsContinuously improve model performance, robustness, and business impactTechnical Skills & ExperienceProven experience in appliedData Science / Machine Learning roleswithin a commercial environmentStrong proficiency inPythonandSQLHands-on experience withDatabricksin a production o

@@ -1,0 +1,53 @@
+Garrett Motion is seeking a motivated college intern to support our **Burst and Containment (B\&C)** project by leveraging AI and Machine Learning techniques. The role involves organizing, cleaning, and structuring historical B\&C data (both test and FEA) to enable predictive modeling and intelligent systems. The intern will help build a robust data pipeline and AI\-driven tools that improve estimation of design requirements, wheel weakening values, and facilitate continuous improvement through an autonomous AI agent for B\&C\-related queries.
+
+
+**Key Responsibilities:**
+
+* **Data Preparation \& Management:**
+
+
+	+ Collect, organize, and clean historical B\&C test and FEA data.
+	+ Design and implement structured data architecture for ML/AI applications.
+	+ Ensure data integrity, consistency, and scalability.
+* **Machine Learning \& AI Development:**
+
+
+	+ Assist in developing ML models to predict CB wall thickness and wheel weakening values for B\&C test.
+	+ Support integration of AI algorithms for QBS.
+	+ Collaborate on creating an AI agent for B\&C\-related queries using existing data.
+* **System Development \& Continuous Improvement:**
+
+
+	+ Build a robust system for QBS leveraging AI insights.
+	+ Identify gaps and propose enhancements in data and model performance.
+	+ Document processes and maintain version control for datasets and models.
+* **Collaboration \& Reporting:**
+
+
+	+ Work closely with simulation engineers and project leads.
+	+ Prepare progress reports and present findings to the team.
+
+**Skills \& Competencies**
+
+* **Technical Skills:**
+
+
+	+ Python programming, data cleaning, ML libraries (Pandas, Scikit\-learn, TensorFlow/PyTorch).
+	+ Basic understanding of FEA concepts and mechanical systems.
+	+ **Optional:** Exposure to **LS\-Dyna** , **ANSYS** , FEA tools, and structural mechanics.
+* **Soft Skills:**
+
+
+	+ Analytical thinking and problem\-solving.
+	+ Ability to work independently and in a team.
+	+ Strong communication and documentation skills.
+
+**Learning Outcomes**
+
+* Hands\-on experience in applying AI/ML to mechanical engineering problems.
+* Understanding of data engineering workflows for simulation and test data.
+* Exposure to predictive modeling for structural analysis and FEA (ANSYS/LS\-Dyna).
+* Opportunity to work on cutting\-edge AI applications in engineering and FEA Simulation.
+
+  
+Garrett is a cutting\-edge technology leader delivering differentiated solutions for emission reduction and energy efficiency. We are passionate about innovating for mobility and beyond. With a nearly 70\-year legacy, we serve customer worldwide with passenger vehicle, commercial vehicle, aftermarket replacement, and performance enhancement solutions.

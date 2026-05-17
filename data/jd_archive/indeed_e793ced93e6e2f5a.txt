@@ -1,0 +1,45 @@
+**About SiFive**
+----------------
+
+*As the pioneers who introduced RISC\-V to the world, SiFive is transforming the future of compute by bringing the limitless potential of RISC\-V to the highest performance and most data\-intensive applications in the world. SiFive’s unrivaled compute platforms are continuing to enable leading technology companies around the world to innovate, optimize and deliver the most advanced solutions of tomorrow across every market segment of chip design, including artificial intelligence, machine learning, automotive, data center, mobile, and consumer. With SiFive, the future of RISC\-V has no limits.*
+
+At SiFive, we are always excited to connect with talented individuals, who are just as passionate about driving innovation and changing the world as we are.
+
+
+Our constant innovation and ongoing success is down to our amazing teams of incredibly talented people, who collaborate and support each other to come up with truly groundbreaking ideas and solutions. Solutions that will have a huge impact on people's lives; making the world a better place, one processor at a time.
+
+
+Are you ready?
+
+
+To learn more about SiFive’s phenomenal success and to see why we have won the GSA’s prestigious Most Respected Private Company Award (for the fourth time!), check out our website and Glassdoor pages.
+
+
+**Job Description:**
+
+**The Role:**
+
+Interns will complete a project specific to their skill set and interest. Possible projects could include:
+
+
+* Adding features to or enhancing the Chisel language for better design and verification
+
+As an Intern on the Platform Engineering Technologies team, you will be responsible for supporting and enhancing cutting\-edge tools for System\-on\-Chip (SoC) design. You will apply your object\-oriented or functional programming skills to enhance domain\-specific languages for hardware design. You will participate in the open source Chisel (https://www.chisel\-lang.org/) and CIRCT (https://github.com/llvm/circt) communities while ensuring that SiFive engineers have the best tools to build and verify advanced RISC\-V CPUs, IPs, and SoCs. You will be part of a tight\-knit, supportive, challenge\-loving team who likes to learn and apply new technologies to change the paradigm of designing custom silicon.
+
+
+**What You Will Learn:**
+
+* You will deepen your functional programming skills in Scala
+* You will contribute to an open source project used in an industry setting
+* You will learn how to take user feedback and improve their experience by improving the tools you provide them
+
+**Requirements:**
+
+* Willingness to learn and share
+* Ability to communicate and teach others both inside and outside the company
+* Experience with object oriented or functional programming languages
+* Exposure to hardware design and verification techniques is a plus but not required.
+
+**Pay \& Benefits**
+
+Consistent with SiFive values and applicable law, we provide the following information to promote pay transparency and equity. W
