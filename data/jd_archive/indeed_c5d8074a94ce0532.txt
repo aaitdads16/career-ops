@@ -1,0 +1,90 @@
+About NEXFT
+
+
+NEXFT is an early\-stage Singapore\-based AI startup building "digital employee" solutions across three areas: AI HR, AI Customer Service, and AI Compliance. Our clients are in finance, manufacturing, data centers, and logistics — industries with heavy manual workflows and repetitive information processing, where AI can meaningfully reduce workload and human error.
+
+
+We have active paying clients, real deployments in production, and support from Singapore government innovation programs. Small team, fast pace, real impact.
+
+
+The Role
+
+
+You'll work directly with the founders to make sure our AI products actually work in real client environments — not just in demos. Expect to test a new AI HR workflow in the morning, help deploy a compliance bot at a client site in the afternoon, and write up bugs before the day ends.
+
+
+This is a hands\-on role for someone who likes seeing AI products go from "it works on my laptop" to "it's running in a bank's back office."
+
+
+What You'll Do
+
+
+QA \& Testing — Test AI workflows, web apps, and automation tools across our HR, CS, and compliance products. Find bugs, edge cases, and usability issues before clients do.
+
+
+Deployment Support — Help onboard new clients: software setup, integrations, and occasional hardware (tablets, kiosks, on\-prem servers for finance / data center clients with strict data requirements).
+
+
+Security \& Reliability Checks — Basic vulnerability awareness and data handling reviews — important because our clients are in regulated industries.
+
+
+Client Troubleshooting — Support clients during onboarding and early usage, in English and (ideally) Mandarin.
+
+
+You Should Have
+
+
+Currently studying or recently graduated in Computer Science, IT, Cybersecurity, Engineering, or related field
+
+
+Comfortable with QA, troubleshooting, and picking up unfamiliar tools quickly
+
+
+Strong written English; Mandarin is a strong plus — many of our finance and manufacturing clients operate primarily in Mandarin
+
+
+Nice to Have
+
+
+Hands\-on experience with Zapier, Make, or n8n
+
+
+Familiar with APIs, Linux/Windows troubleshooting, basic networking
+
+
+Any web app testing or security testing experience
+
+
+Curiosity about LLMs and AI agents — you don't need to be an expert, but you should want to learn
+
+
+Why This Role Is Interesting
+
+
+See how AI products actually get deployed in regulated industries (finance, data centers) — most interns never get this exposure
+
+
+Direct access to founders, real client conversations, real production systems
+
+
+Clear path to convert to a longer\-term role if it's a fit
+
+
+Logistics
+
+
+ Singapore\-based, hybrid (mostly remote, occasional onsite for client deployments)
+
+
+* ️ 20 hours per week, flexible around studies (minimum 3 months commitment)
+
+ Stipend: SGD 1,000 – 1,300 per month
+
+
+ Strong performers may convert to full\-time or extended contract
+
+
+How to Apply
+
+
+Send your CV (and GitHub / portfolio if you have one) to \[alex@nexft.com.sg]

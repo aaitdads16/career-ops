@@ -1,0 +1,35 @@
+<p>Our mission is to prevent vision loss and ultimately blindness by developing AI software that assists eye doctors in therapy planning for their patients. We use computer vision deep learning models (AI) trained on thousands of cases and millions of images to predict disease progression, individualize therapy and improve outcomes. The decision support algorithm targets widespread eye diseases like Age-related Macular Degeneration (AMD, 7.5 mio affected in Germany alone).</p>
+<p>We are looking for a talented and creative student to join our team for a paid internship of 4-6 months.</p>
+<h2>Tasks</h2>
+<p>You will work closely with our Product Manager and Tech Team to bridge the gap between complex data and clinical decision-making.</p>
+<p>You will refine the deepeye® TPS interface, creating prototypes for new features and solving design challenges to ensure our AI output is intuitive and safe for ophthalmologists.</p>
+<p>You will collaborate on continuous product discovery and design usability studies to understand how our software integrates into clinical workflows and ensure it meets regulatory requirements.</p>
+<p>You will coordinate with various stakeholders (Clinical Success, Sales, Product Management, Clinical Affairs, and the CEO) to test these designs with actual users.</p>
+<p>You will help eliminate technical bottlenecks by testing tools that streamline the transition from design to frontend.</p>
+<p>You will support general design tasks to maintain a cohesive visual identity across all our products.</p>
+<h2>Requirements</h2>
+<p><strong>What we are looking for:</strong></p>
+<ul>
+<li>Academic Background: Currently enrolled in a degree program related to Interaction Design, Human-Computer Interaction (HCI), Graphic Design, or a similar field.</li>
+<li>Design Skills: Proficiency in UI/UX principles and prototyping. You have an eye for detail and a passion for creating clean, user-centric interfaces.</li>
+<li>Analytical Thinking: Ability to translate complex clinical data into simple, intuitive visualizations.</li>
+<li>Language: Working-level English (C1 or higher). German is a plus but not required.</li>
+</ul>
+<p>**<br>
+Your nice-to-haves:**</p>
+<ul>
+<li>First experience with medical device software or designing for healthcare professionals.</li>
+<li>An interest in "Design-to-Code" automation and technical workflows.</li>
+<li>A portfolio that demonstrates your process, from research to high-fidelity prototypes.</li>
+</ul>
+<h2>Benefits</h2>
+<ul>
+<li>Direct impact on improving quality of life for patients by helping doctors make better treatment decisions.</li>
+<li>A high degree of autonomy from day one.</li>
+<li>A unique chance to grow quickly in a fast-paced HealthTech startup.</li>
+<li>Flexible working hours, hybrid work &#x26; central office at Munich main station.</li>
+<li>Open-minded start-up culture &#x26; a diverse team (10+ nationalities, 30-year age span, 44% female) of experts (> 10 startups, >100 medical devices, >100k retinal therapies).</li>
+<li>Possibility of continued employment as a working student upon successful completion of the internship.</li>
+</ul>
+<p>Please apply via the web form and include your availability, CV, and a link to some work examples (PDF or online-portfolio). No motivation letter required, but feel free to add 2-3 sentences if you have a personal motivation to tackle the prevention of blindness with AI.</p>
+<p>Find <a href="https://www.arbeitnow.com/">Jobs in Germany</a> on Arbeitnow</a>
