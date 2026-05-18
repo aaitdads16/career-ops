@@ -1,0 +1,36 @@
+Para atuar no grupo de Simulação e Inteligencia Artificial do Laboratório Nacional de Nanotecnologia(LNNANO)
+
+  
+
+Atuamos na fascinante interseção entre nanociência, ciência de materiais computacional, física da matéria condensada e inteligência artificial, onde buscamos desvendar os comportamentos complexos e as propriedades dos materiais em níveis atômico e molecular. Utilizando infraestrutura de computação de alto desempenho, empregamos técnicas computacionais no estado da arte, como teoria do funcional da densidade, dinâmica molecular e aprendizado de máquina, para investigar e projetar novos materiais com propriedades específicas. Focamos na compreensão da física fundamental que rege o comportamento dos materiais em nanoescala e aproveitar esse conhecimento para desenvolver materiais para aplicações de próxima geração em eletrônica, tecnologias quânticas, armazenamento de energia, sustentabilidade e muito mais.
+
+  
+
+Por meio de colaborações estreitas com grupos experimentais e parceiros industriais, estamos particularmente interessados em explorar os algoritmos de machine learning e deep learning para acelerar a descoberta de novos materiais, prever suas propriedades e otimizar seu desempenho, reduzindo significativamente muitos custos de desenvolvimento. Ao preencher a lacuna entre previsões teóricas e aplicações práticas, buscamos expandir as fronteiras da ciência de materiais e contribuir para o desenvolvimento de tecnologias transformadoras e soluções inovadoras para desafios globais em energia, meio ambiente e saúde.
+
+ **Responsabilidades e atribuições**  
+
+* Suporte técnico aos usuários do ambiente HPC e sistemas científicos;
+* Atendimento a pesquisadores e usuários das instalações;
+* Diagnóstico preliminar e resolução de problemas em jobs, ambientes e acesso;
+* Abertura de chamados detalhados e acompanhamento técnico das soluções;
+* Administração de sistemas Linux em ambiente de computação científica;
+* Gestão e suporte a softwares científicos e ambientes computacionais;
+* Suporte à infraestrutura de armazenamento científico;
+* Interação com usuários para orientação em boas práticas;
+* Documentação técnica e apoio à padronização de processos;
+* Apoio à implantação e melhoria de serviços e projetos;
+* Interface com equipes internas de TI e prestadores de serviço terceiros.
+
+  
+
+**Requisitos e qualificações** **Requisitos**
+
+* Superior completo em: Ciência da Computação, Engenharia da Computação, Sistemas de Informação ou áreas correlatas;
+* Também serão considerados candidatos de áreas científicas (Física, Engenharia, etc.) com forte experiência computacional comprovada;
+* Experiência com sistemas Linux (nível usuário intermediário a avançado);
+* Manipulação de arquivos, permissões, processos e uso de terminal;
+* Noções de administração de sistemas Linux;
+* Gerenciamento básico de usuários, serviços e configuração de ambiente;
+* Experiência com shell scripting (bash) para automação de tarefas;
+* Familiaridade com ambientes de computaçã

@@ -1,0 +1,33 @@
+Jij zet jouw talenten in voor het **innoveren** en **verbeteren** van de **gezondheidszorg** als Full\-Stack Engineer bij Ksyos. Je bent onderdeel van onze afdeling **Design \& Tech**, waar je in een scrum\-team van specialisten nauw samenwerkt om ons zorgplatform verder te laten groeien. Onze stack bestaat uit **TypeScript, Node.js, React en AWS**. Als Engineer bij Ksyos, hét digitale ziekenhuis van Nederland, zie je jouw impact terug in slimme en bereikbare zorg voor iedereen in Nederland nu en in de toekomst.
+
+
+Solliciteer direct voor deze **impactvolle baan** als **Full\-Stack Engineer**.
+
+ *Samen houden wij gezondheid toegankelijk voor iedereen.*
+
+**Jouw functie**
+----------------
+
+
+Jij bent een Full\-Stack Engineer op senior niveau. Je draagt bij aan het bedenken, implementeren en onderhouden van flexibele, veilige en schaalbare software binnen Ksyos. Hierbij heb jij een sterke strategische focus en schakel je regelmatig met je collega’s binnen jouw afdeling Design \& Tech, maar ook met stakeholders van andere afdelingen vanuit de Business.
+
+
+Jouw werk als Full\-Stack Software Developer bij Ksyos bestaat uit:
+
+* Het ontwikkelen en onderhouden van het software platform waarbij je zorg draagt voor begrijpelijke, onderhoudbare (clean) code;
+* Het aandragen van ideeën en oplossingen in de dagelijkse werkzaamheden en tijdens verschillende overlegmomenten;
+* Het strategisch meedenken met complexe vraagstukken in de doorontwikkeling van de code en de infrastructuur;
+* Meedenken in de behoeftes van de verschillende doelgroepen en afdelingen, zoals design, product, sales, maar ook onze zorgverlener;
+* Het uitvoeren van code reviews van de pull requests van andere teamleden om te leren, kennis te delen en kwaliteit te waarborgen;
+* Het ondersteunen en begeleiden van jouw collega Engineers in hun inhoudelijke ontwikkeling.
+
+*Het Ksyos zorgplatform is gebaseerd op moderne software development\- en architectuurprincipes (Node.js, React, TypeScript en AWS). Wil jij een indruk krijgen van de innoverende zorg die Ksyos ontwikkelt? Bekijk hier de video over Ksyos Obesitas.*
+
+**Ksyos \& jouw team**
+----------------------
+
+
+Bij Ksyos geloven we dat toegankelijke en hoogwaardige zorg relevant is voor iedereen in Nederland. Met nieuwe technologie en slimme oplossingen veranderen we met zo'n 160 collega's de manier waarop zorgverleners samenwerken, diagnoses stellen en behandelingen bieden aan patiënten, waar ze zich ook bevinden.
+
+
+Als Full\-Stack Engineer maak jij onderdeel uit van onze afdeling Design \& Tech en werk je in een van onze vijf scrumteams. Deze multidisciplinaire teams bestaan uit meerdere Software Engineers, een Product Owner, een Product Designer en een Software Tester. Je komt terecht in een energiek en ondernemend team met een open cultuur en weinig hiërarchie, waar ideeën snel worden opgepakt en iedereen impact kan maken. Jullie werken in sprints van twee weken aan het ontwikkelen van ons platform waarbij de nadruk ligt op een optimale gebru

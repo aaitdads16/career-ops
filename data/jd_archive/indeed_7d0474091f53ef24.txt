@@ -1,0 +1,59 @@
+Location: Zurich
+
+  
+
+#### **Operations**
+
+
+**In short**
+------------
+
+
+Whether you’re looking to jump start your career or gain first hands\-on experience in a new field, an internship at On offers you a unique growth experience, the chance to make an impact from day 1 and contribute to On’s growth journey. We are looking for fresh ideas, curious minds and passionate individuals ready to make a difference. Our internships generally last 6 months and you will be fully embedded in a team.
+
+
+* Start date: Sept 1
+* Duration: 6 months
+* Prerequisite: Interest in area relevant to the internship, passion for On, right to work in EU / Switzerland
+* Note: This is a paid internship
+* If you don't meet the criteria above, unfortunately, we cannot move forward with your application. Please be truthful in your answers, the recruiter reviewing your application will appreciate your honesty.
+
+Curious about life as an intern at On? We recommend watching the recording of our previous livestream (link provided below) to hear former interns share their internship experience, get an insider’s look at different departments and pick up some tips and tricks from our recruiters to help you ace the application process!
+
+
+Link to livestream: Link to livestream: https://agora\-cf\-cloud\-recordings.s3\.eu\-central\-1\.amazonaws.com/livestreams/5OdzwcwgV3l6rGfcJCZ5/2e6c0b4e51486dd2cf595f9bde0b257c\_5OdzwcwgV3l6rGfcJCZ5\_0\.mp4
+
+
+**Your Mission**
+----------------
+
+
+* Assist in building and maintaining dashboards in BI tools (like PowerBI or Looker) to help visualize supply chain performance.
+* Support the data modeling process by writing and testing basic SQL queries to help prepare data for analysis.
+* Help gather and clean data sets that will be used in simulation models to test supply chain scenarios.
+* Contribute to the documentation of key metrics, data flows, and business logic to ensure our analytics are well\-understood.
+
+**Your story**
+--------------
+
+
+* Currently pursuing or already obtained a degree in Business Analytics, Data Science, Supply Chain Management, or a related field.
+* A foundational understanding of SQL and a strong desire to apply it to real\-world data challenges.
+* Familiarity with a data visualization tool (like Tableau, PowerBI, or Looker) from coursework or personal projects.
+* Strong analytical mindset with a natural curiosity and a keen eye for detail.
+**About the Team**
+------------------
+
+
+EMEA Sales Operations delivers actionable insights by partnering with various teams to build sustainable reporting, analytics, and data solutions.
+
+
+The team's primary focus is on managing the orderbook to create visibility into supply and demand. This supports Account Service and Sales in making timely decisions to release orders to the warehouse and maximize fill rates, all supported by our analytical team.
+
+  
+
+
+### **Zürich**
+
+
+Just by the banks of the Limmat you’ll find our largest global hub in Zürich West – On Labs – where you can hike up 12 floors

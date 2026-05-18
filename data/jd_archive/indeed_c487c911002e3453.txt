@@ -1,0 +1,42 @@
+**About Us**
+
+
+Matson has been the leading ocean shipping and logistics provider throughout the Pacific since 1882\. We are the supply chain lifeline for Hawaii, Alaska, Guam, and islands of the South Pacific. We also offer the top two ocean shipping services in the world’s largest trade lane \- Asia to the U.S. West Coast. With our subsidiaries Matson Terminals and Matson Logistics, our business focus is exceeding customer expectations with quality, reliability, and integrity.
+
+
+We strive to operate in an environmentally sustainable manner and promote land\-based environmental programs in Hawaii, Guam, and Alaska. We help improve the communities in which we work and live through our community giving program that annually supports hundreds of local organizations.
+
+
+Matson is honored to be certified as a Great Place to Work. Our team of dedicated and talented employees consistently deliver exceptional results for our customers and the communities in which we serve.
+
+
+Learn more at matson.com.
+
+**About the Role**
+
+
+Matson's Technology Department is looking for a Software Development and Data Analytics **Intern** to join our Enterprise Applications team in Walnut Creek, CA. In this role, you will gain hands\-on experience working with operational and business data in a fast\-paced shipping and logistics environment. You'll collaborate with experienced engineers and analysts to support reporting, analytics, and data\-driven decision making across the organization.
+
+**What you’ll do:**
+
+* Assist in building and maintaining reports, dashboards, and data visualizations that support business operations and leadership decision\-making
+* Write and optimize SQL queries to extract, transform, and analyze data from enterprise data warehouses
+* Support data quality monitoring, validation, and cleansing efforts across key business datasets
+* Collaborate with cross\-functional teams including Application Development, Business Intelligence, and Operations to gather and translate business requirements into analytics solutions
+* Participate in Proof of Concept (PoC) initiatives involving emerging technologies such as AI, GenAI, and cloud\-based analytics tools
+* Document findings, create process documentation, and present insights to team leads and stakeholders
+* Assist with ad hoc data analysis requests from business partners across Customer Service, Commercial, and Operations groups
+
+**You have these skills:**
+
+* Self\-motivated with an eagerness and passion to learn
+* Strong analytical thinking and attention to detail
+* Effective written and verbal communication skills
+* Ability to work collaboratively in a team\-oriented environment
+* Intellectual curiosity and a problem\-solving mindset
+
+**And these qualifications:**
+
+* Rising Junior or Senior pursuing a Bachelor's degree in Computer Science, Information Systems, Data Analytics, Statistics, Business Administration, or a related field
+* Foundational knowledge of SQL and relational databases
+* Familiarity with E

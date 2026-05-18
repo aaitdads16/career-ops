@@ -1,0 +1,35 @@
+**What to Expect**
+Start date: August/September 2026  
+
+Duration: 6 months  
+
+Location: Amsterdam  
+
+Fulltime position (40hours a week)
+
+
+NOTE: YOU MUST BE ENROLLED IN EDUCATION DURING THE ENTIRE INTERNSHIP TO BE CONSIDERED
+
+
+Join Tesla's Finance team to drive insights that power the sustainable energy revolution. As a Finance Data Analyst Intern, you'll dive into financial and accounting data analysis while exploring AI for process optimization—balancing hands\-on data tasks with innovative AI applications in accounting. Collaborate primarily with finance and IT stakeholders (including Data Engineering, Dev, and AI teams) in a fast\-paced setting; we value curiosity over experience.
+
+ **What You'll Do*** Gather, clean, and analyze financial data to support team needs in accounting and finance processes
+* Assist in developing dashboards and data models using BI tools to optimize workflows and insights
+* Perform ad\-hoc analysis and support team on data modeling for finance applications
+* Help identify opportunities for AI techniques into finance processes, explore tools and support proof of concept and integration
+* Contribute to AI initiatives by testing agents and evaluating LLM use for automating financial queries and processes
+* Communicate findings from data and AI projects to broader organizational stakeholders
+  
+
+**What You'll Bring*** Pursuing a degree in Finance, Data Analytics, Computer Science, or related STEM fields
+* Strong analytical and problem\-solving skills for independent and team work in dynamic environments
+* Basic finance/accounting knowledge; eagerness to learn data and AI concepts
+* SQL, Python, or BI tool experience (e.g., Tableau, Power BI) is a plus—we'll provide training
+* Interest in AI for finance automation; experience with RAG, LLM, Langchain is highly valued for immediate contributions
+  
+
+Tesla is an Equal Opportunity / Affirmative Action employer committed to diversity in the workplace. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, age, national origin, disability, protected veteran status, gender identity or any other factor protected by applicable federal, state or local laws.  
+
+  
+
+Tesla is also committed to working with and providing reasonable accommodations to individuals with disabilities. Please let your recruiter know if you need an accommodation at any point during the interview process.

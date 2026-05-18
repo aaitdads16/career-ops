@@ -1,0 +1,68 @@
+**Hello!**
+
+  
+
+
+
+Welcome to our team, here you will be able to share your knowledge, your expertise and develop yourself in the most inspiring way. We create and we learn from our mistakes by evolving every day. Our company is growing fast, this will challenge yourself to face international and unexpected situations on a daily basis. Are you ready to be challenged?
+
+  
+
+
+
+
+**Who we are**
+
+  
+
+
+
+Quadpack is a global manufacturer and provider of packaging solutions for beauty brand owners. With offices in Europe, Asia, USA and Australia and a strategic network of manufacturing partners and a culture integrated with more than 25 different nationalities. We develop and manufacture personalised standard packaging as well as customised/bespoke packs, for prestige, masstige, and mass\-market customers, with specialist divisions dedicated to skincare, make\-up and fragrance sectors.
+
+  
+
+
+
+We are focused on global expansion, collaborative innovation and sustainability with the aim to become a great place to work!
+
+  
+
+
+**The mission of this role**
+
+
+
+Support Industry 4\.0 and factory automation projects, gaining hands\-on experience in connecting industrial systems with digital platforms. This role offers exposure to automation, industrial communications, IoT, data analytics and dashboards, while contributing to real operational use cases in manufacturing environments.
+
+ **Key Responsibilities**
+
+  
+
+* Contribute to Industry 4\.0 and industrial automation projects, connecting shopfloor systems (PLCs, SCADA) with digital platforms.
+* Support the implementation of industrial communications and IoT solutions (OPC UA, Modbus, MQTT, edge devices and gateways).
+* Develop and maintain data integration and automation scripts using Python, SQL and Linux environments.
+* Assist in the creation of industrial KPIs, operational dashboards and monitoring systems.
+* Collaborate on digital transformation projects, documenting solutions and working with OT, IT and business teams.
+
+  
+
+
+**Requirements**
+
+
+* Student in Engineering, Computer Science, Industrial Technologies, Data or similar.
+* Interest in Industry 4\.0, automation and smart factories.
+* Basic programming skills (preferably Python).
+* Interest in industrial systems, data and connectivity.
+* Excellent problem\-solving skills and the ability to work independently and collaboratively.
+* Strong communication skills, both written and verbal (Spanish, Catalan and English).
+* Strongly recommended:
+	+ Experience or exposure to IoT and edge computing architectures.
+	+ Strong programming skills, especially Python and Bash.
+	+ Basic knowledge of SQL.
+	+ Familiarity with MES, ERP, SCADA or CMMS systems.
+	+ Communication skills, both written and verbal in French.
+  
+
+
+We are an Equal Opportunity Employer and does not discriminate on the basis of age, race, colour, sex, sexual orientation, gender identity, religion, national origin or disability. None of this gets in the way of hiring and retaining the best people.

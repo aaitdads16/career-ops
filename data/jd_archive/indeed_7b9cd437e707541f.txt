@@ -1,0 +1,55 @@
+At Alto, we are actively contributing to the transformation of Canada's future with our high\-speed train project connecting Quebec City and Toronto. With the support of the Government of Canada, this innovative project aims to improve the quality of life of our citizens, strengthen ties between communities and stimulate economic growth.  
+
+Would you like to take on a stimulating, high\-impact challenge? We are looking for an Intern, Geographic Information Systems (GIS).
+
+ **The role**
+
+  
+
+The GIS Intern will support the Geographic Information Systems (GIS) team by assisting with spatial data preparation, map production, and documentation tasks. This internship is designed to provide practical, hands‑on experience in applied GIS workflows within an enterprise or public‑sector environment, under the guidance of experienced GIS professionals. This role is designed for a technically inclined student who wants hands\-on experience working with GIS in a modern, cloud\-centric information technology environment within a Government of Canada context.
+
+ **The responsibilities**
+
+  
+
+Under the supervision of the GIS Expert and Senior GIS staff, the intern will:
+
+  
+
+* Assist with the preparation, review, and organization of spatial datasets (vector and raster).
+* Support map production for internal teams and project needs (e.g., layouts, web maps, reference maps).
+* Perform basic editing, attribute updates, and quality checks on GIS data.
+* Help document GIS processes, data sources, and metadata.
+* Support simple analysis or data visualization tasks as assigned.
+* Assist with data governance tasks.
+* Participate in team meetings and learn established GIS standards and governance practices.
+* Carry out tasks related to GIS\-specific research and development.
+
+ **The requirements**
+
+  
+
+* Enrollment in or recent completion of a program in GIS, Geography, Geomatics, Environmental Studies, Planning, Computer or Information Sciences or a related field.
+* Basic familiarity with ArcGIS Pro (v3\.5\+), QGIS, or similar GIS software.
+* Understanding of foundational GIS concepts (coordinate systems, layers, attributes).
+* Strong attention to detail, self\-motivation and willingness to learn.
+* Ability to follow documented procedures and work with structured data.
+* Effective written and verbal communication skills.
+
+ **Assets**
+
+  
+
+* Exposure to enterprise GIS (ArcGIS Enterprise v11\.5\+), and web mapping (ArcGIS Online, Portal for ArcGIS, web maps).
+* Basic experience with Excel or tabular data.
+* Introductory scripting or automation exposure (e.g., Python, Safe Software FME).
+
+ **Learning Outcomes**
+
+  
+
+* Gain hands‑on experience working within a professional GIS environment.
+* Understand real‑world GIS data management, quality control, and documentation practices.
+* Develop practical mapping and data preparation skills aligned with organizational standards.
+* Learn how GIS supports decision‑making, planning, or public engagement activities.
+* Build professiona

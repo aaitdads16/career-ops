@@ -1,0 +1,40 @@
+**About Us**
+
+
+Zycus is a global leader in Source\-to\-Pay (S2P) procurement software, helping large enterprises drive efficiency, compliance, and measurable value across their procurement and finance operations. Trusted by leading Fortune 1000 organizations worldwide, Zycus enables procurement teams to move from cost control to strategic value creation.
+At the core of Zycus’ platform is **Merlin AI**, an advanced AI\-powered engine that brings intelligence, automation, and predictive insights across the entire procurement lifecycle—from sourcing and contract management to procurement, invoicing, and supplier management. Merlin AI empowers Chief Procurement Officers and finance leaders to make faster, smarter decisions with real\-time visibility and actionable insights.
+Zycus is consistently recognized by top industry analysts such as **Gartner, Forrester, and IDC** for its innovation, depth of functionality, and strong customer outcomes. Known for its enterprise\-grade solutions, global delivery model, and customer\-first mindset, Zycus partners closely with organizations to modernize procurement and unlock long\-term business value.
+With a strong global presence across North America, EMEA, and APAC, Zycus continues to invest aggressively in product innovation, AI\-led capabilities, and brand leadership—shaping the future of intelligent procurement. **We Are An Equal Opportunity Employer:**
+Zycus is committed to providing equal opportunities in employment and creating an inclusive work environment. We do not discriminate against applicants on the basis of race, color, religion, gender, sexual orientation, national origin, age, disability, or any other legally protected characteristic. All hiring decisions will be based solely on qualifications, skills, and experience relevant to the job requirements.
+**Job Description**
+
+
+As AI continues to reshape the customer experience landscape, Zycus is looking for a curious and hands\-on **AI Analyst Intern** who is eager to experiment with AI/Gen\-AI/Agentic tools across our post\-sales operations. This role is ideal for someone who enjoys solving real\-world problems, learning quickly, and building practical AI\-driven solutions.
+
+
+
+Working closely with senior leaders, including our North American CCO, you will contribute to accelerating AI adoption across implementation, support, customer success, and expansion teams.  
+
+  
+
+**Key Responsibilities**
+
+
+**Process Discovery \& Opportunity Mapping**
+
+
+* Assist in identifying inefficiencies and friction points across support, implementation, and customer success workflows.
+* Contribute to maintaining a backlog of AI/automation ideas.
+
+
+**Rapid Prototyping \& Experimentation**
+
+
+* Support the development of small\-scale prototypes (e.g., chatbots, workflow automations, dashboards) using low\-code tools, Python, or notebooks.
+* Collaborate with team members to test ideas and validate use cases.
+
+
+**Pilot Support \& Iteration**
+
+
+* Help deploy and monitor pilot

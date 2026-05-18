@@ -1,0 +1,63 @@
+<p>acemate is building an AI learning &#x26; teaching platform for higher and further education institutions. We have strong traction, secured funding and are entering an exciting growth phase. We're looking for a passionate <strong>Full-Stack Developer (Intern / Working Student)</strong> to drive our product forward and help us scale.</p>
+<p><strong>About acemate</strong></p>
+<p>Founded in 2024, acemate has quickly become the leading AI learning platform for higher and further education, trusted by top-tier institutions across four countries, including <strong>University of Cologne</strong>, <strong>WHU</strong> and the <strong>German Chambers of Commerce and Industry (IHKs)</strong>.</p>
+<ul>
+<li><strong>Our Mission:</strong> Democratizing access to personalized learning. We don’t believe that AI will replace educators. Instead, we empower them to design and deliver personalized learning experiences at scale.</li>
+<li><strong>Our Growth:</strong> We've raised pre-seed funding and are growing rapidly. While we focus on higher and further education today, we're already expanding into new regions and markets.</li>
+<li><strong>Our Culture:</strong> We’re a young, driven team passionate about tackling the toughest challenges in education. We embrace builder culture and minimize scheduled meetings for ad-hoc discussions and maximized focus on coding and creating.</li>
+</ul>
+<p><strong>Meet the Team</strong></p>
+<ul>
+<li><a href="https://www.linkedin.com/in/antongyin/"><strong>Antong</strong></a> <strong>(CEO):</strong> BCG, BMW &#x26; Antler background, leads business strategy, DJ by night</li>
+<li><a href="https://www.linkedin.com/in/jan-tiegges/"><strong>Jan</strong></a> <strong>(CTO):</strong> NLP research, experience from SAP &#x26; N26, morning bike commuter</li>
+<li><a href="https://www.linkedin.com/in/paulstefanherman/"><strong>Paul</strong></a> <strong>(CPO):</strong> Product expert with startup and education research background, devoted dog dad</li>
+<li><a href="https://www.linkedin.com/in/emile-courthoud/"><strong>Emile</strong></a> <strong>(Fullstack):</strong> Ex-founder with product &#x26; AI background, ETH graduate, avid runner</li>
+<li><a href="https://www.linkedin.com/in/muhammadanasafzal/"><strong>Anas</strong></a> <strong>(Fullstack):</strong> TypeScript specialist, functional programming enthusiast, chief photography officer</li>
+<li><a href="https://www.linkedin.com/in/rohit-kumar-saini/"><strong>Rohit</strong></a> <strong>(Fullstack):</strong> Specialist in modern large-scale web architecture, escape room explorer</li>
+<li><a href="https://www.linkedin.com/in/ammarkhalid123/"><strong>Ammar</strong></a> <strong>(Fullstack):</strong> Ex‑founder with webdev and blockchain experience, a learning violinist</li>
+<li><a href="https://www.linkedin.com/in/hanna-gr%C3%B6nlund/"><strong>Hanna</strong></a> <strong>(Marketing):</strong> Social media &#x26; creative design, Scandinavian sports enthusiast turned Berlin city girl</li>
+</ul>
+<h2>Tasks</h2>
+<p><strong>What You'll Do Here</strong></p>
+<p>Your day-to-day will lean into your personal strengths and interests, spanning both product development and technical infrastructure. Because you're coming in as part of the core team, you'll directly influence our big-picture strategy, product roadmap, and technical architecture.</p>
+<p><strong>Product Development:</strong></p>
+<ul>
+<li>Work closely with Paul and Emile to launch new features and refine our existing ones</li>
+<li>Translate real user feedback into tangible product improvements</li>
+</ul>
+<p><strong>Technical Leadership:</strong></p>
+<ul>
+<li>Ensure our systems stay scalable and stable as more users join</li>
+<li>Constantly update our AI toolchains so we're always leveraging the latest AI advancements</li>
+<li>Develop on a modern tech foundation running mostly on Google Cloud and Cloudflare</li>
+</ul>
+<p><strong>Examples of past projects to give you a sense of the work:</strong></p>
+<ul>
+<li><strong>A Duolingo-style daily quiz system</strong> that helps keep students actively learning their university course material</li>
+<li><strong>Advanced AI pipelines</strong> built to extract images and text from various documents and embed them into knowledge graphs</li>
+<li><strong>A custom authorization engine</strong> structured to handle the growing complexity of varied institutional setups</li>
+</ul>
+<p><strong>Tech Stack:</strong></p>
+<ul>
+<li><strong>Frontend:</strong> TypeScript, Next.js, Tailwind CSS</li>
+<li><strong>Database:</strong> Supabase (PostgreSQL)</li>
+<li><strong>Infrastructure:</strong> Cloudflare (Workers, Pages, Workflows, R2, KV), Google Cloud (Gemini, Cloud Run)</li>
+<li><strong>Tools:</strong> Sentry, Langfuse, PostHog, Stripe</li>
+</ul>
+<p>Don't worry if you aren't an expert in every technology listed here on day one. We trust your ability to get up to speed fast and learn new tools and frameworks on the job.</p>
+<h2>Requirements</h2>
+<p><strong>What We're Looking For</strong></p>
+<ul>
+<li><strong>Ownership mindset:</strong> You think like a founder and treat the product like it’s yours</li>
+<li><strong>Commitment to excellence:</strong> You’re driven to go above and beyond when it matters</li>
+<li><strong>Curiosity and adaptability:</strong> Eager to learn new technologies and stay open to innovation</li>
+<li><strong>Balanced AI approach:</strong> You knew how to code before Cursor and AI tools, but understand how to leverage them effectively</li>
+</ul>
+<h2>Benefits</h2>
+<p><strong>Benefits</strong></p>
+<ul>
+<li>Working in a small but driven team built around performance and learning</li>
+<li>Flexible environment with high degree of autonomy</li>
+<li>Frequent team events and acemate parties! 🥳</li>
+</ul>
+<p>Find more <a href="https://www.arbeitnow.com/english-speaking-jobs">English Speaking Jobs in Germany</a> on Arbeitnow</a>

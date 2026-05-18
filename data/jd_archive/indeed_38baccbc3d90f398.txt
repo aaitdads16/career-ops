@@ -1,0 +1,29 @@
+Exabeam is the leader in behaviour intelligence for the agentic enterprise. As organisations deploy digital workers and confront machine\-speed adversaries, Exabeam delivers flexible, industry\-proven solutions for insider threat coverage of humans and agents and faster, more accurate threat detection, investigation, and response (TDIR).
+
+
+Learn more at **www.exabeam.com**. ***Exabeam: Stop Insider Threats. Human or AI.***
+We are seeking a Technical Support Engineer Intern to help customers successfully operate Exabeam’s cutting\-edge security solutions.
+
+In this customer\-facing role, you will provide hands\-on technical troubleshooting, own support cases from intake to resolution, and collaborate with senior engineers and Engineering/Product teams to resolve complex issues. This role offers strong opportunities to build technical depth, expand responsibility, and grow your career within a global Support organisation.
+**Responsibilities*** Provide technical troubleshooting and resolution for customer issues across Exabeam’s on\-premise and cloud\-native security platforms
+* Support cases, including investigation, documentation, customer communication, and follow\-through to resolution.
+* Analyse logs, configurations, and system behaviour to identify root causes and recommend solutions or workarounds.
+* Communicate clearly and professionally with customers, providing timely updates and managing expectations.
+* Escalate issues appropriately to senior engineers or Engineering teams with clear summaries and supporting evidence.
+* Contribute to internal knowledge bases and documentation to improve team efficiency and consistency.
+**Preferred Qualifications**  
+
+* Willingness to learn and support both on\-premise and cloud\-native architectures.
+* Troubleshooting fundamentals and a structured, methodical approach to problem\-solving.
+* Good written and verbal communication skills, with the ability to explain technical issues clearly.
+* Exposure to security platforms (SIEM, UEBA, SOAR) or adjacent areas such as logging, monitoring, or observability.
+* Familiarity with Linux or Windows fundamentals, networking basics, and log analysis.
+**Location \& Work Model**
+Hybrid (UK) — a combination of remote work and onsite collaboration at our Maidenhead area office.
+
+Bring your Whole Self to Work!  
+
+Diversity, equity, and inclusion are at the core of who we are. At Exabeam, we know that diverse perspectives spark innovation, improve creativity, and position our team for success. Creating a culture where all are welcomed, valued, and empowered to achieve their full potential is important to who we are today and in the future. We hire the best of the best and do not discriminate based on race, gender, age, religion, sexual orientation, identity, or other personal factors.
+
+
+Exabeam is proud to be an equal opportunity employer. We are committed to equal opportunity regardless of race, color, ancestry, religion, gender, gender identity, genetic information, paren

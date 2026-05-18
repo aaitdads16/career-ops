@@ -1,0 +1,53 @@
+As a leading financial services and healthcare technology company based on revenue, SS\&C is headquartered in Windsor, Connecticut, and has 27,000\+ employees in 35 countries. Some 20,000 financial services and healthcare organizations, from the world's largest companies to small and mid\-market firms, rely on SS\&C for expertise, scale, and technology.
+
+
+**Job Description**
+
+Job Title
+  
+
+Summer Internship – Machine Learning
+
+
+Location: London \| Hybrid
+
+
+Get To Know Us:
+  
+
+SS\&C is a global provider of investment and financial software\-enabled services and software for the financial services and healthcare industries. Named to Fortune’s Fintech 50 list, SS\&C is headquartered in Windsor, Connecticut, and has more than 27,000 employees in 35 countries. Some 20,000 financial services and healthcare organizations, from the world’s largest companies to small and mid\-market firms, rely on SS\&C for expertise, scale, and technology.
+
+
+Our Fund Services business delivers innovative solutions to investment managers and financial institutions globally. This internship offers an exciting opportunity to work alongside experienced software engineers and machine learning specialists on enterprise\-scale applications supporting the financial services industry.
+
+
+Why You Will Love It Here!
+  
+
+* Flexibility: Hybrid Work Model
+* Your Future: Professional Development Reimbursement including access to SS\&C University
+* Work/Life Balance: Competitive holiday scheme
+* Your Wellbeing: Competitive benefits designed to support the wellbeing of our staff
+* Diversity \& Inclusion: Committed to Welcoming, Celebrating and Thriving on Diversity
+* Training: Hands\-On, Team\-Customised throughout your career
+What You Will Get To Do:
+  
+
+* Support the development and deployment of machine learning solutions within the Fund Services business
+* Build and enhance software applications and machine learning pipelines using Python
+* Work with supervised and unsupervised machine learning techniques to solve business challenges
+* Assist in the design, testing, and optimisation of machine learning models and neural networks
+* Collaborate with global development teams within a distributed working environment
+* Work with modern technologies including Docker, databases, CI/CD pipelines, and frontend tools
+* Participate in technical discussions, code reviews, and continuous improvement initiatives
+What You Will Bring:
+  
+
+* Currently studying towards a Bachelor’s Degree in Computer Science or a related field
+* Experience using Python for systems or software development
+* Strong knowledge of statistics, probability, and machine learning concepts
+* Understanding of supervised and unsupervised statistical techniques including regression, clustering, and dimensionality reduction
+* Strong knowledge of neural networks and machine learning methodologies
+* Strong analytical and problem\-solving skills
+* Ability to work effectively within a distributed global team
+* Drive, curiosity, and pass

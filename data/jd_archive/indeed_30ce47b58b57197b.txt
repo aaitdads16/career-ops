@@ -1,0 +1,17 @@
+Why choose between doing meaningful work and having a fulfilling life? At MITRE, you can have both. That's because MITRE people are committed to tackling our nation's toughest challenges—and we're committed to the long\-term well\-being of our employees. MITRE is different from most technology companies. We are a not\-for\-profit corporation chartered to work for the public interest, with no commercial conflicts to influence what we do. The R\&D centers we operate for the government create lasting impact in fields as diverse as cybersecurity, healthcare, aviation, defense, and enterprise transformation. We're making a difference every day—working for a safer, healthier, and more secure nation and world. Our workplace reflects our values. We offer competitive benefits, exceptional professional development opportunities for career growth, and a culture of innovation that embraces adaptability, collaboration, technical excellence, and people in partnership. If this sounds like the choice you want to make, then choose MITRE \- and make a difference with us.
+The Autonomous and Intelligent Systems Department works to enable effective and safe adoption of embodied AI solutions for the most critical challenges. Our technical team of experts, developers, and strategists are helping to realize the benefits autonomy will bring across various sectors including defense, healthcare, transportation, and law enforcement. We bring our unique and unbiased understanding of missions, the innovation landscape, and technology to focus in areas where industry is not incentivized or able to operate to bring insights and solutions to MITRE’s sponsors and partners.
+
+**Roles \& Responsibilities:**
+
+* Maintain knowledge of advances of autonomy and robotics capabilities
+* Leverage technical expertise to evaluate and improve AI/Autonomy system performance
+* Provide thought leadership centered around autonomy/AI technology adoption on robotics hardware and cloud\-based computing environments
+* Evaluate autonomy or AI solutions and provide guidance to sponsors based on their requirements
+* Work on topics in robotics\-relevant fields, such as computer vision, deep learning, machine learning, planning, human machine teaming, and multi\-robot systems
+* Build capabilities in one of more growth area for Autonomous Systems (e.g., maritime autonomy, healthcare robotics, space robotics)
+* Help department and division execute strategy around enabling high\-consequence applications of Autonomy, including necessary assurance, T\&E, and societal implications
+
+**Basic Qualifications:**
+
+* Typically requires a Bachelor’s degree and a minimum of 2 years of autonomy and AI experience; or an advanced degree with relevant experience who can immediately contribute at this job step; or equivalent combination of autonomy \-related education and work experience
+* Hands\-on experience with one or more of the following technical areas: computer vision, deep learning, machine learning, control theory,
