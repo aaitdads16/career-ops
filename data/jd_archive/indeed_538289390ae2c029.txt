@@ -1,0 +1,27 @@
+PlusAI is a Physical AI company pioneering AI\-based virtual driver software for factory\-built autonomous trucks. Headquartered in Silicon Valley with operations in the United States and Europe, Plus was named by Fast Company as one of the World’s Most Innovative Companies. Partners including TRATON GROUP’s Scania, MAN, and International brands, Hyundai Motor Company, Iveco Group, Bosch, and DSV are working with Plus to accelerate the deployment of next\-generation autonomous trucks. If you’re ready to make a huge impact and drive the future of autonomy, Plus is looking for talented individuals to join its fast\-growing teams.  
+
+We are seeking a Software Engineer Intern to join our team and contribute to the development of externally shareable metrics dashboards. This project aims to:
+* Optimize existing image/video search indexing to make it really efficient/cost effective to run.
+* Enhance both image/video search with an iterative search feature so we can based on previous rounds of iteration to accurately collect positive/negative signals and greatly improve search results.
+* Improve Image/video search indexing sampling strategy so that it will do a smart sample based on different factors like important predefined events, geo location, surrounding environment, etc.  
+
+Area of work: Infrastructure, Machine Learning
+
+
+### **Responsibilities:**
+
+* Optimize Search Infrastructure: Analyze and refactor existing image and video search indexing pipelines to maximize computational efficiency and minimize operational costs.
+* Build Iterative Search Features: Design and implement a feedback\-loop mechanism that captures positive and negative signals from previous search rounds to dynamically refine and improve search accuracy.
+* Develop Smart Sampling Strategies: Overhaul the indexing sampling strategy to intelligently select data based on contextual factors such as predefined critical events, geographic location, and surrounding environmental conditions.
+* Cross\-Domain Collaboration: Bridge the gap between machine learning models and backend infrastructure to ensure search systems are both highly accurate and horizontally scalable.
+
+### **Required Skills:**
+
+* Machine Learning Fundamentals: Solid understanding of ML concepts, particularly in areas related to search relevance, ranking algorithms, or information retrieval.
+* Infrastructure \& Backend Development: Strong programming proficiency (e.g., Python, C\+\+, Go, or Java) with a focus on building, scaling, and maintaining robust backend infrastructure.
+* Algorithm Optimization: Demonstrated ability to analyze code, system architecture, and data pipelines to improve execution speed and resource efficiency.
+* Working with Large Datasets: Experience handling and processing high volumes of data, particularly unstructured formats like image and video files.
+
+### **Preferred Skills:**
+
+* Computer Vision Experience: Familiarity with image and video processing techniques, feature extraction, or working w

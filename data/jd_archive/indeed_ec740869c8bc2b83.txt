@@ -1,0 +1,28 @@
+Today, NVIDIA is tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self\-driving cars that can understand the world. Doing what’s never been done before takes vision, innovation, and the world’s best talent. As an NVIDIAN, you’ll be immersed in a diverse, encouraging environment where everyone is inspired to do their best work. Come join the team and see how we can make a lasting impact on the world.
+
+
+We are looking for a Quantum Research Scientist Intern to develop automated high\-performance quantum error correcting code discovery pipelines. NVIDIA is deeply invested in the future of quantum computing, building the accelerated platforms (cuQuantum, CUDA\-Q, and Ising) that researchers around the world rely on to design, simulate, and scale quantum systems. On this team, you will help build internal IP at the intersection of quantum code design and AI\-driven automation, prototyping large scale protocols to computationally discover and ultimately design high\-performance quantum error correcting codes for realistic quantum systems.
+
+**What you'll be doing:**
+
+* Developing automated quantum error correcting code discovery protocols and pipelines.
+* Using AI and automation to identify novel quantum error correcting codes that achieve high\-performance across encoding rate, error suppression, and system realizability.
+* Integrating various classical machine learning methods for identifying high\-performance code constructions, as well as building bespoke machine learning models tailored to high\-performance code design.
+* Building out methods to identify high\-performance error correcting codes that directly incorporate hardware constraints of various types of physical systems
+* Analyzing and evaluating the performance of fault\-tolerant circuits implementing quantum error correcting logic and memory using analysis and simulation tools.
+
+**What we need to see:**
+
+* Pursuing a Bachelor's, Master's, or PhD in Physics, Electrical/Computer Engineering, Computer Science, or a related field.
+* Proficiency in Python and background in quantum computing fundamentals, especially superconducting qubits and circuit QED.
+* Familiarity with, or ability to quickly ramp up on, standard quantum superconducting qubit chip design software.
+* Exposure to electromagnetic simulation tools such as Ansys HFSS, Palace, or comparable solvers.
+* Good teamwork, communication, and documentation skills.
+
+**Ways to stand out from the crowd:**
+
+* Hands\-on experience with tensor network, state vector, or quantum error correction methods for quantum circuit simulation.
+* Experience building agentic or LLM\-driven workflows for scientific automation and tool orchestration.
+* GPU\-accelerated simulation experience with cuQuantum, CUDA\-Q, or related NVIDIA quantum software.
+* Familiarity with classical machine learning methods.
+* Publications in quantum computing or applied physics ve

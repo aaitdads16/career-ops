@@ -1,0 +1,35 @@
+**Overview**   
+We are seeking a highly skilled Data Analyst to join our dynamic team. The successful candidate will be responsible for analysing complex data sets, developing insights, and supporting data\-driven decision\-making processes. This role offers an excellent opportunity to work with cutting\-edge technologies and contribute to innovative projects across various sectors. The position is paid and suitable for both experienced professionals and interns eager to develop their expertise in data analysis and machine learning.
+
+**Responsibilities**
+
+* Collect, clean, and interpret large datasets from diverse sources using tools such as SQL, Python, R, and SAS.
+* Develop and implement data models and algorithms to identify trends, patterns, and anomalies within big data environments.
+* Utilise machine learning frameworks like TensorFlow and Spark to build predictive models and optimise processes.
+* Design and maintain relational databases ensuring efficient data storage and retrieval through effective database design principles.
+* Conduct data mining activities to extract valuable insights that support strategic business decisions.
+* Apply natural language processing techniques for analysing unstructured text data in projects involving AI and language understanding.
+* Collaborate with cross\-functional teams to translate business requirements into technical specifications.
+* Document methodologies, findings, and recommendations clearly for stakeholders at all levels.
+
+**Skills**
+
+* Proficiency in programming languages such as Python, R, Java, C, Bash (Unix shell), and VBA.
+* Strong understanding of big data technologies including Hadoop, Spark, and SQL databases.
+* Experience with cloud platforms like AWS for deploying scalable data solutions.
+* Knowledge of machine learning frameworks such as TensorFlow for developing AI models.
+* Expertise in database design principles to optimise data architecture.
+* Familiarity with data mining techniques and statistical analysis methods using SAS or R.
+* Understanding of natural language processing applications within AI projects.
+* Ability to work with large datasets (big data) efficiently in a fast\-paced environment.
+* Excellent analytical thinking skills combined with strong problem\-solving abilities. This role is ideal for individuals passionate about harnessing the power of data to drive innovation and strategic growth within a collaborative team environment.
+
+Pay: £24,500\.00\-£35,050\.00 per year
+
+Benefits:
+
+* Employee mentoring programme
+* Free parking
+* Sick pay
+
+Work Location: In person

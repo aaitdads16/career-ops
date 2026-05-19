@@ -1,0 +1,40 @@
+The Regulatory Affairs Department supports ResMed’s compliance with global regulatory frameworks across the product lifecycle.
+  
+
+This role will focus on supporting **regulatory data digitization, bulk data preparation, and operational automation** , enabling improved traceability, efficiency, and data quality across regulatory systems while operating within a regulated medical device environment  
+
+
+
+  
+
+  
+
+**Let’s talk about Responsibilities**
+
+* Support regulatory digitization initiatives, including structuring, cleaning, and preparing regulatory data for system uploads and reporting.
+* Use data manipulation tools (e.g. Excel, Power Query, SQL, Copilot agents) to prepare bulk regulatory datasets for submission, registration, or analysis.
+* Assist with data validation, reconciliation, and quality checks to ensure accuracy and completeness of regulatory information.
+* Support the development and maintenance of dashboards, trackers, and digital tools to improve regulatory visibility and operational efficiency.
+Help document digital workflows, data standards, and process improvements related to regulatory operations.  
+* 
+
+  
+
+**Let’s talk about Qualifications and Experience**  
+
+  
+
+**Required:**
+
+* Currently studying toward a **Bachelor’s, or Master’s degree** in Engineering, Data Science,Biomedical Science, or a related technical discipline.
+* Exposure to **data manipulation tools** used for bulk data handling (e.g. Excel, Power Query, SQL, Python, R, or similar).
+* Strong attention to detail and ability to work with **structured and unstructured data** in a regulated environment.
+* Interest in **medical devices, regulatory affairs, quality systems, or compliance‑driven data processes** .
+
+  
+
+**Preferred:**
+
+* Interest in automation, dashboards, or AI‑enabled tools applied to regulated business processes.
+
+Joining us is more than saying “yes” to making the world a healthier place. It’s discovering a career that’s challenging, supportive and inspiring. Where a culture driven by excellence helps you not only meet your goals, but also create new ones. We focus on creating a diverse and inclusive culture, encouraging individual expression in the workplace and thrive on the innovative ideas this generates. If this sounds like the workplace for you, apply now! We commit to respond to every applicant.

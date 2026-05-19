@@ -1,0 +1,109 @@
+ID: 58715
+1 Opening
+Santa Clara  
+
+
+### **Role description**
+
+
+**AI Integration Engineer**
+
+
+**Associate I \- Data Science**
+
+  
+
+
+**Who We Are:**
+
+
+
+Born digital, UST transforms lives through the power of technology. We walk alongside our clients and partners, embedding innovation and agility into everything they do. We help them create transformative experiences and human\-centered solutions for a better world.
+
+
+
+UST is a mission\-driven group of 29,000\+ practical problem solvers and creative thinkers in more than 30 countries. Our entrepreneurial teams are empowered to innovate, act nimbly, and create a lasting and sustainable impact for our clients, their customers, and the communities in which we live.
+
+
+
+With us, you’ll create a boundless impact that transforms your career—and the lives of people across the world.
+
+
+
+Visit us at UST.com.
+
+  
+
+
+**You Are:**
+
+
+
+UST is seeking for a motivated and enthusiastic Intern to join our Data \& AI team. The candidate will work on next\-generation AI solutions involving Agentic AI systems, Machine Learning, Generative AI, Computer Vision, Data Science, and Python\-based development.
+
+  
+
+**The opportunity:**
+
+
+* Assist in developing AI/ML, Generative AI, Agentic AI, Data Science, and Computer Vision solutions using Python\-based technologies and frameworks.
+
+
+* Support development and testing of autonomous AI agents, LLM workflows, prompt engineering, Retrieval\-Augmented Generation (RAG), and multi\-agent orchestration systems.
+
+
+* Collect, clean, preprocess, and analyze structured and unstructured datasets to generate actionable insights and support AI model development.
+
+
+* Perform exploratory data analysis (EDA), statistical analysis, visualization, and feature engineering using Python libraries such as Pandas and NumPy.
+
+
+* Build, train, validate, and optimize Machine Learning and Deep Learning models for predictive analytics, NLP, recommendation systems, and intelligent automation use cases.
+
+
+* Develop Python scripts, APIs, automation workflows, and reusable modules for AI applications, data processing, and enterprise integrations.
+
+  
+
+
+
+This position description identifies the responsibilities and tasks typically associated with the performance of the position. Other relevant essential functions may be required.
+
+  
+
+
+
+**What you** **need****:**
+
+
+* Basic understanding of Python programming.
+
+
+* Knowledge of Machine Learning and AI fundamentals.
+
+
+* Familiarity with Data Science concepts and visualization techniques.
+
+
+* Understanding of Generative AI and Large Language Models.
+
+
+* Exposure to TensorFlow, PyTorch, Scikit\-learn, or OpenCV is preferred.
+
+
+* Knowledge of SQL and data handling concepts.
+
+
+* Strong analytical and problem\-solving skills.
+
+
+* Good communication and teamwork abilities.
+
+
+* Desired Skills:
+
+
+* Strong foundation in Python programming, Data Science, AI/ML, Generative AI, and basic Computer Vision concepts.
+
+
+* Familiarity with AI/ML frameworks and tools such as Pandas

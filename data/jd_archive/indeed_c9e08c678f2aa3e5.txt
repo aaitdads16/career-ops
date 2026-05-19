@@ -1,0 +1,22 @@
+PlusAI is a Physical AI company pioneering AI\-based virtual driver software for factory\-built autonomous trucks. Headquartered in Silicon Valley with operations in the United States and Europe, Plus was named by Fast Company as one of the World’s Most Innovative Companies. Partners including TRATON GROUP’s Scania, MAN, and International brands, Hyundai Motor Company, Iveco Group, Bosch, and DSV are working with Plus to accelerate the deployment of next\-generation autonomous trucks. If you’re ready to make a huge impact and drive the future of autonomy, Plus is looking for talented individuals to join its fast\-growing teams.  
+
+Ready to get hands\-on with real\-world, large\-scale data challenges? We’re seeking a Software Engineer Intern to help build and improve an event mining framework used for uncovering key insights in massive datasets. In this internship, you will work with our dynamic team to scale our systems, harness the power of the cloud, and leverage Spark to make our data processing pipelines faster and more efficient.
+Expect to dive into distributed computing, and cloud technologies while closely collaborating with experienced engineers. You’ll have the chance to see your work directly impact a high\-growth environment, all while learning best practices in modern data engineering.
+### **Responsibilities:**
+
+* Design and Implement Monitoring Systems: Build out and maintain continuous automated monitoring pipelines for crucial system performance characteristics, including node start times, system\-critical code sections, and end\-to\-end latency metrics.
+* CI/CD Integration: Integrate performance tracking into release branch Continuous Integration (CI) environments and build on\-demand testing capabilities for GitHub/GitLab Pull Requests.
+* Automate Alerting: Develop mechanisms to automatically detect, flag, and escalate performance outliers and regressions in real\-time.
+* Data Visualization \& Trend Analysis: Create systems or dashboards to track and visualize overall performance trends based on specific variables such as workload and geographic location.
+* Bridge the Gap: Transition the team from manual, "human\-eye" performance checks to a fully automated data pipeline that makes the best use of both production and release candidate CI data.
+
+### **Required Skills:**
+
+* Python Proficiency: Strong, hands\-on programming experience with Python for backend development and automation.
+* Backend \& Infrastructure Fundamentals: Solid understanding of backend software development principles, data structures, and system architecture.
+* CI/CD Knowledge: Foundational understanding of Continuous Integration workflows, version control (Git), and automated testing principles.
+* Analytical Mindset: Strong problem\-solving skills with a keen interest in analyzing system metrics, identifying bottlenecks, and working with data infrastructure.
+
+### **Preferred Skills:**
+
+* JavaScript Experience: Basic knowledge of or hands\-on experience with Ja

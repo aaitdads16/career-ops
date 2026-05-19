@@ -1,0 +1,40 @@
+<p>Du möchtest Künstliche Intelligenz nicht nur einsetzen, sondern systematisch in eine etablierte Agentur integrieren?<br>
+Du interessierst dich für Automation, neue Tools und die Frage, wie KI echte Prozesse verbessern kann?</p>
+<p>Zur Unterstützung unseres Teams suchen wir ab sofort einen <strong>Werkstudent KI &#x26; Automation (m/w/d)</strong>.</p>
+<p>Wir sind Experten für die Vermarktung juristischer Beratung und unterstützen Kanzleien und Rechtsanwälte in allen Aktivitäten rund um Marketing und Business Development. Wir wachsen kontinuierlich – und möchten KI gezielt nutzen, um unsere internen Prozesse und unsere Arbeit für unsere Kunden noch besser zu machen.</p>
+<h2>Aufgaben</h2>
+<p>Du übernimmst eine zentrale Rolle beim Aufbau unserer KI- und Automationsinfrastruktur:</p>
+<ul>
+<li>Du entwickelst Automationen in n8n und vergleichbaren Tools – beispielsweise für Content-Workflows oder Recherche-Prozesse unserer Kunden.</li>
+<li>Du evaluierst neue KI-Modelle und Anwendungen und prüfst gemeinsam mit uns, welche sich produktiv einsetzen lassen.</li>
+<li>Du identifizierst Stellen in unseren Abläufen, an denen KI sinnvoll Mehrwert schaffen kann, und setzt entsprechende Lösungen um.</li>
+<li>Du arbeitest eng mit der Geschäftsführung und den Team-Leads zusammen. Du hast kurze Wege, klare Verantwortung und Gestaltungsspielraum von Anfang an.</li>
+</ul>
+<h2>Qualifikation</h2>
+<ul>
+<li>Du studierst Informatik, Wirtschaftsinformatik, BWL mit technischem Schwerpunkt oder einen vergleichbaren Studiengang.</li>
+<li>Du hast bereits eigene Erfahrung mit KI-Tools – idealerweise belegt durch konkrete Projekte, etwa einen selbst entwickelten Workflow mit GPT oder Claude, ein eigenes Side-Project oder eine produktive Automation in n8n, Make oä.</li>
+<li>Du arbeitest strukturiert, eigenverantwortlich und gehst analytisch an Problemstellungen heran.</li>
+<li>Du verfolgst aktuelle Entwicklungen im KI-Umfeld mit echtem Interesse.</li>
+<li>Du gehst sorgfältig und diskret mit sensiblen Daten um – ein Verständnis für Datenschutz und Vertraulichkeit ist in unserem Kundenumfeld unerlässlich.</li>
+</ul>
+<p>Wünschenswert, aber kein Muss:</p>
+<ul>
+<li>Kenntnisse in Python, JavaScript oder einer anderen Skriptsprache.</li>
+<li>Erfahrung im Umgang mit APIs (REST, Webhooks).</li>
+<li>Konversationssicheres Deutsch (intern ist auch Englisch möglich, unsere Kundenkommunikation findet jedoch auf Deutsch statt).</li>
+<li>Erste Berührungspunkte mit den Themen Marketing, Analytics oder Performance.</li>
+</ul>
+<h2>Benefits</h2>
+<p>WAS WIR BIETEN</p>
+<ul>
+<li>20 Stunden pro Woche, flexibel auf dein Studium abgestimmt.</li>
+<li>Attraktive Vergütung, abhängig von deiner Erfahrung.</li>
+<li>Ein modernes Office am Rotkreuzplatz in München</li>
+<li>Echte Verantwortung und sichtbaren Impact – deine Arbeit geht live und macht einen Unterschied.</li>
+<li>Budget für Tools, APIs und Experimente, um neue Ideen tatsächlich zu testen.</li>
+<li>Ein professionelles, kollegiales Team und eine offene Feedback-Kultur.</li>
+<li>Die Perspektive auf eine längerfristige Zusammenarbeit nach deinem Studium, sofern es für beide Seiten passt.</li>
+</ul>
+<p>Wenn Du Dich dieser Herausforderung in einem abwechslungsreichen Arbeits-umfeld stellen möchtest, dann melde Dich gerne bei uns - wir freuen uns auf Deine Nachricht!</p>
+<p>Find more <a href="https://www.arbeitnow.com/english-speaking-jobs">English Speaking Jobs in Germany</a> on Arbeitnow</a>

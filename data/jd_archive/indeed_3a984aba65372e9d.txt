@@ -1,0 +1,23 @@
+PlusAI is a Physical AI company pioneering AI\-based virtual driver software for factory\-built autonomous trucks. Headquartered in Silicon Valley with operations in the United States and Europe, Plus was named by Fast Company as one of the World’s Most Innovative Companies. Partners including TRATON GROUP’s Scania, MAN, and International brands, Hyundai Motor Company, Iveco Group, Bosch, and DSV are working with Plus to accelerate the deployment of next\-generation autonomous trucks. If you’re ready to make a huge impact and drive the future of autonomy, Plus is looking for talented individuals to join its fast\-growing teams.  
+
+We’re seeking an enthusiastic and driven Simulation Engineer Intern to join our team and work on a continuation of our previous NHTSA LLM project, this time to use large language models to automatically create realistic driving scenarios based on our own defined Operational Design Domains (ODDs). Similar concept reference: Deontic
+### **Responsibilities:**
+
+* LLM Integration: Leverage Large Language Models (LLMs) to architect and implement a pipeline that automatically generates realistic, highly structured driving scenarios.
+* Translate ODDs to Prompts: Convert complex Operational Design Domains (ODDs) and safety/NHTSA guidelines into effective prompt frameworks and programmatic constraints for the model.
+* Simulation Integration: Interface the LLM\-generated scenarios directly with the autonomous vehicle simulation environment to create executable, varied testing grounds.
+* Apply Deontic Logic: Incorporate rule\-based constraints (deontic logic) to ensure the generated scenarios strictly adhere to or properly test complex traffic laws, rights\-of\-way, and safety protocols.
+* Quality Assurance \& Iteration: Collaborate with the simulation and machine learning teams to evaluate the realism, diversity, and edge\-case coverage of the synthetic scenarios, refining the models as needed.
+
+### **Required Skills:**
+
+* Generative AI \& LLM Experience: Strong understanding of Large Language Models, including prompt engineering, API integration, and structuring LLM outputs (e.g., JSON parsing).
+* Programming Proficiency: Strong, hands\-on programming skills in Python for machine learning workflows and scripting.
+* Systems Thinking: Ability to translate abstract, real\-world concepts (like traffic rules and driving environments) into structured, programmable data and logic.
+* Problem Solving: A highly analytical mindset with a passion for tackling complex challenges at the intersection of AI and physical\-world simulation.
+
+### **Preferred Skills:**
+
+* Simulation Software: Familiarity with autonomous vehicle simulation platforms (e.g., CARLA, LGSVL, or proprietary AV simulators) and procedural generation.
+* Autonomous Driving Context: Knowledge of autonomous driving concepts, Operational Design Domains (ODDs), ADAS systems, or NHTSA safety guidelines.
+* Formal Logic/Rules Engines: Exposure to formal logic, deontic logic, or build

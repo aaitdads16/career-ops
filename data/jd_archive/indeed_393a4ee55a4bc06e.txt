@@ -1,0 +1,50 @@
+* **At SK Hynix Memory Solution,** we're at the forefront of semiconductor innovation, developing advanced memory solutions that power everything from smartphones to data centers. As a global leader in DRAM and NAND flash technologies, we drive the evolution of advancing mobile technology, empowering cloud computing, and pioneering future technologies. Our cutting\-edge memory technologies are essential in today's most advanced electronic devices and IT infrastructure, enabling enhanced performance and user experiences across the digital landscape.
+
+  
+
+
+
+We're looking for innovative minds to join our mission of shaping the future of technology. At SK Hynix Memory, you'll be part of a team that's pioneering breakthrough memory solutions while maintaining a strong commitment to sustainability. We're not just adapting to technological change – we're driving it, with significant investments in artificial intelligence, machine learning, and eco\-friendly solutions and operational practices. As we continue to expand our market presence and push the boundaries of what's possible in semiconductor technology, we invite you to be part of our journey to creating the next generation of memory solutions that will define the future of computing.
+
+  
+
+
+**Team Description:**
+
+
+
+The Systems Engineering and Quality Assurance group at SK Hynix memory solutions America (SKHMS America) is offering an internship with the Reliability System Engineering team. This role provides experience in SSD reliability validation within a collaborative engineering environment.
+
+  
+
+
+**Job Description:**
+
+
+
+SKHMS America's San Jose design center is a hub for SSD development and validation, driving next\-generation enterprise and cloud datacenter products. As part of our growing investment in enterprise SSDs, we are seeking a motivated, detail\-oriented intern to join the Reliability System Engineering team. In this role, you will support reliability validation efforts by assisting with test planning, execution, automation, and data analysis, while gaining exposure to enterprise SSD technology, validation practices, and cross\-functional teamwork in a fast\-paced environment.
+
+  
+
+
+**Responsibilities and Tasks**
+
+
+
+	+ Assist in designing and executing reliability validation test plans for enterprise SSDs
+	+ Develop and refine automation scripts (Python, Java, or similar) to improve test efficiency and data collection.
+	+ Analyze SSD log data, SMART attributes, and test results to identify anomalies and trends
+	+ Contribute to reporting of test progress, reliability findings, and validation coverage.  
+
+
+**Qualifications:**
+
+
+
+	+ Currently pursuing a BS/MS in Electrical Engineering, Computer Engineering, Computer Science, or related field.
+	+ Experience with Python or other scripting languages for test automation.
+	+ Strong analytical and problem solving skills with attention to detail.
+	+ Excellent communication skills and ability to work in a collaborative team environment.  
+
+
+**P

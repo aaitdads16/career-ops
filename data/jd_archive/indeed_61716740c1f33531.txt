@@ -1,0 +1,17 @@
+PlusAI is a Physical AI company pioneering AI\-based virtual driver software for factory\-built autonomous trucks. Headquartered in Silicon Valley with operations in the United States and Europe, Plus was named by Fast Company as one of the World’s Most Innovative Companies. Partners including TRATON GROUP’s Scania, MAN, and International brands, Hyundai Motor Company, Iveco Group, Bosch, and DSV are working with Plus to accelerate the deployment of next\-generation autonomous trucks. If you’re ready to make a huge impact and drive the future of autonomy, Plus is looking for talented individuals to join its fast\-growing teams.  
+
+We’re seeking an enthusiastic and driven Simulation/ML Engineer Intern to join our team. In this role, you’ll help build an internal AI assistant that lets employees instantly access company knowledge through natural\-language questions. Built on an open\-source large language model (like Qwen) and fine\-tuned with Plus’s internal documents, test results, and Slack data, it uses retrieval\-augmented generation (RAG) to deliver accurate answers securely within our environment. One use case is allow user to ask general questions about test performance through a chat window, and the system will retrieve related test results from bagdb, pluscene (simulation), and the WIP right\-seater database (road test), and generate natural language responses to answer questions regarding to things like passing rate, test mileages, coverage weak points, suggested test type, etc.
+### **Responsibilities:**
+
+* Build an AI Assistant: Develop and deploy an internal AI chatbot that allows employees to query company knowledge and test results using natural language.
+* Implement RAG Architecture: Design and build a secure Retrieval\-Augmented Generation (RAG) pipeline to pull contextual data from internal sources without compromising data privacy.
+* Develop Data Pipelines: Create automated pipelines to ingest, clean, and structure data from diverse sources, including internal documents, Slack conversations, and autonomous driving databases (bagdb, pluscene, and right\-seater logs).
+* Fine\-Tune Open\-Source LLMs: Work with open\-source models (such as Qwen) and fine\-tune them to accurately understand and process company\-specific terminology and AV testing metrics.
+* Generate Actionable Insights: Enable the system to synthesize complex data across simulation and road tests to answer questions about passing rates, test mileages, coverage gaps, and testing recommendations.
+
+### **Required Skills:**
+
+* Machine Learning \& NLP: Solid understanding of Large Language Models (LLMs), natural language processing, and prompt engineering.
+* Python Programming: Strong proficiency in Python for machine learning workflows, scripting, and backend system integration.
+* Data Engineering Fundamentals: Experience building data extraction, transformation, and loading (ETL) pipelines, as well as handling both structured and unstructured data.
+* Familiarity with RAG

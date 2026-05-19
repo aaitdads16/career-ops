@@ -1,0 +1,26 @@
+**About Cynapse**
+
+Cynapse is a leading AI software company specializing in enterprise\-grade Video Intelligence Solutions Powered by Generative AI, tailored to meet the unique challenges of various industries. Our vertical\-specific solutions empower organizations to enhance safety, operational efficiency, and security in complex environments such as roads, seaports, airports, and cities. By combining advanced Vision AI with Generative AI, we continually push the boundaries of video analytics, delivering insights and automation that transform operations.
+
+Led by a global team with a proven track record of scaling startups into market leaders, we foster innovation, collaboration, and diverse perspectives. Headquartered from US, Cynapse serves clients worldwide, redefining what's possible with video intelligence.
+
+**The Role**
+
+We are seeking a hands\-on **Machine Learning Engineer Intern** to join our **Model Engineering Team** with a focus on Computer Vision and modern AI. This role is designed for builders who are passionate about training deep learning models, refining architectures, and scaling real\-world vision systems.
+
+You will work closely with experienced engineers on production\-grade models, ranging from standard object detectors to cutting\-edge zero\-shot and open\-vocabulary architectures. This is an ideal role for those who enjoy running experiments, analysing model behaviour, and driving measurable performance improvements.
+
+**What You’ll Do**
+
+* **Model Training \& Fine\-Tuning:** Train, evaluate, and improve deep learning models across a variety of tasks, including classification, object detection, segmentation, and action recognition.
+* **Architecture \& AI Exploration:** Research and experiment with CNNs, Transformers, and Foundation Models. You will explore the integration of modern AI to enhance open\-vocabulary detection and zero\-shot capabilities.
+* **Failure Analysis \& Data Refinement:** Debug model failures (false positives/negatives) and implement solutions through targeted data annotation, cleaning, or improved inference strategies to ensure **model robustness**.
+* **Data \& ML Engineering:** Manage large\-scale datasets, including preprocessing and versioning, to ensure high\-fidelity and reproducible experiments.
+* **Pipeline Automation:** Contribute to the development and optimization of automated training and evaluation pipelines to improve reliability and deployment efficiency.
+
+**Who This Role Is For**
+
+* **Builders:** You prefer hands\-on engineering and practical implementation over purely theoretical research.
+* **Experimenters:** You enjoy the iterative process of testing different architectures, hyperparameters, and datasets to maximize performance.
+* **Problem Solvers:** You are curious about root causes and enjoy the "detective work" required for model debugging and data\-driven improvements.
+* **Pragmatists:** You are excited to see your models and automated systems successfully deployed in real\-world

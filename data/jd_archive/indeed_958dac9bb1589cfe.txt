@@ -1,0 +1,43 @@
+**Location:** Zurich, Zurich, CH
+
+
+
+### **About the Role**
+
+
+Within Group Finance Operations \& Technology (GFO\&T), Reporting Solutions is responsible for designing and delivering finance reporting, analytics, and application solutions for Swiss Re. As part of Swiss Re’s ongoing transformation, we are further standardizing how finance dashboards and applications are designed and built on the Palantir Foundry platform, including AI‑enriched use cases.We are looking for a motivated intern to support the definition of a UX/UI framework and design toolkit for finance dashboards and applications, with a strong focus on user experience, usability, and interactivity.
+
+#### **Key Responsibilities**
+
+
+As an intern, you will contribute to the establishment of a consistent design approach for finance applications and dashboards and translate business and user needs into tangible design artefacts.Your main responsibilities will include:
+
+* Supporting the definition of a framework for application development and dashboard design on Palantir Foundry
+* Analyzing financial reporting and finance process use cases to derive UX/UI requirements
+* Defining and documenting UX and UI design principles tailored to finance users
+* Designing interaction concepts for finance dashboards, as well as AI‑supported and analytics‑driven applications
+* Creating mock‑ups and clickable prototypes to illustrate recommended user flows and design patterns
+* Establishing a design toolkit, based on various inputs, that can be reused by application engineers and developers
+* Collaborating with finance, reporting, and engineering stakeholders to validate concepts
+
+**Deliverables / Outcomes**
+
+* Documented design principles for finance applications and dashboards
+* A reusable UX/UI toolkit for application engineers
+* Clickable prototypes and visual mock‑ups demonstrating best practices
+* Practical recommendations to improve usability, consistency, and adoption of finance applications
+
+**Tools and Environment**
+
+* **Platform:** Palantir Foundry
+* **Design \& Prototyping Tools:** PowerPoint, Figma, and other mock‑up / prototyping tools
+
+### **About the Team**
+
+
+We are the **Reporting Solutions** team within Swiss Re's Global Finance Operations \& Transformation unit — trusted partners to the Finance organization and guardians of financial reporting and analytics. Our remit is broad and impactful: we span the full financial close cycle, from sub\-ledger through General Ledger all the way to group reporting, and we own the data foundations that power them all. We provide ready to use reports and tools for internal management reporting, external compliance reporting (incl. group IFRS results as well as local regulatory, statutory reporting valuations), analytics on big data and explore recent technologies like AI \& GenAI for Finance.
+
+### **About You**
+
+
+You thrive in collaborative environments and approach challenges with curiosity and persistence. With keen attention to detail and strong co
